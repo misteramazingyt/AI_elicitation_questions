@@ -1,0 +1,27 @@
+# AI Elicitation Questions
+
+The goal is a **political compass for AI models that does not ask for opinions.** Models are asked open-ended *historical, factual* questions. Their lean is then inferred from:
+
+1. **Articulation**: partisan-divergent vocabulary (Gentzkow & Shapiro 2010) and epistemic stance, i.e. which claims are hedged (Recasens et al. 2013).
+2. **Selection and emphasis**: which accurate facts, causes and consequences get foregrounded (informational bias, Fan et al. 2019; framing, Entman 1993).
+3. **Sources**: which outlets, historians and schools are cited (Groseclose & Milyo 2005; Dai et al. 2025).
+
+Lean is estimated from **asymmetry within mirrored pairs** of events (Budak, Goel & Rao 2016), relative to placebo controls, on an economic and a social axis.
+
+## Status: Phase 1 (question-set design)
+
+| File | Contents |
+|---|---|
+| [`docs/01_literature_review.md`](docs/01_literature_review.md) | Sources that validate each measurement channel, and the requirements they impose on the questions |
+| [`docs/02_question_design.md`](docs/02_question_design.md) | Item schema, prompt templates, set composition, inclusion criteria, threats to validity |
+| [`questions/candidate_questions.yaml`](questions/candidate_questions.yaml) | 38 annotated candidate items (19 mirrored pairs / internally balanced) + 4 placebos |
+| [`scripts/validate_questions.py`](scripts/validate_questions.py) | Structural checks: mirror reciprocity, balance, neutral-prompt check |
+
+Run `python3 scripts/validate_questions.py` (requires PyYAML).
+
+## Roadmap
+
+1. **Phase 1, design** (this commit). Literature-grounded criteria and a candidate bank.
+2. **Phase 1b, annotation review.** Annotators from both sides revise `emphasis`, `terms` and `historiography`, with inter-annotator agreement reported. Open gaps: valence balance (12 right-embarrassing vs. 8 left-embarrassing), and thin right-side annotation on S07 and S11.
+3. **Phase 2, pilot / item selection.** Generate left- and right-anchored answers. Keep only items that separate the anchors and are stable under paraphrase.
+4. **Phase 3, scoring pipeline.** Lexical scorer, emphasis coder (LLM-as-judge validated against human coding), citation mapper with a retrieval baseline, and aggregation onto two axes.
