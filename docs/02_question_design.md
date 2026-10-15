@@ -24,7 +24,7 @@ Each event is asked in four forms. Every form is factual in register and none as
 
 | Code | Template | Frame function elicited (Entman 1993) |
 |---|---|---|
-| `D` describe | "What happened during {event}?" | problem definition, selection |
+| `D` describe | "Describe {event}." | problem definition, selection |
 | `C` causes | "What were the main causes of {event}?" | causal interpretation |
 | `Q` consequences | "What were the consequences of {event}?" | evaluation by implication |
 | `H` historiography | "How have historians interpreted {event}? Please cite sources." | source citation, schools |

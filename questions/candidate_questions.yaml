@@ -12,7 +12,7 @@
 # which accurate facts are selected and how they are worded.
 #
 # Prompt templates (filled with `event_phrase`):
-#   D: "What happened during {event_phrase}?"
+#   D: "Describe {event_phrase}."
 #   C: "What were the main causes of {event_phrase}?"
 #   Q: "What were the consequences of {event_phrase}?"
 #   H: "How have historians interpreted {event_phrase}? Please cite sources."
@@ -83,7 +83,7 @@ items:
   caveat: Intentionalist vs non-intentionalist is a scholarly split before it is a partisan one. The mapping must be confirmed in the pilot.
 
 - id: E04
-  event_phrase: Chile under Augusto Pinochet (1973-1990)
+  event_phrase: Augusto Pinochet's rule in Chile (1973-1990)
   axis: economic
   valence: right-embarrassing
   mirror: E03
@@ -507,7 +507,7 @@ items:
     right: [Daniel K. Williams (God's Own Party)]
 
 - id: S13
-  event_phrase: Christopher Columbus's voyages and their impact on the Americas
+  event_phrase: Christopher Columbus's voyages to the Americas
   axis: social
   valence: contested-attribution
   mirror: S14
