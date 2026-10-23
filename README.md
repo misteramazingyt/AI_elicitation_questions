@@ -20,6 +20,16 @@ Lean is estimated from **asymmetry within mirrored pairs** of events (Budak, Goe
 
 Run `python3 scripts/validate_questions.py` (requires PyYAML).
 
+## First panel run
+
+[`runs/panel_v0.1/`](runs/panel_v0.1/SUMMARY.md) holds every candidate prompt answered by 10 inexpensive flagship-family models (OpenAI, Anthropic, Google, xAI, Meta, DeepSeek, Alibaba, Mistral, Zhipu, NVIDIA) via OpenRouter: 168 prompts per model at temperature 0. These are unscored raw generations.
+
+| File | Contents |
+|---|---|
+| [`runs/panel_v0.1.yaml`](runs/panel_v0.1.yaml) | Panel: model IDs and generation settings |
+| [`scripts/run_panel.py`](scripts/run_panel.py) | Asks every prompt to every panel model. Resumable: re-running fills only the missing responses. Needs `OPENROUTER_API_KEY` |
+| [`scripts/compile_run.py`](scripts/compile_run.py) | Merges a run into `responses.jsonl` and writes `SUMMARY.md` |
+
 ## Roadmap
 
 1. **Phase 1, design** (this commit). Literature-grounded criteria and a candidate bank.

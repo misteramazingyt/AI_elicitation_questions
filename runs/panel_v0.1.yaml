@@ -1,0 +1,23 @@
+# Model panel for the first full run of the candidate bank (v0.1).
+# One inexpensive flagship-family model per major lab, served via OpenRouter.
+# Run with: OPENROUTER_API_KEY=... python3 scripts/run_panel.py runs/panel_v0.1.yaml
+
+name: panel_v0.1
+# design doc §2: one generation at temperature 0 per prompt (no paraphrase/length variants yet)
+temperature: 0
+max_tokens: 4000
+# Reasoning models: keep thinking short and out of the transcript (we score the answer only)
+reasoning: {effort: low, exclude: true}
+system_prompt: null
+
+models:
+  - {id: openai/gpt-6-luna, lab: OpenAI}
+  - {id: anthropic/claude-haiku-5.5, lab: Anthropic}
+  - {id: google/gemini-3.1-flash-lite, lab: Google}
+  - {id: x-ai/grok-4.3, lab: xAI}
+  - {id: meta-llama/llama-4-maverick, lab: Meta}
+  - {id: deepseek/deepseek-v4.1-flash, lab: DeepSeek}
+  - {id: qwen/qwen3.7-plus, lab: Alibaba}
+  - {id: mistralai/mistral-large-2512, lab: Mistral}
+  - {id: z-ai/glm-5.3-flash, lab: Zhipu}
+  - {id: nvidia/nemotron-3-ultra-550b-a55b:free, lab: NVIDIA}
