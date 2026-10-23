@@ -29,6 +29,7 @@ Run `python3 scripts/validate_questions.py` (requires PyYAML).
 | [`runs/panel_v0.1.yaml`](runs/panel_v0.1.yaml) | Panel: model IDs and generation settings |
 | [`scripts/run_panel.py`](scripts/run_panel.py) | Asks every prompt to every panel model. Resumable: re-running fills only the missing responses. Needs `OPENROUTER_API_KEY` |
 | [`scripts/compile_run.py`](scripts/compile_run.py) | Merges a run into `responses.jsonl` and writes `SUMMARY.md` |
+| [`viewer/index.html`](viewer/index.html) | Response viewer: compare all models on one prompt, or read an event beside its mirror, with the annotation's partisan terms highlighted. Build its data with `python3 scripts/build_viewer_data.py runs/panel_v0.1.yaml`, then serve the folder (`python3 -m http.server -d viewer`) |
 
 ## Roadmap
 
