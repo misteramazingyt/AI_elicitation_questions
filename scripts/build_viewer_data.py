@@ -25,8 +25,15 @@ def main() -> None:
             "text": r["response"], "finish": r["finish_reason"], "cost": u.get("cost"),
             "tokens": u.get("completion_tokens"),
         }
+    slant_path = ROOT / "runs" / cfg["name"] / "slant.json"
+    slant = json.loads(slant_path.read_text()) if slant_path.exists() else None
+    if slant:
+        r3 = lambda p: p and [round(x, 3) for x in p]
+        for key, by_clf in slant["scores"].items():
+            responses[key]["slant"] = {c: {"doc": r3(s["doc"]), "paras": [r3(p) for p in s["paras"]]} for c, s in by_clf.items()}
     data = {
         "run": cfg["name"],
+        "slant": slant and {k: slant[k] for k in ("classifiers", "labels", "min_words", "window")},
         "settings": {k: cfg[k] for k in ("temperature", "max_tokens", "reasoning", "system_prompt")},
         "templates": TEMPLATES,
         "models": cfg["models"],

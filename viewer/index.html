@@ -11,6 +11,7 @@
   --left: #1f5fd6; --left-bg: rgba(31, 95, 214, .14);
   --right: #c42b2b; --right-bg: rgba(196, 43, 43, .13);
   --warn: #9a5b00; --warn-bg: rgba(214, 140, 0, .16);
+  --mid: #dfe3e8;
   --ui: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --read: "Source Serif 4", Georgia, "Times New Roman", serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -21,6 +22,7 @@
   --left: #7aa7ff; --left-bg: rgba(122, 167, 255, .2);
   --right: #ff8a80; --right-bg: rgba(255, 138, 128, .18);
   --warn: #f0b44c; --warn-bg: rgba(240, 180, 76, .16);
+  --mid: #36404c;
   color-scheme: dark;
 } }
 :root[data-theme="dark"] {
@@ -29,9 +31,11 @@
   --left: #7aa7ff; --left-bg: rgba(122, 167, 255, .2);
   --right: #ff8a80; --right-bg: rgba(255, 138, 128, .18);
   --warn: #f0b44c; --warn-bg: rgba(240, 180, 76, .16);
+  --mid: #36404c;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body { background: var(--bg); color: var(--ink); font-family: var(--ui); font-size: 14px; line-height: 1.45; }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
 button, select, input { font: inherit; color: inherit; }
@@ -136,12 +140,65 @@ mark.hR { background: transparent; text-decoration: underline dotted var(--right
 .foot { font-size: 12px; color: var(--muted); max-width: 980px; }
 .foot code { font-family: var(--mono); }
 
+/* Slant classifiers: per-answer meter and per-paragraph margin shading */
+.slantrow { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; padding: 7px 14px; border-bottom: 1px solid var(--line); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.slantrow b { color: var(--ink); font-weight: 600; font-family: var(--mono); font-size: 12.5px; }
+.meter { display: inline-flex; gap: 2px; width: 92px; height: 8px; }
+.meter i { display: block; height: 100%; min-width: 0; }
+.meter i:first-child { border-radius: 4px 0 0 4px; } .meter i:last-child { border-radius: 0 4px 4px 0; }
+.blk { border-left: 3px solid transparent; padding-left: 10px; margin-left: -13px; }
+.shade .blk.scored { border-left-color: var(--s); background: linear-gradient(90deg, color-mix(in oklab, var(--s) 14%, transparent), transparent 60%); }
+
+.ov { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; max-width: 1100px; }
+.ov h2 { font-family: var(--read); font-size: 26px; font-weight: 600; margin: 0; }
+.ov h3 { font-size: 15px; margin: 0 0 4px; }
+.ov p { margin: 0; max-width: 72ch; }
+.ov .lede { font-size: 15px; }
+.ov .note { color: var(--muted); font-size: 13px; }
+.ov-controls { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.ov-controls .lbl { font-size: 12px; color: var(--muted); }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 9px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.stats { display: flex; flex-wrap: wrap; gap: 10px 28px; }
+.stats div { display: grid; }
+.stats b { font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.stats span { font-size: 12px; color: var(--muted); }
+.dots { display: grid; grid-template-columns: minmax(0, 150px) minmax(0, 1fr) 56px; gap: 0 12px; align-items: center; }
+.dots .nm { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-block: 7px; }
+.dots .val { font-family: var(--mono); font-size: 12px; color: var(--muted); text-align: right; }
+.track { position: relative; height: 30px; }
+.track .zero { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--muted); opacity: .5; }
+.track .grid1 { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--line); }
+.track .ci { position: absolute; top: 14px; height: 2px; background: var(--muted); opacity: .55; border-radius: 1px; }
+.track .pt { position: absolute; top: 9px; width: 12px; height: 12px; margin-left: -6px; border-radius: 50%; box-shadow: 0 0 0 2px var(--surface); }
+.axis { position: relative; height: 18px; font-size: 11px; color: var(--muted); font-family: var(--mono); }
+.axis span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+.axis span.end-l { transform: none; } .axis span.end-r { transform: translateX(-100%); }
+.heat-wrap { overflow-x: auto; }
+.heat { border-collapse: separate; border-spacing: 2px; font-size: 11px; }
+.heat th { font-weight: 500; color: var(--muted); font-family: var(--mono); padding: 0 2px; }
+.heat th.rowh { text-align: left; font-family: var(--ui); font-size: 12.5px; color: var(--ink); white-space: nowrap; padding-right: 8px; position: sticky; left: 0; background: var(--surface); z-index: 1; }
+.heat td { width: 26px; min-width: 26px; height: 24px; border-radius: 4px; cursor: pointer; }
+.heat td:hover { outline: 2px solid var(--ink); outline-offset: -1px; }
+.heat td.na { background: var(--sunk); cursor: default; }
+.heat th.gap, .heat td.gap { width: 8px; min-width: 8px; background: transparent; cursor: default; outline: none; }
+.heat .vrow th { padding-bottom: 2px; }
+.scale { display: flex; align-items: center; gap: 8px; font-size: 11px; color: var(--muted); font-family: var(--mono); flex-wrap: wrap; }
+.scale .ramp { width: 180px; height: 10px; border-radius: 5px; }
+table.tbl { border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; width: 100%; }
+.tbl th, .tbl td { padding: 6px 10px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+.tbl th:first-child, .tbl td:first-child { text-align: left; }
+.tbl th { font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.tbl-wrap { overflow-x: auto; }
+#tip { position: fixed; z-index: 20; pointer-events: none; background: var(--ink); color: var(--bg); font-size: 12px; padding: 6px 9px; border-radius: 6px; max-width: 280px; line-height: 1.4; }
+.ov ul.caveats { margin: 0; padding-left: 18px; max-width: 80ch; display: grid; gap: 4px; font-size: 13px; color: var(--muted); }
+
 @media (max-width: 860px) {
   .shell { grid-template-columns: minmax(0, 1fr); }
   .index { display: none; }
   .nav { display: flex; }
   main { padding-left: max(16px, env(safe-area-inset-left, 0px)); }
   .grid { grid-template-columns: minmax(0, 1fr); }
+  .dots { grid-template-columns: minmax(0, 104px) minmax(0, 1fr) 48px; gap: 0 8px; }
   .anno-row { grid-template-columns: minmax(0, 1fr); gap: 4px; }
 }
 @media (max-width: 700px) {
@@ -157,11 +214,15 @@ mark.hR { background: transparent; text-decoration: underline dotted var(--right
   <div class="seg" id="viewSeg" role="group" aria-label="View">
     <button id="v-compare" data-view="compare" aria-pressed="true">Compare models</button>
     <button id="v-mirror" data-view="mirror" aria-pressed="false">Mirror pair</button>
+    <button id="v-overview" data-view="overview" aria-pressed="false">Slant overview</button>
   </div>
   <div class="seg tpl" id="tplSeg" role="group" aria-label="Question form"></div>
   <label class="toggle"><input type="checkbox" id="hl" checked> Highlight terms</label>
   <label class="toggle"><input type="checkbox" id="expandAll"> Expand all</label>
+  <label class="toggle" id="clfWrap" hidden>Slant model <select id="clf"><option value="baly">Baly et al. 2020</option><option value="politics">POLITICS 2022</option></select></label>
+  <label class="toggle" id="shadeWrap" hidden><input type="checkbox" id="shade"> Shade paragraphs</label>
 </div>
+<div id="tip" hidden></div>
 
 <div class="shell">
   <nav class="index" id="index" aria-label="Events">
@@ -186,10 +247,36 @@ let D, byId = {}, matchers = {};
 const S = {
   item: null, tpl: store.get("tpl", "D"), view: store.get("view", "compare"),
   hl: store.get("hl", true), expandAll: false, hidden: new Set(store.get("hidden", [])), open: new Set(),
+  clf: store.get("clf", "baly"), shade: store.get("shade", true),
+  ovForms: store.get("ovForms", "all"), ovSet: store.get("ovSet", "scored"), ovMode: store.get("ovMode", "relative"),
 };
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const short = (id) => id.split("/")[1].replace(":free", "");
+
+// Slant classifiers (scripts/score_slant.py). slant = P(right) - P(left), from -1 (left) to +1 (right).
+const CLF = {
+  baly: { name: "Baly et al. 2020", long: "Baly et al. (EMNLP 2020) Article-Bias-Prediction, DeBERTa-v3 fine-tune", repo: "https://github.com/ramybaly/Article-Bias-Prediction" },
+  politics: { name: "POLITICS 2022", long: "POLITICS (Liu et al., Findings of NAACL 2022), left/center/right fine-tune", repo: "https://github.com/launchnlp/POLITICS" },
+};
+const hasSlant = () => !!(D && D.slant);
+const slantOf = (p) => (p ? p[2] - p[0] : null);
+const fmt = (x, d = 2) => (x == null || isNaN(x) ? "–" : (x > 0.0049 ? "+" : x < -0.0049 ? "−" : "") + Math.abs(x).toFixed(d));
+const pct = (x) => Math.round(x * 100) + "%";
+function slantColor(x, max = 1) {
+  const a = Math.round(Math.min(1, Math.abs(x) / max) * 100);
+  return `color-mix(in oklab, var(${x < 0 ? "--left" : "--right"}) ${a}%, var(--mid))`;
+}
+const mean = (xs) => (xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : null);
+function se(xs) { if (xs.length < 2) return null; const m = mean(xs); return Math.sqrt(xs.reduce((a, b) => a + (b - m) ** 2, 0) / (xs.length - 1) / xs.length); }
+function pearson(xs, ys) {
+  const mx = mean(xs), my = mean(ys); let sxy = 0, sxx = 0, syy = 0;
+  xs.forEach((x, i) => { sxy += (x - mx) * (ys[i] - my); sxx += (x - mx) ** 2; syy += (ys[i] - my) ** 2; });
+  return sxy / Math.sqrt(sxx * syy);
+}
+function meterHtml(p) {
+  return `<span class="meter" aria-hidden="true"><i style="flex:${p[0]};background:var(--left)"></i><i style="flex:${p[1]};background:var(--mid)"></i><i style="flex:${p[2]};background:var(--right)"></i></span>`;
+}
 
 // Pre-registered terms and historians from the item annotation, turned into regexes.
 function historianKeys(name) {
@@ -238,9 +325,14 @@ function highlight(root, m) {
   }
 }
 
-function renderAnswer(text, m) {
+function renderAnswer(text, m, paras) {
+  // Rendered block by block, split exactly as score_slant.py splits, so each block can carry its paragraph score.
   const div = document.createElement("div");
-  div.innerHTML = DOMPurify.sanitize(marked.parse(text));
+  div.innerHTML = text.trim().split(/\n\s*\n/).map((b, i) => {
+    const p = paras && paras[i];
+    const attr = p ? ` style="--s:${slantColor(slantOf(p))}" data-tip="${esc(CLF[S.clf].name)} on this paragraph: left ${pct(p[0])} · center ${pct(p[1])} · right ${pct(p[2])} (slant ${fmt(slantOf(p))})"` : "";
+    return `<div class="blk${p ? " scored" : ""}"${attr}>${DOMPurify.sanitize(marked.parse(b))}</div>`;
+  }).join("");
   highlight(div, m);
   return div.innerHTML;
 }
@@ -251,11 +343,16 @@ function card(model, itemId, tpl) {
   const el = document.createElement("article"); el.className = "card";
   if (!r) { el.innerHTML = `<header><strong>${esc(short(model.id))}</strong></header><div class="missing">No response recorded.</div>`; return el; }
   const words = r.text.trim().split(/\s+/).length, c = counts(r.text, m), scored = it.axis !== "placebo";
+  const otherClf = S.clf === "baly" ? "politics" : "baly";
+  const sl = r.slant && r.slant[S.clf], other = r.slant && r.slant[otherClf];
   el.innerHTML = `<header><strong>${esc(short(model.id))}</strong><span class="lab">${esc(model.lab)}</span>
     <span class="meta">${scored ? `<span class="cnt L" title="Left-coded terms and sources">L ${c.L}</span><span class="cnt R" title="Right-coded terms and sources">R ${c.R}</span>` : ""}
     <span>${words.toLocaleString()} words</span>${r.cost != null ? `<span>$${r.cost.toFixed(4)}</span>` : ""}
     ${r.finish === "length" ? `<span class="badge">cut off</span>` : ""}</span></header>
-    <div class="answer${S.hl ? "" : " plain"}">${renderAnswer(r.text, m)}</div>`;
+    ${sl ? `<div class="slantrow" data-tip="${esc(CLF[S.clf].long)}, whole answer: left ${pct(sl.doc[0])} · center ${pct(sl.doc[1])} · right ${pct(sl.doc[2])}">
+      <span>${esc(CLF[S.clf].name)}</span>${meterHtml(sl.doc)}<b>${fmt(slantOf(sl.doc))}</b>
+      ${other ? `<span>· ${esc(CLF[otherClf].name)} <b>${fmt(slantOf(other.doc))}</b></span>` : ""}</div>` : ""}
+    <div class="answer${S.hl ? "" : " plain"}${S.shade ? " shade" : ""}">${renderAnswer(r.text, m, sl && sl.paras)}</div>`;
   const ans = el.querySelector(".answer");
   const isOpen = () => S.expandAll || S.open.has(key);
   const more = document.createElement("button"); more.className = "more";
@@ -279,7 +376,17 @@ function annotation(it) {
 
 function visibleModels() { return D.models.filter((m) => !S.hidden.has(m.id)); }
 
+function syncToolbar() {
+  const ov = S.view === "overview";
+  $("#tplSeg").hidden = ov; $("#hl").parentElement.hidden = ov; $("#expandAll").parentElement.hidden = ov;
+  $("#clfWrap").hidden = !hasSlant(); $("#shadeWrap").hidden = !hasSlant() || ov;
+  document.querySelectorAll("#viewSeg button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === S.view)));
+  measureBar();
+}
+
 function render() {
+  syncToolbar();
+  if (S.view === "overview") return renderOverview();
   const it = byId[S.item], main = $("#main");
   const prompt = D.templates[S.tpl].replace("{e}", it.event_phrase);
   const mirror = it.mirror && it.mirror !== "internal" ? byId[it.mirror] : null;
@@ -296,6 +403,7 @@ function render() {
       <div class="models" id="modelChips"></div>
       ${it.axis !== "placebo" ? `<div class="legend"><span><mark class="tL">term</mark> left-coded term</span><span><mark class="tR">term</mark> right-coded term</span><span><mark class="hL">Name</mark> / <mark class="hR">Name</mark> source associated with left / right</span><span>Counts are raw string matches against the annotation, not scores.</span></div>` : ""}
     </section><section id="answers"></section>
+    ${hasSlant() ? `<p class="foot">Slant: <span style="color:var(--left)">●</span> left · <span style="color:var(--right)">●</span> right, from ${esc(CLF[S.clf].long)}. The bar under each model name is the whole answer (left · center · right); the coloured margin is each paragraph of ${D.slant.min_words}+ words. Hover either for the probabilities. These are classifier outputs on text they were not trained on, not validated scores.</p>` : ""}
     <p class="foot">Run <code>${esc(D.run)}</code>: temperature ${D.settings.temperature}, no system prompt, reasoning effort ${esc(D.settings.reasoning.effort)}. Keys: ← → previous and next event, 1–4 question form, m switches view.</p>`;
 
   const chips = $("#modelChips");
@@ -335,6 +443,129 @@ function render() {
   document.querySelectorAll("#viewSeg button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.view === S.view)));
 }
 
+// Slant overview: per-event means over the chosen question forms, then relative lean = model minus panel mean on the same event.
+function overviewModel() {
+  const forms = S.ovForms === "all" ? Object.keys(D.templates) : [S.ovForms];
+  const raw = {}, rel = {}, panel = {};
+  for (const m of D.models) {
+    raw[m.id] = {};
+    for (const it of D.items) {
+      const xs = forms.map((f) => D.responses[`${m.id}|${it.id}|${f}`]).filter((r) => r && r.slant && r.slant[S.clf]).map((r) => slantOf(r.slant[S.clf].doc));
+      raw[m.id][it.id] = mean(xs);
+    }
+  }
+  for (const it of D.items) panel[it.id] = mean(D.models.map((m) => raw[m.id][it.id]).filter((v) => v != null));
+  for (const m of D.models) { rel[m.id] = {}; for (const it of D.items) rel[m.id][it.id] = raw[m.id][it.id] == null ? null : raw[m.id][it.id] - panel[it.id]; }
+  const inSet = (it, set) => (set === "scored" ? it.axis !== "placebo" : it.axis === set);
+  const summary = D.models.map((m) => {
+    const vals = (set, tbl) => D.items.filter((it) => inSet(it, set)).map((it) => tbl[m.id][it.id]).filter((v) => v != null);
+    const r = vals(S.ovSet, rel);
+    return { m, lean: mean(r), err: se(r) == null ? 0 : 2 * se(r), n: r.length,
+      rawScored: mean(vals("scored", raw)), placebo: mean(vals("placebo", raw)),
+      all: mean(vals("scored", rel)), econ: mean(vals("economic", rel)), soc: mean(vals("social", rel)) };
+  });
+  return { forms, raw, rel, panel, summary };
+}
+
+function segHtml(id, opts, cur) {
+  return `<div class="seg" id="${id}" role="group">${opts.map(([v, l]) => `<button data-v="${v}" aria-pressed="${v === cur}">${l}</button>`).join("")}</div>`;
+}
+
+function renderOverview() {
+  const main = $("#main"), O = overviewModel();
+  const formLabel = S.ovForms === "all" ? "all four question forms" : `the ${TPL_NAMES[S.ovForms].toLowerCase()} form`;
+  const setLabel = { scored: "all scored events", economic: "economic-axis events", social: "social-axis events" }[S.ovSet];
+
+  // Classifier agreement over every response that both classifiers scored.
+  const xs = [], ys = [];
+  for (const r of Object.values(D.responses)) if (r.slant && r.slant.baly && r.slant.politics) { xs.push(slantOf(r.slant.baly.doc)); ys.push(slantOf(r.slant.politics.doc)); }
+  const agree = xs.length > 2 ? pearson(xs, ys) : null;
+  const scoredItems = D.items.filter((it) => it.axis !== "placebo"), placebos = D.items.filter((it) => it.axis === "placebo");
+  const panelScored = mean(scoredItems.map((it) => O.panel[it.id]).filter((v) => v != null));
+  const panelPlacebo = mean(placebos.map((it) => O.panel[it.id]).filter((v) => v != null));
+
+  // Dot plot of relative lean with +/- 2 SE across events.
+  const rows = [...O.summary].filter((s) => s.lean != null).sort((a, b) => a.lean - b.lean);
+  const ext = Math.max(0.1, ...rows.map((s) => Math.abs(s.lean) + s.err));
+  const max = Math.ceil(ext / 0.05) * 0.05, X = (v) => ((v + max) / (2 * max)) * 100;
+  const ticks = [-max, -max / 2, 0, max / 2, max];
+  const dots = rows.map((s) => `<div class="nm" title="${esc(s.m.id)}">${esc(short(s.m.id))}</div>
+    <div class="track" data-tip="${esc(short(s.m.id))}: relative lean ${fmt(s.lean, 3)} ± ${s.err.toFixed(3)} (2 SE, ${s.n} events) on ${setLabel}">
+      ${ticks.map((t) => `<span class="${t === 0 ? "zero" : "grid1"}" style="left:${X(t)}%"></span>`).join("")}
+      <span class="ci" style="left:${X(s.lean - s.err)}%;width:${X(s.lean + s.err) - X(s.lean - s.err)}%"></span>
+      <span class="pt" style="left:${X(s.lean)}%;background:${slantColor(s.lean, max)}"></span>
+    </div><div class="val">${fmt(s.lean, 3)}</div>`).join("");
+  const axis = `<div></div><div class="axis">${ticks.map((t, i) => `<span class="${i === 0 ? "end-l" : i === ticks.length - 1 ? "end-r" : ""}" style="left:${X(t)}%">${fmt(t)}</span>`).join("")}</div><div></div>
+    <div></div><div class="axis"><span class="end-l" style="left:0;color:var(--left);font-family:var(--ui)">← left of panel</span><span class="end-r" style="left:100%;color:var(--right);font-family:var(--ui)">right of panel →</span></div><div></div>`;
+
+  // Heatmap: models x events.
+  const tbl = S.ovMode === "relative" ? O.rel : O.raw;
+  const cellVals = D.models.flatMap((m) => D.items.map((it) => tbl[m.id][it.id])).filter((v) => v != null);
+  const hmax = Math.max(0.1, Math.ceil(Math.max(...cellVals.map(Math.abs)) * 10) / 10);
+  const groups = AXES.map(([axis]) => D.items.filter((it) => it.axis === axis)).filter((g) => g.length);
+  const headIds = groups.map((g) => g.map((it) => `<th data-tip="${esc(it.id)}: ${esc(it.event_phrase)}${it.valence ? " · " + esc(it.valence) : ""}">${it.id}</th>`).join("")).join(`<th class="gap"></th>`);
+  const headDots = groups.map((g) => g.map((it) => `<th><span class="dot v-${it.valence || "none"}" style="display:inline-block"></span></th>`).join("")).join(`<th class="gap"></th>`);
+  const heatRows = D.models.map((m) => `<tr><th class="rowh">${esc(short(m.id))}</th>${groups.map((g) => g.map((it) => {
+    const v = tbl[m.id][it.id];
+    if (v == null) return `<td class="na"></td>`;
+    return `<td style="background:${slantColor(v, hmax)}" data-item="${it.id}" data-tip="${esc(short(m.id))} · ${it.id} ${esc(it.event_phrase)}: ${S.ovMode === "relative" ? `${fmt(v, 3)} vs panel (model ${fmt(O.raw[m.id][it.id])}, panel ${fmt(O.panel[it.id])})` : `slant ${fmt(v)} (panel ${fmt(O.panel[it.id])})`}. Click to read the answers."></td>`;
+  }).join("")).join(`<td class="gap"></td>`)}</tr>`).join("");
+
+  const table = [...O.summary].sort((a, b) => (a.all ?? 0) - (b.all ?? 0)).map((s) => `<tr><td>${esc(short(s.m.id))}</td><td>${fmt(s.rawScored, 3)}</td><td>${fmt(s.placebo, 3)}</td><td><b>${fmt(s.all, 3)}</b></td><td>${fmt(s.econ, 3)}</td><td>${fmt(s.soc, 3)}</td></tr>`).join("");
+
+  main.innerHTML = `<section class="ov">
+    <div class="nav"><select id="itemSel" aria-label="Open an event">${D.items.map((x) => `<option value="${x.id}">${x.id}: ${esc(x.event_phrase)}</option>`).join("")}</select></div>
+    <div><h2>Slant overview</h2></div>
+    <p class="lede">Each answer was scored by a classifier trained to label news articles <span style="color:var(--left)">left</span>, center or <span style="color:var(--right)">right</span>: <a href="${CLF[S.clf].repo}" target="_blank" rel="noopener">${esc(CLF[S.clf].long)}</a>. Slant is P(right) − P(left), from −1 to +1. A topic carries its own vocabulary, so answers about the same event tend to score alike across every model. <b>Relative lean</b> removes that: a model's slant on an event minus the panel's average on the same event, averaged over events.</p>
+    <div class="ov-controls">
+      <span class="lbl">Question forms</span>${segHtml("ovForms", [["all", "All"], ...Object.keys(D.templates).map((k) => [k, k])], S.ovForms)}
+      <span class="lbl">Classifier</span>${segHtml("ovClf", Object.entries(CLF).map(([k, c]) => [k, c.name]), S.clf)}
+    </div>
+    <div class="panel"><div class="stats">
+      <div><b>${fmt(panelScored)}</b><span>Panel mean slant, scored events</span></div>
+      <div><b>${fmt(panelPlacebo)}</b><span>Panel mean slant, placebo events</span></div>
+      <div><b>${agree == null ? "–" : agree.toFixed(2)}</b><span>Agreement of the two classifiers (Pearson r, ${xs.length.toLocaleString()} answers)</span></div>
+    </div></div>
+    <div class="panel">
+      <div><h3>Relative lean by model</h3><p class="note">Mean over ${setLabel} and ${formLabel}. Whiskers are ±2 standard errors across events.</p></div>
+      <div class="ov-controls"><span class="lbl">Events</span>${segHtml("ovSet", [["scored", "All scored"], ["economic", "Economic"], ["social", "Social"]], S.ovSet)}</div>
+      <div class="dots">${dots}${axis}</div>
+    </div>
+    <div class="panel">
+      <div><h3>By event</h3><p class="note">${S.ovMode === "relative" ? "Each cell is the model's slant minus the panel mean on that event." : "Each cell is the model's raw slant on that event."} Dots above the columns mark the event's valence: <span style="color:var(--left)">●</span> flatters the left or embarrasses the right, <span style="color:var(--right)">●</span> the reverse, split for contested events. Click a cell to read the answers.</p></div>
+      <div class="ov-controls"><span class="lbl">Cells</span>${segHtml("ovMode", [["relative", "Relative to panel"], ["raw", "Raw slant"]], S.ovMode)}
+        <span class="scale">${fmt(-hmax, 1)}<span class="ramp" style="background:linear-gradient(90deg, var(--left), var(--mid), var(--right))"></span>${fmt(hmax, 1)}</span></div>
+      <div class="heat-wrap"><table class="heat"><thead><tr class="vrow"><th class="rowh"></th>${headDots}</tr><tr><th class="rowh"></th>${headIds}</tr></thead><tbody>${heatRows}</tbody></table></div>
+    </div>
+    <div class="panel">
+      <h3>Numbers</h3>
+      <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Model</th><th>Raw slant, scored</th><th>Raw slant, placebo</th><th>Relative, all scored</th><th>Relative, economic</th><th>Relative, social</th></tr></thead><tbody>${table}</tbody></table></div>
+    </div>
+    <div class="panel">
+      <h3>Read these numbers with care</h3>
+      <ul class="caveats">
+        <li>Neither classifier was trained on LLM answers or on history. Baly et al. label articles by the outlet's AllSides rating, and the weights used here were trained on a random split, which the paper shows lets models learn outlet style rather than ideology. The POLITICS fine-tune was trained on short political statements and tweets.</li>
+        <li>Answers longer than 510 tokens are scored in windows whose probabilities are averaged. Paragraph scores use only paragraphs of ${D.slant.min_words}+ words.</li>
+        <li>The two classifiers agree at r = ${agree == null ? "–" : agree.toFixed(2)}. Where they disagree, neither should be trusted alone.</li>
+        <li>These are uncalibrated outputs, not validated against human coding. The Phase 2 pilot (left- and right-anchored answers) is the check that would show whether either classifier separates slant in this kind of text.</li>
+      </ul>
+    </div>
+  </section>`;
+
+  const bind = (id, key, apply) => main.querySelectorAll(`#${id} button`).forEach((b) => (b.onclick = () => { apply(b.dataset.v); store.set(key, b.dataset.v); renderOverview(); }));
+  bind("ovForms", "ovForms", (v) => (S.ovForms = v));
+  bind("ovSet", "ovSet", (v) => (S.ovSet = v));
+  bind("ovMode", "ovMode", (v) => (S.ovMode = v));
+  bind("ovClf", "clf", (v) => { S.clf = v; $("#clf").value = v; });
+  main.querySelectorAll("td[data-item]").forEach((td) => (td.onclick = () => {
+    if (S.ovForms !== "all") { S.tpl = S.ovForms; store.set("tpl", S.tpl); }
+    setView("compare"); $("#tip").hidden = true; go(td.dataset.item);
+  }));
+  $("#itemSel").value = S.item;
+  $("#itemSel").onchange = (e) => { setView("compare"); go(e.target.value); };
+}
+
+function setView(v) { S.view = v; store.set("view", v); }
 function go(id, scroll = true) {
   if (!byId[id]) return;
   S.item = id; S.open.clear(); store.set("item", id);
@@ -355,7 +586,7 @@ function buildIndex() {
     for (const x of its) {
       const li = document.createElement("li");
       li.innerHTML = `<button data-id="${x.id}" aria-current="${x.id === S.item}" title="${esc(x.event_phrase)}${x.valence ? " · " + esc(x.valence) : ""}"><span class="iid">${x.id}</span><span class="iname">${esc(x.event_phrase)}</span><span class="dot v-${x.valence || "none"}"></span></button>`;
-      li.firstChild.onclick = () => go(x.id);
+      li.firstChild.onclick = () => { if (S.view === "overview") setView("compare"); go(x.id); };
       ul.append(li);
     }
     list.append(ul);
@@ -382,7 +613,24 @@ async function init() {
     seg.append(b);
   }
   if (!D.templates[S.tpl]) S.tpl = "D";
-  document.querySelectorAll("#viewSeg button").forEach((b) => (b.onclick = () => { S.view = b.dataset.view; store.set("view", S.view); render(); }));
+  document.querySelectorAll("#viewSeg button").forEach((b) => (b.onclick = () => { setView(b.dataset.view); render(); window.scrollTo({ top: 0 }); }));
+  if (!hasSlant() && S.view === "overview") setView("compare");
+  $("#v-overview").hidden = !hasSlant();
+  $("#clf").value = S.clf;
+  $("#clf").onchange = (e) => { S.clf = e.target.value; store.set("clf", S.clf); render(); };
+  $("#shade").checked = S.shade;
+  $("#shade").onchange = (e) => { S.shade = e.target.checked; store.set("shade", S.shade); document.querySelectorAll(".answer").forEach((a) => a.classList.toggle("shade", S.shade)); };
+  // One tooltip for every element that carries data-tip (paragraphs, meters, chart marks).
+  const tip = $("#tip");
+  document.addEventListener("pointermove", (e) => {
+    const t = e.target.closest && e.target.closest("[data-tip]");
+    if (!t) { tip.hidden = true; return; }
+    tip.textContent = t.dataset.tip; tip.hidden = false;
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    tip.style.left = Math.max(8, Math.min(innerWidth - w - 8, e.clientX + 14)) + "px";
+    tip.style.top = (e.clientY + h + 24 > innerHeight ? e.clientY - h - 12 : e.clientY + 16) + "px";
+  });
+  document.addEventListener("pointerleave", () => (tip.hidden = true));
   $("#hl").checked = S.hl;
   $("#hl").onchange = (e) => { S.hl = e.target.checked; store.set("hl", S.hl); document.querySelectorAll(".answer").forEach((a) => a.classList.toggle("plain", !S.hl)); };
   $("#expandAll").onchange = (e) => { S.expandAll = e.target.checked; S.open.clear(); render(); };
@@ -392,7 +640,7 @@ async function init() {
     if (e.key === "ArrowRight") step(1);
     else if (e.key === "ArrowLeft") step(-1);
     else if ("1234".includes(e.key) && e.key.length === 1) { S.tpl = Object.keys(D.templates)[+e.key - 1]; store.set("tpl", S.tpl); S.open.clear(); render(); }
-    else if (e.key === "m") { S.view = S.view === "compare" ? "mirror" : "compare"; store.set("view", S.view); render(); }
+    else if (e.key === "m") { const vs = hasSlant() ? ["compare", "mirror", "overview"] : ["compare", "mirror"]; setView(vs[(vs.indexOf(S.view) + 1) % vs.length]); render(); }
   });
   const hash = location.hash.slice(1).toUpperCase();
   S.item = byId[hash] ? hash : byId[store.get("item", "")] ? store.get("item") : D.items[0].id;
