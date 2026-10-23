@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "H",
+ "prompt": "How have historians interpreted the rise of the Moral Majority around 1980? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians generally agree that the Moral Majority, founded in 1979 by Jerry Falwell with organizers such as Paul Weyrich, Ed McAteer, and Howard Phillips, marked a major turn in American religious and political life. They disagree about why it emerged when it did, what motivated its followers, and how much it changed American politics. The main interpretive lines are below. Please verify the details and page numbers against the books before relying on them in academic work.\n\n**1. The abortion and pro-life explanation**\nDaniel K. Williams, *God's Own Party: The Making of the Christian Right* (Oxford University Press, 2010), argues that opposition to abortion after *Roe v. Wade* (1973) was the decisive catalyst. In his account, evangelical and Catholic pro-life activism drew religious conservatives into electoral politics, and the Moral Majority built on that grassroots base. Donald T. Critchlow, *Phyllis Schlafly and Grassroots Conservatism: A Woman's Crusade* (Princeton University Press, 2005), similarly emphasizes grassroots conservative mobilization, though with more focus on the Republican right than on evangelicals specifically.\n\n**2. The race and segregation explanation**\nRandall Balmer, *Thy Kingdom Come: How the Religious Right Distorts the Faith and Threatens America* (Basic Books, 2006), and his essay \"The Real Origins of the Religious Right\" (*Politico Magazine*, 2014), contend that the movement was rooted less in abortion or school prayer than in resistance to desegregation. He points to the controversy over the IRS's 1978 move to challenge the tax-exempt status of segregated Christian schools, including Bob Jones University, as the real trigger. Joseph Crespino, *In Search of Another Country: Mississippi and the Conservative Counterrevolution* (Princeton University Press, 2007), places religious and segregationist politics in the South within a broader conservative shift. Critics of Balmer, including Williams, argue that he underweights the pro-life dimension and the post-1973 chronology.\n\n**3. The cultural backlash and \"culture war\" interpretation**\nAndrew Hartman, *A War for the Soul of America: A History of the Culture Wars* (University of Chicago Press, 2015), frames the Moral Majority as part of a longer conflict over cultural authority, sexuality, family, and education, in which religious conservatives responded to the 1960s and 1970s. James Davison Hunter's *Culture Wars: The Struggle to Define America* (Basic Books, 1991) is the classic sociological statement of this idea, though it predates the most recent historiography.\n\n**4. Religious and discursive analysis**\nSusan Friend Harding, *The Book of Jerry Falwell: Fundamentalist Language and Politics* (Princeton University Press, 2000), reads Falwell's sermons and rhetoric closely, arguing that fundamentalist language made sense to followers in ways that secular analysts often missed. Matthew Avery Sutton, *American Apocalypse: A History of Modern Evangelicalism* (Harvard University Press, 2014), argues that apocalyptic premillennialism shaped evangelical political engagement across the twentieth century, so the Moral Majority reflected a long tradition rather than a sudden break.\n\n**5. Political-institutional and Republican coalition interpretations**\nSean Wilentz, *The Age of Reagan: A History, 1974–2008* (HarperCollins, 2008), treats the Moral Majority as one component of the Reagan coalition, emphasizing how the Republican Party drew religious voters into its base. William Martin, *With God on Our Side: The Rise of the Religious Right in America* (Broadway Books, 1996), is an early, widely cited journalistic-historical account that traces the movement's organizational development and its relationship to Republican politics. Clyde Wilcox and Carin Larson, *Onward Christian Soldiers? The Religious Right in American Politics* (Westview, 4th ed., 2006), offers a political-science perspective on its electoral influence.\n\n**6. Assessing the Moral Majority's actual power**\nA recurring theme is skepticism about the group's real impact. Its organization was relatively short-lived, and Falwell dissolved it in 1989. Several historians argue that media attention exaggerated its influence and that its success depended on existing networks, such as the Religious Roundtable and Southern Baptist and Catholic pro-life activists. Steven P. Miller, *Billy Graham and the Rise of the Republican South* (University of Pennsylvania Press, 2009), supports the broader point that evangelical political alignment was developing over decades.\n\n**Key debates to note:** Whether abortion or race was the primary motivation (Williams vs. Balmer); whether the Moral Majority was a cause or a symptom of broader change; and whether it marked a new political force or the institutionalization of existing networks. Michelle Nickerson, *Mothers of Conservatism: Women and the Postwar Right* (Princeton University Press, 2012), adds attention to women's roles, which earlier accounts often neglected.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 3423,
+  "total_tokens": 3462,
+  "cost": 0.0017154,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017154,
+   "upstream_inference_prompt_cost": 3.9e-06,
+   "upstream_inference_completions_cost": 0.0017115
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1709,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:42.084359+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

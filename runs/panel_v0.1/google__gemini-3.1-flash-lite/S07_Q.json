@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "Q",
+ "prompt": "What were the consequences of the FBI's COINTELPRO program?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The FBI’s COINTELPRO (Counter Intelligence Program) was a series of covert and often illegal projects conducted by the United States Federal Bureau of Investigation (FBI) from 1956 to 1971. Its stated goal was to \"expose, disrupt, misdirect, discredit, or otherwise neutralize\" organizations the FBI deemed subversive.\n\nThe consequences of COINTELPRO were profound, affecting the lives of individuals, the trajectory of social movements, and the relationship between the American public and their government.\n\nHere are the primary consequences of the program:\n\n### 1. Suppression of Civil Rights and Political Movements\nThe most direct consequence of COINTELPRO was the systematic destabilization of groups advocating for social and political change. The FBI targeted a wide range of organizations, including the Civil Rights Movement, the anti-Vietnam War movement, the feminist movement, the American Indian Movement (AIM), and various socialist and communist groups.\n\n*   **Internal Conflict:** The FBI used \"snitch-jacketing\" (falsely labeling activists as informants) to create paranoia and distrust within organizations. This led to internal purges, the fracturing of groups, and in some cases, violent infighting.\n*   **Assassinations and Violence:** While the FBI did not always pull the trigger, their actions created environments where violence was inevitable. For example, the FBI’s campaign against the Black Panther Party contributed to a climate that facilitated the 1969 police raid that killed Fred Hampton and Mark Clark in Chicago.\n*   **Neutralization of Leaders:** Leaders like Martin Luther King Jr. were subjected to intense harassment, including blackmail attempts (such as the infamous letter urging him to commit suicide) and wiretapping, intended to destroy their reputations and personal lives.\n\n### 2. Erosion of Constitutional Rights\nCOINTELPRO operated largely outside the bounds of the U.S. Constitution. The program relied on illegal wiretapping, burglary, forged correspondence, and the fabrication of evidence.\n\n*   **Violation of Privacy:** Thousands of Americans were subjected to illegal surveillance, including the tapping of phones and the interception of mail, without warrants or probable cause.\n*   **Chilling Effect on Free Speech:** The knowledge that the government was actively working to destroy political dissent created a \"chilling effect.\" Many citizens became afraid to join political organizations, attend protests, or express dissenting opinions, fearing they would be placed on an FBI watchlist or targeted for harassment.\n\n### 3. Institutional Distrust and Public Scandal\nThe exposure of COINTELPRO in the 1970s was a watershed moment in American history, fundamentally altering the public's perception of the FBI and the intelligence community.\n\n*   **The Church Committee:** In 1975, the U.S. Senate established the Church Committee to investigate intelligence abuses. The committee’s findings revealed the full extent of COINTELPRO, shocking the American public and confirming that the FBI had acted as a political police force rather than a neutral law enforcement agency.\n*   **Loss of Legitimacy:** The revelations severely damaged the reputation of J. Edgar Hoover, the long-time FBI Director, and the Bureau itself. It led to a widespread belief that the government was not merely protecting the country from foreign threats, but was actively working to suppress domestic political opposition.\n\n### 4. Legal and Policy Reforms\nThe fallout from COINTELPRO led to significant, albeit debated, reforms in how the U.S. government conducts domestic intelligence.\n\n*   **The Levi Guidelines:** In 1976, Attorney General Edward H. Levi issued new guidelines for the FBI. These rules restricted the Bureau’s ability to conduct investigations based solely on political beliefs and required a higher threshold of evidence of criminal activity before initiating surveillance.\n*   **Increased Oversight:** The creation of the Senate Select Committee on Intelligence and the House Permanent Select Committee on Intelligence was a direct response to the need for congressional oversight of the intelligence community.\n\n### 5. Long-Term Societal Impact\nThe legacy of COINTELPRO continues to influence American political discourse today.\n\n*   **Historical Trauma:** For many marginalized communities, particularly Black and Indigenous groups, COINTELPRO is viewed as a traumatic historical event that stunted the progress of their movements and robbed them of key leadership.\n*   **Modern Surveillance Debates:** The tactics used during COINTELPRO—such as the infiltration of protest groups and the use of informants—are frequently cited by civil liberties advocates when discussing modern surveillance programs, such as those revealed by Edward Snowden or the monitoring of groups like Black Lives Matter. It serves as a cautionary tale about the dangers of unchecked executive power.\n\n### Summary\nThe consequences of COINTELPRO were not merely administrative; they were human. The program destroyed lives, derailed political movements, and violated the fundamental rights of thousands of citizens. While it led to necessary reforms and oversight, it also left a lasting scar on the American political landscape, fostering a deep-seated skepticism toward federal law enforcement that persists to this day.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 1162,
+  "total_tokens": 1177,
+  "cost": 0.00174675,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00174675,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.001743
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 122,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:35.144216+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

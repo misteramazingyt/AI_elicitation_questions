@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "Q",
+ "prompt": "What were the consequences of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The U.S. \"War on Drugs,\" formally launched by President Nixon in 1971 (he declared drug abuse \"public enemy number one\" in 1971 and created the Drug Enforcement Administration in 1973), had far-reaching consequences that are still debated. Here are the major ones:\n\n**Mass incarceration**\n- The U.S. incarcerated people for drug offenses at dramatically higher rates. Drug arrests rose from roughly 300,000 a year in the early 1980s to over 1.5 million by the 1990s.\n- Drug offenders became a major share of the prison population, growing from a small fraction in 1980 to roughly 20% of state and federal prisoners by the 1990s (higher in federal prisons).\n- The U.S. became the world's leading jailer, with an incarceration rate far above that of other developed countries.\n\n**Mandatory minimum sentencing**\n- Laws such as the Anti-Drug Abuse Acts of 1986 and 1988 imposed long mandatory minimums, notably the 100-to-1 disparity between crack and powder cocaine penalties, which was widely criticized for its racial impact. It was reduced to 18-to-1 by the Fair Sentencing Act of 2010.\n- Judges had limited discretion, and nonviolent, low-level offenders often received lengthy sentences.\n\n**Racial disparities**\n- Although drug use rates were broadly similar across racial groups, Black Americans were arrested, prosecuted, and imprisoned for drug offenses at far higher rates.\n- Enforcement concentrated in poor urban neighborhoods, and the resulting criminal records created lasting barriers to employment, housing, voting, and education.\n\n**Family and community effects**\n- Millions of children experienced parental incarceration, disrupting family stability and increasing foster care placements in some areas.\n- Communities with heavy enforcement saw destabilization and economic harm, and the stigma of felony records persisted long after sentences ended.\n\n**Civil liberties and policing**\n- Expanded police powers, including asset forfeiture, no-knock raids, and aggressive stop-and-search tactics, raised concerns about due process and Fourth Amendment protections.\n- Militarization of police, aided by federal programs that transferred military equipment to local departments, grew in this period.\n\n**Limited effect on drug supply and use**\n- Critics argue the policy failed to meaningfully reduce drug availability or addiction. Prices for many illegal drugs fell over the period, and drug use rates did not fall consistently in line with enforcement spending.\n- Supply-side efforts, such as crop eradication and interdiction, often shifted production and trafficking rather than eliminating it.\n\n**International impacts**\n- U.S.-backed eradication and interdiction efforts in Latin America, such as Plan Colombia (launched 2000), contributed to regional violence, human rights concerns, and displacement of farmers, though supporters credit it with reducing cocaine production in some years.\n- The policy helped drive the spread of international drug-trafficking organizations and associated violence, including in Mexico in later decades.\n\n**Public health**\n- Focus on criminalization rather than treatment meant many people with substance use disorders were jailed instead of treated. Harm reduction approaches, such as needle exchanges, faced resistance, and the policy is often linked to the later HIV and hepatitis C spread among injection drug users.\n\n**Shifts in later policy**\n- Growing criticism led to reforms in the 2000s and 2010s, including sentencing reform (the First Step Act of 2018), decriminalization and legalization of cannabis in many states, and a broader shift toward treating addiction as a health issue, though enforcement and incarceration remain significant.\n\nOverall, the War on Drugs is widely regarded by historians and policy analysts as having produced substantial incarceration and social costs with mixed or limited success in its stated goal of reducing drug use and supply.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 1289,
+  "total_tokens": 1327,
+  "cost": 0.0006483,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006483,
+   "upstream_inference_prompt_cost": 3.8e-06,
+   "upstream_inference_completions_cost": 0.0006445
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:55.010027+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

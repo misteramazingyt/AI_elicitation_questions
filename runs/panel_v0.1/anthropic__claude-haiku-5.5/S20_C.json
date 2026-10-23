@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "C",
+ "prompt": "What were the main causes of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The U.S. \"War on Drugs,\" formally declared by President Richard Nixon in 1971, grew out of several overlapping causes:\n\n**1. Political and electoral strategy**\n- Nixon's administration saw drug policy as a wedge issue. Drug use had become associated with the counterculture, the antiwar movement, and Black urban communities, and \"law and order\" rhetoric helped appeal to white working- and middle-class voters, including in the South.\n- Later administrations, especially Reagan's and George H.W. Bush's, used tough-on-crime positioning to win elections and to contrast with Democratic opponents.\n\n**2. Rising drug use and public alarm**\n- Heroin use rose sharply among American soldiers returning from Vietnam and in cities during the late 1960s and early 1970s, which prompted fears of an epidemic.\n- Marijuana, LSD, and other drugs had spread widely among young people, and the 1960s saw growing cultural and political concern about them.\n- The crack cocaine epidemic of the mid-1980s intensified public fear, especially in inner cities, and produced media coverage that amplified the sense of crisis.\n\n**3. Ideological and moral framing**\n- Drug use was increasingly framed as a moral failing and a threat to social order, and the \"war\" metaphor cast it as an external enemy requiring a military-style response.\n- Some policymakers believed strict enforcement and punishment would deter use, reflecting a deterrence-based view of criminal justice.\n\n**4. Bureaucratic and institutional factors**\n- Nixon created the Drug Enforcement Administration (DEA) in 1973, consolidating federal drug enforcement, and expanded the role of federal agencies.\n- Federal funding for law enforcement, prisons, and interdiction grew substantially, creating institutional interests in continuing the campaign.\n\n**5. Legislation and escalation**\n- The Controlled Substances Act of 1970 established a classification system for drugs.\n- The Anti-Drug Abuse Acts of 1986 and 1988 introduced mandatory minimum sentences, including the notorious disparity between crack and powder cocaine sentences.\n- Reagan's administration expanded military and intelligence involvement in drug interdiction and promoted international crop eradication and source-country programs.\n\n**6. International concerns**\n- Policymakers viewed drug production and trafficking, particularly from Latin America (Mexico, Colombia, Bolivia, Peru), as a national security threat, leading to foreign aid tied to eradication and interdiction efforts.\n\n**Critiques and consequences** often discussed alongside these causes include the disproportionate impact on minority communities, mass incarceration, and debates over whether the policy effectively reduced drug use or supply. Historians and scholars differ on how much weight to give political motives versus genuine public health concerns.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 935,
+  "total_tokens": 973,
+  "cost": 0.0004713,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004713,
+   "upstream_inference_prompt_cost": 3.8e-06,
+   "upstream_inference_completions_cost": 0.0004675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:54.705528+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

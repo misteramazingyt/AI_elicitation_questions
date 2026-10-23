@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "Q",
+ "prompt": "What were the consequences of McCarthyism in the 1950s?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "McCarthyism, named after Senator Joseph McCarthy of Wisconsin, was the wave of anti-communist suspicion and accusations that swept the United States in the late 1940s and 1950s. Its consequences were far-reaching:\n\n**Damage to individuals and careers**\n- Thousands of people were investigated, and many lost jobs in government, the entertainment industry, education, journalism, and unions.\n- The Hollywood blacklist, enforced by studios and organizations such as the press, barred writers, actors, and directors suspected of communist ties. Figures like Dalton Trumbo and Lillian Hellman were affected, and some careers never recovered.\n- Teachers, professors, and public employees were fired or pressured to resign, often without clear evidence of wrongdoing.\n- Some people were imprisoned for contempt of Congress, and others faced perjury charges or deportation.\n- The \"Hollywood Ten\" and others who refused to answer questions before the House Un-American Activities Committee (HUAC) were cited for contempt and jailed.\n\n**Erosion of civil liberties and due process**\n- Guilt by association became common. Mere membership in a organization, attendance at a meeting, or a relative's politics could be enough to ruin someone.\n- Loyalty review programs, established under President Truman's 1947 executive order and expanded under Eisenhower, required federal employees to meet loyalty standards, with limited protections for the accused.\n- Accused individuals often could not confront their accusers, and hearsay and anonymous informants were frequently used.\n- The \"Fifth Amendment\" became a source of public suspicion, with people who invoked the right against self-incrimination sometimes treated as guilty.\n\n**Chilling effect on free expression**\n- Many Americans practiced self-censorship, avoiding controversial views, political organizations, or left-leaning causes out of fear.\n- Artistic and intellectual work was constrained, since writers and performers worried about being blacklisted.\n- Dissent and critical debate were framed as disloyalty, weakening public discourse.\n\n**Political and social effects**\n- The movement shaped the political climate, making accusations of \"softness\" on communism a potent weapon in campaigns. It helped Republicans in some elections and pressured Democrats to demonstrate anti-communist credentials.\n- Some politicians and officials who opposed McCarthy were themselves hesitant to speak out for fear of being targeted.\n- The Red Scare contributed to broader Cold War policies, including support for loyalty oaths, anti-subversion laws such as the Smith Act and McCarran Internal Security Act, and expanded surveillance.\n\n**Eventual backlash and reform**\n- Public opinion turned against McCarthy after his 1954 televised Army-McCarthy hearings, where his reckless tactics were exposed. The Senate formally condemned him later that year, and he lost influence and died in 1957.\n- Courts gradually restricted some abuses. Decisions in cases such as *Yates v. United States* (1957) and *Watkins v. United States* (1957) narrowed the scope of congressional investigations and protections for political speech.\n- The period left a lasting legacy in American political culture. The term \"McCarthyism\" came to describe unfounded accusations and character assassination, and it remains a reference point in debates over civil liberties during periods of national fear.\n\nHistorians still debate the extent of actual Soviet espionage in the U.S. during this era. Some Soviet documents and decrypted intercepts (the Venona project) confirmed real spy networks, but McCarthy's own charges were often exaggerated or unsupported, and innocent people were harmed in the process.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1197,
+  "total_tokens": 1225,
+  "cost": 0.0006013,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006013,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0005985
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:23.117461+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

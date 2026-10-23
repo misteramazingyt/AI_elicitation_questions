@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "H",
+ "prompt": "How have historians interpreted the Supreme Court's 1973 decision in Roe v. Wade? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians have read *Roe v. Wade* (1973) in several overlapping ways: as the culmination of a long reform movement, as a legal decision with contested foundations, and as a catalyst for political realignment. Here are the main lines of interpretation, with sources. I'd recommend checking the full bibliographic details, since I'm working from memory.\n\n**1. Roe as the culmination of grassroots activism**\n\nEarlier scholarship often treated *Roe* as a judicial decision that came out of nowhere. Historians since the 1990s have shown that it followed decades of activism by doctors, feminists, lawyers, and religious groups.\n\n- Leslie J. Reagan, *When Abortion Was a Crime: Women, Medicine, and Law in the United States, 1867–1973* (University of California Press, 1997). Reagan documents how criminalization worked in practice and how pre-Roe reform campaigns built momentum, including the growing role of physicians and the feminist health movement.\n- Linda Greenhouse and Reva B. Siegel, *Before Roe v. Wade: Voices That Shaped the Abortion Debate Before the Supreme Court's Ruling* (Kaplan, 2010). This collection of primary documents shows that reform advocates, including Protestant and Jewish leaders and medical professionals, were already debating abortion in moral and legal terms before 1973.\n- Reva B. Siegel has argued that *Roe* drew on sex-equality arguments and on the women's movement, not only on privacy doctrine. Her work on \"sex equality\" and reproductive rights reframes the decision as part of a broader struggle over women's citizenship.\n\n**2. Roe's legal foundations and the privacy question**\n\nLegal historians have examined how the Court reached its holding, especially the right-to-privacy framework from *Griswold v. Connecticut* (1965) and *Eisenstadt v. Baird* (1972).\n\n- David J. Garrow, *Liberty and Sexuality: The Right to Privacy and the Making of Roe v. Wade* (University of California Press, 1994; expanded ed. 1998). Garrow's detailed account, based on the Court's internal papers, is the standard history of the case's drafting and the justices' deliberations. He portrays Justice Blackmun's opinion as a product of contested negotiations and shows how the trimester framework took shape.\n- Critics on the left and right have questioned the opinion's constitutional grounding. John Hart Ely, \"The Wages of Crying Wolf: A Comment on *Roe v. Wade*,\" *Yale Law Journal* 82 (1973), argued that the decision lacked a sound basis in the Constitution's text and structure.\n- Ruth Bader Ginsburg, \"Some Thoughts on Autonomy and Equality in Relation to *Roe v. Wade*,\" *North Carolina Law Review* 63 (1985), argued that the Court should have relied on equal protection rather than privacy. She thought this approach would have been more durable and less polarizing. She was a historian-adjacent voice here as a jurist, and her view is widely discussed by historians.\n\n**3. Roe as a catalyst for backlash and political realignment**\n\nA major line of scholarship argues that *Roe* did not settle the issue but nationalized and intensified it, shaping the modern anti-abortion movement and party politics.\n\n- Mary Ziegler, *After Roe: The Lost History of the Abortion Debate* (Harvard University Press, 2015). Ziegler argues that the decision was less an endpoint than a starting point, and that the anti-abortion movement developed strategies, including fetal personhood and state-level legislation, in response to it.\n- Mary Ziegler, *Abortion and the Law in America: Roe v. Wade to the Present* (Harvard University Press, 2020). This book traces how litigation, legislation, and advocacy evolved after 1973.\n- Daniel K. Williams, *Defenders of the Unborn: The Pro-Life Movement before Roe v. Wade* (Oxford University Press, 2016). Williams argues that opposition to abortion was a broad, bipartisan, grassroots movement before *Roe*, and that the decision radicalized and mobilized it, especially among evangelical Protestants.\n- Sara Dubow, *Ourselves Unborn: A History of the Fetus in Modern America* (Oxford University Press, 2011). Dubow looks at how the fetus became a public and political subject, which helps explain why *Roe* generated such intense moral conflict.\n\n**4. Reassessment after *Dobbs v. Jackson Women's Health Organization* (2022)**\n\n*Dobbs* overruled *Roe* and invoked historical arguments about abortion law, prompting historians to weigh in. Many, including Ziegler and Reagan, have argued that the majority's account of a long-standing tradition of prohibition oversimplified a history marked by variation, enforcement gaps, and reform. Historians' amicus briefs in the case made this argument directly. Commentators also debated whether the history of common-law and nineteenth-century abortion law supports the Court's \"history and tradition\" test.\n\n**Reading suggestions**\n\nIf you want one place to start, Garrow's *Liberty and Sexuality* for the decision itself, Reagan's *When Abortion Was a Crime* for the pre-1973 context, and Ziegler's *After Roe* for the aftermath.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 3310,
+  "total_tokens": 3357,
+  "cost": 0.0016597,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016597,
+   "upstream_inference_prompt_cost": 4.7e-06,
+   "upstream_inference_completions_cost": 0.001655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1519,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:36.517875+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

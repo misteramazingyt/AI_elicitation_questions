@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "H",
+ "prompt": "How have historians interpreted the U.S. War on Drugs from 1971 to the 1990s? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historical interpretations of the U.S. War on Drugs from 1971 through the 1990s fall into several overlapping schools. Many of the most influential works came out after 1990, and some are later syntheses, but they all analyze this period. Citations are given in summary form, so please verify editions and page numbers before relying on them in academic work.\n\n**1. Origins: Nixon, politics, and \"law and order\"**\nThe June 1971 declaration of a \"war on drugs\" by Richard Nixon is usually treated as the starting point. Early accounts stressed electoral strategy and the political use of crime and drug use as wedge issues.\n- Edward Jay Epstein, *Agency of Fear: Opiates and Political Power in America* (1977), an early critical investigation of federal narcotics enforcement and its political uses.\n- Dan Baum, *Smoke and Mirrors: The War on Drugs and the Politics of Failure* (1996), a journalistic history that argues the drug war was sustained by political incentives rather than evidence of effectiveness.\n- Michael Massing, *The Fix* (1998), which examines the bureaucratic and political dynamics behind policy from Nixon through the 1990s.\n\n**2. Racial and class critiques**\nA major strand, especially after the 1990s, argues that the drug war was racially structured and deepened the criminalization of Black and poor communities, even when its stated targets were drug use generally.\n- Michelle Alexander, *The New Jim Crow* (2010), the most widely read work, which frames mass incarceration as a racial caste system and treats the drug war as central to it.\n- Elizabeth Hinton, *From the War on Poverty to the War on Crime* (2016), which traces how the 1960s shifted from social welfare to punitive policing and shows the roots of 1970s–80s drug enforcement in urban policy.\n- Doris Marie Provine, *Unequal Under Law: Race in the War on Drugs* (2007), which examines how police discretion and judicial practice produced racially disparate enforcement.\n- Max Felker-Kantor, *Policing Los Angeles* (2018), which connects local police practices to the broader drug war.\n\nCritics of this view, including some policy analysts, argue that race-neutral explanations such as violence and market dynamics also matter, and that the racial interpretation can underplay the bipartisan and community support for enforcement, particularly in Black communities affected by crack-era violence.\n\n**3. The crack epidemic and the 1980s escalation**\nHistorians and sociologists have debated how much the 1980s escalation was driven by real drug-related harm versus moral panic and media amplification.\n- Craig Reinarman and Harry G. Levine, eds., *Crack in America: Demon Drugs and Social Justice* (1997), which argues that the crack panic was socially constructed and exaggerated, and that its policy consequences, including harsh sentencing, were disproportionate.\n- Gary Webb, *Dark Alliance* (1998), a controversial investigation into CIA-linked cocaine trafficking and the Los Angeles crack trade. Its central claims were disputed by major newspapers and by later reviews, so it should be read with that in mind.\n- The Anti-Drug Abuse Acts of 1986 and 1988, which created the 100:1 crack-to-powder cocaine sentencing disparity, are central primary sources for this debate.\n\n**4. Public health versus criminal justice**\nA long-standing critique, from policy scholars and some historians, holds that prohibition itself generated many of the harms it aimed to prevent, such as violence, corruption, and overdose risks from unregulated supply.\n- Ethan Nadelmann, \"Drug Prohibition in the United States: Costs, Consequences, and Alternatives,\" *Science* 245 (1989), a foundational argument for reconsidering prohibition.\n- David Musto, *The American Disease: Origins of Narcotic Control* (3rd ed., 1999), which places the 1970s–80s policies within a longer history of American narcotics regulation.\n- Mark Kleiman, *Against Excess: Drug Policy for Results* (1992), a policy analysis that argues for targeted enforcement rather than maximal enforcement.\n\n**5. International and foreign policy dimensions**\nScholars have examined how the drug war intersected with Cold War and Latin American policy, including the role of intelligence agencies and the politics of supply-side interdiction.\n- Alfred W. McCoy, *The Politics of Heroin in Southeast Asia* (1972; expanded 1991), which links the CIA to the Southeast Asian opium trade and shaped later interpretations of drug policy as a foreign-policy tool.\n- Peter Andreas, *Smuggler Nation: How Illicit Trade Made America* (2013), a broader history that treats prohibition as shaping American illicit economies.\n- Studies of the Reagan-era interdiction and Andean policy, including works on Colombia and Mexico, examine how supply-side strategies affected regional violence and governance.\n\n**6. Administrative and institutional histories**\nWork on the DEA (created in 1973), the Office of National Drug Control Policy (created in 1988), and federal-state relations treats the drug war as a bureaucratic project with its own momentum. Scholars such as Epstein and Massing emphasize agency incentives, while later institutional histories look at how federal grants and mandatory-minimum laws pushed states toward harsher policies.\n\n**Key historiographical debates**\n- Was the drug war primarily a response to real drug harms, or primarily a political tool for managing race, crime, and dissent?\n- Did Reagan-era escalation reflect a genuine crack crisis or a moral panic amplified by media and politicians?\n- Was the drug war a failure (as many revisionists argue) or effective in its own terms, depending on what goals are measured?\n- How much did federal policy drive mass incarceration compared to state-level decisions and local policing?\n\n**Suggested starting points:** Alexander (2010) and Hinton (2016) for the racial-institutional view; Reinarman and Levine (1997) for the moral-panic view; Nadelmann (1989) for the prohibition critique; and Musto (1999) for historical context. Reading primary sources such as the 1971 Nixon speech, the 1986 and 1988 Anti-Drug Abuse Acts, and congressional hearings alongside these works will help you evaluate the competing arguments.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 3471,
+  "total_tokens": 3517,
+  "cost": 0.0017401,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017401,
+   "upstream_inference_prompt_cost": 4.6e-06,
+   "upstream_inference_completions_cost": 0.0017355
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1339,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:55.105991+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "H",
+ "prompt": "How have historians interpreted the IRS's handling of tax-exempt applications from political groups (2010-2013)? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The IRS's handling of applications from Tea Party and other conservative groups in 2010-2013 is one of the most contested administrative controversies of the period. Most interpretation has come from government investigations, journalism, and political commentary. I'm not aware of a settled body of academic historical monographs on it, so treat the scholarly framing below as a summary of the main positions rather than a literature review.\n\n**Key documented facts (widely accepted)**\n- Beginning around 2010, after *Citizens United v. FEC*, applications for 501(c)(4) \"social welfare\" status surged.\n- IRS staff in the Cincinnati Determinations Unit used screening criteria that flagged groups with names or purposes containing terms like \"Tea Party,\" \"Patriots,\" or \"9/12,\" and sometimes sent them lengthy questionnaires, including requests for donor and membership information. Many applications were delayed for years.\n- In May 2013, Lois Lerner, head of the Exempt Organizations unit, acknowledged the practice at a bar association event, and the IRS commissioner's office acknowledged it shortly afterward.\n\n**Main interpretive positions**\n\n1. **Administrative failure and inappropriate shortcuts.** The Treasury Inspector General for Tax Administration (TIGTA) report *\"Inappropriate Criteria Were Used to Identify Tax-Exempt Applications for Review\"* (Reference No. 2013-10-053, May 2013) is the central source for this view. It found the keyword screening was inappropriate and that the delays were unjustified, but it did not find evidence that the criteria were set for partisan reasons. It attributed the problems to poor management and to low-level employees improvising under a backlog and vague legal standards.\n\n2. **Partisan targeting.** Republican members of the House Ways and Means, Oversight, and Judiciary committees, and many conservative commentators, argued that the pattern (conservative-leaning groups targeted, liberal groups largely not) showed deliberate political bias, possibly reaching senior officials. Lerner's 2013 invocation of the Fifth Amendment before a House committee and the later loss of some of her emails fueled this interpretation. Their reports are primary sources on this claim.\n\n3. **Skepticism of the partisan thesis.** Democratic committee members, several reviewers, and some analysts argued that the evidence showed incompetence and that the White House had no direct role. The Justice Department eventually declined to bring charges, and the Obama White House consistently denied directing the actions. Critics of the partisan thesis also point out that some progressive groups were scrutinized too.\n\n4. **Structural explanation.** Scholars of administrative law and nonprofit regulation emphasize that the statutory standard for 501(c)(4) status (\"primarily engaged in social welfare\") was vague, and that the IRS lacked clear guidance after *Citizens United*. On this reading, the controversy reflects a regulatory gap that gave staff too much discretion, regardless of anyone's intent.\n\n**Useful sources to check**\n- TIGTA, Report No. 2013-10-053 (May 14, 2013), available at treasury.gov/tigta.\n- House Ways and Means Committee and House Oversight Committee reports and hearing transcripts, 2013-2015 (congress.gov).\n- Senate Finance Committee materials, including Democratic and Republican minority reports.\n- Theda Skocpol and Vanessa Williamson, *The Tea Party and the Remaking of Republican Conservatism* (Oxford University Press, 2012), for background on the movement itself, though it predates the most intense IRS revelations.\n- Contemporary reporting from the *New York Times*, *Washington Post*, and *Wall Street Journal* in May-June 2013 for the timeline.\n\nI'd recommend verifying exact titles, dates, and report numbers against the originals, since I may be off on details. If you need peer-reviewed historical analysis specifically, databases like JSTOR or Google Scholar searched on \"IRS Tea Party\" or \"Citizens United nonprofit regulation\" would be the best next step.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 51,
+  "completion_tokens": 2659,
+  "total_tokens": 2710,
+  "cost": 0.0013346,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013346,
+   "upstream_inference_prompt_cost": 5.1e-06,
+   "upstream_inference_completions_cost": 0.0013295
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1310,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:32.541843+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

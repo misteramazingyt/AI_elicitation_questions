@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "D",
+ "prompt": "Describe the 2020 George Floyd protests.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 2020 George Floyd protests were a series of demonstrations against police brutality and racial injustice in the United States and in many other countries. They were sparked by the killing of George Floyd, a 46-year-old Black man, on May 25, 2020, in Minneapolis, Minnesota.\n\n**The triggering event:** Police officer Derek Chauvin knelt on Floyd's neck for about nine minutes while Floyd was handcuffed and face-down on the pavement. Floyd, who had been accused of passing a counterfeit $20 bill, repeatedly said he couldn't breathe and called out for his mother before going unresponsive. Bystanders recorded the incident, and the video spread rapidly online.\n\n**The protests:** Demonstrations began in Minneapolis within hours and spread quickly across the country and around the world. Key features included:\n\n- **Scale:** Estimates suggest that between 15 and 26 million people in the U.S. participated at some point, making it one of the largest protest movements in American history. Protests also occurred in dozens of countries.\n- **Diversity of participants:** Crowds were notably multiracial and included people of all ages, though Black Lives Matter organizers and Black communities were central to leading the movement.\n- **Tactics:** Most demonstrations were peaceful, but some involved property damage, looting, arson, and clashes with police. Many cities imposed curfews, and the National Guard was deployed in several states.\n- **Responses from authorities:** Police used tear gas, rubber bullets, and other crowd-control measures in some cities, drawing criticism. Some journalists and protesters were injured or arrested.\n- **Cultural impact:** Movements to defund or reform police gained prominence, and many institutions, companies, and sports organizations publicly committed to racial equity efforts.\n\n**Legal and policy outcomes:**\n\n- Derek Chauvin was convicted of second-degree and third-degree murder and second-degree manslaughter in April 2021 and sentenced to 22.5 years in prison. Three other officers were later convicted of federal civil rights violations and state charges related to aiding and abetting.\n- Federal legislation, the George Floyd Justice in Policing Act, was proposed in Congress but did not become law. Some states and cities passed their own police reform measures, such as restrictions on chokeholds and changes to qualified immunity.\n\n**Context and debate:** The protests renewed national conversation about systemic racism, policing, and criminal justice. Supporters viewed them as a necessary reckoning with racial inequality. Critics raised concerns about violence, property destruction, and the effects on public safety, and some debated the best approaches to police reform. The COVID-19 pandemic, which was ongoing at the time, also shaped how the protests unfolded and how they were discussed.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 914,
+  "total_tokens": 938,
+  "cost": 0.0004594,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004594,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.000457
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:00.542198+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

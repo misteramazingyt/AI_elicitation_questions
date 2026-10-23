@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "D",
+ "prompt": "Describe the 2008 financial crisis.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2008 financial crisis, often called the **Global Financial Crisis (GFC)**, was the most severe worldwide economic downturn since the Great Depression of the 1930s. It was characterized by the collapse of major financial institutions, the freezing of credit markets, and a deep global recession.\n\nHere is a breakdown of how it happened, why it happened, and what the consequences were.\n\n---\n\n### 1. The Root Causes: The Housing Bubble\nThe crisis began in the United States, driven by a \"perfect storm\" of factors in the housing and banking sectors:\n\n*   **Low Interest Rates:** Following the dot-com crash of 2000 and the 9/11 attacks, the Federal Reserve lowered interest rates to stimulate the economy. This made borrowing money very cheap.\n*   **Subprime Mortgages:** With cheap credit available, banks began lending money to people with poor credit histories (subprime borrowers) who otherwise wouldn't qualify for loans.\n*   **Mortgage-Backed Securities (MBS):** Banks bundled these risky mortgages together into complex financial products called Mortgage-Backed Securities. They sold these to investors around the world, claiming they were safe investments.\n*   **Credit Rating Agencies:** Agencies like Moody’s and Standard & Poor’s gave these risky bundles high \"AAA\" ratings, misleading investors into believing they were low-risk.\n*   **The Bubble Bursts:** By 2006, housing prices began to fall. As interest rates rose, subprime borrowers could no longer afford their mortgage payments. Defaults skyrocketed, and the value of the Mortgage-Backed Securities plummeted.\n\n### 2. The Collapse: The Financial Contagion\nBecause these toxic mortgage assets were held by banks and investment firms globally, the housing crash triggered a chain reaction:\n\n*   **The \"Lehman Moment\":** In September 2008, the investment bank **Lehman Brothers**—a pillar of Wall Street—filed for bankruptcy. This sent shockwaves through the global financial system. Banks stopped lending to one another because they didn't know who else was holding \"toxic\" assets, causing the credit markets to freeze.\n*   **Panic:** Investors panicked, stock markets crashed, and the value of retirement accounts and savings evaporated.\n*   **Bailouts:** Governments worldwide were forced to intervene to prevent a total collapse of the global economy. In the U.S., the government passed the **TARP (Troubled Asset Relief Program)**, a $700 billion bailout package to inject capital into failing banks and prevent them from going under.\n\n### 3. The Aftermath: The Great Recession\nThe financial crisis quickly spilled over into the \"real\" economy, leading to the Great Recession:\n\n*   **Unemployment:** Millions of people lost their jobs as businesses failed or cut costs. In the U.S., the unemployment rate doubled, peaking at 10% in 2009.\n*   **Foreclosures:** Millions of Americans lost their homes as they could no longer pay their mortgages.\n*   **Global Impact:** The crisis was not limited to the U.S. It spread to Europe and Asia, leading to sovereign debt crises in countries like Greece, Spain, and Ireland, and causing a sharp decline in global trade.\n*   **Loss of Wealth:** Trillions of dollars in household wealth were wiped out, leading to a long, slow recovery period that lasted for years.\n\n### 4. The Legacy and Regulation\nThe crisis fundamentally changed how the world views banking and regulation:\n\n*   **Dodd-Frank Act:** In 2010, the U.S. passed the Dodd-Frank Wall Street Reform and Consumer Protection Act. It was designed to increase transparency, end \"too big to fail\" bailouts, and place stricter regulations on banks to prevent them from taking excessive risks.\n*   **Public Distrust:** The crisis created a lasting sense of public anger. Many people felt that the banks were bailed out while ordinary citizens suffered, which fueled political polarization and populist movements in the years that followed.\n*   **Monetary Policy:** Central banks (like the Federal Reserve) adopted unconventional policies, such as \"Quantitative Easing\" (printing money to buy government bonds), to keep interest rates low and stimulate the economy for nearly a decade.\n\n### Summary\nThe 2008 crisis was a failure of regulation, risk management, and oversight. It demonstrated how interconnected the global financial system had become, where a localized problem in the U.S. housing market could bring the entire world economy to the brink of collapse.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 10,
+  "completion_tokens": 1090,
+  "total_tokens": 1100,
+  "cost": 0.0016375,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016375,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.001635
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:20.360739+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

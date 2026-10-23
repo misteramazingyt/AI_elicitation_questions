@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "D",
+ "prompt": "Describe the IRS's handling of tax-exempt applications from political groups (2010-2013).",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The controversy regarding the Internal Revenue Service’s (IRS) handling of tax-exempt applications from political groups between 2010 and 2013—often referred to as the \"IRS targeting controversy\"—centered on allegations that the agency used inappropriate criteria to screen applications for 501(c)(4) tax-exempt status.\n\nHere is a breakdown of the events, the investigations, and the conclusions.\n\n### The Core Issue\nIn May 2013, Lois Lerner, then the director of the IRS Exempt Organizations Unit, acknowledged that the agency had used \"inappropriate criteria\" to flag applications for tax-exempt status.\n\nIt was revealed that IRS employees had created \"Be On the Lookout\" (BOLO) lists to identify applications for extra scrutiny. These lists included terms such as \"Tea Party,\" \"Patriots,\" and \"9/12 Project.\" The stated goal was to manage the surge in applications for 501(c)(4) status following the Supreme Court’s 2010 *Citizens United* decision, which led to a significant increase in political spending by non-profit groups.\n\n### The Allegations\nCritics, primarily conservative lawmakers and organizations, alleged that the IRS was politically motivated. They argued that the agency was intentionally delaying or denying applications from conservative-leaning groups to hinder their ability to organize and fundraise ahead of the 2012 presidential election.\n\n### Investigations and Findings\nThe controversy triggered multiple investigations, including those by the Treasury Inspector General for Tax Administration (TIGTA), the Department of Justice (DOJ), and several congressional committees.\n\n**1. The TIGTA Report (2013):**\nThe initial TIGTA report confirmed that the IRS had used \"inappropriate criteria\" to identify applications for review. The report found that the screening process resulted in substantial delays for the affected groups. However, the report also noted that the IRS had also flagged some progressive-leaning groups for review, though the criteria used for those groups were different and less focused on specific political terminology.\n\n**2. The Department of Justice Investigation:**\nThe DOJ conducted a two-year investigation into whether any IRS officials had violated federal law or civil rights. In 2015, the DOJ concluded its investigation, stating that while there was \"mismanagement\" and \"poor judgment,\" there was no evidence of criminal intent or political bias. The DOJ found that the IRS employees were attempting to manage a massive backlog of applications and were using the BOLO lists as a shortcut, rather than acting out of a partisan conspiracy.\n\n**3. Congressional Investigations:**\nCongressional committees, including the House Oversight and Government Reform Committee and the House Ways and Means Committee, held extensive hearings. These investigations were highly polarized.\n*   **Republican findings:** Many Republican lawmakers maintained that the targeting was a deliberate, politically motivated effort by the Obama administration to suppress conservative opposition.\n*   **Democratic findings:** Many Democratic lawmakers argued that the investigations were politically motivated \"witch hunts\" and pointed to evidence that the IRS had also scrutinized liberal groups, suggesting the issue was one of bureaucratic incompetence rather than partisan malice.\n\n### The Aftermath and Legacy\nThe controversy had significant consequences for the IRS and the individuals involved:\n\n*   **Personnel Changes:** Lois Lerner was placed on administrative leave and eventually retired. Several other high-ranking IRS officials, including the acting commissioner, resigned or were removed from their positions.\n*   **Policy Changes:** The IRS overhauled its application review process to remove the use of BOLO lists and implemented new procedures to ensure that applications were processed based on objective criteria rather than political keywords.\n*   **Settlements:** In 2017, the IRS issued an apology and reached a settlement with several conservative groups that had sued the agency, acknowledging that the IRS’s treatment of their applications had been \"wrong.\"\n*   **Public Trust:** The controversy significantly damaged the public’s perception of the IRS as a non-partisan institution. It remains a frequently cited example in debates regarding the potential for government agencies to be weaponized for political purposes.\n\n### Summary\nWhile there is broad consensus that the IRS engaged in mismanagement and used inappropriate screening criteria that disproportionately affected conservative groups, investigations by the Department of Justice and the Treasury Inspector General did not find evidence of a coordinated political conspiracy or criminal intent. The consensus among non-partisan investigators was that the agency was overwhelmed by a surge in applications and utilized flawed, bureaucratic shortcuts that resulted in unfair treatment of applicants.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1059,
+  "total_tokens": 1084,
+  "cost": 0.00159475,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00159475,
+   "upstream_inference_prompt_cost": 6.25e-06,
+   "upstream_inference_completions_cost": 0.0015885
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 132,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:35.495743+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

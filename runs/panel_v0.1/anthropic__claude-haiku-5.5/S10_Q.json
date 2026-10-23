@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Supreme Court's June 24, 2022 decision in *Dobbs v. Jackson Women's Health Organization* overruled *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992), holding that the U.S. Constitution does not confer a right to abortion. The majority, written by Justice Samuel Alito, returned the authority to regulate abortion to the states and elected representatives. The decision had wide-ranging consequences:\n\n**Legal consequences**\n- **State-level bans and restrictions:** Many states moved quickly to enforce or enact restrictions. Some had \"trigger laws\" designed to take effect automatically if *Roe* fell, and others had pre-Roe bans that were revived. By 2023, roughly a dozen states had near-total bans, and several others imposed limits at earlier gestational ages, such as six weeks.\n- **Variation across states:** Abortion access became highly dependent on geography. Some states, including California, New York, and Illinois, expanded or protected access, while others restricted it significantly.\n- **Litigation:** Courts became the venue for numerous disputes over the scope of state laws, including exceptions for the life and health of the pregnant person, the treatment of medication abortion, and conflicts over whether federal law (such as the Emergency Medical Treatment and Labor Act) requires emergency abortions in some circumstances.\n- **Interstate issues:** Disputes arose over whether residents of restrictive states could travel to other states for abortions, whether shield laws protecting providers in permissive states could be enforced, and whether people could obtain abortion pills by mail. Some states sought to impose civil or criminal liability on those who helped residents obtain abortions elsewhere.\n- **Medication abortion:** Mifepristone and misoprostol became central to legal battles, including a 2023 federal lawsuit challenging FDA approval of mifepristone, which led to litigation over FDA regulatory authority and eventually to the Supreme Court's 2024 ruling allowing continued nationwide access while the case proceeded.\n\n**Practical and health consequences**\n- **Clinic closures and provider shortages:** Clinics in restrictive states closed or relocated, and some physicians reported uncertainty about treating miscarriages and other pregnancy complications because of vague statutory language.\n- **Increased travel:** Many patients traveled across state lines, increasing costs and delays. Clinics in neighboring states, such as Illinois, Kansas, and North Carolina, saw surges in demand.\n- **Effects on maternal care:** Critics and some researchers raised concerns that legal uncertainty affected emergency care for miscarriage and sepsis-related complications, though the extent of these effects has been debated.\n- **Data and research:** Studies have documented declines in abortions within states that banned them and increases in demand in neighboring states, along with growth in telehealth and mail-order abortion services.\n\n**Political and social consequences**\n- **Electoral impact:** Abortion became a prominent issue in the 2022 midterm elections, where voter mobilization was widely seen as a factor in results. Ballot measures in several states, including Kansas, Michigan, Ohio, and California, saw pro-abortion-rights outcomes, and later measures in other states, such as Missouri and Arizona, went similarly.\n- **Legislative activity:** Debate shifted to state legislatures and Congress, with federal proposals to codify abortion rights or set national limits failing to advance past the Senate filibuster.\n- **Public opinion:** Polls generally showed majority public disapproval of the ruling, though opinion on abortion remained nuanced and varied by restriction level.\n- **Institutional legitimacy:** The decision intensified debate about the Court's legitimacy, the role of precedent (stare decisis), and the judicial confirmation process.\n\n**Broader legal ripple effects**\n- Justice Clarence Thomas's concurrence raised the possibility of revisiting other substantive due process precedents, such as those on contraception, same-sex relationships, and same-sex marriage, though the majority opinion stated it was not calling those into question. Those issues have remained contested in later litigation and political debate.\n\nIf you're interested in a particular dimension, such as the medication abortion litigation, interstate travel questions, or the electoral effects, I can go into more detail.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 1431,
+  "total_tokens": 1481,
+  "cost": 0.0007205,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007205,
+   "upstream_inference_prompt_cost": 5e-06,
+   "upstream_inference_completions_cost": 0.0007155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:37.403887+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "D",
+ "prompt": "Describe the UK miners' strike of 1984-1985.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The UK miners' strike of 1984–1985 was one of the most bitter, divisive, and consequential industrial disputes in British history. It was a defining moment of the 20th century that fundamentally reshaped the British economy, the power of trade unions, and the political landscape of the country.\n\nHere is an overview of the strike, its causes, the conflict, and its lasting legacy.\n\n### 1. The Context and Causes\nBy the early 1980s, the British coal industry was in decline. The government, led by Prime Minister Margaret Thatcher and her Conservative Party, sought to modernize the economy by privatizing state-owned industries and reducing the power of trade unions, which they viewed as obstacles to economic efficiency.\n\nThe National Coal Board (NCB), led by Ian MacGregor, announced plans to close 20 \"uneconomic\" pits, which would result in the loss of 20,000 jobs. The National Union of Mineworkers (NUM), led by the firebrand socialist Arthur Scargill, viewed this as the beginning of a systematic dismantling of the coal industry.\n\n### 2. The Conflict\nThe strike began in March 1984. Unlike previous strikes, Scargill did not hold a national ballot of all miners, fearing it would fail. Instead, he used \"flying pickets\" to encourage miners in different regions to walk out. This led to a split: while many miners in Yorkshire, Scotland, and South Wales supported the strike, others—particularly in Nottinghamshire—continued to work, leading to the formation of the Union of Democratic Mineworkers (UDM).\n\n**The key features of the conflict included:**\n\n*   **Police Confrontation:** The strike was marked by intense violence, most notably at the \"Battle of Orgreave\" in June 1984. Thousands of picketing miners clashed with police in riot gear. The heavy-handed tactics used by the police, including the use of horses and truncheons, remain a subject of intense controversy and calls for public inquiries to this day.\n*   **Economic Hardship:** The strike lasted for a full year. Miners and their families faced extreme poverty. Mining communities relied on food banks, soup kitchens, and the support of other unions and sympathetic groups (such as \"Lesbians and Gays Support the Miners,\" famously depicted in the film *Pride*).\n*   **Government Strategy:** Margaret Thatcher was determined not to repeat the mistakes of the 1974 strike, which had brought down the previous Conservative government. The government stockpiled coal in advance, ensured that power stations remained operational, and used the police to prevent pickets from stopping working miners.\n\n### 3. The Outcome\nIn March 1985, the NUM voted to return to work without a deal. The strike was a total defeat for the miners.\n\nThe failure of the strike was attributed to several factors:\n*   **Lack of Unity:** The failure to hold a national ballot and the refusal of the Nottinghamshire miners to join the strike weakened the union's leverage.\n*   **Government Resolve:** Thatcher’s government refused to negotiate or offer concessions, effectively waiting for the miners to run out of money and resolve.\n*   **Public Opinion:** The violence on picket lines and the perception of Scargill as an uncompromising radical alienated parts of the public.\n\n### 4. The Legacy\nThe defeat of the miners had profound, long-term consequences for the United Kingdom:\n\n*   **The Decline of Trade Unions:** The strike broke the back of the British trade union movement. Union membership plummeted, and their ability to influence government policy was severely curtailed for decades.\n*   **Deindustrialization:** The closure of the pits continued rapidly after the strike. This led to the economic devastation of many \"pit villages\" in the North of England, Scotland, and Wales, creating long-term unemployment, social deprivation, and a sense of abandonment that persists in these regions today.\n*   **Political Polarization:** The strike deepened the divide between the North and the South of England. It solidified the image of Margaret Thatcher as a \"conviction politician\" who would not be moved, earning her both fierce admiration from her supporters and deep, lasting hatred from her opponents.\n*   **Cultural Impact:** The strike left a deep scar on the British psyche, influencing literature, film, and music. It remains a touchstone for discussions about class, the role of the state, and the cost of economic progress.\n\nIn summary, the 1984–1985 miners' strike was not just a dispute over wages or pit closures; it was a battle for the soul of Britain. It marked the end of the post-war consensus and the beginning of the neoliberal era, leaving behind a legacy of economic transformation and social division that continues to influence British politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 1159,
+  "total_tokens": 1177,
+  "cost": 0.001743,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001743,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.0017385
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 142,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:23.422370+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

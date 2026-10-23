@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "Q",
+ "prompt": "What were the consequences of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The controversy surrounding the Internal Revenue Service’s (IRS) handling of tax-exempt applications between 2010 and 2013—often referred to as the \"IRS targeting scandal\"—had significant political, administrative, and legal consequences.\n\nThe core of the issue was that the IRS used \"Be On the Lookout\" (BOLO) lists that flagged applications for 501(c)(4) tax-exempt status based on keywords like \"Tea Party,\" \"Patriot,\" and \"9/12 Project.\" While the IRS also flagged some progressive groups, the scrutiny was disproportionately focused on conservative organizations, leading to long delays and intrusive requests for information.\n\nHere are the primary consequences of the scandal:\n\n### 1. Political Fallout and Congressional Investigations\nThe scandal became a major political flashpoint during the Obama administration.\n*   **Congressional Hearings:** The House Oversight and Government Reform Committee and the Senate Finance Committee launched extensive investigations. These hearings lasted for years and featured high-profile testimony from IRS officials, including Lois Lerner, the director of the Exempt Organizations Unit, who famously invoked her Fifth Amendment right against self-incrimination.\n*   **Erosion of Trust:** The scandal severely damaged public trust in the IRS, which is often viewed as one of the most sensitive and powerful federal agencies. It fueled narratives among conservatives that the federal government was being weaponized against political opponents.\n*   **Political Polarization:** The incident became a staple of campaign rhetoric, with Republicans citing it as evidence of government overreach and Democrats arguing that the IRS was simply overwhelmed by a surge in applications following the *Citizens United* Supreme Court decision.\n\n### 2. Administrative and Personnel Changes\nThe IRS underwent significant leadership turnover and structural changes in the wake of the scandal.\n*   **Resignations and Firings:** Several high-ranking officials were forced out or resigned, including the acting IRS Commissioner, Steven Miller, and Lois Lerner.\n*   **Policy Reforms:** The IRS overhauled its application review process. It eliminated the use of BOLO lists based on political keywords and implemented new training protocols to ensure that applications were reviewed based on objective criteria rather than ideological labels.\n*   **Increased Scrutiny:** The agency faced years of intense oversight from the Treasury Inspector General for Tax Administration (TIGTA), which conducted multiple audits to ensure that the IRS was no longer targeting groups based on political affiliation.\n\n### 3. Legal Consequences and Settlements\nThe scandal resulted in years of litigation that eventually cost the federal government millions of dollars.\n*   **Class-Action Lawsuits:** Numerous conservative groups sued the IRS, alleging that their First Amendment rights had been violated and that they had been subjected to discriminatory treatment.\n*   **Settlements:** In 2017, the Department of Justice reached a settlement with hundreds of conservative groups. The IRS issued a formal apology, admitting that its use of criteria like \"Tea Party\" was \"inappropriate.\" The government also paid out millions of dollars in damages to the affected organizations to resolve the lawsuits.\n\n### 4. Long-Term Impact on Tax-Exempt Status\nThe scandal highlighted the broader, unresolved issue of how the IRS should regulate political activity by non-profits.\n*   **The \"Dark Money\" Debate:** The controversy underscored the difficulty the IRS faces in defining \"social welfare\" organizations (501(c)(4)s). These groups are allowed to engage in some political activity, but it cannot be their \"primary purpose.\" The scandal made the IRS extremely hesitant to enforce these rules, fearing further accusations of political bias.\n*   **Regulatory Paralysis:** For years following the scandal, the IRS largely stopped attempting to update or clarify the rules regarding political activity for tax-exempt groups. This effectively allowed for an increase in \"dark money\" spending in elections, as the agency became gun-shy about scrutinizing the political activities of non-profits.\n\n### Summary\nThe primary consequence of the IRS scandal was a **profound chilling effect on the agency’s enforcement capabilities.** By becoming the center of a partisan firestorm, the IRS retreated from policing the political activities of tax-exempt organizations. While the scandal led to necessary reforms in how the IRS processes applications, it also left the agency hesitant to regulate the intersection of non-profit status and political campaigning, a challenge that remains a subject of debate in American politics today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 1035,
+  "total_tokens": 1064,
+  "cost": 0.00155975,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00155975,
+   "upstream_inference_prompt_cost": 7.25e-06,
+   "upstream_inference_completions_cost": 0.0015525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 134,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:36.498395+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

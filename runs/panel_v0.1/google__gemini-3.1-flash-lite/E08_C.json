@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "C",
+ "prompt": "What were the main causes of the Great Depression?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Great Depression was not caused by a single event, but rather by a \"perfect storm\" of economic weaknesses that converged in the late 1920s. Historians and economists generally agree on several key factors that triggered and deepened the crisis.\n\nHere are the main causes of the Great Depression:\n\n### 1. The Stock Market Crash of 1929\nWhile not the sole cause, the crash of October 1929 (known as \"Black Tuesday\") was the catalyst that shattered public confidence. During the \"Roaring Twenties,\" the stock market underwent rapid expansion. Many investors bought stocks \"on margin\"—meaning they borrowed money to buy shares, putting down only a small fraction of the cost. When the market began to falter, these investors could not pay back their loans, leading to a massive sell-off that wiped out billions of dollars in wealth and destroyed the savings of millions of Americans.\n\n### 2. Bank Failures\nIn the early 1930s, the American banking system collapsed. Because there was no federal insurance for deposits (like the FDIC today), when banks failed, people lost their life savings instantly. This triggered \"bank runs,\" where panicked customers rushed to withdraw their money, causing even healthy banks to run out of cash and close. Between 1930 and 1933, thousands of banks failed, which froze credit and made it impossible for businesses to borrow money to operate or for consumers to make purchases.\n\n### 3. Reduction in Purchasing Power\nThroughout the 1920s, productivity increased, but wages did not rise at the same rate. As a result, workers could not afford to buy the goods they were producing. This led to an \"overproduction\" of goods. When businesses realized they couldn't sell their inventory, they stopped production and laid off workers. This created a vicious cycle: unemployed workers had no money to spend, which led to further drops in demand, leading to more layoffs.\n\n### 4. The Smoot-Hawley Tariff Act (1930)\nIn an attempt to protect American businesses from foreign competition, Congress passed the Smoot-Hawley Tariff Act, which placed high taxes on imported goods. This backfired spectacularly. Other countries retaliated by placing their own tariffs on American goods. Global trade plummeted, making it even harder for American companies to sell their products abroad and deepening the economic downturn worldwide.\n\n### 5. The Dust Bowl and Agricultural Collapse\nEven before the stock market crash, American farmers were struggling. During World War I, farmers had expanded production to meet demand, but after the war, prices for crops plummeted. Many farmers were already in debt. Then, in the early 1930s, a severe drought hit the Great Plains, creating the \"Dust Bowl.\" Crops failed, livestock died, and thousands of farmers were forced to abandon their land, further destabilizing the economy.\n\n### 6. Poor Monetary Policy\nMany economists, including Milton Friedman, have argued that the Federal Reserve played a major role in turning a recession into a depression. Instead of lowering interest rates and increasing the money supply to help the economy recover, the Federal Reserve actually *raised* interest rates and tightened the money supply. This made it even harder for businesses to survive and for the economy to restart.\n\n### Summary\nThe Great Depression was a systemic failure. It began with **speculative excess** (the stock market), was exacerbated by **structural weaknesses** (income inequality and overproduction), was worsened by **bad policy** (tariffs and monetary tightening), and was finalized by **panic** (bank runs). Once the cycle of unemployment and reduced spending began, it became a self-reinforcing downward spiral that lasted for a decade.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 10,
+  "completion_tokens": 899,
+  "total_tokens": 909,
+  "cost": 0.001351,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001351,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.0013485
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 124,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:21.755808+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

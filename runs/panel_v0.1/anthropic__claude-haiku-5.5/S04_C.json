@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "C",
+ "prompt": "What were the main causes of Soviet espionage in the United States in the 1940s, including the Rosenberg case?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Soviet espionage in the United States during the 1940s grew out of ideological sympathy, wartime circumstances, Soviet distrust of the Western Allies, and weak American security. The Rosenberg case became the most notorious episode.\n\n## Main Causes\n\n**1. Ideological sympathy for the USSR.** During the Great Depression, many Americans, especially intellectuals, labor activists, and members of the Communist Party USA, saw the Soviet Union as a counterweight to fascism and capitalist failure. The Popular Front (1935–39) encouraged cooperation with communists against fascism. Many of the people who passed information did so out of conviction rather than money, and some believed they were helping an ally.\n\n**2. The wartime alliance.** The Nazi-Soviet Non-Aggression Pact of August 1939 shocked and split many leftists, but Germany's invasion of the USSR in June 1941 restored Soviet prestige among sympathizers. Once the United States and the USSR were allies, officials in government agencies such as the Treasury, the State Department, the Office of War Information, and the OSS sometimes shared sensitive material informally with Soviet contacts, and Soviet recruiters found it relatively easy to build contacts.\n\n**3. Soviet distrust and the need for intelligence.** Stalin doubted that the Western Allies would fight hard or share information honestly, and he delayed opening a second front in Europe. Soviet intelligence (the NKVD and GRU) therefore worked aggressively to learn Allied war plans and, above all, to obtain information about the atomic bomb.\n\n**4. The atomic bomb.** The Manhattan Project was the highest priority. Soviet agents obtained information on implosion designs, plutonium production, and other technical details. Klaus Fuchs, a German-born British physicist at Los Alamos, was the most consequential source. Soviet physicists had their own program, but the stolen information reportedly saved time and resources.\n\n**5. Weak American counterintelligence.** Before the late 1940s, U.S. security was fragmented and often lax. Security clearances were inconsistent, the FBI under J. Edgar Hoover focused heavily on domestic radicals, and there was little coordination among agencies. Compartmentalization at Los Alamos was strong for the bomb, but other government offices were porous.\n\n**6. Soviet intelligence capacity.** Soviet agents were well trained and used cutouts, couriers, and \"illegals\" (officers operating under false identities). Recruitment often relied on personal networks, such as friends, relatives, and colleagues of existing sympathizers.\n\n**7. The Venona revelation.** The U.S. Army's Venona project, which began decrypting Soviet cables in 1943, later exposed the scale of the penetration. Declassified in 1995, the decrypts identified numerous agents, including Fuchs, Alger Hiss (still debated by some historians), Harry Dexter White of the Treasury, and Julius Rosenberg. Venona was kept secret at the time, so the public and officials in the 1940s and early 1950s did not know its full extent.\n\n## The Rosenberg Case\n\n- **Julius Rosenberg** was an engineer who had worked for the Army Signal Corps. He was a committed communist who was recruited into Soviet intelligence around 1942 and ran a spy network.\n- **David Greenglass**, Ethel Rosenberg's brother, was a machinist at Los Alamos. Julius recruited him, and Greenglass passed sketches and descriptions related to the implosion lens used in the Trinity and Nagasaki bombs.\n- **Harry Gold**, a courier, linked Fuchs and Greenglass to the Soviet system. Fuchs's confession in Britain in 1950 led the FBI to Gold, who then implicated Greenglass, who in turn implicated Julius and Ethel.\n- **Trial and sentence:** In March 1951, Julius and Ethel Rosenberg were convicted of conspiracy to commit espionage, along with Morton Sobell, who received a prison term. Judge Irving Kaufman sentenced the Rosenbergs to death, a sentence widely criticized as harsh given that they were not charged with actually delivering atomic secrets. They were executed at Sing Sing in June 1953.\n- **Ethel's role** was disputed. Venona confirmed Julius's role but did not clearly establish Ethel as an active agent. In 2008, Greenglass acknowledged that he had falsely testified that Ethel typed notes for the Soviets, suggesting he had shielded his wife at her expense.\n- **Context and controversy:** The case unfolded during the Korean War and the intense anti-communism of the early Cold War, and it was used politically. Clemency appeals drew international attention, and critics argued that the death penalty reflected Cold War hysteria. Historians today generally accept that Julius was a real spy, while debating how much the punishment of Ethel was justified.\n\nIn short, Soviet espionage arose from a combination of ideological commitment, wartime cooperation that created access, Soviet priorities around the atomic bomb, and American security weaknesses. The Rosenberg case is the best-known example, though it represented only part of a much broader network.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 3025,
+  "total_tokens": 3068,
+  "cost": 0.0015168,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015168,
+   "upstream_inference_prompt_cost": 4.3e-06,
+   "upstream_inference_completions_cost": 0.0015125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1296,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:24.702194+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

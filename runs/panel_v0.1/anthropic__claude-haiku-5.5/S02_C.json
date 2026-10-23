@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "C",
+ "prompt": "What were the main causes of the Republican Party's \"Southern strategy\"?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The \"Southern strategy\" was a Republican electoral approach, most associated with the late 1960s and 1970s and the presidencies of Nixon and Reagan, aimed at winning white Southern voters who had long been loyal to the Democratic Party. Its causes were several, intertwined, and debated by historians.\n\n**1. The realignment caused by the Civil Rights Movement**\nThe most immediate cause was the Democratic Party's embrace of civil rights. Franklin Roosevelt's New Deal coalition had kept the South Democratic for decades, but Lyndon Johnson's support for the Civil Rights Act of 1964 and the Voting Rights Act of 1965 alienated many white Southern Democrats. Johnson reportedly remarked that the party had \"lost the South for a generation,\" and the subsequent shift bore that out.\n\n**2. Opposition to federal enforcement and desegregation**\nCourt-ordered school desegregation (after *Brown v. Board of Education*, 1954), busing, and federal intervention in local affairs generated resentment among many white Southerners. Republicans could position themselves as defenders of local control, \"states' rights,\" and neighborhood schools, appeals that resonated with white voters who opposed integration.\n\n**3. Backlash to the 1960s social upheaval**\nUrban riots, anti-war protests, the counterculture, and rising crime rates led many voters, including Southerners, to feel that the country was becoming less orderly. Republicans campaigned on \"law and order,\" which gave a race-coded but often race-neutral-sounding message about crime and public safety.\n\n**4. The Republican Party's own ideological and organizational interests**\nStrategists such as Kevin Phillips (author of *The Emerging Republican Majority*, 1969) argued that the GOP could build a durable majority by combining Southern whites with Northern suburbanites and ethnic Catholics. Republicans also had a longer-term interest in building a conservative coalition that could challenge the New Deal order, and the South, with its growing population and electoral votes, was a major prize.\n\n**5. Economic and cultural conservatism**\nOver time, issues beyond race, such as opposition to high taxes, government regulation, labor unions, and later social issues like abortion, school prayer, and gun rights, drew white Southern evangelicals and business-minded voters toward the GOP. Some Southern conservatives who had been Democrats for economic or cultural reasons found common ground with Republicans.\n\n**6. Personal and regional political figures**\nBarry Goldwater's 1964 campaign, though unsuccessful nationally, won most Deep South states by opposing the Civil Rights Act and pioneered the appeal. Nixon's 1968 and 1972 campaigns refined it, and Reagan's 1980 campaign, with its speech on \"states' rights\" in Philadelphia, Mississippi, drew criticism for its symbolism.\n\n**Debates among historians**\nScholars disagree about how much the strategy was explicitly racial versus based on other issues. Some (e.g., Thomas and Mary Edsall, Dan Carter) argue that race was central and that coded appeals were deliberate. Others (e.g., some political scientists) emphasize economic and cultural conservatism, arguing that race was one factor among many and that partisan change in the South reflected broader ideological sorting. Most agree that the strategy was real and consequential, but its precise motivations remain contested.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 1122,
+  "total_tokens": 1153,
+  "cost": 0.0005641,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005641,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.000561
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:19.617807+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

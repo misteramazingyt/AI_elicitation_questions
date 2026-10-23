@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "C",
+ "prompt": "What were the main causes of Venezuela's economic crisis since 2013?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The economic crisis in Venezuela, which began accelerating around 2013, is widely considered one of the most severe economic collapses in modern history for a country not at war. It is not the result of a single event, but rather a \"perfect storm\" of structural weaknesses, policy mismanagement, and external shocks.\n\nHere are the main causes of the crisis:\n\n### 1. Over-reliance on Oil (The \"Dutch Disease\")\nFor decades, Venezuela’s economy was almost entirely dependent on oil exports, which accounted for roughly 95% of the country's export earnings.\n*   **The Trap:** When oil prices were high (during the 2000s), the government used oil revenues to fund massive social spending programs (\"Bolivarian missions\"). However, they failed to diversify the economy or invest in other industries.\n*   **The Crash:** When global oil prices plummeted in 2014–2015, the government’s primary source of revenue evaporated. Because the country had no savings (the government had spent the surplus during the boom years), it had no buffer to absorb the shock.\n\n### 2. Mismanagement of PDVSA\nThe state-owned oil company, *Petróleos de Venezuela, S.A.* (PDVSA), was the engine of the economy. Under the administrations of Hugo Chávez and Nicolás Maduro, the company suffered from:\n*   **Politicization:** Thousands of experienced engineers and managers were fired and replaced with political loyalists.\n*   **Lack of Investment:** Instead of reinvesting profits into maintenance and exploration, the government diverted PDVSA’s funds to social programs and debt payments. This led to a catastrophic decline in oil production, which fell from over 3 million barrels per day in the late 1990s to under 1 million by 2020.\n\n### 3. Price and Currency Controls\nTo combat inflation and ensure access to goods, the government implemented strict price controls and currency exchange controls.\n*   **Currency Controls:** The government fixed the exchange rate of the Bolivar to the U.S. dollar. This created a massive black market for currency, making it nearly impossible for businesses to import raw materials or spare parts, leading to widespread shortages of food, medicine, and basic goods.\n*   **Price Controls:** By forcing businesses to sell goods at prices below the cost of production, the government caused many companies to go bankrupt or stop producing goods entirely, further fueling shortages.\n\n### 4. Hyperinflation and Monetary Policy\nAs oil revenues dried up, the government faced massive budget deficits. Instead of cutting spending, the Central Bank of Venezuela began printing money at an exponential rate to cover the gap.\n*   This massive increase in the money supply, combined with a collapse in the production of goods, triggered hyperinflation. By 2018, inflation rates reached over 1,000,000%, rendering the local currency virtually worthless and destroying the savings of the middle class.\n\n### 5. Expropriations and Private Sector Collapse\nThe government engaged in a policy of seizing private businesses, farms, and factories, claiming they were serving the \"public good.\"\n*   **The Result:** Many of these seized assets were mismanaged by state bureaucrats and quickly became unproductive. This created a climate of legal uncertainty, causing private investment to flee the country and destroying the domestic supply chain.\n\n### 6. Corruption and Institutional Decay\nWidespread corruption within the government and state-owned enterprises siphoned off billions of dollars that were intended for infrastructure and social services. Transparency International consistently ranked Venezuela as one of the most corrupt countries in the world. This institutional decay meant that even when the government attempted to implement reforms, the systems were too broken to execute them effectively.\n\n### 7. International Sanctions\nWhile the crisis began before the most severe U.S. sanctions were imposed, international sanctions (particularly those imposed by the U.S. starting in 2017 and 2019) exacerbated the situation.\n*   Sanctions targeted the government’s ability to access international financial markets and restricted the sale of Venezuelan oil. While the government blames sanctions for the entire collapse, most economists argue that sanctions acted as an accelerant to a crisis that was already well underway due to the structural failures listed above.\n\n### Summary\nThe crisis was essentially a **failure of the \"Rentier State\" model.** The government built a system that relied entirely on high oil prices to function. When those prices fell, the government refused to adjust its spending or liberalize its economy, choosing instead to print money and tighten control, which led to the total collapse of the country's productive capacity.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 1116,
+  "total_tokens": 1134,
+  "cost": 0.0016785,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016785,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.001674
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 135,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:24.979127+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

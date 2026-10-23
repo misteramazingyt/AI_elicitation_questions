@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "D",
+ "prompt": "Describe the Black Death in fourteenth-century Europe.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Black Death was one of the most devastating pandemics in human history. It swept through Europe between roughly 1347 and 1351, though outbreaks and recurrences continued for centuries afterward.\n\n**Cause and origins**\nThe disease was caused by the bacterium *Yersinia pestis*, which is spread mainly by fleas that live on rodents, especially rats. It likely reached Europe through trade networks linking the Mongol-controlled regions of Central Asia, the Black Sea, and Mediterranean ports. A commonly cited episode is the Mongol siege of the Genoese trading post of Caffa (Feodosia) in Crimea around 1346, where the disease may have spread to Genoese ships that then carried it to Sicily and other Mediterranean ports in 1347.\n\n**Forms of the disease**\nThe plague appeared in several forms:\n- **Bubonic plague**, the most common, marked by painful swollen lymph nodes called buboes, often in the groin, armpits, or neck, along with fever and delirium.\n- **Pneumonic plague**, which infected the lungs and could spread directly from person to person through coughing.\n- **Septicemic plague**, an infection of the blood that was usually fatal before much could be done.\n\nVictims often died within a few days of symptoms appearing.\n\n**Spread and death toll**\nThe disease moved quickly along trade routes by sea and land, reaching Italy, France, Spain, England, Germany, Scandinavia, and beyond by 1350–1351. Cities, with their crowded conditions and busy commerce, were especially hard hit. Estimates suggest it killed roughly 30 to 60 percent of Europe's population, perhaps 20 million or more people, though exact figures are uncertain. Some regions lost even higher shares, and many villages were permanently abandoned.\n\n**Social and economic effects**\n- **Labor shortages** raised wages for surviving peasants and workers, weakening the feudal system of serfdom in many places.\n- **Religious upheaval** followed. Some people turned to piety, processions, and penitence, such as the flagellant movements. Others blamed Jews, leading to massacres and expulsions in many German and other cities, despite the fact that Jewish communities also suffered from the disease.\n- **Ruling authorities** responded with quarantines, isolation of the sick, burning of goods, and public health measures. Venice and other cities began requiring ships to wait (the origin of the word \"quarantine,\" from *quaranta giorni*, forty days).\n- **Cultural impact** included a lasting preoccupation with death, reflected in art like the \"Danse Macabre\" and the *memento mori* theme.\n- **Medical understanding** was limited. Explanations included miasma (bad air), astrological conjunctions, and divine punishment. Physicians could offer little effective treatment.\n\n**Recurrence**\nPlague returned repeatedly in Europe over the following centuries, with major outbreaks in the 1360s, 1400s, and later, including the Great Plague of London in 1665–1666.\n\nThe Black Death profoundly reshaped European society, altering its economy, labor relations, religious life, and outlook on mortality.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1037,
+  "total_tokens": 1065,
+  "cost": 0.0005213,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005213,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0005185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:09.800870+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

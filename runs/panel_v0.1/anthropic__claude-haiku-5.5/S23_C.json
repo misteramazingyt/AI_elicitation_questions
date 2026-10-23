@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "C",
+ "prompt": "What were the main causes of the 2020 George Floyd protests?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 2020 George Floyd protests grew out of several interconnected factors:\n\n**The immediate trigger:** On May 25, 2020, George Floyd, a 46-year-old Black man, died in Minneapolis after Derek Chauvin, a white police officer, knelt on his neck for nearly nine minutes during an arrest. Floyd had been accused of passing a counterfeit $20 bill. Bystanders filmed the encounter, and the video spread widely online, showing Floyd pleading that he couldn't breathe.\n\n**Longstanding concerns about police violence against Black Americans:** The killing came amid a long history of high-profile deaths of Black people at the hands of police or while in custody, including Eric Garner (2014), Michael Brown (2014), Breonna Taylor (2020, killed by police in Louisville in March), and Ahmaud Arbery (killed by armed white men in Georgia in February 2020). Many people saw Floyd's death as part of a recurring pattern rather than an isolated incident.\n\n**Racial disparities in the criminal justice system:** Advocates pointed to data showing Black Americans were disproportionately stopped, searched, arrested, and subjected to force, as well as broader inequities in incarceration and sentencing.\n\n**Impact of the COVID-19 pandemic:** The pandemic had disproportionately harmed Black communities through higher infection and death rates and job losses, which heightened frustration and made many people more available to protest while stuck at home.\n\n**Broader economic and social grievances:** Protesters also raised concerns about systemic racism in housing, healthcare, employment, and wealth inequality.\n\n**Calls for policy change:** The protests demanded accountability for officers involved, criminal charges, and reforms such as restrictions on chokeholds, changes to qualified immunity, police oversight, and reallocating some police funding. The movement also drew on the broader \"Black Lives Matter\" movement that had been active since 2013.\n\nThe protests that followed were among the largest in U.S. history, spreading to all 50 states and many other countries. Chauvin was convicted of murder in April 2021 and sentenced to 22½ years in prison.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 707,
+  "total_tokens": 735,
+  "cost": 0.0003563,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003563,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0003535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:00.755118+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

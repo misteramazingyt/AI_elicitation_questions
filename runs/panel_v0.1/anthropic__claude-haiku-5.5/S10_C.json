@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "*Dobbs v. Jackson Women's Health Organization* (June 24, 2022) overturned *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992), ending the federal constitutional right to abortion. Several factors led to that outcome:\n\n1. **Mississippi's 15-week ban.** Mississippi's Gestational Age Act (2018) prohibited most abortions after 15 weeks, before the point of viability that *Roe* and *Casey* had treated as the key line. Mississippi's clinic, Jackson Women's Health Organization, challenged it. The state asked the Court to uphold the law and, in its petition, to overturn *Roe* and *Casey* outright. The Court agreed to hear the case in 2021 and later accepted the broader question.\n\n2. **Changes in the Court's composition.** Three justices appointed by President Trump (Gorsuch, Kavanaugh, and Barrett) joined the Court between 2017 and 2020. This gave conservative justices a 6-3 majority. Many observers had long expected a majority willing to reconsider *Roe*, and this shift made it likely.\n\n3. **Doubts about the constitutional reasoning of *Roe*.** Justice Alito's majority opinion argued that the right to abortion is not \"deeply rooted in this Nation's history and tradition,\" as the Court's substantive due process precedents require. He also argued that *Roe* was poorly reasoned, relying on an expansive reading of the Fourteenth Amendment's Due Process Clause. The opinion said abortion should instead be left to the democratic process, with states and voters deciding.\n\n4. **Assessment of stare decisis.** The Court weighed whether to keep its precedent. The majority concluded that *Roe* and *Casey* had been unworkable, had produced a contested and unstable body of law, and that the moral and social stakes of abortion made the reliance interests less compelling than in other cases. Chief Justice Roberts concurred only in the judgment, favoring a narrower ruling that would have upheld the 15-week ban without overturning *Roe* entirely.\n\n5. **Long-running political and legal mobilization.** Opposition to *Roe* had been a central issue for decades. Republican presidents had repeatedly pledged to appoint justices who would reconsider it, and the conservative legal movement had developed sustained arguments against the decision. This background helped make overturning *Roe* a realistic goal once the Court had the votes.\n\nThe dissenting justices (Breyer, Sotomayor, and Kagan) argued that the decision abandoned settled precedent, undermined the Court's legitimacy, and removed a constitutional protection that had shaped people's lives for nearly 50 years. Supporters of the decision saw it as correcting a constitutional error and returning the question to elected officials. Both the legal reasoning and the wider significance remain heavily debated.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 1358,
+  "total_tokens": 1408,
+  "cost": 0.000684,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000684,
+   "upstream_inference_prompt_cost": 5e-06,
+   "upstream_inference_completions_cost": 0.000679
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 402,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:37.345779+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

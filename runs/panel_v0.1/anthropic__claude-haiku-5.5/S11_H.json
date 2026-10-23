@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1969 Stonewall riots? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians have read Stonewall in several overlapping ways. Much of the debate concerns how spontaneous it was, who participated, and how its meaning has been constructed over time.\n\n**1. Stonewall as a spontaneous turning point**\nEarly accounts, including those by activists, portrayed the June 28, 1969 uprising at the Stonewall Inn in Greenwich Village as a spontaneous eruption against police harassment that marked the start of gay liberation. David Carter's *Stonewall: The Riots That Sparked the Gay Revolution* (St. Martin's Press, 2004) is the most detailed narrative of this kind. Carter reconstructs the night hour by hour, emphasizes the raid's immediacy and the crowd's improvisation, and argues that the riots became a catalyst because of conditions already present in the city.\n\n**2. Stonewall as the product of longer activist traditions**\nOther historians place Stonewall within a longer history of gay and lesbian organizing, so that it is not an origin point. Toby Marotta's *The Politics of Homosexuality* (Houghton Mifflin, 1981) traces the homophile movement of the 1950s and 1960s (the Mattachine Society, the Daughters of Bilitis) and shows how it shaped the politics that emerged after 1969. Marc Stein's *Rethinking the Gay and Lesbian Movement* (Routledge, 2012) and his *City of Sisterly and Brotherly Loves* (University of Chicago Press, 2000) stress earlier protests, such as the 1965 Dewey's sit-in in Philadelphia, and argue that the \"Stonewall narrative\" obscures a multi-city, multi-decade movement.\n\n**3. Stonewall as myth-making**\nElizabeth Armstrong and Suzanna Crage's article \"Movements and Memory: The Making of the Stonewall Myth\" (*American Sociological Review*, 2006) is central to this view. They argue that Stonewall's status as the foundational event was built over the 1970s, 1980s, and 1990s through activist commemoration, media coverage, and organizational interests. Their analysis suggests that the myth elevated certain participants, often white gay men, and downplayed others. Their work is a key reference for historians who treat Stonewall as a site of memory rather than a simple fact.\n\n**4. Stonewall and race, class, and gender**\nScholars focused on marginalized participants argue that the popular story has erased the leadership of drag queens, transgender people, street youth, and people of color. Martin Duberman's *Stonewall* (Dutton, 1993) draws on oral histories and gives considerable attention to working-class patrons and gender-nonconforming people, including Stormé DeLarverie and Marsha P. Johnson. Susan Stryker's *Transgender History* (Seal Press, 2008) situates trans participation within a longer history of gender nonconformity and argues that trans activism is often underrepresented in mainstream accounts.\n\n**5. Stonewall within broader state repression**\nSome historians emphasize the political and legal context of policing. David K. Johnson's *The Lavender Scare* (University of Chicago Press, 2004) documents the federal persecution of gay people in the 1950s, which helps explain why raids and harassment were routine. Historians of the bar raids argue that the Stonewall uprising was a response to systematic surveillance rather than an isolated incident.\n\n**6. Contemporary and early interpretations**\nDennis Altman's *Homosexual: Oppression and Liberation* (Outerbridge & Dienstfrey, 1971) was written soon after the riots and interprets them as part of a broader revolt against sexual and social repression. Jonathan Ned Katz's *Gay American History* (Crowell, 1976) gathered primary sources that later historians used to contextualize the event.\n\n**Summary of the debate**\n- Was Stonewall spontaneous or the outgrowth of organizing?\n- Is it the origin of gay liberation or one event in a longer movement?\n- Whose experiences are centered in the dominant narrative, and whose are excluded?\n- How has collective memory reshaped what happened?\n\nMost recent historians combine these approaches. They treat the uprising as a real event with specific participants and causes, and they also examine how its meaning has been constructed and contested.\n\nI'd recommend checking the exact page numbers and editions in these works before citing them formally, since I may be off on minor bibliographic details.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 2745,
+  "total_tokens": 2781,
+  "cost": 0.0013761,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013761,
+   "upstream_inference_prompt_cost": 3.6e-06,
+   "upstream_inference_completions_cost": 0.0013725
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1273,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:39.126330+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "C",
+ "prompt": "What were the main causes of the 1994 U.S. crime bill?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1994 U.S. crime bill, formally the Violent Crime Control and Law Enforcement Act of 1994, was driven by several overlapping factors:\n\n1. **Rising violent crime in the late 1980s and early 1990s.** Violent crime rates had climbed sharply from the mid-1980s, fueled in part by the crack cocaine epidemic and associated gang and drug-market violence. Homicides peaked around 1991-1992, and public alarm was high.\n\n2. **Public fear and political pressure.** Crime became a major public concern, and polling showed voters wanted tougher action. High-profile cases, such as the 1993 kidnapping and murder of 12-year-old Polly Klaas in California, intensified demands for stronger laws.\n\n3. **The \"tough on crime\" political shift.** Both parties moved toward harsher criminal justice positions. Democrats, led by President Bill Clinton, sought to counter the perception that they were soft on crime, a reputation that had hurt them in earlier elections. Clinton, as Arkansas governor, had also presided over executions and touted his tough-on-crime credentials.\n\n4. **Concern about police capacity.** Many law enforcement leaders and officials argued that local police departments needed more resources, which led to the bill's funding for 100,000 new police officers through the Community Oriented Policing Services (COPS) program.\n\n5. **Growing prison populations and sentencing reform debates.** Mandatory minimum sentences and \"three strikes\" laws had gained support at the state level, and federal lawmakers wanted to standardize and expand tough sentencing. The bill expanded the federal death penalty, created new federal capital offenses, and funded prison construction through grants to states.\n\n6. **Concern over specific crimes.** Lawmakers targeted violent crime, gun violence (including the assault weapons ban and restrictions on certain high-capacity magazines), domestic violence (through the Violence Against Women Act), and drug offenses.\n\n7. **Federal-state coordination and interest group support.** Law enforcement organizations, victims' rights advocates, and many members of Congress from both parties supported the measure, which helped it pass with bipartisan votes.\n\nThe bill's legacy is widely debated. Supporters credit it with contributing to falling crime rates in the late 1990s, while critics argue it contributed to mass incarceration and disproportionately affected Black and low-income communities.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 789,
+  "total_tokens": 818,
+  "cost": 0.0003974,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003974,
+   "upstream_inference_prompt_cost": 2.9e-06,
+   "upstream_inference_completions_cost": 0.0003945
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:53.009173+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

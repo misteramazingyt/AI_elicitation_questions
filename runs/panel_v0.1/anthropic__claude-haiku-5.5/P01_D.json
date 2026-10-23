@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "D",
+ "prompt": "Describe the invention of the movable-type printing press in Europe.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The movable-type printing press in Europe is most closely associated with Johannes Gutenberg, a goldsmith and inventor in the German city of Mainz, who developed his system around 1440 and refined it through the 1450s.\n\n**Background and motivation**\nBefore Gutenberg, books in Europe were copied by hand, mostly by monks and scribes in monasteries and scriptoria. This was slow and expensive, and books were scarce. Woodblock printing and block-printed texts had existed in East Asia for centuries, and in Europe block printing was used for textiles, playing cards, and short devotional images, but carving an entire page from a single block was laborious and inflexible.\n\n**Gutenberg's key innovations**\nGutenberg's achievement was less a single invention than a combination of techniques:\n\n1. **Movable metal type:** He cast individual letters, punctuation marks, and ligatures as separate pieces. Each character was made in a mold, which allowed for many identical copies of each letter. The molds were adjustable, so type could be cast in consistent sizes.\n\n2. **Type metal:** He developed an alloy of lead, tin, and antimony. This mixture melted at a low temperature, cast cleanly, and was durable enough for repeated printing.\n\n3. **Hand mold for casting:** A hand-held mold with an adjustable matrix let workers produce type quickly and uniformly.\n\n4. **Oil-based ink:** Earlier inks were water-based and did not adhere well to metal type. Gutenberg used an oil-based ink, typically linseed oil mixed with soot or lampblack, that stuck well to metal and produced sharp, durable impressions.\n\n5. **Adapted screw press:** He modified the wine or olive press into a printing press. A flat platen pressed paper onto inked type set in a frame, which gave even, firm pressure across the page.\n\n6. **Composition system:** Type was assembled line by line in a composing stick, then locked into a chase (a metal frame), forming a page. After printing, the type could be redistributed and reused.\n\n**Result**\nGutenberg's most famous product is the Gutenberg Bible, printed in the 1450s, roughly 180 copies of which were produced, many on paper and some on vellum. Its quality rivaled manuscript books, showing the system's potential.\n\n**Spread and impact**\nPrinting spread rapidly through Europe. By 1500, presses operated in more than 200 cities, and millions of books had been printed. This helped standardize texts, lowered the cost of books, spurred literacy, and accelerated the Renaissance, the Reformation, and the Scientific Revolution by enabling wide and rapid circulation of ideas.\n\n**Note on credit:** While Gutenberg is credited with the European system, he built on existing technologies such as the screw press, and the question of who first developed similar ideas is debated. Movable type had been used earlier in China (Bi Sheng, around 1040) and Korea (metal movable type by the early 1200s), though those systems did not spread to Europe and differed in several respects.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 994,
+  "total_tokens": 1022,
+  "cost": 0.0004998,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004998,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.000497
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:03.603274+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

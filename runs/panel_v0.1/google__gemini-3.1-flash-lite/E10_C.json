@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "C",
+ "prompt": "What were the main causes of the UK miners' strike of 1984-1985?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The UK miners' strike of 1984–1985 was one of the most divisive and significant events in British 20th-century history. It was not caused by a single issue, but rather by a collision of economic policy, political ideology, and a long-standing power struggle between the government and the trade unions.\n\nHere are the main causes of the strike:\n\n### 1. The Economic Rationalization of the Coal Industry\nBy the early 1980s, the National Coal Board (NCB) argued that the coal industry was losing vast amounts of money. The government maintained that many pits were \"uneconomic\"—meaning the cost of extracting the coal was higher than the market price for selling it.\n\nThe NCB, led by Ian MacGregor, proposed a plan to close 20 \"uneconomic\" pits, which would result in the loss of 20,000 jobs. The National Union of Mineworkers (NUM), led by Arthur Scargill, argued that these pits were not truly uneconomic and that the closures were a deliberate attempt to dismantle the industry and destroy the union’s power.\n\n### 2. The \"Ridley Plan\" and Government Strategy\nThe Conservative government, led by Margaret Thatcher, had been preparing for a confrontation with the miners since the 1970s. The previous Conservative government under Edward Heath had been brought down by a miners' strike in 1974, and Thatcher was determined not to repeat that failure.\n\nA leaked document known as the \"Ridley Plan\" (authored by Nicholas Ridley in 1977) outlined a strategy for the government to defeat a major strike. It recommended:\n*   Building up massive coal stocks at power stations to ensure the lights stayed on during a strike.\n*   Using non-unionized road haulage to move coal.\n*   Preparing the police to handle mass picketing.\n*   Ensuring the government had the financial reserves to outlast the union.\n\nBy 1984, the government felt it had successfully implemented these preparations and was ready to force a showdown.\n\n### 3. The Clash of Ideologies: Thatcherism vs. Union Power\nThe strike was as much about political philosophy as it was about coal.\n*   **Thatcherism:** Margaret Thatcher believed in free-market economics, privatization, and reducing the power of trade unions, which she viewed as an obstacle to economic efficiency and a threat to parliamentary democracy. She wanted to break the \"closed shop\" culture and the influence the NUM had over government policy.\n*   **The NUM:** Arthur Scargill and the NUM leadership viewed the strike as a defense of working-class communities and the socialist principle of collective bargaining. They believed that if the government succeeded in closing pits, it would lead to the total destruction of mining communities and the erosion of workers' rights.\n\n### 4. The Leadership of Arthur Scargill\nThe personality and tactics of Arthur Scargill played a significant role in the escalation of the strike. Scargill was a militant leader who refused to compromise. Crucially, he decided not to hold a national ballot of the miners before calling the strike.\n\nUnder the NUM constitution, a national ballot was usually required to authorize a strike. Scargill bypassed this by allowing individual areas (like Yorkshire) to strike, which then effectively forced other areas to join. This decision alienated many miners who felt they had not been given a democratic choice, and it allowed the government to label the strike \"undemocratic\" and illegal.\n\n### 5. The Decline of Coal and the Rise of Alternatives\nThe broader economic context was shifting away from coal. The government was increasingly looking toward North Sea oil and gas, as well as nuclear power, to meet the UK's energy needs. This made the coal industry less vital to the national economy than it had been in previous decades, weakening the miners' traditional leverage—the ability to bring the country to a standstill by cutting off the energy supply.\n\n### Summary\nThe strike was the culmination of a \"perfect storm\":\n*   **The Government** wanted to break the power of the unions and modernize the economy by closing loss-making state industries.\n*   **The Union** wanted to protect jobs and maintain the social fabric of mining communities.\n*   **The Leadership** on both sides (Thatcher and Scargill) were ideologically opposed and unwilling to compromise, turning a labor dispute into a battle for the future of Britain.\n\nThe strike ended in March 1985 with a total victory for the government. It led to the eventual closure of almost all deep-pit mines in the UK and permanently weakened the power of British trade unions.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 1128,
+  "total_tokens": 1151,
+  "cost": 0.00169775,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00169775,
+   "upstream_inference_prompt_cost": 5.75e-06,
+   "upstream_inference_completions_cost": 0.001692
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 144,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:23.625599+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

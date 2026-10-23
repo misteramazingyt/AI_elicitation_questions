@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "D",
+ "prompt": "Describe the 1883 eruption of Krakatoa.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1883 eruption of Krakatoa, a volcanic island in the Sunda Strait between Java and Sumatra in present-day Indonesia, was one of the most catastrophic volcanic events in recorded history.\n\n**Background:** Krakatoa had been dormant for about two centuries before activity resumed in May 1883. Small eruptions began on May 20, sending ash and steam into the air, and these continued for several weeks.\n\n**The climactic eruptions:** Activity escalated dramatically in late August. On August 26, a series of powerful explosions sent an ash column roughly 80 kilometers (50 miles) into the atmosphere. The most violent phase came on August 27, when the largest explosions occurred. These were among the loudest sounds ever documented. The blasts were heard nearly 5,000 kilometers (3,000 miles) away, including on Rodrigues Island near Mauritius, and in Perth, Australia, about 3,400 km distant.\n\n**Destruction:** The eruption largely destroyed the island. Roughly two-thirds of Krakatoa collapsed into the magma chamber, leaving a submerged caldera. The collapse and explosions generated enormous tsunamis, some reaching heights of around 30 meters (100 feet) or more. These waves struck the coasts of Java and Sumatra, destroying hundreds of coastal towns and villages. The death toll is generally estimated at about 36,000, though precise figures are unknown. Many victims died from the tsunamis, while others were killed by falling debris and pyroclastic flows.\n\n**Global effects:** The eruption ejected an estimated 20 cubic kilometers of material. Fine ash and sulfur aerosols spread through the stratosphere and circled the globe, producing vivid red and orange sunsets worldwide for months or years afterward. The atmospheric particles also lowered global temperatures slightly for a period, roughly 1 °C in some regions over the following year.\n\n**Legacy:** The eruption was one of the first major natural disasters to be studied and reported in global news, aided by the telegraph. It played a significant role in the development of volcanology and tsunami science. A new island, Anak Krakatau (\"Child of Krakatoa\"), emerged from the caldera in 1930 and continues to grow and erupt intermittently.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 757,
+  "total_tokens": 784,
+  "cost": 0.0003812,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003812,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.0003785
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:05.635487+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

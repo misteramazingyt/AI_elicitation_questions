@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "C",
+ "prompt": "What were the main causes of the 1969 Stonewall riots?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Stonewall riots of June 1969 were not caused by a single event, but rather by decades of systemic oppression, social marginalization, and a growing sense of frustration within the LGBTQ+ community.\n\nWhile the police raid on the Stonewall Inn was the \"spark,\" the \"tinder\" had been accumulating for years. Here are the main causes and contributing factors:\n\n### 1. Systemic Police Harassment\nIn the 1960s, police raids on gay bars were routine and brutal. Law enforcement frequently targeted these establishments under the guise of enforcing liquor license laws or \"morality\" statutes.\n*   **Humiliation:** During raids, police would often line up patrons, demand identification, and arrest those who were not wearing at least three items of clothing deemed \"appropriate\" for their gender (a common, discriminatory law at the time).\n*   **Public Exposure:** Police would often photograph patrons and publish their names in newspapers, which frequently led to the victims being fired from their jobs, evicted from their homes, or ostracized by their families.\n*   **Corruption:** Many gay bars were owned by the Mafia, who paid off police to look the other way. However, when police wanted to meet quotas or exert power, they would raid these bars anyway, leaving the patrons with no protection or recourse.\n\n### 2. The Criminalization of LGBTQ+ Life\nIn 1969, being gay was effectively illegal in almost every state in the U.S.\n*   **Sodomy Laws:** Same-sex sexual acts were criminalized, often classified as felonies.\n*   **\"Disorderly Conduct\":** Police used vague \"disorderly conduct\" or \"vagrancy\" laws to arrest people simply for being gay in public, dancing with someone of the same sex, or holding hands.\n*   **Psychiatric Stigma:** The American Psychiatric Association officially classified homosexuality as a mental disorder, which justified \"treatments\" like conversion therapy, lobotomies, and chemical castration.\n\n### 3. A Changing Cultural Climate\nThe late 1960s was a period of intense social upheaval in the United States. The Civil Rights Movement, the anti-Vietnam War protests, and the second-wave feminist movement were all challenging the status quo.\n*   **The \"Movement\" Mindset:** LGBTQ+ individuals began to see that other marginalized groups were successfully organizing and demanding their rights. This created a sense of empowerment and a realization that they, too, could fight back.\n*   **Early Activism:** While Stonewall is often cited as the *start* of the modern movement, there were earlier, smaller acts of resistance (such as the Compton’s Cafeteria riot in San Francisco in 1966 and the Black Cat Tavern protests in Los Angeles in 1967). These events laid the groundwork for the militancy seen at Stonewall.\n\n### 4. The Specific Atmosphere of the Stonewall Inn\nThe Stonewall Inn was a unique space in Greenwich Village. It was one of the few places that allowed dancing and welcomed a diverse crowd, including drag queens, transgender individuals, homeless youth, and people of color.\n*   **The \"Street Kids\":** Many of the patrons at Stonewall were homeless LGBTQ+ youth who had been kicked out of their homes. They had very little to lose and were often the most vulnerable to police brutality. Their presence meant that the crowd at Stonewall was not just frustrated—they were desperate and had reached a breaking point.\n*   **The Breaking Point:** On the night of June 28, 1969, the police raid did not go as planned. Instead of the usual compliance, the patrons—tired of being treated like criminals for simply existing—began to fight back. They threw coins, bottles, and debris at the police, eventually forcing the officers to barricade themselves inside the bar.\n\n### Summary\nThe Stonewall riots were the result of **cumulative trauma.** The LGBTQ+ community had been living under a constant threat of state-sanctioned violence, social exile, and legal persecution. When the police raided the Stonewall Inn that night, the community decided they were no longer willing to be passive victims. The riots transformed the LGBTQ+ movement from a quiet, assimilationist effort into a loud, proud, and confrontational fight for civil rights.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 1033,
+  "total_tokens": 1049,
+  "cost": 0.0015535,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015535,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.0015495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 123,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:38.738194+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

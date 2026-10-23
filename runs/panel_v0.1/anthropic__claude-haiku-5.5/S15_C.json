@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "C",
+ "prompt": "What were the main causes of the 1948 Arab-Israeli war?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1948 Arab-Israeli War (known in Israel as the War of Independence and in Arabic sources as the Nakba, or \"catastrophe,\" for Palestinians) had several interrelated causes:\n\n**1. The collapse of the British Mandate for Palestine**\nBritain had administered Palestine under a League of Nations mandate since 1922. Faced with irreconcilable Jewish and Arab demands, and with mounting violence (including the Arab Revolt of 1936–1939 and Jewish insurgent attacks on British forces in the 1940s), Britain announced in February 1947 that it would refer the question to the newly formed United Nations and would withdraw by May 1948. This created a power vacuum.\n\n**2. The UN Partition Plan (Resolution 181, November 1947)**\nThe UN General Assembly voted to partition Palestine into a Jewish state, an Arab state, and an internationally administered Jerusalem. Jewish leaders largely accepted the plan, though with reservations about borders. Arab leaders, including the Arab Higher Committee, rejected it, arguing it violated the majority Arab population's right to self-determination and gave the Jewish state roughly 55% of the land despite Jews being about a third of the population and owning around 7% of the land.\n\n**3. Civil war in Mandatory Palestine (late 1947–early 1948)**\nImmediately after the partition vote, fighting broke out between Jewish and Arab communities. Attacks, reprisals, and massacres escalated, and Arab irregular forces, including those led by Abd al-Qadir al-Husseini, attacked Jewish communities and convoys, while Jewish paramilitaries (Haganah, Irgun, Lehi) conducted offensives that displaced Arab populations, including in Haifa, Jaffa, and villages along key routes. Hundreds of thousands of Palestinians began fleeing or being expelled before the formal war.\n\n**4. The declaration of the State of Israel (May 14, 1948)**\nWhen David Ben-Gurion declared independence and the British Mandate ended, neighboring Arab states, which had opposed partition, intervened. Egypt, Transjordan, Syria, Iraq, and Lebanon sent armies into former Mandate territory on May 15, 1948. Their motives were mixed: defending Palestinian Arabs, responding to domestic political pressures, competing with one another (especially Transjordan's King Abdullah, who had ambitions to annex Arab parts of Palestine), and opposing the creation of a Jewish state.\n\n**5. Competing nationalisms and irreconcilable goals**\nAt the core was a conflict between two national movements, Zionism and Palestinian Arab nationalism, each claiming the same land. Jewish leaders sought a sovereign state, partly in response to persecution in Europe and the Holocaust. Arab leaders opposed what they saw as colonization and the transfer of sovereignty away from the Arab majority. Neither side would accept the other's vision, and mutual distrust made compromise very difficult.\n\n**6. Regional politics and the Arab state system**\nArab governments were newly independent or semi-independent, and rivalries among Hashemite monarchies, Egypt, and Syria shaped their decisions. Public opinion across the Arab world pushed governments toward intervention, though their military coordination was weak.\n\n**Outcome:** The war ended with armistice agreements in 1949. Israel expanded beyond the UN partition borders and held West Jerusalem; Jordan held the West Bank and East Jerusalem; Egypt controlled the Gaza Strip. Roughly 700,000 Palestinians became refugees, and a similar number of Jews were displaced from Arab countries in subsequent years. The war's legacy, including the refugee question, shaped the later conflict.\n\nHistorians still debate the relative weight of these causes, the extent to which expulsions were planned, and the responsibility of different actors.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 1298,
+  "total_tokens": 1328,
+  "cost": 0.000652,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000652,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.000649
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:45.618778+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

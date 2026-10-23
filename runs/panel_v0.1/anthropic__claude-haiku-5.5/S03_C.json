@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "C",
+ "prompt": "What were the main causes of McCarthyism in the 1950s?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "McCarthyism, the period of intense anti-communist suspicion and accusation in the United States in the late 1940s and 1950s, arose from a combination of factors:\n\n**1. Cold War tensions**\nThe breakdown of the wartime alliance with the Soviet Union, the Soviet domination of Eastern Europe, the Berlin blockade, and the 1949 Soviet atomic bomb test created a sense of existential threat. Communism was increasingly seen as an external enemy with potential internal allies.\n\n**2. Major Soviet and communist victories**\nThe \"fall\" of China to Mao's communists in 1949, the Soviet atomic test, and the Korean War (1950–1953) made many Americans feel the United States was losing ground. Officials and the public searched for explanations, and the answer many accepted was subversion from within.\n\n**3. Espionage scandals**\nReal cases fueled fears. Among them were Alger Hiss, a State Department official convicted of perjury in 1950 after being accused of espionage; the Rosenberg case, in which Julius and Ethel Rosenberg were executed in 1953 for passing atomic secrets; and Klaus Fuchs, a British physicist who confessed to giving atomic information to the Soviets. These cases made the threat seem concrete.\n\n**4. Domestic political competition**\nThe Republican Party, out of power for two decades, saw anti-communism as a potent campaign issue against the Truman administration, which was vulnerable to charges of being \"soft on communism.\" Joseph McCarthy's 1950 Wheeling, West Virginia speech, where he claimed to hold a list of known communists in the State Department, brought the issue into the national spotlight.\n\n**5. Institutional and bureaucratic momentum**\nThe Truman administration itself launched loyalty-security programs (1947) that required federal employees to be screened for disloyalty. The House Un-American Activities Committee (HUAC) had been investigating subversion since the 1930s and gained high-profile attention through the Hollywood investigations of 1947. These institutions normalized investigation based on suspicion of beliefs and associations.\n\n**6. Social and cultural anxieties**\nPostwar America experienced rapid change, nuclear-age fear, and concerns about conformity and national identity. Some Americans saw communism as a threat to traditional religious, family, and economic values, and loyalty oaths and blacklists spread into schools, unions, and entertainment.\n\n**7. Weak safeguards and media dynamics**\nCivil liberties protections were weakened by the era's legal climate, and sensational claims were amplified by the press. McCarthy's accusations were often unsubstantiated, but the press and many politicians gave them wide circulation, and few were willing to challenge him early on.\n\n**Outcome:** The movement peaked in the early 1950s and declined after McCarthy's televised Army-McCarthy hearings in 1954 exposed his recklessness, and he was formally censured by the Senate later that year. The era left lasting damage to careers and civil liberties, and the term \"McCarthyism\" is now used broadly for unfounded accusations and political witch hunts.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1025,
+  "total_tokens": 1053,
+  "cost": 0.0005153,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005153,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0005125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:23.020624+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

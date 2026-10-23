@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1993 Waco siege?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1993 Waco siege, which ended on April 19, 1993, when a fire destroyed the Branch Davidian compound near Waco, Texas, had several major consequences:\n\n**Human toll**\n- About 76 Branch Davidians died, including roughly 25 children, after the 51-day standoff with federal agents ended in a fire. Around 9 people survived.\n- Four ATF agents died in the initial raid on February 28, 1993, and about six Davidians were also killed then.\n- The cause of the fire remains disputed. Investigations, including a Justice Department review and a 2000 report by former Senator John Danforth, concluded that Branch Davidians set the fire, though critics argue federal tactics, including tear gas insertion and the armored vehicles used to breach the compound, contributed to its spread and outcome.\n\n**Government accountability and policy**\n- Congressional hearings were held, and the events drew sharp criticism of the ATF and FBI.\n- Attorney General Janet Reno took responsibility publicly and the Justice Department faced scrutiny over its handling of the operation.\n- The Danforth report (2000) criticized the government's decision-making and the use of force, though it largely defended the agents' actions in the initial raid and cleared them of deliberate wrongdoing in the fire.\n\n**Legal aftermath**\n- Surviving Davidians were tried in 1994 on various charges. Most were acquitted of the most serious charges, including murder, though several were convicted of lesser firearms offenses.\n- A civil suit by surviving Davidians and relatives against the government ended in a 1994 jury-free settlement, and wrongful death claims were later pursued in various forms with limited success.\n\n**Political and cultural impact**\n- Waco became a rallying point for anti-government movements, militia groups, and critics of federal law enforcement. It is widely cited as a grievance behind the 1995 Oklahoma City bombing, which Timothy McVeigh carried out on the anniversary of the fire's end, April 19.\n- The event fueled debates about gun rights, federal power, and the militarization of police, and it shaped public distrust of agencies like the ATF and FBI.\n- It remains a controversial and frequently discussed event, with ongoing disagreement over who bore responsibility.\n\n**Changes in law enforcement**\n- Subsequent reviews led to changes in tactical procedures for hostage and barricade situations, with greater emphasis on negotiation and caution in using force.\n\nIf you're interested in a specific aspect, such as the legal proceedings, the investigations, or the effects on militia movements, I can go into more detail.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 853,
+  "total_tokens": 879,
+  "cost": 0.0004291,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004291,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.0004265
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:26.439711+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

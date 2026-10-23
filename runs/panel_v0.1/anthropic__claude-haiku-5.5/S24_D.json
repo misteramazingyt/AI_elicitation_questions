@@ -1,0 +1,43 @@
+{
+ "item": "S24",
+ "template": "D",
+ "prompt": "Describe the January 6, 2021 attack on the U.S. Capitol.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The January 6, 2021 attack on the U.S. Capitol was a violent assault on the seat of the U.S. Congress in Washington, D.C., carried out by a crowd of supporters of President Donald Trump. It occurred as a joint session of Congress was convening to certify the Electoral College results of the 2020 presidential election, in which Joe Biden had defeated Trump.\n\n**Background**\nTrump and his allies repeatedly claimed, without evidence that courts or election officials accepted, that widespread fraud had cost him the election. Earlier that day, Trump spoke at a rally near the White House, urging supporters to \"fight like hell\" and to march to the Capitol to pressure lawmakers. Some members of Congress, notably Vice President Mike Pence (in his role presiding over the count), were pressured to reject or delay certain state electoral votes, a step Pence said he lacked the authority to take.\n\n**The Attack**\n- Thousands of people gathered, and many marched to the Capitol. Several hundred entered the building, and others breached the grounds and police lines.\n- Rioters clashed violently with Capitol and Metropolitan Police officers, using weapons, flagpoles, and other objects. Many officers were injured, and some died in the following days or months from related causes; at least one officer died by suicide shortly afterward, and others reported lasting trauma.\n- Protesters broke windows, smashed doors, and forced their way into the Senate and House chambers, the offices of lawmakers, and the Capitol's hallways. Some sought out lawmakers, and Vice President Pence and members of Congress were evacuated for their safety.\n- Some people built a gallows outside the Capitol, and rioters chanted threats against Pence and others.\n- Lawmakers, staff, and journalists were forced to shelter in place or flee. Congress suspended the certification for several hours before reconvening that night and completing the count early on January 7.\n\n**Aftermath**\n- Law enforcement made more than 1,500 arrests, and the Justice Department prosecuted over 1,000 people for crimes ranging from trespassing to seditious conspiracy and assault on officers. Many were convicted, and some received lengthy prison sentences.\n- Trump was impeached by the House for incitement of insurrection, and the Senate acquitted him in February 2021, with a majority voting to convict but short of the two-thirds required.\n- A bipartisan Senate report and a House select committee investigated the events. The House committee concluded that Trump's actions were central to the attack; Trump disputed this and has described the participants in a favorable light, pardoning or commuting sentences for many of those convicted after returning to office in 2025.\n- The attack remains politically contested, with sharp disagreement over its causes, its severity, and the appropriate response.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 909,
+  "total_tokens": 942,
+  "cost": 0.0004578,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004578,
+   "upstream_inference_prompt_cost": 3.3e-06,
+   "upstream_inference_completions_cost": 0.0004545
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:02.670853+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "Q",
+ "prompt": "What were the consequences of the rise of the Moral Majority around 1980?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Moral Majority, founded in 1979 by Jerry Falwell and other conservative Christian leaders, became one of the most influential political organizations of the early 1980s. Its rise had several significant consequences:\n\n**Mobilization of evangelical and fundamentalist voters**\nThe group brought many previously politically inactive Protestant fundamentalists and evangelicals into the political process. It used direct mail, television, and a network of local chapters, and it registered millions of new voters. This helped turn religious conservatism into a potent electoral force.\n\n**Alliance with the Republican Party**\nThe Moral Majority helped cement the relationship between the religious right and the GOP. Its support was important to Ronald Reagan's 1980 presidential campaign, which courted religious conservatives, and the party increasingly adopted their positions on issues like abortion, school prayer, and traditional family values. This alignment shaped American politics for decades.\n\n**Shaping the culture-war agenda**\nThe organization pushed issues such as opposition to abortion, opposition to the Equal Rights Amendment, support for prayer in public schools, and opposition to what it saw as the secularization of American life and the spread of \"secular humanism.\" These became central fixtures of national political debate, often framed as a \"culture war.\"\n\n**Increased political polarization and controversy**\nCritics, including many mainline Protestants, Jews, civil liberties advocates, and secular groups, argued that the Moral Majority blurred the line between church and state and sought to impose particular religious views on the public. Its rhetoric and positions also drew criticism for being divisive, and its activism prompted counter-mobilization on the left and among moderate religious groups.\n\n**Institutional and organizational legacy**\nAlthough the Moral Majority itself dissolved in 1989 after Falwell's fundraising and organizational difficulties and declining influence, it paved the way for successor groups such as the Christian Coalition, founded by Pat Robertson in 1989, and the broader religious right infrastructure. Many of its tactics, including grassroots organizing, voter guides, and media outreach, became standard in American conservative politics.\n\n**Changing religious and political identity**\nThe movement helped redefine \"evangelical\" as a political identity in the public mind, linking religious belief with conservative partisanship in ways that remain influential, though scholars continue to debate the extent of its long-term effects on voting behavior and American religion.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 779,
+  "total_tokens": 810,
+  "cost": 0.0003926,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003926,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.0003895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:41.972132+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

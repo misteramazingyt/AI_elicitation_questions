@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "C",
+ "prompt": "What were the main causes of Argentina's 2001 economic crisis?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2001 economic crisis in Argentina was a \"perfect storm\" caused by a combination of rigid monetary policy, unsustainable fiscal practices, external economic shocks, and a loss of investor confidence. It remains one of the most severe economic collapses in modern history.\n\nHere are the primary causes of the crisis:\n\n### 1. The \"Convertibility Plan\" (The 1:1 Peg)\nIn 1991, to stop hyperinflation, Argentina implemented the \"Convertibility Plan,\" which legally pegged the Argentine peso to the U.S. dollar at a 1:1 ratio.\n*   **The Benefit:** It successfully killed inflation and brought stability for several years.\n*   **The Problem:** It stripped the government of its ability to use monetary policy (like devaluing the currency) to adjust to economic shocks. Because the peso was tied to the dollar, if the dollar became stronger, the peso became artificially expensive. This made Argentine exports too expensive for foreign buyers and made imports cheap, which hurt local industries and led to a massive trade deficit.\n\n### 2. Unsustainable Fiscal Deficits and Debt\nThroughout the 1990s, the Argentine government spent more money than it collected in taxes. To cover these deficits, the government borrowed heavily from international markets.\n*   **The Debt Trap:** As the economy stagnated, the government had to borrow even more just to pay the interest on its existing debt. Eventually, international investors realized that Argentina’s debt-to-GDP ratio was becoming unsustainable and that the country might default. As a result, they stopped lending money, or demanded exorbitant interest rates, which accelerated the collapse.\n\n### 3. External Economic Shocks\nArgentina was hit by several external factors that made its rigid economic structure impossible to maintain:\n*   **The Brazilian Devaluation (1999):** Brazil is Argentina’s largest trading partner. When Brazil devalued its currency (the Real), Brazilian goods became much cheaper than Argentine goods. This devastated Argentine manufacturing and exports.\n*   **The Strength of the U.S. Dollar:** Because the peso was pegged to the dollar, when the U.S. dollar strengthened globally in the late 90s, the peso effectively became \"overvalued.\" This made Argentina uncompetitive in the global market.\n*   **Falling Commodity Prices:** Argentina’s economy relied heavily on agricultural exports. A drop in global commodity prices during this period reduced the country's income.\n\n### 4. Lack of Structural Reform\nWhile the government focused on the currency peg, it failed to implement necessary structural reforms. The labor market remained rigid, making it difficult for businesses to adapt to the changing economy. Furthermore, the government failed to reduce public spending or address corruption, which eroded the efficiency of the state and discouraged long-term investment.\n\n### 5. The \"Corralito\" and Loss of Confidence\nBy late 2001, the situation reached a breaking point. Fearing a devaluation of the peso and a banking collapse, citizens began withdrawing their savings in U.S. dollars from banks in a massive \"run on the banks.\"\n\nTo prevent the total collapse of the banking system, the government imposed the **\"Corralito\"** (little corral) in December 2001. This policy severely restricted cash withdrawals from bank accounts. This was the final straw for the public. It sparked massive protests, riots, and looting, leading to the resignation of President Fernando de la Rúa, who famously fled the presidential palace in a helicopter.\n\n### The Aftermath\nFollowing the collapse, Argentina:\n*   **Defaulted on its debt:** It declared the largest sovereign debt default in history at the time (approx. $93 billion).\n*   **Abandoned the peg:** The government ended the 1:1 convertibility, causing the peso to lose a massive amount of its value.\n*   **Suffered deep poverty:** Unemployment skyrocketed, and poverty rates soared, pushing millions of middle-class Argentines into poverty almost overnight.\n\n**In summary:** The crisis was caused by a rigid currency system that could not adapt to external shocks, combined with a government that relied on unsustainable borrowing to fund its deficits, eventually leading to a total loss of public and international trust.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 17,
+  "completion_tokens": 1014,
+  "total_tokens": 1031,
+  "cost": 0.00152525,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00152525,
+   "upstream_inference_prompt_cost": 4.25e-06,
+   "upstream_inference_completions_cost": 0.001521
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 128,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:25.429673+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

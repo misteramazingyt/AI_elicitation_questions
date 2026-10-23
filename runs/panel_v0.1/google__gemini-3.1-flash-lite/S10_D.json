@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Supreme Court’s 2022 decision in *Dobbs v. Jackson Women's Health Organization* is one of the most significant rulings in modern American legal history. It fundamentally altered the constitutional landscape regarding abortion rights in the United States.\n\nHere is a breakdown of the decision, its legal reasoning, and its impact.\n\n### The Background\nThe case centered on a 2018 Mississippi law, the \"Gestational Age Act,\" which prohibited almost all abortions after 15 weeks of pregnancy. This law directly challenged the precedent set by *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992), which had established that states could not ban abortion before the point of \"viability\" (the point at which a fetus can survive outside the womb, generally considered to be around 23–24 weeks).\n\nJackson Women’s Health Organization, the only licensed abortion clinic in Mississippi, challenged the law in federal court. Lower courts blocked the law, citing *Roe* and *Casey*, leading Mississippi to appeal to the Supreme Court.\n\n### The Ruling\nOn June 24, 2022, the Supreme Court issued a 6–3 decision upholding the Mississippi law and, in a 5–4 vote, explicitly overturning *Roe v. Wade* and *Planned Parenthood v. Casey*.\n\nThe majority opinion, written by Justice Samuel Alito, concluded that the Constitution does not confer a right to abortion. The Court held that *Roe* and *Casey* were \"egregiously wrong\" from the start because the right to abortion was not \"deeply rooted in this Nation’s history and tradition,\" nor was it an essential component of \"ordered liberty.\"\n\n### Key Legal Arguments\n*   **The \"History and Tradition\" Test:** The majority argued that for a right to be protected under the Due Process Clause of the 14th Amendment, it must be explicitly mentioned in the Constitution or deeply rooted in American history. The Court concluded that abortion did not meet this standard.\n*   **Returning Authority to the States:** By overturning *Roe* and *Casey*, the Court did not declare abortion illegal nationwide. Instead, it ruled that the authority to regulate or prohibit abortion rests with the people and their elected representatives in state legislatures.\n*   **Stare Decisis:** The majority addressed the principle of *stare decisis* (the legal doctrine of adhering to precedent). They argued that *Roe* and *Casey* were so poorly reasoned and had caused such significant legal and social confusion that they did not deserve to be upheld.\n\n### The Dissent\nJustices Stephen Breyer, Sonia Sotomayor, and Elena Kagan issued a joint dissent. They argued that the majority’s decision stripped women of their bodily autonomy and undermined the Court’s legitimacy. They contended that the right to abortion was a fundamental aspect of women’s equality and that the majority’s reliance on 19th-century history ignored the progress made regarding women's rights in the 20th and 21st centuries. They warned that the decision would lead to the immediate banning of abortion in many states and would disproportionately affect marginalized communities.\n\n### The Impact\nThe immediate effect of the *Dobbs* decision was the elimination of the federal constitutional right to an abortion. This triggered a rapid shift in state laws:\n\n*   **State Bans and Restrictions:** Many states, particularly those with \"trigger laws\" designed to take effect immediately upon the overturning of *Roe*, moved to ban or severely restrict abortion access.\n*   **State Protections:** Conversely, other states moved to codify abortion rights into their state constitutions or statutes, positioning themselves as \"safe havens\" for those seeking abortion services.\n*   **Legal and Political Fallout:** The decision has led to ongoing litigation in state courts regarding the scope of state-level abortion bans. It also became a central issue in subsequent national and state elections, as voters in several states have since voted directly on ballot measures to either protect or restrict abortion access.\n\nIn summary, *Dobbs v. Jackson* ended nearly 50 years of federal protection for abortion access, shifting the legal battleground from the federal judiciary to state legislatures and state courts.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 1009,
+  "total_tokens": 1033,
+  "cost": 0.0015195,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015195,
+   "upstream_inference_prompt_cost": 6e-06,
+   "upstream_inference_completions_cost": 0.0015135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 124,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:37.394865+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

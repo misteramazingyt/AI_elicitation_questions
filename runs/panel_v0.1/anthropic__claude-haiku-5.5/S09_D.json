@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 1973 decision in Roe v. Wade.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "**Roe v. Wade** (1973) was a landmark decision in which the United States Supreme Court ruled 7–2 that the Constitution protects a woman's right to choose to have an abortion. The Court's opinion was written by Justice Harry Blackmun.\n\n**Background**\nThe case challenged a Texas criminal abortion statute that prohibited abortion except to save the mother's life. \"Jane Roe\" was a pseudonym for Norma McCorvey, a Texas woman who wanted an abortion. The case was brought against Henry Wade, the Dallas County district attorney.\n\n**The Court's Reasoning**\n- The Court held that the constitutional right to privacy, grounded in the Due Process Clause of the Fourteenth Amendment, extends to a woman's decision about whether to terminate a pregnancy. This right was rooted in earlier privacy cases such as *Griswold v. Connecticut* (1965) and *Eisenstadt v. Baird* (1972).\n- The Court acknowledged that the right is not absolute and must be balanced against the government's legitimate interests in protecting prenatal life and maternal health.\n- It established a **trimester framework**:\n  - **First trimester:** The state could not restrict abortion; the decision belonged to the woman and her doctor.\n  - **Second trimester:** The state could regulate abortion to protect maternal health.\n  - **Third trimester (viability):** Once the fetus was viable (potentially able to survive outside the womb), the state could regulate or prohibit abortion, except where necessary to protect the life or health of the mother.\n- The Court said the state's interest in potential life became \"compelling\" around viability, a point then generally placed at about 24–28 weeks.\n\n**Dissent**\nJustices Byron White and William Rehnquist dissented. White argued the decision had no grounding in the Constitution's text or history, and Rehnquist criticized the Court for effectively legislating.\n\n**Significance and Later Developments**\nRoe was one of the most controversial Supreme Court decisions in American history, shaping decades of political and legal debate. It was modified by *Planned Parenthood v. Casey* (1992), which replaced the trimester framework with an \"undue burden\" standard and reaffirmed viability as a key point. Roe was overturned by the Supreme Court in *Dobbs v. Jackson Women's Health Organization* (2022), which held that the Constitution does not confer a right to abortion and returned regulatory authority to the states.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 35,
+  "completion_tokens": 811,
+  "total_tokens": 846,
+  "cost": 0.000409,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000409,
+   "upstream_inference_prompt_cost": 3.5e-06,
+   "upstream_inference_completions_cost": 0.0004055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:34.672870+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

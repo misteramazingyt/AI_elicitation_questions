@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "D",
+ "prompt": "Describe the Great Depression.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Great Depression was the most severe and longest-lasting economic downturn in the history of the industrialized world. It lasted roughly from **1929 to 1939**, affecting nearly every country on Earth. It was a period defined by mass unemployment, widespread poverty, bank failures, and a profound sense of hopelessness.\n\nHere is a breakdown of the era, from its causes to its eventual end.\n\n### 1. The Trigger: The Stock Market Crash\nWhile the Depression had deep-seated causes, the event that signaled its beginning was the **Stock Market Crash of October 1929** (often called \"Black Tuesday\"). After a decade of rapid economic growth and reckless speculation in the \"Roaring Twenties,\" the market collapsed. Billions of dollars in wealth evaporated overnight, wiping out investors and shattering consumer confidence.\n\n### 2. The Causes\nThe crash was the spark, but the fire was fueled by several underlying structural weaknesses in the global economy:\n*   **Overproduction:** Factories and farms were producing more goods than people could afford to buy.\n*   **Banking Panics:** When the market crashed, people rushed to banks to withdraw their savings. Banks, which had invested that money in the market, didn't have the cash on hand. Thousands of banks failed, and millions of people lost their life savings.\n*   **The Gold Standard:** Rigid monetary policies prevented governments from increasing the money supply to stimulate the economy.\n*   **Protectionism:** Countries raised tariffs (taxes on imports) to protect their own industries, which caused global trade to plummet, worsening the economic decline for everyone.\n\n### 3. The Human Experience\nThe impact on daily life was devastating:\n*   **Unemployment:** In the United States, the unemployment rate soared to nearly 25%. In some industrial cities, it was even higher.\n*   **The Dust Bowl:** Compounding the economic misery, a severe drought hit the American Great Plains. Combined with poor farming practices, this created massive dust storms that destroyed crops and forced thousands of families (often called \"Okies\") to migrate west in search of work.\n*   **\"Hoovervilles\":** Homeless people built shantytowns out of scrap metal and cardboard, which were sarcastically named \"Hoovervilles\" after President Herbert Hoover, whom many blamed for the crisis.\n*   **Psychological Toll:** The era was marked by a deep sense of shame and despair. Suicide rates spiked, and birth rates plummeted as people felt they could not afford to raise children.\n\n### 4. The Response: The New Deal\nIn 1932, Franklin D. Roosevelt (FDR) was elected U.S. President. He promised a \"New Deal\" for the American people. This was a massive shift in the role of government, moving away from *laissez-faire* (hands-off) economics toward active government intervention.\n\nKey components included:\n*   **Relief:** Providing immediate help to the unemployed through programs like the Civilian Conservation Corps (CCC) and the Works Progress Administration (WPA), which hired millions to build roads, bridges, and parks.\n*   **Recovery:** Programs designed to restart the economy, such as the Agricultural Adjustment Act (AAA) to stabilize crop prices.\n*   **Reform:** Creating long-term safeguards to prevent another crash, such as the **Social Security Act** (providing a safety net for the elderly) and the **FDIC** (insuring bank deposits so people wouldn't lose their money if a bank failed).\n\n### 5. The End of the Depression\nEconomists and historians generally agree that the New Deal provided relief and stabilized the economy, but it did not fully end the Depression.\n\nThe true end came with the outbreak of **World War II**. The massive industrial mobilization required for the war effort—building tanks, planes, and ships—created an insatiable demand for labor. Unemployment vanished almost overnight as millions of men joined the military and millions more (including women) entered the workforce to support the war effort. By 1941, the economy was fully mobilized, and the Great Depression was effectively over.\n\n### The Legacy\nThe Great Depression fundamentally changed the relationship between citizens and their government. It established the expectation that the government is responsible for the economic welfare of its people and the stability of the financial system. Many of the institutions created during that time, such as Social Security and the SEC (Securities and Exchange Commission), remain central pillars of the American economy today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 5,
+  "completion_tokens": 1065,
+  "total_tokens": 1070,
+  "cost": 0.00159875,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00159875,
+   "upstream_inference_prompt_cost": 1.25e-06,
+   "upstream_inference_completions_cost": 0.0015975
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:21.613866+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

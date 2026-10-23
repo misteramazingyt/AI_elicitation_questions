@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "C",
+ "prompt": "What were the main causes of the 1883 eruption of Krakatoa?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1883 eruption of Krakatoa (Krakatau) in the Sunda Strait between Java and Sumatra was caused by the subduction of the Indo-Australian Plate beneath the Eurasian Plate, which is part of the broader Sunda Arc volcanic system. The main factors were:\n\n1. **Plate subduction and magma generation:** The oceanic Indo-Australian Plate sinks beneath the Sunda Plate at the Java Trench. As it descends, it releases water into the overlying mantle, lowering the melting point of the rock and producing magma. This magma rose to shallow chambers beneath Krakatoa.\n\n2. **Magma accumulation in a shallow chamber:** Magma built up over a long period in a chamber beneath the volcano. Before 1883, Krakatoa had been relatively quiet for about two centuries, which allowed pressure to accumulate.\n\n3. **Water interaction (phreatomagmatic explosions):** Seawater infiltrated the volcanic system through fractures and vents. When it contacted hot magma, it flashed to steam, greatly increasing explosive force. Many researchers think this played a major role in the scale of the eruption.\n\n4. **Caldera collapse:** As enormous volumes of magma were expelled, the summit lost structural support and collapsed into the emptied chamber, forming a caldera. Much of the island of Krakatoa fell into the sea, and the collapse likely displaced water, contributing to the tsunamis.\n\n5. **Tectonic setting:** The region's active faulting and the stress from subduction helped create the fractures that allowed magma and water to move upward.\n\nThe eruption culminated on August 26–27, 1883, in the largest explosion of its kind in recorded history, producing a loud sound heard thousands of kilometers away, pyroclastic flows, and tsunamis that killed more than 36,000 people.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 620,
+  "total_tokens": 651,
+  "cost": 0.0003131,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003131,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.00031
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:05.736820+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

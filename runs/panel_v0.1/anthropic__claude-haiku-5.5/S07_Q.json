@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "Q",
+ "prompt": "What were the consequences of the FBI's COINTELPRO program?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "COINTELPRO (Counter Intelligence Program) was a series of covert and often illegal FBI operations conducted from 1956 to 1971 (with some related activity continuing into the mid-1970s) targeting domestic political groups, including the Communist Party USA, civil rights organizations, antiwar activists, Black nationalist groups, the American Indian Movement, and the New Left. Its consequences were significant and far-reaching.\n\n**Human and personal consequences**\n- **Violence and deaths:** The most severe example was the 1969 raid in Chicago that killed Black Panther leader Fred Hampton and Mark Clark. Other Panthers were harassed, jailed, or killed in confrontations the bureau helped instigate.\n- **Imprisonment:** Activists were framed or prosecutes on fabricated or inflated charges. Some, like Geronimo Pratt, spent decades in prison; his conviction was later overturned.\n- **Personal ruin:** Targets lost jobs, faced marital strain, were subjected to anonymous letters meant to sow distrust, and were publicly discredited through planted stories.\n- **Suicides:** Some individuals targeted by the program are believed to have taken their own lives, though the extent is debated.\n\n**Impact on social movements**\n- **Fragmentation and distrust:** Infiltration by informants and agents-provocateurs sowed paranoia and internal conflict among groups, sometimes leading to violent feuds (for example, between Black Panther factions).\n- **Chilling effect:** Many activists became more cautious, and some organizations shrank or dissolved.\n- **Disruption of dissent:** The program aimed explicitly to \"expose, disrupt, misdirect, discredit, or otherwise neutralize\" groups, and it largely achieved its goal of weakening several movements.\n\n**Revelations and reform**\n- **Church Committee (1975–76):** A Senate investigation led by Frank Church exposed the program's scope, prompting public outrage and congressional hearings.\n- **Policy reforms:** The revelations led to Attorney General guidelines restricting FBI domestic investigations, and to the creation of oversight mechanisms such as the Senate and House intelligence committees.\n- **Legal and historical legacy:** The Church Committee's findings became a foundation for later debates over surveillance, including FISA (1978). Critics argue that later surveillance practices, such as post-9/11 programs, revived concerns COINTELPRO raised.\n- **Public trust:** The revelations deepened public skepticism of federal law enforcement and intelligence agencies, especially among Black Americans and activists, a distrust that persists in many communities today.\n\n**Broader significance**\nCOINTELPRO is widely cited as a prime example of government overreach against lawful political expression. Its legacy shapes ongoing debates about the balance between national security and civil liberties, and about how much latitude law enforcement should have in monitoring political dissent.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 971,
+  "total_tokens": 1000,
+  "cost": 0.0004884,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004884,
+   "upstream_inference_prompt_cost": 2.9e-06,
+   "upstream_inference_completions_cost": 0.0004855
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:31.842597+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "D",
+ "prompt": "Describe Britain's abolition of the slave trade and slavery (1807-1838).",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "**Britain's Abolition of the Slave Trade and Slavery (1807–1838)**\n\n**Background**\n\nBy the late eighteenth century, Britain was among the largest slave-trading nations in the world. British ships, based largely in Liverpool, Bristol, and London, transported enslaved Africans to the Caribbean and the Americas, and the plantation economies of colonies such as Jamaica, Barbados, and the Leeward Islands depended heavily on enslaved labor. Opposition grew through the eighteenth century, driven by Quakers, Methodists, and other religious dissenters, by writers and former enslaved people such as Olaudah Equiano, and by Enlightenment ideas about natural rights. The Society for Effecting the Abolition of the Slave Trade, founded in 1787, organized petitions, pamphlets, and boycotts of slave-grown sugar, and it popularized the image of the kneeling African in chains with the motto \"Am I not a man and a brother?\"\n\n**The Abolition of the Slave Trade (1807)**\n\nWilliam Wilberforce, a Member of Parliament and evangelical Christian, led the parliamentary campaign for decades, introducing abolition bills repeatedly from 1791 onward, often defeated. Key factors in the eventual success included:\n\n- Changing public opinion, shown by mass petitions in 1788 and 1792.\n- The Haitian Revolution (1791–1804), which made planters and some politicians fearful of slave uprisings and undermined arguments about the economic necessity of the trade.\n- Parliamentary politics following the death of Pitt the Younger and the formation of the \"Ministry of All the Talents,\" which allowed abolitionist support to grow.\n\nThe Slave Trade Act of 1807, passed in March, made it illegal for British subjects to engage in the transatlantic slave trade from 1 May 1807. It did not abolish slavery itself, and the trade was not ended in the wider British empire or by foreign powers. Britain also worked to pressure other nations, and in 1820 the trade was declared piracy, with the Royal Navy's West Africa Squadron (established 1808) enforcing the ban at sea. Between 1808 and 1867 the squadron captured hundreds of slave ships and freed many thousands of Africans, though enforcement was uneven and the illegal trade continued.\n\n**Campaign for the Abolition of Slavery**\n\nAbolition of the trade did not end slavery in British colonies, and the campaign shifted toward emancipation in the 1820s. The Society for the Mitigation and Gradual Abolition of Slavery (1823) initially favored gradual reform, but grassroots pressure grew. Enslaved people themselves resisted, through revolts such as Demerara (1823) and the Baptist War in Jamaica (1831–32), which strengthened the case that slavery was unsustainable and that planters' claims were self-interested. Abolitionist petitions reached unprecedented numbers, and women's anti-slavery societies played a significant organizing role.\n\n**The Slavery Abolition Act (1833)**\n\nPassed in August 1833 after the Reform Act of 1832 had altered the electorate, the Act abolished slavery throughout most of the British Empire effective 1 August 1834. Key features:\n\n- Roughly £20 million (about 40% of the government's annual expenditure at the time) was paid as compensation to slave owners, not to the enslaved. The money was borrowed and paid off by British taxpayers until 2015.\n- Enslaved people were not compensated. Instead, most were required to serve an \"apprenticeship\" period, ostensibly to prepare them for freedom. Apprentices were obliged to work for former masters for a set number of hours, with the scheme initially set for six years for field workers and four for domestic workers.\n- The Act excluded territories under the East India Company, and St Helena, Ceylon, and Mauritius were also exempt initially.\n\n**The Apprenticeship System and Its End (1834–1838)**\n\nThe apprenticeship system proved widely abusive. Apprentices were still subject to coercion and corporal punishment, and they often worked long hours without pay. Resistance from enslaved people, along with pressure from abolitionists such as Thomas Fowell Buxton and the Anti-Slavery Society, exposed these failures. Parliament ended apprenticeship early, and full freedom came on 1 August 1838.\n\n**Significance**\n\nBritain's abolition was a landmark, the largest slave-owning empire to end slavery through legislation, and it influenced other nations. However, it was shaped by compromise: compensation went to owners, freed people received little redress, and systems of indentured labor from India and elsewhere soon followed. Historians continue to debate the relative weight of moral conviction, economic change, and enslaved people's own resistance in bringing about abolition.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 35,
+  "completion_tokens": 1588,
+  "total_tokens": 1623,
+  "cost": 0.0007975,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007975,
+   "upstream_inference_prompt_cost": 3.5e-06,
+   "upstream_inference_completions_cost": 0.000794
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:43.710560+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

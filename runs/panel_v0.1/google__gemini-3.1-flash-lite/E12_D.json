@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "D",
+ "prompt": "Describe Argentina's 2001 economic crisis.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "Argentina’s 2001 economic crisis, often referred to as *el colapso* or *el corralito*, was one of the most severe financial and social meltdowns in modern history. It resulted in the collapse of the country’s currency, the default on its sovereign debt, and a period of intense political instability that saw five presidents in just two weeks.\n\nHere is a breakdown of how the crisis unfolded, why it happened, and its lasting impact.\n\n### 1. The Root Cause: The Convertibility Plan\nTo understand the 2001 crisis, you must understand the 1990s. In 1991, to stop hyperinflation, Argentina implemented the **Convertibility Plan**. This law pegged the Argentine peso to the U.S. dollar at a 1-to-1 exchange rate.\n\n*   **The Success:** It worked initially. Inflation vanished, and foreign investment poured in.\n*   **The Trap:** The plan required Argentina to hold enough U.S. dollars in its central bank to back every peso in circulation. This meant Argentina lost the ability to print money or devalue its currency to make its exports more competitive.\n*   **The Vulnerability:** When the U.S. dollar strengthened globally in the late 90s, the peso became artificially expensive. Argentine exports became too costly for international buyers, leading to a massive trade deficit and a recession that began in 1998.\n\n### 2. The Spiral Toward Collapse\nBy 2001, Argentina was trapped. Because the peso was pegged to the dollar, the government could not devalue the currency to stimulate the economy. To keep the peg, the government had to borrow heavily from international lenders (like the IMF) to maintain its dollar reserves.\n\nAs the recession deepened, investors lost confidence that Argentina could pay back its massive debt. They began pulling their money out of the country. To prevent a total run on the banks, the government took a desperate, fateful step.\n\n### 3. *El Corralito* (The Little Corral)\nIn December 2001, Economy Minister Domingo Cavallo announced the **\"Corralito\"** (the \"little corral\"). This policy severely restricted cash withdrawals from bank accounts—limiting people to withdrawing only a small amount of cash per week.\n\nThe middle class, who had their life savings locked in banks, were outraged. The policy effectively froze the economy, as businesses could not pay employees and people could not buy basic goods.\n\n### 4. The Explosion: December 2001\nThe *Corralito* triggered massive, violent protests across the country.\n*   **The Riots:** Thousands of people took to the streets, banging pots and pans in a protest known as the *cacerolazo*. They looted supermarkets and clashed with police.\n*   **The Resignation:** On December 20, 2001, President Fernando de la Rúa declared a state of siege. The violence escalated, and police killed over 30 protesters. De la Rúa fled the presidential palace, the *Casa Rosada*, in a helicopter—an image that became the defining symbol of the crisis.\n*   **Political Chaos:** In the following two weeks, Argentina cycled through five different presidents as the political establishment crumbled.\n\n### 5. The Aftermath\nIn early 2002, the new government finally abandoned the 1-to-1 peg. The peso was devalued, losing roughly 70% of its value almost overnight.\n\n*   **Default:** Argentina declared the largest sovereign debt default in history at the time (roughly $93 billion).\n*   **Poverty:** The crisis devastated the population. Poverty rates skyrocketed from roughly 30% to over 50% in a matter of months. The middle class was effectively wiped out, as their savings were converted into devalued pesos.\n*   **Social Unrest:** Unemployment soared, and the country saw the rise of the *piqueteros*—unemployed workers who blocked roads to demand government assistance.\n\n### Why It Matters Today\nThe 2001 crisis left deep scars on the Argentine psyche. It created a profound distrust of the banking system, the government, and international financial institutions like the IMF.\n\nEven decades later, the crisis influences Argentine politics. The fear of inflation and currency devaluation remains a central theme in the country's economic policy, and the \"default\" remains a recurring specter in Argentina's ongoing struggles with debt restructuring. It serves as a cautionary tale for economists about the dangers of rigid currency pegs and the social costs of austerity measures.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 12,
+  "completion_tokens": 1108,
+  "total_tokens": 1120,
+  "cost": 0.001665,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001665,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.001662
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 134,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:25.247938+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

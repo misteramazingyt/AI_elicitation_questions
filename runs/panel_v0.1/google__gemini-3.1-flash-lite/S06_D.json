@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "D",
+ "prompt": "Describe the Kent State shootings of 1970.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Kent State shootings, also known as the May 4 massacre, occurred on May 4, 1970, at Kent State University in Ohio. It remains one of the most defining and tragic moments in American history, symbolizing the deep polarization of the country during the Vietnam War era.\n\nHere is a description of the events, the context, and the aftermath.\n\n### The Context\nIn late April 1970, President Richard Nixon announced that U.S. troops had invaded Cambodia, a neutral country, to attack North Vietnamese supply lines. This announcement sparked massive protests across college campuses nationwide, as many Americans felt the war was escalating rather than ending.\n\nAt Kent State, tensions were already high. On May 1, a protest occurred on the campus \"Commons,\" and that evening, a riot broke out in the downtown area of Kent, leading to property damage. The following day, the mayor of Kent requested assistance from the Ohio National Guard. By the time the Guard arrived, protesters had burned down the university’s ROTC building, which had become a symbol of the military establishment.\n\n### The Day of the Shooting: May 4, 1970\nOn Monday, May 4, a protest was scheduled to take place on the Commons at noon. Despite the university administration banning the gathering, hundreds of students assembled.\n\nThe National Guard, equipped with M1 Garand rifles and gas masks, attempted to disperse the crowd using tear gas. The students retreated up a hill (Blanket Hill) and then down the other side into a practice football field. The Guardsmen followed them.\n\nAfter a brief standoff, a group of 28 Guardsmen retreated back up the hill. Suddenly, at 12:24 p.m., 13 of the Guardsmen turned and fired their weapons toward the students. In a span of just 13 seconds, they fired 67 rounds.\n\n### The Casualties\nThe gunfire killed four students and wounded nine others.\n*   **The deceased:** Allison Krause, Jeffrey Miller, Sandra Scheuer, and William Schroeder.\n*   **The wounded:** Several of the wounded were left permanently paralyzed or suffered life-altering injuries.\n\nIt is important to note that some of the victims were active protesters, while others were simply walking to class or observing the demonstration from a distance.\n\n### The Immediate Aftermath\nThe shootings sent shockwaves through the United States. The event triggered a massive nationwide student strike, forcing hundreds of colleges and universities to close as millions of students walked out of classes. It brought the reality of the Vietnam War—and the domestic unrest it caused—directly into the living rooms of Americans.\n\nThe public reaction was deeply divided. While many were horrified by the violence against students, a significant portion of the American public—often referred to as the \"Silent Majority\"—blamed the students for the violence, viewing them as unpatriotic agitators who deserved the consequences of their actions.\n\n### Investigations and Legacy\nSeveral investigations followed, including one by the President’s Commission on Campus Unrest (the Scranton Commission). The commission concluded that the shootings were \"unnecessary, unwarranted, and inexcusable.\" However, no criminal charges were ever successfully brought against the National Guardsmen involved.\n\nThe Kent State shootings remain a powerful symbol of the dangers of political polarization and the fragility of civil liberties. They marked a turning point in the anti-war movement, signaling that the government was willing to use lethal force against its own citizens to maintain order.\n\nEvery year on May 4, the university holds a commemoration service on the site of the shootings to honor the victims and reflect on the importance of free speech and peaceful protest.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 12,
+  "completion_tokens": 883,
+  "total_tokens": 895,
+  "cost": 0.0013275,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013275,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.0013245
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 122,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:33.717664+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

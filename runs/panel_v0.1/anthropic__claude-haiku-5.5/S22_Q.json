@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration and Nationality Act of 1965?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Immigration and Nationality Act of 1965, also called the Hart-Celler Act, abolished the national-origins quota system that had governed U.S. immigration since the 1920s, which heavily favored immigrants from Northern and Western Europe. Its consequences were far-reaching:\n\n**Demographic transformation**\n- Immigration shifted dramatically from Europe toward Asia, Latin America, the Caribbean, and Africa. In the decades after 1965, Asian and Latin American immigrants became the largest source groups.\n- The foreign-born population, which had fallen to about 5 percent of the U.S. population by 1970, grew to over 13 percent by 2010 and remains high today.\n- The country's racial and ethnic composition changed substantially, contributing to growing Asian American and Hispanic/Latino populations.\n\n**Family reunification as a priority**\n- The law emphasized family ties, giving preference to relatives of U.S. citizens and lawful permanent residents. This created chain migration patterns, in which initial immigrants sponsor relatives who then sponsor others.\n\n**Skilled labor and professional categories**\n- The act included preferences for workers with needed skills and professions, which attracted many highly educated immigrants, particularly from India, China, and later other Asian countries. This contributed to the growth of sectors like technology and medicine.\n\n**Refugee and humanitarian effects**\n- Later amendments and related policies expanded refugee admissions, and the 1965 framework made it easier to adjust policy for specific groups, though it did not initially provide a comprehensive refugee system (the Refugee Act of 1980 later did).\n\n**Limits and unintended consequences**\n- The act imposed the first numerical cap on Western Hemisphere immigration (120,000 per year, with per-country limits of 20,000 for the Eastern Hemisphere), which contributed to long-term backlogs, especially for Mexico and the Philippines.\n- Because family preferences dominated, large waiting lists developed, and undocumented immigration became a more prominent issue, contributing to later debates and the Immigration Reform and Control Act of 1986.\n\n**Political and cultural debates**\n- The shift fueled ongoing debates about assimilation, multiculturalism, labor market effects, and national identity, and it remains a reference point in discussions about immigration policy.\n\nOverall, the act is widely regarded as one of the most consequential immigration reforms in U.S. history, reshaping the country's demographics, economy, and cultural landscape.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 819,
+  "total_tokens": 851,
+  "cost": 0.0004127,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004127,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.0004095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:58.307035+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

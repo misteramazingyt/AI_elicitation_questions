@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "D",
+ "prompt": "Describe McCarthyism in the 1950s.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "McCarthyism refers to the period of intense anti-communist fear, accusation, and political persecution in the United States during the early-to-mid 1950s. It takes its name from Senator Joseph R. McCarthy, a Republican from Wisconsin, who became its most prominent face.\n\n**Origins and context**\nThe movement emerged in the wake of World War II and the onset of the Cold War. The Soviet Union's expansion into Eastern Europe, the 1949 Soviet atomic bomb test, the \"fall\" of China to Mao's communists, and the Korean War (1950–1953) fueled public anxiety that communist spies and sympathizers had infiltrated the U.S. government. Several real espionage cases, such as those involving Alger Hiss and the Rosenbergs, heightened these fears.\n\n**Key events**\n- **February 1950:** McCarthy gave a speech in Wheeling, West Virginia, claiming he had a list of known Communists working in the State Department. The number he cited varied, which did little to dampen the attention it drew.\n- **1950–1954:** As chairman of a Senate subcommittee, McCarthy held hearings investigating alleged subversion in government, the military, universities, Hollywood, and the press. He often made accusations without providing solid evidence.\n- **1954 Army-McCarthy hearings:** Televised hearings exposed his bullying tactics. Attorney Joseph Welch's famous rebuke, \"Have you no sense of decency, sir?\", became a turning point in public opinion. The Senate censured McCarthy in December 1954, and his influence rapidly declined.\n\n**Methods and effects**\n- Accusations of communist affiliation were often based on guilt by association, anonymous tips, or vague claims, with little due process.\n- Individuals were pressured to name others, and many lost jobs in government, entertainment, teaching, and industry. The Hollywood blacklist is a well-known example.\n- Loyalty oaths and federal loyalty-security programs spread, and the House Un-American Activities Committee (HUAC) conducted its own high-profile investigations.\n- Many people who had been Communists or had associated with leftist causes were ruined, while others self-censored to avoid suspicion. Some who were falsely accused suffered lasting damage.\n- Civil liberties suffered, and the fear of subversion shaped American culture and politics well beyond the individuals directly targeted.\n\n**Legacy**\nThe term \"McCarthyism\" came to describe unfounded accusations and reckless attacks on political opponents, and it remains a common reference point in political debate. Historians still debate the extent of actual communist infiltration in the U.S. government, and some evidence, including later-declassified materials, suggests that a few Soviet agents did operate in the country. However, most historians agree that McCarthy's methods caused widespread harm to innocent people and undermined constitutional protections.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 943,
+  "total_tokens": 967,
+  "cost": 0.0004739,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004739,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.0004715
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:20.844703+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

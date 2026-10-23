@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Kent State shootings of 1970?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Kent State shootings on May 4, 1970, were a watershed moment in American history. The killing of four students and the wounding of nine others by the Ohio National Guard during a protest against the Vietnam War (specifically the invasion of Cambodia) had profound, immediate, and long-lasting consequences.\n\nHere is a breakdown of the major consequences:\n\n### 1. The Largest Student Strike in U.S. History\nThe immediate aftermath was a wave of unprecedented unrest across American higher education.\n*   **Campus Closures:** In the days following the shootings, more than 450 colleges and universities across the United States were shut down due to student strikes and protests.\n*   **Student Mobilization:** Approximately 4 million students participated in these strikes. It was the first and only nationwide student strike in U.S. history, effectively paralyzing the American higher education system for weeks.\n\n### 2. Deepening Political Polarization\nThe shootings acted as a mirror for the deep divisions already present in American society.\n*   **The \"Silent Majority\" vs. The Counterculture:** The event solidified the divide between the anti-war movement and the \"Silent Majority\" that supported President Richard Nixon and the war effort.\n*   **Public Opinion:** While many Americans were horrified by the violence, a significant portion of the public blamed the students. Polls taken shortly after the event showed that a majority of Americans sided with the National Guard, viewing the students as agitators who \"got what they deserved.\" This revealed a deep-seated resentment toward the youth counterculture among older, more conservative Americans.\n\n### 3. Impact on the Nixon Administration\nThe shootings placed immense pressure on the White House.\n*   **Isolation of the President:** President Nixon’s rhetoric—which had previously labeled student protesters as \"bums\"—was widely criticized as having contributed to the climate that led to the shootings. The administration was forced to adopt a more cautious tone regarding campus protests.\n*   **The Scranton Commission:** In response to the public outcry, Nixon appointed the President's Commission on Campus Unrest (the Scranton Commission). The commission’s report concluded that the National Guard’s actions were \"unnecessary, unwarranted, and inexcusable.\" It also warned that the nation was in a state of \"crisis\" and urged the government to listen to the grievances of the youth.\n\n### 4. Legal and Institutional Consequences\nThe legal aftermath was long and contentious, leaving many feeling that justice was never fully served.\n*   **The Trials:** Eight National Guardsmen were indicted by a grand jury, but the charges were eventually dismissed by a federal judge due to a lack of evidence.\n*   **Civil Litigation:** The families of the victims pursued civil lawsuits for years. In 1979, a settlement was reached in which the state of Ohio agreed to pay $675,000 to the families and the wounded students. Crucially, the guardsmen issued a statement expressing regret for the tragedy, though they did not admit legal liability.\n*   **Changes in Crowd Control:** The tragedy forced law enforcement and the National Guard to re-evaluate their crowd control tactics. The use of live ammunition against unarmed protesters became a massive taboo, leading to the development of non-lethal crowd control methods (such as rubber bullets and tear gas) that are standard today.\n\n### 5. Cultural and Symbolic Legacy\nKent State became a permanent symbol of the Vietnam War era.\n*   **\"Ohio\":** The event was immortalized in the protest song \"Ohio\" by Crosby, Stills, Nash & Young, which was released just weeks after the shooting. The song became an anthem for the anti-war movement and kept the memory of the event alive in popular culture.\n*   **Loss of Innocence:** For many in the \"Baby Boomer\" generation, Kent State marked the end of their idealism. It shattered the belief that the government would protect its citizens and that peaceful protest was a safe, effective way to influence policy. It signaled that the state was willing to use lethal force against its own citizens on domestic soil.\n\n### Summary\nThe consequences of Kent State were not just political; they were psychological. The event fundamentally altered the relationship between the American government and its youth. It proved that the Vietnam War was not just a foreign policy issue, but a domestic conflict that had the potential to turn violent on American campuses. It remains a cautionary tale about the dangers of political polarization and the use of military force against civilians.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 1056,
+  "total_tokens": 1072,
+  "cost": 0.001588,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001588,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.001584
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 121,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:34.383599+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

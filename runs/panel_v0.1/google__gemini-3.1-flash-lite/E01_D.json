@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "D",
+ "prompt": "Describe the New Deal (1933-1939).",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The New Deal was a series of programs, public work projects, financial reforms, and regulations enacted by President Franklin D. Roosevelt (FDR) in the United States between 1933 and 1939. It was the government’s response to the Great Depression, which had devastated the American economy following the stock market crash of 1929.\n\nThe New Deal fundamentally transformed the relationship between the American government and its citizens, establishing the precedent that the federal government is responsible for the economic welfare of its people.\n\n### The Philosophy: The \"Three Rs\"\nFDR categorized the goals of the New Deal into three objectives, often called the \"Three Rs\":\n\n1.  **Relief:** Immediate action to provide food, shelter, and money to the unemployed and the poor.\n2.  **Recovery:** Temporary programs to restart the flow of consumer demand and get the economy moving again.\n3.  **Reform:** Permanent changes to the financial system and economy to prevent another catastrophic depression.\n\n---\n\n### Key Programs and Agencies\nThe New Deal was characterized by the creation of numerous \"alphabet agencies\" designed to tackle specific problems:\n\n*   **Relief & Employment:**\n    *   **Civilian Conservation Corps (CCC):** Employed young men to work on environmental projects like planting trees and building parks.\n    *   **Works Progress Administration (WPA):** The largest agency, which employed millions to build public works such as roads, bridges, schools, and post offices, as well as funding arts and theater projects.\n*   **Financial Reform:**\n    *   **Federal Deposit Insurance Corporation (FDIC):** Guaranteed bank deposits, which restored public confidence in the banking system and ended the \"bank runs\" that had destroyed savings.\n    *   **Securities and Exchange Commission (SEC):** Created to regulate the stock market and prevent the kind of fraud and speculation that led to the 1929 crash.\n*   **Economic Recovery:**\n    *   **Agricultural Adjustment Act (AAA):** Paid farmers to reduce crop production to raise prices and stabilize the agricultural economy.\n    *   **Tennessee Valley Authority (TVA):** Built dams and power plants to provide electricity and flood control to the impoverished Tennessee Valley region.\n*   **Social Safety Net:**\n    *   **Social Security Act (1935):** Perhaps the most enduring legacy of the New Deal, it established a system of old-age pensions, unemployment insurance, and aid for the disabled and dependent children.\n\n---\n\n### The Two Phases\nHistorians often divide the New Deal into two distinct periods:\n\n*   **The First New Deal (1933–1934):** Focused on immediate relief and recovery. It was characterized by rapid-fire legislation during FDR’s famous \"First Hundred Days,\" aimed at stabilizing the banking system and providing emergency aid.\n*   **The Second New Deal (1935–1939):** Focused more on long-term reform and social justice. This period saw the creation of the Social Security system, the Wagner Act (which protected the rights of workers to unionize), and more aggressive public works programs.\n\n---\n\n### Criticism and Controversy\nThe New Deal was not without its detractors:\n*   **Conservatives** argued that the programs were too expensive, increased the national debt, and represented an unconstitutional expansion of federal power that bordered on socialism.\n*   **Liberals and Radicals** argued that the New Deal did not go far enough to redistribute wealth or solve the underlying problems of capitalism.\n*   **The Supreme Court** initially struck down several key programs (like the AAA and the National Industrial Recovery Act) as unconstitutional, leading to FDR’s controversial attempt to \"pack\" the court with additional justices.\n\n### Legacy\nWhile the New Deal did not fully end the Great Depression—that was ultimately achieved by the massive industrial mobilization required for World War II—it had a profound and lasting impact:\n\n1.  **Expanded Government:** It established the modern \"welfare state\" and the expectation that the government should intervene in the economy to prevent collapse.\n2.  **Labor Rights:** It empowered labor unions, leading to a significant rise in union membership and collective bargaining power.\n3.  **Infrastructure:** Much of the physical infrastructure of the United States (roads, bridges, dams, and public buildings) was built or improved during this era.\n4.  **Political Realignment:** It created the \"New Deal Coalition,\" a powerful voting bloc of labor unions, minorities, farmers, and white Southerners that kept the Democratic Party in power for most of the next three decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 1116,
+  "total_tokens": 1131,
+  "cost": 0.00167775,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00167775,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.001674
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 145,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:10.855613+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "C",
+ "prompt": "What were the main causes of the 2008 financial crisis?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2008 financial crisis, often called the \"Great Recession,\" was not caused by a single event but rather a \"perfect storm\" of interconnected factors. It was primarily driven by a collapse in the U.S. housing market, which triggered a global financial meltdown.\n\nHere are the main causes of the crisis:\n\n### 1. The Housing Bubble\nIn the early 2000s, low interest rates and easy access to credit fueled a massive boom in the U.S. housing market. Home prices rose rapidly, and many people began buying homes as investments, assuming prices would continue to rise indefinitely. This created a \"bubble\"—an unsustainable increase in asset prices that eventually had to burst.\n\n### 2. Subprime Mortgages\nTo keep the housing boom going, lenders began offering mortgages to borrowers with poor credit histories or low income—known as **subprime borrowers**. These loans often had \"teaser rates\" (low initial interest rates that would skyrocket after a few years) and required little to no documentation of income. Lenders assumed that even if the borrower defaulted, the house could be sold for a profit because home prices were rising.\n\n### 3. Mortgage-Backed Securities (MBS) and Derivatives\nBanks didn't just hold onto these risky mortgages; they bundled thousands of them together into complex financial products called **Mortgage-Backed Securities (MBS)**. They then sold these bundles to investors around the world.\n*   **The Problem:** Credit rating agencies (like Moody’s and S&P) gave these bundles \"AAA\" ratings (the safest possible rating), falsely assuring investors that they were low-risk.\n*   **Derivatives:** Financial institutions also created \"side bets\" on these mortgages, known as **Credit Default Swaps (CDS)**. These were essentially insurance policies against the mortgages failing. When the mortgages began to fail, the companies that sold these insurance policies (like AIG) did not have enough money to pay out the claims.\n\n### 4. Excessive Leverage\nFinancial institutions, particularly investment banks like Lehman Brothers and Bear Stearns, were \"highly leveraged.\" This means they borrowed massive amounts of money to make investments. When the value of their mortgage-backed assets began to drop, they didn't have enough capital to cover their losses. This created a liquidity crisis where banks stopped lending to each other because they didn't know who was solvent and who was about to go bankrupt.\n\n### 5. Deregulation and Lack of Oversight\nFor years leading up to the crisis, there was a prevailing belief in Washington and on Wall Street that financial markets could regulate themselves.\n*   **Repeal of Glass-Steagall:** The repeal of the Glass-Steagall Act (which had previously separated commercial banking from riskier investment banking) allowed banks to take bigger risks with consumer deposits.\n*   **Shadow Banking:** A large portion of the financial system operated in the \"shadow banking\" sector—non-bank financial intermediaries that provided services similar to traditional commercial banks but outside normal banking regulations.\n\n### 6. The \"Bursting\" of the Bubble\nAround 2006–2007, the housing bubble began to deflate. As interest rates rose and teaser rates on subprime mortgages expired, millions of homeowners could no longer afford their monthly payments.\n*   **Defaults:** Homeowners began defaulting on their mortgages in record numbers.\n*   **Asset Devaluation:** As foreclosures flooded the market, home prices plummeted.\n*   **The Domino Effect:** Because banks and investors worldwide held these mortgage-backed securities, the value of their assets evaporated overnight. This led to the collapse of major institutions (most notably the bankruptcy of Lehman Brothers in September 2008), which caused global stock markets to crash and credit markets to freeze.\n\n### Summary\nIn short, the crisis was caused by **lenders** giving loans to people who couldn't afford them, **investment banks** packaging those bad loans into complex products and selling them as \"safe\" investments, **rating agencies** failing to accurately assess the risk, and **regulators** failing to oversee the system. When the housing market cooled, the entire house of cards collapsed.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 996,
+  "total_tokens": 1011,
+  "cost": 0.00149775,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00149775,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.001494
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 124,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:20.553167+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

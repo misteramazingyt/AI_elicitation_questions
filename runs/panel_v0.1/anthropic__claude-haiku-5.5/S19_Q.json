@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1994 U.S. crime bill?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1994 Violent Crime Control and Law Enforcement Act, signed by President Bill Clinton in September 1994, was the largest crime bill in U.S. history at the time. Its consequences are still debated, but the main effects include:\n\n**Increased incarceration**\n- It expanded federal prison funding and created new federal crimes, contributing to a sharp rise in the prison and jail population during the late 1990s and 2000s.\n- The \"three strikes\" provision mandated life sentences for federal offenders convicted of a third serious or violent felony, and it encouraged states to adopt similar laws.\n- Federal sentencing rules and mandatory minimums were toughened, and the bill expanded the death penalty to dozens of additional federal offenses.\n\n**Police and community policing**\n- It funded the hiring of roughly 100,000 new police officers through the Office of Community Oriented Policing Services (COPS), a major federal investment in local law enforcement.\n\n**Prevention and other programs**\n- It authorized funds for crime prevention, including programs for at-risk youth, drug treatment, and women's safety. It also included the Violence Against Women Act (VAWA), which funded services, training, and legal protections for domestic violence and sexual assault victims.\n- It banned certain assault weapons and large-capacity magazines for ten years. The ban expired in 2004 and was not renewed.\n\n**Contested outcomes**\n- *Crime decline:* Violent crime fell sharply in the late 1990s and 2000s. Supporters credit the law, along with more police, economic growth, and changes in policing. Many researchers attribute only a portion of the decline to the bill, and some find its specific effects hard to isolate from other trends.\n- *Racial disparities:* Critics argue the bill, especially its sentencing and drug policies, contributed to mass incarceration and disproportionately affected Black and Latino communities. Former President Clinton himself acknowledged in 2015 that some of the policies had harmful effects and contributed to incarceration of young Black men.\n- *Policing:* The COPS program is credited with expanding police forces, but some critics argue it encouraged aggressive enforcement tactics and strained community relations.\n\n**Legacy**\n- The bill is often cited in debates over criminal justice reform, with some advocates on both the left and right calling for sentencing reform in later years, such as the First Step Act of 2018.\n- VAWA has been reauthorized multiple times and is generally regarded as one of the law's most successful and least controversial components.\n\nIf you're looking into a specific aspect (sentencing, policing, the assault weapons ban, or VAWA), I can go into more detail.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 865,
+  "total_tokens": 894,
+  "cost": 0.0004354,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004354,
+   "upstream_inference_prompt_cost": 2.9e-06,
+   "upstream_inference_completions_cost": 0.0004325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:53.016780+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

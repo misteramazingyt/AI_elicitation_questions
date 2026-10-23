@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "Q",
+ "prompt": "What were the consequences of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Britain's abolition of the transatlantic slave trade (Slave Trade Act, 1807) and of slavery itself (Slavery Abolition Act, 1833, with full apprenticeship ending in 1838) had wide-ranging consequences, some intended and some unexpected.\n\n**Consequences for the enslaved and their former owners**\n\n- **Compensation for slaveowners:** Rather than compensating the enslaved, the British government paid about £20 million (roughly 40% of annual government spending at the time) to slaveowners, the equivalent of several billion pounds today. The debt was not fully repaid until 2015. Much of the money went to absentee owners in Britain, and it entrenched the wealth of many families.\n- **Apprenticeship system (1834-1838):** Freedom was partly delayed. Former enslaved people were required to work for their former owners for a set number of hours as \"apprentices,\" which many saw as a disguised form of slavery. Protests and resistance, including the 1831 Baptist War in Jamaica, pressed for earlier full freedom, and the apprenticeship was ended early in 1838.\n- **Freedom and new lives:** Emancipation gave formerly enslaved people legal freedom, and many sought to leave plantations, acquire land, build independent communities, and educate their children. However, freedom was constrained by limited land access, vagrancy laws, and economic dependence on planters.\n\n**Economic consequences**\n\n- **Decline of Caribbean plantation economies:** Sugar production in the British West Indies declined over the following decades, partly because of labour shortages, rising costs, and competition from slave-grown sugar in Cuba and Brazil. Many colonies fell into economic stagnation.\n- **Indenture and migration:** To replace enslaved labour, planters recruited indentured workers from India, China, Madeira, and elsewhere. Around 500,000 Indians alone went to the Caribbean, Mauritius, Fiji, and other colonies, often under conditions resembling coerced labour.\n- **Shift in British trade and capital:** Capital previously tied to slavery and the Atlantic trade was redirected toward industry, railways, and other investments, though the extent of this shift is debated by historians (the \"Williams thesis\" that slavery financed the Industrial Revolution is contested).\n\n**Political and diplomatic consequences**\n\n- **Anti-slavery as foreign policy:** Britain used its naval power, notably the West Africa Squadron (established 1808), to intercept slave ships. It signed treaties with other nations and pressured them to end the trade. This campaign was significant but also served British commercial and strategic interests and sometimes justified intervention in African affairs.\n- **Moral leadership and imperial identity:** Abolition became a source of national pride and a justification for empire, though it coexisted with continued colonial rule and exploitation elsewhere.\n- **Influence on other countries:** British abolition encouraged movements in the United States, France, and Latin America, and contributed to the pressure that eventually ended slavery in the Americas (Brazil last, in 1888).\n\n**Social and cultural consequences**\n\n- **Abolitionist movement:** The campaign mobilized mass petitions, boycotts of sugar, and women's activism, shaping later reform movements and political participation.\n- **Racial ideas:** Debates over emancipation also fed new racial theories that portrayed Black people as needing European guidance, supporting paternalistic colonial policies.\n- **Remembrance and legacy:** Britain's role has been commemorated in ways that sometimes emphasize parliamentarians like Wilberforce over the enslaved people and Caribbean activists who resisted slavery, a point historians continue to debate.\n\nIn sum, abolition ended a brutal system and shifted Britain's global role, but it was carried out in a way that protected slaveowners financially, delayed freedom for the enslaved, and left lasting economic and social inequalities in the Caribbean and beyond.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 1301,
+  "total_tokens": 1341,
+  "cost": 0.0006545,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006545,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.0006505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:43.820306+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

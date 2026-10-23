@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "C",
+ "prompt": "What were the main causes of the 1993 Waco siege?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 1993 Waco siege was a complex event with multiple contributing factors. It was not caused by a single incident, but rather by a convergence of religious extremism, law enforcement investigations, media pressure, and a breakdown in communication.\n\nHere are the primary causes and contributing factors that led to the siege:\n\n### 1. The Rise of David Koresh\nThe central figure in the conflict was David Koresh (born Vernon Howell), who took control of the Branch Davidians—a splinter group of the Seventh-day Adventist Church—in the mid-1980s. Koresh claimed to be a prophet and the \"Lamb of God\" mentioned in the Book of Revelation. Under his leadership, the group became increasingly insular and apocalyptic. Koresh exerted total control over the members, including the practice of taking multiple \"spiritual wives,\" some of whom were underage.\n\n### 2. Allegations of Child Abuse and Statutory Rape\nThe primary legal trigger for the investigation was a series of allegations regarding the treatment of children inside the Mount Carmel Center (the Branch Davidian compound). Former members and concerned relatives reported that Koresh was physically and sexually abusing children, including engaging in sexual relations with underage girls. These reports prompted the Texas Department of Protective and Regulatory Services to begin an investigation into child welfare at the compound.\n\n### 3. Reports of Illegal Weapons\nAs the investigation into child abuse progressed, the Bureau of Alcohol, Tobacco, and Firearms (ATF) began investigating reports that the Branch Davidians were stockpiling illegal weapons. Former members claimed that Koresh was converting semi-automatic rifles into fully automatic machine guns, which was a violation of federal law. The ATF believed the group was preparing for an apocalyptic confrontation and was heavily arming itself.\n\n### 4. The ATF’s Need for a \"Win\"\nAt the time, the ATF was under significant political pressure. The agency had been criticized for previous failures and was facing potential budget cuts or even absorption into other agencies. Some historians and critics argue that the ATF leadership viewed a high-profile raid on the Branch Davidians as an opportunity to demonstrate the agency's necessity and effectiveness. This pressure may have influenced their decision to execute a dynamic entry raid rather than attempting to arrest Koresh while he was away from the compound.\n\n### 5. The \"Leak\" and the Loss of Surprise\nThe ATF planned a surprise raid for February 28, 1993. However, the plan was compromised. A local reporter from the *Waco Tribune-Herald* had been investigating the group and had tipped off a local mail carrier who happened to be the brother-in-law of David Koresh. Koresh learned of the impending raid, which meant the element of surprise—crucial for the ATF’s tactical plan—was lost. Despite knowing that the Branch Davidians were likely waiting for them, the ATF proceeded with the raid anyway.\n\n### 6. The Breakdown of Communication\nThe relationship between the Branch Davidians and the outside world was characterized by deep mutual suspicion. The government viewed Koresh as a dangerous cult leader and a criminal, while Koresh and his followers viewed the government as the \"Babylonian\" forces of evil described in the Bible. This ideological divide made negotiation extremely difficult. When the ATF arrived, the situation quickly devolved into a firefight, leading to the deaths of four ATF agents and six Branch Davidians, which transformed a police action into a 51-day standoff.\n\n### Summary\nThe siege was the result of a \"perfect storm\":\n*   **The ATF** was looking for a high-profile success to justify its existence.\n*   **The Branch Davidians** were a heavily armed, apocalyptic group led by a man accused of serious crimes.\n*   **The loss of surprise** turned a planned arrest into a military-style assault.\n*   **The ideological chasm** between the two sides made de-escalation nearly impossible once the shooting started.\n\nThe tragedy ultimately ended on April 19, 1993, when the FBI launched a final assault using tear gas, which resulted in a fire that destroyed the compound and killed 76 people, including many children.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 1012,
+  "total_tokens": 1027,
+  "cost": 0.00152175,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00152175,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.001518
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 135,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:32.875487+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

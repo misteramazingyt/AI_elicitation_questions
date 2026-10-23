@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "D",
+ "prompt": "Describe Venezuela's economic crisis since 2013.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The economic crisis in Venezuela, which began in earnest around 2013 following the death of Hugo Chávez and the inauguration of Nicolás Maduro, is widely considered one of the most severe economic collapses in modern history for a country not at war.\n\nThe crisis is characterized by hyperinflation, a massive contraction of GDP, widespread shortages of basic goods, and a humanitarian emergency that triggered the largest migration crisis in Latin American history.\n\nHere is a breakdown of the crisis, its causes, and its progression.\n\n### 1. The Roots of the Crisis\nThe crisis was not an overnight event but the result of structural vulnerabilities that were exacerbated by policy decisions:\n\n*   **Oil Dependence (The \"Dutch Disease\"):** Under Chávez, Venezuela became almost entirely dependent on oil exports, which accounted for roughly 95% of export earnings. When oil prices were high (2004–2014), the government used this revenue to fund massive social programs (\"Bolivarian Missions\"). However, the government failed to diversify the economy or maintain the infrastructure of the state-owned oil company, PDVSA.\n*   **Fiscal Mismanagement:** During the boom years, the government engaged in heavy deficit spending. When oil prices plummeted in 2014, the government had no savings to fall back on.\n*   **Price and Currency Controls:** To combat inflation and manage the economy, the government implemented strict price controls on goods and currency exchange controls. This led to the creation of a black market for currency, discouraged domestic production, and caused severe shortages, as businesses could not afford to import goods or sell them at government-mandated prices.\n\n### 2. The Collapse (2013–2018)\nWhen Nicolás Maduro took office in 2013, the economy began to unravel rapidly:\n\n*   **Hyperinflation:** As the government printed money to cover its massive budget deficits, the value of the Bolivar plummeted. By 2018, the International Monetary Fund (IMF) estimated inflation had reached over 1,000,000%. Prices for basic goods changed daily, sometimes hourly.\n*   **GDP Contraction:** Between 2013 and 2020, Venezuela’s economy shrank by roughly 75%—a contraction rarely seen outside of war zones.\n*   **Shortages and Humanitarian Crisis:** The combination of currency controls and the collapse of domestic industry meant that Venezuela could no longer import food, medicine, or spare parts. This led to the \"Venezuelan hunger crisis,\" where citizens faced long lines for basic necessities, and the healthcare system collapsed, leading to the resurgence of eradicated diseases.\n\n### 3. International Sanctions\nThe role of international sanctions is a subject of intense debate.\n*   **The Government View:** The Maduro administration argues that the crisis is primarily the result of an \"economic war\" waged by the United States and its allies through sanctions, which have restricted the country's ability to sell oil and access international credit markets.\n*   **The International View:** Most economists and international bodies argue that while sanctions (which intensified significantly after 2017) worsened the situation, the economic collapse was already well underway due to years of mismanagement, corruption, and the destruction of the private sector long before the harshest sanctions were imposed.\n\n### 4. The \"Dollarization\" and Stabilization (2019–Present)\nAround 2019, the government made a pragmatic pivot to survive:\n\n*   **De Facto Dollarization:** Facing the total worthlessness of the Bolivar, the government stopped enforcing strict currency controls. The U.S. dollar became the de facto currency for most transactions. This move helped curb hyperinflation and allowed for the return of some goods to store shelves, though it created a \"two-tier\" society: those with access to dollars and those who rely on the near-worthless local currency.\n*   **Economic \"Opening\":** The government has allowed some private sector activity to resume and has sought foreign investment in the oil sector, albeit with limited success due to the country's pariah status and infrastructure decay.\n*   **Current Status:** While the economy has stopped its freefall and seen modest growth in recent years, it remains a fraction of its former size. Poverty remains endemic, public services (electricity, water, and internet) are unreliable, and the country continues to suffer from a \"brain drain\" as millions of skilled professionals have emigrated.\n\n### 5. The Human Cost\nThe most profound impact of the crisis is the human toll:\n*   **Migration:** According to the UN, over 7.7 million Venezuelans have fled the country since 2014. This has created a massive regional migration crisis, straining the resources of neighboring countries like Colombia, Peru, and Brazil.\n*   **Social Inequality:** The crisis decimated the middle class. While a small elite (often connected to the government or the military) has maintained wealth, the vast majority of the population lives in poverty, relying on government food handouts (the CLAP program) or remittances sent by family members abroad.\n\n### Summary\nThe Venezuelan crisis is a textbook example of how an over-reliance on a single commodity, combined with authoritarian governance, the erosion of democratic institutions, and the destruction of the private sector, can lead to the total collapse of a once-prosperous nation. While the economy has stabilized from its absolute nadir, it remains fragile, deeply unequal, and heavily dependent on the political survival of the current regime.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 13,
+  "completion_tokens": 1274,
+  "total_tokens": 1287,
+  "cost": 0.00191425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00191425,
+   "upstream_inference_prompt_cost": 3.25e-06,
+   "upstream_inference_completions_cost": 0.001911
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 120,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:24.680985+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

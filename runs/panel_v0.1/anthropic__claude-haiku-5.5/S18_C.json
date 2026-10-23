@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "C",
+ "prompt": "What were the main causes of the 2011 military intervention in Libya?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 2011 military intervention in Libya grew out of a combination of immediate triggers, longer-term political conditions, and international calculations.\n\n**Immediate trigger: the 2011 uprising**\n- Inspired by the Tunisian and Egyptian revolutions earlier in 2011, protests broke out in Benghazi and other eastern cities in mid-February 2011.\n- Muammar Gaddafi's government responded with force. Security forces and loyalist units fired on demonstrators, and the crackdown escalated quickly into an armed rebellion as defecting soldiers and armed civilians took up arms.\n\n**Threat of mass atrocities**\n- Gaddafi and his son Saif al-Islam publicly vowed to crush the rebellion, with rhetoric promising to hunt down opponents \"house by house.\" Many observers and governments, including those in France, the UK, and the US, believed Benghazi, a city of roughly 700,000, faced a massacre.\n- This fear of imminent civilian slaughter was the central justification for intervention.\n\n**International legal and political framework**\n- The UN Security Council passed Resolution 1970 (February 26, 2011), which imposed an arms embargo, a travel ban and asset freezes on Gaddafi and associates, and referred the situation to the International Criminal Court.\n- Resolution 1973 (March 17, 2011) authorized \"all necessary measures\" to protect civilians, including a no-fly zone, with Russia and China abstaining. This was grounded in the emerging \"responsibility to protect\" (R2P) doctrine.\n\n**Key actors and their motives**\n- France and the UK were the most forceful advocates. France recognized the rebel National Transitional Council early, and both countries cited humanitarian concerns alongside strategic and political interests (including Western credibility in the post-Arab Spring environment).\n- The United States, initially hesitant, joined under the Obama administration, with the Arab League's support for a no-fly zone lending regional legitimacy.\n- Gaddafi's long isolation, his erratic behavior, and his regime's history (including the Lockerbie bombing and the 1980s clashes with the West) meant few governments were willing to defend him.\n\n**Underlying conditions**\n- Four decades of authoritarian rule under Gaddafi, with little institutional development, weak civil society, and a fragmented tribal and regional structure, meant the regime had few internal defenders once the uprising spread.\n\nIntervention began on March 19, 2011, and NATO took over command later that month. Critics argue the mission exceeded its mandate by actively supporting regime change, a point that became central to debates over the intervention's aftermath, including the country's subsequent civil war and instability.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 883,
+  "total_tokens": 912,
+  "cost": 0.0004444,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004444,
+   "upstream_inference_prompt_cost": 2.9e-06,
+   "upstream_inference_completions_cost": 0.0004415
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:52.293612+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

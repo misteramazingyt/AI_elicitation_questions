@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "H",
+ "prompt": "How have historians interpreted the Immigration and Nationality Act of 1965? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Immigration and Nationality Act of 1965 (Hart-Celler Act) has been read through several overlapping frameworks. Historians disagree mainly about why it passed and what it unintentionally produced.\n\n**1. The Act as a civil rights achievement**\n\nGabriel J. Chin's article \"The Civil Rights Revolution Comes to Immigration Law: A New Look at the Immigration and Nationality Act of 1965,\" *North Carolina Law Review* 75 (1996): 273–345, argues that the law belongs to the broader civil rights revolution. Chin contends that the national-origins quotas of the 1924 Act were a form of racial discrimination, and that the 1965 law removed them as part of the same moral and legal reckoning that produced the Civil Rights Act of 1964. Earlier accounts, including the sponsors' own, stressed this reading. Senator Edward Kennedy's and President Lyndon Johnson's rhetoric emphasized fairness and the end of discrimination. John F. Kennedy's *A Nation of Immigrants* (Harper & Row, 1964) articulated the reform case before his death and is often cited as its intellectual origin.\n\n**2. The Act as Cold War diplomacy**\n\nSome historians stress foreign policy. The quota system undermined American claims to moral leadership among newly independent states in Asia and Africa, and it complicated Cold War propaganda. Reformers and the executive branch saw abolishing the national-origins system as a way to improve the country's image abroad. This reading is often combined with the civil rights interpretation rather than offered as a rival to it.\n\n**3. Political coalitions and institutional politics**\n\nDaniel Tichenor, *Dividing Lines: The Politics of Immigration Control in America* (Princeton University Press, 2002), analyzes immigration policy as the product of shifting coalitions among reformers, labor, business, ethnic lobbies, restrictionists, and congressional committees. Tichenor shows how the 1965 reform depended on specific alignments and on the strategic weakness of restrictionist forces after the mid-century shift in ethnic politics. Aristide Zolberg, *A Nation by Design: Immigration Policy in the Fashioning of America* (Harvard University Press, 2006), similarly treats 1965 as a turning point in a long history of state-managed admissions, and argues that the law's sponsors did not foresee the scale of change it would bring.\n\n**4. Unintended consequences and the \"new immigration\"**\n\nMuch scholarship argues that the sponsors expected modest changes, with immigration from Europe continuing and few new arrivals from elsewhere. Instead, the Act's preference system (family reunification and skilled labor) and the Western Hemisphere cap, which was introduced in 1968 and which Mexico and other nations felt sharply, produced large flows from Asia, Latin America, and the Caribbean. Zolberg and Reed Ueda, *Postwar Immigrant America: A Social History* (Bedford/St. Martin's, 1994), discuss this transformation. Ueda emphasizes its social and demographic effects. Douglas S. Massey and coauthors, *Beyond Smoke and Mirrors: Mexican Immigration in an Era of Economic Integration* (Russell Sage, 2002), show how the Western Hemisphere limits contributed to undocumented migration, a consequence many historians now treat as central to the Act's legacy.\n\n**5. The Act and the creation of \"illegality\"**\n\nMae M. Ngai, *Impossible Subjects: Illegal Aliens and the Making of Modern America* (Princeton University Press, 2004), argues that the 1965 law, together with the end of the Bracero Program in 1964, helped create the modern category of the \"illegal alien.\" Ngai sees the restructuring of admissions as producing new forms of legal exclusion and labor dependence. Kitty Calavita, *Inside the State: The Bracero Program, Immigration, and the I.N.S.* (Routledge, 1992), provides the earlier background on how labor migration policy and enforcement shaped these outcomes.\n\n**6. Legal and constitutional perspectives**\n\nHiroshi Motomura, *Americans in Waiting: The Lost Story of Immigration and Citizenship in the United States* (Oxford University Press, 2006), and Roger Daniels, *Guarding the Golden Door: American Immigration Policy and Immigrants since 1882* (Hill and Wang, 2004), place the 1965 Act within the longer development of U.S. immigration law and its administration.\n\n**Summary of the debate**\n\n- Chin and the civil rights school see the Act as a moral correction to racial quotas.\n- Tichenor and Zolberg emphasize the political bargaining that made reform possible and its partly unforeseen results.\n- Ngai, Massey, and others focus on its long-term social and legal consequences, especially the growth of undocumented migration and the new \"illegality\" regime.\n\nHistorians generally agree that the sponsors underestimated how much the law would change the country's immigrant population. They differ on whether that outcome reflected a flaw in the reform or was an intended, if unacknowledged, feature of a policy that redrew the boundaries of membership.\n\nPlease verify page numbers and editions before citing, since I'm working from memory.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 3160,
+  "total_tokens": 3200,
+  "cost": 0.001584,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001584,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.00158
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1402,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:59.414291+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

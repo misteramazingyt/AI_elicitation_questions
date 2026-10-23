@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "Q",
+ "prompt": "What were the consequences of the Great Depression?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Great Depression (1929–1939) was the most severe economic downturn in the history of the industrialized world. Its consequences were profound, reshaping global economies, political landscapes, and the daily lives of millions of people.\n\nHere are the primary consequences of the Great Depression, categorized by their impact:\n\n### 1. Economic Consequences\n*   **Mass Unemployment:** At the height of the Depression in 1933, the U.S. unemployment rate reached nearly 25%. Millions of people lost their livelihoods, and those who kept their jobs often faced severe wage cuts and reduced hours.\n*   **Bank Failures and Loss of Savings:** Thousands of banks collapsed as panicked depositors rushed to withdraw their money (bank runs). Because there was no federal deposit insurance at the time, millions of families lost their life savings overnight.\n*   **Collapse of Global Trade:** As nations tried to protect their own industries, they imposed high tariffs (such as the Smoot-Hawley Tariff Act in the U.S.). This triggered a trade war, causing international trade to plummet by more than 60%, which deepened the global economic crisis.\n*   **Deflation:** Prices for goods and services dropped sharply. While this sounds good in theory, it was disastrous for the economy because businesses could not make a profit, leading to further layoffs and business closures.\n\n### 2. Social and Human Consequences\n*   **Homelessness and \"Hoovervilles\":** With millions unable to pay rent or mortgages, homelessness skyrocketed. Shantytowns built from scrap metal, cardboard, and wood sprang up on the outskirts of cities; these were derisively called \"Hoovervilles\" after President Herbert Hoover, whom many blamed for the crisis.\n*   **The Dust Bowl:** In the American Midwest, a severe drought combined with poor farming practices led to massive dust storms. This ecological disaster destroyed farms, forcing hundreds of thousands of \"Okies\" and other displaced farmers to migrate west to California in search of work, often facing discrimination and extreme poverty.\n*   **Psychological Toll:** The Depression caused widespread despair, a loss of self-worth, and a decline in marriage and birth rates. Suicide rates increased, and many families were separated as men left home to \"ride the rails\" in search of work.\n*   **Malnutrition:** Hunger became a widespread reality. Bread lines and soup kitchens, often run by charities or churches, became common sights in major cities.\n\n### 3. Political Consequences\n*   **Rise of Extremism:** The economic misery created fertile ground for radical political ideologies. In Europe, the instability helped the rise of totalitarian regimes. Adolf Hitler and the Nazi Party rose to power in Germany by promising to restore the economy and national pride, while fascism gained traction in Italy and Spain.\n*   **Expansion of Government Power:** In the United States, the crisis led to the election of Franklin D. Roosevelt and the implementation of the **\"New Deal.\"** This fundamentally changed the relationship between the American government and its citizens. The government began to take an active role in managing the economy and providing a social safety net.\n*   **Creation of the Welfare State:** The New Deal introduced programs that still exist today, such as Social Security (old-age pensions), unemployment insurance, and federal regulation of the stock market (SEC) and banking (FDIC). This marked the beginning of the modern American welfare state.\n\n### 4. Long-Term Global Impact\n*   **Shift in Economic Theory:** The Depression discredited the prevailing economic theory of *laissez-faire* (the idea that the government should not interfere in the economy). It gave rise to **Keynesian economics**, which argues that governments should spend money and lower taxes during economic downturns to stimulate demand.\n*   **Seeds of World War II:** The economic desperation in Germany and Japan, combined with the isolationist policies of the U.S. and other Western powers, created a power vacuum and a climate of aggression that directly contributed to the outbreak of World War II.\n*   **Global Interdependence:** The crisis demonstrated how interconnected the world economy had become. It forced nations to eventually create international institutions (like the IMF and World Bank after WWII) to manage global financial stability and prevent such a collapse from happening again.\n\n### Summary\nThe Great Depression was a \"watershed moment\" in history. It ended the era of unregulated capitalism, birthed the modern social safety net, shifted the global balance of power toward totalitarianism in the short term, and ultimately forced the world to rethink how governments should manage economic crises.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 9,
+  "completion_tokens": 1076,
+  "total_tokens": 1085,
+  "cost": 0.00161625,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00161625,
+   "upstream_inference_prompt_cost": 2.25e-06,
+   "upstream_inference_completions_cost": 0.001614
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:21.799951+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

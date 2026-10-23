@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Supreme Court’s 2022 decision in *Dobbs v. Jackson Women’s Health Organization*, which overturned *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992), was the culmination of decades of legal, political, and ideological shifts.\n\nThere was no single \"cause,\" but rather a convergence of several key factors that created the conditions for the Court to revisit and ultimately reverse its long-standing abortion jurisprudence.\n\n### 1. The Composition of the Supreme Court\nThe most immediate cause was the change in the Court’s ideological makeup. For decades, the Court had a narrow majority that supported abortion rights. However, the appointment of three conservative justices by President Donald Trump—Neil Gorsuch, Brett Kavanaugh, and Amy Coney Barrett—solidified a 6–3 conservative majority.\n\nThis shift was critical because it provided the necessary votes to overturn precedent. Legal scholars had long noted that *Roe* and *Casey* were protected by a fragile majority; once the Court’s composition shifted decisively to the right, the legal barrier to overturning those cases was removed.\n\n### 2. The \"Originalist\" Legal Philosophy\nThe majority opinion, written by Justice Samuel Alito, was rooted in the legal philosophy of **originalism**. Originalists argue that the Constitution should be interpreted based on its original public meaning at the time it was ratified.\n\n*   **The Argument:** The majority argued that the 14th Amendment’s Due Process Clause—which had been the basis for the \"right to privacy\" in *Roe*—does not explicitly mention abortion.\n*   **The Standard:** The Court applied a test established in *Washington v. Glucksberg*, which states that for a right to be protected under the Due Process Clause, it must be \"deeply rooted in this Nation’s history and tradition.\" The Court concluded that because abortion was widely criminalized in the 19th century (when the 14th Amendment was ratified), it did not meet this standard.\n\n### 3. The Strategy of State-Level Legislation\nFor years, the anti-abortion movement pursued a strategy of passing restrictive laws at the state level specifically designed to challenge *Roe* and *Casey*.\n\n*   **The Mississippi Law:** The *Dobbs* case centered on Mississippi’s \"Gestational Age Act,\" which banned most abortions after 15 weeks of pregnancy. This was a direct challenge to the viability standard established in *Roe* (which protected abortion until the fetus could survive outside the womb, typically around 23–24 weeks).\n*   **The \"Vehicle\":** By passing a law that clearly violated the viability standard, Mississippi provided the Supreme Court with a \"vehicle\" to hear a case that forced them to either uphold the viability standard or abandon it entirely.\n\n### 4. The Erosion of *Stare Decisis*\n*Stare decisis* is the legal principle of respecting precedent—the idea that courts should not overturn past decisions unless there is a compelling reason to do so.\n\nIn *Dobbs*, the majority argued that *Roe* and *Casey* were \"egregiously wrong\" from the start. Justice Alito wrote that *Roe* was \"on a collision course with the Constitution\" and that its reasoning was \"exceptionally weak.\" By framing the previous decisions as fundamentally flawed and unworkable, the majority argued that *stare decisis* did not require them to uphold a decision they believed was constitutionally illegitimate.\n\n### 5. Decades of Political Mobilization\nThe decision was also the result of a long-term, highly organized political movement. Since the 1970s, the anti-abortion movement (the \"Pro-Life\" movement) made the overturning of *Roe* a central goal of their political advocacy.\n\n*   **Judicial Appointments:** This movement successfully made the appointment of conservative judges a litmus test for Republican candidates. This created a feedback loop where voters elected politicians who promised to appoint judges who would overturn *Roe*, and those judges were eventually confirmed to the federal bench and the Supreme Court.\n*   **The Federalist Society:** The influence of the Federalist Society, a conservative legal organization, played a significant role in identifying and vetting judicial candidates who adhered to originalist and textualist interpretations of the law, which were essential to the *Dobbs* outcome.\n\n### Summary\nThe *Dobbs* decision was not an accident of history; it was the result of a **deliberate, multi-decade legal and political project.** It required the alignment of a conservative legal theory (originalism), a strategic legislative push by states to create a test case, and a shift in the Supreme Court’s personnel that allowed the majority to conclude that the constitutional right to abortion, as established in 1973, was no longer legally sustainable.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 1144,
+  "total_tokens": 1173,
+  "cost": 0.00172325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00172325,
+   "upstream_inference_prompt_cost": 7.25e-06,
+   "upstream_inference_completions_cost": 0.001716
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 132,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:37.441521+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

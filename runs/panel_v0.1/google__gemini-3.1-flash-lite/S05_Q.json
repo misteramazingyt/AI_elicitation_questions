@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1993 Waco siege?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 1993 Waco siege, which ended in the destruction of the Branch Davidian compound and the deaths of 76 people (including leader David Koresh and many children), had profound and lasting consequences on American politics, law enforcement, and the anti-government movement.\n\nHere are the primary consequences of the siege:\n\n### 1. The Rise of the Modern Militia Movement\nThe most significant long-term consequence was the radicalization of the American far-right. Many anti-government groups viewed the Waco siege as proof that the federal government was tyrannical and willing to murder its own citizens.\n*   **The Oklahoma City Bombing:** Timothy McVeigh, who carried out the 1995 Oklahoma City bombing—the deadliest act of domestic terrorism in U.S. history—cited Waco as his primary motivation. He visited the site during the siege and timed his attack to occur on the second anniversary of the final fire at the compound.\n*   **Growth of Militias:** The siege served as a powerful recruiting tool for militia groups across the United States. It solidified a narrative that the federal government (specifically the ATF and FBI) was an enemy of the people, leading to a surge in membership for groups like the Michigan Militia and others who began stockpiling weapons and training for \"defensive\" combat against the state.\n\n### 2. Changes in Federal Law Enforcement\nThe siege was widely viewed as a tactical failure, leading to significant scrutiny of how federal agencies handle high-stakes standoffs.\n*   **Tactical Reforms:** The FBI and ATF faced intense criticism for their handling of the situation, particularly the decision to use tear gas and the subsequent fire. This led to a re-evaluation of \"use of force\" policies. Federal agencies became more cautious about initiating raids on religious or ideological groups, fearing a repeat of the public relations and tactical disaster of Waco.\n*   **Congressional Hearings:** Extensive congressional hearings were held in 1995 to investigate the actions of the ATF and FBI. While the hearings did not result in criminal charges against federal agents, they severely damaged the reputation of the agencies and led to increased oversight.\n\n### 3. Political Polarization and Distrust\nWaco became a touchstone in the American \"culture wars,\" deepening the divide between those who distrusted federal authority and those who supported it.\n*   **The \"Deep State\" Narrative:** Waco helped cement the idea of a \"Deep State\" or an overreaching federal government in the American consciousness. It became a foundational myth for conspiracy theorists, who argued that the government had intentionally murdered the Branch Davidians to cover up its own incompetence or to test new weapons.\n*   **Gun Rights Advocacy:** The siege became a rallying cry for gun rights activists. The initial ATF raid was based on allegations of illegal firearms modifications, and the subsequent siege was interpreted by many as an attempt to disarm citizens. This solidified the NRA’s and other gun-rights groups' stance against federal regulation.\n\n### 4. Legal and Judicial Aftermath\n*   **Criminal Trials:** Surviving Branch Davidians were put on trial. While they were acquitted of murder and conspiracy charges related to the deaths of the federal agents, several were convicted on lesser charges, such as voluntary manslaughter and weapons violations. These trials were highly controversial, with defense attorneys arguing that the Branch Davidians were acting in self-defense against an unconstitutional government assault.\n*   **Civil Litigation:** The families of the deceased Branch Davidians filed wrongful death lawsuits against the U.S. government. These suits were largely unsuccessful, as courts generally ruled that the government was protected by \"sovereign immunity\" and that the agents had acted within the scope of their duties.\n\n### 5. Cultural Legacy\nWaco remains a permanent fixture in American pop culture and historical memory. It is frequently referenced in documentaries, books, and television series (such as the 2018 miniseries *Waco*). It serves as a cautionary tale about the dangers of government overreach, the volatility of religious extremism, and the catastrophic potential of failed communication between the state and its citizens.\n\nIn summary, the consequences of Waco were not just the immediate loss of life, but a **fundamental shift in the relationship between the American public and federal law enforcement.** It created a lasting legacy of suspicion that continues to influence American political discourse and the rhetoric of anti-government movements today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 14,
+  "completion_tokens": 1036,
+  "total_tokens": 1050,
+  "cost": 0.0015575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015575,
+   "upstream_inference_prompt_cost": 3.5e-06,
+   "upstream_inference_completions_cost": 0.001554
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 130,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:33.120330+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

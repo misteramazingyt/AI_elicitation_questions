@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "D",
+ "prompt": "Describe the FBI's COINTELPRO program.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "COINTELPRO (Counter Intelligence Program) was a series of covert and often illegal operations conducted by the Federal Bureau of Investigation from 1956 to 1971. Its stated purpose was to expose, disrupt, and neutralize groups the FBI viewed as subversive, but it was aimed largely at domestic political organizations, many of them lawful and nonviolent.\n\n**Origins and scope**\nCOINTELPRO began in 1956 as an effort to disrupt the Communist Party USA. It later expanded to target the Socialist Workers Party, the civil rights movement, the New Left, antiwar activists, Black nationalist and separatist groups, and others. Programs were run under code names such as COINTELPRO-CPUSA, COINTELPRO-White Hate, COINTELPRO-New Left, and COINTELPRO-Black Extremists.\n\n**Tactics**\nMethods documented in internal FBI records and later congressional and court inquiries included:\n- Infiltrating groups with informants and agents provocateurs\n- Spreading disinformation and anonymous letters to create distrust and internal conflict among members, including attempts to break up marriages and friendships\n- Fabricating or leaking damaging information to employers, universities, and the press\n- Pressuring employers to fire activists and landlords to evict them\n- Orchestrating raids, arrests, and prosecutions, sometimes on false or weak charges\n- Discrediting leaders through smear campaigns\n- Harassment through surveillance, wiretaps, and mail interception\n- Encouraging rival groups to feud, which contributed to violence in some cases\n\n**Notable targets**\n- Martin Luther King Jr., who was wiretapped and subjected to an anonymous letter that suggested suicide, and whose organization was monitored extensively\n- The Black Panther Party, including the 1969 raid in Chicago that killed Fred Hampton and Mark Clark\n- Malcolm X, Elijah Muhammad-linked groups, and other Black leaders and organizations\n- Antiwar groups, feminist organizations, and the American Indian Movement\n- Socialist and communist organizations\n\n**Exposure and aftermath**\nIn March 1971, a group calling itself the Citizens' Commission to Investigate the FBI broke into an FBI field office in Media, Pennsylvania, and stole files that revealed the program. Journalists, notably Betty Medsger of the Washington Post, published the documents. FBI Director J. Edgar Hoover officially ended COINTELPRO in April 1971 after the revelations.\n\nIn 1975–76, the Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities, chaired by Senator Frank Church, investigated the program and issued a report condemning it as a serious abuse of power. The findings led to reforms, including guidelines restricting FBI domestic investigations (the Attorney General's Guidelines) and oversight measures that contributed to the creation of the Foreign Intelligence Surveillance Court framework. The revelations remain a central reference point in debates over government surveillance and civil liberties.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1026,
+  "total_tokens": 1051,
+  "cost": 0.0005155,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005155,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.000513
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:30.657844+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

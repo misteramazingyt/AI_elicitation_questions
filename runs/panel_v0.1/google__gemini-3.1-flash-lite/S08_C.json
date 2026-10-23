@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "C",
+ "prompt": "What were the main causes of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The controversy surrounding the Internal Revenue Service (IRS) between 2010 and 2013—often referred to as the \"IRS targeting scandal\"—centered on the agency’s use of \"Be On the Lookout\" (BOLO) lists to flag applications for tax-exempt status (specifically 501(c)(4) social welfare organizations) for extra scrutiny.\n\nWhile the controversy was highly politicized, investigations by the Treasury Inspector General for Tax Administration (TIGTA), the Department of Justice, and congressional committees identified several key causes for the agency's actions.\n\nHere are the primary factors that led to the situation:\n\n### 1. A Surge in Applications\nFollowing the Supreme Court’s 2010 *Citizens United v. FEC* decision, there was a massive influx of applications for 501(c)(4) tax-exempt status. Many of these organizations were politically active groups seeking to influence elections while keeping their donors anonymous. The IRS’s Exempt Organizations (EO) division in Cincinnati, which handled these applications, was overwhelmed by the volume and lacked the resources or clear guidance to process them efficiently.\n\n### 2. Inadequate Guidance and \"Political\" Criteria\nThe IRS struggled to define what constituted \"political campaign intervention\" versus \"social welfare\" activity. Under tax law, 501(c)(4) organizations are permitted to engage in some political activity, provided it is not their \"primary purpose.\"\n\nBecause the IRS lacked clear, objective regulations to determine the \"primary purpose\" of these new, highly political groups, low-level employees in the Cincinnati office created their own internal criteria to manage the workload. They began using BOLO lists that included terms like \"Tea Party,\" \"Patriots,\" and \"9/12 Project\" to identify applications that required closer review.\n\n### 3. Management Failures and Lack of Oversight\nInvestigations revealed that the use of these BOLO lists was not the result of a top-down political conspiracy directed by the White House, but rather a failure of management and oversight within the IRS.\n*   **Lack of Supervision:** Senior IRS leadership in Washington, D.C., was largely unaware of the specific criteria being used by the Cincinnati office until the practice had been in place for some time.\n*   **Ineffective Communication:** There was a significant disconnect between the Cincinnati field office and the Washington headquarters. When the Cincinnati office requested guidance on how to handle the surge of political applications, they received little to no actionable direction, leading them to develop their own, flawed screening processes.\n\n### 4. \"Ineptitude\" vs. \"Malice\"\nA central point of contention during the investigations was whether the targeting was politically motivated (malice) or simply bureaucratic incompetence (ineptitude).\n*   **The \"Ineptitude\" Finding:** The TIGTA report concluded that the IRS used \"inappropriate criteria\" that resulted in the targeting of conservative groups. However, the report also found that the IRS had eventually expanded its BOLO lists to include progressive groups as well (such as those with \"Progressive\" or \"Occupy\" in their names).\n*   **The Conclusion:** Most independent investigations, including a two-year Department of Justice investigation that concluded in 2015, found no evidence of political bias or criminal intent by IRS officials. Instead, they characterized the actions as a result of poor management, a lack of clear guidance, and an attempt to handle an unmanageable workload by using \"shortcuts\" that were legally and administratively inappropriate.\n\n### Summary\nThe IRS’s handling of these applications was primarily caused by **bureaucratic mismanagement in the face of a sudden, high-volume workload.** The agency was ill-equipped to handle the post-*Citizens United* landscape, and in the absence of clear policy guidance from leadership, low-level employees created flawed, discriminatory screening criteria to manage the backlog. While the targeting disproportionately affected conservative groups, investigations generally attributed this to administrative incompetence rather than a coordinated political conspiracy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 984,
+  "total_tokens": 1014,
+  "cost": 0.0014835,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014835,
+   "upstream_inference_prompt_cost": 7.5e-06,
+   "upstream_inference_completions_cost": 0.001476
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 148,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:36.243768+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

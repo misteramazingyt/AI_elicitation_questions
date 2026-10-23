@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "C",
+ "prompt": "What were the main causes of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The passage of the Civil Rights Act of 1964 was not the result of a single event, but rather the culmination of decades of grassroots activism, shifting public opinion, political maneuvering, and the tragic assassination of a president.\n\nHere are the main causes that led to the passage of this landmark legislation:\n\n### 1. The Sustained Civil Rights Movement\nThe most significant driver was the relentless pressure applied by the Civil Rights Movement. Organizations like the SCLC (Southern Christian Leadership Conference), SNCC (Student Nonviolent Coordinating Committee), and the NAACP had spent years organizing protests, boycotts, and legal challenges.\n*   **Nonviolent Direct Action:** Campaigns like the Montgomery Bus Boycott (1955–56) and the sit-ins of 1960 proved that African Americans could mobilize effectively to disrupt the status quo.\n*   **The Birmingham Campaign (1963):** This was a turning point. The brutal response by Birmingham police—using fire hoses and attack dogs against peaceful protesters, including children—was broadcast on national television. The horrific images shocked the American public and made it impossible for the federal government to ignore the moral crisis of segregation.\n\n### 2. The March on Washington (August 1963)\nThe March on Washington for Jobs and Freedom brought over 250,000 people to the nation’s capital. It was a massive display of unity and peaceful resolve. Martin Luther King Jr.’s \"I Have a Dream\" speech galvanized the nation and put immense pressure on Congress and the Kennedy administration to act. It demonstrated that the movement had broad, mainstream support, not just among Black Americans, but among white liberals, labor unions, and religious groups.\n\n### 3. The Assassination of John F. Kennedy\nPresident John F. Kennedy had proposed a civil rights bill in June 1963, but it was stalled in Congress by powerful Southern segregationist Democrats. Following Kennedy’s assassination in November 1963, the political climate shifted dramatically.\n*   **A Legacy to Honor:** The new president, Lyndon B. Johnson, framed the passage of the bill as a way to honor the fallen president. He used Kennedy’s death to create a sense of national urgency and moral obligation, telling Congress, \"No memorial oration or eulogy could more eloquently honor President Kennedy's memory than the earliest possible passage of the civil rights bill.\"\n\n### 4. The Political Mastery of Lyndon B. Johnson\nLyndon B. Johnson (LBJ) was a master of the legislative process. Having served as Senate Majority Leader, he knew exactly how to twist arms, make deals, and navigate the complex rules of Congress.\n*   **Overcoming the Filibuster:** The bill faced a massive filibuster in the Senate led by Southern Democrats (the \"Dixiecrats\"). LBJ worked tirelessly with Senate Minority Leader Everett Dirksen (a Republican) to secure the necessary votes to invoke cloture (ending the debate). This was the first time in history that cloture was successfully invoked on a civil rights bill, effectively breaking the Southern blockade.\n\n### 5. Shifting Public Opinion\nThroughout the early 1960s, public opinion in the North and West began to shift. As the media covered the violence in the South, the \"separate but equal\" doctrine became increasingly indefensible to the average American. The moral clarity of the movement—highlighting the hypocrisy of fighting for freedom abroad (in the Cold War) while denying it at home—resonated with a growing segment of the population.\n\n### 6. The Cold War Context\nThe United States was engaged in a global ideological battle with the Soviet Union for the \"hearts and minds\" of the developing world (in Africa, Asia, and Latin America). Soviet propaganda frequently highlighted American racism to discredit democracy. U.S. policymakers realized that segregation was a significant liability in foreign policy; to maintain moral authority on the world stage, the U.S. had to address its domestic human rights failures.\n\n### Summary\nThe Civil Rights Act of 1964 was passed because **the Civil Rights Movement made the status quo untenable.** The movement created the moral crisis, the March on Washington provided the political momentum, the Birmingham violence provided the public outrage, and Lyndon B. Johnson provided the legislative machinery to turn that momentum into law.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 1032,
+  "total_tokens": 1052,
+  "cost": 0.001553,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001553,
+   "upstream_inference_prompt_cost": 5e-06,
+   "upstream_inference_completions_cost": 0.001548
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 127,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:29.746393+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

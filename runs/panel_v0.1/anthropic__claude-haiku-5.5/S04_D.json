@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "D",
+ "prompt": "Describe Soviet espionage in the United States in the 1940s, including the Rosenberg case.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Soviet espionage in the United States during the 1940s was extensive, and it reached into the highest levels of government, the atomic weapons program, and the wartime alliance's intelligence and diplomatic apparatus. Much of what was known publicly remained contested for decades, but the Venona decryptions (released in 1995) and Soviet archives opened after 1991 confirmed the scale of the operations.\n\n**Background and Structure**\n\nThe Soviet intelligence services of the period, including the NKVD (People's Commissariat for Internal Affairs) and later the GRU (military intelligence), ran networks in the U.S. Many agents were recruited through ideological sympathy. During the Great Depression, and especially after the Nazi-Soviet Pact of 1939 was followed by the German invasion of the USSR in 1941 (which made the Soviet Union a wartime ally), some Americans who had been sympathetic to communism shared information willingly, believing they were helping an ally against fascism. Others were recruited for money or simply through personal connections.\n\nSoviet intelligence was helped enormously by the Venona project, but that effort was a U.S. codebreaking program that only began decrypting Soviet cables in 1943, and its results were not used in prosecutions for many years. During the war, Soviet operatives in the U.S. operated with relatively little interference.\n\n**Key Espionage Activities**\n\n- **Atomic espionage:** The most consequential operation targeted the Manhattan Project. Klaus Fuchs, a German-born physicist working at Los Alamos and Harwell in Britain, passed detailed information on implosion-type bomb design and other work to the Soviets. Theodore Hall, a young American physicist at Los Alamos, also gave information to the Soviets. Fuchs's confession in 1950 led to the exposure of several other people.\n- **Government penetration:** Soviet sources included officials in the Treasury Department (Harry Dexter White, who was accused of passing information and influencing postwar economic policy), the State Department, the Office of Strategic Services (OSS), and the wartime Office of War Information. Alger Hiss, a State Department official who attended the Yalta and Dumbarton Oaks conferences, was accused by Whittaker Chambers, a former courier, of being a Soviet agent. Hiss was convicted of perjury in 1950 (the espionage charge itself had passed the statute of limitations), and the debate over his guilt continues, though the Venona material and later evidence strengthened the case against him.\n\n**The Rosenberg Case**\n\nJulius Rosenberg was an electrical engineer who had worked for the Army Signal Corps and then ran a small machine shop in New York. He had been recruited into Soviet espionage in the mid-1930s, and during the war he recruited others and ran a network that obtained military technology, including information on radar and jet engines, and reportedly some material related to the atomic program.\n\nHis brother-in-law David Greenglass, an Army machinist at Los Alamos, passed sketches and descriptions of the implosion lens mechanism. Greenglass's account, together with Fuchs's, is generally considered the source of information that helped the Soviets. Greenglass's wife Ruth and Julius's wife Ethel were also involved to varying degrees; Ethel's role is the most debated, since she was probably aware of her husband's activities but there is little evidence she took an active role in espionage.\n\nThe arrests came in 1950 after Fuchs confessed and led the FBI to Harry Gold, a courier, who in turn identified Greenglass. Greenglass implicated his sister and brother-in-law. In 1951 Julius and Ethel Rosenberg were tried in New York for conspiracy to commit espionage. They were convicted, and in 1953 they were executed at Sing Sing, the first American civilians executed for espionage in the Cold War. Greenglass testified against them and received a 15-year sentence.\n\nThe sentence was controversial. Many people, including supporters who doubted the evidence and critics who believed the death penalty excessive, protested it. Judge Irving Kaufman stated that the atomic secrets had altered the course of history and may have cost lives in the Korean War, which the Soviet Union's nuclear advances made more dangerous. Ethel's sentence was also widely criticized, as she was executed despite the limited evidence of her direct involvement.\n\n**Aftermath and Assessment**\n\nThe Rosenberg case polarized public opinion for decades. Later evidence, including Venona messages and the 1995 release of material, confirmed that Julius Rosenberg was a Soviet agent, and that the Greenglass material was significant. Evidence regarding Ethel's role remains disputed; some historians think she knew of the espionage but had little active part, and others argue she was more involved. In 2015 Greenglass admitted that he had lied on the stand about his wife Ruth's role, saying she had typed the notes he later described, and that he had testified against his sister to protect himself.\n\nThe broader legacy of Soviet espionage in the 1940s was a heightened American concern about internal subversion, which fed into the Second Red Scare, the House Un-American Activities Committee's investigations, and the loyalty-security programs of the Truman and Eisenhower administrations. It also shaped debates over the scope and legitimacy of anti-communist prosecutions, which historians still discuss today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 1756,
+  "total_tokens": 1795,
+  "cost": 0.0008819,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008819,
+   "upstream_inference_prompt_cost": 3.9e-06,
+   "upstream_inference_completions_cost": 0.000878
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:24.066600+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

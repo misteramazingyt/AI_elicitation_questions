@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2008 financial crisis?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2008 financial crisis, often called the \"Great Recession,\" was the most severe economic downturn since the Great Depression of the 1930s. Its consequences were profound, far-reaching, and continue to shape the global economic and political landscape today.\n\nHere are the primary consequences of the 2008 financial crisis, categorized by their impact:\n\n### 1. Economic Consequences\n*   **Global Recession:** The crisis triggered a synchronized global economic downturn. GDP growth plummeted in almost every major economy, and international trade slowed significantly as credit markets froze.\n*   **Massive Unemployment:** Millions of people lost their jobs. In the United States, the unemployment rate doubled, peaking at 10% in October 2009. Long-term unemployment became a persistent issue, as many workers struggled to re-enter the workforce for years.\n*   **Housing Market Collapse:** The crisis was rooted in the U.S. subprime mortgage market. As housing prices crashed, millions of homeowners found themselves \"underwater\" (owing more on their mortgage than their home was worth). This led to a wave of foreclosures, displacing families and destroying household wealth.\n*   **Loss of Household Wealth:** The combination of falling home prices and the stock market crash wiped out trillions of dollars in household wealth, devastating retirement savings (401ks and pensions) and delaying retirement for millions of older workers.\n\n### 2. Financial and Regulatory Consequences\n*   **Bank Failures and Bailouts:** Major financial institutions (such as Lehman Brothers) collapsed, while others (like AIG, Citigroup, and Bank of America) required massive government bailouts to prevent a total systemic collapse. This led to the \"Too Big to Fail\" debate, where the public grew angry that banks were saved while homeowners were not.\n*   **Dodd-Frank Act:** In response to the crisis, the U.S. passed the Dodd-Frank Wall Street Reform and Consumer Protection Act in 2010. It introduced stricter regulations on banks, created the Consumer Financial Protection Bureau (CFPB), and aimed to increase transparency in financial derivatives.\n*   **Monetary Policy Shifts:** Central banks, particularly the U.S. Federal Reserve, slashed interest rates to near zero. When that wasn't enough, they engaged in \"Quantitative Easing\" (QE)—a massive program of buying government bonds and other securities to inject liquidity into the economy. This changed the way central banks manage economies for the next decade.\n\n### 3. Political and Social Consequences\n*   **Rise of Populism:** The perception that the government bailed out wealthy bankers while ordinary citizens suffered fueled deep resentment. This contributed to the rise of populist political movements on both the left (e.g., Occupy Wall Street) and the right (e.g., the Tea Party movement) in the U.S., and similar anti-establishment sentiments across Europe.\n*   **Erosion of Trust:** The crisis caused a significant decline in public trust in government, financial institutions, and the media. Many citizens felt the system was \"rigged\" in favor of the elite, a sentiment that has influenced elections and political discourse for over a decade.\n*   **Austerity Measures:** In Europe, the crisis evolved into a sovereign debt crisis (notably in Greece, Spain, and Portugal). To receive bailouts, these countries were forced to implement \"austerity\"—drastic cuts to government spending, social services, and public sector wages—which led to years of economic stagnation and social unrest.\n\n### 4. Long-term Structural Changes\n*   **Slower Growth:** The recovery from the 2008 crisis was historically slow. Many economists argue that the world entered a period of \"secular stagnation,\" characterized by low growth, low inflation, and low interest rates that persisted until the COVID-19 pandemic.\n*   **Wealth Inequality:** The recovery disproportionately benefited those who owned assets (stocks and real estate), which rebounded quickly due to low interest rates. Meanwhile, wage growth for the middle and working classes remained stagnant, significantly widening the wealth gap.\n*   **Changes in Banking:** Banks became much more conservative in their lending practices. It became significantly harder for individuals to get mortgages or small business loans, which changed the landscape of entrepreneurship and homeownership for a generation.\n\n### Summary\nThe 2008 financial crisis was not just a temporary dip in the economy; it was a **transformative event.** It fundamentally altered the relationship between governments and financial markets, reshaped global politics by fueling populism, and left a legacy of inequality and skepticism that continues to influence how people view the global economic system today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 14,
+  "completion_tokens": 1099,
+  "total_tokens": 1113,
+  "cost": 0.001652,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001652,
+   "upstream_inference_prompt_cost": 3.5e-06,
+   "upstream_inference_completions_cost": 0.0016485
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:20.611094+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

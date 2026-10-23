@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "D",
+ "prompt": "Describe McCarthyism in the 1950s.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "McCarthyism refers to a period of intense anti-communist suspicion in the United States during the early 1950s, characterized by reckless accusations, blacklisting, and the suppression of political dissent. It is named after Senator Joseph McCarthy, a Republican from Wisconsin, who became the face of this movement.\n\nHere is a breakdown of the era, its causes, and its impact.\n\n### 1. The Context: The Second Red Scare\nMcCarthyism did not emerge in a vacuum. It was the peak of the \"Second Red Scare,\" a period of profound anxiety in the U.S. following World War II. Several factors fueled this fear:\n*   **The Cold War:** The geopolitical rivalry between the U.S. and the Soviet Union created a \"us vs. them\" mentality.\n*   **The Fall of China:** In 1949, China became a communist nation, which shocked the American public.\n*   **Soviet Atomic Bomb:** The Soviet Union successfully tested an atomic bomb in 1949, years earlier than U.S. intelligence had predicted, leading to fears of Soviet spies within the U.S. government.\n*   **The Korean War:** The outbreak of the Korean War in 1950 seemed to confirm fears that communism was an aggressive, expansionist force.\n\n### 2. Joseph McCarthy’s Rise\nIn February 1950, Joseph McCarthy gave a speech in Wheeling, West Virginia, in which he claimed to have a list of 205 known members of the Communist Party who were working in the U.S. State Department. While the number of people on his \"list\" changed constantly and he never produced credible evidence, the accusation struck a nerve with a fearful public.\n\nMcCarthy used his position as chairman of the Senate Permanent Subcommittee on Investigations to conduct aggressive, televised hearings. He bullied witnesses, destroyed reputations, and demanded that people \"name names\" of other suspected communists.\n\n### 3. The Tactics of McCarthyism\nMcCarthyism was defined by several specific tactics:\n*   **Guilt by Association:** If a person had ever attended a meeting, signed a petition, or associated with someone who had communist sympathies, they were labeled a \"fellow traveler\" or a communist.\n*   **The \"Big Lie\":** McCarthy frequently made wild, unsubstantiated charges. Even when proven wrong, he would simply move on to a new accusation, never apologizing for the previous one.\n*   **Blacklisting:** This was perhaps the most damaging aspect. People accused of communist ties—particularly in Hollywood, academia, and government—were often fired and blacklisted, meaning they could not find work in their fields for years. The \"Hollywood Ten\" is the most famous example of screenwriters and directors who were imprisoned and blacklisted for refusing to answer questions about their political affiliations.\n\n### 4. The Impact on American Society\nThe atmosphere of the 1950s was one of extreme conformity and fear.\n*   **Self-Censorship:** People were afraid to speak out against the government, criticize foreign policy, or advocate for progressive social changes, fearing they would be labeled \"un-American.\"\n*   **Government Purges:** Thousands of federal employees were investigated and fired for \"security risks,\" which often meant being gay, having debts, or having liberal political views.\n*   **Erosion of Civil Liberties:** The era saw a significant weakening of the First Amendment, as the government prioritized national security over freedom of speech and association.\n\n### 5. The Decline of McCarthyism\nMcCarthy’s downfall began in 1954 when he overreached by investigating the U.S. Army. The **Army-McCarthy hearings** were broadcast on live television, allowing the American public to see McCarthy’s bullying tactics firsthand.\n\nThe turning point came when Joseph Welch, the chief counsel for the Army, famously confronted McCarthy after the Senator attacked a young lawyer in Welch’s firm. Welch asked, **\"Have you no sense of decency, sir, at long last? Have you left no sense of decency?\"**\n\nThe public turned against McCarthy. Later that year, the Senate voted to censure him for his conduct. His influence evaporated, and he died three years later, largely disgraced.\n\n### Summary\nMcCarthyism remains a cautionary tale in American history. It serves as a reminder of how fear can be weaponized to erode democratic norms, destroy individual lives, and create a culture of paranoia. Today, the term is used to describe the practice of making accusations of subversion or treason without proper regard for evidence.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 12,
+  "completion_tokens": 1082,
+  "total_tokens": 1094,
+  "cost": 0.001626,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001626,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.001623
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 123,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:30.907929+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

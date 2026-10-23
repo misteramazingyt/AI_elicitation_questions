@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "D",
+ "prompt": "Describe the FBI's COINTELPRO program.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "COINTELPRO (an acronym for **COunter INTELligence PROgram**) was a series of covert and often illegal projects conducted by the United States Federal Bureau of Investigation (FBI) aimed at surveilling, infiltrating, discrediting, and disrupting American political organizations.\n\nOperating officially from 1956 to 1971, the program targeted groups the FBI deemed \"subversive\" or threats to national security. It is widely regarded today as one of the most significant abuses of power in the history of the U.S. government.\n\n### Origins and Purpose\nCOINTELPRO was established under the leadership of longtime FBI Director J. Edgar Hoover. While the FBI had engaged in surveillance of political dissidents prior to 1956, COINTELPRO formalized these efforts into a systematic, aggressive campaign.\n\nThe stated goal was to \"expose, disrupt, misdirect, discredit, or otherwise neutralize\" organizations that the FBI perceived as radical or dangerous to the status quo. In practice, this meant the FBI used its resources not just to gather intelligence, but to actively destroy political movements.\n\n### Targets\nThe program targeted a wide spectrum of domestic groups, including:\n*   **The Civil Rights Movement:** This was a primary focus. The FBI targeted Dr. Martin Luther King Jr., the Southern Christian Leadership Conference (SCLC), and the Student Nonviolent Coordinating Committee (SNCC).\n*   **Black Nationalist Groups:** The Black Panther Party was a major target, as were the Nation of Islam and various Black Power organizations.\n*   **The New Left and Anti-Vietnam War Movement:** Groups like Students for a Democratic Society (SDS) and various anti-war coalitions were heavily surveilled and disrupted.\n*   **Communist and Socialist Organizations:** The Communist Party USA and the Socialist Workers Party were early and consistent targets.\n*   **The American Indian Movement (AIM) and Chicano/Latino activist groups.**\n\n### Methods\nThe FBI employed a variety of tactics, ranging from unethical to illegal and violent:\n\n1.  **Infiltration:** Agents and informants were placed inside organizations to sow distrust, gather intelligence, and incite radical actions that would justify further government crackdowns.\n2.  **Psychological Warfare:** The FBI sent anonymous letters, forged documents, and planted false stories in the media to create internal conflict within groups or to alienate leaders from their followers.\n3.  **Harassment and Legal Abuse:** The FBI used the IRS to audit organizations, encouraged local police to conduct frequent arrests on trumped-up charges, and used \"red-baiting\" to get activists fired from their jobs.\n4.  **Violence and Assassination:** While the FBI officially denied using violence, the program created an environment that led to it. The most infamous example is the 1969 police raid in Chicago that resulted in the death of Black Panther leader Fred Hampton. Many historians argue that the FBI’s intelligence and incitement directly facilitated this and other violent confrontations.\n5.  **Extortion:** Perhaps the most notorious example was the FBI’s attempt to blackmail Dr. Martin Luther King Jr. into committing suicide by sending him an anonymous package containing recordings of his extramarital affairs and a letter urging him to kill himself.\n\n### Exposure and Termination\nCOINTELPRO was exposed in 1971 when a group of activists calling themselves the \"Citizens' Commission to Investigate the FBI\" broke into an FBI field office in Media, Pennsylvania. They stole over 1,000 classified documents and mailed them to various newspapers.\n\nThe documents revealed the extent of the FBI’s illegal activities, including the targeting of peaceful civil rights leaders and the use of psychological warfare. Following the public outcry and the subsequent Church Committee hearings in 1975—which investigated intelligence abuses by the CIA, NSA, and FBI—the program was officially terminated.\n\n### Legacy\nThe legacy of COINTELPRO is profound:\n\n*   **Erosion of Trust:** The revelations severely damaged the public’s trust in the FBI and the federal government, leading to a permanent shift in how Americans viewed domestic intelligence agencies.\n*   **Legal Reforms:** The exposure led to the implementation of the Foreign Intelligence Surveillance Act (FISA) in 1978 and stricter guidelines (the \"Levi Guidelines\") regarding the FBI's ability to investigate domestic political groups.\n*   **Historical Impact:** Historians generally agree that COINTELPRO significantly weakened the Civil Rights and anti-war movements, not only by disrupting their operations but by creating a climate of paranoia and fear that made effective organizing difficult.\n\nToday, COINTELPRO serves as a cautionary case study on the dangers of unchecked executive power and the importance of oversight in intelligence and law enforcement agencies.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 11,
+  "completion_tokens": 1117,
+  "total_tokens": 1128,
+  "cost": 0.00167825,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00167825,
+   "upstream_inference_prompt_cost": 2.75e-06,
+   "upstream_inference_completions_cost": 0.0016755
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 133,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:34.954635+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

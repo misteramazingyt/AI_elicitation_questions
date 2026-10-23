@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "D",
+ "prompt": "Describe the discovery of penicillin.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Penicillin's discovery is one of the most famous accidents in medical history, and it unfolded in several stages.\n\n**The observation (1928)**\nAlexander Fleming, a Scottish bacteriologist working at St. Mary's Hospital in London, was studying *Staphylococcus* bacteria, which cause infections such as boils and wound infections. Fleming was known for being somewhat untidy in his laboratory. Before leaving for a holiday in September 1928, he left a stack of culture plates on his bench. When he returned, he noticed that one plate had been contaminated by a mold, later identified as *Penicillium notatum* (now *Penicillium rubens*). Around the mold, the staphylococcal bacteria had been destroyed, leaving a clear zone.\n\n**Recognizing significance**\nFleming realized the mold was releasing a substance that killed bacteria. He grew the mold in broth, producing a filtrate he called \"penicillin.\" He found it was effective against many harmful Gram-positive bacteria and relatively harmless to human white blood cells. He published his findings in 1929, noting its potential as an antiseptic, but he struggled to purify it. The compound was unstable, and he lacked the chemical expertise to isolate it in useful quantities. Interest faded during the 1930s.\n\n**Development into a drug (1938–1945)**\nWork resumed at the University of Oxford, led by Howard Florey, Ernst Chain, and Norman Heatley. Chain and colleagues, studying natural antibacterial substances, reread Fleming's paper and saw its promise. The Oxford team developed methods to extract and purify penicillin and, crucially, showed that it worked in animals. In 1940 they successfully treated infected mice, and in 1941 they treated a human patient, though he died because supplies ran out.\n\n**Mass production**\nBritain was at war and could not manufacture the drug at scale, so the team turned to the United States. Researchers at the USDA Northern Regional Research Laboratory in Peoria, Illinois, improved production dramatically. Key advances included deep-tank fermentation and a high-yielding strain of mold found on a moldy cantaloupe in a Peoria market. Pharmaceutical companies then mass-produced the drug, and it became widely available by the mid-1940s, saving many lives in World War II.\n\n**Recognition**\nFleming, Florey, and Chain shared the 1945 Nobel Prize in Physiology or Medicine. Heatley's contribution, particularly his work on extraction and production methods, is often considered underrecognized.\n\nIn short, penicillin was discovered by Fleming's chance observation, but it became a usable medicine through the work of Florey, Chain, Heatley, and American industrial and government scientists.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 905,
+  "total_tokens": 926,
+  "cost": 0.0004546,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004546,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.0004525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:08.527519+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

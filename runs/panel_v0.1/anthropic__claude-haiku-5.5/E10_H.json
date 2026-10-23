@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "H",
+ "prompt": "How have historians interpreted the UK miners' strike of 1984-1985? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians of the 1984-85 miners' strike have divided mainly over three questions: whether the government pursued a deliberate plan to break the union, whether the NUM leadership under Arthur Scargill made tactical errors, and how to understand the strike's regional and community dimensions. Much of the early work was written by journalists and activists within a few years of the events, and academic histories followed more slowly, often drawing on later-released archives. Please verify the details below against library catalogues, since I'm citing from memory.\n\n**1. The \"state conspiracy\" interpretation**\n- Seumas Milne, *The Enemy Within: The Secret War Against the Miners* (Verso, 1994; revised 2004). Milne, a *Guardian* journalist, argues that the government, the security services, and the police coordinated a campaign to defeat the NUM, including covert intelligence operations and the preparation of the coal stockpile and policing strategy before the strike began. This is the most cited statement of the conspiracy thesis.\n- Huw Beynon (ed.), *Digging Deeper: Issues in the Miners' Strike* (Verso, 1985). An early collection by sociologists and activists that treats the strike as a deliberate confrontation with the state.\n- The Orgreave policing controversy has also been pursued by later scholars and campaigners, and the South Yorkshire Police's conduct there is widely discussed in this literature.\n\n**2. The \"government strategy and economic necessity\" interpretation**\n- Hugo Young, *One of Us: A Biography of Margaret Thatcher* (Macmillan, 1989). Young, a journalist, gives a detailed account of Thatcher's thinking, portraying her as determined to end union power and to make pit closures politically feasible, though he is more cautious than Milne about covert plotting.\n- Dennis Kavanagh and Anthony Seldon (eds), *The Thatcher Effect* (Oxford University Press, 1989). Political scientists' assessments of the strike within the broader Thatcher project.\n- Andy Beckett, *When the Lights Went Out: Britain in the Seventies* (Faber, 2009). Places the strike in the longer decline of British coal and the crises of the 1970s, arguing that closures reflected real economic pressures even if the government's handling was contentious.\n\n**3. Critiques of the NUM leadership**\n- Michael Crick, *Scargill and the Miners* (Penguin, 1985). An early and influential account, critical of Scargill's refusal to hold a national ballot and of his strategy.\n- Martin Adeney and John Lloyd, *The Miners' Strike 1984-5: Loss Without Limit* (Routledge & Kegan Paul, 1986). A balanced narrative that examines both the government's preparations and the union's failures in strategy, finance, and democratic process.\n- Paul Routledge, *Scargill: The Unauthorised Biography* (HarperCollins, 1993). A sharply critical biography focused on Scargill's leadership.\n\nDefenders of the strike, such as parts of the left literature, respond that the ballot argument was used to undermine the action and that the national scope of the dispute made local ballots a divisive tactic. This debate remains live.\n\n**4. Community, regional, and oral-history approaches**\n- Raphael Samuel, Barbara Bloomfield, and Guy Boanas (eds), *The Enemy Within: Pit Villages and the Miners' Strike of 1984-5* (Routledge & Kegan Paul, 1986). Focuses on mining communities, women's support groups, and everyday experience.\n- Jonathan Winterton and Ruth Winterton, *Coal, Crisis and Conflict: The 1984-85 Miners' Strike in Yorkshire* (Manchester University Press, 1989). A regional study examining how the strike unfolded differently across coalfields and how workplace and local union dynamics shaped outcomes.\n- Jim Phillips has written on Scottish and wider coalfield experience, and on how the strike fitted into longer patterns of industrial relations.\n\nThis body of work emphasizes that the strike was not simply a top-down contest, and that solidarity networks, gender roles, and local identities were central to it.\n\n**5. Broader political context**\n- Ben Jackson and Robert Saunders (eds), *Making Thatcher's Britain* (Cambridge University Press, 2012) situates the strike within debates about Thatcherism, though check the specific chapters before relying on them.\n- Work on the Labour Party's ambivalent response (for example, Lewis Minkin, *The Contentious Alliance*, Edinburgh University Press, 1991) shows how the strike strained the relationship between the unions and the party.\n\n**Summary of the debate**\n- Was the government's strategy a conspiracy, or a planned confrontation pursued through legal and economic means? Milne leans towards the former; Young and Adeney/Lloyd towards the latter.\n- Was the union's defeat mainly due to government power, or to internal mistakes? Crick, Routledge, and Adeney/Lloyd stress internal failings; Milne and Beynon stress the state.\n- How important were community and regional experiences? Community historians argue",
+ "finish_reason": "length",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 4000,
+  "total_tokens": 4039,
+  "cost": 0.0020039,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0020039,
+   "upstream_inference_prompt_cost": 3.9e-06,
+   "upstream_inference_completions_cost": 0.002
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2286,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:08.936595+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "D",
+ "prompt": "Describe the Kent State shootings of 1970.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Kent State shootings occurred on May 4, 1970, at Kent State University in Kent, Ohio. They were a pivotal event in the American anti-Vietnam War movement and remain one of the most significant incidents of civil unrest in the United States during that era.\n\n**Background**\n\nIn late April 1970, President Richard Nixon announced that U.S. forces had entered Cambodia to attack North Vietnamese sanctuaries, expanding the Vietnam War. This sparked widespread protests on college campuses. At Kent State, students held demonstrations, and on May 2 protesters clashed with police in downtown Kent. Local officials responded by requesting National Guard assistance, and the city was placed under a state of emergency. Guard troops were sent to the campus, and an ROTC building was burned on the night of May 2.\n\n**The Day of the Shootings**\n\nOn May 4, students gathered on the Commons, a grassy area at the center of campus, despite a university ban on rallies. The Ohio National Guard attempted to disperse the crowd, using tear gas and marching across the campus. Confrontations followed, and some students threw rocks at the guardsmen. Around 12:24 p.m., after a period of confusion and movement, Guard troops turned and fired their rifles into a crowd of students. Thirteen people were hit; four students were killed: Jeffrey Miller, Allison Krause, William Schroeder, and Sandra Scheuer. Nine others were wounded. One of the wounded, Dean Kahler, was left paralyzed. Several of the victims were not participating in the protest, and some were walking between classes at a distance from the Commons.\n\n**Aftermath**\n\nThe shootings provoked outrage across the country. Hundreds of universities closed or saw strikes, and the event intensified opposition to the war. Investigations followed, including a presidential commission (the Scranton Commission) that concluded the shootings were unnecessary and not justified, and that the Guardsmen had not been in imminent danger. Subsequent legal action led to a civil suit in which the defendants, Guardsmen and state officials, settled in 1979 without admitting wrongdoing. Criminal charges against eight Guardsmen were dropped in 1971 after a grand jury declined to indict them. The Guardsmen maintained they feared for their safety.\n\nThe event became iconic, memorialized in photographs such as John Filo's Pulitzer Prize-winning image of a grieving young woman kneeling over a dead student. It is also remembered in Neil Young's song \"Ohio\" and remains a lasting symbol of the risks of state violence against protesters and the deep divisions of the Vietnam era.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 868,
+  "total_tokens": 892,
+  "cost": 0.0004364,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004364,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.000434
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:26.627348+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

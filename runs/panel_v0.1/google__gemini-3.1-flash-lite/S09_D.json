@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 1973 decision in Roe v. Wade.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Supreme Court’s 1973 decision in *Roe v. Wade* was a landmark ruling that established a constitutional right to abortion in the United States. By a 7–2 vote, the Court held that the Due Process Clause of the Fourteenth Amendment creates a \"right to privacy\" that protects a pregnant woman's liberty to choose whether or not to have an abortion.\n\nHere is a breakdown of the key aspects of the decision:\n\n### The Legal Basis\nThe Court, led by Justice Harry Blackmun, argued that the right to privacy was broad enough to encompass a woman's decision to terminate her pregnancy. However, the Court also acknowledged that this right was not absolute and had to be balanced against the state's interests in protecting \"the health of the pregnant woman\" and \"the potentiality of human life.\"\n\n### The Trimester Framework\nTo balance these competing interests, the Court established a trimester framework that dictated when and how states could regulate or prohibit abortions:\n\n*   **First Trimester:** The abortion decision was left entirely to the woman and her physician. The state could not interfere, as the interest in maternal health and fetal life was not yet considered \"compelling.\"\n*   **Second Trimester:** The state could impose regulations reasonably related to maternal health (e.g., requirements regarding the facility or the medical procedure), but could not ban abortion.\n*   **Third Trimester:** Once the fetus reached \"viability\" (the point at which it could survive outside the womb), the state’s interest in protecting potential life became compelling. At this stage, states could regulate or even prohibit abortion, except when it was necessary to preserve the life or health of the mother.\n\n### The Impact\n*Roe v. Wade* invalidated many state laws that had previously banned or severely restricted abortion, effectively legalizing the procedure nationwide. It became one of the most significant and controversial decisions in American legal history, sparking decades of intense political, social, and religious debate.\n\n### Subsequent History and Overturn\nThe legal landscape established by *Roe* was modified by later cases, most notably *Planned Parenthood v. Casey* (1992), which replaced the trimester framework with an \"undue burden\" standard, allowing states to restrict abortion earlier in pregnancy as long as the restrictions did not place a substantial obstacle in the path of a woman seeking an abortion.\n\nOn June 24, 2022, the Supreme Court overturned *Roe v. Wade* in the case of ***Dobbs v. Jackson Women's Health Organization***. In a 6–3 decision, the Court ruled that the Constitution does not confer a right to abortion, thereby returning the authority to regulate or prohibit the procedure to individual states.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 717,
+  "total_tokens": 735,
+  "cost": 0.00108,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00108,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.0010755
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 152,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:36.985183+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "D",
+ "prompt": "Describe Britain's Winter of Discontent (1978-1979).",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The \"Winter of Discontent\" refers to the period of widespread industrial unrest, strikes, and economic chaos that gripped the United Kingdom between late 1978 and early 1979. It is widely considered one of the most significant turning points in modern British political history, as it effectively ended the post-war consensus on the welfare state and paved the way for the election of Margaret Thatcher.\n\nHere is a breakdown of the causes, the events, and the consequences of that period.\n\n### 1. The Context: Why did it happen?\nBy 1978, the Labour government, led by Prime Minister James Callaghan, was struggling. The UK economy was suffering from \"stagflation\"—a combination of stagnant economic growth and high inflation.\n\nTo combat inflation, the government imposed a strict \"pay policy,\" which capped wage increases at 5% for public sector workers. This was intended to curb rising prices, but it backfired. After years of wage restraint and rising costs of living, trade unions—the traditional allies of the Labour Party—were unwilling to accept another year of real-terms pay cuts.\n\n### 2. The Escalation\nThe unrest began in the autumn of 1978 with a strike by Ford motor workers, who successfully broke the 5% pay cap. This emboldened other unions, particularly in the public sector, to demand higher wages.\n\nAs winter set in, the situation spiraled out of control. The strikes were not just limited to factories; they hit essential public services, creating a sense of national paralysis.\n\n*   **The Public Sector Strikes:** Workers in the NHS, refuse collection, and transport walked out.\n*   **The \"Graveyard\" Strikes:** Perhaps the most infamous image of the period was the strike by gravediggers in Liverpool, which meant that bodies could not be buried and had to be stored in temporary locations, such as a local factory.\n*   **The Rubbish Crisis:** In London, refuse collectors went on strike, leading to piles of uncollected trash accumulating in public spaces like Leicester Square, which became infested with rats.\n*   **Transport and Logistics:** Lorry drivers struck, leading to shortages of food and fuel in shops and petrol stations.\n\n### 3. The Political Fallout\nThe government appeared helpless. James Callaghan, who had been on a summit in the Caribbean, returned to a press conference where he seemed out of touch with the severity of the crisis. When asked about the chaos, he famously replied, \"Crisis? What crisis?\" (Though he never actually used those exact words, the headline in *The Sun* newspaper cemented that perception in the public mind).\n\nThe public, initially sympathetic to the unions, turned against them. The strikes were seen as selfish and damaging to the most vulnerable members of society. The Labour government was viewed as weak and unable to govern, having lost control of the unions that were supposed to be their partners.\n\n### 4. The End and the Aftermath\nThe Winter of Discontent ended in the spring of 1979, but the political damage was irreversible. In March 1979, the government lost a vote of no confidence in the House of Commons by a single vote—the first time a government had been defeated in this way since 1924.\n\nA general election was called for May 1979. The Conservative Party, led by Margaret Thatcher, campaigned on a platform of curbing union power, controlling inflation, and reducing the role of the state in the economy. They won a decisive victory.\n\n### Why it matters today\nThe Winter of Discontent is remembered as a watershed moment for several reasons:\n\n*   **The End of the Post-War Consensus:** It marked the end of the era where the government, unions, and employers worked together to manage the economy.\n*   **The Rise of Thatcherism:** It provided the mandate for Margaret Thatcher to fundamentally reshape the British economy, including the privatization of state-owned industries and the aggressive weakening of trade union power (culminating in the Miners' Strike of 1984–85).\n*   **A Cultural Touchstone:** The phrase \"Winter of Discontent\" (borrowed from Shakespeare’s *Richard III*) remains a shorthand in British politics for a period of national decline, chaos, and the failure of government authority.\n\nIn short, the Winter of Discontent was the moment the British public decided that the status quo was no longer sustainable, leading to a radical shift in the country's political and economic direction that lasted for decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 1079,
+  "total_tokens": 1098,
+  "cost": 0.00162325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00162325,
+   "upstream_inference_prompt_cost": 4.75e-06,
+   "upstream_inference_completions_cost": 0.0016185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 132,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:22.229858+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 1973 Supreme Court decision in *Roe v. Wade* was one of the most consequential rulings in American legal history. By establishing a constitutional right to abortion, the decision fundamentally altered the legal, political, and social landscape of the United States for nearly 50 years, until it was overturned in 2022.\n\nThe consequences of *Roe v. Wade* can be categorized into legal, political, and social impacts.\n\n### 1. Legal Consequences\n*   **Establishment of a Constitutional Right:** The Court ruled that the Due Process Clause of the 14th Amendment created a \"right to privacy\" that protected a pregnant woman's liberty to choose to have an abortion. This effectively invalidated many state laws that had previously banned or severely restricted the procedure.\n*   **The Trimester Framework:** The Court established a framework that balanced the woman's right to privacy against the state's interest in protecting prenatal life. It allowed states to regulate abortion in the second trimester and permitted states to restrict or ban abortion in the third trimester, except when necessary to preserve the life or health of the mother.\n*   **Precedent for Future Rulings:** *Roe* became the cornerstone of reproductive rights jurisprudence. It was later modified by *Planned Parenthood v. Casey* (1992), which replaced the trimester framework with the \"undue burden\" standard, allowing states to regulate abortion earlier in pregnancy as long as the regulations did not place a substantial obstacle in the path of a woman seeking an abortion.\n\n### 2. Political Consequences\n*   **Polarization of American Politics:** *Roe* is widely credited with transforming the American political landscape. Before 1973, abortion was not a primary partisan issue. Following the decision, it became a central wedge issue that helped realign the two major political parties.\n*   **The Rise of the \"Pro-Life\" and \"Pro-Choice\" Movements:** The decision galvanized both sides of the debate. It spurred the creation of powerful advocacy groups, such as the National Right to Life Committee and NARAL Pro-Choice America. These groups became major players in lobbying, fundraising, and mobilizing voters.\n*   **Judicial Appointments:** The battle over *Roe* became a defining factor in the confirmation process for federal judges and Supreme Court justices. Presidents began to prioritize the judicial philosophy of potential nominees regarding *Roe* and abortion rights, turning the Supreme Court confirmation process into a high-stakes political theater.\n\n### 3. Social and Public Health Consequences\n*   **Access to Legal Abortion:** The immediate consequence of *Roe* was the legalization of abortion nationwide. This led to a significant increase in the number of legal abortions performed in the U.S. and a decrease in the number of illegal, \"back-alley\" abortions, which were often performed in unsafe conditions and carried high risks of infection, injury, or death for women.\n*   **Public Health Outcomes:** Public health data generally showed a decline in maternal mortality rates associated with illegal abortions following the legalization of the procedure.\n*   **Disparities in Access:** Despite the federal right, access to abortion remained uneven. Because the Court allowed states to regulate abortion (and later, to impose restrictions like waiting periods, parental consent laws, and mandatory counseling), access often depended on geography and socioeconomic status. Women in rural areas or those with lower incomes often faced significant hurdles in accessing clinics, even while the procedure remained legal.\n\n### 4. The Overturning of *Roe*\nThe ultimate consequence of the legal and political battles surrounding *Roe* occurred on June 24, 2022, when the Supreme Court issued its decision in *Dobbs v. Jackson Women's Health Organization*.\n\n*   **End of Federal Protection:** The Court ruled that the Constitution does not confer a right to abortion, thereby overturning *Roe v. Wade* and *Planned Parenthood v. Casey*.\n*   **Return to State Authority:** The decision returned the authority to regulate or ban abortion to individual states. This immediately triggered \"trigger laws\" in many states that had been designed to ban abortion the moment *Roe* was overturned, while other states moved to codify abortion rights into their own state constitutions.\n*   **A New Era of Legal Fragmentation:** The U.S. is now characterized by a patchwork of abortion laws, where the legality and accessibility of the procedure vary drastically depending on which state a person is in. This has led to new legal challenges regarding interstate travel for abortion, the mailing of abortion medication, and the extent of federal authority in regulating reproductive healthcare.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 1071,
+  "total_tokens": 1093,
+  "cost": 0.001612,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001612,
+   "upstream_inference_prompt_cost": 5.5e-06,
+   "upstream_inference_completions_cost": 0.0016065
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 122,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:37.222437+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

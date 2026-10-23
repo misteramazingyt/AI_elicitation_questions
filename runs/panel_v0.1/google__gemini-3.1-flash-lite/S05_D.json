@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "D",
+ "prompt": "Describe the 1993 Waco siege.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 1993 Waco siege was a violent confrontation between the United States federal government and the Branch Davidians, a religious sect led by David Koresh. The standoff took place at the Mount Carmel Center, a compound located near Waco, Texas, and lasted for 51 days, from February 28 to April 19, 1993. It remains one of the most controversial and tragic law enforcement operations in American history.\n\n### Background\nThe Branch Davidians were an offshoot of the Seventh-day Adventist Church. Under the leadership of David Koresh, the group believed in an imminent apocalypse and stockpiled weapons at their compound. By the early 1990s, reports of child abuse and the illegal conversion of semi-automatic weapons into machine guns within the compound drew the attention of the Bureau of Alcohol, Tobacco, and Firearms (ATF).\n\n### The Initial Raid (February 28, 1993)\nThe ATF planned a surprise raid on the Mount Carmel Center to execute search and arrest warrants for Koresh. However, the element of surprise was lost when a local journalist tipped off the group. When ATF agents arrived, a gun battle ensued. Four ATF agents and six Branch Davidians were killed in the initial shootout.\n\n### The Siege (March 1 – April 18, 1993)\nFollowing the failed raid, the FBI took command of the operation. They established a perimeter around the compound, initiating a 51-day siege. During this time, the FBI employed psychological warfare tactics, including playing loud music, bright lights, and recordings of rabbits being slaughtered, in an attempt to force the Davidians to surrender.\n\nNegotiations were conducted throughout the siege. Koresh released several children and some adults, but he ultimately refused to surrender, claiming he was waiting for instructions from God to write a manuscript interpreting the Seven Seals of the Book of Revelation.\n\n### The Final Assault (April 19, 1993)\nBy mid-April, the FBI grew impatient with the lack of progress and received authorization from Attorney General Janet Reno to use force to end the standoff.\n\nOn the morning of April 19, the FBI launched a final assault. They used armored vehicles to punch holes in the walls of the compound and injected large amounts of CS gas (a potent tear gas) into the building to force the occupants out. The FBI stated that they did not fire weapons, but the Branch Davidians began firing back.\n\nShortly after the gas was deployed, fires broke out in several parts of the compound. The structures, which were made of wood and filled with flammable materials, burned rapidly. The FBI maintained that the Davidians set the fires themselves as a mass suicide pact. Survivors and critics of the government’s actions have argued that the fires were started by the FBI’s use of pyrotechnic tear gas canisters or the armored vehicles knocking over lanterns.\n\n### The Aftermath\nThe fire destroyed the compound, and 76 people died, including David Koresh and 25 children. Only nine people escaped the burning building.\n\nThe tragedy had profound consequences:\n*   **Public Outcry:** The event sparked intense national debate regarding the government's use of force, the militarization of law enforcement, and the treatment of religious minorities.\n*   **Political Fallout:** Attorney General Janet Reno took full responsibility for the decision to authorize the final assault.\n*   **Domestic Terrorism:** The siege became a rallying cry for anti-government militia movements in the United States. Notably, Timothy McVeigh, who carried out the 1995 Oklahoma City bombing, cited the Waco siege as a primary motivation for his attack, which occurred exactly two years later on the anniversary of the fire.\n\nThe Waco siege remains a subject of intense scrutiny, with numerous congressional hearings, independent investigations, and documentaries attempting to reconcile the conflicting narratives of what exactly transpired during the final hours of the standoff.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 10,
+  "completion_tokens": 960,
+  "total_tokens": 970,
+  "cost": 0.0014425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014425,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.00144
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 138,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:32.390388+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

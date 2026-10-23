@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The \"Winter of Discontent\" (1978–1979) was a period of widespread industrial unrest in the United Kingdom that crippled the country, led to the collapse of James Callaghan’s Labour government, and paved the way for Margaret Thatcher’s Conservative victory.\n\nThe causes were a \"perfect storm\" of economic mismanagement, rigid government policy, and a breakdown in the relationship between the government and the trade unions. Here are the main factors:\n\n### 1. The Failure of the \"Social Contract\"\nIn the mid-1970s, the Labour government had established a \"Social Contract\" with the Trades Union Congress (TUC). The agreement was simple: the unions would agree to wage restraint to help curb inflation, and in return, the government would protect jobs, improve social services, and maintain full employment.\n\nBy 1978, the unions felt the government had failed to deliver on its promises. Inflation remained high, and workers felt their standard of living was being eroded by the wage caps. The trust that held the Social Contract together had evaporated.\n\n### 2. The 5% Pay Cap\nThe immediate trigger for the crisis was the government’s decision to impose a strict 5% limit on pay increases for the 1978–1979 period.\n\nThe government argued that this cap was essential to bring down double-digit inflation. However, the unions—particularly those representing low-paid public sector workers—viewed this as an arbitrary and unfair attack on their members. They argued that after years of wage restraint, they were entitled to catch up with the rising cost of living. When the government refused to budge, the unions began to strike.\n\n### 3. Economic Stagnation and Inflation\nBritain was suffering from \"stagflation\"—a toxic combination of stagnant economic growth and high inflation. The economy was struggling to recover from the 1973 oil crisis, and the government was under pressure from the International Monetary Fund (IMF) to cut public spending and control the money supply. This economic pressure left the government with very little room to maneuver, making them appear inflexible and out of touch to the working class.\n\n### 4. The Power of the Trade Unions\nIn the 1970s, British trade unions were exceptionally powerful. They had the ability to bring the country to a standstill through strikes, and they had successfully brought down the previous Conservative government of Edward Heath in 1974.\n\nBy 1978, the unions felt emboldened. When the government tried to enforce the 5% cap, the unions responded with a wave of strikes that hit essential services. This included:\n*   **Lorry drivers:** Leading to shortages of food and fuel.\n*   **Public sector workers (NHS staff, refuse collectors, gravediggers):** Leading to uncollected trash piling up in the streets and hospitals turning away non-emergency patients.\n\n### 5. The \"Us vs. Them\" Perception\nThe government’s handling of the strikes made them appear incompetent and detached. James Callaghan, the Prime Minister, famously returned from a summit in the Caribbean during the height of the crisis. When asked about the chaos, he reportedly said, \"Crisis? What crisis?\" (though he denied saying it exactly like that).\n\nThis perception—that the government was living in a bubble while the country was literally rotting—was devastating. The media coverage of uncollected rubbish in Leicester Square and the strike of gravediggers in Liverpool created a national sense of anarchy and despair.\n\n### The Aftermath\nThe Winter of Discontent fundamentally changed British politics. The public, exhausted by the strikes and the feeling that the country was ungovernable, turned against the Labour Party.\n\nIn the general election of May 1979, Margaret Thatcher’s Conservatives won a decisive victory. Her platform was built on the promise of curbing union power, privatizing state industries, and ending the cycle of industrial unrest. The Winter of Discontent is widely considered the death knell of the post-war consensus and the beginning of the Thatcher era.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 977,
+  "total_tokens": 1001,
+  "cost": 0.0014715,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014715,
+   "upstream_inference_prompt_cost": 6e-06,
+   "upstream_inference_completions_cost": 0.0014655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:22.269391+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

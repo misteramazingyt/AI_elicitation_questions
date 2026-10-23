@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "C",
+ "prompt": "What were the main causes of the invention of the movable-type printing press in Europe?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The movable-type printing press in Europe, developed by Johannes Gutenberg in Mainz around 1440–1450, arose from a convergence of economic, technological, religious, and intellectual pressures. The main causes were:\n\n**1. Growing demand for books and written texts**\nThe expansion of universities (Bologna, Paris, Oxford, Prague, Cologne, and others) from the 12th century created a large market for textbooks, commentaries, and legal and theological works. Literacy was also spreading among merchants, lawyers, and urban professionals, not just clergy.\n\n**2. The inefficiency of manuscript copying**\nBooks were copied by hand, usually by scribes in monasteries or commercial workshops. This was slow, expensive, and error-prone. A single Bible could take months or years to produce. Demand consistently outpaced supply, and the cost of books put them out of reach for most people.\n\n**3. Availability of paper**\nPaper, introduced to Europe via the Islamic world and produced in Spain and Italy from the 12th–13th centuries, was cheaper than parchment (animal skin). Paper mills spread across Europe in the 14th and 15th centuries, providing an affordable medium that made mass printing economically viable.\n\n**4. Earlier printing techniques**\nBlock printing (xylography) had long existed in East Asia and reached Europe by the late 14th century, used for playing cards, religious images, and short texts. Movable type had also been developed in China (Bi Sheng, c. 1040) and Korea (metal movable type by the early 1200s, with the *Jikji* printed in 1377). Gutenberg's innovation was combining these ideas into a practical system suited to the European alphabet.\n\n**5. Advances in metalworking and related skills**\nGutenberg drew on his training as a goldsmith and metalworker. He developed durable metal type alloys, precise matrices for casting uniform letters, and an oil-based ink suited to metal type. His adaptation of the screw press, already used for wine and olive oil, provided the pressure needed for printing.\n\n**6. Economic opportunity and entrepreneurship**\nGutenberg's venture was financed by investors such as Johann Fust, who saw commercial potential in producing books and religious materials. Urban commerce and capital in cities like Mainz supported such experiments.\n\n**7. Religious and intellectual ferment**\nGrowing interest in scripture, devotional literature, and classical texts, along with the humanist revival of learning in the 15th century, increased appetite for reliable, standardized texts. Later, the rapid spread of printing would also help fuel the Reformation, though this was an effect of printing rather than a cause of its invention.\n\nIn short, printing emerged because a growing literate public and expanding institutions needed more books than scribes could produce, while existing materials (paper) and technologies (presses, metalworking, and earlier printing experiments) made a practical solution possible.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 952,
+  "total_tokens": 984,
+  "cost": 0.0004792,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004792,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.000476
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:03.637039+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

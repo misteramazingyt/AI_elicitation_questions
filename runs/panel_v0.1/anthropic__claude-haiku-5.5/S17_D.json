@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "D",
+ "prompt": "Describe the 2003 U.S.-led invasion of Iraq.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 2003 U.S.-led invasion of Iraq began on March 20, 2003, when a coalition of forces led by the United States, with the United Kingdom as the principal partner and smaller contributions from countries such as Australia, Poland, and others, launched military operations against the government of Saddam Hussein. It is commonly called Operation Iraqi Freedom in U.S. usage.\n\n**Background and justification**\nThe Bush administration argued that Iraq posed a threat because it was believed to possess weapons of mass destruction (WMD), had ties to terrorist groups, and had failed to comply with UN Security Council resolutions dating back to the 1991 Gulf War ceasefire. UN weapons inspectors had not found stockpiles of WMD, and the claims about Iraqi weapons and terrorist links were later widely judged to have been exaggerated or inaccurate. The invasion was not authorized by a new UN Security Council resolution, and it remains controversial under international law.\n\n**The invasion**\nThe initial phase was a rapid conventional military campaign. Coalition forces attacked from Kuwait, the Persian Gulf, and other directions, quickly seizing key cities including Basra and Baghdad. Baghdad fell in early April 2003, and Saddam Hussein's government collapsed within about three weeks. On May 1, 2003, President George W. Bush declared that major combat operations had ended, in a speech delivered under a \"Mission Accomplished\" banner.\n\n**Aftermath and occupation**\nThe fighting did not end with that declaration. The Coalition Provisional Authority, led by L. Paul Bremer, governed Iraq from 2003 to 2004. Its decisions, including the dissolution of the Iraqi army and a broad de-Baathification policy, are widely debated as contributing to instability. An insurgency developed, and sectarian violence between Sunni and Shia groups escalated, especially after the 2006 bombing of the Al-Askari Mosque in Samarra. Abu Ghraib prison abuses, revealed in 2004, damaged the coalition's reputation. U.S. troops remained in Iraq until 2011, and the U.S. returned militarily in 2014 to fight the Islamic State.\n\n**Human and strategic costs**\nEstimates of Iraqi civilian deaths vary widely, from roughly 150,000 to over 600,000 depending on the study and methodology. Around 4,400 U.S. service members and several thousand contractors died, along with many coalition personnel. The war cost the United States trillions of dollars over the following decades. It destabilized the region, contributed to the rise of militant groups, and strengthened Iran's regional influence, while Iraq's political system, built after 2003, faced lasting challenges with corruption, sectarian division, and weak governance.\n\n**Legacy**\nThe invasion remains one of the most debated foreign policy decisions in modern U.S. history. Supporters point to the removal of Saddam Hussein's brutal regime and the creation of an elected government. Critics emphasize the faulty intelligence, the lack of WMD, the human toll, and the unintended consequences that followed.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 1030,
+  "total_tokens": 1061,
+  "cost": 0.0005181,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005181,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.000515
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:49.253149+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

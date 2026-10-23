@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "Q",
+ "prompt": "What were the consequences of the invention of the movable-type printing press in Europe?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The invention of the movable-type printing press by Johannes Gutenberg around 1440 in Mainz had sweeping consequences across European society. Its effects are usually grouped into several areas:\n\n**1. Spread of knowledge and literacy**\n- Books became far cheaper and faster to produce. Scribal copying, which took months or years per volume, was replaced by printing runs of hundreds or thousands.\n- Estimates suggest that by 1500 some 20 million volumes had been printed in Europe, and the number of print titles grew enormously.\n- Demand for reading material helped drive literacy rates upward, especially in cities and among merchants, artisans, and the clergy.\n\n**2. The Reformation**\n- Martin Luther's 95 Theses (1517) and his later writings were widely distributed in printed pamphlets, allowing reformers to reach audiences far beyond the reach of traditional preaching or manuscript circulation.\n- Printing enabled the rapid spread of vernacular Bibles, such as Luther's German translation, which encouraged individual Bible reading and challenged the Church's interpretive authority.\n- Counter-reform efforts also relied on print, and the Church eventually responded with censorship, such as the *Index of Prohibited Books* (from 1559).\n\n**3. The Scientific Revolution**\n- Scientific findings could be published, compared, and verified across distances. Works like Copernicus's *De revolutionibus* (1543) and Vesalius's *De humani corporis fabrica* (1543) reached a broad scholarly audience.\n- Standardized texts, diagrams, and tables reduced copying errors and made cumulative knowledge building possible.\n- The growth of scholarly journals and learned societies in the 17th century built on this print culture.\n\n**4. Standardization of language and texts**\n- Printers helped standardize spelling, grammar, and vocabulary, contributing to the emergence of national languages and written norms.\n- Printing also made editions more uniform, though errors and variant editions still circulated.\n\n**5. Political and social effects**\n- Print fostered public debate and the circulation of political ideas, pamphlets, and news. Early newsletters and broadsheets laid groundwork for modern journalism.\n- Governments and churches developed censorship and licensing systems in response.\n- The \"republic of letters\" emerged, a transnational community of scholars and writers communicating through print.\n\n**6. Economic transformation**\n- A major printing and publishing industry developed, with booksellers, papermakers, typefounders, and distributors.\n- Trade and commerce benefited from printed almanacs, price lists, maps, and commercial manuals.\n- Printing created new professions and changed the economics of knowledge, making intellectual property and copyright issues increasingly important.\n\n**7. Cultural and intellectual change**\n- Print contributed to the rise of individualism, private reading, and new forms of authorship. Historians such as Elizabeth Eisenstein argued that print was a driving force behind the early modern transformation of European culture.\n- Some historians caution that the effects were gradual and that print was one factor among many, but its influence on the course of European history is widely recognized.\n\nIn short, the printing press transformed how information was produced, distributed, and controlled, laying foundations for the Reformation, the Scientific Revolution, and the modern public sphere.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1084,
+  "total_tokens": 1116,
+  "cost": 0.0005452,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005452,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.000542
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:03.726002+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Kent State shootings of 1970?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Kent State shootings occurred on May 4, 1970, when Ohio National Guardsmen fired into a crowd of antiwar protesters at Kent State University, killing four students (Jeffrey Miller, Allison Krause, Sandra Scheuer, and William Schroeder) and wounding nine others. The consequences were far-reaching:\n\n**Immediate reactions**\n- **Nationwide protests and strikes:** Within days, an estimated 4 million students at more than 450 campuses across the U.S. participated in strikes, walkouts, and demonstrations, making it one of the largest student protest waves in American history.\n- **Campus closures:** Many colleges and universities shut down early or canceled classes for the rest of the term.\n- **The Hard Hat Riot:** On May 8, construction workers attacked antiwar demonstrators in New York City, highlighting the deep divisions in American society.\n- **Jackson State:** Ten days later, on May 15, police fired on students at Jackson State College in Mississippi, killing two students. It received far less national attention.\n\n**Political consequences**\n- **Erosion of trust in government:** The shootings deepened public skepticism about official accounts of the Vietnam War and the Nixon administration's conduct, adding to the credibility gap created by earlier revelations.\n- **Congressional and public scrutiny:** Nixon's Cambodia incursion, announced April 30, 1970, had triggered the protests, and the shootings intensified opposition to the war and to the expansion of it.\n- **Youth mobilization:** The events energized the antiwar movement and contributed to the broader political activism of the early 1970s, including pressure that helped lead to the 26th Amendment (lowering the voting age to 18), ratified in 1971.\n\n**Legal consequences**\n- **Civil lawsuits:** Victims and families sued the state and Guard members. In 1974, a federal judge dismissed the lawsuits, but in 1975 an appeals court allowed a civil suit to proceed. In 1979 the case was settled: the state of Ohio and the Guard members paid roughly $675,000 to the victims and families, though the Guardsmen admitted no wrongdoing.\n- **Criminal charges:** A federal grand jury declined to indict any Guardsmen in 1970. A later Justice Department investigation in 1977 also did not result in charges, though the Justice Department concluded the shootings were not justified.\n- **Limits on the Guard:** The shootings prompted reforms in how National Guard units are trained and deployed for crowd control.\n\n**Cultural and historical legacy**\n- The shootings became a defining symbol of the Vietnam-era generational divide and state repression of dissent. Neil Young's song \"Ohio,\" Crosby, Stills, Nash & Young, and Joni Mitchell's \"Woodstock\" lyrics on Kent State became part of the protest music canon.\n- The site is now a National Historic Landmark, and the university runs a memorial and museum.\n- Photographs from the event, such as John Filo's image of Mary Ann Vecchio kneeling over Jeffrey Miller's body, won a Pulitzer Prize and became iconic images of the era.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1049,
+  "total_tokens": 1077,
+  "cost": 0.0005273,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005273,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0005245
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:29.179569+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

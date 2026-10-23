@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1969 Stonewall riots?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Stonewall riots, which began in the early hours of June 28, 1969, at the Stonewall Inn in Greenwich Village, New York City, had far-reaching consequences for LGBTQ+ rights and activism:\n\n**Immediate aftermath**\n- Several nights of protests and clashes with police followed the initial raid, drawing large crowds from the surrounding neighborhood and beyond.\n- Within weeks, activists formed new groups, including the Gay Liberation Front (GLF) in New York, and the Gay Activists Alliance (GAA) later that year.\n\n**Organizational growth**\n- Gay liberation organizations spread rapidly across the United States and abroad, in cities including Los Angeles, Chicago, San Francisco, and London.\n- Groups shifted from the more cautious, assimilationist approach of earlier organizations like the Mattachine Society and the Daughters of Bilitis toward more openly confrontational tactics.\n\n**Visibility and public activism**\n- The first Christopher Street Liberation Day march took place on June 28, 1970, in New York, and similar marches were held in other cities. These events evolved into the modern Pride parades celebrated worldwide each June.\n- Activists increasingly demanded visibility and rejected the idea that gay people should hide their identities.\n\n**Legal and political effects**\n- Gay rights became a more prominent political issue. Organizations pushed for an end to discriminatory laws, police harassment, and bars being raided.\n- Over the following decades, the movement contributed to the decriminalization of same-sex sexual activity, anti-discrimination protections, and eventually marriage equality (the U.S. Supreme Court legalized same-sex marriage nationwide in 2015 in *Obergefell v. Hodges*).\n- In 2016, the Stonewall Inn was designated a National Monument, the first U.S. national monument focused on LGBTQ+ history.\n\n**Cultural significance**\n- Stonewall is often regarded as the catalyst for the modern LGBTQ+ rights movement, and it is commonly cited as a turning point that shifted the movement from quiet reform toward open liberation.\n- It also inspired generations of LGBTQ+ activists and remains a symbol of resistance to oppression.\n\nHistorians note that the movement had roots before 1969, and that Stonewall's role as a \"beginning\" is partly a matter of how the event was later remembered and mythologized. Still, its impact on organizing and visibility is widely recognized.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 815,
+  "total_tokens": 843,
+  "cost": 0.0004103,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004103,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0004075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:38.595873+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

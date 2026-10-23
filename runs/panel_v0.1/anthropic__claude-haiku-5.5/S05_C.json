@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "C",
+ "prompt": "What were the main causes of the 1993 Waco siege?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1993 Waco siege (February 28 to April 19, 1993) grew out of several interrelated factors:\n\n**1. The Branch Davidians and David Koresh**\nThe Branch Davidians were a religious group that had split from the Seventh-day Adventist Church. They settled at the Mount Carmel Center near Waco, Texas, under the leadership of Vernon Howell, who later called himself David Koresh. Koresh taught apocalyptic doctrines and claimed special prophetic authority, and the group stockpiled weapons and lived in increasing isolation, which drew the attention of law enforcement.\n\n**2. Allegations of illegal weapons**\nThe Bureau of Alcohol, Tobacco and Firearms (ATF) received information, partly from former members, that the compound contained illegal weapons and that Koresh was violating federal firearms laws, including possessing unregistered automatic weapons and converting semi-automatic rifles. This was the immediate basis for the investigation.\n\n**3. The failed ATF raid**\nOn February 28, 1993, about 76 ATF agents attempted to serve a search warrant and arrest warrants at the compound. The raid was a surprise operation, but the Davidians had been alerted, possibly by a local television reporter's presence and a leak, and a firefight broke out. Four agents and six Davidians were killed initially, and many more were wounded. The failure of the raid's element of surprise turned a law enforcement action into a prolonged standoff.\n\n**4. The standoff and the FBI's involvement**\nThe FBI took over command and began a 51-day siege. Negotiations occurred intermittently, and Koresh agreed to release some followers, including children, during the talks. However, tensions rose over the group's refusal to surrender fully and disputes over Koresh's demands, such as delaying his surrender to finish writing a theological interpretation of the Seven Seals.\n\n**5. Tactical pressure and the final assault**\nThe FBI used tactics including sleep deprivation, loud noises, bright lights, and surrounding the compound with armored vehicles. These were intended to pressure the occupants but were criticized as escalating tensions. On April 19, 1993, after the FBI began inserting tear gas into the building, a fire broke out and engulfed the compound. Seventy-six people died, including about 25 children, and most deaths resulted from the fire. Investigations and debate continue over whether the fire was started by Davidians or resulted from the FBI's actions, and over the use of force.\n\n**Broader context**\nThe siege occurred amid widespread public distrust of federal agencies, particularly after the 1992 Ruby Ridge standoff, and it became a lasting touchstone in debates over government power, religious liberty, and militia movements in the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 901,
+  "total_tokens": 927,
+  "cost": 0.0004531,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004531,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.0004505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:26.364271+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2020 George Floyd protests? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historical scholarship on the 2020 George Floyd protests is still emerging, and much of the analysis so far comes from scholars writing shortly after the events, from political scientists tracking protest data, and from journalists and public intellectuals. Historians generally place 2020 within longer narratives rather than treating it as an isolated event. The main interpretive debates are below. Verify the citations and check for newer work, since I may not have the latest publications.\n\n**1. Continuity with the long Black freedom struggle**\nMany historians read 2020 as part of a long history of Black resistance to policing and state violence rather than a sudden break.\n- Elizabeth Hinton, *America on Fire: The Untold History of Police Violence and Black Rebellion Since the 1960s* (Liveright, 2021). Hinton traces how federal policy and urban policing responded to 1960s–70s uprisings, arguing that the militarization of policing has deep roots that explain later confrontations.\n- Jeanne Theoharis, *A More Beautiful and Terrible History: The Uses and Misuses of Civil Rights* (Beacon, 2018). Theoharis argues that the mainstream narrative of the civil rights movement has been sanitized, which shapes how contemporary protest is understood and judged.\n- Barbara Ransby, *Making All Black Lives Matter: Reimagining Freedom in the Twenty-First Century* (UC Press, 2018). Ransby places Black Lives Matter within radical Black feminist and grassroots traditions.\n\n**2. Origins and the Black Lives Matter movement**\n- Christopher Lebron, *The Making of Black Lives Matter: A Brief History of an Idea* (Oxford UP, 2017), analyzes the movement's ideological foundations and its moral claims.\n- Keeanga-Yamahtta Taylor, *From #BlackLivesMatter to Black Liberation* (Haymarket, 2016), is a key text for understanding the movement's politics before 2020 and the debates about its goals.\n\n**3. Scale, nature, and the violence debate**\nPolitical scientists and sociologists have emphasized that 2020 was one of the largest protest waves in U.S. history, with notably wide racial and geographic participation. Crowd-counting work by Erica Chenoweth and collaborators (Crowd Counting Consortium, with reports co-authored with Jeremy Pressman and others) estimated that most events were peaceful, while a smaller number involved property damage or violence. Interpretations diverge on how to weigh this. Some scholars stress the overwhelmingly nonviolent character of the movement, drawing on Chenoweth's *Why Civil Resistance Works* (with Maria Stephan, Columbia UP, 2011). Others focus on how property destruction and looting shaped public perception and political responses. Historians of urban unrest, including Heather Ann Thompson, have written about how media framing and state responses have historically distorted the meaning of urban uprisings, though her work centers on earlier periods such as Attica and Detroit.\n\n**4. Policy outcomes and limits of reform**\nScholars have debated whether 2020 produced lasting change. Some point to local reforms, such as police budget debates, changes to use-of-force policies, and shifts in state legislation. Others, particularly abolitionist and critical scholars, argue that reform within existing police institutions falls short. Marie Gottschalk's *Caught: The Prison State and the Lockdown of American Politics* (Princeton UP, 2014) provides background on how carceral institutions resist change, and Angela Davis, Gina Dent, Erica Meiners, and Beth Richie, *Abolition. Feminism. Now* (Haymarket, 2022), develops the abolitionist argument.\n\n**5. Backlash and political polarization**\nHistorians and political scientists have examined the counter-mobilization that followed, including \"law and order\" rhetoric, state-level restrictions on protest, and the framing of protesters as threats. Interpretations often connect 2020 to longer cycles of reaction, such as responses to 1960s uprisings and the 1994 crime bill, which Michelle Alexander analyzes in *The New Jim Crow* (New Press, 2010).\n\n**6. Memory and commemoration**\nScholars have also begun studying how 2020 is remembered, including the murals, renaming debates, and museum and memorial projects. Peniel Joseph's *The Sword and the Shield: The Revolutionary Lives of Malcolm X and Martin Luther King Jr.* (Basic, 2020) addresses how the civil rights era is memorialized in ways that affect present-day interpretations of protest.\n\n**Suggested next steps:** Search JSTOR, Google Scholar, and journals such as *Journal of American History*, *Race & Class*, and *Social Movement Studies* for \"George Floyd protests\" or \"2020 protests.\" Crowd Counting Consortium data and reports are available online and are useful primary sources.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 3010,
+  "total_tokens": 3046,
+  "cost": 0.0015086,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015086,
+   "upstream_inference_prompt_cost": 3.6e-06,
+   "upstream_inference_completions_cost": 0.001505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1364,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:01.322383+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

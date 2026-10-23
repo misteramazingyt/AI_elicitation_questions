@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "Q",
+ "prompt": "What were the consequences of the Black Death in fourteenth-century Europe?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Black Death (1347–1351, with recurring outbreaks for centuries after) killed an estimated 30–50% of Europe's population. Its consequences were profound and far-reaching:\n\n**Demographic and social effects**\n- **Population collapse:** Europe's population took roughly two centuries to recover to pre-plague levels.\n- **Labor shortages:** With fewer workers, surviving laborers could demand higher wages, and peasants gained bargaining power against lords.\n- **Decline of serfdom:** Manorial obligations weakened in much of Western Europe as lords struggled to keep workers tied to the land. In parts of Eastern Europe, by contrast, lords tightened control and serfdom intensified in the following centuries.\n- **Social upheaval:** Resentment over wage controls and taxes contributed to revolts such as the English Peasants' Revolt (1381), the Jacquerie in France (1358), and the Ciompi revolt in Florence (1378).\n\n**Economic effects**\n- **Wages and prices:** Real wages rose, while land rents and grain prices often fell, shifting economic power toward laborers.\n- **Shift to pastoral and less labor-intensive farming:** Some landowners converted arable land to sheep or cattle grazing, which required fewer workers.\n- **Capital and trade disruptions:** Banking and commerce were disrupted in some regions; the Florentine banking houses of Bardi and Peruzzi suffered serious losses, partly due to plague and defaults.\n\n**Religious and cultural effects**\n- **Crisis of faith:** Many people questioned the Church's ability to protect them. Some turned to intensified piety, flagellant movements, and devotion to saints who protected against plague (such as St. Roch).\n- **Scapegoating:** Jews were massacred across Germany and elsewhere after being falsely accused of poisoning wells, and lepers, foreigners, and others were also persecuted.\n- **Artistic themes:** Art and literature increasingly focused on death, such as the *danse macabre* (dance of death) and *memento mori* imagery. Boccaccio's *Decameron* depicts Florence during the plague.\n\n**Political and institutional effects**\n- **Public health measures:** Cities developed quarantine systems, such as Venice's isolation of ships (the origin of the word \"quarantine\" from *quaranta giorni*), and established health boards and record-keeping of deaths.\n- **Strains on governments:** Rulers faced labor-law attempts (like England's Statute of Labourers, 1351) that often proved unenforceable and fueled unrest.\n- **Church:** Clergy mortality was high, creating shortages of priests and sometimes leading to less qualified replacements, which contributed to later criticism of the Church.\n\n**Longer-term significance**\nHistorians debate how much the plague contributed to the end of feudalism, the rise of wage labor, and eventually the transformations of the Renaissance and Reformation. Most agree it accelerated existing trends and reshaped European society, though it was one factor among many rather than the sole cause of change.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1016,
+  "total_tokens": 1048,
+  "cost": 0.0005112,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005112,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.000508
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:10.378728+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

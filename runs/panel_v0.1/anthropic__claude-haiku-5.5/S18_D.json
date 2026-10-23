@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "D",
+ "prompt": "Describe the 2011 military intervention in Libya.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 2011 military intervention in Libya was an armed campaign led by NATO and supported by coalition partners, carried out under United Nations Security Council Resolution 1973, adopted on 17 March 2011. It came during the broader wave of Arab Spring uprisings and the Libyan civil war between forces loyal to Muammar Gaddafi and rebels opposed to his rule.\n\n**Background**\n\nGaddafi had ruled Libya since a 1969 coup. In February 2011, protests inspired by uprisings in Tunisia and Egypt spread to Benghazi and other cities. Security forces responded with violent crackdowns, and the protests escalated into an armed rebellion. Rebels formed the National Transitional Council (NTC) in Benghazi. Gaddafi's forces advanced toward the rebel-held east, and there were widespread fears of mass atrocities, including threats by Gaddafi to pursue rebels \"house by house.\"\n\n**The Security Council Resolution**\n\nResolution 1973 authorized member states to take \"all necessary measures\" to protect civilians and civilian-populated areas under threat of attack, while excluding a foreign occupation force. It also imposed a no-fly zone and an arms embargo, and it called for a ceasefire. Russia, China, Germany, India, and Brazil abstained, and no member voted against.\n\n**The Military Campaign**\n\n- **Start:** Operations began on 19 March 2011, with French aircraft striking Libyan armored units near Benghazi, followed by US and British forces, including cruise missile strikes and air attacks on air defenses.\n- **Command:** The US initially led the operation as \"Operation Odyssey Dawn,\" then transferred command to NATO on 31 March as \"Operation Unified Protector.\" The mission was carried out mainly by air and naval power.\n- **Scope:** Coalition aircraft enforced the no-fly zone, struck Gaddafi's air defenses, tanks, artillery, and command facilities, and provided close air support to rebel forces, who were largely ill-equipped and poorly organized.\n- **Participants:** Beyond the US, UK, and France, contributors included Italy, Canada, Denmark, Norway, Belgium, Spain, Qatar, the UAE, and others, with varying roles.\n\n**Outcome**\n\nRebel forces advanced westward, capturing Tripoli in August 2011. Gaddafi was killed on 20 October 2011 in his hometown of Sirte, after its capture. NATO ended the mission on 31 October 2011.\n\n**Controversy**\n\nThe intervention remains highly debated. Supporters argue it prevented a massacre in Benghazi and saved civilian lives. Critics contend that the mission exceeded the resolution's civilian-protection mandate by effectively backing regime change, and point out that Libya subsequently fell into a prolonged civil war, with competing governments and militias, a collapse of state institutions, and the spread of arms across the Sahel region. The intervention also damaged international trust in Security Council resolutions, with Russia and China later citing it as a reason to resist Western-backed action on Syria. Some analysts also highlight the lack of post-conflict planning as a major factor in Libya's instability.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1059,
+  "total_tokens": 1084,
+  "cost": 0.000532,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000532,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.0005295
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:51.965322+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "Q",
+ "prompt": "What were the consequences of the Republican Party's \"Southern strategy\"?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The \"Southern strategy\" was a Republican electoral approach, developed roughly from the mid-1960s into the 1970s and associated with figures like Richard Nixon, Kevin Phillips, and later Ronald Reagan, that sought to win white Southern voters (and white working- and middle-class voters more broadly) who had long been loyal to the Democratic Party. Its consequences were far-reaching:\n\n**Political realignment**\n- The South, once a Democratic stronghold (\"Solid South\") since Reconstruction, gradually shifted to the Republican Party. White Southerners moved first in presidential elections (beginning with Goldwater's 1964 run, then Nixon's 1968 and 1972 victories), and eventually in congressional, state, and local races.\n- By the 1990s and 2000s, Republicans dominated Southern congressional delegations, governorships, and state legislatures. This realignment was one of the most significant shifts in modern American politics.\n- It helped produce the current two-party system in which the parties are geographically and ideologically sorted: Republicans are strongest in the South and rural areas, Democrats in urban areas, the Northeast, and parts of the West Coast.\n\n**Changes in party ideology and coalitions**\n- Republicans increasingly appealed to voters opposed to civil rights enforcement, busing, and affirmative action, often through coded language about \"law and order,\" \"states' rights,\" and \"welfare queens,\" rather than explicit racial appeals.\n- The strategy contributed to the emergence of a conservative coalition that combined economic conservatism, social traditionalism, and opposition to federal civil rights activity.\n- Democrats, in turn, became more reliant on Black voters, urban populations, and socially liberal, college-educated voters.\n\n**Racial politics and debate**\n- Critics argue the strategy exploited racial resentment after the civil rights movement, using race-tinged messaging to win votes and hollowing out the New Deal coalition's commitment to civil rights.\n- Defenders (and some historians and political scientists) contend that the realignment was driven largely by non-racial factors: opposition to federal economic policy, cultural and religious values, national defense, and taxes, as well as the broader sorting of partisan identities. Scholars continue to debate how much weight race played compared to these other factors.\n- Many historians see the strategy as part of a longer story connecting the \"white backlash\" to civil rights, the rise of conservatism, and the decline of Southern Democrats (many of whom were segregationists who had opposed their party's civil rights positions).\n\n**Long-term effects on American governance**\n- Because the South became a Republican base, the parties' polarization deepened, reducing the number of moderate Southern Democrats and conservative Northern Republicans who once enabled bipartisan deals.\n- Republican control of the South has shaped federal policy on issues like taxes, social programs, and judicial appointments, and has influenced debates over voting rights and election administration.\n\nIn short, the Southern strategy reshaped the map of American politics, helped create today's polarized party system, and remains a contested subject, with its critics emphasizing its racial dimensions and its defenders emphasizing the broader ideological and cultural forces behind the realignment.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 1050,
+  "total_tokens": 1081,
+  "cost": 0.0005281,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005281,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.000525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:20.106174+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

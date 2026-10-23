@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "H",
+ "prompt": "How have historians interpreted the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians have read *Dobbs* (2022) through several overlapping lenses. I'm confident about the works cited below, but you should verify exact titles, dates, and page numbers before relying on them in academic writing, since my recall of specific publication details can be imperfect.\n\n## 1. *Dobbs* as the culmination of a long movement\n\nMany historians argue that *Dobbs* was the product of a decades-long campaign rather than a sudden shift.\n\n- **Daniel K. Williams, *Defenders of the Unborn: The Pro-Life Movement before Roe v. Wade* (Oxford University Press, 2016).** Williams shows that the anti-abortion movement was substantially built before 1973, with Catholic, evangelical, and secular-medical roots. This supports the view that *Dobbs* fulfilled a long-running project.\n- **Mary Ziegler, *Abortion and the Law in America: Roe v. Wade to the Present* (Harvard University Press, 2020).** Ziegler traces how legal strategy, from the 1970s through the 2010s, moved the movement toward state restrictions and eventually toward overturning *Roe*. She is one of the most-cited scholars on the post-*Roe* legal landscape and has written extensively on *Dobbs* in both scholarly and public venues.\n\n## 2. The \"backlash\" thesis and the role of *Roe*\n\nA major scholarly debate concerns whether *Roe v. Wade* (1973) itself provoked the political mobilization that later undid it.\n\n- **Reva B. Siegel and Linda Greenhouse, \"Before (and After) Roe v. Wade: New Questions About Backlash,\" *Yale Law Journal* 120 (2010).** This article argues that the Court's decision mobilized opposition, though it also acknowledges that opposition was already growing. Siegel and Greenhouse frame the history as a dialogue between courts and social movements.\n- Critics of the backlash thesis, including some legal historians and political scientists, argue that the anti-abortion movement was already organized and that *Roe* accelerated rather than created it. Williams's work is often cited on this side.\n\nInterpretations of *Dobbs* split along these lines: some treat it as a legitimate democratic correction, others as the outcome of a movement that exploited judicial strategy.\n\n## 3. Originalism and the use of historical sources\n\n*Dobbs* relied heavily on history. Justice Alito's majority opinion examined English common law, Blackstone, and Matthew Hale, and argued that abortion was not a deeply rooted right at the time of the Fourteenth Amendment.\n\n- Historians of abortion, such as **Leslie J. Reagan, *When Abortion Was a Crime: Women, Medicine, and Law in the United States, 1867–1973* (University of California Press, 1997)**, have been cited by critics who argue the majority's historical account was selective. Reagan documents that abortion was widely practiced and often tolerated in the nineteenth century, and that criminalization was driven by professionalizing physicians and moral reformers. Critics contend *Dobbs* gave too little weight to this context.\n- Defenders of the majority, and some originalist scholars, argue that the opinion correctly identified the historical record on the common-law status of abortion, and that the critique overstates the case.\n\nThis dispute is partly methodological: whether history should be read at the level of general legal doctrine or in its social and medical context.\n\n## 4. Race, reproductive justice, and the history of coercion\n\nScholars in the reproductive justice tradition see *Dobbs* as continuous with a long history of state control over Black and poor women's bodies.\n\n- **Michele Goodwin, *Policing the Womb: Invisible Women and the Criminalization of Motherhood* (Cambridge University Press, 2020).** Goodwin links the criminalization of pregnancy to histories of racial control and argues that restrictive abortion regimes will fall hardest on marginalized women.\n- Historians working in this vein emphasize that the abortion debate has never been only about fetal status. It has also involved eugenics, sterilization abuse, and the question of who gets to decide.\n\n## 5. Gender, public opinion, and political realignment\n\nSome historians situate *Dobbs* within the longer politics of the Republican coalition and the post-1970s rise of the religious right, arguing that abortion was a mobilizing issue that was partly strategic and partly a result of the coalition's commitments. This literature often treats *Dobbs* as a turning point in how courts and parties interact, and it draws on the history of the Religious Right, though it is less settled than the scholarship on the movement's origins.\n\n## Suggested starting points\n\n- Mary Ziegler's scholarship and commentary, which is probably the most directly relevant to *Dobbs*.\n- The Siegel and Greenhouse article for the backlash debate.\n- Reagan and Williams for historical background.\n- Goodwin for the reproductive justice reading.\n- The *Dobbs* majority, concurrence, and dissent themselves, which are essential primary sources for any historiographical analysis.\n\nIf you tell me whether you need this for a specific discipline (legal history, political history, or gender studies) or a particular argument, I can narrow the list.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 58,
+  "completion_tokens": 2913,
+  "total_tokens": 2971,
+  "cost": 0.0014623,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014623,
+   "upstream_inference_prompt_cost": 5.8e-06,
+   "upstream_inference_completions_cost": 0.0014565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1193,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:37.868440+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

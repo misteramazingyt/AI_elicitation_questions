@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "H",
+ "prompt": "How have historians interpreted the invention of the movable-type printing press in Europe? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians have moved from treating Gutenberg's press as a single heroic invention to seeing it as a long, uneven process of technical, economic, and cultural change. The main lines of interpretation are below. Verify bibliographic details before citing, since I'm working from memory.\n\n**1. Invention and the individual inventor**\nOlder accounts, especially in 19th- and early 20th-century Germany, presented Johannes Gutenberg of Mainz (c. 1400–1468) as the lone genius who invented printing with movable metal type. Later scholarship showed that the press combined existing technologies: the screw press (adapted from wine and cloth presses), oil-based inks, and a durable lead-tin-antimony type metal. The key innovation was the system of matrices and a type-casting method that made mass production of uniform type practical.\n- Stephan Füssel, *Gutenberg and the Impact of Printing* (2003; English trans.) gives a detailed account of Gutenberg's workshop, finances, and the 1455 lawsuit with Johann Fust.\n- Albert Kapr, *Johannes Gutenberg: Person and Work* (1996) is a major biography that scrutinizes the sources.\n\n**2. Economic and social history: the \"coming of the book\"**\nLucien Febvre and Henri-Jean Martin, *L'Apparition du livre* (1958; English as *The Coming of the Book*, 1976), argued that print was above all a commercial enterprise. They emphasized capital, markets, the book trade, and the gradual shift in reading habits and mentalities, rather than a sudden break.\n\n**3. Print as \"agent of change\"**\nElizabeth Eisenstein's *The Printing Press as an Agent of Change* (2 vols., 1979) and the condensed *The Printing Revolution in Early Modern Europe* (1983; 2nd ed. 2005) were landmark works. Eisenstein argued that print brought fixity, standardization, accurate reproduction of texts and images, and the ability to accumulate and preserve knowledge. She linked these to the Reformation, the Scientific Revolution, and the growth of humanism, and she stressed unintended consequences. Her work is still the reference point for the debate, and critics often describe her view as technological determinism.\n\n**4. Revisionist and critical responses**\n- **Adrian Johns**, *The Nature of the Book: Print and Knowledge in the Making* (1998), challenged Eisenstein's assumption that print automatically produced trust and fixity. He argued that the authority of printed texts was socially constructed and contested, shaped by piracy, reputation, and practices of credibility.\n- **Joseph Dane**, *The Myth of Print Culture* (2003), questioned whether \"print culture\" was a coherent category and whether early printing had the uniform effects Eisenstein described.\n- **Andrew Pettegree**, *The Book in the Renaissance* (2010), emphasized that manuscript production persisted for a long time, that the book trade was commercially driven and often fragile, and that change was gradual and regionally varied. His *Brand Luther* (2015) argues that print's role in the Reformation depended on specific publishing strategies and market conditions rather than print alone.\n- **Ann Blair**, *Too Much to Know* (2010), shows that early modern scholars already faced information overload and developed reference and note-taking techniques, which complicates narratives of print creating a sudden knowledge crisis.\n\n**5. The history of the book as a field**\nRobert Darnton's essay \"What Is the History of Books?\" (*Daedalus*, 1982) proposed the \"communications circuit,\" which traces books from authors through publishers, printers, distributors, and readers. This approach shifted attention from the machine to the whole social life of texts, and it shaped much later work, including studies of reading, censorship, and the book trade.\n\n**6. Comparative and global perspectives**\nThomas Carter's *The Invention of Printing in China* (1925; rev. Goodrich, 1955) and Joseph Needham's *Science and Civilisation in China*, vol. 5, pt. 1 (1985, on paper and printing) document earlier block printing and movable type in China and Korea (the Korean *Jikji* of 1377 is often cited). These works prompted historians to ask why movable type had a different impact in Europe, and they make the European case look less like an isolated origin and more like a particular set of conditions: alphabetic script, a commercial book trade, and the economics of labor and paper.\n\n**Overall trend**\nCurrent historians generally avoid both extremes. They reject the idea that Gutenberg invented printing single-handedly, and they are cautious about claims that print alone caused the Reformation or the Scientific Revolution. Instead they study the press as one factor among many, examining how commercial, religious, political, and technical forces interacted over the 15th and 16th centuries.\n\nFor a starting point, Eisenstein's *Printing Revolution* (1983), Johns (1998), and Pettegree (2010) together give a good overview of the debate.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 3024,
+  "total_tokens": 3064,
+  "cost": 0.001516,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001516,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.001512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1367,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:05.069141+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2011 military intervention in Libya?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 2011 NATO-led intervention in Libya, authorized by UN Security Council Resolution 1973 to protect civilians during the uprising against Muammar Gaddafi, had far-reaching consequences, many of them contested.\n\n**Immediate outcomes**\n- Gaddafi was overthrown and killed in October 2011 in Sirte, ending his 42-year rule.\n- The intervention shifted the balance of a civil war, enabling rebel forces (the National Transitional Council and allied militias) to take Tripoli and other key cities.\n\n**Political fragmentation**\n- Libya lacked strong state institutions after Gaddafi's rule, which had been highly personalized, and no effective central authority replaced it.\n- Rival governments emerged, most notably in Tripoli and in the east (Tobruk/Benghazi), leading to a prolonged civil war (2014–2020 in its most intense phase).\n- Political transitions repeatedly stalled, and elections, constitutional efforts, and UN-brokered agreements have struggled to produce lasting unity.\n\n**Security and violence**\n- Large numbers of militias persisted, many of them integrated into or operating alongside state structures, and they competed for control of territory and resources.\n- Armories were looted, and weapons spread across North Africa, the Sahel, and beyond, contributing to instability in Mali, Niger, Burkina Faso, and elsewhere.\n- Extremist groups, including ISIS and al-Qaeda affiliates, exploited the chaos, especially in Derna, Sirte, and the south, though they were later largely pushed back.\n- Migrant and refugee flows through Libya to Europe increased, and abuses against migrants became widespread.\n\n**Humanitarian and economic effects**\n- Civilian casualties, displacement, and destruction of infrastructure were significant, and human rights abuses, including arbitrary detention and torture, were widely documented on all sides.\n- Libya's oil-dependent economy suffered repeated disruptions from blockades and power struggles over oil facilities, reducing government revenue and public services.\n\n**Regional and international effects**\n- The intervention is often cited as a case study in the limits of humanitarian intervention and \"regime change\" without post-conflict planning. Critics, including Russia, China, and some African Union members, argued the mission exceeded its UN mandate by pursuing regime change.\n- It affected debates over the \"Responsibility to Protect\" (R2P) doctrine, making some states more cautious about military interventions with humanitarian justifications, for example regarding Syria.\n- Foreign powers, including Turkey, the UAE, Egypt, Russia, and others, later became involved in the conflict through proxy support, complicating peace efforts.\n\n**Assessment**\nSupporters argue the intervention prevented a likely massacre in Benghazi and gave Libyans a chance at change. Critics contend that the lack of a serious post-intervention strategy turned a limited mission into a catalyst for prolonged state collapse, with lasting humanitarian and security costs. Most analysts see both elements as part of the picture: the protection goal was achieved in the short term, but the political aftermath was poorly managed.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 1044,
+  "total_tokens": 1073,
+  "cost": 0.0005249,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005249,
+   "upstream_inference_prompt_cost": 2.9e-06,
+   "upstream_inference_completions_cost": 0.000522
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:52.549724+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "D",
+ "prompt": "Describe the U.S. War on Drugs from 1971 to the 1990s.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The \"War on Drugs\" is the term widely used for U.S. federal drug policy from the early 1970s through the 1990s, marked by escalating criminal enforcement, harsher sentencing, and expanding military and international involvement.\n\n**Origins (1971–1973)**\n- In June 1971, President Richard Nixon declared drug abuse \"public enemy number one,\" calling for a \"new, all-out offensive.\"\n- Nixon created the Special Action Office for Drug Abuse Prevention and, in 1973, the Drug Enforcement Administration (DEA), consolidating federal drug enforcement agencies.\n- The Controlled Substances Act of 1970 had already established a scheduling system classifying drugs by abuse potential and accepted medical use. Its framework became the basis for later enforcement.\n- Nixon's approach combined domestic enforcement with treatment and prevention funding, and his administration pressed foreign governments, especially in Latin America and Southeast Asia, to curb production and trafficking.\n\n**Escalation under Reagan and Bush (1980s)**\n- Concern over crack cocaine, which spread rapidly in cities in the mid-1980s, and heightened attention after the 1986 death of basketball player Len Bias drove a political push for tougher measures.\n- The Anti-Drug Abuse Act of 1986 created mandatory minimum sentences. Crack offenses carried penalties 100 times harsher than powder cocaine (the 100:1 disparity), a gap widely criticized as racially disparate because crack users were disproportionately Black, while powder cocaine users were more often white.\n- The Anti-Drug Abuse Act of 1988 expanded penalties further, created the Office of National Drug Control Policy (the \"drug czar\"), and introduced measures such as the death penalty for certain drug-related killings.\n- Reagan's \"Just Say No\" campaign, First Lady Nancy Reagan's prominent anti-drug initiative, promoted prevention messaging.\n- The military role grew: the 1981 and 1986 changes to posse comitatus-related rules and other policies expanded military support for law enforcement, including intelligence, equipment, and surveillance assistance. Interdiction efforts in the Caribbean and Andes increased.\n- Congress and the executive branch expanded asset forfeiture, allowing seizure of property connected to drug crimes.\n\n**Expansion and Mass Incarceration (1990s)**\n- The Violent Crime Control and Law Enforcement Act of 1994 funded new state prisons, expanded federal drug and violent-crime penalties, and included a \"three strikes\" provision for repeat federal offenders. Many states adopted their own three-strikes laws.\n- Federal and state prison populations grew dramatically; drug offenses became a leading cause of incarceration, and the U.S. incarceration rate rose to among the highest in the world.\n- Drug policy also included \"Plan Colombia\" (launched in 2000, with roots in the 1990s), extending U.S. counternarcotics aid abroad, and continued interdiction and eradication efforts in source countries.\n- Under Clinton, the drug czar's office emphasized a mix of treatment and enforcement, but enforcement spending and incarceration continued to rise.\n\n**Consequences and Criticism**\n- Incarceration grew sharply, with critics pointing to racial disparities in arrests, sentencing, and prosecution despite broadly similar rates of drug use across racial groups.\n- Critics argued the policy failed to reduce drug availability or prices significantly, while contributing to community disruption, strained prisons, and collateral consequences such as employment and voting restrictions for those with drug convictions.\n- Supporters argued enforcement reduced crime, disrupted trafficking networks, and that tough penalties were necessary given public health and violence concerns.\n- By the late 1990s, debate over sentencing reform, treatment alternatives, and medical marijuana was growing, setting the stage for later reforms.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 34,
+  "completion_tokens": 1312,
+  "total_tokens": 1346,
+  "cost": 0.0006594,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006594,
+   "upstream_inference_prompt_cost": 3.4e-06,
+   "upstream_inference_completions_cost": 0.000656
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:53.538583+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "D",
+ "prompt": "Describe the Republican Party's \"Southern strategy\".",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The \"Southern strategy\" refers to a political approach used by the Republican Party, beginning in the 1960s, to win over white voters in the American South, many of whom had historically been loyal to the Democratic Party. The Democratic Party had dominated the South since the Reconstruction era, in part because of its association with white Southern resistance to racial equality.\n\n**Origins and context**\n- The Democratic Party's civil rights positions shifted in the 1940s and 1960s. Key moments included Truman's desegregation of the military (1948), and especially the Civil Rights Act of 1964 and Voting Rights Act of 1965, which were passed with Democratic majorities and opposed by most Southern Democratic congressmen.\n- Many white Southern Democrats, unhappy with federal civil rights enforcement, began shifting toward the Republicans, a process accelerated by Barry Goldwater's 1964 presidential campaign, which opposed the Civil Rights Act and won several Deep South states.\n\n**Key elements**\n- **Appeals to \"law and order\" and states' rights:** Republicans, including Richard Nixon in 1968 and 1972, framed their message around crime, social disorder, and opposition to federal intervention, and presented these as race-neutral concerns while resonating with white voters uneasy about desegregation and urban unrest.\n- **Opposition to busing and federal school integration:** Courting white suburban and Southern parents opposed to forced busing.\n- **Appeals to social conservatism:** Emphasis on traditional values, religion, and opposition to changes in cultural norms, which attracted evangelical and conservative Southern voters.\n- **Cultivating Southern politicians:** Republicans recruited and elevated Southern figures and benefited from the gradual defection of white Southern Democrats, a process that transformed the region's partisan alignment over several decades.\n\n**Assessment and debate**\n- Historians and political scientists disagree about how deliberate the strategy was. Kevin Phillips, a Nixon adviser, articulated a version of it in *The Emerging Republican Majority* (1969). Critics, including some historians like Dan Carter and Thomas Edsall, argue it was an explicit effort to exploit racial resentment, often pointing to Nixon's and Reagan's rhetoric and to Reagan's 1980 campaign speech in Philadelphia, Mississippi, near the site of the 1964 murders of civil rights workers. Defenders argue that Republican positions reflected principled commitments to limited government, federalism, and law enforcement, and that the realignment was driven by many factors, including economics, religion, and cultural change.\n- The realignment was largely complete by the 1990s and 2000s, when the South became the Republican Party's strongest regional base.\n\nIn short, the Southern strategy describes the GOP's effort to build a electoral coalition by appealing to white Southern voters alienated by the civil rights movement and the Democratic Party's embrace of it, with the strategy's motives and extent still debated.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 984,
+  "total_tokens": 1010,
+  "cost": 0.0004946,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004946,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.000492
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:19.499631+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

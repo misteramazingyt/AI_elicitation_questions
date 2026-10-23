@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2011 military intervention in Libya? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians, political scientists, and policy analysts disagree sharply about the 2011 NATO intervention in Libya. Most interpretations fall into four overlapping camps. Please verify the details of these citations before relying on them, since I may misremember page numbers or publication details.\n\n**1. The intervention as a justified humanitarian success**\n\nSupporters argued that NATO prevented a massacre in Benghazi after Muammar Gaddafi threatened to crush the uprising. Gareth Evans, co-architect of the \"Responsibility to Protect\" (R2P) doctrine, defended the intervention as a legitimate application of that principle. Alex J. Bellamy and Paul D. Williams, in \"The New Politics of Protection? Côte d'Ivoire, Libya and the Responsibility to Protect\" (*International Affairs*, 2011), treated Libya as a significant test case in which the Security Council authorized protection of civilians through Resolution 1973. Bellamy's \"Libya and the Responsibility to Protect: The Exception and the Norm\" (*Ethics & International Affairs*, 2011) makes a similar case while acknowledging the difficulties.\n\n**2. The intervention as a failure that prolonged conflict and caused harm**\n\nCritics, most prominently Alan J. Kuperman, argue that the intervention backfired. In \"A Model Humanitarian Intervention? Reassessing NATO's Libya Campaign\" (*International Security*, 38(1), 2013), Kuperman contends that the rebels' expectation of foreign air support created a moral hazard, encouraging them to reject negotiated settlements and escalate the fighting. On his reading, this increased the death toll rather than reducing it. He also argues that the campaign's expansion toward regime change exceeded the mandate of Resolution 1973.\n\n**3. The intervention as regime change overreach and a breach of mandate**\n\nRussia, China, and several African Union and Global South governments argued that NATO used a civilian-protection resolution to pursue regime change. Their objections were influential in later debates over Syria. Scholars such as Bellamy and Williams also noted that the ambiguity of the mandate made this outcome easy to foresee, and that the implications for trust in the Security Council were significant. Many analysts have treated the Libya case as a major reason for Russian and Chinese vetoes on Syria.\n\n**4. Libya's post-2011 collapse as central to the interpretation**\n\nA large body of scholarship focuses on what came after Gaddafi's fall rather than on the intervention itself. Frederic Wehrey's *The Burning Shores: Inside the Battle for the New Libya* (2018) gives a detailed account of fragmentation, militia politics, and the rise of rival governments. Jason Pack (ed.), *The 2011 Libyan Uprisings* (Palgrave Macmillan, 2013), collects work on the revolution's social and political roots. Dirk Vandewalle's *A History of Modern Libya* (2nd ed., Cambridge University Press, 2012) provides the longer historical context, including the Gaddafi state's structure, which many authors argue left no institutions capable of managing transition.\n\n**Official and parliamentary assessments**\n\nThe UK House of Commons Foreign Affairs Committee report *Libya: Examination of Intervention and Collapse and the UK's Future Policy Options* (September 2016) was highly critical. It concluded that the UK government underestimated the risks of post-intervention instability and failed to plan adequately for reconstruction. It is a key primary source for those who see the intervention's aftermath as a policy failure.\n\n**Summary of the debate**\n\nInterpretations diverge on several questions:\n- Whether the threat to Benghazi was as imminent as claimed, which affects the intervention's justification.\n- Whether the intervention's effects on civilian casualties were positive or negative.\n- Whether regime change was an intended goal or an unavoidable drift.\n- How much responsibility the intervention bears for the subsequent state collapse, versus Gaddafi's legacy or domestic political dynamics.\n- What the case means for R2P and the use of the Security Council.\n\nIf you tell me whether you need this for an essay, a course, or general reading, I can narrow the list or suggest more recent work.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 2724,
+  "total_tokens": 2761,
+  "cost": 0.0013657,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013657,
+   "upstream_inference_prompt_cost": 3.7e-06,
+   "upstream_inference_completions_cost": 0.001362
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1320,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:52.629696+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

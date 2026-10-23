@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "H",
+ "prompt": "How have historians interpreted Venezuela's economic crisis since 2013? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians and social scientists disagree about the causes of Venezuela's collapse since 2013. The main interpretations, with sources I'm fairly confident exist, are below. Please verify exact titles, dates, and page numbers before citing them formally, since I may have some details wrong.\n\n**1. The rentier state and the \"resource curse\"**\nThis is the most widely shared structural explanation. Oil dependence made the state fiscally dominant, weakened other productive sectors, and tied prosperity to commodity prices, so the 2014 oil price collapse hit a fragile economy hard.\n- Terry Lynn Karl, *The Paradox of Plenty: Oil Booms and Petro-States* (University of California Press, 1997), the classic statement of the framework.\n- Fernando Coronil, *The Magical State: Nature, Money, and Modernity in Venezuela* (University of Chicago Press, 1997), a historical-anthropological account of oil and the state.\n- Miguel Tinker Salas, *The Enduring Legacy: Oil, Culture, and Society in Venezuela* (Duke University Press, 2009).\n\n**2. Policy mismanagement under Chávez and Maduro**\nEconomists and some historians emphasize price controls, currency controls, expropriations, fiscal deficits financed by money printing, and the decline of PDVSA, the state oil company. This view often stresses that the crisis was self-inflicted rather than purely external.\n- Ricardo Hausmann and Francisco Rodríguez, eds., *Venezuela Before Chávez: Anatomy of an Economic Collapse* (Penn State University Press, 2014). This book predates much of the 2013–2016 deterioration but sets out the institutional and macroeconomic argument.\n- Francisco Rodríguez has published extensively on the economics of Chávez-era policy and the crisis, including commentary and working papers on inflation and oil output.\n- Francisco Monaldi has written on the collapse of oil production and PDVSA's governance (see his work for the Baker Institute, Rice University).\n- Steve Hanke has published hyperinflation estimates for Venezuela, sometimes with Nicholas Krus, in the Cato Institute's Troubled Currencies project. These are influential but contested in method.\n\n**3. Sanctions and external shocks**\nChavista officials and some scholars argue that US sanctions (particularly the 2017–2019 financial and oil sanctions) worsened the crisis and functioned as collective punishment. Critics respond that sanctions came after the crisis was already underway and that the government's policies drove the initial collapse.\n- Mark Weisbrot and Jeffrey Sachs, \"Economic Sanctions as Collective Punishment: The Case of Venezuela\" (Center for Economic and Policy Research, 2019).\n- Scholars critical of this view, including several economists in the Hausmann–Rodríguez orbit, argue that sanctions' effects were real but secondary to domestic policy. The debate is ongoing.\n\n**4. Political economy and authoritarian survival**\nThis approach asks why, despite the economic disaster, the regime survived. It emphasizes patronage networks, control of the military, selective repression, and the use of food distribution (CLAP boxes) as political tools.\n- Javier Corrales, \"Authoritarian Survival: Why Maduro May Last,\" *Journal of Democracy* 26, no. 3 (2015), an early analysis of regime resilience.\n- Margarita López Maya and Luis E. Lander, work on Chavismo and social policy and the politics of the 2010s crisis.\n- Daniel Hellinger, *Venezuelan Politics in the Chávez Era* (Lynne Rienner, 2015).\n\n**5. Migration and humanitarian dimensions**\nScholarship on the exodus of several million Venezuelans, now among the largest displacement crises in the Americas, treats the economic collapse as a driver of migration and examines the strain on neighboring countries.\n- Work by Luisa Feline Freier and collaborators on Venezuelan migration in Latin America, published in journals such as *Migration Studies* and *Journal of Refugee Studies*.\n- Reports by the UN Refugee Agency (UNHCR) and the Inter-Agency Coordination Platform for Refugees and Migrants from Venezuela (R4V) document the scale and conditions.\n\n**Where the debate stands**\nMost historians now see the crisis as multicausal: a structural oil-dependence problem, policy choices that amplified it, a sharp external price shock, sanctions whose effects are debated, and a political system that kept power while the population absorbed the costs. The main disagreements are about the relative weight of these causes and about how much blame belongs to domestic policy versus outside pressure.\n\nFor a starting point, I'd suggest Miguel Tinker Salas's *Venezuela: What Everyone Needs to Know* (Oxford University Press, 2015) for an accessible overview, and the Journal of Latin American Studies and Latin American Research Review for recent scholarly articles. I'd also check recent issues of these journals directly, since the literature has grown quickly.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 3837,
+  "total_tokens": 3876,
+  "cost": 0.0019224,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0019224,
+   "upstream_inference_prompt_cost": 3.9e-06,
+   "upstream_inference_completions_cost": 0.0019185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2133,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:11.630138+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

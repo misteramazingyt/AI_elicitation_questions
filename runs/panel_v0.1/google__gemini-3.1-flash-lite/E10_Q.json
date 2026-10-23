@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The UK miners' strike of 1984–1985 was a watershed moment in British history. Its consequences were profound, reshaping the country’s economy, political landscape, trade union movement, and the social fabric of mining communities.\n\nHere are the primary consequences of the strike:\n\n### 1. The Decimation of the Coal Industry\nThe most immediate and tangible consequence was the collapse of the British coal industry.\n*   **Mass Pit Closures:** Following the defeat of the National Union of Mineworkers (NUM), the government and the National Coal Board (NCB) accelerated the closure of \"uneconomic\" pits. In 1984, there were 170 working pits; by the early 1990s, that number had plummeted to fewer than 20.\n*   **Privatization:** The industry was eventually privatized in 1994, effectively ending the era of state-owned coal mining in Britain.\n*   **Energy Shift:** The strike accelerated the UK’s transition away from coal toward gas and nuclear power, a shift that was further cemented by the \"dash for gas\" in the 1990s.\n\n### 2. The Decline of Trade Union Power\nThe strike was a decisive victory for Margaret Thatcher’s Conservative government over organized labor.\n*   **Legislative Changes:** The government used the defeat to further restrict trade union powers. Laws were introduced that required secret ballots before strikes, banned secondary picketing, and made unions financially liable for illegal industrial action.\n*   **Loss of Influence:** The strike broke the perception that trade unions could dictate government policy (a belief stemming from the successful miners' strikes of 1972 and 1974). Union membership in the UK began a long, steady decline from which it has never fully recovered.\n\n### 3. Devastation of Mining Communities\nThe social impact on the \"coalfield communities\"—towns and villages built entirely around the local pit—was catastrophic and long-lasting.\n*   **Economic Depression:** When the pits closed, the primary source of employment vanished. This led to high rates of long-term unemployment, poverty, and reliance on state benefits.\n*   **Social Fragmentation:** Many communities suffered from a loss of identity and purpose. The \"social glue\" provided by the pit—the social clubs, sports teams, and community networks—began to disintegrate.\n*   **Generational Trauma:** The strike left deep scars. Families were often split between those who struck and those who returned to work (the \"scabs\"), leading to feuds that lasted for decades. Many young people left these areas in search of work, leading to \"brain drain\" and an aging population in former mining towns.\n\n### 4. Political Consequences\n*   **Consolidation of Thatcherism:** The victory solidified Margaret Thatcher’s authority. It proved that her government could withstand intense industrial opposition, which emboldened her to pursue other radical policies, such as the privatization of British Telecom, British Gas, and British Airways.\n*   **The Labour Party’s Evolution:** The defeat forced the Labour Party to rethink its relationship with trade unions. Over the following decade, the party moved toward the center, eventually leading to the \"New Labour\" project under Tony Blair, which distanced itself from the militant industrial politics of the 1970s and 80s.\n\n### 5. Policing and Civil Liberties\nThe strike changed the nature of policing in the UK.\n*   **Militarization of Policing:** The tactics used by the police—such as the use of riot gear, horses, and the containment of picketers (kettling)—were seen by many as a shift toward a more militarized, state-controlled police force.\n*   **Orgreave:** The Battle of Orgreave, a violent confrontation between police and picketers, remains a symbol of the brutality of the era. Decades later, there are still calls for a public inquiry into the conduct of the police during the strike, particularly regarding the alleged fabrication of evidence against miners.\n\n### 6. Cultural Legacy\nThe strike became a defining cultural touchstone in Britain. It inspired countless books, plays, films (such as *Billy Elliot* and *Pride*), and songs. It remains a potent symbol of the struggle between the working class and the state, and it continues to be a subject of intense debate regarding whether the strike was a necessary economic correction or a deliberate act of class warfare by the Thatcher government.\n\n### Summary\nIn short, the 1984–1985 strike marked the end of the post-war consensus in Britain. It signaled the transition from an industrial, manufacturing-based economy to a service-based one, and it fundamentally altered the balance of power between the state, the unions, and the individual. For the mining communities themselves, it was a tragedy from which many have never fully recovered.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 1175,
+  "total_tokens": 1197,
+  "cost": 0.001768,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001768,
+   "upstream_inference_prompt_cost": 5.5e-06,
+   "upstream_inference_completions_cost": 0.0017625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 141,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:24.213903+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

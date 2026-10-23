@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration Act of 1924?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Immigration Act of 1924 (also called the Johnson-Reed Act) had several major consequences for the United States:\n\n**1. National origins quota system**\nThe act set annual immigration caps for each country at 2 percent of the number of people of that national origin living in the U.S. as recorded in the 1890 census. Using 1890 rather than 1920 figures deliberately favored northern and western European countries (Britain, Germany, Scandinavia) and reduced the share of immigrants from southern and eastern Europe (Italy, Poland, Russia, Greece) and other regions. Asian immigration was effectively barred through a separate provision excluding anyone ineligible for citizenship, which covered most Asians.\n\n**2. Sharp drop in immigration**\nAnnual immigration fell dramatically. Total admissions had been over 800,000 in some years before the act; afterward, the annual quota totaled about 150,000 (later reduced to around 150,000 with a 2 percent cap; the total for the Eastern Hemisphere was about 154,000). Immigration from southern and eastern Europe dropped especially steeply.\n\n**3. Exclusion of Asians**\nThe act reinforced and expanded earlier Asian exclusion laws, ending Japanese immigration, which had been permitted under the earlier \"Gentlemen's Agreement.\" This caused lasting resentment in Japan and was cited in diplomatic tensions in the years before World War II.\n\n**4. Western Hemisphere exemption**\nImmigration from countries in the Western Hemisphere (Canada, Mexico, Latin America) was not subject to the quotas, though the act's later amendments and policies would eventually bring some restrictions there too. This exemption contributed to increased migration from Mexico in subsequent decades.\n\n**5. Creation of the Border Patrol**\nThe act established the U.S. Border Patrol within the Bureau of Immigration to enforce the new restrictions, particularly along the Mexican and Canadian borders.\n\n**6. Consular screening and visa system**\nEnforcement shifted toward overseas consulates, which had to issue visas and verify eligibility before people could travel, making immigration a more formal, pre-screened process.\n\n**7. Impact on refugees and the 1930s–40s**\nThe quotas limited the number of Jews and others fleeing Nazi persecution who could enter the U.S. in the 1930s, and the quotas for many countries went unfilled while the restrictions kept refugees out. Historians often point to this as a contributing tragedy of the era.\n\n**8. Long-term legacy**\nThe national origins system remained in place until the Immigration and Nationality Act of 1965 (the Hart-Celler Act) abolished it, replacing it with a system emphasizing family reunification and skills, and substantially changing the demographic makeup of later immigration.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 922,
+  "total_tokens": 949,
+  "cost": 0.0004637,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004637,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.000461
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:57.897260+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

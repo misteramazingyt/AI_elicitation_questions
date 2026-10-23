@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "Q",
+ "prompt": "What were the consequences of Argentina's 2001 economic crisis?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2001 economic crisis in Argentina was one of the most severe in the country's history, leading to a total collapse of its financial system and profound, long-lasting changes to its social and political landscape.\n\nThe consequences can be categorized into economic, social, and political impacts.\n\n### 1. Economic Consequences\n*   **Default on Sovereign Debt:** In December 2001, Argentina declared the largest sovereign debt default in history at the time (approximately $93 billion). This effectively cut the country off from international credit markets for over a decade.\n*   **End of the Currency Board:** The government abandoned the \"convertibility plan,\" which had pegged the Argentine peso to the U.S. dollar at a 1:1 ratio for a decade. The peso was devalued, losing roughly 70% of its value against the dollar within months, which caused massive inflation and wiped out the savings of the middle class.\n*   **The \"Corralito\":** To prevent a run on the banks, the government imposed the *corralito* (little corral), which severely restricted cash withdrawals from bank accounts. This trapped people's savings in the banking system, leading to widespread outrage and the freezing of assets.\n*   **\"Pesification\":** The government forcibly converted dollar-denominated bank accounts and debts into pesos at an unfavorable rate. This caused massive losses for depositors and led to years of litigation against the state.\n\n### 2. Social Consequences\n*   **Explosion of Poverty:** The crisis pushed millions of Argentines into poverty. Poverty rates skyrocketed from roughly 30% in 2001 to over 50% by 2002. Unemployment reached record highs of over 20%.\n*   **Rise of the \"Piqueteros\":** The crisis gave rise to the *piquetero* movement—unemployed workers who blocked roads and highways to protest and demand government assistance. This movement became a permanent fixture of Argentine political life.\n*   **Social Unrest and Violence:** The crisis triggered massive protests, looting, and riots. The most famous incident occurred on December 19–20, 2001, when violent clashes between protesters and police in the Plaza de Mayo left nearly 40 people dead.\n*   **Emigration:** A \"brain drain\" occurred as thousands of middle-class, educated Argentines—many of whom held European passports due to their ancestry—emigrated to Spain, Italy, and other countries in search of stability.\n\n### 3. Political Consequences\n*   **Collapse of the Government:** The crisis led to the resignation of President Fernando de la Rúa, who fled the presidential palace in a helicopter on December 20, 2001.\n*   **Institutional Instability:** In the two weeks following De la Rúa’s resignation, Argentina cycled through five different presidents, highlighting the total breakdown of the political order.\n*   **Loss of Trust:** The crisis shattered public trust in political institutions, the judiciary, and the banking system. The slogan *\"¡Que se vayan todos!\"* (\"Throw them all out!\") became the rallying cry of the era, reflecting a deep-seated resentment toward the entire political class.\n*   **Shift in Political Ideology:** The crisis marked the end of the neoliberal consensus that had dominated the 1990s. It paved the way for the rise of \"Kirchnerism\" (Néstor and Cristina Fernández de Kirchner), a populist, center-left movement that emphasized state intervention, social welfare programs, and a more confrontational stance toward international financial institutions like the IMF.\n\n### Long-Term Legacy\nThe 2001 crisis left deep scars on the Argentine psyche. It created a culture of skepticism toward banks and the U.S. dollar, leading many Argentines to keep their savings in physical cash (often in dollars) outside of the banking system.\n\nFurthermore, the legal battles over the defaulted debt (the \"vulture fund\" litigation) dragged on for 15 years, preventing Argentina from fully normalizing its relationship with global financial markets until 2016. The crisis remains a defining historical reference point in Argentina, frequently cited in debates about economic policy and the country's recurring cycles of boom and bust.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 1030,
+  "total_tokens": 1046,
+  "cost": 0.001549,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001549,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.001545
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 131,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:26.200135+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

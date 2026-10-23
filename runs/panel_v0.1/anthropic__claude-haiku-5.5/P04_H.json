@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "H",
+ "prompt": "How have historians interpreted the Black Death in fourteenth-century Europe? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "# Historiographical Interpretations of the Black Death\n\nHistorians have approached the Black Death (c. 1346–1353, with recurrences through the century) from demographic, economic, social, religious, cultural, and biomedical angles. The main debates are summarized below.\n\n## 1. Demography: How Many Died?\n\nEarly estimates of roughly one-third of Europe's population were long accepted. **Josiah Cox Russell** (*Late Ancient and Medieval Population*, 1958) argued for lower mortality in some regions, while **Jean-Noël Biraben** (*Les hommes et la peste en France et dans les pays européens et méditerranéens*, 1975) produced detailed estimates for France and the Mediterranean. More recently, **Ole J. Benedictow** (*The Black Death 1346–1353: The Complete History*, 2004) argued for mortality of around 60 percent in parts of Europe, a figure that has provoked considerable debate. Scholars disagree about source reliability, since tax, manorial, and ecclesiastical records are patchy and biased.\n\n## 2. Economic Consequences: The Crisis of Feudalism?\n\n- **Michael Postan** (*The Medieval Economy and Society*, 1972) argued that Europe had been overpopulated and land-hungry before 1348, so the plague restored a Malthusian balance, raised living standards for survivors, and shifted power toward peasants.\n- **Robert Brenner** (\"The Agrarian Roots of European Capitalism,\" *Past & Present*, 1976) argued that the outcome depended on class struggle and the strength of lords versus peasants, not demography alone. Brenner's essay launched the influential \"Brenner debate\" (collected in T. H. Aston and C. H. E. Philpin, eds., *The Brenner Debate*, 1985).\n- **Guy Bois** (*The Crisis of Feudalism: Economy and Society in Eastern Normandy c. 1300–1550*, 1984) saw the crisis as a structural breakdown of feudal relations, with lords responding by intensifying exploitation, which produced peasant revolts such as the Jacquerie (1358) and the English Rising of 1381.\n- **Rodney Hilton** (*Bond Men Made Free*, 1973) and **Edward Miller and John Hatcher** (*Medieval England: Rural Society and Economic Change, 1086–1348*, 1978; with Hatcher's *Plague, Population and the English Economy, 1348–1530*, 1977) emphasized how labor scarcity drove wage increases and the decline of serfdom in England.\n- **Christopher Dyer** (*Standards of Living in the Later Middle Ages*, 1989) complicated the picture, showing that gains for the peasantry varied by region and social rank.\n\n## 3. Social Upheaval and Labor\n\nLabor legislation such as the English Ordinance of Labourers (1349) and Statute of Labourers (1351) is read as evidence of elite attempts to hold down wages. Historians now see both the legal restrictions and their limited effectiveness as central to late-medieval class conflict. Scholars also stress that plague hit towns and countryside differently, and that urban populations were replenished by migration.\n\n## 4. Religion, Persecution, and Mentalities\n\n- **Norman Cohn** (*The Pursuit of the Millennium*, 1957) examined the flagellant movement and millenarian responses, a framing still widely used.\n- **David Nirenberg** (*Communities of Violence: Persecution of Minorities in the Middle Ages*, 1996) analyzed the 1348 massacres of Jews in the Crown of Aragon, arguing that they reflected broader social and political logics rather than simply religious hatred or scapegoating.\n- Scholars influenced by the *Annales* school, including **Philippe Ariès** and others, explored changing attitudes toward death, though this argument is now often seen as overgeneralized.\n- **Barbara Harvey** (*Living and Dying in England 1100–1540*, 1993) studied monastic responses to mortality and how institutions adapted.\n\n## 5. Art, Literature, and Cultural Change\n\n- **Millard Meiss** (*Painting in Florence and Siena after the Black Death*, 1951) argued that the plague produced a shift in artistic style toward more intense devotional imagery, a thesis that has been challenged and refined.\n- Boccaccio's *Decameron* (introduction) is treated as a primary source for contemporary responses, often compared with Thucydides' account of the Athenian plague.\n- **Ann Carmichael** (*Plague and the Poor in Renaissance Florence*, 1986) examined public health, charity, and the social politics of epidemic response.\n- The long-standing claim that the plague caused the Renaissance has been widely questioned, since the connection is hard to demonstrate and the cultural changes were gradual.\n\n## 6. Biology and Disease: What Caused It?\n\n- **Philip Ziegler** (*The Black Death*, 1969) offered an influential narrative synthesis, though it predates current scientific evidence.\n- **Robert Gottfried** (*The Black Death: Natural and Human Disaster in Medieval Europe*, 1983) integrated environmental and social explanations.\n- Genetic research has transformed the field. **Michaela Spyrou et al.** (\"Historical *Y. pestis* genomes reveal the European Black Death as the source of ancient and modern plague pandemics,\" *Cell Host & Microbe*, 2016) and **K. I. Bos et al.** (\"A draft genome of *Yersinia pestis* from victims of the Black Death,\" *Nature*, 2011) confirmed *Yersinia pestis* as the causative agent.\n- **Monica Green** (\"The Four Black Deaths,\" *American Historical Review*, 2014) argued that the 14th-century pandemic should be understood as a sequence of distinct outbreaks with different origins.\n- **Samuel Cohn** (*The Black Death Transformed: Disease and Mortality in",
+ "finish_reason": "length",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 4000,
+  "total_tokens": 4040,
+  "cost": 0.002004,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002004,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.002
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1988,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:10.483213+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

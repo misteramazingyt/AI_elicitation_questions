@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "*Roe v. Wade* (1973) grew out of several intersecting legal, social, and medical developments:\n\n**1. Changing state abortion laws.** Most states had criminalized abortion in the 19th and early 20th centuries, often with exceptions only to save the mother's life. In the 1960s, a reform movement gained ground. The American Law Institute's Model Penal Code (1962) proposed broader exceptions, and by 1973 about a dozen states had liberalized their laws, though many still restricted access heavily.\n\n**2. Illegal abortions and their health costs.** Abortions continued underground, and many were unsafe. Advocates pointed to deaths and injuries from back-alley procedures, as well as the burden on poor women who could not travel to legal providers. This made abortion a public health and equality issue.\n\n**3. The developing constitutional right to privacy.** The Court had recognized unenumerated privacy rights in *Griswold v. Connecticut* (1965), which struck down laws restricting contraception for married couples, and extended them to unmarried individuals in *Eisenstadt v. Baird* (1972). Roe's lawyers argued that the decision to have an abortion fell within this same zone of personal autonomy. The Due Process Clause of the Fourteenth Amendment was the vehicle for this reasoning.\n\n**4. The feminist movement.** Second-wave feminism reframed reproductive control as central to women's equality, including their ability to participate in education, work, and public life. This shaped both public opinion and the legal arguments.\n\n**5. Litigation strategy.** Attorneys including Sarah Weddington and Linda Coffee challenged Texas's criminal abortion ban on behalf of \"Jane Roe\" (Norma McCorvey), filing in 1970. The case was argued in 1971, reargued in 1972, and decided January 22, 1973, by a 7–2 vote, with Justice Blackmun writing the majority opinion. It was decided alongside *Doe v. Bolton*, which challenged Georgia's more restrictive law.\n\n**6. Medical developments.** Advances in understanding fetal development and viability influenced the Court's framework, which tied state regulatory interests to the trimesters of pregnancy and to viability. Medical consensus on safer procedures also informed the argument that abortion regulation should be tied to maternal health.\n\n**Important caveats:** Historians and legal scholars debate how much weight each factor carried. Some argue the Court was responding to a broader reform trend already underway; others argue it preempted democratic processes that were moving toward change. The decision's reasoning and its basis in substantive due process remain contested, and the Court overturned *Roe* in *Dobbs v. Jackson Women's Health Organization* (2022).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 1257,
+  "total_tokens": 1296,
+  "cost": 0.0006324,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006324,
+   "upstream_inference_prompt_cost": 3.9e-06,
+   "upstream_inference_completions_cost": 0.0006285
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 354,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:35.161774+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

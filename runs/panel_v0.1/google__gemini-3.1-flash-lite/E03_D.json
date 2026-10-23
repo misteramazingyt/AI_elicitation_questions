@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "D",
+ "prompt": "Describe the famine in Soviet Ukraine in 1932-1933.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The famine in Soviet Ukraine in 1932–1933, known as the **Holodomor** (derived from the Ukrainian words *holod*, meaning \"hunger,\" and *mor*, meaning \"extermination\" or \"plague\"), was a man-made catastrophe that resulted in the deaths of millions of Ukrainians. It is widely recognized by historians and many nations as a genocide orchestrated by the Soviet regime under Joseph Stalin.\n\nHere is a description of the causes, the implementation, and the consequences of the famine.\n\n### 1. The Context: Collectivization and \"Dekulakization\"\nIn the late 1920s, Joseph Stalin initiated the policy of **collectivization**, which aimed to consolidate individual landholdings and labor into collective farms (*kolkhozy*). The goal was to gain total state control over agricultural production to fund rapid industrialization and export grain for foreign currency.\n\nThis policy was met with fierce resistance by Ukrainian farmers, who were deeply attached to their land. The Soviet regime labeled wealthier, more successful peasants as \"kulaks\" (a derogatory term meaning \"fist\"). The state launched a campaign of \"dekulakization,\" which involved the mass arrest, deportation to Siberia, or execution of these farmers. This destroyed the most productive segment of the agricultural workforce.\n\n### 2. The Mechanism of the Famine\nThe famine was not caused by a natural crop failure, but by deliberate state policies designed to break the Ukrainian peasantry and suppress Ukrainian nationalism.\n\n*   **Unrealistic Quotas:** The Soviet government set impossibly high grain procurement quotas for Ukraine. When farmers could not meet these quotas, the state confiscated not only the grain but also other food supplies, livestock, and seed stocks.\n*   **The \"Law of Five Ears of Corn\":** In August 1932, a decree was passed that allowed the state to execute or imprison anyone—even a child—for taking as little as a handful of grain from a collective field.\n*   **The Blacklisting System:** Villages that failed to meet their grain quotas were placed on \"blacklists.\" These villages were surrounded by the secret police (OGPU), trade was halted, and all food supplies were confiscated. This effectively turned these villages into death camps.\n*   **Internal Passports and Travel Bans:** In early 1933, the Soviet government introduced an internal passport system that prevented peasants from leaving their villages. This trapped millions of people in starving regions, preventing them from seeking food in cities or other republics.\n\n### 3. The Human Cost\nThe result was a humanitarian catastrophe of staggering proportions. As the food supply vanished, the population resorted to eating grass, tree bark, leather, and, in extreme cases, cannibalism.\n\n*   **Death Toll:** While exact numbers are difficult to verify due to the destruction of records and the suppression of information at the time, most modern historians estimate that between **3.5 and 5 million Ukrainians** died during the Holodomor.\n*   **Social Collapse:** The famine destroyed the social fabric of the Ukrainian countryside. Families were torn apart, and the traditional way of life was obliterated. The trauma of the event left a deep, multi-generational scar on the Ukrainian national consciousness.\n\n### 4. Denial and Cover-up\nThe Soviet government engaged in a massive campaign of denial. They refused international aid, suppressed reports of the famine, and destroyed census data that would have revealed the massive population decline. For decades, the Soviet Union officially denied that the famine had occurred, labeling reports of it as \"anti-Soviet propaganda.\"\n\n### 5. Historical Significance and Recognition\nFor many years, the Holodomor was a \"forbidden topic\" in the Soviet Union. It was only after the collapse of the USSR in 1991 that archives were opened and the full scale of the tragedy could be studied.\n\n*   **Genocide Debate:** There is an ongoing debate among historians regarding whether the Holodomor meets the strict legal definition of genocide. However, many scholars, including Raphael Lemkin (who coined the term \"genocide\"), argued that the targeting of the Ukrainian peasantry was a deliberate attempt to destroy the Ukrainian nation as a political and cultural entity.\n*   **International Recognition:** To date, dozens of countries, including the United States, Canada, and the European Parliament, have officially recognized the Holodomor as an act of genocide against the Ukrainian people.\n\nThe Holodomor remains a central pillar of Ukrainian national identity and a symbol of the brutality of the Stalinist regime. It is commemorated annually on the fourth Saturday of November.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 1088,
+  "total_tokens": 1106,
+  "cost": 0.0016365,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016365,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.001632
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 133,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:14.995891+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

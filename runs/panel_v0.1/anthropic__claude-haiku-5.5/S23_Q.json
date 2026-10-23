@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2020 George Floyd protests?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The George Floyd protests, which erupted in late May 2020 after a Minneapolis police officer killed Floyd, had wide-ranging consequences, though their long-term effects are still debated.\n\n**Policing and legal changes**\n- Derek Chauvin was convicted of murder in April 2021 and sentenced to 22.5 years. Three other officers involved were later convicted of federal civil rights violations, and one was convicted of state charges of aiding manslaughter.\n- Minneapolis and other cities passed local reforms, such as restrictions on chokeholds and neck restraints, and some cities changed use-of-force policies or ended certain police practices.\n- Minneapolis moved to create a new Department of Community Safety and Violence Prevention, and some cities explored shifting responsibilities such as mental health crisis response to non-police teams.\n- Minnesota, New York, and several other states passed laws on police conduct, including limits on chokeholds, duty-to-intervene requirements, and changes to qualified immunity or decertification of officers.\n- The federal George Floyd Justice in Policing Act passed the House in 2020 but stalled in the Senate, and it was not enacted. Some executive actions were taken, including an executive order on policing that was later partly reflected in federal practice.\n- Minneapolis's proposed charter amendment to replace its police department with a public safety agency was rejected by voters in 2021.\n\n**Public attitudes and culture**\n- Polls showed a significant rise in public concern about racism and police misconduct, and support for the Black Lives Matter movement reached record highs in some surveys, though this support declined in subsequent years.\n- Corporations, universities, and institutions pledged money and policy changes related to racial equity, diversity training, and Black-owned business support. Many of these commitments were later scaled back amid political backlash and legal challenges.\n- Public monuments associated with Confederacy and colonialism were removed or relocated in many places, and debates over history curricula intensified.\n- Juneteenth became a federal holiday in June 2021.\n\n**Protest scale and movement dynamics**\n- The protests were among the largest in U.S. history, with estimates of tens of millions of participants across thousands of locations, including many in small towns, and were notably multiracial.\n- They spread internationally, affecting countries including the UK, Canada, France, and others, sparking local debates about colonial legacies and police violence.\n- Some protests involved property damage, looting, and clashes with police, and the unrest prompted debates on whether it helped or hurt the cause. Politically, it fed into the 2020 election debates over \"law and order\" and public safety.\n\n**Limits and criticisms**\n- Critics argue that many pledged reforms were symbolic or short-lived, and that police killings continued at roughly similar rates afterward.\n- Some research found that the reforms had mixed or modest effects on policing outcomes, and debates continue over crime rates, police staffing, and whether reforms reduced or increased violence in some cities.\n- Police departments in several cities faced staffing shortages after 2020, which some attributed to the protests and political climate, though causation is contested.\n\nIf you're interested in a specific aspect, such as legislation, public opinion data, or effects on specific cities, I can go deeper.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1060,
+  "total_tokens": 1088,
+  "cost": 0.0005328,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005328,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.00053
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:01.250004+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

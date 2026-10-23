@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "C",
+ "prompt": "What were the main causes of the New Deal (1933-1939)?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The New Deal (1933–1939) was not caused by a single event, but rather by a catastrophic convergence of economic, social, and political crises that rendered the existing American system unable to cope.\n\nHere are the main causes that necessitated the New Deal:\n\n### 1. The Great Depression (The Catalyst)\nThe primary cause of the New Deal was the Great Depression, which began with the Stock Market Crash of 1929. By the time Franklin D. Roosevelt (FDR) took office in 1933, the American economy had essentially collapsed:\n*   **Unemployment:** Roughly 25% of the American workforce was unemployed.\n*   **GDP Collapse:** The Gross National Product had been cut nearly in half since 1929.\n*   **Deflation:** Prices for goods and crops plummeted, making it impossible for businesses to profit or farmers to pay their debts.\n\n### 2. The Banking Crisis\nBy early 1933, the American banking system was in a state of total paralysis. Thousands of banks had failed, wiping out the life savings of millions of Americans. This led to \"bank runs,\" where panicked citizens rushed to withdraw their money, causing even solvent banks to collapse. This loss of public trust meant that credit—the lifeblood of the economy—had completely frozen. FDR’s first act as president was to declare a \"Bank Holiday\" to stop the bleeding, which became the first step of the New Deal.\n\n### 3. The Failure of \"Rugged Individualism\"\nFor the first three years of the Depression, President Herbert Hoover adhered to a philosophy of \"rugged individualism.\" He believed that the government should not intervene directly in the economy, that relief should come from private charities and local governments, and that the economy would naturally correct itself. By 1932, it was clear this approach had failed. The public was desperate for a government that would take active, federal responsibility for their welfare.\n\n### 4. The Dust Bowl and Agricultural Collapse\nThe agricultural sector was in a depression long before the rest of the country. Farmers were suffering from massive overproduction, which drove crop prices so low that they could not cover the cost of planting. This was compounded by the \"Dust Bowl\"—a series of severe droughts and dust storms in the Great Plains that destroyed millions of acres of farmland. The New Deal was designed to provide relief to farmers, stabilize crop prices, and implement soil conservation.\n\n### 5. The Threat of Social Unrest and Radicalism\nThere was a genuine fear among the American political elite that the Depression would lead to a revolution. As poverty deepened, radical ideologies—including Communism and Fascism—were gaining traction globally and even within the U.S. Movements led by figures like Huey Long (\"Share Our Wealth\") and Father Charles Coughlin were gaining massive followings by promising radical redistribution of wealth. The New Deal was, in part, a \"conservative\" effort to save capitalism by reforming it, thereby preventing the public from turning to more extreme political solutions.\n\n### 6. The Need for Structural Reform\nBeyond immediate relief, the New Deal was caused by the realization that the American economy had fundamental, structural flaws that allowed the crash to happen in the first place. There was a lack of regulation in the stock market, no safety net for the elderly or unemployed, and no protection for labor unions. The New Deal was a response to the need for a \"New Deal\" (a fair shake) for the average citizen, creating institutions like the SEC (to regulate Wall Street) and the Social Security Administration (to provide a safety net).\n\n### Summary\nIn short, the New Deal was caused by **the total failure of the laissez-faire economic model** to handle the Great Depression. It was a pragmatic, experimental response to a national emergency, driven by the belief that the federal government had a moral and practical obligation to provide \"Relief, Recovery, and Reform\" to its citizens.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 959,
+  "total_tokens": 979,
+  "cost": 0.0014435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014435,
+   "upstream_inference_prompt_cost": 5e-06,
+   "upstream_inference_completions_cost": 0.0014385
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 134,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:12.382679+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

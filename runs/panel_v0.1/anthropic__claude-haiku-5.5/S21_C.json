@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Immigration Act of 1924, also called the Johnson-Reed Act, was driven by several overlapping causes:\n\n1. **Nativism and anti-immigrant sentiment.** Many white Americans, especially Protestant, native-born citizens, feared that newcomers were threatening American culture, labor standards, and social cohesion. Nativist groups such as the revived Ku Klux Klan (which grew substantially in the early 1920s) amplified these fears.\n\n2. **Racial and eugenic theories.** Popular and \"scientific\" ideas of the era, promoted by figures like Madison Grant (*The Passing of the Great Race*, 1916) and Harry Laughlin of the Eugenics Record Office, held that southern and eastern Europeans, Jews, and others were racially inferior to \"Nordic\" or northern European stock. Lawmakers used these ideas to justify restricting immigration from these groups.\n\n3. **Rising immigration from southern and eastern Europe.** Between roughly 1880 and 1920, the composition of immigrants shifted sharply away from northwestern Europe (Britain, Germany, Scandinavia) toward Italy, Poland, Russia, Greece, and other regions. The sheer volume of arrivals, especially after World War I's disruptions had eased, alarmed many Americans.\n\n4. **Economic concerns.** Labor unions and some employers' associations worried that a large supply of immigrant workers depressed wages and competed for jobs, particularly after the postwar recession of 1920–1921. Some also feared the strain on public services and housing.\n\n5. **Failure of earlier, more limited restrictions.** The Immigration Act of 1917 introduced a literacy test and an Asiatic Barred Zone, and the Emergency Quota Act of 1921 set the first numerical limits based on nationality. Advocates of stricter control saw these as insufficient, since the 1921 quotas were still based on the 1910 census and allowed substantial numbers from southern and eastern Europe. The 1924 law shifted the baseline to the 1890 census, when fewer such immigrants lived in the U.S., and cut annual quotas to 2 percent of each nationality's U.S. population in that year.\n\n6. **Political pressure and the postwar climate.** The Red Scare after World War I linked immigrants, particularly leftists and radicals, with political subversion. Politicians responded to constituent demands for restriction, and the law passed with wide bipartisan support.\n\n7. **Exclusion of Asians.** The act also barred immigration from Japan and nearly all of Asia outright, building on earlier exclusion laws such as the Chinese Exclusion Act of 1882 and the \"Gentlemen's Agreement\" with Japan. This reflected long-standing anti-Asian sentiment, especially on the West Coast.\n\nTogether, these factors produced a law that sharply reduced immigration overall and was explicitly designed to favor northwestern Europeans, a framework that remained in place until the Hart-Celler Act of 1965.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 996,
+  "total_tokens": 1023,
+  "cost": 0.0005007,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005007,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.000498
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:57.662937+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

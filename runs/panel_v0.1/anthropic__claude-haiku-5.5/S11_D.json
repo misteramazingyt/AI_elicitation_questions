@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "D",
+ "prompt": "Describe the 1969 Stonewall riots.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Stonewall riots were a series of spontaneous, sometimes violent confrontations between police and LGBTQ+ people in New York City in late June 1969. They are widely regarded as a turning point in the modern gay rights movement.\n\n**Background**\n- The Stonewall Inn, a Greenwich Village bar on Christopher Street, was one of the few establishments in the city where gay men, lesbians, drag queens, transgender people, and gender-nonconforming youth could gather openly.\n- It was run by the Mafia, which paid off police, and it operated without a liquor license. Such bars were frequent targets of police raids.\n- At the time, homosexuality was criminalized or heavily policed in most of the United States. Laws against \"impersonating\" the opposite sex and public \"indecency\" were used to harass patrons, and the American Psychiatric Association still classified homosexuality as a mental disorder.\n\n**The events**\n- In the early hours of June 28, 1969, plainclothes police raided the Stonewall Inn. Patrons were typically checked for identification, and those dressed in clothing deemed inappropriate for their assigned gender were often arrested.\n- Unlike previous raids, which usually ended with patrons quietly submitting, many people resisted this time. A crowd gathered outside, and tensions escalated as patrons and onlookers refused to disperse, jeered at officers, and threw objects such as coins, bottles, and bricks.\n- Police barricaded themselves inside the bar, and some were trapped. Reinforcements arrived, and the standoff continued into the early morning, with clashes spreading to the surrounding streets.\n- Protests and smaller demonstrations continued over the next several nights, drawing large crowds and sometimes violent confrontations with police in the Village.\n\n**Significance**\n- The uprising is often cited as the beginning of the modern LGBTQ+ rights movement. Within a year, activist groups such as the Gay Liberation Front and the Gay Activists Alliance were formed in New York and other cities.\n- The first anniversary was marked with a march in New York on June 28, 1970, which helped inspire the annual Pride marches now held worldwide.\n- Stonewall shifted the movement toward more open, public, and confrontational activism, rather than the quieter, assimilationist approaches of earlier groups like the Mattachine Society and the Daughters of Bilitis.\n- In 2016, President Barack Obama designated the Stonewall Inn and surrounding area as the Stonewall National Monument, the first U.S. national monument dedicated to LGBTQ+ history.\n\nHistorians note that the riots were not the only early act of LGBTQ+ resistance, as events like the Compton's Cafeteria riot (1966) in San Francisco and the Cooper Do-nuts riot (1959) in Los Angeles also occurred. However, Stonewall became the most influential symbol of the movement.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 950,
+  "total_tokens": 974,
+  "cost": 0.0004774,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004774,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.000475
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:38.020730+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

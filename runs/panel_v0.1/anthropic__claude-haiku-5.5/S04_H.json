@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "H",
+ "prompt": "How have historians interpreted Soviet espionage in the United States in the 1940s, including the Rosenberg case? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "# Historiography of Soviet Espionage in 1940s America\n\nHistorians have disagreed about three main questions: how much espionage actually occurred, how serious it was, and how it was used politically. The Rosenberg case is the sharpest point of disagreement. Below is an overview organized by phase and by interpretive camp. Citations are from memory, so please verify editions and details before relying on them.\n\n## 1. Early Accounts and the Cold War Consensus (1950s–1960s)\n\nContemporary accounts, including the trial record and government statements, presented the Rosenbergs as central atomic spies who had passed secrets that helped the USSR build its bomb sooner. Journalistic and government-influenced accounts reinforced this view.\n\n- **Louis Nizer**, *The Implosion Conspiracy* (1973) is a later popular account from the prosecution's perspective.\n- **Walter and Miriam Schneir**, *Invitation to an Inquest* (1965), written by critics of the verdict, was the first major challenge. It argued that Ethel Rosenberg's conviction was disproportionate and that the case rested heavily on David Greenglass's testimony. It is an important early revisionist text, though its authors had sympathies that shaped their selection of evidence.\n\n## 2. The Revisionist Challenge and the Post-Venona Turn (1970s–1990s)\n\nTwo developments reshaped the debate: the Hiss-Chambers and Rosenberg controversies, and the declassification of the Venona decrypts.\n\n**Venona.** The U.S. Army's Signals Intelligence Service decrypted Soviet cables from the 1940s, and the program was publicly acknowledged in 1995.\n- **Robert Louis Benson and Michael Warner, eds.**, *Venona: Soviet Espionage and the American Response, 1939–1957* (NSA/CIA, 1996), is the official publication of selected documents.\n- **John Earl Haynes and Harvey Klehr**, *Venona: Decoding Soviet Espionage in America* (1999), is the standard scholarly synthesis. It concludes that significant espionage networks existed and that Julius Rosenberg was a Soviet agent. It is more cautious about Ethel's knowledge.\n- **Haynes, Klehr, and Alexander Vassiliev**, *Spy: The Secret Life of... / Spies: The Rise and Fall of the KGB in America* (2009), extends this work using KGB archival material.\n- **Harvey Klehr, John Earl Haynes, and Fridrikh Firsov**, *The Secret World of American Communism* (1995), provides the Soviet-archive context.\n\n**Revisionist and sympathetic accounts** also appeared, sometimes strongly disputing the government case:\n- **Ronald Radosh and Joyce Milton**, *The Rosenberg File* (1983; 2nd ed. 1997), is a mixed account. It argues that Julius was guilty of espionage and that Ethel was likely aware of his activities, but that the death sentence was excessive. It was itself criticized by some as too sympathetic to the prosecution and by others as too harsh.\n- **Robert Meeropol**, *An Execution in the Family* (2003), written by the Rosenbergs' younger son, is a family and advocacy account arguing for Ethel's innocence and the injustice of the sentence.\n- **Sam Roberts**, *The Brother* (2001), focuses on David Greenglass and argues that his testimony, and the family dynamics around it, were central to Ethel's fate. It reports that Greenglass's account of Ethel's role was shaky.\n\n## 3. Hiss, White, and the Broader Espionage Picture\n\nThe Rosenberg debate is part of a larger argument about Soviet penetration of the New Deal state.\n\n- **Allen Weinstein**, *Perjury: The Hiss-Chambers Case* (1978; rev. 1997), concluded that Alger Hiss had in fact been a Soviet agent. This is widely cited, though contested.\n- **Alger Hiss**, *In the Court of Public Opinion* (1957), is his own account of innocence.\n- **Sam Tanenhaus**, *Whittaker Chambers: A Biography* (1997), is a sympathetic but critical account of Chambers.\n- **Bruce Craig**, *Treasonable Doubt: The Harry Dexter White Spy Case* (2004), examines White, a Treasury official, and generally finds the evidence of his espionage persuasive, though not conclusively proven.\n- **Kathryn Olmsted**, *Red Spy Queen* (2002), examines Elizabeth Bentley, whose 1945 testimony helped start the postwar investigations.\n- **Richard Rhodes**, *Dark Sun: The Making of the Hydrogen Bomb* (1995), covers Klaus Fuchs and Soviet atomic espionage with careful attention to the documentary record.\n\n## 4. Counter-Interpretations: McCarthyism and Its Limits\n\nA separate school accepts that some espionage occurred but argues that its scale and threat were exaggerated, and that anti-Communist politics produced injustices.\n\n- **Ellen Schrecker**, *No Ivory Tower* (1986) and *Many Are the Crimes* (1998), argues that McCarthyism was an overreaction that damaged civil liberties. She does not, however, deny that some espionage happened.\n- **Athan Theoharis** and others emphasize FBI misconduct and the political use of loyalty programs.\n\nA conservative counterpoint comes from **M. Stanton Evans**, *Blacklisted by History* (2007), which argues that the anti-Communist investigations were more justified than their critics admit.\n\n## 5. Recent Developments\n\nLater materials have shifted some debates:\n- Later statements by participants, including interviews with Morton Sobell in the 2000s in which he acknowledged espionage, have been treated by many as significant, though they were given varying weight.\n- Greenglass's later statements about his sister's role, and his wife Ruth's part, have been reexamined, with historians disagreeing about their reliability.\n- Scholars now generally accept that Julius",
+ "finish_reason": "length",
+ "usage": {
+  "prompt_tokens": 51,
+  "completion_tokens": 4000,
+  "total_tokens": 4051,
+  "cost": 0.0020051,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0020051,
+   "upstream_inference_prompt_cost": 5.1e-06,
+   "upstream_inference_completions_cost": 0.002
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1949,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:25.055411+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

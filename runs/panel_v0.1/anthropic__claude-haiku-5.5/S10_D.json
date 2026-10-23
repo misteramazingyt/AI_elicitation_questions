@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "**Dobbs v. Jackson Women's Health Organization** was decided by the U.S. Supreme Court on June 24, 2022. The 6–3 decision overturned *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992), eliminating the federal constitutional right to abortion.\n\n**Background**\nMississippi enacted the Gestational Age Act, which generally prohibited abortions after 15 weeks of pregnancy and contained few exceptions. The Jackson Women's Health Organization, Mississippi's only abortion clinic at the time, challenged the law. Lower courts blocked it as unconstitutional under *Roe* and *Casey*, which had recognized a right to abortion before fetal viability (roughly 22–24 weeks) and limited states' ability to restrict it before then.\n\n**The Court's Holding**\nJustice Samuel Alito wrote the majority opinion, joined by Chief Justice Roberts (who concurred in the judgment only), and Justices Thomas, Gorsuch, Kavanaugh, and Barrett. The majority made several key points:\n\n- **The Constitution does not mention abortion.** Neither the Due Process Clause of the Fourteenth Amendment nor any other provision protects a right to abortion.\n- **Abortion is not \"deeply rooted\" in history and tradition.** Applying the test from *Washington v. Glucksberg* (1997) for unenumerated rights, the majority concluded that abortion was widely criminalized in the nineteenth and early twentieth centuries and was not a recognized right in American legal tradition.\n- **Stare decisis did not preserve *Roe*.** The majority argued that *Roe* was egregiously wrongly decided, had damaged the Court's legitimacy, and that the reliance interests were not strong enough to justify keeping it.\n- **Returned the issue to the people.** Abortion regulation was returned to the democratic process, allowing each state's voters and legislatures to decide whether to permit, restrict, or ban the procedure.\n\n**Opinions Concurring and Dissenting**\n- **Chief Justice Roberts** agreed the Mississippi law should be upheld but would not have overruled *Roe* outright. He favored a narrower ruling that would have upheld the 15-week limit without eliminating the viability framework.\n- **Justice Thomas** concurred, arguing the Court should reconsider other substantive due process precedents, including *Griswold* (contraception), *Lawrence* (same-sex intimacy), and *Obergefell* (same-sex marriage). The majority opinion expressly stated that it did not address those cases.\n- **Justices Breyer, Sotomayor, and Kagan** dissented jointly, arguing that the decision removed a fundamental constitutional protection, disregarded stare decisis, and would harm women's health, liberty, and equality. Justice Breyer's dissent was joined by the other two and emphasized the decision's practical consequences.\n\n**Consequences**\nThe ruling triggered immediate changes in state law. Many states enacted or enforced existing abortion bans or restrictions, some with near-total prohibitions, while others expanded protections. The decision became a major political issue, influencing state elections, ballot measures, and debates over federal legislation, and it also raised questions about interstate travel for abortion care and the regulation of medication abortion.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 1113,
+  "total_tokens": 1159,
+  "cost": 0.0005611,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005611,
+   "upstream_inference_prompt_cost": 4.6e-06,
+   "upstream_inference_completions_cost": 0.0005565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:36.836231+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

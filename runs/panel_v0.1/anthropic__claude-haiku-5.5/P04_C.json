@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "C",
+ "prompt": "What were the main causes of the Black Death in fourteenth-century Europe?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Black Death (1346–1353) was a catastrophic pandemic that killed an estimated 30–50% of Europe's population. Its causes operated on several levels: the biological agent, the way it spread, and the social and environmental conditions that amplified it.\n\n**The biological cause**\n- The disease was caused by the bacterium *Yersinia pestis*, the same pathogen behind later plague outbreaks. Ancient DNA studies from victims' teeth in plague cemeteries have confirmed this, settling a long debate about whether it was anthrax or another disease.\n- Its most common form was bubonic plague, spread by fleas that lived on rodents, particularly black rats (*Rattus rattus*). Pneumonic plague, which spreads person to person through respiratory droplets, also occurred and likely drove some of the spread in its later stages.\n\n**How it reached Europe**\n- The pathogen most likely originated in Central Asia, possibly around the region of modern Kyrgyzstan or the Tian Shan mountains.\n- Expanding trade networks, especially the Silk Road and Mongol-controlled routes, carried it westward. Ships and merchants carried infected rats and fleas along trade routes.\n- The Mongol siege of Caffa (Kaffa) in Crimea in 1346, where the traditional story says plague victims were catapulted into the city, is often cited as a point of entry into the Mediterranean world. The story is probably embellished, but it illustrates how military and commercial contact spread the disease.\n- From Sicily and Mediterranean ports in 1347, it spread across Europe over the following few years.\n\n**Conditions that amplified it**\n- **Urban density and poor sanitation:** Crowded towns with waste in the streets and rats in buildings gave the disease ideal conditions.\n- **Trade and mobility:** Busy ports and commercial routes accelerated the spread.\n- **Climate and harvest failures:** Some historians link the early 1300s climate disruptions and famine (such as the Great Famine of 1315–1317) to weakened populations, though the link is debated.\n- **Limited medical understanding:** Physicians had no knowledge of germs, and responses such as quarantines were inconsistent. Ideas like miasma (bad air) shaped both prevention and treatment.\n- **Population vulnerability:** Europe was densely populated by the early fourteenth century, so the disease had many potential hosts.\n\nHistorians continue to debate the relative weight of these factors, but the consensus is that the plague's spread depended on the bacterium, its flea and rodent vectors, and a European society that was highly connected and densely settled.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 862,
+  "total_tokens": 894,
+  "cost": 0.0004342,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004342,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.000431
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:10.259584+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "C",
+ "prompt": "What were the main causes of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The IRS scrutiny of tax-exempt applications from conservative and Tea Party groups, mainly from 2010 to 2013, was the subject of a 2013 Treasury Inspector General for Tax Administration (TIGTA) audit and later congressional and Justice Department reviews. The main contributing factors were:\n\n1. **Vague legal standards.** Groups seeking 501(c)(4) status must be \"primarily engaged in social welfare,\" but the tax code doesn't define that clearly, and the IRS had limited written guidance on how much political activity was permissible.\n\n2. **A surge in applications after *Citizens United* (2010).** The Supreme Court ruling allowed more independent political spending by nonprofits, and many new groups, including many Tea Party-affiliated ones, applied for 501(c)(4) status. The volume overwhelmed the small unit handling them.\n\n3. **Backlogs and understaffing.** The Exempt Organizations unit in Cincinnati faced long queues and limited resources, which pushed staff to look for shortcuts to sort cases.\n\n4. **Use of keyword-based screening.** Cincinnati employees flagged applications using terms like \"Tea Party,\" \"Patriots,\" and \"9/12\" and placed them on \"Be On the Lookout\" (BOLO) lists for added review. This was the core problem TIGTA identified. Groups were then subjected to delays, burdensome information requests (sometimes about donors, members, and social media posts), and in some cases were never approved.\n\n5. **Inadequate oversight and training.** TIGTA found the criteria were inappropriate and that management didn't closely supervise the process. Procedures were poorly documented, and staff lacked adequate guidance on political-activity standards.\n\n6. **Headquarters involvement.** Officials in Washington, including the Exempt Organizations division led by Lois Lerner, were aware of the screening by 2010 and later of the criteria, and the criteria shifted in 2012 to a broader \"political\" category that also affected some progressive groups.\n\n**Disputed questions:** TIGTA found no evidence that senior officials directed the targeting for partisan reasons, attributing it instead to poor judgment and mismanagement. Many Republicans in Congress argued the targeting reflected political bias, and the Justice Department later declined to bring criminal charges. The controversy led to Lerner's departure from the IRS and significant changes in agency practices.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 1422,
+  "total_tokens": 1465,
+  "cost": 0.0007153,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007153,
+   "upstream_inference_prompt_cost": 4.3e-06,
+   "upstream_inference_completions_cost": 0.000711
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 631,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:32.201373+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

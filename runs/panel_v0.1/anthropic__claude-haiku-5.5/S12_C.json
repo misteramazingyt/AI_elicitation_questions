@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "C",
+ "prompt": "What were the main causes of the rise of the Moral Majority around 1980?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Moral Majority was founded in 1979 by Rev. Jerry Falwell, along with figures like Paul Weyrich, Tim LaHaye, and others, and it rose to prominence around 1980. Several interrelated causes contributed to its emergence:\n\n**1. Reaction to the social changes of the 1960s and 1970s.** Many conservative Protestants (especially evangelicals and fundamentalists) felt alarmed by the sexual revolution, rising divorce rates, feminism, the gay rights movement, pornography, and the perceived decline of traditional family structures. Abortion became a central concern after the Supreme Court's 1973 *Roe v. Wade* decision.\n\n**2. Desegregation and the end of tax exemptions for Christian schools.** Several Christian academies had segregated policies. In 1978, the IRS moved to revoke the tax-exempt status of schools that practiced racial discrimination, most notably Bob Jones University. This led many evangelical and fundamentalist leaders to see the federal government as hostile to their institutions and beliefs, and it spurred the growth of Christian day schools and a sense of political grievance.\n\n**3. Political mobilization by conservative strategists.** Direct-mail specialist Richard Viguerie, Paul Weyrich (of the Heritage Foundation and the Committee for the Survival of a Free Congress), and others sought to unite religious conservatives with the New Right. They recognized that evangelicals, who had largely stayed out of politics, represented a large, potentially mobilizable constituency.\n\n**4. Disillusionment with the Carter administration.** Although Jimmy Carter was himself an evangelical Christian, many religious conservatives viewed his administration as too liberal on social issues, and his policies on the IRS and other matters fueled a sense of alienation. Carter's 1977 comments and the 1979 White House Conference on Families, which some conservatives felt excluded their views, added to this.\n\n**5. Changing views of the role of religion in public life.** Evangelicals had often embraced a separation of church and state that discouraged political activism. Leaders like Falwell argued that Christians had a moral duty to engage in politics to defend \"biblical values,\" and the Moral Majority's name itself appealed to a supposed silent majority of Americans who shared these values.\n\n**6. Media and organizational resources.** Falwell's pulpit, television broadcasts (such as *The Old-Time Gospel Hour*), direct mail, and a growing network of churches gave the movement reach and fundraising capacity. Its organization helped register voters and mobilize them for the 1980 election.\n\n**7. Economic and political context.** The late 1970s brought economic stagflation, the Iran hostage crisis, and a sense of national decline, which made many conservatives receptive to calls for moral and political renewal. Ronald Reagan's 1980 campaign courted religious voters, and the Moral Majority was widely credited with helping turn evangelicals into a Republican-leaning voting bloc.\n\nHistorians debate the relative weight of these factors. Some, like Randall Balmer, argue that the segregation and tax-exemption issue was less central than often claimed, and that abortion and other \"family values\" concerns became more prominent later. Still, the combination of cultural anxiety, organizational entrepreneurship, and a sense of political marginalization drove the movement's rapid rise.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 1112,
+  "total_tokens": 1143,
+  "cost": 0.0005591,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005591,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.000556
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:40.698518+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

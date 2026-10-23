@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration and Nationality Act of 1965?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Immigration and Nationality Act of 1965 (also called the Hart-Celler Act) emerged from several interrelated causes:\n\n**1. The Civil Rights Movement and changing ideals of equality**\nThe mid-1960s saw a broader national push against racial discrimination. The discriminatory national-origins quota system, which had been in place since the Immigration Act of 1924 and was refined in 1952 by the McCarran-Walter Act, was increasingly seen as incompatible with American democratic values. It explicitly favored immigrants from Northern and Western Europe, especially Britain, Ireland, and Germany, while severely restricting those from Southern and Eastern Europe, Asia, and Africa.\n\n**2. Cold War foreign policy concerns**\nPolicymakers worried that the racially based system damaged America's image abroad, particularly among newly independent nations in Asia and Africa that the U.S. hoped to win over during the Cold War. Discriminatory immigration rules were a propaganda liability against the Soviet Union.\n\n**3. Political leadership and advocacy**\nPresident John F. Kennedy proposed reform in 1963, partly in response to these concerns, though he was assassinated before it passed. His successor, Lyndon B. Johnson, pushed the legislation forward as part of his broader domestic agenda. Key congressional sponsors included Senator Philip Hart (D-Michigan) and Representative Emanuel Celler (D-New York), after whom the law is named, and Senator Ted Kennedy played a major role in shepherding it through the Senate.\n\n**4. Family reunification as a priority**\nReformers wanted to prioritize family ties over national origin, so the new law emphasized preferences for relatives of U.S. citizens and permanent residents.\n\n**5. Labor market considerations**\nThe law also included a preference system for workers with skills needed in the U.S. economy, reflecting postwar labor needs.\n\n**6. Pressure from ethnic communities and advocacy groups**\nOrganizations representing Italian, Greek, Polish, and other Southern and Eastern European Americans, along with civil rights and religious groups, lobbied against the quota system's unfairness.\n\n**Unintended consequences:** Supporters, including some sponsors, expected modest changes in immigration patterns and did not anticipate the large increase in immigration from Asia and Latin America that followed. The Act abolished national-origin quotas and set an overall annual cap with a preference system, which over time reshaped the demographics of the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 821,
+  "total_tokens": 853,
+  "cost": 0.0004137,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004137,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.0004105
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:58.063490+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

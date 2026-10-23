@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "D",
+ "prompt": "Describe the Immigration Act of 1924.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Immigration Act of 1924, also known as the Johnson-Reed Act or the National Origins Act, was a U.S. federal law that drastically restricted immigration into the United States. Key features include:\n\n**Quotas based on national origin:** The act set annual immigration caps for each nationality at 2% of the number of people of that national origin already living in the United States as recorded in the 1890 census. The 1890 baseline was chosen deliberately, because it predated the large waves of immigrants from Southern and Eastern Europe that arrived in the late 19th and early 20th centuries. The effect was to favor immigrants from Northern and Western Europe, particularly Britain, Ireland, Germany, and Scandinavia.\n\n**Near-total exclusion of Asians:** The law barred immigration from virtually all Asian countries. This built on earlier restrictions such as the Chinese Exclusion Act of 1882 and the Gentlemen's Agreement with Japan, and it effectively ended Japanese immigration.\n\n**Total immigration cap:** Annual immigration was limited to about 165,000 people from the Eastern Hemisphere, a sharp reduction from the pre-war levels that had exceeded one million per year at peak.\n\n**Exemptions:** Immigrants from the Western Hemisphere, such as Canada and Mexico, were not subject to the quotas, though other restrictions applied.\n\n**Consular screening:** The act required prospective immigrants to obtain visas from American consulates abroad, expanding the government's power to screen applicants before they arrived.\n\n**Background and motivations:** The law reflected rising nativism, eugenics-influenced racial theories, labor concerns, and fears about cultural change after World War I. It built on the Emergency Quota Act of 1921, which had introduced the first numerical limits on immigration.\n\n**Legacy:** The national origins quota system remained in place until the Immigration and Nationality Act of 1965, which abolished it and shifted policy toward family reunification and skills. The 1924 act is widely regarded as a significant example of discriminatory immigration policy, and its effects shaped the demographics of the United States for decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 701,
+  "total_tokens": 724,
+  "cost": 0.0003528,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003528,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.0003505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:56.543731+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

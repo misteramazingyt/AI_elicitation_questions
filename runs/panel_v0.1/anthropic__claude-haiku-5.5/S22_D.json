@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "D",
+ "prompt": "Describe the Immigration and Nationality Act of 1965.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Immigration and Nationality Act of 1965, also known as the Hart-Celler Act after its chief sponsors, Senator Philip Hart of Michigan and Representative Emanuel Celler of New York, was a landmark U.S. law that fundamentally reshaped American immigration policy. It was signed by President Lyndon B. Johnson on October 3, 1965, at the Statue of Liberty, and took effect in 1968.\n\n**Background**\n\nBefore 1965, U.S. immigration policy was built on national-origin quotas. The Immigration Act of 1924 and the National Origins Formula, along with earlier restrictions such as the Chinese Exclusion Act of 1882, heavily favored immigrants from Northern and Western Europe. Quotas were calculated based on the proportion of the U.S. population that traced its ancestry to each country, so immigrants from Southern and Eastern Europe, Asia, and Africa were sharply limited, and Asian immigration was nearly barred altogether.\n\n**Key Provisions**\n\n- **Abolished national-origin quotas:** The system that privileged European ancestry was eliminated in favor of a more neutral framework.\n- **Preference system:** Visas were allocated primarily based on family relationships with U.S. citizens and lawful permanent residents, and on skills needed by the American economy. Family reunification became the cornerstone of legal immigration.\n- **Annual caps:** The act set a ceiling of about 170,000 visas for immigrants from the Eastern Hemisphere, with a limit of 20,000 per country, and 120,000 for the Western Hemisphere, without per-country caps at that time.\n- **Immediate relatives exempt:** Spouses, minor children, and parents of U.S. citizens were not subject to numerical caps.\n- **Refugee and labor provisions:** The law also included categories for refugees and workers in certain occupations.\n\n**Significance and Impact**\n\nThe act is widely regarded as one of the most consequential immigration reforms in American history. Its effects were far larger than its drafters anticipated. Supporters argued it was a matter of civil rights and fairness, aligning U.S. law with the principles of the civil rights movement. Officials at the time often predicted that immigration levels would remain modest and that the new sources would not change the country's demographic makeup substantially.\n\nIn practice, the law led to a dramatic shift in immigrant origins. Immigration from Asia, Latin America, and later Africa grew substantially. Over subsequent decades, the foreign-born share of the U.S. population rose considerably, and the country became far more ethnically and racially diverse. The family-based preference system also fostered chain migration, in which initial immigrants sponsor relatives, which continues to shape immigration debates today.\n\nThe 1965 act has been amended several times, including by the Immigration Reform and Control Act of 1986 and the Immigration Act of 1990, and it remains the foundational statute of U.S. immigration law, codified in Title 8 of the U.S. Code.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 986,
+  "total_tokens": 1014,
+  "cost": 0.0004958,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004958,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.000493
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:58.019985+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

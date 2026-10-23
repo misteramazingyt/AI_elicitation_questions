@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "C",
+ "prompt": "What were the main causes of the War on Poverty and Great Society programs of the 1960s?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The War on Poverty and the Great Society grew from several overlapping forces:\n\n**1. Persistent poverty amid prosperity.** The postwar economy boomed, but roughly a fifth of Americans still lived in poverty in the early 1960s. Michael Harrington's *The Other America* (1962) argued that poverty was largely invisible, concentrated among the elderly, rural Appalachians, urban minorities, and others left out of the boom. Its influence helped make poverty a public policy problem.\n\n**2. Confidence in economic management.** Keynesian economists argued that the government could fine-tune the economy to sustain growth. The 1964 Revenue Act, a major tax cut, reflected the belief that growth could expand opportunity and fund social programs without painful tradeoffs.\n\n**3. The civil rights movement.** Activism culminating in the Civil Rights Act of 1964 and the Voting Rights Act of 1965 raised awareness that racial discrimination limited economic opportunity. Urban unrest, including the Watts riot (1965) and disturbances in Detroit and Newark (1967), intensified concern about conditions in cities.\n\n**4. Kennedy's unfinished agenda and Johnson's ambitions.** Kennedy's administration had begun antipoverty work, including the Area Redevelopment Act and juvenile delinquency programs. After Kennedy's assassination, Lyndon Johnson made antipoverty efforts central to his presidency. His landslide 1964 victory over Barry Goldwater gave Democrats large congressional majorities to pass sweeping legislation.\n\n**5. Social science and policy experiments.** Research on the \"culture of poverty\" (Oscar Lewis), community action models, and pilot programs such as the Ford Foundation's Gray Areas projects and Mobilization for Youth suggested that targeted interventions could work. Daniel Patrick Moynihan's 1965 report on the Black family, though controversial, also shaped debate about how family structure and joblessness related to poverty.\n\n**6. Specific gaps in existing policy.** Rising health costs for the elderly (leading to Medicare in 1965), concern over educational inequality (the Elementary and Secondary Education Act of 1965), and the limits of the New Deal's safety net for the nonworking poor all created pressure for new programs.\n\n**7. Cold War competition.** Policymakers wanted to show that American capitalism and democracy could solve social problems better than communism, especially as newly independent nations were watching.\n\n**8. Political coalitions and advocacy.** Labor unions, civil rights groups, urban mayors, professional associations, and senior citizen organizations all pushed for expanded federal action, creating a broad base of support for legislation.\n\nTogether, these factors produced the Economic Opportunity Act (1964), Medicare and Medicaid (1965), expanded food and housing assistance, and other programs that defined Johnson's Great Society. Later debates about their effectiveness and unintended consequences, however, have remained contested.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 1738,
+  "total_tokens": 1774,
+  "cost": 0.0008726,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008726,
+   "upstream_inference_prompt_cost": 3.6e-06,
+   "upstream_inference_completions_cost": 0.000869
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 747,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:16.739497+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

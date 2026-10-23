@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "*Roe v. Wade* (1973) held that the U.S. Constitution's right to privacy, grounded in the Due Process Clause of the Fourteenth Amendment, protected a woman's decision to have an abortion. It struck down many state restrictions and set a trimester framework that balanced that right against state interests. Its consequences were far-reaching:\n\n**Legal consequences**\n- It invalidated abortion bans and restrictions in most states, making abortion legal nationwide in the early stages of pregnancy.\n- It established a framework for constitutional challenges. *Planned Parenthood v. Casey* (1992) replaced the trimester system with an \"undue burden\" standard and upheld most of the core right.\n- It spurred a long line of litigation over parental consent, waiting periods, clinic regulations, Medicaid funding, and more, many of which the Court addressed in later cases.\n- Its reasoning influenced other privacy-based rulings, such as *Griswold v. Connecticut* (contraception) and *Lawrence v. Texas* (intimate conduct), and it became a central point in debates over judicial methodology and unenumerated rights.\n\n**Political consequences**\n- Abortion became one of the most polarizing issues in American politics, shaping the agendas of both major parties.\n- It helped catalyze the modern anti-abortion movement and the religious right's political mobilization, and it became a key issue for the Republican Party, particularly in the choice of judicial nominees.\n- Pro-choice advocacy also grew into a major political force, and abortion rights became central to Democratic politics.\n- Debates over Supreme Court appointments were heavily shaped by positions on Roe for decades.\n- Ballot measures, state legislation, and federal policies like the Hyde Amendment (restricting federal Medicaid funding for abortion) followed.\n\n**Social and health consequences**\n- Legal abortion became more accessible, and abortion rates rose in the years immediately after 1973, then declined over subsequent decades.\n- Many researchers associate legal access with reduced deaths from unsafe, illegal abortions, which had been a significant cause of maternal mortality before 1973.\n- Some scholars have studied effects on women's educational attainment, workforce participation, and economic independence, though the extent of the impact is debated.\n- Access varied considerably by state, income, geography, and insurance coverage, so the practical reality differed from the national legal right.\n\n**The reversal**\n- In *Dobbs v. Jackson Women's Health Organization* (2022), the Supreme Court overturned Roe, holding that the Constitution does not confer a right to abortion and returning the authority to regulate abortion to the states.\n- This triggered an immediate patchwork of state laws, ranging from near-total bans to broad legal access, along with new litigation, interstate travel questions, and renewed political conflict, including ballot initiatives in several states.\n\nOpinions on Roe's rightness remain sharply divided, with supporters emphasizing bodily autonomy and women's equality and critics emphasizing fetal life and the constitutional basis of the ruling. If you're interested in one dimension, such as the legal reasoning, the public health data, or the political history, I can go deeper.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 1134,
+  "total_tokens": 1173,
+  "cost": 0.0005709,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005709,
+   "upstream_inference_prompt_cost": 3.9e-06,
+   "upstream_inference_completions_cost": 0.000567
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 83,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:35.385302+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

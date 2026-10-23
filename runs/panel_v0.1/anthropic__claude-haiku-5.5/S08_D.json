@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "D",
+ "prompt": "Describe the IRS's handling of tax-exempt applications from political groups (2010-2013).",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The IRS's handling of tax-exempt applications from political groups between 2010 and 2013 became a major controversy, centered on the agency's Exempt Organizations division in Cincinnati, Ohio.\n\n**Background**\nSection 501(c)(4) of the Internal Revenue Code covers social welfare organizations, which must be operated primarily for social welfare and may engage in some political activity as long as it isn't their primary purpose. After the Supreme Court's 2010 decision in *Citizens United v. FEC*, which loosened restrictions on independent political spending, there was a surge in applications for 501(c)(4) status, many from groups with \"Tea Party,\" \"patriot,\" or \"9/12\" in their names, as well as progressive groups.\n\n**The targeting practice**\nBeginning around 2010 and running into 2012 (with some continuation into 2013), IRS staff in the Cincinnati office flagged applications from conservative-sounding groups for additional scrutiny. Staff used keyword searches and a shared list of terms to identify cases, including \"Tea Party,\" \"9/12,\" \"patriots,\" and \"Israel\" or \"occupy\" in some instances. Groups flagged this way often faced:\n\n- Substantially delayed processing, sometimes for more than two years\n- Burdensome and intrusive requests for information, such as lists of donors, details of members' social media posts, copies of political speeches, and information about the groups' views on specific issues\n- Questions about their leadership, affiliations, and planned activities\n- Some groups were never granted status, and some gave up applying\n\n**Discovery and investigations**\nThe practice came to public light in 2013 after Lois Lerner, then head of the Exempt Organizations unit, made a statement at a conference acknowledging the targeting. The Treasury Inspector General for Tax Administration (TIGTA) released an audit in May 2013 confirming that the IRS had used inappropriate criteria. Acting Commissioner Steven Miller resigned shortly after, and Lerner was placed on leave.\n\nCongressional committees, including the House Oversight and Ways and Means Committees, investigated. The Justice Department also reviewed the matter. Investigators found that the targeting was largely carried out by lower-level employees in Cincinnati, with the IRS later acknowledging poor management and oversight. Some investigators found no evidence that senior officials in Washington directed the targeting, while critics argued that the agency's leadership failed to stop or disclose it promptly. The agency also faced criticism for initially providing misleading information to Congress. Lerner's emails were the subject of further controversy when some were reported lost; the IRS said a hard drive crashed, which remained disputed.\n\n**Outcomes**\n- The IRS issued an apology and changed its procedures, eliminating the use of inappropriate criteria.\n- Several officials were disciplined or left the agency.\n- The Justice Department reviewed the matter and, in 2017, declined to bring criminal charges against Lerner or others.\n- Some groups received settlements; the IRS later agreed to pay settlements in several lawsuits.\n- The scandal became a significant political issue, with debate continuing over whether the targeting was partisan in motive or a product of bureaucratic mismanagement and inadequate oversight.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 1061,
+  "total_tokens": 1099,
+  "cost": 0.0005343,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005343,
+   "upstream_inference_prompt_cost": 3.8e-06,
+   "upstream_inference_completions_cost": 0.0005305
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:32.161751+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

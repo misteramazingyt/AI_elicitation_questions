@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "C",
+ "prompt": "What were the main causes of the Kent State shootings of 1970?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Kent State shootings occurred on May 4, 1970, when Ohio National Guard troops fired on antiwar protesters at Kent State University, killing four students and wounding nine others. The main causes were:\n\n1. **The Vietnam War and the expansion into Cambodia:** On April 30, 1970, President Richard Nixon announced that U.S. and South Vietnamese forces had invaded Cambodia to destroy North Vietnamese and Viet Cong base areas. This escalation sparked widespread campus protests across the country, including at Kent State.\n\n2. **Opposition on college campuses:** Many students viewed the invasion as a dramatic widening of a war they already opposed, especially since Nixon had campaigned on ending the war. Protests intensified rapidly in the days that followed.\n\n3. **The ROTC fire and escalating tensions in Kent:** On May 1, protesters gathered on the Kent State Commons, and a crowd later that night burned the ROTC building. This led local officials to request National Guard assistance, and Ohio Governor James Rhodes sent troops to the campus. Rhodes also publicly characterized the protesters in harsh terms, which raised tensions further.\n\n4. **A May 1 rally and the ban on gatherings:** The university and officials had declared the Commons off-limits, and a May 3 rally was banned, yet students gathered anyway. Confrontations between students and Guardsmen in the days before increased the atmosphere of hostility.\n\n5. **Confusion and inadequate training of the Guard:** The Guardsmen were poorly trained for crowd control, were exhausted, and had been in a tense standoff with demonstrators. On May 4, they were ordered to disperse a noon rally at the Commons. When they fired, the reasons remain disputed; investigations (including a presidential commission) concluded that the shooting was not justified, though the exact sequence of events and whether any order to fire was given have been debated.\n\nTaken together, the shootings resulted from the combination of the national controversy over Vietnam and Cambodia, the heated local conflict between students and authorities, and the decision to deploy armed troops onto a tense campus without adequate training or de-escalation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 715,
+  "total_tokens": 743,
+  "cost": 0.0003603,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003603,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0003575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:27.538423+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

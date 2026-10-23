@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "D",
+ "prompt": "Describe the rise of the Moral Majority around 1980.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Moral Majority was a politically active American Christian organization that emerged in the late 1970s and became one of the most visible forces in national politics by 1980. Its rise is best understood as the convergence of religious, cultural, and political currents.\n\n**Origins (1979)**\nThe organization was founded in 1979 by Jerry Falwell, a Baptist minister from Lynchburg, Virginia, who had built Thomas Road Baptist Church and the Liberty Baptist College (now Liberty University) into major institutions. Falwell was joined by political strategists such as Paul Weyrich and Richard Viguerie, who were looking to mobilize conservative Christians into the political arena. The name was meant to suggest that conservative religious Americans constituted a silent majority that had been ignored by the government and media.\n\n**Background and motivations**\nSeveral developments of the 1960s and 1970s pushed many evangelical and fundamentalist Christians toward political engagement:\n- **Court decisions** on school prayer (*Engel v. Vitale*, 1962; *Abington v. Schempp*, 1963) and the 1973 *Roe v. Wade* decision on abortion.\n- **Cultural change**, including the sexual revolution, feminism, the gay rights movement, and shifting norms around family and education.\n- **Tax-exemption fears**: In 1978, the IRS moved to challenge the tax-exempt status of Christian schools that practiced racial discrimination (such as Bob Jones University), alarming religious leaders who feared government interference.\n- **Disillusionment with Jimmy Carter**: Although Carter was an evangelical himself, many religious conservatives felt his administration was hostile to their values, and some were angered by policies on taxes, defense, and social issues.\n\nBefore the Moral Majority, many evangelicals had avoided direct political involvement, sometimes adhering to a separatist view that discouraged engagement with secular government. Falwell's movement encouraged them to change this stance.\n\n**Organization and tactics**\nThe group used direct mail, sophisticated fundraising, and a network of local chapters and churches. It registered voters, especially in the South and among Southern Baptists and other evangelicals, and distributed \"voter guides\" and scorecards rating politicians on issues like abortion, school prayer, the Equal Rights Amendment, and defense spending. Its media presence included radio and television programming, and Falwell became a prominent public figure. Its claimed membership and mailing lists were large, though estimates of its actual influence varied.\n\n**1980 election**\nThe Moral Majority's greatest visibility came during the 1980 presidential campaign. Ronald Reagan courted religious conservatives, appearing at events and speaking in terms sympathetic to their concerns, while Carter's support among evangelicals eroded. Many analysts credit religious conservatives with helping Reagan win a decisive victory over Carter, though the extent of their role remains debated, since economic concerns, the Iran hostage crisis, and other factors also weighed heavily. Republicans gained control of the Senate that year, and the Moral Majority and allied groups were widely seen as part of a new \"Religious Right\" coalition.\n\n**Legacy**\nThe movement helped establish the Religious Right as a durable force in the Republican Party. Falwell disbanded the Moral Majority in 1989, but the coalition it helped build continued through later organizations, and the group's model of religious political mobilization shaped American politics for decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 1132,
+  "total_tokens": 1159,
+  "cost": 0.0005687,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005687,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.000566
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:40.157162+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

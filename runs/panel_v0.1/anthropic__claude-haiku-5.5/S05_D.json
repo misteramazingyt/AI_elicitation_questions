@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "D",
+ "prompt": "Describe the 1993 Waco siege.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1993 Waco siege was a 51-day standoff between the U.S. federal government and members of the Branch Davidians, a religious sect, at their compound near Waco, Texas. It ended in a fire that killed around 76 people, including about 25 children.\n\n**Background**\nThe Branch Davidians were a offshoot of the Seventh-day Adventist Church, led by David Koresh (born Vernon Howell), who claimed to be a messianic figure and taught that the end times were near. The group had stockpiled weapons and lived at the Mount Carmel Center, a compound about 10 miles east of Waco.\n\n**The raid**\nIn February 1993, agents from the Bureau of Alcohol, Tobacco and Firearms (ATF) attempted to serve a search warrant on the compound, looking into allegations of illegal weapons possession, including converting semi-automatic rifles to fully automatic. The raid turned into a firefight on February 28, 1993. Four ATF agents and six Branch Davidians were killed, and many others were wounded. The ATF's failure to achieve surprise, and the fact that a planned news crew was present, contributed to the confrontation.\n\n**The siege**\nThe FBI took over and surrounded the compound. For 51 days, negotiators tried to persuade the residents to surrender, while law enforcement used tactics including sleep deprivation, loud music, and bright lights. Koresh released some followers over the course of the standoff, but many remained, including his own children. Negotiations repeatedly stalled, and Koresh promised to come out but then delayed.\n\n**The fire**\nOn April 19, 1993, the FBI began inserting tear gas into the compound with armored combat vehicles. Fires broke out within a short time and quickly engulfed the structures. Many people died inside, and the cause of the fire has been heavily disputed. The government maintained that Branch Davidians set the fire themselves, while critics and some investigations suggested that the FBI's actions, such as the use of incendiary tear gas rounds and military vehicles that breached walls, may have contributed. Some survivors and independent analysts argued that the fire was started from inside, while others pointed to evidence of government-caused ignition. The question remains contested.\n\n**Aftermath**\nThe events drew intense national scrutiny of federal law enforcement. Congressional hearings followed, and criticism focused on the ATF's raid and the FBI's tactics. Several surviving Branch Davidians were later tried; some were acquitted of major charges, and others were convicted on lesser counts. Civil lawsuits were filed, and in 2000 a federal jury largely found the government not liable for the deaths, though the case was complex. The siege also became a rallying point for anti-government movements and is often cited in debates about government power and the use of force against civilians. The 1995 Oklahoma City bombing is frequently linked to it, as Timothy McVeigh chose April 19 partly in reference to Waco.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 959,
+  "total_tokens": 981,
+  "cost": 0.0004817,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004817,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0004795
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:25.351834+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "C",
+ "prompt": "What were the main causes of the FBI's COINTELPRO program?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "COINTELPRO (Counterintelligence Program) was a series of covert and often illegal operations run by the FBI from 1956 to 1971 (with some related activities continuing into the 1970s). Its origins and motivations stemmed from several overlapping causes:\n\n**1. Cold War anticommunism**\nThe primary stated rationale was countering the Communist Party USA and its perceived influence. J. Edgar Hoover and the Bureau viewed domestic communists as a national security threat, and the program initially targeted party members, sympathizers, and organizations linked to them. The early climate of McCarthyism reinforced this focus and the sense that aggressive measures were justified.\n\n**2. Hoover's institutional priorities and personal worldview**\nHoover had enormous influence over the Bureau and a strong belief that subversion needed to be fought with methods beyond conventional law enforcement. He favored preemptive intelligence gathering and disruption over prosecution, and the program reflected his preference for controlling the narrative and neutralizing perceived threats.\n\n**3. Expansion to the New Left and civil rights movements**\nAs the 1960s progressed, the target scope widened dramatically. Groups and figures associated with the civil rights movement (including Martin Luther King Jr., whom Hoover harassed extensively), the Black Panther Party, the Students for a Democratic Society, antiwar activists, Native American movements, and feminist and other left-leaning organizations became targets. The FBI viewed these movements as potentially subversive or as threats to social order, often without evidence of criminal activity.\n\n**4. Political and ideological concerns about dissent**\nThe Bureau's leadership and the Johnson and Nixon administrations were concerned about protest movements, especially those opposing the Vietnam War and challenging racial hierarchies. COINTELPRO tactics were used to discredit, divide, and disrupt these groups, which reflected a broader government anxiety about social unrest.\n\n**5. Lack of effective oversight and legal constraints**\nThe program operated in secrecy, without congressional authorization or judicial oversight. Its existence was not publicly known until the 1971 Media, Pennsylvania, burglary of an FBI office, and the subsequent Church Committee investigations (1975–76) exposed its scope. The absence of accountability allowed methods to escalate, including infiltration, anonymous letter campaigns, false media stories, provocation of internal conflict, and in some cases violence or support for actions that led to the deaths of activists, such as Fred Hampton of the Black Panthers.\n\n**Consequences:** The revelations led to reforms in FBI oversight, restrictions on domestic intelligence gathering (such as the Attorney General's guidelines), and lasting debate about the balance between national security and civil liberties.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 914,
+  "total_tokens": 943,
+  "cost": 0.0004599,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004599,
+   "upstream_inference_prompt_cost": 2.9e-06,
+   "upstream_inference_completions_cost": 0.000457
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:31.620276+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Britain's abolition of the slave trade (Slave Trade Act, 1807) and of slavery itself (Slavery Abolition Act, 1833, with full apprenticeship ending in 1838) resulted from a combination of moral, economic, political, and social forces. Historians still debate their relative weight, but the main causes include the following.\n\n**1. Evangelical and religious conviction**\n- Evangelical Protestants, especially among Methodists, Quakers, and the Anglican \"Clapham Sect,\" saw slavery as a sin and a national disgrace. Figures such as William Wilberforce, Thomas Clarkson, and Hannah More drew on religious ideas of human dignity and Christian duty.\n- Evangelicalism's emphasis on individual moral responsibility fuelled petitioning, pamphleteering, and sermons that turned moral outrage into public action.\n\n**2. Enlightenment ideas and humanitarianism**\n- Ideas about natural rights, reason, and common humanity challenged the idea that Africans were naturally suited to bondage.\n- Writers such as Olaudah Equiano, whose 1789 autobiography was widely read, personalised the horror of the trade and helped shape public sympathy.\n\n**3. Grassroots campaigning and public mobilisation**\n- The Society for the Abolition of the Slave Trade (founded 1787) pioneered modern pressure-group tactics: mass petitions (hundreds of thousands of signatures in the late 1780s and again in 1804 and 1814), boycotts of slave-grown sugar, pamphlets, prints such as the \"Brookes\" slave-ship diagram, and lecture tours.\n- Women's anti-slavery societies, which organised boycotts and petitions, broadened participation, particularly from 1824 onward.\n\n**4. Resistance and revolution in the Caribbean and Africa**\n- Slave revolts, such as the Haitian Revolution (1791–1804), made planters and politicians fear the consequences of continued slavery and raised the stakes of the debate.\n- Everyday resistance, rebellions like Demerara (1823) and Jamaica's Baptist War (1831–32), and the rising of enslaved people's own demands, made the system look unstable and expensive to maintain. The 1831–32 rebellion in particular helped push the government toward emancipation in 1833.\n\n**5. Economic factors (debated)**\n- Eric Williams's *Capitalism and Slavery* (1944) argued that abolition was driven by declining economic importance of the West Indian colonies after the loss of the American colonies and the rise of industrial capitalism. Most historians now reject or heavily qualify this thesis, pointing out that the Caribbean sugar islands remained economically significant and that the slave economy was still profitable into the 1800s.\n- Nonetheless, some economic arguments mattered: free-labour theorists (such as Adam Smith) argued slavery was inefficient, and changing commercial interests, including some manufacturers and merchants, shifted views.\n\n**6. Strategic and political considerations**\n- The Royal Navy's role in suppressing the trade after 1807 was partly a means of asserting British naval power and diplomatic influence, and Britain used anti-slave-trade treaties to pressure other nations.\n- Political opportunity mattered: Wilberforce and allies could work through parliamentary majorities, and the 1807 abolition was passed after a shift in political opinion following the Napoleonic wars and the Haitian Revolution.\n\n**7. Changing views of Africans and racial thought**\n- Although racist assumptions persisted, a growing number of Britons came to view enslaved people as capable of \"improvement\" and freedom, a view that supported gradual then immediate emancipation.\n\n**8. Compensation and the political settlement**\n- The 1833 Act paid around £20 million (about 40% of the government's annual expenditure at the time) to slave owners, but not to the enslaved. This reflects that abolition was also a compromise shaped by property rights and the interests of the planter class, and it required apprenticeship until 1838 to protect planter labour supplies.\n\n**Summary:** Most historians now see abolition as the product of a broad movement combining religious and humanitarian conviction, popular political mobilisation, and the resistance of enslaved people themselves, with economic and strategic considerations playing a supporting rather than decisive role. The compromises embedded in the 1833 settlement show that political and property interests also shaped the outcome.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 1472,
+  "total_tokens": 1512,
+  "cost": 0.00074,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00074,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.000736
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:43.724985+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

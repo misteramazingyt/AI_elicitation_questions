@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "C",
+ "prompt": "What were the main causes of the famine during China's Great Leap Forward (1959-1961)?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The famine during China’s Great Leap Forward (1959–1961), often referred to as the \"Great Chinese Famine,\" was one of the deadliest events in human history, with death toll estimates ranging from 15 to 45 million people.\n\nHistorians generally agree that the famine was not caused by a single factor, but rather by a \"perfect storm\" of radical government policies, systemic mismanagement, and environmental issues. Here are the main causes:\n\n### 1. Radical Economic Policies (The Great Leap Forward)\nThe Great Leap Forward was Mao Zedong’s attempt to rapidly transform China from an agrarian economy into an industrial powerhouse. This led to several disastrous policies:\n*   **Collectivization (People’s Communes):** Private farming was abolished. Peasants were forced into massive \"People’s Communes\" where they ate in communal kitchens. This destroyed the incentive to work, as individual rewards were removed, and it centralized control in the hands of inexperienced party officials.\n*   **The \"Backyard Furnaces\" Campaign:** Mao ordered the population to produce steel in small, backyard furnaces to catch up with Western industrial output. This diverted millions of farmers away from the fields during critical planting and harvesting seasons, leading to massive crop failures.\n*   **The Four Pests Campaign:** Mao declared war on sparrows, rats, flies, and mosquitoes. The campaign against sparrows was particularly disastrous; because sparrows ate locusts, their near-extinction led to a massive locust population explosion, which decimated crops.\n\n### 2. False Reporting and \"Wind of Exaggeration\"\nThe political climate of the time made it impossible for local officials to report the truth.\n*   **Inflated Quotas:** Local officials, fearing punishment or seeking favor, reported wildly inflated grain production figures to the central government.\n*   **The Procurement Trap:** Based on these fake, inflated numbers, the central government demanded that communes hand over a massive percentage of their \"surplus\" grain as tax. Because the surplus didn't actually exist, the government seized the grain that the peasants needed to survive, leaving them with nothing to eat.\n\n### 3. Mismanagement and Ideological Dogma\nThe government prioritized ideology over scientific agricultural practices:\n*   **Lysenkoism:** The Chinese government adopted the pseudo-scientific agricultural theories of Soviet agronomist Trofim Lysenko. These included planting seeds too close together (based on the false belief that plants of the same species would not compete for resources) and deep plowing. These methods were disastrous and significantly reduced crop yields.\n*   **Suppression of Dissent:** Anyone who questioned these policies was labeled a \"rightist\" or a \"counter-revolutionary.\" This created a culture of fear where experts, scientists, and local leaders were afraid to warn the central government that the policies were failing.\n\n### 4. Environmental Factors\nWhile the famine was primarily man-made, nature did play a role.\n*   **Weather Conditions:** In 1959 and 1960, China experienced significant droughts and floods. While these weather events were not severe enough on their own to cause a famine of this magnitude, they exacerbated an already fragile food supply system that had been crippled by the policies mentioned above.\n\n### 5. The Sino-Soviet Split\nDuring this period, relations between China and the Soviet Union deteriorated rapidly.\n*   **Withdrawal of Aid:** The Soviet Union withdrew its technical advisors and canceled aid projects. This left China without the industrial support it needed to sustain the rapid growth Mao had envisioned, further destabilizing the economy.\n\n### Summary\nThe Great Chinese Famine was a **systemic failure**. While bad weather and the withdrawal of Soviet aid contributed to the crisis, the primary drivers were the **coercive collectivization of agriculture**, the **diversion of labor** away from farming, the **seizure of grain** based on fraudulent production reports, and a **political system** that punished anyone who dared to speak the truth about the unfolding catastrophe.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 969,
+  "total_tokens": 995,
+  "cost": 0.00146,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00146,
+   "upstream_inference_prompt_cost": 6.5e-06,
+   "upstream_inference_completions_cost": 0.0014535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 129,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:18.209717+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

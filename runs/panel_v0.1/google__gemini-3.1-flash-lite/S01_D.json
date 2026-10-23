@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "D",
+ "prompt": "Describe the passage of the Civil Rights Act of 1964.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The passage of the Civil Rights Act of 1964 was one of the most dramatic and significant legislative battles in American history. It transformed the legal landscape of the United States by outlawing discrimination based on race, color, religion, sex, or national origin.\n\nHere is the story of how it became law.\n\n### 1. The Catalyst: JFK’s Proposal\nThe movement for the bill gained critical momentum in the spring of 1963, following the brutal police response to peaceful protesters in Birmingham, Alabama. The televised images of police dogs and fire hoses turned on children shocked the nation.\n\nOn June 11, 1963, President John F. Kennedy delivered a televised address to the nation, declaring that the country faced a \"moral crisis\" and announcing that he would send a comprehensive civil rights bill to Congress. He argued that the United States would not be free until all its citizens were free.\n\n### 2. The March on Washington\nTo pressure Congress to pass the bill, civil rights leaders organized the March on Washington for Jobs and Freedom on August 28, 1963. It was here that Dr. Martin Luther King Jr. delivered his iconic \"I Have a Dream\" speech. The massive, peaceful turnout demonstrated the broad public support for the legislation and put immense political pressure on lawmakers.\n\n### 3. The House of Representatives\nFollowing Kennedy’s assassination in November 1963, the new president, Lyndon B. Johnson, made the passage of the Civil Rights Act his top priority. He famously told Congress, \"No memorial oration or eulogy could more eloquently honor President Kennedy's memory than the earliest possible passage of the civil rights bill.\"\n\nThe bill faced its first major hurdle in the House Rules Committee, chaired by Howard W. Smith, a staunch segregationist from Virginia who intended to bury the bill. However, through the maneuvering of Representative Richard Bolling and the support of House leadership, the bill was pried out of the committee. It passed the House of Representatives on February 10, 1964, by a vote of 290–130.\n\n### 4. The Senate Filibuster\nThe real test came in the Senate. Southern Democrats, led by Senator Richard Russell of Georgia, formed a powerful bloc to block the bill. They launched the longest filibuster in U.S. Senate history, which lasted for 60 days.\n\nThe strategy of the segregationists was to talk the bill to death, preventing it from ever coming to a vote. To pass the bill, the Senate needed a two-thirds majority (at the time, 67 votes) to invoke \"cloture\"—a procedure to end debate and force a vote.\n\n### 5. The Bipartisan Breakthrough\nThe success of the bill ultimately relied on a bipartisan coalition. President Johnson worked closely with Senate Minority Leader Everett Dirksen (R-Illinois). Dirksen was a conservative Republican who had initially been skeptical, but he was eventually persuaded to support the bill.\n\nDirksen’s support was the \"linchpin.\" He helped rally enough Republican votes to join with Northern Democrats to break the filibuster. On June 10, 1964, the Senate voted 71–29 to invoke cloture, ending the filibuster. It was the first time in history that the Senate had successfully used cloture to end a filibuster on a civil rights bill.\n\n### 6. Signing into Law\nFollowing the cloture vote, the Senate passed the bill on June 19, 1964. Because the Senate had made minor changes to the House version, the bill had to return to the House, which quickly approved the Senate’s version.\n\nOn July 2, 1964, President Lyndon B. Johnson signed the Civil Rights Act of 1964 into law in a nationally televised ceremony at the White House. He famously handed out the pens he used to sign the document to key civil rights leaders, including Dr. Martin Luther King Jr.\n\n### The Legacy\nThe Act was a monumental achievement. It ended legal segregation in public places (such as hotels, restaurants, and theaters) and banned employment discrimination. It also created the Equal Employment Opportunity Commission (EEOC) to enforce these new protections. While it did not end racism or inequality, it dismantled the legal framework of Jim Crow and provided the federal government with the tools to challenge systemic discrimination across the country.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 1067,
+  "total_tokens": 1082,
+  "cost": 0.00160425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00160425,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.0016005
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 131,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:28.998001+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

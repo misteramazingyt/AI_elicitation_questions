@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "C",
+ "prompt": "What were the main causes of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The famine in Soviet Ukraine in 1932–1933, known as the **Holodomor** (derived from the Ukrainian words for \"death by hunger\"), was a man-made catastrophe. While historians debate the extent to which it was a deliberate act of genocide versus a consequence of disastrous economic policy, there is a broad consensus that it was caused by a combination of systemic Soviet policies, political repression, and the forced transformation of the agricultural sector.\n\nHere are the main causes of the famine:\n\n### 1. Forced Collectivization\nThe primary driver of the crisis was Joseph Stalin’s policy of \"collectivization,\" which began in the late 1920s. The Soviet state forcibly seized private farms and consolidated them into state-run collective farms (*kolkhozy*).\n*   **Resistance:** Millions of Ukrainian peasants, who had a strong tradition of private land ownership, resisted giving up their livestock and land.\n*   **Disruption:** This resistance led to the slaughter of livestock by peasants who did not want to surrender them to the state, causing a massive collapse in agricultural productivity and draft power (horses and oxen) needed for farming.\n\n### 2. The \"Dekulakization\" Campaign\nTo enforce collectivization, the Soviet regime targeted the most successful and independent farmers, whom they labeled *kulaks* (a derogatory term meaning \"fist\").\n*   **Repression:** The state launched a campaign of \"dekulakization,\" which involved the execution, imprisonment, or deportation of millions of these farmers to remote areas of the USSR (such as Siberia).\n*   **Loss of Expertise:** By removing the most experienced and productive farmers from the countryside, the Soviet government destroyed the agricultural knowledge base, leading to a catastrophic decline in crop yields.\n\n### 3. Excessive Grain Procurement Quotas\nEven as agricultural production plummeted due to the chaos of collectivization, the Soviet state maintained—and in some cases increased—the grain procurement quotas required from Ukraine.\n*   **Exporting for Industrialization:** Stalin needed grain to export to the West to pay for the machinery and technology required for his rapid industrialization program (the Five-Year Plans).\n*   **The \"Law of Five Ears of Corn\":** In August 1932, the government passed a decree that allowed for the execution or imprisonment of anyone caught taking even a handful of grain from collective fields. This effectively criminalized the act of starving peasants trying to feed their families.\n\n### 4. The \"Blacklisting\" of Villages\nIn late 1932, the Soviet authorities introduced a system of \"blacklisting\" (*chorni doshky*) for villages that failed to meet their grain quotas.\n*   **Total Blockade:** Villages placed on these lists were surrounded by the secret police (OGPU). All trade was halted, all food supplies were confiscated, and no one was allowed to leave. This turned these villages into death traps, ensuring that the inhabitants would starve.\n\n### 5. Internal Passports and Restrictions on Movement\nTo prevent starving peasants from fleeing to cities or other regions in search of food, the Soviet government implemented an internal passport system in December 1932. Peasants were denied passports, effectively tethering them to their starving villages. This prevented the migration that might have otherwise mitigated the death toll.\n\n### 6. The Debate Over Intent (Genocide vs. Policy)\nThe central historical debate regarding the Holodomor concerns the *intent* of the Soviet leadership.\n*   **The Genocide Argument:** Many historians (such as Robert Conquest and Timothy Snyder) and the Ukrainian government argue that the famine was a deliberate act of genocide. They point to the fact that the famine was concentrated in Ukraine and the Kuban region (which had a large Ukrainian population), and that the policies were specifically designed to crush Ukrainian nationalism and the peasantry as a social class.\n*   **The Policy/Ideology Argument:** Other historians (such as R.W. Davies and Stephen Wheatcroft) argue that while the famine was a direct result of Stalin’s brutal policies, it was not necessarily a premeditated plan to kill Ukrainians specifically. They argue that the famine was the result of a \"perfect storm\" of economic incompetence, ideological fanaticism, and a ruthless prioritization of industrialization over human life, which resulted in a catastrophe that Stalin was willing to let happen to achieve his goals.\n\n### Summary\nRegardless of the debate over intent, the consensus is that the famine was not a natural disaster. It was the result of a **state-led assault on the peasantry.** By stripping the countryside of its most productive farmers, forcing the remaining population into inefficient collective farms, and then systematically confiscating the food produced, the Soviet state created the conditions that led to the deaths of millions of people.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 1124,
+  "total_tokens": 1147,
+  "cost": 0.00169175,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00169175,
+   "upstream_inference_prompt_cost": 5.75e-06,
+   "upstream_inference_completions_cost": 0.001686
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 129,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:15.229720+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

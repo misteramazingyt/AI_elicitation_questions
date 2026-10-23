@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "Q",
+ "prompt": "What were the consequences of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The passage of the Civil Rights Act of 1964 was a watershed moment in American history. It fundamentally altered the legal, social, and political landscape of the United States by dismantling the legal framework of segregation and establishing federal protections against discrimination.\n\nHere are the primary consequences of the Act:\n\n### 1. The End of Legalized Segregation (Jim Crow)\nThe most immediate and visible consequence was the outlawing of \"Jim Crow\" laws. Title II of the Act prohibited discrimination based on race, color, religion, or national origin in public accommodations—such as hotels, motels, restaurants, theaters, and sports arenas. This effectively ended the legal basis for the \"separate but equal\" doctrine that had governed the American South for decades.\n\n### 2. Federal Enforcement of Civil Rights\nBefore 1964, civil rights were largely left to the states, many of which actively enforced segregation. The Act shifted power to the federal government, granting the Department of Justice the authority to file lawsuits against states and businesses that violated the law. This federal oversight was crucial because it meant that local police and courts could no longer ignore or facilitate discriminatory practices without facing federal intervention.\n\n### 3. Desegregation of Schools and Public Facilities\nTitle IV of the Act authorized the U.S. Attorney General to file lawsuits to force the desegregation of public schools. While the *Brown v. Board of Education* (1954) decision had declared segregation unconstitutional, it lacked an enforcement mechanism. The 1964 Act provided the \"teeth\" necessary to begin the slow, difficult process of integrating public education and other public facilities like libraries and parks.\n\n### 4. Prohibition of Employment Discrimination\nTitle VII of the Act was perhaps the most far-reaching provision. It prohibited employers from discriminating based on race, color, religion, sex, or national origin. It also established the **Equal Employment Opportunity Commission (EEOC)** to investigate complaints of workplace discrimination. This opened doors for Black Americans, women, and other minorities to enter industries and job roles that had previously been closed to them.\n\n### 5. Political Realignment\nThe passage of the Act triggered a massive shift in American politics. President Lyndon B. Johnson, a Democrat, signed the bill into law, famously remarking that his party had \"lost the South for a generation.\" The Act alienated many white Southern Democrats who opposed integration, leading them to abandon the Democratic Party and eventually align with the Republican Party. This realignment fundamentally changed the electoral map and the ideological composition of both parties.\n\n### 6. A Catalyst for Further Legislation\nThe success of the 1964 Act emboldened the Civil Rights Movement and demonstrated the power of federal legislation. It paved the way for subsequent landmark laws, most notably:\n*   **The Voting Rights Act of 1965:** Which addressed the systemic disenfranchisement of Black voters.\n*   **The Fair Housing Act of 1968:** Which prohibited discrimination in the sale, rental, and financing of housing.\n\n### 7. Cultural and Social Shifts\nBeyond the law, the Act forced a cultural reckoning. By making discrimination illegal in public life, it began to erode the social acceptability of overt racism. While it did not end racism or prejudice, it established a new national standard: that discrimination was not merely a social preference, but a violation of federal law. This provided a legal tool for activists to challenge systemic inequality in every facet of American life.\n\n### Important Caveats\nWhile the consequences were profound, they were not immediate or universal:\n*   **Resistance:** Many Southern states and businesses resisted the law for years, leading to prolonged legal battles and continued social unrest.\n*   **Economic Inequality:** The Act addressed *legal* discrimination, but it did not immediately solve the *economic* disparities caused by centuries of slavery and segregation. Poverty rates and wealth gaps remained significant, leading to further civil rights activism focused on economic justice.\n*   **Implementation Gaps:** Even with the EEOC, proving discrimination in hiring or promotion remained difficult, and many minority groups continued to face systemic barriers in the workplace for decades to come.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 988,
+  "total_tokens": 1007,
+  "cost": 0.00148675,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00148675,
+   "upstream_inference_prompt_cost": 4.75e-06,
+   "upstream_inference_completions_cost": 0.001482
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 134,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:29.982780+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

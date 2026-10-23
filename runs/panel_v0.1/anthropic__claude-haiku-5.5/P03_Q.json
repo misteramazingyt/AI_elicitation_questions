@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "Q",
+ "prompt": "What were the consequences of the discovery of penicillin?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The discovery of penicillin, made by Alexander Fleming in 1928 and developed into a usable drug by Howard Florey, Ernst Chain, Norman Heatley, and others in the late 1930s and 1940s, had consequences that reached far beyond medicine.\n\n**Medical consequences**\n- **Birth of the antibiotic era.** Penicillin was the first widely used antibiotic and opened the door to later drugs such as streptomycin, tetracyclines, and many others.\n- **Dramatic reduction in deaths from infection.** Diseases like pneumonia, sepsis, gonorrhea, syphilis, and infected wounds, which had often been fatal, became treatable. It saved many lives during World War II, when it dramatically reduced deaths from wound infections.\n- **Safer surgery and modern medicine.** Operations, childbirth, organ transplants, chemotherapy, and intensive care all depend on being able to control bacterial infection.\n- **Changed disease outcomes.** Rheumatic fever, endocarditis, and other conditions that were once often fatal or chronically disabling became far more manageable.\n\n**Scientific and industrial consequences**\n- **Mass production and the pharmaceutical industry.** Wartime research led to deep-tank fermentation and industrial methods for large-scale production, transforming drug manufacturing and fueling growth of the pharmaceutical sector.\n- **Natural product drug discovery.** It encouraged systematic screening of soil microbes and fungi for new compounds, leading to many antibiotics.\n- **Advances in biochemistry.** Work on penicillin's structure and action contributed to understanding of bacterial cell walls and helped inspire later molecular biology research.\n\n**Social and economic consequences**\n- **Economic impact.** Lower mortality and morbidity increased productivity and reduced the burden of illness on families and health systems.\n- **Public health transformation.** Infectious disease became more controllable, contributing to rising life expectancy in the 20th century.\n- **Recognition and policy.** The 1945 Nobel Prize in Physiology or Medicine was awarded to Fleming, Florey, and Chain, and the discovery influenced how governments funded research and approached drug development.\n\n**Negative and long-term consequences**\n- **Antibiotic resistance.** Overuse and misuse of penicillin and other antibiotics led to the evolution of resistant bacteria, such as penicillin-resistant *Staphylococcus aureus* (MRSA's ancestors) and resistant strains of gonorrhea and tuberculosis. This is now one of the major threats to global health.\n- **Overprescription and agricultural use.** Antibiotics used in livestock farming have accelerated resistance.\n- **Allergies.** Penicillin allergy is fairly common, and it can complicate treatment.\n\nIn summary, penicillin transformed medicine by making bacterial infections treatable, reshaped the pharmaceutical industry, and saved countless lives, while also creating the ongoing challenge of antibiotic resistance.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1009,
+  "total_tokens": 1034,
+  "cost": 0.000507,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000507,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.0005045
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:08.650913+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}
