@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1969 Stonewall riots?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 1969 Stonewall riots marked a turning point in organized resistance to police enforcement of laws targeting gay bars and gatherings in New York City.\n\n## Immediate Aftermath\nThe clashes at the Stonewall Inn lasted several nights and resulted in dozens of arrests along with property damage to the bar and surrounding area.  \nLocal media coverage brought wider public attention to routine police raids on establishments serving homosexual patrons.  \nActivists quickly formed new groups such as the Gay Liberation Front to coordinate protests and challenge existing statutes on public assembly and liquor licensing.\n\n## Organizational Developments\nThese events prompted the creation of sustained advocacy networks that shifted focus from quiet assimilation to direct confrontation with discriminatory regulations.  \nAnnual commemorations began the following year and evolved into larger public demonstrations that highlighted demands for repeal of sodomy laws and equal treatment under municipal codes.  \nParticipation in these marches grew steadily through the 1970s as similar organizations appeared in other major cities.\n\n## Legal and Cultural Shifts\nCourt challenges and legislative efforts accelerated in subsequent decades, contributing to the gradual removal of bans on homosexual conduct in many states.  \nPolice practices regarding gay venues changed over time, with fewer targeted raids as licensing rules were revised.  \nBroader visibility increased through media and academic discussion, though enforcement of remaining statutes continued in some jurisdictions until later Supreme Court rulings.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 205,
+  "completion_tokens": 972,
+  "total_tokens": 1177,
+  "cost": 0.00255185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00255185,
+   "upstream_inference_prompt_cost": 0.00012185,
+   "upstream_inference_completions_cost": 0.00243
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 712,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:22.769801+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

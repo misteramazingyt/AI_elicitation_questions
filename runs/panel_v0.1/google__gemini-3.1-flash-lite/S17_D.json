@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "D",
+ "prompt": "Describe the 2003 U.S.-led invasion of Iraq.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2003 U.S.-led invasion of Iraq, often referred to as the Iraq War or Operation Iraqi Freedom, was a pivotal geopolitical event that began on March 20, 2003. It resulted in the collapse of Saddam Hussein’s Ba'athist government and initiated a long, complex period of occupation and insurgency.\n\nHere is a breakdown of the invasion, its context, and its aftermath.\n\n### 1. Context and Justification\nFollowing the September 11, 2001, terrorist attacks, the administration of President George W. Bush adopted a foreign policy doctrine of \"preemptive war.\" The primary justification for invading Iraq was the assertion that Saddam Hussein possessed Weapons of Mass Destruction (WMDs)—specifically nuclear, biological, and chemical weapons—and that he had ties to Al-Qaeda.\n\nThe U.S. government, supported by the United Kingdom and a \"Coalition of the Willing,\" argued that Iraq posed an imminent threat to global security. However, international support was divided; the United Nations Security Council did not pass a resolution explicitly authorizing the use of force, and major allies like France and Germany opposed the invasion.\n\n### 2. The Invasion (March–April 2003)\nThe military campaign began on March 20, 2003, with a massive aerial bombardment campaign known as \"Shock and Awe,\" designed to paralyze the Iraqi command structure.\n\n*   **Military Strategy:** The ground invasion was led by U.S. and British forces, with smaller contributions from other nations. The strategy relied on speed, mobility, and overwhelming technological superiority.\n*   **Rapid Advance:** Coalition forces moved quickly from Kuwait toward Baghdad. Despite fears of fierce resistance, the Iraqi military—which had been weakened by years of sanctions and internal purges—largely collapsed.\n*   **Fall of Baghdad:** By April 9, 2003, U.S. forces had entered the center of Baghdad. The iconic image of a statue of Saddam Hussein being toppled in Firdos Square symbolized the end of his regime. On May 1, 2003, President Bush declared that \"major combat operations\" had ended, standing before a banner that read \"Mission Accomplished.\"\n\n### 3. The Aftermath and Insurgency\nWhile the conventional military phase was swift, the post-invasion period proved far more difficult. The Coalition Provisional Authority (CPA), led by L. Paul Bremer, made two controversial decisions that are widely cited by historians as catalysts for the subsequent chaos:\n\n1.  **De-Ba'athification:** The government purged all members of Saddam Hussein’s Ba'ath Party from public life. This effectively dismantled the Iraqi bureaucracy, police, and military, leaving the country without essential services or security.\n2.  **Dissolution of the Iraqi Army:** The CPA disbanded the Iraqi military, leaving hundreds of thousands of trained, armed, and unemployed soldiers with no stake in the new order.\n\nThese actions, combined with the failure to secure weapons caches and maintain order, created a power vacuum. A fierce insurgency emerged, fueled by former regime loyalists, Sunni extremists, and foreign fighters. The conflict devolved into a brutal sectarian civil war between Sunni and Shia factions, as well as a violent insurgency against the U.S.-led occupation.\n\n### 4. The Search for WMDs\nFollowing the invasion, the Iraq Survey Group (ISG) conducted an exhaustive search for the WMDs that had served as the primary justification for the war. In 2004, the Duelfer Report concluded that Iraq had destroyed its stockpiles of chemical and biological weapons in the 1990s and had no active nuclear program. The intelligence used to justify the war was later found to be deeply flawed and, in some cases, manipulated.\n\n### 5. Long-term Impact\nThe invasion of Iraq had profound and lasting consequences:\n\n*   **Human Cost:** Hundreds of thousands of Iraqis (estimates vary widely) and over 4,400 U.S. service members were killed. The war also led to the displacement of millions of Iraqis.\n*   **Regional Destabilization:** The removal of Saddam Hussein shifted the regional balance of power, significantly increasing the influence of Iran in Iraq and the broader Middle East.\n*   **Rise of Extremism:** The power vacuum and sectarian violence provided fertile ground for the rise of extremist groups, most notably Al-Qaeda in Iraq, which eventually evolved into the Islamic State (ISIS).\n*   **U.S. Foreign Policy:** The war deeply polarized American public opinion and significantly damaged the international reputation of the United States. It led to a long-term debate about the limits of American military power and the ethics of regime change.\n\nThe U.S. military officially withdrew from Iraq in December 2011, though American troops returned in 2014 to lead a coalition against the rise of ISIS, marking the beginning of a new chapter in the country's turbulent history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 1180,
+  "total_tokens": 1196,
+  "cost": 0.001774,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001774,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.00177
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 129,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:44.896719+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

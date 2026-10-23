@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "Q",
+ "prompt": "What were the consequences of the rise of the Moral Majority around 1980?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The rise of the Moral Majority (founded 1979 by Jerry Falwell) marked the political mobilization of white evangelical Protestants as a cohesive voting bloc, with several lasting effects:\n\n- **Electoral realignment**: It helped deliver strong evangelical support for Ronald Reagan in 1980 and 1984, contributing to his landslides. The group registered millions of new voters and framed issues like abortion, school prayer, and opposition to the Equal Rights Amendment as moral imperatives, solidifying white evangelicals as a reliable Republican constituency that persists today.\n\n- **Party and policy influence**: It pushed the GOP platform toward social conservatism, influencing appointments (e.g., federal judges) and rhetoric on \"family values.\" While direct legislative wins were limited in the 1980s, it amplified pressure on issues like abortion restrictions and anti-pornography efforts, setting the stage for later battles over the Supreme Court.\n\n- **Cultural polarization**: The organization intensified the \"culture wars\" by injecting religious rhetoric into national debates, prompting backlash from secular, feminist, and LGBTQ+ groups. This deepened partisan divides along religious lines and elevated evangelical visibility in media and politics.\n\n- **Institutional legacy**: Though the Moral Majority disbanded in 1989 amid scandals and shifting priorities, its model inspired successor organizations (e.g., Christian Coalition) and normalized religious lobbying in Washington.\n\nOverall, it accelerated the fusion of conservative Christianity with Republican politics without achieving most of its core social-policy goals in the short term.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 208,
+  "completion_tokens": 738,
+  "total_tokens": 946,
+  "cost": 0.0019706,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0019706,
+   "upstream_inference_prompt_cost": 0.0001256,
+   "upstream_inference_completions_cost": 0.001845
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 445,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:26.179356+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

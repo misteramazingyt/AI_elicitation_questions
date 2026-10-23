@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**In Dobbs v. Jackson Women's Health Organization (2022), the U.S. Supreme Court held that the Constitution does not confer a right to abortion and overruled Roe v. Wade (1973) and Planned Parenthood v. Casey (1992).**\n\nThe case involved a Mississippi law banning most abortions after 15 weeks of pregnancy. The Court, in a 6-3 decision, upheld the law and returned regulatory authority over abortion to the states.\n\n### Majority Opinion (Justice Alito, joined by Thomas, Gorsuch, Kavanaugh, Barrett; Chief Justice Roberts concurred in the judgment)\n- The majority concluded that the right to abortion is not deeply rooted in the Nation’s history and tradition and is not implicit in the concept of ordered liberty.\n- It rejected the viability framework from Roe and Casey as arbitrary and lacking constitutional basis.\n- The opinion emphasized that the Constitution is silent on abortion, so the issue is properly left to democratic processes in the states.\n- Chief Justice Roberts agreed the Mississippi law should be upheld but would have done so without fully overruling Roe and Casey.\n\n### Concurrences\n- Justices Thomas and Kavanaugh wrote separately, with Thomas urging reconsideration of other substantive due process precedents (such as those involving contraception and same-sex marriage) and Kavanaugh stressing that the decision returns the question to the people and their elected representatives.\n\n### Dissent (Justices Breyer, Sotomayor, and Kagan)\n- The dissent argued that the decision eliminates a long-settled constitutional right, undermines women’s equality and autonomy, and departs from stare decisis without sufficient justification.\n- It warned of broader implications for other privacy and liberty interests grounded in substantive due process.\n\nThe ruling eliminated the federal constitutional floor established by Roe and Casey, allowing states to enact varying abortion regulations, including near-total bans, gestational limits, or protections for access. Subsequent state legislation and litigation have reflected this shift in authority.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 210,
+  "completion_tokens": 796,
+  "total_tokens": 1006,
+  "cost": 0.0021181,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0021181,
+   "upstream_inference_prompt_cost": 0.0001281,
+   "upstream_inference_completions_cost": 0.00199
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 408,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:17.800908+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

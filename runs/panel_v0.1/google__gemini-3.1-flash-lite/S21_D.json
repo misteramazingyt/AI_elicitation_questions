@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "D",
+ "prompt": "Describe the Immigration Act of 1924.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Immigration Act of 1924, also known as the **Johnson-Reed Act**, was a landmark piece of United States federal legislation that fundamentally altered the country’s immigration policy. It established a restrictive quota system that favored immigrants from Northern and Western Europe while severely limiting or excluding those from other parts of the world.\n\nHere is a breakdown of the act’s key components, motivations, and long-term impact.\n\n### 1. The Core Mechanism: National Origins Quotas\nThe primary purpose of the act was to limit the number of immigrants entering the United States. It did this by establishing a quota system based on the \"national origins\" of the U.S. population.\n\n*   **The Formula:** The act set the annual quota for any nationality at 2% of the number of foreign-born persons of that nationality residing in the United States as of the **1890 census**.\n*   **The Strategy:** By choosing the 1890 census rather than a more recent one (like 1910 or 1920), the law intentionally discriminated against groups that had arrived in large numbers after 1890—specifically Southern and Eastern Europeans (such as Italians, Poles, and Russians) and Jews. Because there were very few people from these regions in the U.S. in 1890, their quotas were set extremely low.\n*   **Preference:** Conversely, the law favored immigrants from Northern and Western Europe (such as Great Britain, Ireland, and Germany), as these groups had established large populations in the U.S. by 1890.\n\n### 2. Total Exclusion of Asians\nPerhaps the most controversial and discriminatory aspect of the 1924 Act was the total exclusion of immigrants from Asia.\n*   The act barred \"aliens ineligible for citizenship\" from entering the United States. Since U.S. law at the time restricted naturalized citizenship to \"free white persons\" and \"persons of African descent,\" this clause effectively banned all immigration from Japan, China, and other Asian nations.\n*   This provision deeply offended the Japanese government, which had previously maintained a \"Gentlemen’s Agreement\" with the U.S. to limit emigration. The 1924 Act effectively ended this diplomatic arrangement and created significant tension between the two nations.\n\n### 3. Motivations Behind the Act\nThe act was driven by a combination of social, political, and economic factors prevalent in the post-World War I era:\n*   **Nativism and Xenophobia:** There was a widespread fear that \"new\" immigrants from Southern and Eastern Europe were culturally, politically, and racially inferior to the \"old\" immigrants from Northern Europe.\n*   **Eugenics:** The pseudo-scientific movement of eugenics was influential at the time. Many proponents of the act believed that restricting immigration would \"preserve the racial purity\" of the American population.\n*   **Fear of Radicalism:** Following the Russian Revolution of 1917 and the subsequent \"Red Scare\" in the U.S., many Americans feared that immigrants from Eastern Europe were bringing communist, socialist, or anarchist ideologies that threatened American democracy.\n*   **Economic Protectionism:** Labor unions and other groups argued that an influx of cheap immigrant labor drove down wages for native-born American workers.\n\n### 4. Impact and Legacy\nThe Immigration Act of 1924 had profound and lasting consequences:\n*   **Drastic Reduction in Immigration:** The law succeeded in its goal of curbing immigration. Total immigration to the U.S. plummeted, and the demographic makeup of the country remained largely static for decades.\n*   **Humanitarian Crisis:** During the 1930s, as the Nazi regime rose to power in Germany, the strict quotas prevented thousands of Jewish refugees from fleeing to the United States. Many were turned away and subsequently perished in the Holocaust.\n*   **Shift in Policy:** The quota system remained the cornerstone of U.S. immigration policy for over 40 years. It was not repealed until the **Immigration and Nationality Act of 1965 (the Hart-Celler Act)**, which abolished the national origins quota system in favor of a system based on family reunification and skilled labor.\n\nIn summary, the Immigration Act of 1924 was a manifestation of the isolationist and nativist sentiments of the 1920s. It codified racial and ethnic discrimination into federal law and significantly restricted the diversity of the American population for much of the 20th century.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 11,
+  "completion_tokens": 1081,
+  "total_tokens": 1092,
+  "cost": 0.00162425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00162425,
+   "upstream_inference_prompt_cost": 2.75e-06,
+   "upstream_inference_completions_cost": 0.0016215
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 129,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:48.755069+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

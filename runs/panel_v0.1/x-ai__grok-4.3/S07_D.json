@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "D",
+ "prompt": "Describe the FBI's COINTELPRO program.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**COINTELPRO** (Counter Intelligence Program) was a series of covert and often illegal FBI operations conducted from 1956 to 1971 under Director J. Edgar Hoover. Its stated goal was to \"disrupt, misdirect, discredit, or otherwise neutralize\" domestic political organizations the FBI viewed as threats to national security or social order.\n\n### Origins and Scope\nThe program began in 1956 targeting the Communist Party USA. It later expanded dramatically to include a wide range of groups across the political spectrum:\n- **Civil rights organizations** — including the Southern Christian Leadership Conference (SCLC), Student Nonviolent Coordinating Committee (SNCC), and leaders such as Martin Luther King Jr.\n- **Black nationalist and militant groups** — especially the Black Panther Party and Nation of Islam.\n- **White supremacist groups** — including the Ku Klux Klan (though the FBI’s efforts against the Klan were generally less aggressive than those against left-wing groups).\n- **Anti-war and New Left activists** — Students for a Democratic Society (SDS), the Weather Underground, and various anti-Vietnam War organizations.\n- **Other targets** — Puerto Rican independence groups, American Indian Movement (AIM), and certain feminist and socialist organizations.\n\n### Methods\nCOINTELPRO used a range of tactics, many of which were illegal or extralegal:\n- Infiltration by informants and undercover agents.\n- Wiretapping, bugging, and mail opening without warrants.\n- Spreading disinformation and forging documents to sow internal conflict.\n- Anonymous letters and rumors designed to damage reputations or incite paranoia (e.g., suggesting infidelity or cooperation with authorities).\n- Harassment through false arrests, job firings, and IRS audits.\n- In some cases, incitement of violence between rival groups.\n\nOne of the most notorious examples was the FBI’s campaign against Martin Luther King Jr., which included surveillance, attempts to blackmail him with recordings of alleged extramarital affairs, and efforts to encourage him to commit suicide.\n\n### Exposure and Termination\nThe program was exposed in 1971 when a group calling itself the Citizens’ Commission to Investigate the FBI burglarized an FBI office in Media, Pennsylvania, and leaked thousands of documents to the press. Subsequent investigations, most notably the Senate’s Church Committee (1975–1976), revealed the scope of the abuses.\n\nFacing public outrage and legal scrutiny, the FBI officially ended COINTELPRO in 1971. However, many of its tactics continued under different names or through other investigative programs.\n\n### Legacy\nCOINTELPRO remains one of the most significant examples of domestic political surveillance and repression in U.S. history. It led to major reforms, including the creation of the Foreign Intelligence Surveillance Act (FISA) and stricter guidelines on FBI domestic intelligence activities. The program is frequently cited in discussions of government overreach, civil liberties, and the limits of law enforcement power.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 202,
+  "completion_tokens": 854,
+  "total_tokens": 1056,
+  "cost": 0.0022531,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0022531,
+   "upstream_inference_prompt_cost": 0.0001181,
+   "upstream_inference_completions_cost": 0.002135
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 274,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:05.296054+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

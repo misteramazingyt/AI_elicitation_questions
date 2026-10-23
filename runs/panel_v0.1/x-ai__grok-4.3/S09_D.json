@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 1973 decision in Roe v. Wade.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The Supreme Court’s 1973 decision in Roe v. Wade held that the U.S. Constitution protects a woman’s right to obtain an abortion before fetal viability.**\n\nIn a 7-2 ruling issued on January 22, 1973, the Court struck down Texas and Georgia criminal abortion statutes. Justice Harry Blackmun wrote the majority opinion, joined by Chief Justice Burger and Justices Douglas, Brennan, Stewart, Marshall, and Powell. Justices White and Rehnquist dissented.\n\n### Core holding and framework\n- The Court recognized a constitutional right to privacy under the Due Process Clause of the Fourteenth Amendment that encompasses a woman’s decision whether to terminate a pregnancy.\n- It established a trimester-based regulatory scheme:\n  - First trimester: states could not interfere with the abortion decision, which remained between a woman and her physician.\n  - Second trimester: states could regulate procedures to protect maternal health.\n  - Third trimester (post-viability): states could prohibit abortions except when necessary to preserve the life or health of the mother.\n- The decision invalidated laws that banned nearly all abortions, finding them unduly burdensome on the recognized right.\n\n### Background and immediate effect\nThe case arose from a challenge by a Texas woman (using the pseudonym Jane Roe) to a state law that made abortion a crime except to save the mother’s life. A companion Georgia case addressed more detailed procedural restrictions. The ruling nationalized access standards that had previously varied sharply by state.\n\nThe trimester framework remained controlling precedent until the Court’s 2022 decision in Dobbs v. Jackson Women’s Health Organization, which overturned Roe and returned regulatory authority to the states.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 936,
+  "total_tokens": 1142,
+  "cost": 0.0024631,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0024631,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.00234
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 610,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:11.930931+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

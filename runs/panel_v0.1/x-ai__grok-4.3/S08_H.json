@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "H",
+ "prompt": "How have historians interpreted the IRS's handling of tax-exempt applications from political groups (2010-2013)? Please cite sources.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The IRS's handling of 501(c)(4) tax-exempt applications from 2010–2013 centered on the use of \"Be On the Lookout\" (BOLO) lists that flagged groups with terms such as \"Tea Party,\" \"Patriots,\" \"9/12,\" and \"conservative\" for additional review.** This produced documented delays, requests for donor lists and other intrusive information, and denials or withdrawals in a number of cases. The episode became public in May 2013 after IRS official Lois Lerner’s remarks at an American Bar Association conference and subsequent TIGTA findings.\n\n### Primary Documentary Record\nThe core evidence is the May 2013 Treasury Inspector General for Tax Administration (TIGTA) audit report, “Inappropriate Criteria Were Used to Identify Tax-Exempt Applications for Review.” It confirmed that IRS Exempt Organizations division employees in Cincinnati developed and applied criteria that disproportionately selected conservative-leaning applicants, that the criteria were not approved at higher levels initially, and that processing times were substantially longer for flagged cases. TIGTA found no evidence that the White House directed the selection criteria, but it also documented that management failed to correct the practice promptly once internal complaints arose.\n\nCongressional investigations produced additional records:\n- House Oversight and Government Reform Committee and House Ways and Means Committee reports (2013–2014) compiled emails, internal IRS memos, and testimony showing the BOLO lists persisted into 2012 and that some liberal or progressive groups received scrutiny but far fewer than conservative ones.\n- Senate Finance Committee bipartisan staff report (2015) reached similar conclusions on the mechanics while noting that the underlying problem was the IRS’s vague “social welfare” standard under 501(c)(4), which invited political groups to seek tax-exempt status after the 2010 Citizens United decision.\n\n### Historians’ and Political Analysts’ Interpretations\nBecause the episode is recent, full-length historical monographs remain limited; interpretations appear in broader studies of the Obama presidency, administrative-state growth, and post-2010 polarization.\n\n- Conservative-leaning historians and analysts (e.g., in works by authors such as Kimberley Strassel in *The Intimidation Game*, 2016, and references in books on the Tea Party by Theda Skocpol and Vanessa Williamson) treat the episode as evidence of selective enforcement by career officials aligned with Democratic priorities. They cite the TIGTA data on keyword targeting, the absence of equivalent early scrutiny for “progressive” or “Occupy” groups, and the subsequent loss of Lerner’s emails as indicators of institutional bias rather than mere sloppiness.\n- Mainstream academic and center-left accounts (e.g., chapters in histories of the Obama era by authors such as Julian Zelizer or in Brookings and Urban Institute analyses) emphasize bureaucratic dysfunction and poor management of an ambiguous statute. They note that TIGTA and later DOJ/FBI reviews (2015–2017) did not produce criminal charges against senior officials for political motivation, and they point to the fact that some non-conservative applications were also delayed. These accounts often frame the scandal as an illustration of the IRS’s chronic under-resourcing and the broader difficulty of policing political activity by tax-exempt entities.\n- A narrower institutional-history perspective, reflected in reports from the Administrative Conference of the United States and subsequent IRS reforms, views the episode as accelerating the shift away from 501(c)(4) as a vehicle for political activity and prompting clearer guidance on candidate-related spending.\n\n### Subsequent Developments Cited by Historians\nThe scandal contributed to the 2013–2014 IRS budget cuts, the retirement or departure of several Exempt Organizations officials, and revised procedures that reduced the use of political labels in screening. No senior Obama administration official was found by federal prosecutors to have ordered the targeting, but the episode is routinely referenced in discussions of declining trust in federal agencies and the weaponization of regulatory processes.\n\nPrimary sources remain the 2013 TIGTA report (publicly available on treasury.gov), the House and Senate committee compilations of IRS documents, and the 2015 Senate Finance Committee report. Later scholarly treatments appear in journals such as *Presidential Studies Quarterly* and books covering the administrative state after 2010.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 218,
+  "completion_tokens": 1622,
+  "total_tokens": 1840,
+  "cost": 0.0041931,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0041931,
+   "upstream_inference_prompt_cost": 0.0001381,
+   "upstream_inference_completions_cost": 0.004055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 777,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:10.073095+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

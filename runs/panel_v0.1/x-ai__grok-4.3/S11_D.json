@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "D",
+ "prompt": "Describe the 1969 Stonewall riots.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Stonewall riots were a series of spontaneous demonstrations by members of the LGBTQ+ community that took place in New York City in June 1969. They are widely regarded as a turning point in the modern gay rights movement.\n\n### Background and Trigger\nIn the 1960s, police raids on gay bars were routine in New York due to laws criminalizing homosexuality, cross-dressing, and serving alcohol to gay patrons. The Stonewall Inn, a Mafia-owned gay bar in Greenwich Village, was a popular gathering spot for gay men, lesbians, drag queens, and transgender people, many of whom were marginalized even within the gay community.\n\nOn the night of June 28, 1969, police conducted a raid at the Stonewall Inn. Instead of the usual compliance, patrons and bystanders resisted. The confrontation began when officers attempted to arrest people for violating gender-appropriate clothing laws and other infractions. A lesbian woman (often identified as Stormé DeLarverie) fought back while being escorted to a police van, and the crowd erupted. Bottles, coins, and other objects were thrown at officers. The unrest continued for several nights, with crowds growing to hundreds and clashes involving thrown objects, fires, and police using batons and tear gas.\n\n### Key Events\n- The initial clash occurred around 1:20 a.m. on June 28.\n- The riots peaked over the following days (June 28–July 3), with participants including young gay men, drag queens, transgender individuals, and street youth.\n- Notable figures associated with the events include Marsha P. Johnson and Sylvia Rivera, though accounts of their exact roles vary and some historians note they arrived after the initial outbreak.\n- Police eventually cleared the area, but the incident drew widespread attention.\n\n### Aftermath and Legacy\nThe riots led to the formation of activist groups like the Gay Liberation Front and Gay Activists Alliance. They inspired the first Pride marches on the one-year anniversary in 1970 in New York, Chicago, Los Angeles, and San Francisco. The events shifted the movement from assimilationist approaches toward more confrontational advocacy for gay rights.\n\nToday, the Stonewall Inn is a National Historic Landmark, and the riots are commemorated annually during Pride Month. Historical accounts draw from contemporary news reports, participant testimonies, and later oral histories, though details can differ due to the chaotic nature of the events and varying recollections.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 201,
+  "completion_tokens": 856,
+  "total_tokens": 1057,
+  "cost": 0.00225685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00225685,
+   "upstream_inference_prompt_cost": 0.00011685,
+   "upstream_inference_completions_cost": 0.00214
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 371,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:22.256092+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

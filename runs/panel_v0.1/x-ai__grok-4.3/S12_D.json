@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "D",
+ "prompt": "Describe the rise of the Moral Majority around 1980.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Moral Majority emerged in the late 1970s as a prominent organization within the American Religious Right, mobilizing conservative evangelical Protestants into political activism. Founded in 1979 by Baptist televangelist Jerry Falwell, it sought to counter what its leaders viewed as moral decline in U.S. society and to influence elections and policy on issues like abortion, family structure, school prayer, and opposition to the Equal Rights Amendment.\n\n### Background and Catalysts\nIts rise reflected broader cultural and political shifts. The 1960s and 1970s brought rapid social changes—including the sexual revolution, *Roe v. Wade* (1973), expanding gay rights activism, feminism, and declining church attendance in some denominations—that alarmed many white evangelicals. Earlier efforts, such as those by groups like Christian Voice, had begun organizing Christians politically, but Falwell's initiative gained traction through his national media platform, *The Old-Time Gospel Hour*. Co-founders and allies included figures like Paul Weyrich, who helped frame the group as a vehicle for \"moral\" conservatism aligned with the Republican Party.\n\n### Growth and Strategy Around 1980\nBy 1980, the Moral Majority had rapidly expanded, claiming several million members (though independent estimates were lower) across state chapters. It focused on:\n- **Voter registration drives** targeting evangelicals, many of whom had previously avoided politics.\n- **Issue advocacy** emphasizing opposition to abortion, support for traditional gender roles, anti-pornography measures, and a strong national defense.\n- **Political endorsements**, most notably backing Ronald Reagan in the 1980 presidential election. Falwell portrayed Reagan as a defender of \"family values\" against Jimmy Carter, helping shift white evangelical voters—who had leaned Democratic in prior decades—toward the GOP.\n\nThe group benefited from the broader conservative resurgence, including Reagan's campaign emphasis on social issues alongside economic concerns. It also lobbied for changes in the Republican platform, contributing to the party's increasing alignment with social conservatism.\n\n### Context and Limitations\nWhile influential in 1980—helping Reagan win key states with strong evangelical turnout—the Moral Majority's direct membership and long-term cohesion were often overstated by both supporters and critics. It dissolved in 1989 amid internal shifts and scandals affecting televangelism, but its model influenced later organizations like the Christian Coalition. Historians view its rise as a key example of religion's role in late-20th-century U.S. politics rather than a purely spontaneous grassroots movement.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 204,
+  "completion_tokens": 858,
+  "total_tokens": 1062,
+  "cost": 0.0022656,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0022656,
+   "upstream_inference_prompt_cost": 0.0001206,
+   "upstream_inference_completions_cost": 0.002145
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 358,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:23.598232+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

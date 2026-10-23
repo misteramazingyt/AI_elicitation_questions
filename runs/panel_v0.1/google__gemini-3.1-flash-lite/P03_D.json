@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "D",
+ "prompt": "Describe the discovery of penicillin.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The discovery of penicillin is one of the most famous \"happy accidents\" in the history of science. It transformed medicine, turning once-fatal infections into treatable conditions and ushering in the era of antibiotics.\n\nHere is the story of how it happened.\n\n### The Setting: A Messy Lab\nThe discovery took place in September 1928 at St. Mary’s Hospital in London. The protagonist was **Alexander Fleming**, a Scottish bacteriologist who was known for being brilliant but notoriously untidy.\n\nFleming had been studying *Staphylococci* (a type of bacteria that causes boils, sore throats, and abscesses). Before leaving for a two-week vacation, he had been working with several Petri dishes containing these bacteria. In his haste to leave, he left a stack of these dishes on a bench in the corner of his laboratory rather than placing them in an incubator.\n\n### The \"Happy Accident\"\nWhen Fleming returned on September 3, 1928, he began sorting through the Petri dishes to clean them. He noticed something unusual about one of the dishes: it had become contaminated with a mold.\n\nMost scientists would have simply thrown the contaminated dish away. However, Fleming took a closer look. He noticed that the bacteria immediately surrounding the mold had been destroyed—they were dead. The area around the mold was clear, while the rest of the dish was covered in bacterial growth.\n\nFleming famously remarked, **\"That's funny.\"**\n\n### Identification and Naming\nFleming isolated the mold and grew it in a pure culture. He identified it as belonging to the *Penicillium* genus (specifically *Penicillium notatum*). He discovered that the mold produced a substance that killed a wide range of harmful bacteria, including those that caused scarlet fever, pneumonia, meningitis, and diphtheria.\n\nHe named the substance **\"penicillin\"** after the mold that produced it.\n\n### The Struggle for Development\nWhile Fleming had made a monumental discovery, he faced a significant hurdle: he was a bacteriologist, not a chemist. He found it extremely difficult to isolate and stabilize the active ingredient in the mold juice. Because he couldn't produce it in large, pure quantities, he eventually published his findings in 1929 but largely moved on to other research, believing penicillin would be difficult to use as a systemic treatment.\n\nFor nearly a decade, penicillin remained a laboratory curiosity.\n\n### The Breakthrough: Florey and Chain\nThe true potential of penicillin was not realized until the late 1930s at Oxford University. A team led by Australian pathologist **Howard Florey** and German-born biochemist **Ernst Boris Chain** revisited Fleming’s work.\n\nUsing new biochemical techniques, they successfully purified penicillin. In 1940, they conducted a famous experiment on eight mice infected with lethal doses of streptococci. The four mice treated with penicillin survived; the four untreated mice died.\n\n### Mass Production and World War II\nThe timing of the Oxford team's success coincided with the height of World War II. The need for a way to treat infected wounds on the battlefield was desperate.\n\nBecause the UK was under constant bombardment, Florey and his colleague Norman Heatley traveled to the United States in 1941 to seek help from the U.S. government and pharmaceutical companies. They found a way to mass-produce the drug using deep-tank fermentation (using corn steep liquor as a growth medium).\n\nBy D-Day in 1944, there was enough penicillin to treat all Allied wounded. It is estimated that the drug saved between 12% and 15% of Allied lives during the war.\n\n### The Legacy\nIn 1945, Alexander Fleming, Howard Florey, and Ernst Chain were jointly awarded the **Nobel Prize in Physiology or Medicine**.\n\nFleming remained humble about his role, often warning that the misuse of the drug could lead to bacterial resistance—a prophecy that has become a major concern in modern medicine today. His \"messy lab\" moment remains the definitive example of how observation and curiosity can change the course of human history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 6,
+  "completion_tokens": 986,
+  "total_tokens": 992,
+  "cost": 0.0014805,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014805,
+   "upstream_inference_prompt_cost": 1.5e-06,
+   "upstream_inference_completions_cost": 0.001479
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 129,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:54.612292+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

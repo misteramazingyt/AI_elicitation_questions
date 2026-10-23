@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "D",
+ "prompt": "Describe the 2011 military intervention in Libya.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2011 military intervention in Libya was a multinational campaign authorized by the United Nations and led by NATO to protect civilians during the Libyan Civil War. It resulted in the overthrow of Muammar Gaddafi’s 42-year regime.\n\nHere is a breakdown of the intervention, from its origins to its aftermath.\n\n### 1. Context: The Arab Spring\nIn early 2011, the \"Arab Spring\"—a wave of pro-democracy uprisings across the Middle East and North Africa—reached Libya. Protests against the long-standing authoritarian rule of Muammar Gaddafi began in Benghazi in February 2011.\n\nGaddafi responded with extreme force, deploying the military, tanks, and aircraft against protesters. As the situation escalated into an armed rebellion, Gaddafi vowed to hunt down the rebels \"house by house, room by room,\" raising fears of a massacre in the rebel-held city of Benghazi.\n\n### 2. International Response and UN Resolution\nThe international community, led by the Arab League, the United Kingdom, France, and the United States, grew increasingly concerned about the potential for mass atrocities.\n\nOn March 17, 2011, the United Nations Security Council passed **Resolution 1973**. This resolution authorized member states to take \"all necessary measures\" to protect civilians and civilian-populated areas under threat of attack in Libya. It also established a no-fly zone over the country to prevent Gaddafi’s air force from attacking rebel positions.\n\n### 3. The Military Operation (Operation Unified Protector)\nThe intervention began on March 19, 2011, with initial strikes by French, British, and American forces (Operation Odyssey Dawn) targeting Libyan air defenses and command centers.\n\nShortly thereafter, NATO took command of the operation, which was renamed **Operation Unified Protector**. The mission had three primary objectives:\n*   Enforcing an arms embargo.\n*   Enforcing a no-fly zone.\n*   Protecting civilians and civilian-populated areas from attack.\n\nNATO conducted over 26,000 sorties, including nearly 10,000 strike sorties, which systematically degraded Gaddafi’s military capabilities. This air support proved decisive, allowing rebel forces to regroup, advance, and eventually capture key cities.\n\n### 4. The Fall of Gaddafi\nThroughout the summer of 2011, the rebels, supported by NATO air power, pushed westward. In August, they captured the capital, Tripoli, effectively ending Gaddafi’s control over the country.\n\nGaddafi fled to his hometown of Sirte. On October 20, 2011, rebel forces captured Sirte. Gaddafi was found hiding in a drainage pipe; he was captured and killed by rebel fighters shortly thereafter. With his death, the National Transitional Council (NTC) declared the liberation of Libya.\n\n### 5. Aftermath and Legacy\nThe intervention is viewed as a complex and controversial event in modern history.\n\n*   **Immediate Success:** The intervention succeeded in its primary goal of preventing a large-scale massacre in Benghazi and removing a dictator who had been a source of regional instability for decades.\n*   **Long-term Instability:** The intervention did not include a robust plan for post-conflict stabilization or nation-building. Following Gaddafi’s death, the central government collapsed, and the country fractured into competing militias and rival political factions.\n*   **Regional Consequences:** The power vacuum in Libya led to the proliferation of weapons across the Sahel region, fueling insurgencies in neighboring countries like Mali.\n*   **Debate:** The intervention remains a subject of intense debate in international relations. Supporters argue it was a successful application of the \"Responsibility to Protect\" (R2P) doctrine. Critics argue that it was a case of \"regime change\" that lacked a clear exit strategy, ultimately leaving Libya in a state of prolonged civil war and chaos that persists to this day.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 12,
+  "completion_tokens": 977,
+  "total_tokens": 989,
+  "cost": 0.0014685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0014685,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.0014655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 139,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:45.258429+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

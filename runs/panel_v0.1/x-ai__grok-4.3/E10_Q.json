@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The UK miners' strike of 1984–85, led by the National Union of Mineworkers (NUM) under Arthur Scargill against the National Coal Board and Margaret Thatcher's Conservative government, ended in defeat for the strikers after nearly a year. Its consequences were far-reaching across economic, political, social, and industrial spheres.\n\n### Immediate Outcomes\n- The strike collapsed in March 1985 without achieving its goals of halting pit closures or securing a national agreement. Miners returned to work on the Coal Board's terms, with no amnesty for those dismissed during the dispute.\n- The NUM was left financially crippled by fines, sequestration of assets, and lost wages, severely weakening its bargaining power.\n\n### Economic and Industrial Consequences\n- Accelerated the decline of the British coal industry. Dozens of pits closed in the following years; by the early 1990s, the industry had been privatized, and deep-coal mining in the UK largely ended. Coal production fell sharply as the country shifted to cheaper imports, North Sea gas, nuclear power, and later renewables.\n- Reduced union influence in heavy industry. The defeat contributed to a broader contraction in manufacturing and mining employment, with long-term unemployment in former coalfield areas.\n\n### Political Consequences\n- Bolstered Thatcher's government and her agenda of curbing trade union power. It was portrayed as a decisive victory over \"militant\" unions, following earlier confrontations like the 1981 steel strike. Subsequent legislation further restricted union activities (e.g., requirements for secret ballots).\n- Weakened the Labour Party's ties to organized labor in the short term and contributed to internal divisions. The strike highlighted splits between moderate and hardline union factions.\n- Changed policing and public order approaches, with large-scale police operations (notably at Orgreave) setting precedents for handling industrial disputes.\n\n### Social Consequences\n- Severe hardship in mining communities, including widespread poverty, debt, and family breakdowns due to lost income. Many areas experienced long-term economic deprivation, higher rates of ill health, and social problems that persisted for decades.\n- Deep divisions within communities and families, with some miners (known as \"scabs\") continuing to work, leading to lasting bitterness.\n- Cultural legacy: The strike inspired books, films, and songs (e.g., *Billy Elliot*), and remains a symbol of class conflict in British history. It also prompted later inquiries into policing tactics and the treatment of strikers.\n\nOverall, the strike marked a turning point in postwar British industrial relations, shifting power decisively toward employers and the state while hastening deindustrialization in traditional working-class regions.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 210,
+  "completion_tokens": 951,
+  "total_tokens": 1161,
+  "cost": 0.0025056,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0025056,
+   "upstream_inference_prompt_cost": 0.0001281,
+   "upstream_inference_completions_cost": 0.0023775
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 423,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:25.175834+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

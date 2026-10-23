@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2003 U.S.-led invasion of Iraq?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2003 U.S.-led invasion of Iraq was a watershed event in 21st-century geopolitics. Its consequences were profound, multifaceted, and continue to shape the Middle East and global international relations today.\n\nThe impacts can be categorized into political, security, humanitarian, and geopolitical spheres.\n\n### 1. Political Consequences\n*   **Collapse of the Ba'athist Regime:** The invasion successfully ended the decades-long dictatorship of Saddam Hussein. This removed a brutal regime responsible for numerous human rights abuses, including the use of chemical weapons against Kurds and the suppression of the 1991 uprisings.\n*   **De-Ba'athification and Institutional Collapse:** The Coalition Provisional Authority (CPA) implemented \"de-Ba'athification,\" which purged members of Saddam’s party from government, military, and educational institutions. This effectively dismantled the Iraqi state apparatus, leaving a power vacuum and creating a large class of unemployed, armed, and resentful former soldiers who would later form the backbone of the insurgency.\n*   **Sectarian Governance:** The new political system, based on the *Muhasasa* (sectarian quota) system, institutionalized power-sharing along ethnic and religious lines (Shia, Sunni, and Kurd). While intended to ensure representation, it entrenched sectarian divisions, fueled corruption, and made the government prone to gridlock and patronage politics.\n\n### 2. Security and Stability\n*   **The Insurgency and Civil War:** The invasion triggered a protracted and bloody insurgency. The initial resistance against U.S. forces evolved into a brutal sectarian civil war (peaking between 2006 and 2008) between Sunni and Shia militias, which devastated Iraqi society.\n*   **Rise of Extremist Groups:** The chaos created fertile ground for extremist organizations. Al-Qaeda in Iraq (AQI) emerged during the occupation. Following the U.S. withdrawal in 2011 and the subsequent instability, AQI evolved into the Islamic State (ISIS), which seized large swaths of Iraq and Syria in 2014, necessitating a massive international military intervention to defeat.\n*   **Regional Instability:** The removal of Saddam Hussein—a Sunni Arab leader who acted as a strategic counterweight to Iran—fundamentally shifted the regional balance of power. It significantly increased Iranian influence in Iraq, as Shia-led political parties with historical ties to Tehran rose to power.\n\n### 3. Humanitarian Impact\n*   **Casualties:** The human cost was staggering. Estimates of the number of Iraqis killed vary widely due to the difficulty of tracking deaths during the conflict, but most credible studies place the number in the hundreds of thousands (ranging from 200,000 to over 600,000, depending on the methodology). Thousands of U.S. and coalition troops were also killed or wounded.\n*   **Displacement:** The conflict caused one of the largest displacement crises in the world. Millions of Iraqis were internally displaced or fled the country as refugees, particularly during the height of the sectarian violence and the later rise of ISIS.\n*   **Infrastructure and Services:** The war destroyed much of Iraq’s infrastructure, including power grids, water treatment facilities, and hospitals. Even years later, Iraq has struggled to provide consistent basic services to its population.\n\n### 4. Geopolitical and Global Consequences\n*   **Erosion of U.S. Credibility:** The invasion was predicated on intelligence reports claiming Saddam Hussein possessed Weapons of Mass Destruction (WMDs). When no WMDs were found, the justification for the war was severely undermined. This damaged the international reputation of the United States, strained relationships with key allies (such as France and Germany), and fueled global anti-American sentiment.\n*   **The \"Iraq Syndrome\":** The long, costly, and inconclusive nature of the war led to a significant shift in American public opinion and foreign policy. It created a deep reluctance in the U.S. to engage in \"nation-building\" or large-scale military interventions, a sentiment that influenced U.S. policy toward the Syrian Civil War and other conflicts in the following decade.\n*   **Shift in Global Order:** The war distracted the U.S. from the war in Afghanistan and the rise of other global powers. Many analysts argue that the focus on Iraq allowed China to accelerate its economic growth and influence, and allowed Russia to reassert itself in its \"near abroad\" with less fear of U.S. intervention.\n\n### Summary\nThe 2003 invasion achieved its primary tactical goal—the removal of Saddam Hussein—but failed to achieve its broader strategic goals of establishing a stable, democratic, and pro-Western Iraq. Instead, it unleashed forces that destabilized the country for decades, empowered regional rivals like Iran, and fundamentally altered the trajectory of U.S. foreign policy for the 21st century.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 1153,
+  "total_tokens": 1173,
+  "cost": 0.0017345,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017345,
+   "upstream_inference_prompt_cost": 5e-06,
+   "upstream_inference_completions_cost": 0.0017295
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 129,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:45.093944+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

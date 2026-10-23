@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1883 eruption of Krakatoa?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 1883 eruption of Krakatoa (often spelled Krakatau) was one of the deadliest and most destructive volcanic events in recorded history. Its consequences were felt globally, ranging from immediate, catastrophic loss of life to long-term climatic shifts.\n\nHere are the primary consequences of the eruption, categorized by their impact:\n\n### 1. Immediate Human and Environmental Toll\n*   **Massive Loss of Life:** The eruption killed more than 36,000 people. The vast majority of these deaths were not caused by the eruption itself, but by the massive tsunamis that followed the collapse of the volcano into the sea.\n*   **Destruction of Settlements:** Entire coastal towns and villages along the Sunda Strait (in present-day Indonesia) were wiped off the map. The tsunamis reached heights of up to 120 feet (37 meters) in some areas, sweeping away everything in their path.\n*   **Total Devastation of the Island:** The eruption was so violent that it effectively destroyed the island of Krakatoa itself. Two-thirds of the island was obliterated, leaving only a small remnant and creating a massive underwater caldera.\n\n### 2. Atmospheric and Climatic Effects\n*   **Global Cooling:** The eruption ejected an enormous volume of ash and sulfur dioxide into the stratosphere. This created a veil of aerosols that reflected sunlight away from the Earth. As a result, global temperatures dropped by an average of 1.2°C (2.2°F) in the year following the eruption. Weather patterns remained chaotic for years, and temperatures did not return to normal until 1888.\n*   **Spectacular Sunsets:** The volcanic dust in the atmosphere caused vivid, long-lasting, and unusual sunsets around the world for several years. These brilliant red and orange skies were so striking that they were captured in paintings and literature of the time (some art historians believe the sky in Edvard Munch’s *The Scream* was inspired by the lingering effects of the Krakatoa sunsets).\n*   **The \"Sound Heard 'Round the World\":** The final explosion on August 27, 1883, was so loud that it ruptured the eardrums of sailors 40 miles away. It is considered the loudest sound in recorded history, audible up to 3,000 miles (4,800 km) away—roughly the distance from New York to San Francisco.\n\n### 3. Scientific and Technological Milestones\n*   **Global Pressure Waves:** The eruption generated shockwaves that traveled around the globe seven times. These were recorded by barographs (pressure-measuring instruments) worldwide, marking the first time in history that a global event was tracked in real-time by a worldwide network of scientific instruments.\n*   **Birth of Modern Volcanology:** The eruption was the first major global catastrophe to be reported via the newly established international telegraph network. This allowed the world to follow the disaster as it unfolded, creating a global \"media event.\" The massive amount of data collected from the eruption helped scientists better understand volcanic processes, atmospheric circulation, and tsunami mechanics.\n\n### 4. Geopolitical and Social Consequences\n*   **Rise of Islamic Resistance:** In the Dutch East Indies (modern-day Indonesia), the devastation was interpreted by many local populations as a divine sign of the end times or a judgment against Dutch colonial rule. This religious fervor contributed to an increase in anti-colonial sentiment and uprisings in the region, particularly in Banten, in the years following the eruption.\n*   **Advancement in Tsunami Warning Systems:** The sheer scale of the destruction highlighted the need for better understanding and monitoring of tsunamis, eventually leading to the development of early warning systems, though these would not be fully realized for many decades.\n\n### Summary\nThe 1883 eruption of Krakatoa was a watershed moment. It was a **local tragedy** that decimated coastal communities, a **global climatic event** that altered the weather for years, and a **scientific milestone** that demonstrated the interconnectedness of the planet through atmospheric and telegraphic communication.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 17,
+  "completion_tokens": 981,
+  "total_tokens": 998,
+  "cost": 0.00147575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00147575,
+   "upstream_inference_prompt_cost": 4.25e-06,
+   "upstream_inference_completions_cost": 0.0014715
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 126,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:53.836025+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

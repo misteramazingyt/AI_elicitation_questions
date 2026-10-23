@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "D",
+ "prompt": "Describe the Immigration and Nationality Act of 1965.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Immigration and Nationality Act of 1965, often referred to as the **Hart-Celler Act**, is one of the most significant pieces of legislation in American history. It fundamentally transformed the demographic makeup of the United States by abolishing the discriminatory national-origins quota system that had governed U.S. immigration policy for decades.\n\nHere is a breakdown of the Act, its context, and its lasting impact.\n\n### 1. Historical Context: The Old System\nBefore 1965, U.S. immigration policy was dominated by the **Immigration Act of 1924 (the Johnson-Reed Act)**. This system used a \"national-origins quota\" that heavily favored immigrants from Northern and Western Europe (specifically Great Britain, Ireland, and Germany) while severely restricting or outright banning immigrants from Asia, Africa, and Southern/Eastern Europe.\n\nBy the 1960s, this system was increasingly viewed as an embarrassment, particularly during the Cold War. The U.S. was trying to position itself as a champion of democracy and equality, yet its immigration laws were explicitly based on racial and ethnic preferences.\n\n### 2. Key Provisions of the 1965 Act\nSponsored by Representative Emanuel Celler and Senator Philip Hart, and signed into law by President Lyndon B. Johnson at the foot of the Statue of Liberty, the Act introduced several major changes:\n\n*   **Abolition of National-Origins Quotas:** The Act eliminated the discriminatory quota system that had prioritized European immigrants.\n*   **Preference System:** It established a new system based on two primary pillars:\n    *   **Family Reunification:** The majority of visas were reserved for people who already had family members living in the United States. This was intended to keep families together.\n    *   **Skilled Labor:** A smaller portion of visas was allocated to professionals, scientists, artists, and other skilled workers whose talents were deemed beneficial to the U.S. economy.\n*   **Numerical Caps:** While it removed the *national* quotas, it did impose the first-ever numerical limits on immigration from the Western Hemisphere (the Americas), which had previously been exempt from quotas. It also set a global cap on immigration from the Eastern Hemisphere.\n\n### 3. Unintended Consequences\nWhen the bill was debated in Congress, many supporters—including President Johnson—did not anticipate the massive demographic shift that would follow.\n\n*   **Expectations vs. Reality:** Many lawmakers believed that because the new system prioritized family reunification, the flow of immigrants would continue to come primarily from Europe, as those were the populations with the most established family networks in the U.S. at the time.\n*   **The Shift:** Instead, the Act opened the door for large-scale immigration from Asia, Latin America, and Africa. Because the law prioritized family ties, it created a \"chain migration\" effect: once the first wave of immigrants from these regions arrived, they were able to sponsor their relatives, leading to sustained and growing immigration from non-European countries.\n\n### 4. The Impact\nThe Hart-Celler Act is widely credited with creating the modern, multicultural United States. Its impacts include:\n\n*   **Demographic Transformation:** The U.S. population became significantly more diverse. The percentage of the foreign-born population in the U.S. rose dramatically, and the racial and ethnic composition of the country shifted away from a predominantly white, European-descended population.\n*   **Economic Growth:** The focus on skilled labor helped the U.S. maintain a competitive edge in technology, medicine, and engineering by attracting talent from around the world.\n*   **Cultural Enrichment:** The influx of immigrants from diverse backgrounds fundamentally changed American culture, influencing everything from food and music to language and religious practices.\n*   **Political Debate:** The Act also set the stage for modern debates regarding immigration. Because the law created a system that prioritized family reunification over economic needs, and because it imposed caps that have led to massive backlogs, it remains a central point of contention in contemporary American politics.\n\n### Summary\nThe Immigration and Nationality Act of 1965 was a watershed moment that signaled the end of the \"nativist\" era of American immigration policy. By replacing racial and ethnic quotas with a system based on family ties and professional skills, it fundamentally altered the trajectory of the American population, making the country the diverse, globalized nation it is today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 13,
+  "completion_tokens": 1060,
+  "total_tokens": 1073,
+  "cost": 0.00159325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00159325,
+   "upstream_inference_prompt_cost": 3.25e-06,
+   "upstream_inference_completions_cost": 0.00159
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 139,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:49.571709+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

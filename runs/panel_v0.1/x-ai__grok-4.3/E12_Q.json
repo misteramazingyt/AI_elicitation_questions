@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "Q",
+ "prompt": "What were the consequences of Argentina's 2001 economic crisis?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**Argentina's 2001 economic crisis** (often called the \"Argentinazo\") was one of the most severe in the country's modern history. It stemmed from the collapse of the Convertibility Plan (the fixed 1:1 peso-to-dollar peg), a massive sovereign debt default, and a banking freeze. The consequences were profound across economic, political, and social dimensions.\n\n### Economic Consequences\n- **Sharp contraction and recession**: GDP fell by roughly 11% in 2002 (following a multi-year downturn). Industrial production and investment collapsed.\n- **Debt default**: Argentina defaulted on approximately $100 billion in external debt—the largest sovereign default at the time. This led to years of contentious restructuring, legal battles with holdout creditors (\"vulture funds\"), and exclusion from international capital markets.\n- **Currency devaluation and inflation**: The peso was devalued by about 70% after abandoning the peg. This triggered a brief period of high inflation (peaking near 40% annualized in 2002) before stabilizing somewhat, but it eroded savings and purchasing power.\n- **Banking crisis (\"Corralito\")**: Withdrawal limits and account freezes triggered a run on banks. Many depositors lost significant value when accounts were converted to pesos at unfavorable rates.\n- **Unemployment and poverty spike**: Unemployment exceeded 20–25% at its peak. Poverty rates surged from around 30% to over 50% (with extreme poverty/indigence doubling). Inequality widened sharply.\n- **Trade and recovery dynamics**: The devaluation boosted exports (especially agriculture), aiding a strong rebound from 2003 onward, fueled by high commodity prices. However, the crisis left lasting scars, including repeated debt issues and credibility problems with investors.\n\n### Political Consequences\n- **Government collapse**: President Fernando de la Rúa resigned on December 20, 2001, amid widespread protests. Five presidents served in less than two weeks, creating extreme instability.\n- **Shift in policy and leadership**: Interim President Eduardo Duhalde ended convertibility and devalued the currency. Néstor Kirchner's 2003 election marked a turn toward more interventionist, left-leaning policies (price controls, nationalizations, debt renegotiation).\n- **Erosion of trust**: The crisis severely damaged public confidence in institutions, the political class, and neoliberal reforms, fueling populist movements and recurring cycles of economic nationalism.\n\n### Social Consequences\n- **Widespread unrest**: Massive protests (\"cacerolazos\"—pot-banging demonstrations), riots, looting, and road blockades by unemployed workers (\"piqueteros\"). At least 30–40 people died in the December 2001 violence.\n- **Social hardship**: Increased homelessness, malnutrition, and reliance on barter clubs and soup kitchens. Middle-class savings were wiped out, leading to emigration (\"brain drain\") among professionals.\n- **Long-term effects**: Heightened inequality and social fragmentation persisted for years. The crisis accelerated the rise of social movements and influenced later policies on welfare and redistribution.\n\n### Longer-Term Legacy\nWhile Argentina experienced strong growth from 2003–2011, the crisis contributed to a pattern of boom-bust cycles, high inflation volatility, and difficulty accessing credit. It remains a cautionary example of the risks of rigid currency pegs, unsustainable debt, and sudden stops in capital flows. Recovery was uneven and left structural weaknesses that resurfaced in later crises (e.g., 2018–2019).\n\nThese outcomes are well-documented in economic histories and reports from institutions like the IMF, World Bank, and Argentine government statistics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 205,
+  "completion_tokens": 1136,
+  "total_tokens": 1341,
+  "cost": 0.00296185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00296185,
+   "upstream_inference_prompt_cost": 0.00012185,
+   "upstream_inference_completions_cost": 0.00284
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 420,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:30.260681+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

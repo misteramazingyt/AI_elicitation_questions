@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "D",
+ "prompt": "Describe the Republican Party's \"Southern strategy\".",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Republican Party's \"Southern Strategy\" refers to a political realignment effort beginning in the mid-1960s, in which Republican candidates and strategists sought to win support from white voters in the Southern United States. These voters had long formed the core of the Democratic \"Solid South,\" rooted in post-Civil War alignments. The shift accelerated after the Democratic Party's national leadership backed the Civil Rights Act of 1964 and Voting Rights Act of 1965 under President Lyndon Johnson.\n\n### Core Elements\n- **Demographic targeting**: Republicans focused on white Southerners alienated by federal civil rights enforcement, school desegregation, busing, and later affirmative action. The approach emphasized states' rights, opposition to perceived federal overreach, \"law and order,\" and resistance to rapid social change.\n- **Coded messaging**: Direct racial appeals were largely avoided after the 1960s. Instead, campaigns highlighted issues like crime, welfare policy, and local control that correlated with racial attitudes in polling data from the era. Journalist and strategist Kevin Phillips outlined this in his 1969 book *The Emerging Republican Majority*, arguing that Republicans could build a durable majority by combining Northern suburbs with Southern and Western conservatives.\n- **Key figures and campaigns**:\n  - Barry Goldwater's 1964 presidential run opposed the Civil Rights Act on constitutional grounds (states' rights), carrying five Deep South states despite losing nationally.\n  - Richard Nixon's 1968 and 1972 campaigns expanded the approach, with aides like Harry Dent and later Lee Atwater coordinating outreach. Strom Thurmond, a former segregationist Democrat, switched to the GOP in 1964 and influenced Southern recruitment.\n  - Later examples include Ronald Reagan's 1980 campaign stops and rhetoric on welfare and states' rights, and George H.W. Bush's 1988 use of the Willie Horton ad.\n\n### Electoral Results\nWhite Southern voters moved steadily Republican. In presidential elections, the South shifted from Democratic dominance pre-1964 to consistent Republican majorities by the 1980s–1990s. Congressional and state-level changes followed more gradually, completing around the 1990s. By the 2000s, the South formed the Republican Party's strongest regional base.\n\n### Interpretations and Debates\n- **Mainstream historical view**: Many political scientists and historians describe the strategy as a deliberate pivot that exploited racial grievances through indirect language after explicit segregation became politically toxic. Data from surveys (e.g., American National Election Studies) showed correlations between racial attitudes and partisan switching among white Southerners.\n- **Counterarguments**: Critics of the racial framing note that earlier Republicans (Lincoln, Eisenhower, many Northern GOP members) supported civil rights measures, while prominent segregationists like Robert Byrd and George Wallace remained Democrats for decades. They argue the realignment also reflected economic growth in the South, anti-union sentiment, cultural conservatism, national security, and backlash against Great Society programs broadly—not race alone. Some point to Atwater's 1981 interview comments as overstated or taken out of context by opponents. Demographic and issue-based sorting occurred nationwide, not just in the South.\n\nThe term itself originated in contemporary reporting and was later popularized in academic and media accounts. Both parties underwent ideological sorting on race, federal power, and economics during this period, with Democrats consolidating urban and minority voters while Republicans gained rural and suburban white voters across regions. Primary sources include campaign records, Phillips' analysis, and voting data from the era.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 201,
+  "completion_tokens": 1248,
+  "total_tokens": 1449,
+  "cost": 0.00323685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00323685,
+   "upstream_inference_prompt_cost": 0.00011685,
+   "upstream_inference_completions_cost": 0.00312
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 551,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:47.435038+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

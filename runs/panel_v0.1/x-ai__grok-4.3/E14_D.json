@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "D",
+ "prompt": "Describe the War on Poverty and Great Society programs of the 1960s.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The War on Poverty and Great Society were major domestic policy initiatives launched by President Lyndon B. Johnson in the mid-1960s, building on the New Deal tradition to address poverty, inequality, education, health, and civil rights amid postwar economic growth and persistent social problems.\n\n### War on Poverty\nJohnson declared the \"War on Poverty\" in his January 1964 State of the Union address, citing data showing roughly 19% of Americans lived below the poverty line. The effort focused on expanding economic opportunity through federal intervention rather than direct cash transfers alone.\n\nKey legislation and agencies included:\n- The Economic Opportunity Act of 1964, which created the Office of Economic Opportunity (OEO) to coordinate anti-poverty efforts.\n- Programs such as Job Corps (job training for youth), VISTA (domestic volunteer service similar to the Peace Corps), Head Start (early childhood education for low-income children), and Community Action Programs (local grants for community-led initiatives).\n- Related measures like the Food Stamp Act of 1964 and expansions of public assistance.\n\nThe approach emphasized \"maximum feasible participation\" by the poor in program design, though implementation varied by locality and faced administrative challenges.\n\n### Great Society\nJohnson outlined the broader Great Society vision in a May 1964 speech at the University of Michigan, framing it as an effort to improve quality of life across multiple domains. It incorporated the War on Poverty as one element while adding legislation on education, healthcare, civil rights, urban development, and the environment.\n\nMajor components included:\n- Education: Elementary and Secondary Education Act (1965) for federal aid to schools serving low-income students; Higher Education Act for student loans and grants.\n- Healthcare: Medicare (health insurance for the elderly) and Medicaid (for low-income individuals) under the Social Security Amendments of 1965.\n- Civil rights: Civil Rights Act of 1964 (banning discrimination in public accommodations and employment) and Voting Rights Act of 1965 (protecting minority voting access).\n- Housing and urban affairs: Creation of the Department of Housing and Urban Development (1965) and Model Cities program.\n- Environment and culture: Clean Air Act amendments, Wilderness Act, National Endowment for the Arts and Humanities, and public broadcasting legislation.\n\nThese programs dramatically increased federal spending and regulatory reach, with poverty rates declining from about 19% in 1964 to around 11% by 1973 according to official measures.\n\n### Context and Implementation\nBoth initiatives responded to books like Michael Harrington's *The Other America* (1962) and civil rights activism. They passed during a period of Democratic congressional majorities and Johnson's legislative skill following Kennedy's assassination. Funding came through new taxes and reallocations, though the Vietnam War later competed for resources. Outcomes included measurable gains in school access, health coverage, and minority political participation, alongside debates over program efficiency and long-term effects on welfare dependency.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 208,
+  "completion_tokens": 1067,
+  "total_tokens": 1275,
+  "cost": 0.0027931,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0027931,
+   "upstream_inference_prompt_cost": 0.0001256,
+   "upstream_inference_completions_cost": 0.0026675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 485,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:40.308211+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

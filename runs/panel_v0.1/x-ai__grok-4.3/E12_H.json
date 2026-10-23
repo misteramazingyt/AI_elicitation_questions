@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "H",
+ "prompt": "How have historians interpreted Argentina's 2001 economic crisis? Please cite sources.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**Historians have interpreted Argentina's 2001 economic crisis**—marked by the collapse of the convertibility regime (peso-dollar peg), sovereign default, banking freeze (\"corralito\"), GDP contraction of ~11%, unemployment above 20%, and widespread protests leading to President Fernando de la Rúa's resignation—as a pivotal rupture in Argentina's long-term cycles of boom-bust instability, rather than an isolated event.\n\n### Core Interpretations\nHistorians generally frame the crisis through several overlapping lenses:\n\n- **Failure of neoliberal policies and the convertibility regime**: Many view the 1990s reforms under Carlos Menem and Domingo Cavallo (privatizations, deregulation, fixed exchange rate) as unsustainable, producing overvalued currency, external vulnerability, and fiscal rigidities. The 1997–1999 emerging-market shocks exposed these flaws. Historians link this to the broader exhaustion of the Washington Consensus in Latin America.\n\n- **Structural and institutional weaknesses**: Emphasis on Argentina's historical patterns of weak fiscal discipline, elite capture, and repeated debt cycles dating back to the 19th century or Peronist-era populism. The crisis is seen as repeating 19th–20th century defaults rather than a purely 1990s phenomenon.\n\n- **Social and political dimensions**: Focus on the rise of grassroots movements (piqueteros, asambleas barriales) and the slogan \"¡Que se vayan todos!\" as evidence of a legitimacy crisis in representative institutions. Some interpret it as a turning point toward more heterodox or left-leaning policies under Néstor Kirchner.\n\n- **External vs. domestic responsibility**: Debates over IMF and international creditor roles versus Argentine policy choices. Critics argue IMF insistence on austerity deepened the recession; others stress domestic corruption and policy errors.\n\nThese views often draw on dependency theory, institutional economics, or social history approaches, with left-leaning scholars stressing class and global finance while others highlight governance failures.\n\n### Key Sources\n- **Mario Rapoport** (with collaborators): *Historia económica, política y social de la Argentina* (various editions, e.g., 2000s–2010s). Positions the crisis within long-run Argentine economic cycles, critiquing convertibility as a repeat of earlier rigid monetary experiments.\n- **Eduardo Basualdo**: Works such as *Estudios de historia económica argentina* (2000s). Analyzes the crisis through debt dynamics, privatization outcomes, and concentration of economic power.\n- **Paul Blustein**: *And the Money Went Up the Chimney* (or related reporting in *The Chastening*, 2005). Documents IMF–Argentine interactions with archival detail, highlighting policy missteps on both sides.\n- **Joseph E. Stiglitz**: *Globalization and Its Discontents* (2002). Critiques IMF orthodoxy in Argentina as exacerbating the downturn; widely cited in historical reassessments.\n- **Colin M. MacLachlan**: *Argentina: What Went Wrong* (2006). Examines institutional decay and policy choices from a historical perspective.\n- Journal articles: Pieces in *Latin American Research Review* or *Desarrollo Económico* (e.g., analyses by Noemí Brenta or others on fiscal history) often stress the social protest dimension and the shift away from neoliberalism post-2001.\n\nInterpretations continue to evolve with declassified documents and distance from the events; recent scholarship increasingly integrates the crisis into global financial history while noting Argentina's subsequent recovery via commodity exports and debt restructuring. For primary sources, consult IMF archives, Argentine Central Bank reports, and contemporary accounts from *Página/12* or *Clarín*.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 208,
+  "completion_tokens": 1576,
+  "total_tokens": 1784,
+  "cost": 0.0040656,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0040656,
+   "upstream_inference_prompt_cost": 0.0001256,
+   "upstream_inference_completions_cost": 0.00394
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 840,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:31.120944+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "D",
+ "prompt": "Describe the famine in Soviet Ukraine in 1932-1933.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The Holodomor (1932–1933)** was a catastrophic, man-made famine in Soviet Ukraine that killed an estimated 3.5–5 million people (with some demographic studies suggesting up to 7 million when including related excess deaths). The term, meaning “death by hunger,” refers to the deliberate starvation of the Ukrainian peasantry and population through Soviet policies.\n\n### Background and Causes\nIn the late 1920s–early 1930s, Joseph Stalin pursued rapid industrialization and agricultural collectivization. Ukraine, the Soviet Union’s breadbasket, resisted these measures due to its strong peasant farming traditions and national identity. Key policies that triggered the famine included:\n\n- **Forced collectivization**: Private farms were seized and merged into state-controlled collective farms (kolkhozes). Resistance led to dekulakization—arrests, deportations, or executions of wealthier peasants labeled “kulaks.”\n- **Grain procurement quotas**: Unrealistically high targets were imposed. When unmet, authorities confiscated not only grain but seed stocks, livestock, and household food. Blacklists targeted villages that failed to meet quotas, cutting off all supplies.\n- **Border and movement controls**: In late 1932–early 1933, internal passports were introduced, and Ukrainian peasants were barred from leaving the republic. This trapped people in famine zones.\n- **Requisition brigades and repression**: Armed squads seized remaining food; those hiding grain faced arrest or execution. Aid was withheld, and some reports document the destruction of food supplies.\n\nThese measures were applied more harshly in Ukraine than in many other regions, coinciding with a broader crackdown on Ukrainian cultural and political autonomy (the “Executed Renaissance” period).\n\n### Scale and Conditions\nBy winter 1932–spring 1933, rural Ukraine experienced mass starvation. Eyewitness accounts describe villages where entire families died, cannibalism occurred in extreme cases, and bodies were left unburied. Urban areas were less affected due to rationing, but overall mortality was highest in grain-producing oblasts like Kharkiv, Kyiv, and Vinnytsia. The famine peaked in spring 1933; mortality rates reached hundreds of thousands per month.\n\nThe Soviet government denied the famine’s existence, exported grain abroad, and continued procurement even as people starved. Foreign journalists were restricted, though some (e.g., Gareth Jones) reported it.\n\n### Recognition and Interpretation\nHistorians widely agree the famine resulted from deliberate Soviet policies rather than natural causes alone. Ukraine and over 30 countries officially recognize it as **genocide**—an intentional targeting of Ukrainians to crush resistance to collectivization and national aspirations. Russia and some scholars frame it as part of a broader Soviet famine (affecting Kazakhstan and Russia too) driven by mismanagement, though evidence of targeted measures in Ukraine supports the genocide classification for many.\n\nThe event remained taboo in the USSR until the late 1980s. Today it is commemorated in Ukraine on the fourth Saturday of November.\n\nThis was one of the deadliest episodes of 20th-century European history, driven by totalitarian control over food and population.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 1014,
+  "total_tokens": 1220,
+  "cost": 0.0026581,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0026581,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.002535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 388,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:57.859136+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

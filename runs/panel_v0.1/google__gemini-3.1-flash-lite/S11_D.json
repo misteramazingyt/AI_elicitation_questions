@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "D",
+ "prompt": "Describe the 1969 Stonewall riots.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Stonewall riots, which began in the early morning hours of June 28, 1969, are widely considered the single most important event leading to the modern gay liberation movement and the fight for LGBTQ+ rights in the United States.\n\nHere is a breakdown of the events, the context, and their lasting significance.\n\n### The Context: A Hostile Environment\nIn the 1960s, homosexuality was still criminalized in almost every U.S. state. LGBTQ+ individuals faced systemic discrimination, including the loss of jobs, housing, and custody of their children. Police raids on gay bars were common, often resulting in arrests, public shaming (sometimes involving the publication of names in newspapers), and physical violence.\n\nThe Stonewall Inn, located on Christopher Street in New York City’s Greenwich Village, was a popular, mafia-run bar that catered to a diverse crowd, including drag queens, transgender people, effeminate young men, butch lesbians, homeless youth, and sex workers—many of whom were people of color. Because it was one of the few places where these marginalized groups could gather, it became a sanctuary.\n\n### The Night of the Raid\nOn June 28, 1969, police raided the Stonewall Inn. While raids were routine, this one unfolded differently. As police began arresting employees and patrons, the crowd outside—which usually dispersed or watched quietly—began to grow restless.\n\nWhen police attempted to force a butch lesbian (often identified as Stormé DeLarverie) into a patrol wagon, she fought back, shouting to the onlookers, \"Why don't you guys do something?\" This sparked a shift in the crowd's mood. People began throwing coins, bottles, and bricks at the police. The officers, overwhelmed and outnumbered, retreated inside the bar and barricaded themselves in.\n\nThe riot continued for several hours, with the crowd attempting to set the bar on fire and chanting slogans like \"Gay Power!\" and \"We Shall Overcome.\"\n\n### The Following Days\nThe unrest did not end that night. For the next five nights, protests and demonstrations continued in the streets of Greenwich Village. While the initial riot was spontaneous and chaotic, it quickly became organized. Activists began distributing leaflets, and the energy shifted from a defensive reaction to a proactive demand for rights.\n\n### Key Figures\nWhile the riots were a collective uprising, several individuals are often cited for their leadership and bravery during the events:\n*   **Marsha P. Johnson:** A Black transgender woman and activist who was a prominent figure in the uprising.\n*   **Sylvia Rivera:** A Latina transgender activist who was also a key participant and later a fierce advocate for trans rights.\n*   **Stormé DeLarverie:** A butch lesbian whose resistance is often credited as the catalyst for the crowd's reaction.\n\n### The Legacy and Significance\nThe Stonewall riots did not immediately change laws, but they fundamentally changed the psychology of the LGBTQ+ community. Before Stonewall, the prevailing strategy of gay rights organizations (like the Mattachine Society) was to assimilate and prove that gay people were \"just like everyone else.\"\n\nAfter Stonewall, the movement shifted toward **Gay Liberation**. It became more radical, more visible, and more confrontational.\n*   **The First Pride:** Exactly one year later, on June 28, 1970, the first \"Christopher Street Liberation Day\" march was held in New York City to commemorate the anniversary of the riots. This was the precursor to the modern Pride parades held globally today.\n*   **Political Organization:** The riots catalyzed the formation of new, militant activist groups like the Gay Liberation Front (GLF) and the Gay Activists Alliance (GAA), which demanded immediate changes to laws and social attitudes.\n\nToday, the Stonewall Inn is a National Historic Landmark. The riots are remembered not just as a moment of rebellion, but as the moment the LGBTQ+ community stopped asking for tolerance and began demanding equality.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 11,
+  "completion_tokens": 962,
+  "total_tokens": 973,
+  "cost": 0.00144575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00144575,
+   "upstream_inference_prompt_cost": 2.75e-06,
+   "upstream_inference_completions_cost": 0.001443
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 133,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:38.338321+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

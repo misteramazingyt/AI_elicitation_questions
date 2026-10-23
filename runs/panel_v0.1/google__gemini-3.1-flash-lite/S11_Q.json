@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1969 Stonewall riots?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 1969 Stonewall riots are widely considered the catalyst for the modern LGBTQ+ rights movement. While the riots themselves lasted only a few days, their consequences fundamentally transformed the social, political, and legal landscape for LGBTQ+ people in the United States and around the world.\n\nHere are the primary consequences of the Stonewall riots:\n\n### 1. The Shift from \"Homophile\" to \"Gay Liberation\"\nBefore Stonewall, the LGBTQ+ movement (often called the \"homophile movement\") was largely assimilationist. Groups like the Mattachine Society and the Daughters of Bilitis generally advocated for quiet, respectable integration into mainstream society, often emphasizing that gay people were \"just like everyone else.\"\n\nStonewall marked a radical shift toward **Gay Liberation**. Activists began to reject the idea that they needed to hide or apologize for their existence. The new movement was confrontational, visible, and unapologetic. It demanded not just tolerance, but full equality and the right to live openly.\n\n### 2. The Birth of New Activist Organizations\nIn the immediate wake of the riots, the movement exploded with new energy and organizational structures:\n*   **The Gay Liberation Front (GLF):** Formed within weeks of the riots, the GLF was the first organization to use the word \"gay\" in its title. It was radical, anti-establishment, and sought to align with other social justice movements of the time, such as the anti-Vietnam War movement and the Black Panther Party.\n*   **The Gay Activists Alliance (GAA):** Formed by members who felt the GLF was too unfocused, the GAA adopted a more single-issue, political approach. They pioneered \"zaps\"—confrontational, public protests designed to embarrass politicians and media figures into paying attention to gay rights.\n\n### 3. The First Pride Marches\nThe most visible legacy of Stonewall is the annual Pride parade. On June 28, 1970—the one-year anniversary of the riots—the \"Christopher Street Liberation Day\" march took place in New York City. Thousands of people marched from Greenwich Village to Central Park. This is widely recognized as the first gay pride parade in U.S. history. Similar marches occurred in Los Angeles and Chicago that same weekend, establishing the tradition of commemorating Stonewall every June.\n\n### 4. Increased Visibility and \"Coming Out\"\nStonewall changed the cultural psychology of the LGBTQ+ community. The riots proved that resistance was possible and that there was strength in numbers. This sparked a massive wave of \"coming out.\" As more people came out to their families, friends, and coworkers, it became harder for society to dismiss LGBTQ+ people as a fringe group. This visibility was crucial in humanizing the movement and shifting public opinion over the following decades.\n\n### 5. Political Mobilization\nThe riots forced LGBTQ+ issues into the political arena. Activists began lobbying for non-discrimination ordinances, the repeal of sodomy laws, and the inclusion of gay rights in the platforms of major political parties. While progress was slow, the groundwork laid in the early 1970s made later legislative victories—such as the repeal of \"Don't Ask, Don't Tell\" and the legalization of same-sex marriage—possible.\n\n### 6. The De-pathologization of Homosexuality\nThe newfound political power and visibility of the gay rights movement directly influenced the medical and psychiatric communities. In 1973, the American Psychiatric Association (APA) removed homosexuality from the *Diagnostic and Statistical Manual of Mental Disorders* (DSM), where it had previously been classified as a mental illness. This was a direct result of years of intense pressure and protests by gay activists who argued that the classification was used to justify discrimination and \"conversion\" therapies.\n\n### 7. Global Impact\nThe Stonewall riots became a global symbol of resistance. The \"Stonewall\" narrative—that marginalized people have the right to fight back against state-sanctioned oppression—inspired LGBTQ+ movements in countries across Europe, Latin America, and beyond. The model of the \"Pride\" march has since been adopted by communities worldwide as a way to assert dignity and demand rights.\n\n### Summary\nIn short, Stonewall did not create the gay rights movement, but it **accelerated it exponentially.** It transformed a small, cautious, and largely underground movement into a massive, public, and political force. It moved the goalposts from \"please tolerate us\" to \"we demand our rights,\" setting the trajectory for every major LGBTQ+ victory that followed.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 1079,
+  "total_tokens": 1094,
+  "cost": 0.00162225,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00162225,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.0016185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 129,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:38.795608+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "D",
+ "prompt": "Describe the IRS's handling of tax-exempt applications from political groups (2010-2013).",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The IRS's handling of 501(c)(4) tax-exempt applications from political groups (2010–2013) involved documented mismanagement and inappropriate screening practices.**\n\n### Background and Surge in Applications\nFollowing the 2010 *Citizens United* decision and related court rulings, applications for 501(c)(4) \"social welfare\" status surged. These organizations can engage in political activity as long as it is not their primary purpose. Many Tea Party, conservative, and some progressive groups applied, seeking tax-exempt status while conducting advocacy.\n\nThe IRS Exempt Organizations (EO) division in Cincinnati handled most applications. A significant backlog developed due to volume and complex cases involving political activity.\n\n### Inappropriate Screening Criteria\nStarting around 2010, EO staff developed \"Be On the Lookout\" (BOLO) lists and other screening tools. These flagged applications containing terms such as:\n- \"Tea Party\"\n- \"Patriots\"\n- \"9/12\"\n- \"conservative\"\n- Later additions included \"progressive,\" \"Occupy,\" and \"medical marijuana\"\n\nApplications were often pulled for extra review, leading to delays of 1–3+ years. Groups received lengthy questionnaires requesting donor lists, meeting minutes, and details on political activities—requests that were sometimes overly broad or intrusive. Some applications were approved after delays; others were withdrawn or abandoned.\n\n### TIGTA Report and Official Findings (May 2013)\nThe Treasury Inspector General for Tax Administration (TIGTA) audit confirmed:\n- The IRS used inappropriate criteria focused on names and policy positions rather than clear indicators of political activity.\n- Management failed to provide adequate oversight or training.\n- Conservative-leaning groups were disproportionately affected in the initial period (2010–early 2012), though later BOLO entries included some liberal terms.\n- No evidence established that the White House directed the targeting.\n\nLois Lerner, then director of the EO division, publicly apologized in May 2013, stating that the criteria were \"wrong\" and \"inappropriate.\"\n\n### Investigations and Aftermath\n- **Congressional hearings** (2013–2014): House Oversight Committee and Senate Finance Committee examined the matter. Lerner invoked the Fifth Amendment; other IRS officials testified about poor management and bureaucratic errors.\n- **DOJ investigation**: Found no evidence of criminal political conspiracy by senior officials. Some low-level employees faced discipline or retirement; no widespread prosecutions resulted.\n- **Affected groups**: Primarily conservative organizations reported the longest delays and most aggressive questionnaires, though progressive groups also encountered issues once their terms appeared on lists.\n- **Reforms**: The IRS revised procedures, eliminated the problematic BOLO lists, and improved training. Processing times later improved, though backlogs persisted in some areas.\n\n### Key Context\nThe episode reflected systemic problems in handling a sudden increase in politically sensitive applications rather than proven top-down partisan direction. Both conservative and liberal groups faced scrutiny once flagged, but the initial criteria disproportionately impacted right-leaning applicants. Official reports emphasize bureaucratic failure and poor judgment over intentional election interference.\n\nThis summary draws from the TIGTA audit, congressional records, and contemporaneous reporting. The matter remains a notable example of IRS administrative shortcomings in the tax-exempt sector.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 211,
+  "completion_tokens": 1230,
+  "total_tokens": 1441,
+  "cost": 0.00320435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00320435,
+   "upstream_inference_prompt_cost": 0.00012935,
+   "upstream_inference_completions_cost": 0.003075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 589,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:09.003855+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

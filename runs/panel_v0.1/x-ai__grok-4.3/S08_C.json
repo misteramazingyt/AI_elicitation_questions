@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "C",
+ "prompt": "What were the main causes of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The main causes of the IRS's flawed handling of tax-exempt applications (primarily 501(c)(4) social welfare organizations) from 2010–2013 were bureaucratic, procedural, and managerial failures, not a top-down political conspiracy.**\n\n### Official Findings (TIGTA Report, May 2013)\nThe Treasury Inspector General for Tax Administration (TIGTA) audit identified the core problems:\n\n- **Surge in applications after *Citizens United***: The 2010 Supreme Court decision led to a sharp increase in 501(c)(4) filings. The IRS Determinations Unit in Cincinnati faced a backlog and lacked sufficient staff or clear guidance on distinguishing \"social welfare\" activity from political campaign intervention.\n- **Inappropriate screening criteria (\"Be On the Lookout\" or BOLO lists)**: Lower-level employees developed shortcuts using terms like \"Tea Party,\" \"Patriot,\" \"9/12,\" \"progressive,\" or \"Occupy\" to flag cases for extra review. This was an attempt to centralize similar applications for consistency rather than a directive from Washington political appointees.\n- **Poor management and training**: The Exempt Organizations division had weak oversight. Managers allowed the criteria to persist for months without proper review. Employees received inadequate training on 501(c)(4) rules, which are inherently vague regarding the amount of political activity permitted.\n- **Lack of clear policy**: IRS rules on political activity for 501(c)(4)s were ambiguous, leading staff to over-scrutinize applications involving advocacy. No evidence was found that senior Obama administration officials ordered the targeting.\n\n### Additional Context from Investigations\n- Congressional hearings and later reviews (including by the House Oversight Committee) confirmed disproportionate initial focus on conservative-leaning groups, though some liberal organizations were also flagged.\n- Lois Lerner (head of the Exempt Organizations division) and others were criticized for slow response and poor communication, but multiple probes (DOJ, TIGTA follow-ups) found no proof of White House involvement or intentional partisan direction.\n- Lost emails and delayed disclosures fueled perceptions of cover-up, but the root operational issues predated that.\n\nIn short, the episode stemmed from **inefficient processing of a sudden workload increase combined with sloppy internal controls**, not a coordinated effort to suppress conservative groups. The IRS later apologized, revised procedures, and faced leadership changes. Subsequent audits showed the problems were largely fixed by improved guidance and oversight.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 216,
+  "completion_tokens": 1137,
+  "total_tokens": 1353,
+  "cost": 0.0029781,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0029781,
+   "upstream_inference_prompt_cost": 0.0001356,
+   "upstream_inference_completions_cost": 0.0028425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 654,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:09.812633+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

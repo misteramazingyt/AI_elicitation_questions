@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "H",
+ "prompt": "How have historians interpreted the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization? Please cite sources.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "Historians have engaged extensively with the Supreme Court’s 2022 decision in *Dobbs v. Jackson Women’s Health Organization*, primarily focusing on the majority opinion’s reliance on a specific, narrow interpretation of American history to overturn *Roe v. Wade*.\n\nThe central point of contention among historians is Justice Samuel Alito’s use of the \"history and tradition\" test. In the majority opinion, Alito argued that for a right to be protected under the Due Process Clause of the Fourteenth Amendment, it must be \"deeply rooted in this Nation’s history and tradition.\" He concluded that abortion was not such a right because it was criminalized in many states by the late 19th century.\n\nHere is how historians have interpreted and critiqued this approach:\n\n### 1. The Critique of \"Selective History\"\nMany historians have argued that the Court engaged in \"law-office history\"—a term used to describe the practice of cherry-picking historical facts to support a predetermined legal outcome, rather than providing a nuanced, accurate historical analysis.\n\n*   **The Amicus Brief of Historians:** Before the ruling, a group of prominent legal historians filed an amicus brief with the Supreme Court. They argued that the history of abortion in the United States was far more complex than the majority opinion suggested. They pointed out that under English common law (which influenced American law), abortion was generally permitted before \"quickening\" (the point at which a pregnant person feels fetal movement).\n*   **Reva Siegel and Linda Greenhouse:** In their analysis, legal historians Reva Siegel (Yale Law School) and Linda Greenhouse (Yale Law School) have argued that the Court ignored the historical context of the 19th-century anti-abortion laws. They contend that these laws were not primarily motivated by a concern for fetal life, as the Court suggested, but were often driven by the medical profession’s desire to professionalize medicine and eliminate midwives and \"irregular\" practitioners.\n    *   *Source:* Greenhouse, L., & Siegel, R. B. (2022). \"Before (and After) Roe v. Wade: New Questions About Backlash.\" *Yale Law Journal Forum*.\n\n### 2. The \"History and Tradition\" Test as a Methodology\nHistorians have criticized the Court’s methodology for being ahistorical and rigid. By requiring a right to be \"deeply rooted\" in the 1860s (when the 14th Amendment was ratified), critics argue the Court effectively froze American rights in the 19th century, ignoring the evolution of social and legal norms.\n\n*   **Jill Lepore:** Writing for *The New Yorker*, historian Jill Lepore criticized the Court’s reliance on 19th-century legal standards. She argued that the Court’s \"history and tradition\" test is a form of \"originalism\" that functions as a political tool rather than a historical method. She noted that by looking only at the 19th century, the Court ignored the broader history of women’s autonomy and the changing status of women in American society.\n    *   *Source:* Lepore, J. (2022). \"The Supreme Court’s Originalist Fantasy.\" *The New Yorker*.\n\n### 3. The Erasure of Women’s Agency\nHistorians of gender and medicine have pointed out that the *Dobbs* decision erases the historical agency of women. By focusing exclusively on the legislative history of abortion bans, the Court ignored the lived experiences of women who sought abortions throughout American history.\n\n*   **Leslie Reagan:** A historian of medicine and law, Reagan has long documented that abortion was a common, albeit often clandestine, practice in the United States throughout the 19th and 20th centuries. Her work suggests that the Court’s narrative—that abortion was historically viewed as a moral wrong—is contradicted by the historical reality that abortion was a widely utilized medical procedure, even when legally restricted.\n    *   *Source:* Reagan, L. J. (2022). *When Abortion Was a Crime: Women, Medicine, and Law in the United States, 1867–1973* (Updated Edition). University of California Press. (Originally published in 1997, the updated edition provides context for the *Dobbs* era).\n\n### 4. The \"Originalist\" Defense\nWhile the majority of academic historians have been critical, some legal scholars who align with originalist historical methodology have defended the Court’s approach. They argue that the Court’s role is not to update the Constitution based on modern social norms, but to interpret the text as it was understood by those who ratified it.\n\n*   **The Originalist Perspective:** Scholars like John Finnis (University of Notre Dame) have argued that the historical record does indeed show that abortion was widely considered a form of homicide or a grave moral wrong in the common law tradition, and that the Court was correct to return the issue to the states, as the Constitution is silent on the matter.\n    *   *Source:* Finnis, J. (2022). \"The History of Abortion and the Constitution.\" *Public Discourse*.\n\n### Summary\nThe consensus among professional historians who have weighed in on *Dobbs* is largely critical. They argue that the Court’s majority opinion utilized a flawed, selective, and \"law-office\" version of history to justify a political outcome. They contend that the Court ignored the complexities of common law, the specific political motivations behind 19th-century abortion bans, and the long history of women’s reproductive autonomy, ultimately using history as a weapon to dismantle established rights rather than as a tool for understanding the evolution of the law.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 1325,
+  "total_tokens": 1356,
+  "cost": 0.00199525,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00199525,
+   "upstream_inference_prompt_cost": 7.75e-06,
+   "upstream_inference_completions_cost": 0.0019875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 126,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:37.691427+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

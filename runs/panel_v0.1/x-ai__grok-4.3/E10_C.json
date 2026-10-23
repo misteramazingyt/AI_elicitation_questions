@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "C",
+ "prompt": "What were the main causes of the UK miners' strike of 1984-1985?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The UK miners' strike of 1984–85 was primarily driven by a combination of economic decline in the coal industry, government policy under Margaret Thatcher, and confrontational union leadership. Here are the main causes:\n\n- **Uneconomic pits and industry decline**: By the early 1980s, many British coal mines were losing money due to high production costs, depleting reserves, and competition from cheaper energy sources like North Sea oil, natural gas, and imported coal. The National Coal Board (NCB) planned to close around 20 pits initially (with more potentially to follow), threatening tens of thousands of jobs. The government argued these closures were necessary for economic efficiency.\n\n- **Thatcher government's anti-union strategy**: After the 1974 miners' strike helped bring down Edward Heath's Conservative government, Thatcher prepared extensively for a confrontation. This included building coal stockpiles at power stations, recruiting non-union hauliers, and passing laws to curb union power (e.g., the Employment Acts). The strike was seen as a test of wills to break the influence of militant trade unions and shift the UK toward a more market-driven economy.\n\n- **Pit closure announcement and strike trigger**: In March 1984, the NCB announced the closures without full consultation. This sparked walkouts starting in Yorkshire, which spread nationally under the National Union of Mineworkers (NUM). The union framed it as an existential threat to mining communities.\n\n- **NUM leadership and tactics**: Arthur Scargill, the NUM president, took a hardline stance against any closures and called for strike action without a national ballot of members (relying instead on area votes). This was controversial, led to legal challenges, and caused regional divisions—e.g., Nottinghamshire miners largely continued working, forming a breakaway union later. Scargill viewed the dispute as political rather than purely industrial.\n\n- **Broader context**: Long-term shifts away from coal, combined with high unemployment and Thatcher's monetarist policies, heightened tensions. The strike lasted nearly a year, ending in defeat for the miners in March 1985, with most pits eventually closing in subsequent years.\n\nThe dispute was as much about political power and ideology as economics, leaving lasting divisions in UK industrial relations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 211,
+  "completion_tokens": 837,
+  "total_tokens": 1048,
+  "cost": 0.00222185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00222185,
+   "upstream_inference_prompt_cost": 0.00012935,
+   "upstream_inference_completions_cost": 0.0020925
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 388,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:24.358011+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

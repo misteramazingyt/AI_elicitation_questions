@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "C",
+ "prompt": "What were the main causes of the 1969 Stonewall riots?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 1969 Stonewall riots erupted from a police raid on the Stonewall Inn, a gay bar in New York City's Greenwich Village, but they reflected deeper, long-standing patterns of discrimination and harassment against homosexuals and gender-nonconforming people.\n\n## Systemic Background Factors\n- Homosexuality remained heavily stigmatized and criminalized in the United States, with laws against sodomy, cross-dressing, and same-sex dancing or assembly still enforced in many jurisdictions.\n- Police routinely conducted raids on gay bars, often citing violations such as operating without a liquor license or serving alcohol to known homosexuals, leading to arrests, public shaming, and loss of employment for those caught.\n- The Stonewall Inn itself operated under mafia control and catered to a diverse crowd that included drag performers, transgender individuals, and young gay men, many of whom faced routine targeting by authorities.\n\n## Immediate Triggers\n- On the night of June 28, 1969, officers entered the bar without a full warrant and began detaining patrons, checking identification, and confiscating alcohol.\n- Resistance grew when officers manhandled customers and attempted to arrest several individuals, including a lesbian woman who fought back, prompting bystanders outside to throw objects and confront the police.\n- The raid occurred during a period of rising activism, following earlier incidents like the 1966 Compton's Cafeteria riot in San Francisco, which had already signaled growing frustration with police tactics.\n\n## Broader Social Pressures\n- Many participants lived with limited legal protections, facing job discrimination, family rejection, and exclusion from mainstream institutions.\n- The event crystallized accumulated grievances rather than arising from any single policy change, as gay bars served as rare safe spaces that authorities repeatedly disrupted.\n\nThese elements combined to turn a standard raid into several nights of clashes that marked a turning point in organized advocacy for homosexual rights.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 891,
+  "total_tokens": 1097,
+  "cost": 0.0023506,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0023506,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.0022275
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 525,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:22.399832+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

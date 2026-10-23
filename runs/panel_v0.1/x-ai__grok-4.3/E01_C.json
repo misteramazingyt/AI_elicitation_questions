@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "C",
+ "prompt": "What were the main causes of the New Deal (1933-1939)?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The main causes of the New Deal (1933–1939) were rooted in the severe economic and social crisis of the Great Depression, which created overwhelming pressure for large-scale federal intervention.\n\n### 1. The Great Depression (Primary Trigger)\n- The 1929 stock market crash and the ensuing economic collapse exposed the failures of laissez-faire capitalism.\n- By 1933, unemployment reached roughly 25%, thousands of banks failed, industrial production had fallen by nearly 50%, and widespread poverty, homelessness, and hunger affected millions.\n- These conditions made the existing system appear unsustainable and generated urgent demands for government action to provide relief, recovery, and reform.\n\n### 2. Economic Structural Weaknesses\n- Overproduction and underconsumption: Businesses had produced more goods than consumers could buy, partly due to highly unequal income distribution (the top 1% held enormous wealth while most Americans had limited purchasing power).\n- Banking and financial instability: Weak regulation allowed speculative practices and bank runs; there was no deposit insurance or central mechanisms to stabilize credit.\n- Agricultural distress: Falling farm prices and debt had already created a rural depression in the 1920s that worsened after 1929.\n\n### 3. Political and Social Pressures\n- Herbert Hoover’s limited-response policies (emphasizing voluntarism and balanced budgets) were widely viewed as inadequate, contributing to his landslide defeat in the 1932 election.\n- Growing radicalism and unrest: Movements led by figures such as Huey Long (“Share Our Wealth”), Father Charles Coughlin, and the rise of labor militancy and protests (including the Bonus Army march) signaled that without major reforms, more extreme political solutions might gain traction.\n- Public and intellectual shift: The crisis discredited the idea that markets would self-correct, opening the door to Keynesian-style deficit spending and expanded federal authority—ideas already circulating among progressive reformers and some economists.\n\n### 4. Electoral Mandate\nFranklin D. Roosevelt’s 1932 victory and his promise of a “New Deal” gave him both the political capital and the sense of crisis-driven urgency to launch an unprecedented expansion of federal programs beginning in March 1933.\n\nIn short, the New Deal was not the product of abstract ideology but a pragmatic response to an existential economic emergency that threatened social stability and the legitimacy of American capitalism itself.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 208,
+  "completion_tokens": 771,
+  "total_tokens": 979,
+  "cost": 0.0020531,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0020531,
+   "upstream_inference_prompt_cost": 0.0001256,
+   "upstream_inference_completions_cost": 0.0019275
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 304,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:56.883568+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

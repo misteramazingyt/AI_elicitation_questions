@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "D",
+ "prompt": "Describe the Black Death in fourteenth-century Europe.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Black Death, which ravaged Europe between 1347 and 1351, remains the most devastating pandemic in recorded history. It was a catastrophic event that fundamentally altered the social, economic, and religious landscape of the Middle Ages, wiping out an estimated 30% to 60% of the European population.\n\nHere is a description of the plague, its spread, and its profound consequences.\n\n### 1. The Pathogen and Transmission\nThe Black Death was caused by the bacterium *Yersinia pestis*. While it is often associated with rats, the primary vectors were actually the fleas that lived on the black rats (*Rattus rattus*) common in medieval cities.\n\nThe plague traveled along the Silk Road from Central Asia, carried by merchant caravans and ships. It arrived in Europe in October 1347, when twelve Genoese trading ships docked at the Sicilian port of Messina. The sailors on board were mostly dead or dying, covered in mysterious black boils. By the time authorities realized the danger and ordered the ships out of the harbor, the infection had already jumped to the local rat and flea population.\n\n### 2. Symptoms and Progression\nThe plague manifested in three primary forms, though the bubonic variant was the most common:\n\n*   **Bubonic Plague:** This form caused the appearance of \"buboes\"—painful, swollen lymph nodes in the groin, armpits, or neck. These swellings could grow to the size of an apple. Victims suffered from high fever, vomiting, and delirium. Death usually followed within two to seven days.\n*   **Pneumonic Plague:** This form infected the lungs and was spread through the air via coughing or sneezing. It was highly contagious and almost always fatal.\n*   **Septicemic Plague:** This form infected the bloodstream directly, causing skin to turn black and necrotic (hence the name \"Black Death\"). It was the fastest-acting form, often killing the victim before symptoms were fully visible.\n\n### 3. The Spread Across Europe\nFrom Sicily, the plague spread with terrifying speed. It moved north through Italy, then into France, Spain, and England by 1348. By 1349, it had reached Germany and Scandinavia, and by 1350, it had moved into Scotland and northwestern Russia.\n\nMedieval society was ill-equipped to handle the crisis. Medical knowledge was based on the theory of \"miasma\" (bad air) and the four humors; doctors had no understanding of germ theory. Treatments included bloodletting, lancing the buboes, and burning aromatic herbs to \"purify\" the air—none of which worked.\n\n### 4. Social and Psychological Impact\nThe psychological toll was immense. The speed of death led to a breakdown of social order.\n*   **Abandonment:** Fear was so pervasive that family members often abandoned their sick relatives.\n*   **Religious Crisis:** Many viewed the plague as divine punishment for humanity's sins. This led to the rise of the Flagellant movement, where groups of people traveled from town to town whipping themselves in public penance. Conversely, it also led to a decline in the prestige of the Church, as priests died in high numbers and were unable to stop the suffering through prayer.\n*   **Scapegoating:** In a desperate search for someone to blame, marginalized groups—particularly Jewish communities—were falsely accused of poisoning wells. This led to horrific pogroms and massacres across Europe.\n\n### 5. Long-Term Consequences\nThe Black Death was a \"great leveler\" that triggered massive structural changes in European society:\n\n*   **Economic Shift:** The massive loss of life created a severe labor shortage. Peasants and serfs, who had previously been tied to the land, suddenly found their labor in high demand. They began to demand higher wages and better conditions. This effectively broke the back of the feudal system and led to the rise of a middle class.\n*   **The End of Serfdom:** As landowners struggled to find workers, they were forced to offer better terms, leading to the gradual decline of serfdom in Western Europe.\n*   **Cultural Shifts:** The constant presence of death influenced art and literature, leading to the *Danse Macabre* (Dance of Death) motif, which depicted skeletons leading people of all social classes to the grave, emphasizing the universality of death.\n*   **Scientific Inquiry:** The failure of traditional medicine to combat the plague eventually spurred a greater interest in empirical observation and anatomy, planting the early seeds for the scientific advancements of the Renaissance.\n\nThe Black Death did not disappear after 1351; it returned in waves for centuries, but the initial outbreak remains the most significant demographic shock in European history, marking the definitive end of the High Middle Ages and the beginning of a new, more volatile era.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 10,
+  "completion_tokens": 1135,
+  "total_tokens": 1145,
+  "cost": 0.001705,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001705,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.0017025
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 127,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:55.309721+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

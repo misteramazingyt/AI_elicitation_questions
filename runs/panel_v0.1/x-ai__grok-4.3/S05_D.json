@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "D",
+ "prompt": "Describe the 1993 Waco siege.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 1993 Waco siege (also known as the Waco massacre) was a 51-day armed standoff in Texas between the Branch Davidians, a religious sect led by David Koresh, and U.S. federal law enforcement agencies, primarily the Bureau of Alcohol, Tobacco, and Firearms (ATF) and the FBI. It began on February 28, 1993, and ended on April 19, 1993, with a fire that killed 76 Branch Davidians, including Koresh and 25 children. Four ATF agents were also killed in the initial clash.\n\n### Background\nThe Branch Davidians were an offshoot of the Seventh-day Adventist Church, living communally at the Mount Carmel Center ranch near Waco, Texas. David Koresh (born Vernon Howell) had taken control of the group in the late 1980s and promoted apocalyptic beliefs, claiming to be a prophet. Federal authorities had received reports of illegal firearms manufacturing and possession (including machine guns and explosives), as well as allegations of child sexual abuse and polygamy involving underage girls. The ATF obtained search and arrest warrants based on these claims.\n\n### The Initial Raid and Standoff\nOn February 28, ATF agents attempted a large-scale raid on the compound to serve the warrants. The operation went wrong when the Branch Davidians were tipped off in advance. A gunfight erupted, resulting in the deaths of four ATF agents and six Branch Davidians. The FBI then took over, surrounding the compound and initiating negotiations. Koresh and his followers refused to surrender fully, citing religious reasons and distrust of authorities. Over the following weeks, some members (including children) left voluntarily, but tensions remained high. The FBI used psychological tactics, such as loud music and bright lights, and eventually deployed armored vehicles to insert tear gas (CS gas) on April 19 after negotiations broke down.\n\n### The Final Assault and Fire\nOn April 19, the FBI launched a final assault using combat engineering vehicles (tanks) to breach the buildings and deploy gas. A fire broke out shortly afterward, spreading rapidly through the wooden structures. Autopsies and investigations indicated that many Branch Davidians died from smoke inhalation, gunshot wounds (some self-inflicted or from others in the group), or the fire itself. Koresh was found dead from a gunshot wound. The exact cause of the fire remains disputed—official reports attributed it to the Davidians setting it themselves, while critics alleged it was sparked by the FBI's actions or equipment.\n\n### Aftermath and Controversies\nThe event sparked intense public and congressional scrutiny. Investigations (including by the Department of Justice and a 1995 congressional hearing) criticized the ATF's planning of the initial raid and the FBI's use of force, including the decision to use flammable CS gas and the failure to allow more time for negotiations. No conclusive evidence of widespread child abuse was found in the autopsies beyond what was already alleged. The siege fueled anti-government sentiment, inspiring figures like Timothy McVeigh, who cited Waco as motivation for the 1995 Oklahoma City bombing.\n\nThe Waco siege remains a polarizing event, often cited in discussions of government overreach, religious freedom, and law enforcement tactics. Documentaries, books, and trials (including the 1994 trial of surviving Branch Davidians, where some were acquitted or had charges dropped) have kept the debate alive.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 201,
+  "completion_tokens": 1145,
+  "total_tokens": 1346,
+  "cost": 0.00297935,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00297935,
+   "upstream_inference_prompt_cost": 0.00011685,
+   "upstream_inference_completions_cost": 0.0028625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 455,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:00.119463+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "Q",
+ "prompt": "What were the consequences of the Republican Party's \"Southern strategy\"?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Republican Party's Southern Strategy, pursued from the 1960s through the 1980s, accelerated a partisan realignment that converted the once solidly Democratic South into a Republican electoral base.\n\n## Electoral Shifts\n- Republican presidential candidates gained consistent majorities in Southern states starting with Richard Nixon in 1968 and 1972, followed by Ronald Reagan's sweeps in 1980 and 1984.\n- By the 1990s, Republicans secured control of most Southern congressional seats and state legislatures, ending decades of Democratic dominance rooted in the post-Civil War era.\n- This realignment contributed to divided government patterns, with the South providing reliable Republican electoral votes in national contests.\n\n## Party Composition Changes\n- White Southern voters, particularly those opposed to federal civil rights enforcement, migrated toward the GOP, while Black voters consolidated with Democrats.\n- The strategy emphasized states' rights, law and order, and opposition to busing and affirmative action, attracting former supporters of George Wallace's 1968 campaign.\n- Over time, this sorting reinforced ideological polarization, with Southern conservatives shaping Republican priorities on taxes, regulation, and social issues.\n\n## Policy and Cultural Impacts\n- Republican platforms incorporated stronger stances against expansive federal welfare programs and crime policies, aligning with voter concerns in the region.\n- The shift influenced long-term GOP messaging on federalism and traditional values, though economic growth and suburban expansion in the South also played roles independent of race.\n- Nationally, it coincided with Democrats losing their conservative Southern wing, pushing that party toward urban and minority coalitions.\n\n## Interpretive Debates\nHistorians such as Kevin Phillips documented the strategy's focus on attracting disaffected Democrats through indirect appeals rather than explicit segregationism. Critics highlight coded language in campaign rhetoric, while defenders point to genuine policy differences on federal power, anti-communism, and cultural change. Data from voting patterns shows race correlated with the shift but does not account for all factors like industrialization and religious conservatism. Multiple causes operated simultaneously rather than a singular racial motive.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 205,
+  "completion_tokens": 1072,
+  "total_tokens": 1277,
+  "cost": 0.00280185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00280185,
+   "upstream_inference_prompt_cost": 0.00012185,
+   "upstream_inference_completions_cost": 0.00268
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 668,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:48.150047+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "D",
+ "prompt": "Describe McCarthyism in the 1950s.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "McCarthyism refers to the intense anti-communist campaign and political repression in the United States during the early 1950s, named after Senator Joseph McCarthy (R-Wisconsin). It was a period of heightened fear over Soviet influence and espionage amid the Cold War, marked by unsubstantiated accusations, investigations, and blacklisting that damaged careers and civil liberties.\n\n### Background\nFollowing World War II, tensions with the Soviet Union escalated into the Cold War. Events like the Soviet atomic bomb test (1949), the fall of China to communism (1949), and the Korean War (1950–1953) fueled domestic paranoia about communist infiltration. This built on the earlier \"Red Scare\" of the 1910s–1920s and was amplified by congressional bodies like the House Un-American Activities Committee (HUAC). McCarthy capitalized on these fears starting in February 1950, when he claimed in a Wheeling, West Virginia speech to have a list of 205 (later varying numbers) communists in the State Department.\n\n### Key Features\n- **Accusations without evidence**: McCarthy made sweeping, often vague charges against government employees, military officers, academics, journalists, and entertainers, labeling them as communists, sympathizers, or security risks. He rarely provided concrete proof, relying instead on innuendo, guilt by association, and sensational hearings.\n- **Senate investigations**: As chair of the Senate Permanent Subcommittee on Investigations (1953–1954), McCarthy conducted televised hearings that pressured witnesses to name names or face contempt charges. Targets included the U.S. Army, Voice of America, and the State Department.\n- **Blacklisting and loyalty programs**: Many faced professional ruin through blacklists, especially in Hollywood (building on HUAC's earlier work). Federal and state governments required loyalty oaths, and the FBI under J. Edgar Hoover expanded surveillance.\n- **Notable cases**: High-profile figures included diplomat Alger Hiss (convicted of perjury in 1950), physicist J. Robert Oppenheimer (security clearance revoked in 1954), and numerous Hollywood writers and actors. The Army-McCarthy hearings (1954) exposed McCarthy's tactics when he accused the Army of harboring communists.\n\n### Decline and Aftermath\nMcCarthy's aggressive style backfired during the 1954 Army-McCarthy hearings, broadcast on television, where his bullying demeanor and lack of evidence were widely criticized. The Senate censured him in December 1954 by a 67–22 vote for conduct unbecoming a senator. He died in 1957 from alcoholism-related illness. The term \"McCarthyism\" was popularized by cartoonist Herbert Block (\"Herblock\") and later used broadly to describe reckless accusations or witch hunts.\n\n### Legacy\nMcCarthyism chilled free speech, stifled dissent, and eroded trust in institutions. It led to lasting cultural references in literature (e.g., Arthur Miller's *The Crucible*) and debates over civil liberties versus national security. Historians view it as a low point in American political discourse, though some of the underlying espionage concerns (e.g., documented Soviet spies like the Rosenbergs) were real. The era ended with a shift toward more measured Cold War policies under President Eisenhower.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 203,
+  "completion_tokens": 966,
+  "total_tokens": 1169,
+  "cost": 0.00253435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00253435,
+   "upstream_inference_prompt_cost": 0.00011935,
+   "upstream_inference_completions_cost": 0.002415
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 313,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:49.555797+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

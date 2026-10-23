@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2011 military intervention in Libya?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2011 military intervention in Libya, led by NATO under a UN mandate to protect civilians, resulted in the rapid collapse of Muammar Gaddafi’s 42-year regime. However, the long-term consequences have been profound, complex, and largely destabilizing for both Libya and the wider region.\n\nThe consequences can be categorized into political, security, humanitarian, and regional impacts.\n\n### 1. Political Instability and State Collapse\nThe most immediate consequence was the creation of a power vacuum. The intervention removed the central authority (Gaddafi) but failed to provide a viable framework for a successor government.\n*   **Fragmentation:** Libya fractured into competing factions, militias, and tribal groups. The country effectively split between rival governments—one in the west (Tripoli) and one in the east (Tobruk)—each backed by different international powers.\n*   **Failure of State-Building:** Efforts to establish a unified national government were repeatedly undermined by infighting. The lack of strong, centralized institutions meant that the state could not provide basic services, enforce the rule of law, or manage the country’s oil wealth effectively.\n\n### 2. Security and Proliferation of Arms\nThe collapse of the Libyan state led to a massive security crisis that spilled across borders.\n*   **Militia Rule:** In the absence of a national army, power was seized by hundreds of local militias. These groups often acted as warlords, controlling territory, extorting businesses, and fighting one another for resources.\n*   **Weapons Proliferation:** Gaddafi’s massive stockpiles of weapons—including small arms, anti-aircraft missiles, and explosives—were looted and smuggled out of the country. These weapons flooded the black market, fueling insurgencies and conflicts across the Sahel and North Africa, most notably in Mali, where they empowered Tuareg rebels and jihadist groups.\n\n### 3. Rise of Extremism\nThe chaos provided fertile ground for extremist organizations to establish a foothold.\n*   **ISIS and Al-Qaeda:** Groups like Al-Qaeda in the Islamic Maghreb (AQIM) and later the Islamic State (ISIS) exploited the security vacuum to establish training camps and territorial strongholds. At its peak, ISIS controlled the city of Sirte, Gaddafi’s hometown, using it as a base for operations before being pushed out by local forces and international airstrikes.\n*   **Benghazi Attack:** The instability was highlighted by the 2012 attack on the U.S. diplomatic compound in Benghazi, which resulted in the death of the U.S. Ambassador and three other Americans.\n\n### 4. Humanitarian Crisis and Migration\nThe ongoing conflict created a severe humanitarian crisis that continues to affect Europe and Africa.\n*   **Displacement:** Thousands of Libyans were internally displaced, and many others fled the country.\n*   **Human Trafficking:** Libya became a primary transit point for migrants from sub-Saharan Africa attempting to reach Europe. With no functioning coast guard or border control, human traffickers flourished, leading to horrific reports of abuse, slavery, and thousands of deaths in the Mediterranean Sea.\n\n### 5. Regional Geopolitical Rivalry\nThe Libyan conflict became a \"proxy war,\" drawing in regional powers who supported different factions to advance their own geopolitical interests.\n*   **Foreign Interference:** Countries such as Turkey, Russia, the United Arab Emirates, Egypt, and France became deeply involved, providing weapons, drones, mercenaries (such as the Wagner Group), and political support to rival Libyan factions. This internationalization of the conflict made it significantly harder to reach a domestic peace agreement.\n\n### 6. Impact on International Relations\nThe intervention had a lasting impact on how the international community approaches \"humanitarian intervention.\"\n*   **The \"Responsibility to Protect\" (R2P):** The intervention was initially hailed as a successful application of the R2P doctrine. However, the subsequent chaos led to a backlash, particularly from Russia and China. They argued that the mission had exceeded its UN mandate (which was to protect civilians, not to pursue regime change), leading to a deep distrust that has hampered international cooperation on subsequent crises, such as the Syrian Civil War.\n\n### Summary\nWhile the 2011 intervention succeeded in its immediate goal of preventing a potential massacre in Benghazi and removing a dictator, it failed to secure a stable transition. The result was a decade of civil war, the erosion of state sovereignty, a massive refugee crisis, and the destabilization of the Sahel region. Today, Libya remains a fragile state, struggling to reconcile its fractured political landscape and move toward a unified, democratic future.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 1097,
+  "total_tokens": 1113,
+  "cost": 0.0016495,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016495,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.0016455
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 131,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:45.668276+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

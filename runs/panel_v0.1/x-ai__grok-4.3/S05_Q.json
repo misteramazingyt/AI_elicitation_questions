@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1993 Waco siege?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The 1993 Waco siege** (also known as the Waco massacre or Branch Davidian siege) ended on April 19, 1993, after a 51-day standoff between the Branch Davidians (led by David Koresh) and federal agents from the ATF and FBI. Here are the main documented consequences, based on official reports, trials, and historical records:\n\n### Immediate Human and Physical Toll\n- **Deaths**: 76 Branch Davidians died on the final day (including 25 children and David Koresh). Earlier, on February 28, 1993, 4 ATF agents were killed and 16 wounded during the initial raid. Autopsies and investigations showed many Davidians died from gunfire (some ruled suicides or mutual killings) and fire; others from smoke inhalation or collapse.\n- **Destruction**: The compound burned to the ground after FBI tear gas insertion and armored vehicle breaches. The fire was started by Branch Davidians in multiple locations, per forensic evidence and survivor accounts.\n- **Survivors**: 9 Branch Davidians survived the fire; dozens more had surrendered earlier. Several were injured.\n\n### Legal and Judicial Outcomes\n- **Trials**: In 1994, surviving Branch Davidians faced federal charges (murder, conspiracy, weapons violations). Most were acquitted of murder; some convicted on lesser charges like voluntary manslaughter or weapons offenses. Sentences ranged from probation to 40+ years; many were later reduced or pardoned.\n- **Government accountability**: No federal agents were criminally charged. Civil lawsuits by survivors and families resulted in settlements (e.g., $15+ million paid by the government in the late 1990s/early 2000s after findings of excessive force and evidence mishandling).\n- **Congressional investigations**: 1995 House and Senate hearings criticized ATF/FBI tactics (e.g., misleading warrant affidavits, use of flammable CS gas, failure to negotiate effectively). The Justice Department’s own review noted operational failures but cleared agents of deliberate wrongdoing.\n\n### Broader Political and Social Impacts\n- **Anti-government sentiment**: The event fueled distrust of federal law enforcement, especially among militia and patriot groups. It was cited by Timothy McVeigh as a key motivation for the 1995 Oklahoma City bombing (which killed 168 people).\n- **Law enforcement reforms**: Led to policy changes on siege tactics—greater emphasis on negotiation, restrictions on military-style equipment use in domestic operations, and improved oversight of dynamic entries. The FBI’s Hostage Rescue Team faced internal reviews.\n- **Cultural and media legacy**: Sparked documentaries (*Waco: The Rules of Engagement*, *Waco*), books, and ongoing debates about religious freedom, gun rights, and government overreach. It remains a flashpoint in discussions of federal power.\n\n### Long-Term Effects\n- Heightened scrutiny of the ATF, contributing to its later reorganization and cultural shifts.\n- Influence on subsequent standoffs (e.g., Ruby Ridge comparisons) and conspiracy theories.\n- No major new legislation directly from Waco, but it indirectly shaped debates around the Assault Weapons Ban and domestic terrorism responses in the 1990s.\n\nOfficial sources include the 1993 Justice Department report, 1995 congressional records, and court documents. Interpretations vary widely—some view it as a tragic law enforcement failure, others as justified action against a heavily armed group with prior child abuse allegations and weapons stockpiling. The event’s legacy continues to be debated in historical and political contexts.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 205,
+  "completion_tokens": 1005,
+  "total_tokens": 1210,
+  "cost": 0.00263435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00263435,
+   "upstream_inference_prompt_cost": 0.00012185,
+   "upstream_inference_completions_cost": 0.0025125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 299,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:00.654635+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

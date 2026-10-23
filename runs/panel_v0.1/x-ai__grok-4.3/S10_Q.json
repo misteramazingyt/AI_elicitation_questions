@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The Supreme Court's June 2022 decision in *Dobbs v. Jackson Women's Health Organization* (5-4) overturned *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992), ruling that the U.S. Constitution does not confer a right to abortion.** It returned regulatory authority to the states, eliminating the prior federal framework of viability-based protections.\n\n### Immediate Legal Consequences\n- **State trigger laws activated**: Roughly 13–14 states (mostly in the South and Midwest) enforced near-total or early bans (often at 6 weeks or conception) that had been on hold pending *Roe*. Examples include Texas, Mississippi, Alabama, and others with limited or no exceptions beyond narrow life-of-the-mother cases.\n- **Gestational limits and expansions**: Additional states imposed 6-, 12-, or 15-week bans. A handful of states (California, New York, Illinois, etc.) codified or expanded protections, including later-term access and shielding providers.\n- **Ongoing litigation**: Challenges continue over exceptions (rape, incest, fetal anomalies), interstate travel for care, medication abortion (mifepristone), and clinic regulations. Federal courts have issued conflicting rulings on issues like EMTALA obligations for emergency abortions.\n\n### Access and Demographic Impacts\n- Abortion access dropped sharply in restrictive states. Many clinics closed; patients in ban states often travel hundreds of miles to states like Illinois, Colorado, or New Mexico, or seek medication abortion via telehealth where legal.\n- Data from sources such as the Guttmacher Institute and CDC show increased out-of-state travel, delayed care, and some reports of self-managed abortions. Maternal health metrics in certain restrictive states have drawn scrutiny regarding risks for high-risk pregnancies.\n- Providers faced new compliance burdens, licensing risks, and in some cases criminal penalties, leading to workforce shifts.\n\n### Political and Electoral Effects\n- Abortion became a central campaign issue in 2022 midterms and 2024 cycles. Several states held ballot initiatives (e.g., Kansas, Michigan, Ohio, Arizona) that largely preserved or expanded access, often outperforming expectations for pro-choice measures.\n- Polarization intensified: Democratic-led states strengthened protections; Republican-led states tightened restrictions. Public opinion polls showed majority support for some access (typically first-trimester) but division on later terms and exceptions.\n- No immediate nationwide federal legislation passed; attempts at a federal codification or ban stalled in Congress.\n\n### Broader Ripple Effects\n- The opinion explicitly stated it did not threaten other precedents (e.g., contraception, same-sex marriage), but critics raised concerns about potential future challenges under the same substantive-due-process reasoning.\n- Economic analyses linked reduced access to workforce participation effects for women in affected regions.\n- International comparisons and health-organization statements noted the U.S. shift toward greater state variation compared to many peer nations.\n\nConsequences remain dynamic, with new laws, court rulings, and state ballot measures continuing to shape the landscape. For the most current state-specific rules, official government or health-department resources provide the latest statutes.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 214,
+  "completion_tokens": 1073,
+  "total_tokens": 1287,
+  "cost": 0.0028156,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0028156,
+   "upstream_inference_prompt_cost": 0.0001331,
+   "upstream_inference_completions_cost": 0.0026825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 452,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:21.390166+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

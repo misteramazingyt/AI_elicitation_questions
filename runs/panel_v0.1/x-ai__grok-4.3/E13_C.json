@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "C",
+ "prompt": "What were the main causes of the 1996 U.S. welfare reform law?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 1996 welfare reform law, formally the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA), replaced the Aid to Families with Dependent Children (AFDC) program with Temporary Assistance for Needy Families (TANF). Its passage resulted from a combination of long-term policy critiques, shifting political incentives, and specific events in the mid-1990s.\n\n### Key Drivers\n- **Critiques of AFDC and dependency concerns**: Decades of research and commentary highlighted AFDC's structure as potentially discouraging work and marriage while encouraging long-term reliance. Caseloads had risen sharply from the 1960s through the early 1990s, with critics (including some Democrats) arguing it created perverse incentives around single parenthood and intergenerational poverty. Books like Charles Murray's *Losing Ground* (1984) amplified these arguments in conservative circles.\n\n- **Republican congressional control after 1994**: The GOP's midterm victory gave them majorities in both chambers, enabling the \"Contract with America\" agenda that explicitly called for ending the entitlement status of welfare, imposing work requirements, and converting funding to block grants. This shifted the Overton window toward stricter reforms.\n\n- **Clinton's 1992 campaign pledge**: Bill Clinton ran on \"ending welfare as we know it,\" positioning himself as a New Democrat willing to break from traditional liberal approaches. After two vetoes of earlier Republican bills, political pressure and the improving economy made a compromise viable in 1996.\n\n- **State-level experimentation**: The federal government had granted waivers to dozens of states in the late 1980s and early 1990s (under both Reagan/Bush and Clinton) to test work requirements, time limits, and sanctions. Positive early results from states like Wisconsin and Michigan provided empirical momentum for national change.\n\n- **Fiscal and budgetary pressures**: Persistent federal deficits and rising welfare expenditures made reform attractive as a cost-control measure. The law's block-grant structure also appealed to those seeking to devolve power and spending authority to states.\n\n- **Cultural and public opinion factors**: Polls showed broad public dissatisfaction with the existing system, fueled by narratives around fraud, \"welfare queens,\" and family breakdown. Bipartisan elite consensus emerged that the status quo was unsustainable.\n\nThe final bill passed with strong bipartisan support and was signed in August 1996. Its core features—five-year lifetime limits, work participation mandates, and state flexibility—directly addressed these accumulated pressures rather than stemming from any single event.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 209,
+  "completion_tokens": 927,
+  "total_tokens": 1136,
+  "cost": 0.00244435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00244435,
+   "upstream_inference_prompt_cost": 0.00012685,
+   "upstream_inference_completions_cost": 0.0023175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 427,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:32.335358+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

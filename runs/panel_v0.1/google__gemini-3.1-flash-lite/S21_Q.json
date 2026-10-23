@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration Act of 1924?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Immigration Act of 1924, also known as the **Johnson-Reed Act**, was one of the most restrictive and consequential pieces of legislation in American history. It fundamentally altered the demographic makeup of the United States and set the tone for American immigration policy for the next four decades.\n\nHere are the primary consequences of the Act:\n\n### 1. Drastic Reduction in Immigration\nThe most immediate consequence was a massive drop in the total number of immigrants entering the United States. The Act established a quota system based on the 1890 census, which limited the number of immigrants from any country to 2% of the number of people from that country already living in the U.S. as of that year.\n*   **The Math:** By using the 1890 census (rather than a more recent one), the law intentionally favored immigrants from Northern and Western Europe, who had arrived in large numbers by that time, while severely penalizing immigrants from Southern and Eastern Europe (such as Italians, Poles, and Russians), who had arrived in large numbers after 1890.\n\n### 2. Institutionalization of Nativism and Racism\nThe Act was explicitly designed to preserve the \"homogeneity\" of the American population. It reflected the prevailing eugenics movement of the era, which argued that certain ethnic groups were genetically superior to others.\n*   **Exclusion of Asians:** The Act completely banned immigration from Asia, specifically targeting the Japanese, who had previously been subject to a \"Gentlemen’s Agreement.\" This caused significant diplomatic friction with Japan and is often cited as a contributing factor to the rising tensions that eventually led to World War II.\n*   **\"Nordic\" Preference:** The law prioritized \"Nordic\" (Anglo-Saxon and Germanic) populations, reflecting a deep-seated prejudice against Catholics, Jews, and Eastern Orthodox Christians from Southern and Eastern Europe.\n\n### 3. Shift in Demographic Composition\nBecause the quotas were based on the 1890 census, the law effectively \"froze\" the ethnic composition of the United States.\n*   **Northern/Western Europe:** Countries like Great Britain, Ireland, and Germany received the vast majority of the available quota slots.\n*   **Southern/Eastern Europe:** Countries like Italy, Poland, and Greece saw their immigration numbers slashed by over 90%.\n*   **The Result:** For the next 40 years, the flow of immigrants from these regions slowed to a trickle, forcing the U.S. to rely on its existing immigrant population to assimilate rather than continuing to integrate new arrivals from those regions.\n\n### 4. Rise of the Western Hemisphere \"Loophole\"\nThe Act placed strict quotas on European and Asian countries but **did not place quotas on countries in the Western Hemisphere** (Canada, Mexico, and the rest of Latin America).\n*   This was largely due to the influence of agricultural and industrial lobbyists who wanted to ensure a steady supply of cheap labor.\n*   **Consequence:** This inadvertently led to a significant increase in immigration from Mexico and other Latin American countries, which would eventually reshape the demographic landscape of the American Southwest and the country as a whole.\n\n### 5. Humanitarian Crisis During the Holocaust\nPerhaps the most tragic consequence of the 1924 Act occurred in the 1930s. As the Nazi regime rose to power in Germany and began persecuting Jews, thousands of refugees attempted to flee to the United States.\n*   Because the strict quota system remained in place, the U.S. government turned away thousands of Jewish refugees, citing the law. The most infamous example was the *MS St. Louis* in 1939, a ship carrying over 900 Jewish refugees that was denied entry to the U.S. and forced to return to Europe, where many of its passengers later perished in the Holocaust.\n\n### 6. Long-term Policy Legacy\nThe 1924 Act remained the bedrock of U.S. immigration policy until the **Immigration and Nationality Act of 1965 (the Hart-Celler Act)**.\n*   The 1965 Act finally abolished the national origins quota system, replacing it with a system based on family reunification and skilled labor.\n*   The 1924 Act is now viewed by historians as a dark chapter in American history, representing a period where the U.S. government used law to enforce racial and ethnic hierarchies.\n\n### Summary\nIn short, the Immigration Act of 1924 succeeded in its goal of drastically reducing immigration and shifting the source of immigrants toward Northern and Western Europe. However, it did so at the cost of fueling international diplomatic tensions, creating a humanitarian failure during the Holocaust, and institutionalizing racial discrimination in federal law for decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 1127,
+  "total_tokens": 1142,
+  "cost": 0.00169425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00169425,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.0016905
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 130,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:49.215310+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

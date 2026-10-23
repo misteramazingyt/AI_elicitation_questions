@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "Q",
+ "prompt": "What were the consequences of the War on Poverty and Great Society programs of the 1960s?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The War on Poverty and Great Society initiatives launched under President Lyndon Johnson expanded federal welfare, healthcare, education, and housing programs, producing measurable expansions in government services alongside persistent poverty and profound social shifts.\n\n## Measured Poverty Trends\nOfficial Census Bureau data showed the poverty rate declining from about 19 percent in 1964 to roughly 11 percent by the early 1970s. Much of this drop predated the programs and aligned with postwar economic growth. After implementation, the rate stabilized near 11-15 percent for decades despite trillions in cumulative spending.\n\nCritics note that the official measure excludes major transfer payments such as food stamps, Medicaid, and housing subsidies. Alternative calculations, including the Supplemental Poverty Measure, indicate transfers reduce reported hardship but do not restore pre-1960s trends in self-sufficiency. Absolute material deprivation continued falling due to broader prosperity, not program design.\n\n## Family Structure and Dependency\nOut-of-wedlock birth rates rose sharply after 1965. Black children born to unmarried mothers increased from around 22 percent in the early 1960s to over 70 percent by recent decades, per CDC vital statistics. White rates followed a similar though smaller trajectory. The Moynihan Report of 1965 had already flagged emerging family breakdown; subsequent welfare rules under Aid to Families with Dependent Children penalized marriage and work.\n\nCharles Murray's analysis in Losing Ground documented how benefit structures created effective marginal tax rates exceeding 100 percent for low-income households, discouraging employment and two-parent formation. Welfare caseloads expanded dramatically before later reforms like the 1996 welfare overhaul.\n\n## Fiscal and Administrative Expansion\nFederal spending on means-tested programs grew from roughly $800 billion annually in today's dollars in the mid-1960s to several trillion by recent estimates, according to Heritage Foundation and Congressional Budget Office aggregates. Medicare and Medicaid created large new entitlements that now dominate domestic budgets and contribute to long-term debt pressures.\n\nThese programs enlarged the administrative state, shifting authority from states and localities to federal agencies. This produced standardized benefits but also regulatory complexity and reduced local accountability.\n\n## Crime and Urban Outcomes\nViolent crime rates, tracked by FBI Uniform Crime Reports, climbed steeply from the mid-1960s through the early 1990s before declining. Cities with concentrated Great Society housing projects and welfare populations experienced pronounced spikes in homicide and family dissolution. Economists such as Thomas Sowell have linked these patterns to eroded work norms and father absence rather than poverty alone.\n\n## Counterarguments and Partial Successes\nSupporters cite gains in elderly poverty reduction through Social Security expansions and Medicare, plus increased minority access to higher education via programs like Head Start and Pell Grants. Some health metrics improved with Medicaid coverage. However, randomized evaluations of many education and job-training components showed limited long-term earnings gains.\n\nOverall, the programs accelerated a transition from localized charity and market-driven mobility toward centralized redistribution. Economic historians note that pre-1960s poverty declines occurred without these structures, while post-implementation metrics reveal entrenched dependency in specific demographic groups.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 212,
+  "completion_tokens": 1372,
+  "total_tokens": 1584,
+  "cost": 0.0035606,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0035606,
+   "upstream_inference_prompt_cost": 0.0001306,
+   "upstream_inference_completions_cost": 0.00343
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 768,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:42.708598+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

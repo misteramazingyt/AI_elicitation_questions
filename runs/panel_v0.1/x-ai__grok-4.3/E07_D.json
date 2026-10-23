@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "D",
+ "prompt": "Describe the 2008 financial crisis.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 2008 financial crisis, also known as the Global Financial Crisis (GFC), was the most severe economic downturn since the Great Depression. It originated in the United States but quickly spread worldwide, triggering a deep recession, massive bank failures, government bailouts, and lasting regulatory changes.\n\n### Primary Causes\n- **Housing bubble and subprime lending**: From the early 2000s, loose monetary policy (low interest rates by the Federal Reserve), weak lending standards, and aggressive mortgage origination fueled a housing boom. Lenders issued large volumes of subprime mortgages—loans to borrowers with poor credit—often with adjustable rates, no documentation, or high loan-to-value ratios.\n- **Securitization and derivatives**: Banks packaged these mortgages into mortgage-backed securities (MBS) and collateralized debt obligations (CDOs), which were sold to investors globally. Credit default swaps (CDS) and other complex derivatives amplified risk. Rating agencies assigned overly optimistic AAA ratings to these products.\n- **High leverage and deregulation**: Major financial institutions operated with extreme leverage (often 30:1 or higher). Deregulation (e.g., repeal of Glass-Steagall) and shadow banking allowed unchecked growth in off-balance-sheet activities. Fannie Mae and Freddie Mac also expanded subprime exposure.\n- **Overconfidence and systemic risk**: Widespread belief that housing prices would never fall nationally, combined with interconnectedness among banks, insurers (like AIG), and hedge funds, created systemic fragility.\n\n### Timeline and Key Events\n- **2006–2007**: U.S. housing prices peaked and began declining. Subprime defaults rose sharply. Bear Stearns hedge funds collapsed in mid-2007; the firm was acquired by JPMorgan Chase with Federal Reserve assistance in March 2008.\n- **September 2008**: The crisis intensified. Lehman Brothers filed for bankruptcy on September 15 (the largest in U.S. history), triggering panic. Merrill Lynch was sold to Bank of America. AIG received an $85 billion government bailout to prevent collapse due to CDS exposure. Money markets froze, and interbank lending halted.\n- **Government response**: The U.S. Congress passed the $700 billion Troubled Asset Relief Program (TARP) in October 2008. The Federal Reserve and Treasury injected liquidity, guaranteed bank deposits, and bailed out institutions. Similar actions occurred in Europe and elsewhere.\n\n### Impacts\n- **Economic contraction**: Global GDP fell, unemployment surged (peaking near 10% in the U.S.), and home foreclosures reached millions. Stock markets lost over half their value.\n- **Banking sector**: Dozens of banks failed; credit froze for businesses and consumers.\n- **Global effects**: Europe faced sovereign debt issues (e.g., Greece, Ireland), Iceland’s banking system collapsed, and emerging markets suffered capital outflows.\n- **Social costs**: Widespread wealth destruction, especially in housing and retirement accounts, and a prolonged recovery with slow wage growth.\n\n### Aftermath and Reforms\nThe crisis led to the Dodd-Frank Wall Street Reform and Consumer Protection Act (2010) in the U.S., which increased oversight, created the Consumer Financial Protection Bureau, and imposed stress tests on banks. Basel III raised international capital requirements. Many institutions were consolidated, and “too big to fail” concerns persisted. Recovery was uneven, with criticism over bailouts favoring Wall Street over homeowners.\n\nThe event highlighted risks of financial innovation without adequate safeguards and remains a key case study in macroeconomics and regulation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 200,
+  "completion_tokens": 956,
+  "total_tokens": 1156,
+  "cost": 0.0025056,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0025056,
+   "upstream_inference_prompt_cost": 0.0001156,
+   "upstream_inference_completions_cost": 0.00239
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 253,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:09.586305+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

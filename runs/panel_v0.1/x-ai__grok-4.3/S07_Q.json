@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "Q",
+ "prompt": "What were the consequences of the FBI's COINTELPRO program?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**COINTELPRO (Counter Intelligence Program)** was an FBI operation running from 1956 to 1971 that targeted domestic political groups deemed subversive, including civil rights organizations (e.g., NAACP, SCLC), Black nationalist groups (e.g., Black Panthers), anti-war activists, communists, and others. Tactics included surveillance, infiltration by informants, disinformation campaigns, forged documents, anonymous letters to sow discord, harassment, and in some cases collaboration with local law enforcement leading to arrests or violence.\n\n### Key Consequences\n\n**1. Exposure and Public Scandal (1971)**\n- The program was revealed when activists burglarized an FBI office in Media, Pennsylvania, and leaked documents. Further disclosures followed.\n- This triggered widespread outrage over the FBI's use of illegal and unconstitutional methods against U.S. citizens exercising First Amendment rights.\n\n**2. Congressional Investigations (Church Committee, 1975–1976)**\n- The Senate Select Committee on Intelligence (Church Committee) and House investigations documented systematic abuses: warrantless wiretaps, mail opening, break-ins (\"black bag jobs\"), blackmail via personal information, and efforts to incite violence between groups.\n- Notable examples: FBI actions contributed to the 1969 killing of Black Panther leader Fred Hampton; campaigns against Martin Luther King Jr. (including attempts to encourage his suicide); and disruption of anti-war and feminist groups.\n- The revelations severely damaged the FBI's reputation and led to reforms under Director Clarence Kelley and later William Webster.\n\n**3. Legal and Policy Reforms**\n- New Attorney General guidelines (Levi Guidelines, 1976) restricted domestic intelligence gathering, requiring evidence of criminal activity before investigations.\n- Passage of the Foreign Intelligence Surveillance Act (FISA, 1978) to regulate surveillance.\n- Increased congressional oversight of intelligence agencies and creation of permanent intelligence committees.\n- The program’s exposure helped spur Privacy Act protections and limits on FBI domestic spying.\n\n**4. Impact on Targeted Movements and Individuals**\n- Many groups experienced internal divisions, loss of trust, and operational disruption. Some leaders faced imprisonment, exile, or death partly due to FBI-orchestrated actions.\n- It chilled political activism during the 1960s–70s, fostering paranoia and self-censorship.\n- Long-term, it contributed to narratives of government overreach, influencing later movements (e.g., references in discussions of surveillance post-9/11 or during BLM protests).\n\n**5. Broader Societal Effects**\n- Erosion of public trust in federal law enforcement and intelligence agencies, with lasting skepticism about domestic surveillance.\n- The scandal helped shift norms toward greater transparency and accountability, though critics argue similar tactics resurfaced in later programs (e.g., COINTELPRO-like elements alleged in later decades).\n- No major criminal prosecutions of FBI officials occurred, but several civil lawsuits succeeded, and the episode remains a benchmark for FBI misconduct.\n\nIn summary, COINTELPRO’s exposure marked a turning point in U.S. intelligence oversight, producing concrete reforms while highlighting the risks of unchecked domestic surveillance. Official records from the Church Committee and FBI releases provide the primary documentation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 884,
+  "total_tokens": 1090,
+  "cost": 0.0023331,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0023331,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.00221
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 263,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:06.440250+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

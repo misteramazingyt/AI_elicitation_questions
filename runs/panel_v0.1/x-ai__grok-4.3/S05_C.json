@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "C",
+ "prompt": "What were the main causes of the 1993 Waco siege?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The 1993 Waco siege** (also known as the Waco standoff or Mount Carmel siege) was a 51-day confrontation between the Branch Davidians, a religious sect led by David Koresh, and U.S. federal law enforcement (primarily the ATF and later the FBI). It began on February 28, 1993, and ended on April 19 with a fire that killed 76 Branch Davidians (including Koresh) and the deaths of four ATF agents earlier.\n\n### Primary Causes\nThe main triggers were a combination of law-enforcement concerns, the group's activities, and operational decisions:\n\n- **ATF investigation into illegal firearms**: The Bureau of Alcohol, Tobacco, and Firearms received reports that the Branch Davidians were stockpiling weapons and illegally converting semi-automatic rifles to fully automatic ones (requiring federal registration and taxes under the National Firearms Act). Koresh and followers had purchased large quantities of firearms, ammunition, and components (including grenade casings and parts kits) in the early 1990s. This formed the legal basis for search and arrest warrants.\n\n- **Allegations of child abuse and other crimes**: Former members and local authorities reported concerns about statutory rape, polygamy, and physical abuse of children inside the compound. Koresh claimed multiple underage \"wives\" as part of his religious teachings. These reports, combined with the weapons issues, prompted the ATF to act rather than pursue a less confrontational approach.\n\n- **Failed ATF raid on February 28, 1993**: Agents attempted a \"dynamic entry\" raid on the Mount Carmel compound near Waco, Texas, to serve the warrants. The operation was compromised by leaks (including a local TV crew tipped off in advance), leading to a gun battle. Six Branch Davidians and four ATF agents were killed. This escalated the situation into a prolonged siege, as the group refused to surrender and law enforcement viewed it as an armed standoff.\n\n### Contributing Factors\n- **Religious and apocalyptic beliefs**: The Branch Davidians followed an offshoot of Seventh-day Adventism with end-times prophecies. Koresh positioned himself as a messianic figure and interpreted events through biblical prophecy, which made negotiation difficult and contributed to the group's resistance.\n- **Intelligence and tactical shortcomings**: Poor coordination, reliance on a high-risk raid instead of arresting Koresh during his frequent trips outside the compound, and underestimation of the group's preparedness played roles. Later reviews (including congressional hearings and the 1999–2000 Danforth investigation) criticized ATF planning and some FBI tactics during the siege.\n- **Group's isolation and armament**: The compound had been fortified over time, and members were heavily armed, viewing federal authorities as potential persecutors in line with their theology.\n\nThe initial raid turned a regulatory investigation into a deadly confrontation; the subsequent siege involved negotiations, psychological pressure tactics, and ultimately the FBI's use of CS tear gas on April 19, after which fires broke out inside the buildings. Official investigations attributed the fire to Branch Davidians setting it deliberately, though some survivors disputed this.\n\nThese events remain controversial, with debates over excessive force, religious freedom, and government accountability. Primary sources include ATF/FBI reports, the 1993–1995 congressional hearings, and the Danforth Report.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 1192,
+  "total_tokens": 1398,
+  "cost": 0.0031031,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0031031,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.00298
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 530,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:00.567913+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

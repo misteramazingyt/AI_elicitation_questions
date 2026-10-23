@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "D",
+ "prompt": "Describe the Kent State shootings of 1970.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The Kent State shootings** (also known as the Kent State massacre) occurred on **May 4, 1970**, at Kent State University in Kent, Ohio. During a campus protest against the Vietnam War—specifically the U.S. expansion of the conflict into Cambodia—members of the Ohio National Guard fired into a crowd of unarmed students, killing four and wounding nine others.\n\n### Background\nIn the spring of 1970, anti-war sentiment was intense on many U.S. college campuses. President Richard Nixon’s announcement on April 30 that U.S. forces had invaded Cambodia triggered widespread protests. At Kent State, demonstrations began on May 1. Some involved property damage (including the burning of the ROTC building on May 2), prompting Ohio Governor James Rhodes to deploy the National Guard. Tensions escalated over the following days as the Guard occupied the campus.\n\n### The Shooting\nOn May 4, roughly 2,000 students gathered for a noon rally on the university’s Commons despite a ban on gatherings. The National Guard, numbering about 100 troops, attempted to disperse the crowd using tear gas and bayonets. As students retreated up a hill (Blanket Hill) and some threw rocks, a group of Guardsmen suddenly turned, aimed their rifles, and fired approximately 67 rounds over 13 seconds.\n\nThe victims were:\n- **Allison Krause** (19) – shot in the chest\n- **Jeffrey Miller** (20) – shot in the head (iconic photo by John Filo)\n- **Sandra Lee Scheuer** (20) – shot in the neck\n- **William Knox Schroeder** (19) – shot in the chest\n\nNine others were wounded, some seriously. Most of those hit were not actively protesting at the moment of the shooting; some were simply walking to class.\n\n### Aftermath and Impact\nThe shootings sparked a national outcry and a student strike that shut down hundreds of colleges. It intensified opposition to the war and contributed to a shift in public opinion. A famous photograph of a young woman kneeling over Jeffrey Miller’s body became a symbol of the era. The event also led to the “Hard Hat Riot” in New York City days later, where construction workers attacked anti-war demonstrators.\n\nInvestigations (including the President’s Commission on Campus Unrest, aka the Scranton Commission) concluded the shootings were “unnecessary, unwarranted, and inexcusable.” No Guardsmen were convicted; most charges were dropped or resulted in acquittals. The university and state later reached settlements with victims’ families.\n\nThe Kent State shootings remain a defining moment of the Vietnam War era, illustrating the deep divisions in American society at the time.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 202,
+  "completion_tokens": 870,
+  "total_tokens": 1072,
+  "cost": 0.0022931,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0022931,
+   "upstream_inference_prompt_cost": 0.0001181,
+   "upstream_inference_completions_cost": 0.002175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 326,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:00.975769+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

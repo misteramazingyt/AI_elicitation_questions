@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "D",
+ "prompt": "Describe the 1996 U.S. welfare reform law.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 1996 U.S. welfare reform law is the **Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA)**, signed by President Bill Clinton on August 22, 1996.\n\n### Core Changes\nIt fundamentally overhauled the federal welfare system by replacing the long-standing **Aid to Families with Dependent Children (AFDC)** program—an open-ended entitlement—with **Temporary Assistance for Needy Families (TANF)**, a block-grant program that gives states fixed funding and broad flexibility to design their own assistance programs.\n\n### Key Provisions\n- **Work requirements**: Able-bodied recipients generally must begin working within two years of receiving benefits. States face penalties if they fail to meet federal work-participation rates.\n- **Time limits**: Federal cash assistance is limited to a lifetime maximum of five years (with states allowed to set shorter limits or use their own funds for extensions).\n- **Block grants and state flexibility**: Funding shifted from matching federal dollars to fixed annual grants to states, ending the entitlement structure.\n- **Immigrant restrictions**: Most legal immigrants arriving after the law’s enactment were barred from federal means-tested benefits (including TANF, Medicaid, and food stamps) for their first five years in the U.S.\n- **Other measures**: Strengthened child-support enforcement, tightened eligibility for Supplemental Security Income (SSI) and food stamps for certain groups, and included incentives aimed at reducing out-of-wedlock births.\n\n### Stated Goals\nThe law’s stated purposes were to promote work, reduce long-term welfare dependency, discourage non-marital births, and give states greater control over welfare policy.\n\nPRWORA remains the foundational statute governing cash welfare assistance in the United States, though states have since made many adjustments within the TANF framework.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 204,
+  "completion_tokens": 634,
+  "total_tokens": 838,
+  "cost": 0.0017056,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017056,
+   "upstream_inference_prompt_cost": 0.0001206,
+   "upstream_inference_completions_cost": 0.001585
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 281,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:31.161799+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

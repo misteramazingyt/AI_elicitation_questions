@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "D",
+ "prompt": "Describe the UK miners' strike of 1984-1985.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The UK miners' strike of 1984–1985 was one of the most bitter and significant industrial disputes in British history. It pitted the National Union of Mineworkers (NUM) against the Conservative government of Prime Minister Margaret Thatcher and the state-owned National Coal Board (NCB). Lasting nearly a year (from 6 March 1984 to 3 March 1985), it became a symbolic battle over the future of the coal industry, trade union power, and the direction of the British economy.\n\n### Background and Causes\nBy the early 1980s, the British coal industry was in long-term decline. Many pits were uneconomic, producing coal at a higher cost than it could be sold for, especially as cheaper imports and alternative energy sources (oil, gas, nuclear) grew. The NCB, under chairman Ian MacGregor, announced plans in early 1984 to close 20 pits and cut around 20,000 jobs, with more closures likely to follow.\n\nThe NUM, led by the militant left-wing president Arthur Scargill, opposed any closures without full consultation and argued that the government was deliberately running down the industry. Scargill framed the dispute as a political attack on working-class communities rather than a purely economic issue. The government, still smarting from the successful 1974 miners’ strike that had helped bring down Edward Heath’s Conservative government, was determined not to repeat that experience. Thatcher had prepared extensively, stockpiling coal at power stations and recruiting extra police resources.\n\n### The Strike\nThe strike began regionally in Yorkshire and Scotland after the NCB announced specific pit closures without the usual review procedure. It quickly spread, but crucially it was never made official through a national ballot of NUM members. This lack of a ballot became highly controversial: many miners in Nottinghamshire, Derbyshire, and other areas continued working, leading to bitter divisions within mining communities and accusations of betrayal from strikers.\n\nKey features of the dispute included:\n- **Mass picketing**: Strikers attempted to prevent working miners from entering pits. The most notorious confrontation occurred at the Orgreave coking plant in South Yorkshire in June 1984, where mounted police charged pickets in scenes reminiscent of a battlefield.\n- **Hardship and policing**: Striking families faced severe financial hardship (no strike pay, and benefits were restricted). The government deployed large numbers of police, often using tactics that critics described as paramilitary.\n- **Divisions**: The strike split the NUM and the wider labour movement. The breakaway Union of Democratic Mineworkers formed in Nottinghamshire. The Trades Union Congress and Labour Party leadership gave only lukewarm support.\n\n### Outcome\nThe strike ended in defeat for the NUM. Most miners returned to work without an agreement, and the NCB proceeded with widespread pit closures. By the end of the 1980s, the coal industry had been drastically reduced. Scargill’s leadership was heavily criticised by some on the left for tactical errors (especially the lack of a ballot), while supporters viewed him as a principled defender of communities.\n\n### Significance\nThe strike is widely seen as a turning point in post-war British history:\n- It marked a decisive victory for Thatcher’s government in its confrontation with trade union power.\n- It accelerated deindustrialisation in many regions and contributed to long-term social and economic problems in former mining areas.\n- It polarised British society and remains a deeply emotive subject, with strong views on both sides about whether it was a necessary modernisation or a politically motivated destruction of communities.\n\nToday it is often studied as a classic example of the clash between neoliberal economic policy and traditional industrial unionism.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 1087,
+  "total_tokens": 1293,
+  "cost": 0.0028406,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0028406,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.0027175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 355,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:23.474300+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

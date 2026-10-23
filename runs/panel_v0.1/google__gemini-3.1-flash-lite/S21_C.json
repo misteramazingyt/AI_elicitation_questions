@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Immigration Act of 1924, also known as the **Johnson-Reed Act**, was a landmark piece of U.S. legislation that fundamentally altered American immigration policy. It established a quota system that severely restricted immigration from Southern and Eastern Europe and completely banned immigration from Asia.\n\nThe causes of the Act were rooted in a complex mix of post-World War I anxieties, economic concerns, and prevailing social ideologies. Here are the main causes:\n\n### 1. Nativism and Xenophobia\nFollowing World War I, the United States experienced a surge in nativism—a policy of protecting the interests of native-born inhabitants against those of immigrants. Many Americans feared that the influx of immigrants was diluting \"American\" culture and values. This sentiment was fueled by the belief that the country was becoming too diverse and that the \"traditional\" American identity (largely defined as Anglo-Saxon and Protestant) was under threat.\n\n### 2. The \"Red Scare\" and Fear of Radicalism\nThe Russian Revolution of 1917 and the subsequent rise of communism in Europe created a climate of intense fear in the U.S., known as the First Red Scare. Many Americans associated immigrants from Southern and Eastern Europe (such as Italians, Poles, and Russians) with radical political ideologies like anarchism, socialism, and communism. Lawmakers argued that restricting immigration was a necessary measure to protect American democracy and capitalism from foreign \"subversion.\"\n\n### 3. Scientific Racism and Eugenics\nThe early 20th century saw the rise of \"scientific racism,\" which included the pseudo-science of eugenics. Many influential Americans, including politicians and academics, believed in a hierarchy of races. They argued that Northern and Western Europeans (often called \"Nordics\") were genetically and culturally superior to Southern and Eastern Europeans, as well as Asians. This ideology provided a \"scientific\" justification for the quota system, which was explicitly designed to favor immigrants from countries like Great Britain, Germany, and Scandinavia while excluding those deemed \"inferior.\"\n\n### 4. Economic Anxiety and Labor Competition\nThe post-WWI period saw economic instability, including high inflation and labor unrest. Many native-born workers and labor unions feared that immigrants were willing to work for lower wages, thereby driving down pay and taking jobs away from Americans. Unions, such as the American Federation of Labor (AFL), lobbied heavily for immigration restriction, arguing that a surplus of cheap labor weakened the bargaining power of American workers.\n\n### 5. The Failure of Previous Restrictions\nThe Immigration Act of 1924 was not the first attempt to limit immigration; it was an escalation of previous efforts. The Emergency Quota Act of 1921 had set temporary limits, but it was viewed by restrictionists as insufficient. The 1924 Act was designed to be more permanent and more restrictive. By basing the quotas on the 1890 census (rather than the more recent 1910 or 1920 censuses), the government ensured that the number of allowed immigrants from Southern and Eastern Europe would be drastically lower, as fewer people from those regions had been in the U.S. in 1890.\n\n### 6. Isolationism\nAfter the trauma of World War I, the United States adopted a foreign policy of isolationism. Many Americans wanted to withdraw from international affairs and focus on domestic issues. Restricting immigration was seen as a way to \"close the gates\" and insulate the United States from the political and social turmoil of Europe and the rest of the world.\n\n### Summary\nIn short, the Immigration Act of 1924 was the legislative culmination of a desire to **preserve a specific vision of American identity.** By using a quota system based on national origin, the U.S. government effectively codified racial and ethnic discrimination into law, ensuring that the demographic makeup of the country would remain predominantly Northern and Western European for the next four decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 948,
+  "total_tokens": 964,
+  "cost": 0.001426,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001426,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.001422
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 132,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:48.757492+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

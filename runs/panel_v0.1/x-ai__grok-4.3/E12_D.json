@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "D",
+ "prompt": "Describe Argentina's 2001 economic crisis.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "Argentina's 2001 economic crisis was a severe depression that peaked between late 2001 and early 2002, marking the collapse of the country's decade-long experiment with a currency board and fixed exchange rate. It resulted in the largest sovereign debt default in history at the time, widespread social unrest, and a sharp contraction in output.\n\n### Background and Causes\nIn 1991, Argentina adopted the Convertibility Plan under President Carlos Menem, which pegged the peso 1:1 to the U.S. dollar. This successfully tamed hyperinflation from the 1980s but created structural problems over time:\n- The peso became overvalued, hurting export competitiveness.\n- Persistent fiscal deficits, provincial overspending, and rising public debt (much of it in dollars) built vulnerabilities.\n- External shocks, including Brazil's 1999 devaluation and falling commodity prices, worsened the trade balance.\n- By 1998–2000, the economy was already in recession, unemployment exceeded 15%, and the government relied on IMF loans while implementing austerity.\n\n### Key Events\n- **Bank runs and the corralito**: In late 2001, fears of devaluation triggered massive withdrawals. On December 1, the government imposed the *corralito*, freezing bank deposits and limiting cash withdrawals to prevent a full banking collapse.\n- **Political upheaval**: President Fernando de la Rúa resigned on December 20 amid riots and looting (*cacerolazos*). Five presidents served in less than two weeks, including interim leaders like Adolfo Rodríguez Saá, who briefly declared default.\n- **Default and devaluation**: Argentina defaulted on about $100 billion in external debt in December 2001. In January 2002, the convertibility regime ended; the peso was devalued sharply (eventually floating and losing over 70% of its value), and deposits were converted asymmetrically (pesos for dollar accounts at unfavorable rates), eroding savings.\n\n### Immediate Consequences\n- GDP contracted by roughly 11% in 2002 (following a 4–5% drop in 2001), with unemployment peaking above 20% and poverty rates surpassing 50%.\n- Inflation surged after devaluation, though it was contained compared to the 1980s.\n- Social protests, including road blockades by *piqueteros*, highlighted inequality and the failure of neoliberal policies.\n\n### Aftermath and Recovery\nThe crisis led to a messy debt restructuring (completed years later with significant haircuts for creditors) and a shift toward more interventionist policies under Presidents Eduardo Duhalde and Néstor Kirchner. Recovery began in 2003, fueled by a weaker peso boosting exports, rising global commodity prices, and debt relief. However, the episode left lasting scars: eroded trust in institutions, repeated cycles of inflation and capital controls, and debates over currency regimes that continue to influence Argentine policy.\n\nThe crisis is often cited as a cautionary tale about rigid exchange-rate pegs, unsustainable debt dynamics, and the social costs of abrupt adjustments.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 201,
+  "completion_tokens": 919,
+  "total_tokens": 1120,
+  "cost": 0.00241435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00241435,
+   "upstream_inference_prompt_cost": 0.00011685,
+   "upstream_inference_completions_cost": 0.0022975
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 309,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:29.073211+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The Supreme Court's 1973 decision in Roe v. Wade (410 U.S. 113) was driven primarily by constitutional interpretation of privacy rights under the Due Process Clause of the Fourteenth Amendment, building on prior precedents, combined with the specific facts of restrictive state laws and broader social context.**\n\n### Legal and Constitutional Foundations\n- **Right to privacy precedent**: The Court, in a 7-2 opinion by Justice Harry Blackmun, held that the Constitution protects a right to privacy that includes a woman's decision whether to terminate a pregnancy. This drew directly from *Griswold v. Connecticut* (1965), which recognized privacy in marital contraceptive use; *Eisenstadt v. Baird* (1972), extending it to individuals; and earlier cases like *Meyer v. Nebraska* (1923) and *Pierce v. Society of Sisters* (1925) on family and personal autonomy. The majority viewed abortion as falling within this zone of personal liberty.\n- **Substantive due process**: Texas's near-total ban (allowing abortion only to save the mother's life) was deemed to violate due process by unduly burdening a fundamental right. The Court balanced this against state interests in maternal health (post-first trimester) and potential life (post-viability, around 24-28 weeks), creating the trimester framework.\n- **Case facts**: Plaintiff Norma McCorvey (\"Jane Roe\") challenged Texas law after being denied a legal abortion. Similar suits from Georgia (*Doe v. Bolton*) were consolidated. The laws were seen as outdated relics from the 19th century that ignored modern medical realities and women's circumstances.\n\n### Societal and Historical Context\n- Widespread illegal abortions led to significant health risks (e.g., back-alley procedures causing injury or death), highlighted in medical literature and public discourse by the late 1960s.\n- The women's rights movement, second-wave feminism, and shifting public attitudes toward reproductive autonomy influenced the legal climate, though the Court framed its ruling strictly in constitutional terms rather than policy preferences.\n- Medical advancements made early abortions safer, undermining older justifications for bans.\n\nThe decision did not create an absolute right; it allowed states to regulate after the first trimester and prohibit after viability (with exceptions for the mother's life or health). It was later modified by *Planned Parenthood v. Casey* (1992) and overturned in *Dobbs v. Jackson Women's Health Organization* (2022), returning regulation to the states. The ruling rested on the justices' view of implied constitutional liberties rather than explicit text mentioning abortion.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 211,
+  "completion_tokens": 1076,
+  "total_tokens": 1287,
+  "cost": 0.00281935,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00281935,
+   "upstream_inference_prompt_cost": 0.00012935,
+   "upstream_inference_completions_cost": 0.00269
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 563,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:11.964651+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

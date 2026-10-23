@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "D",
+ "prompt": "Describe Soviet espionage in the United States in the 1940s, including the Rosenberg case.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**Soviet espionage in the United States during the 1940s** was extensive, driven by the USSR’s desire for military technology, industrial secrets, and especially atomic bomb information during and after World War II. Although the Soviet Union was a wartime ally, its intelligence services (primarily the NKGB, later MGB) ran large-scale operations through “legal” (diplomatic cover) and “illegal” (undercover) networks. These efforts targeted the Manhattan Project, defense industries, and government agencies.\n\n### Key Characteristics\n- **Recruitment**: Spies were often recruited from the American Communist Party (CPUSA) or sympathetic leftists, engineers, and scientists. Many were motivated by anti-fascism during the war.\n- **Methods**: Couriers, dead drops, microfilm, and one-time pads were used. The Venona project (U.S. code-breaking effort) later decrypted thousands of Soviet cables, revealing dozens of agents.\n- **Major targets**: Atomic research at Los Alamos, Oak Ridge, and Hanford; aircraft and radar technology; State Department and Treasury Department documents.\n\n### Prominent Networks and Cases\n- **Atomic espionage ring**: Klaus Fuchs (British physicist at Los Alamos) passed detailed bomb designs to Soviet handler Harry Gold. David Greenglass, a machinist at Los Alamos, supplied sketches and information.\n- **Other notable spies**: Alger Hiss (State Department), Harry Dexter White (Treasury), and numerous engineers and scientists identified in Venona traffic.\n- The scale was significant; Venona and later declassified files indicate hundreds of Americans provided information, though not all were witting or high-level.\n\n### The Rosenberg Case\nJulius Rosenberg (1918–1953) and Ethel Rosenberg (1915–1953) were the most famous American couple convicted of atomic espionage.\n\n- **Background**: Julius, an electrical engineer and CPUSA member, was recruited by Soviet intelligence in the mid-1940s. He ran a small ring that included his brother-in-law David Greenglass. Ethel typed some notes but was not a primary operative.\n- **Activities**: Julius arranged for Greenglass to pass Manhattan Project information (including lens mold sketches for the plutonium bomb) to courier Harry Gold, who delivered it to Soviet handlers. The material helped accelerate the Soviet atomic program; the USSR tested its first bomb in 1949.\n- **Arrest and trial**: The ring was exposed after the arrest of Klaus Fuchs in Britain (1950) and Gold’s confession. Greenglass implicated the Rosenbergs. They were arrested in 1950, tried in 1951 under the Espionage Act of 1917, and convicted largely on Greenglass’s testimony (which he later admitted was partly fabricated to protect his wife). The trial occurred amid rising Cold War tensions and fears of atomic war.\n- **Outcome**: Julius and Ethel were sentenced to death. Appeals failed, and they were executed by electric chair at Sing Sing on June 19, 1953—the only American civilians executed for espionage during the Cold War. Their sons, Michael and Robert Meeropol, have long maintained their mother’s innocence; declassified Venona messages confirm Julius’s guilt but show Ethel’s role was limited.\n\n### Aftermath and Legacy\nThe Rosenberg case became a cause célèbre, with protests claiming anti-Semitism and political persecution. It fueled McCarthy-era anti-communism and justified expanded counterintelligence. Venona decrypts (released in the 1990s) largely corroborated the existence of the networks while showing that some trial testimony was exaggerated.\n\nSoviet espionage successes in the 1940s gave the USSR critical shortcuts in its nuclear program but also damaged U.S.–Soviet relations once exposed, contributing to the early Cold War atmosphere of suspicion.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 211,
+  "completion_tokens": 1203,
+  "total_tokens": 1414,
+  "cost": 0.00313685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00313685,
+   "upstream_inference_prompt_cost": 0.00012935,
+   "upstream_inference_completions_cost": 0.0030075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 442,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:52.678217+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

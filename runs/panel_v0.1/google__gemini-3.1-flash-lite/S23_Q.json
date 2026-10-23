@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2020 George Floyd protests?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2020 protests following the murder of George Floyd were among the largest and most widespread in United States history. Their consequences were multifaceted, affecting law enforcement, public policy, corporate culture, and the national conversation on race.\n\nHere is an overview of the primary consequences of the 2020 protests:\n\n### 1. Legislative and Policy Reforms\nThe protests spurred a wave of legislative activity at the local, state, and federal levels aimed at police accountability.\n*   **State-Level Reforms:** Many states passed laws restricting the use of chokeholds, requiring the reporting of police misconduct, and limiting qualified immunity (a legal doctrine that protects government officials from being held personally liable for constitutional violations).\n*   **Executive Action:** In June 2020, President Donald Trump signed an executive order encouraging better police training and the creation of a database to track officers with a history of excessive force.\n*   **Local Policy Changes:** Numerous cities implemented bans on no-knock warrants, mandated the use of body cameras, and established civilian oversight boards to review police conduct.\n\n### 2. Shifts in Public Discourse and Awareness\nThe protests significantly altered the national conversation regarding systemic racism and the role of policing.\n*   **Mainstream Recognition of Systemic Issues:** Concepts such as \"systemic racism,\" \"white privilege,\" and \"implicit bias\"—previously discussed primarily in academic or activist circles—entered mainstream media and corporate HR training.\n*   **The \"Defund the Police\" Debate:** The slogan \"Defund the Police\" became a central, albeit polarizing, part of the discourse. While it led to some cities reallocating portions of police budgets toward social services, mental health, and community programs, it also became a significant political flashpoint, with critics arguing it led to rising crime rates and decreased police morale.\n\n### 3. Corporate and Cultural Changes\nThe protests forced a \"racial reckoning\" across various sectors of American society.\n*   **Corporate DEI Initiatives:** Many corporations pledged billions of dollars toward racial equity initiatives, increased their diversity, equity, and inclusion (DEI) hiring, and conducted internal audits of their corporate cultures.\n*   **Cultural Re-evaluations:** There was a widespread removal of Confederate statues and monuments across the U.S. Additionally, many brands (such as Aunt Jemima and Uncle Ben’s) rebranded products that were criticized for relying on racial stereotypes.\n*   **Media and Entertainment:** Newsrooms, film studios, and publishing houses faced internal pressure to diversify their staffs and re-examine how they covered stories related to race and crime.\n\n### 4. Impact on Law Enforcement\nThe relationship between police departments and the communities they serve underwent significant strain and transformation.\n*   **Recruitment and Retention Challenges:** Many police departments reported a surge in retirements and resignations following the protests, citing low morale and increased public scrutiny. This led to staffing shortages in several major cities.\n*   **Increased Scrutiny:** Police departments faced heightened pressure to be transparent. The widespread use of smartphone video during the protests accelerated the demand for body-worn cameras and public access to police records.\n\n### 5. Political Polarization\nThe protests became a defining issue in the 2020 U.S. presidential election and subsequent political cycles.\n*   **Partisan Divide:** The protests deepened the divide between the political left and right. Democrats generally supported the movement’s goals of racial justice, while Republicans largely emphasized \"law and order,\" criticizing the violence and property damage that occurred during some of the demonstrations.\n*   **Electoral Impact:** The protests energized voter turnout, particularly among younger voters and people of color, which played a role in the 2020 election results. Conversely, the \"law and order\" messaging became a cornerstone of conservative political campaigns in the years that followed.\n\n### 6. Legal Outcomes\nThe protests led to high-profile legal proceedings that set precedents for police accountability.\n*   **The Derek Chauvin Trial:** The conviction of Derek Chauvin for the murder of George Floyd was widely viewed as a landmark moment in the American justice system, as it was rare for a police officer to be held criminally liable for an on-duty death.\n*   **Ongoing Litigation:** Numerous lawsuits filed by protesters regarding police conduct during the demonstrations (such as the use of tear gas, rubber bullets, and kettling) resulted in settlements and court rulings that restricted how police can manage future protests.\n\n### Summary\nThe consequences of the 2020 protests are still unfolding. While they succeeded in bringing issues of racial injustice to the forefront of American life and prompted tangible policy changes, they also triggered a significant political backlash. The long-term impact remains a subject of intense debate, with some arguing that the movement fundamentally changed the country for the better, while others argue that the focus on policing has had negative consequences for public safety and social cohesion.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 1120,
+  "total_tokens": 1135,
+  "cost": 0.00168375,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00168375,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.00168
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 107,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:51.398366+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

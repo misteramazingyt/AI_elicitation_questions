@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "D",
+ "prompt": "Describe the U.S. War on Drugs from 1971 to the 1990s.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The U.S. \"War on Drugs\" is a term used to describe a decades-long government campaign, led by the United States, to reduce the illegal drug trade through prohibition, military aid, and increased incarceration. Spanning from 1971 through the 1990s, this era saw a dramatic shift in American domestic and foreign policy, characterized by a move away from public health approaches toward punitive criminal justice measures.\n\nHere is a breakdown of the War on Drugs from 1971 through the 1990s.\n\n### 1. The 1970s: The Official Declaration\nIn June 1971, President Richard Nixon officially declared drug abuse \"public enemy number one.\" This marked the formal beginning of the War on Drugs.\n\n*   **Nixon’s Strategy:** Nixon’s approach was a mix of rhetoric and policy. He created the Special Action Office for Drug Abuse Prevention (SAODAP) and the Drug Enforcement Administration (DEA) in 1973 to centralize federal drug control. While Nixon did invest in treatment programs, his administration also pioneered \"no-knock\" warrants and mandatory sentencing, setting the stage for future policies.\n*   **The Carter Era:** Under President Jimmy Carter, the focus shifted slightly toward decriminalization of marijuana. Carter’s drug advisor, Peter Bourne, advocated for treating drug use as a public health issue rather than a criminal one. However, this approach was short-lived as public concern over drug use began to rise again toward the end of the decade.\n\n### 2. The 1980s: The \"Just Say No\" Era and Mass Incarceration\nThe 1980s saw a massive escalation in the War on Drugs, driven by the emergence of crack cocaine and the Reagan administration’s \"tough on crime\" philosophy.\n\n*   **The Crack Epidemic:** The introduction of crack cocaine—a cheaper, more potent, and highly addictive form of cocaine—into urban centers caused a surge in violence and addiction. The media and political response was intense, creating a moral panic that demanded immediate government action.\n*   **Reagan’s Policies:** President Ronald Reagan shifted the focus almost entirely to law enforcement and interdiction. His administration launched the \"Just Say No\" campaign, led by First Lady Nancy Reagan, which emphasized abstinence.\n*   **The Anti-Drug Abuse Act of 1986:** This was a watershed moment. It established mandatory minimum sentences for drug offenses, creating a massive disparity between crack cocaine (associated with Black, urban users) and powder cocaine (associated with white, suburban users). A person caught with 5 grams of crack received the same 5-year mandatory sentence as someone caught with 500 grams of powder cocaine. This led to a disproportionate incarceration rate for Black Americans.\n*   **Militarization:** The government began providing military equipment and training to local police departments, blurring the lines between civilian policing and military operations.\n\n### 3. The 1990s: The Peak of Punitive Policy\nBy the 1990s, the War on Drugs had become deeply entrenched in the American political and social fabric.\n\n*   **The 1994 Crime Bill:** President Bill Clinton signed the Violent Crime Control and Law Enforcement Act of 1994. While it included some community policing initiatives, it also provided billions of dollars for prison construction and incentivized states to implement \"truth-in-sentencing\" laws, which required prisoners to serve at least 85% of their sentences. This bill is widely cited as a primary driver of the era of mass incarceration.\n*   **Three-Strikes Laws:** Many states adopted \"three-strikes\" laws during this decade, which mandated life sentences for repeat offenders, even for non-violent drug crimes.\n*   **Foreign Policy:** The U.S. continued to export the War on Drugs globally, particularly to Latin America. Through initiatives like \"Plan Colombia\" (which began taking shape in the late 90s), the U.S. provided military aid to foreign governments to eradicate coca crops and dismantle drug cartels, often leading to human rights concerns and destabilization in the region.\n\n### The Legacy of the Era\nBy the end of the 1990s, the War on Drugs had fundamentally transformed the United States:\n\n1.  **Mass Incarceration:** The U.S. prison population exploded. Between 1980 and 2000, the number of people incarcerated for drug offenses increased by over 1,000%.\n2.  **Racial Disparities:** The policies of the 80s and 90s resulted in the systemic over-policing and over-incarceration of Black and Latino communities, despite studies consistently showing that drug use rates were similar across racial lines.\n3.  **Public Health vs. Criminal Justice:** The era effectively sidelined public health approaches. Addiction was treated as a moral failing or a criminal act rather than a medical condition, which limited the availability of effective treatment and harm-reduction strategies.\n4.  **Political Consensus:** For decades, being \"tough on drugs\" was a political necessity for both Democrats and Republicans. It wasn't until the 2010s that a significant bipartisan movement began to emerge, questioning the efficacy and morality of these policies.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 1278,
+  "total_tokens": 1302,
+  "cost": 0.001923,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001923,
+   "upstream_inference_prompt_cost": 6e-06,
+   "upstream_inference_completions_cost": 0.001917
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 146,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:47.319368+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

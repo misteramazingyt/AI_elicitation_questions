@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "C",
+ "prompt": "What were the main causes of Argentina's 2001 economic crisis?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "Argentina's 2001 economic crisis (often called the \"Argentine Great Depression\") stemmed from a combination of structural weaknesses, policy choices, and external shocks that culminated in default, devaluation, and a severe contraction. The main causes were:\n\n- **Unsustainable currency peg (Convertibility Plan)**: Introduced in 1991, the peso was fixed at 1:1 to the US dollar via a currency board to end hyperinflation. While initially successful, it led to real exchange-rate appreciation as domestic inflation exceeded US levels. This eroded export competitiveness, widened the current-account deficit, and made the economy vulnerable once capital inflows slowed.\n\n- **Chronic fiscal deficits and rising public debt**: Successive governments ran large budget deficits, financed increasingly by external borrowing in dollars. By 2001, public debt exceeded 50% of GDP (much of it short-term and dollar-denominated), and provinces added to the burden through their own spending. Tax collection was weak and evasion widespread.\n\n- **External shocks and loss of competitiveness**: The 1997–98 Asian crisis, 1998 Russian default, and especially Brazil’s 1999 devaluation hit Argentina hard. Because the peso remained tied to the dollar while trading partners devalued, Argentine goods became overpriced. Commodity price declines and higher global interest rates further reduced capital inflows.\n\n- **Banking-system fragility and deposit runs**: High dollarization of deposits and loans created a mismatch. As recession deepened and fears of devaluation grew, bank runs accelerated. The government’s “corralito” (freezing deposits) in late 2001 triggered social unrest and destroyed confidence.\n\n- **Policy rigidity and delayed adjustment**: Successive administrations (especially under President Fernando de la Rúa) resisted devaluing or restructuring debt earlier, partly due to IMF pressure to maintain the peg and austerity. IMF lending continued but came with conditions that proved pro-cyclical, deepening the recession.\n\nThese factors interacted: the rigid peg prevented monetary or exchange-rate adjustment, while mounting debt and external shocks made the peg untenable. The crisis peaked in December 2001 with sovereign default, abandonment of convertibility, and a GDP drop of roughly 11% in 2002. Recovery began after the peso floated and was devalued sharply, aided later by rising commodity prices.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 844,
+  "total_tokens": 1050,
+  "cost": 0.0022331,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0022331,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.00211
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 382,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:29.222701+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

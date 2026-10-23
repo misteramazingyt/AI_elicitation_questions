@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Supreme Court's 1973 decision in Roe v. Wade recognized a constitutional right to abortion under the Due Process Clause of the Fourteenth Amendment, invalidating most state laws that restricted the procedure.\n\n## Legal Consequences\n- The ruling established a trimester framework that limited state regulation: states could not interfere in the first trimester, could regulate for health in the second, and could prohibit after viability in the third except to protect the woman's life or health.\n- It struck down existing criminal abortion statutes in many states, leading to immediate legalization nationwide and a sharp rise in legal abortions performed in clinical settings.\n- Subsequent cases refined the standard, including Planned Parenthood v. Casey in 1992, which replaced the trimester approach with an \"undue burden\" test while preserving the core holding until 2022.\n- The decision was overturned by Dobbs v. Jackson Women's Health Organization in 2022, returning regulatory authority to the states and ending the nationwide constitutional protection.\n\n## Social and Demographic Effects\n- Abortion rates increased significantly in the years following the decision, peaking in the early 1980s before gradually declining due to improved contraception access and other factors.\n- Data from government sources showed shifts in maternal mortality and morbidity patterns, with legal procedures replacing earlier unsafe methods in many cases.\n- Birth rates saw measurable changes in certain demographics, though studies attribute these to multiple influences including economic conditions and family planning trends.\n\n## Political and Cultural Ramifications\n- The decision intensified national divisions, fueling the growth of organized pro-life and pro-choice movements that influenced elections, legislation, and judicial appointments for decades.\n- It prompted repeated congressional efforts to restrict or codify abortion rights, along with state-level battles over funding, parental consent, and clinic regulations.\n- Public opinion polarized along partisan lines, with the issue becoming a central factor in Supreme Court confirmations and party platforms.\n\nThese outcomes reflect documented legal, statistical, and historical records rather than normative judgments.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 210,
+  "completion_tokens": 977,
+  "total_tokens": 1187,
+  "cost": 0.0025706,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0025706,
+   "upstream_inference_prompt_cost": 0.0001281,
+   "upstream_inference_completions_cost": 0.0024425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 593,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:13.138687+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

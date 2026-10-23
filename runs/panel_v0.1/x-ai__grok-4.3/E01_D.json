@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "D",
+ "prompt": "Describe the New Deal (1933-1939).",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The New Deal was a sweeping series of economic relief, recovery, and reform programs launched by President Franklin D. Roosevelt in response to the Great Depression. It ran primarily from 1933 to 1939 and fundamentally expanded the role of the federal government in American life.\n\n### Background and Purpose\nAfter the stock market crash of 1929 and the ensuing economic collapse, unemployment reached roughly 25% by 1933, banks failed by the thousands, and industrial production plummeted. Roosevelt’s “New Deal” aimed at three overlapping goals, often summarized as the “3 Rs”:\n- **Relief** for the unemployed and destitute\n- **Recovery** of the economy to pre-Depression levels\n- **Reform** of the financial system to prevent another crash\n\n### Two Main Phases\n\n**First New Deal (1933–1934)** focused on immediate stabilization and emergency relief:\n- Banking and financial reforms: The Emergency Banking Act and the Glass-Steagall Act restored confidence in the banking system and created the FDIC (deposit insurance). The Securities and Exchange Commission (SEC) was established to regulate Wall Street.\n- Employment programs: The Civilian Conservation Corps (CCC) put young men to work on conservation projects; the Federal Emergency Relief Administration (FERA) provided direct aid to states.\n- Industrial and agricultural measures: The National Industrial Recovery Act (NIRA) created industry codes to reduce cutthroat competition and raise wages (later struck down by the Supreme Court). The Agricultural Adjustment Act (AAA) paid farmers to reduce production in order to raise prices.\n- Regional development: The Tennessee Valley Authority (TVA) brought electricity and flood control to a chronically poor region.\n\n**Second New Deal (1935–1936)** shifted toward more permanent social and labor reforms:\n- Works Progress Administration (WPA): The largest New Deal agency, it employed millions on public-works projects ranging from roads and bridges to art, theater, and historical documentation.\n- Social Security Act (1935): Created a federal pension system for the elderly, unemployment insurance, and aid to dependent children and the disabled—the foundation of the modern American welfare state.\n- Labor rights: The Wagner Act (National Labor Relations Act) guaranteed workers the right to unionize and bargain collectively, leading to a surge in union membership.\n- Later measures (1937–1939): The Fair Labor Standards Act established a federal minimum wage and banned most child labor.\n\n### Outcomes and Legacy\nThe New Deal did not end the Depression—unemployment remained above 10% until World War II mobilization—but it dramatically reduced suffering, stabilized the banking system, and put millions back to work. It also permanently altered the relationship between citizens and the federal government by establishing the principle that Washington had a responsibility to provide economic security.\n\nCritics on the right accused Roosevelt of socialism and excessive spending; critics on the left argued the programs were too timid and failed to challenge corporate power or racial inequality (many New Deal programs were administered in ways that excluded or disadvantaged Black Americans). The Supreme Court initially struck down several key measures, prompting Roosevelt’s failed “court-packing” plan in 1937.\n\nBy 1939, with war looming in Europe, the New Deal era effectively ended as national priorities shifted to defense production. Its institutional legacy—Social Security, federal deposit insurance, labor protections, and the regulatory state—remains central to American governance today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 203,
+  "completion_tokens": 1055,
+  "total_tokens": 1258,
+  "cost": 0.00275685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00275685,
+   "upstream_inference_prompt_cost": 0.00011935,
+   "upstream_inference_completions_cost": 0.0026375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 372,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:56.512708+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

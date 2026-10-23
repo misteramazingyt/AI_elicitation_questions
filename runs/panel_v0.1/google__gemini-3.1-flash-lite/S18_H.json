@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2011 military intervention in Libya? Please cite sources.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2011 military intervention in Libya—codenamed Operation Unified Protector—remains one of the most debated foreign policy events of the 21st century. Historians and international relations scholars generally interpret the intervention through three primary, often conflicting, lenses: the \"Responsibility to Protect\" (R2P) success, the \"regime change\" overreach, and the \"failed state\" aftermath.\n\nHere is an overview of how historians and scholars have interpreted the intervention, categorized by these major themes.\n\n### 1. The \"Responsibility to Protect\" (R2P) Success\nInitially, the intervention was hailed by many as a landmark application of the \"Responsibility to Protect\" doctrine—the international norm that sovereignty is not a right, but a responsibility, and that the international community must intervene if a state fails to protect its population from mass atrocities.\n\n*   **The Interpretation:** Proponents argue that the intervention prevented a massacre in Benghazi, which Muammar Gaddafi had threatened to cleanse \"house by house.\" Scholars like **Alex J. Bellamy** have noted that the intervention was a rare moment of international consensus, where the UN Security Council authorized force to prevent imminent genocide.\n*   **Key Source:** Bellamy, A. J. (2011). \"Libya and the Responsibility to Protect: The Exception and the Norm.\" *Ethics & International Affairs*. Bellamy argues that while the intervention was a success in terms of preventing immediate mass slaughter, it created a \"normative crisis\" regarding how far such mandates should extend.\n\n### 2. The \"Regime Change\" Overreach\nA significant body of scholarship argues that the NATO-led coalition exceeded its UN mandate (Resolution 1973), which authorized the protection of civilians, not the removal of the Gaddafi regime. Critics argue that the mission \"mission creep\" transformed a humanitarian operation into a political one.\n\n*   **The Interpretation:** Historians such as **Alan J. Kuperman** have argued that the intervention was a strategic disaster that exacerbated the violence. Kuperman contends that the intervention actually prolonged the civil war by encouraging rebels to reject negotiations, believing that NATO would guarantee their victory. This perspective views the intervention as a cynical use of humanitarian rhetoric to achieve geopolitical regime change.\n*   **Key Source:** Kuperman, A. J. (2013). \"A Model Humanitarian Intervention? Reassessing NATO’s Libya Campaign.\" *International Security*. Kuperman provides a detailed critique, arguing that the intervention resulted in more deaths and instability than if the international community had stayed out.\n\n### 3. The \"Failed State\" and Regional Destabilization\nMany contemporary historians and political scientists focus on the \"day after\" problem. They argue that the intervention focused entirely on the military defeat of Gaddafi without any coherent plan for post-conflict reconstruction or state-building.\n\n*   **The Interpretation:** This school of thought emphasizes the power vacuum left behind. The collapse of the Libyan state led to the proliferation of militias, the destabilization of the Sahel region (particularly Mali), and the rise of extremist groups like ISIS in Libya. Scholars like **Christopher Chivvis** have analyzed how the lack of a post-conflict strategy turned a tactical military victory into a long-term strategic failure.\n*   **Key Source:** Chivvis, C. S. (2014). *Libya after Qaddafi: Lessons and Implications for the Future*. RAND Corporation. Chivvis argues that the intervention succeeded in its immediate military objectives but failed because the international community lacked the political will or capacity to manage the subsequent political transition.\n\n### 4. The \"Great Power\" Skepticism\nSome historians interpret the intervention through the lens of Great Power politics, specifically the relationship between NATO and Russia/China.\n\n*   **The Interpretation:** This perspective argues that the Libya intervention poisoned international relations for a decade. Because Russia and China felt \"tricked\" by the West—believing the UN mandate was for civilian protection but seeing it used for regime change—they became significantly more obstructionist in subsequent conflicts, most notably in Syria.\n*   **Key Source:** Hehir, A. (2013). \"The Permanence of Inconsistency: Libya, the Security Council, and the Responsibility to Protect.\" *International Security*. Hehir argues that the Libya intervention undermined the credibility of the UN Security Council and made future collective action against atrocities much harder to achieve.\n\n### Summary Table of Interpretations\n\n| Perspective | Core Argument | Key Scholar/Source |\n| :--- | :--- | :--- |\n| **Humanitarian (R2P)** | Prevented a massacre in Benghazi; a moral necessity. | Alex J. Bellamy (2011) |\n| **Critical/Revisionist** | \"Mission creep\" turned a humanitarian mission into regime change; prolonged the war. | Alan J. Kuperman (2013) |\n| **State-Building** | Tactical success, but strategic failure due to lack of post-conflict planning. | Christopher Chivvis (2014) |\n| **Geopolitical** | Damaged international trust (Russia/China), making future interventions impossible. | Aidan Hehir (2013) |\n\n### Further Reading for Context\nFor a comprehensive overview that synthesizes these views, the **UK Parliament’s Foreign Affairs Committee report (2016)**, titled *\"Libya: Examination of intervention and collapse and the UK’s future policy options,\"* is widely cited by historians. It concluded that the intervention was based on \"erroneous assumptions\" and an \"incomplete understanding of the evidence,\" serving as a primary source for the \"failed state\" interpretation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 1323,
+  "total_tokens": 1342,
+  "cost": 0.00198925,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00198925,
+   "upstream_inference_prompt_cost": 4.75e-06,
+   "upstream_inference_completions_cost": 0.0019845
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 128,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:46.540023+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

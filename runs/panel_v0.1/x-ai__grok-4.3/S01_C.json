@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "C",
+ "prompt": "What were the main causes of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Civil Rights Act of 1964 was driven by a combination of sustained grassroots activism, shifting public opinion, political leadership, and broader historical pressures. Its passage ended legal segregation in public places and banned employment discrimination on the basis of race, color, religion, sex, or national origin. Here are the primary factors:\n\n- **Civil Rights Movement activism**: Decades of organized protests, lawsuits, and direct action by Black Americans and allies—through groups like the NAACP, SCLC, SNCC, and CORE—exposed systemic discrimination. Key events included the 1963 Birmingham campaign (with images of police violence against children), the March on Washington, Freedom Rides, and sit-ins. These nonviolent efforts, alongside mounting frustration with slow progress, created moral and political urgency.\n\n- **Media exposure and public opinion**: National television and print coverage of brutal responses to peaceful demonstrations (e.g., Bull Connor’s tactics in Alabama) shifted Northern white attitudes and generated widespread sympathy. Post-WWII awareness of racial hypocrisy—contrasted with America’s democratic rhetoric during the Cold War and decolonization abroad—further eroded tolerance for Jim Crow.\n\n- **Presidential initiative and legislative strategy**: President John F. Kennedy introduced the bill in June 1963 after Birmingham. Following his assassination, Lyndon B. Johnson used his congressional expertise and personal commitment to push it through, framing it as a moral imperative (“We shall overcome”). Bipartisan support in Congress overcame a Southern filibuster in the Senate, aided by amendments and procedural votes.\n\n- **Weaknesses of prior laws and accumulating crises**: The Civil Rights Acts of 1957 and 1960 proved ineffective at enforcing voting rights or desegregation. Rising urban tensions, economic disparities, and the threat of further unrest made comprehensive federal intervention politically necessary.\n\nThese elements converged in 1964 amid a Democratic Congress and Johnson’s landslide election momentum, producing the strongest civil rights legislation since Reconstruction.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 210,
+  "completion_tokens": 862,
+  "total_tokens": 1072,
+  "cost": 0.0022831,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0022831,
+   "upstream_inference_prompt_cost": 0.0001281,
+   "upstream_inference_completions_cost": 0.002155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 474,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:43.795691+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

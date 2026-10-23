@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "C",
+ "prompt": "What were the main causes of the famine during China's Great Leap Forward (1959-1961)?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Great Chinese Famine (1959–1961) during the Great Leap Forward resulted primarily from Mao Zedong's radical policies, which disrupted agriculture and food distribution on a massive scale. Historians such as Frank Dikötter, Yang Jisheng, and others, drawing on Chinese archives, attribute the bulk of the estimated 15–55 million deaths to human factors rather than weather alone. Key causes include:\n\n- **Forced collectivization and unrealistic quotas**: The rapid formation of people's communes abolished private farming and imposed centralized control. Local cadres set impossibly high grain procurement targets based on inflated reports, stripping rural areas of food reserves. This left peasants with insufficient calories for survival.\n\n- **Destructive agricultural techniques**: Policies promoted pseudoscientific methods influenced by Soviet agronomist Trofim Lysenko, such as deep plowing, dense planting, and elimination of sparrows (leading to insect surges). These reduced actual yields sharply while officials continued claiming record harvests.\n\n- **Diversion of labor and resources**: Millions of farmers were redirected to backyard steel furnaces and other industrial projects, neglecting harvests. Much of the steel produced was unusable, wasting time, tools, and fuel during critical planting and reaping seasons.\n\n- **Grain exports and state hoarding**: Despite domestic shortages, China exported grain (over 3 million tons in 1959–1960) to fund industrialization, repay Soviet debts, or signal strength abroad. State granaries often held reserves that were not released to affected regions.\n\n- **Suppression of information and dissent**: Fear of political punishment prevented accurate reporting of crop failures. The Anti-Rightist Campaign and purges silenced agronomists and officials who warned of disaster, allowing flawed policies to persist. Communal dining halls also encouraged waste and overconsumption early on before rations collapsed.\n\nNatural factors like droughts, floods, and typhoons occurred in some areas and worsened outcomes, but archival evidence shows their impact was secondary; similar weather in prior decades had not triggered comparable mortality. The famine's severity varied by province, with worse effects in regions under stricter ideological enforcement or poorer local governance. Policies were adjusted only after 1961, when Mao stepped back and more pragmatic leaders like Liu Shaoqi and Deng Xiaoping introduced reforms.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 212,
+  "completion_tokens": 967,
+  "total_tokens": 1179,
+  "cost": 0.0025481,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0025481,
+   "upstream_inference_prompt_cost": 0.0001306,
+   "upstream_inference_completions_cost": 0.0024175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 519,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:00.308588+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

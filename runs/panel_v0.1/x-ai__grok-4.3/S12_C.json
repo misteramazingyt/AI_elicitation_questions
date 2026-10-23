@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "C",
+ "prompt": "What were the main causes of the rise of the Moral Majority around 1980?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The rise of the Moral Majority, founded in 1979 by Baptist minister Jerry Falwell, was driven by a convergence of cultural, political, and religious factors in the late 1970s. It mobilized conservative evangelicals and fundamentalists into a potent political force that helped elect Ronald Reagan in 1980. Here are the primary causes:\n\n- **Backlash against 1960s–1970s social changes**: Rapid shifts including the sexual revolution, second-wave feminism, the gay rights movement, no-fault divorce laws, and the 1973 *Roe v. Wade* decision on abortion were viewed by many evangelicals as moral decay and an assault on traditional family structures and biblical values. The Equal Rights Amendment and increasing secularization in public life further fueled a sense of cultural siege.\n\n- **Threats to religious institutions**: IRS efforts to revoke tax-exempt status from Christian schools that practiced racial segregation (or failed integration standards) angered many white evangelicals in the South, framing it as government overreach into religious freedom. This issue helped politicize previously apolitical fundamentalists.\n\n- **Growth of evangelical media and demographics**: The explosion of televangelism (Falwell’s *Old-Time Gospel Hour* reached millions) and the expansion of megachurches created infrastructure for mass mobilization. The Sun Belt’s population boom and the numerical strength of born-again Christians (roughly 20–25% of the U.S. population) provided a ready base.\n\n- **Shift from separatism to political engagement**: Many conservative Protestants had long avoided politics due to theological emphasis on personal salvation over social reform. Leaders like Falwell, along with allies such as Tim LaHaye and Paul Weyrich, reframed civic involvement as a religious duty, organizing voter registration drives and issue-based coalitions.\n\n- **Partisan realignment and opportunity**: Disappointment with Jimmy Carter—a self-described born-again Christian whose administration was seen as insufficiently conservative on social issues—pushed evangelicals toward the Republican Party. Reagan’s explicit courting of the religious right (e.g., endorsing school prayer and opposing abortion) aligned with Moral Majority priorities and provided electoral payoff.\n\nThese factors transformed a previously fragmented constituency into an organized bloc focused on “pro-family” issues, though the group’s influence peaked in the early 1980s before declining by the late 1980s.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 209,
+  "completion_tokens": 870,
+  "total_tokens": 1079,
+  "cost": 0.00230185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00230185,
+   "upstream_inference_prompt_cost": 0.00012685,
+   "upstream_inference_completions_cost": 0.002175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 400,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:24.855585+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

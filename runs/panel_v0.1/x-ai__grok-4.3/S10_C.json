@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Supreme Court's 5-4 decision in *Dobbs v. Jackson Women's Health Organization* (2022) rested on a constitutional analysis that rejected a federal right to abortion, returning regulatory authority to the states. The majority opinion, written by Justice Alito and joined by Justices Thomas, Gorsuch, Kavanaugh, and Barrett, identified several core legal and historical grounds.\n\n### Constitutional Interpretation\n- The Court applied originalist and textualist methods, concluding that the Constitution's text contains no reference to abortion and that no such right is implied by the Due Process Clause of the Fourteenth Amendment.\n- Precedent like *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992) was deemed \"egregiously wrong\" because abortion lacks deep roots in the nation's history and traditions at the time of the Fourteenth Amendment's ratification in 1868.\n- Evidence cited included common-law traditions treating abortion after quickening as a misdemeanor or worse, plus 19th-century state laws restricting the practice, which the opinion described as reflecting a national consensus against a constitutional right.\n\n### Factual and Procedural Background\n- Mississippi's Gestational Age Act banned most abortions after 15 weeks, with exceptions for medical emergencies or severe fetal abnormalities. The law directly conflicted with *Roe*'s viability framework (around 24 weeks).\n- Lower courts had enjoined the law under existing precedent, prompting the Supreme Court to grant certiorari and ultimately overrule the viability line as unworkable and lacking constitutional foundation.\n\n### Institutional and Historical Factors\n- The ruling reflected the Court's evolving composition, with three justices appointed during the Trump administration (Gorsuch, Kavanaugh, Barrett) providing the votes to form a majority favoring stricter scrutiny of substantive due process claims.\n- Concurring opinions added nuance: Justice Thomas urged reconsideration of other unenumerated rights precedents; Justice Kavanaugh emphasized that the decision was neutral on abortion policy itself; Chief Justice Roberts concurred in the judgment but would have upheld the Mississippi law without fully overruling *Roe*.\n\nDissenting justices (Breyer, Sotomayor, Kagan) argued that *Roe* and *Casey* had established a stable framework protecting women's liberty and equality interests, warning that the majority's approach undermined stare decisis and invited further erosion of privacy-related rights. Post-decision data from sources like the Guttmacher Institute and state health departments show subsequent variation in state laws, with roughly half the states enacting or maintaining restrictions while others expanded access.\n\nThe decision's outcome aligned with long-standing critiques from originalist scholars that *Roe* represented judicial legislation rather than interpretation grounded in text or history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 215,
+  "completion_tokens": 1235,
+  "total_tokens": 1450,
+  "cost": 0.00322185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00322185,
+   "upstream_inference_prompt_cost": 0.00013435,
+   "upstream_inference_completions_cost": 0.0030875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 695,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:18.020411+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

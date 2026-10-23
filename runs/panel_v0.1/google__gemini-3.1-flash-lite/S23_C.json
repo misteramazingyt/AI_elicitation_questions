@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "C",
+ "prompt": "What were the main causes of the 2020 George Floyd protests?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2020 protests following the death of George Floyd were sparked by a specific, immediate event, but they were fueled by long-standing systemic issues. Historians and sociologists generally categorize the causes into two layers: the immediate catalyst and the underlying structural context.\n\n### 1. The Immediate Catalyst: The Murder of George Floyd\nOn May 25, 2020, George Floyd, a 46-year-old Black man, was killed in Minneapolis, Minnesota, during an arrest. A bystander’s video captured Derek Chauvin, a white police officer, kneeling on Floyd’s neck for 9 minutes and 29 seconds while Floyd was handcuffed and lying face down.\n\n*   **The Video Evidence:** Unlike many previous incidents of police violence where accounts were disputed, the video provided undeniable, graphic evidence of the encounter. It went viral globally, making it impossible for the public to ignore or dismiss the nature of the interaction.\n*   **The Lack of Immediate Accountability:** Initial reports from the Minneapolis Police Department described the incident as a \"medical incident during police interaction,\" omitting the fact that an officer had been kneeling on Floyd’s neck. This perceived attempt to obscure the truth further outraged the public.\n\n### 2. The Underlying Context: Systemic Issues\nWhile George Floyd’s death was the spark, the scale and intensity of the protests were driven by years of accumulated frustration regarding several systemic issues:\n\n*   **A History of Police Brutality:** The protests were not an isolated reaction to one death but a culmination of anger over a long history of police killings of Black Americans. The names of Breonna Taylor (killed in Louisville in March 2020), Ahmaud Arbery (killed in Georgia in February 2020), Eric Garner, Michael Brown, Philando Castile, and many others were frequently cited by protesters. There was a widespread feeling that the justice system consistently failed to hold officers accountable for the use of excessive force against Black citizens.\n*   **Systemic Racism and Inequality:** Protesters highlighted that police violence was a symptom of broader systemic racism in the United States. This included disparities in the criminal justice system, such as higher rates of incarceration for Black Americans, as well as economic and social inequalities in housing, healthcare, and education.\n*   **The Impact of the COVID-19 Pandemic:** The timing of the protests was heavily influenced by the pandemic.\n    *   **Disproportionate Impact:** COVID-19 was disproportionately affecting Black and minority communities, both in terms of health outcomes and economic stability. This exacerbated existing feelings of marginalization.\n    *   **Public Availability:** Because of lockdowns, millions of people were out of work or working from home, and schools were closed. This meant that a large portion of the population—particularly young people—had the time and capacity to participate in protests that might not have been possible under normal circumstances.\n*   **Political Climate:** The protests occurred during a highly polarized political environment. Many protesters felt that the rhetoric coming from the federal government at the time was dismissive of racial justice concerns, which served to further galvanize the movement.\n\n### The Resulting Movement\nThe combination of these factors transformed the protests into the largest movement in U.S. history. Estimates suggest that between 15 million and 26 million people participated in the United States alone.\n\nThe movement went beyond simple outrage; it sparked a national and international conversation about:\n*   **Police Reform:** Demands for banning chokeholds, ending qualified immunity, and \"defunding\" or reallocating police budgets toward social services.\n*   **Racial Reckoning:** A widespread examination of systemic racism in corporate, academic, and cultural institutions, leading to changes in company policies, the removal of Confederate monuments, and a renewed focus on diversity, equity, and inclusion (DEI).\n\nIn summary, while the murder of George Floyd was the immediate trigger, the 2020 protests were the result of a \"perfect storm\" of long-standing grievances regarding racial injustice, a lack of police accountability, and the unique social conditions created by the COVID-19 pandemic.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 986,
+  "total_tokens": 1002,
+  "cost": 0.001483,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001483,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.001479
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:50.751325+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

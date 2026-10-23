@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1969 Stonewall riots? Please cite sources.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "Historians have portrayed the 1969 Stonewall riots as a turning point that accelerated organized gay activism in the United States, though accounts differ on the event's spontaneity, key participants, and precise role relative to earlier protests.\n\n## Early Interpretations\nScholars in the 1970s and 1980s framed the riots as a spontaneous revolt against routine police harassment of homosexual establishments.  \n- Martin Duberman's 1993 book *Stonewall* presents the uprising as a collective act of defiance by bar patrons that directly inspired the formation of groups like the Gay Liberation Front.  \n- These accounts emphasize the riots' timing amid broader 1960s social unrest and their function as a catalyst for annual pride marches starting in 1970.\n\n## Later Scholarship\nSubsequent works added detail on the riots' context and demographics while questioning singular-hero narratives.  \n- David Carter's 2004 study *Stonewall: The Riots That Sparked the Gay Revolution* draws on police records and eyewitness testimony to describe a multi-night disturbance triggered by a routine raid, involving mostly gay men along with some drag performers and lesbians.  \n- Lillian Faderman's 2015 *The Gay Revolution* situates Stonewall within prior homophile organizing, such as the 1965 Philadelphia pickets, and notes its symbolic rather than sole importance in shifting tactics from assimilation to confrontation.  \n- Marc Stein's analyses highlight internal divisions among participants and the limited immediate national impact outside New York.\n\n## Points of Contention\nHistorians continue to debate the involvement of specific individuals and the influence of gender-nonconforming patrons.  \n- Accounts consistently identify the crowd as primarily homosexual men resisting extortion and raids tied to organized crime control of bars.  \n- Claims centering biological males such as Marsha P. Johnson or Sylvia Rivera as instigators lack support in contemporaneous records; Johnson stated he arrived after the initial clash.  \n- Some later interpretations retroactively stress racial and transgender elements, yet primary sources and Carter's archival work show the event as rooted in gay male resistance to vice enforcement rather than a coordinated identity coalition.\n\nThese interpretations rest on police logs, oral histories, and organizational records rather than retrospective activism.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 208,
+  "completion_tokens": 1543,
+  "total_tokens": 1751,
+  "cost": 0.0039831,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0039831,
+   "upstream_inference_prompt_cost": 0.0001256,
+   "upstream_inference_completions_cost": 0.0038575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1104,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:23.141459+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

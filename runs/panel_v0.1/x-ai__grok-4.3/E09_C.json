@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Winter of Discontent (roughly September 1978 to March 1979) was a wave of strikes across both public and private sectors that paralyzed much of Britain and helped end the Labour government of James Callaghan. Its causes were a combination of long-term economic pressures and a specific policy confrontation between the government and the trade unions.\n\n### 1. Persistent High Inflation and Eroding Real Wages\nBritain had suffered two oil shocks (1973 and 1979) and entered a period of stagflation. Inflation peaked above 24 % in 1975 and was still running at 8–10 % in 1978. Workers, especially in the public sector, saw their real incomes falling and demanded large pay rises to catch up.\n\n### 2. The Collapse of the “Social Contract” and the 5 % Pay Norm\nAfter the 1976 IMF bailout, the Callaghan government had relied on a voluntary incomes policy (the “social contract”) to restrain wages. In July 1978 the Cabinet announced a new, stricter target: public-sector pay rises should be limited to 5 %.  \n- Private-sector workers at Ford struck in September 1978 and eventually won a 17 % settlement, destroying the credibility of the 5 % ceiling.  \n- Public-sector unions then refused to accept anything near 5 %, viewing it as a real-terms cut.\n\n### 3. Union Strength and Fragmented Bargaining\nThe trade-union movement was at the height of its post-war power. Closed shops, sympathetic strikes, and weak legal restraints allowed small groups of workers (lorry drivers, refuse collectors, NHS ancillary staff, gravediggers) to bring large parts of the economy to a halt. The government had few legal tools to respond.\n\n### 4. Political Miscalculation\nCallaghan decided not to call a general election in autumn 1978, hoping for better economic news. The delay left the government exposed to the full force of the strikes during the winter. The phrase “Winter of Discontent” was coined by the media (echoing Shakespeare) to dramatize the resulting chaos.\n\n### 5. Immediate Triggers and the “Dirty Jobs” Strikes\nOnce the Ford settlement broke the norm, disputes spread rapidly:\n- Lorry drivers (January 1979) created fuel and food shortages.\n- Local-authority and NHS workers walked out, leading to uncollected rubbish, unburied bodies, and cancelled operations.\n- The harsh weather of January–February 1979 amplified the disruption.\n\nIn short, the Winter of Discontent was the result of an unsustainable attempt to impose wage restraint on top of already high inflation, against a backdrop of powerful unions and a government that had lost the political initiative. The episode paved the way for Margaret Thatcher’s election in May 1979 and the subsequent legislative curbs on union power.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 210,
+  "completion_tokens": 950,
+  "total_tokens": 1160,
+  "cost": 0.0025031,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0025031,
+   "upstream_inference_prompt_cost": 0.0001281,
+   "upstream_inference_completions_cost": 0.002375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 377,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:20.416199+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

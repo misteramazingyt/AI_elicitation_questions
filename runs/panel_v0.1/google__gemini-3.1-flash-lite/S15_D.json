@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "D",
+ "prompt": "Describe the 1948 Arab-Israeli war.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 1948 Arab-Israeli War, known in Israel as the **War of Independence** and among Palestinians as the **Nakba** (\"the Catastrophe\"), was a pivotal conflict that fundamentally reshaped the Middle East. It marked the end of the British Mandate for Palestine and the establishment of the State of Israel.\n\nHere is a breakdown of the conflict, its phases, and its lasting consequences.\n\n### 1. Context and Causes\nThe roots of the war lay in the competing national aspirations of Jewish and Arab populations in the territory of Mandatory Palestine. Following World War II and the horrors of the Holocaust, international pressure mounted to establish a Jewish homeland.\n\n*   **UN Partition Plan (Resolution 181):** In November 1947, the United Nations proposed partitioning Palestine into two independent states—one Arab and one Jewish—with Jerusalem under an international regime (corpus separatum).\n*   **Reactions:** Jewish leadership accepted the plan, though with reservations. Arab leadership rejected it, arguing it violated the rights of the majority Arab population and was an unjust imposition by Western powers.\n*   **Civil War (1947–1948):** Immediately following the UN vote, violence erupted between Jewish and Arab militias. This period was characterized by communal fighting, attacks on supply lines, and the beginning of refugee displacement.\n\n### 2. The Outbreak of Full-Scale War\nOn May 14, 1948, the British Mandate officially expired, and David Ben-Gurion proclaimed the establishment of the State of Israel. The following day, the armies of five neighboring Arab states—Egypt, Transjordan (now Jordan), Syria, Lebanon, and Iraq—invaded the former Mandate territory.\n\nThe war can be divided into two main phases:\n\n*   **Phase 1 (May–June 1948):** The Arab armies launched a coordinated offensive. The newly formed Israel Defense Forces (IDF) were initially poorly equipped but highly motivated, fighting for survival. The Arab armies, while numerically superior, lacked unified command and coordination.\n*   **The First Truce:** In June 1948, the UN brokered a four-week truce. During this time, Israel used the pause to reorganize, import weapons (notably from Czechoslovakia), and recruit manpower. The Arab armies remained largely stagnant.\n*   **Phase 2 (July–December 1948):** When fighting resumed, the IDF held the initiative. They launched a series of offensives (such as Operation Danny and Operation Yoav) that expanded Israeli territory beyond the borders proposed by the UN partition plan. By the end of the year, Israel had secured the Galilee, the Negev, and the coastal plain.\n\n### 3. The Outcome\nThe war ended with a series of armistice agreements signed in 1949 between Israel and its neighbors (Egypt, Lebanon, Jordan, and Syria).\n\n*   **Territorial Changes:** Israel emerged in control of about 78% of the former British Mandate—significantly more than the UN partition plan had allocated. Jordan occupied the West Bank and East Jerusalem, while Egypt occupied the Gaza Strip.\n*   **The Refugee Crisis:** The war resulted in a massive demographic shift. Approximately 700,000 Palestinians fled or were expelled from their homes, becoming refugees in neighboring countries and the West Bank/Gaza. Simultaneously, in the years following the war, hundreds of thousands of Jews fled or were expelled from Arab and Muslim countries, most of whom resettled in Israel.\n\n### 4. Historical Significance and Legacy\nThe 1948 war is the foundational event of the modern Middle East conflict:\n\n*   **For Israel:** It is celebrated as a miraculous victory against overwhelming odds, securing the state's existence and sovereignty.\n*   **For Palestinians:** It is remembered as the *Nakba*, a traumatic event that resulted in the loss of their homeland, the destruction of hundreds of villages, and the beginning of a long struggle for statehood and the right of return.\n*   **Regional Instability:** The war did not resolve the underlying tensions. Instead, it set the stage for decades of subsequent conflicts (1956, 1967, 1973) and established the refugee issue as a central, unresolved grievance that remains a primary obstacle to peace today.\n\nThe war transformed the region from a colonial territory under British administration into a landscape of sovereign states and stateless populations, creating a geopolitical reality that continues to define the Middle East.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 12,
+  "completion_tokens": 1089,
+  "total_tokens": 1101,
+  "cost": 0.0016365,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016365,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.0016335
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 137,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:42.509878+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

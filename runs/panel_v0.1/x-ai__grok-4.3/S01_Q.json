@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "Q",
+ "prompt": "What were the consequences of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Civil Rights Act of 1964 banned discrimination on the basis of race, color, religion, sex, or national origin in public accommodations, employment, and federally funded programs, marking a decisive shift from legal segregation to enforced equality under federal law.\n\n## Immediate Legal Effects\n- Title II ended segregation in hotels, restaurants, theaters, and other public facilities, with the Supreme Court upholding its constitutionality in cases like Heart of Atlanta Motel v. United States.\n- Title VII created the Equal Employment Opportunity Commission and prohibited workplace discrimination, leading to lawsuits that integrated hiring practices across industries.\n- Title VI cut off federal funds to discriminatory programs, accelerating school desegregation beyond the pace set by Brown v. Board of Education.\n\n## Political and Social Shifts\n- Black voter registration surged in the South, paving the way for the Voting Rights Act of 1965 and greater Democratic support among minority voters.\n- Southern Democrats largely opposed the bill, prompting a partisan realignment where conservative voters migrated toward the Republican Party over subsequent decades.\n- Resistance included violence against activists and \"massive resistance\" tactics by some states, though federal enforcement gradually reduced overt Jim Crow practices.\n\n## Economic and Long-Term Outcomes\n- Employment barriers fell for African Americans and women, contributing to rising labor force participation and narrowing wage gaps in covered sectors during the late 1960s and 1970s.\n- Businesses faced compliance costs and later affirmative action requirements, sparking ongoing debates about regulatory burdens versus expanded opportunity.\n- Broader cultural changes included reduced public segregation, though data from later decades show persistent disparities in outcomes tied to family structure, education, and culture rather than solely legal barriers.\n\nThese results stemmed directly from the Act's enforcement mechanisms and interacted with demographic trends and subsequent court rulings.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 209,
+  "completion_tokens": 848,
+  "total_tokens": 1057,
+  "cost": 0.00224685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00224685,
+   "upstream_inference_prompt_cost": 0.00012685,
+   "upstream_inference_completions_cost": 0.00212
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 497,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:44.845910+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

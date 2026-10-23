@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "D",
+ "prompt": "Describe the passage of the Civil Rights Act of 1964.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Civil Rights Act of 1964 was landmark legislation that outlawed discrimination based on race, color, religion, sex, or national origin in public accommodations, employment, and federally funded programs. Its passage through Congress was contentious and marked by intense debate, particularly over ending racial segregation.\n\n### Legislative History\n- **House of Representatives**: The bill (H.R. 7152) was introduced in June 1963 by Rep. Emanuel Celler (D-NY) at the urging of President John F. Kennedy. After Kennedy’s assassination, President Lyndon B. Johnson made its passage a priority. The House Judiciary Committee strengthened the bill, and the full House passed it on February 10, 1964, by a vote of 290–130, with bipartisan support (Republicans provided a higher percentage of “yes” votes than Democrats).\n\n- **Senate**: The bill faced a prolonged filibuster by Southern Democrats opposed to desegregation. The debate lasted 60 working days—the longest filibuster on record at the time. Senate Republican leader Everett Dirksen (R-IL) played a key role in securing enough Republican votes to break the deadlock. On June 10, 1964, the Senate voted 71–29 to invoke cloture (ending debate), the first successful cloture vote on a civil rights measure. The Senate then passed the bill on June 19 by a 73–27 margin.\n\n- **Final Steps**: The House quickly approved the Senate’s amended version on July 2, 1964. President Johnson signed the Act into law the same day in a White House ceremony attended by civil rights leaders including Martin Luther King Jr.\n\nThe Act’s passage relied on unusual bipartisan cooperation and Johnson’s legislative skill, overcoming resistance from Southern conservatives in both parties. It built on earlier, weaker civil rights laws from 1957 and 1960 and paved the way for the Voting Rights Act of 1965.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 205,
+  "completion_tokens": 839,
+  "total_tokens": 1044,
+  "cost": 0.00221935,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00221935,
+   "upstream_inference_prompt_cost": 0.00012185,
+   "upstream_inference_completions_cost": 0.0020975
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 447,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:43.626241+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

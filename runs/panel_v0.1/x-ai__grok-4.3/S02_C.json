@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "C",
+ "prompt": "What were the main causes of the Republican Party's \"Southern strategy\"?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Republican Party's Southern Strategy emerged in the mid-1960s as a deliberate effort to attract white Southern voters who had long supported Democrats. It responded to specific political realignments rather than arising in isolation.\n\n## Historical Context\n- The Democratic Party's national leadership under Presidents Kennedy and Johnson advanced civil rights legislation, including the Civil Rights Act of 1964 and Voting Rights Act of 1965. This alienated many white Southern Democrats who opposed federal desegregation and voting rights enforcement.\n- Southern states had formed the \"Solid South\" for Democrats since Reconstruction, but these bills fractured that coalition by prioritizing national civil rights over regional traditions of segregation.\n\n## Electoral and Demographic Pressures\n- Republicans sought to expand beyond their traditional bases in the Northeast and Midwest to win presidential majorities. Capturing the South's electoral votes became a priority after Democratic dominance there limited GOP gains.\n- Population growth and economic changes in the South created a rising middle class receptive to conservative economic policies, which Republicans paired with appeals on social issues.\n\n## Ideological Realignment\n- Barry Goldwater's 1964 presidential campaign opposed the Civil Rights Act on states' rights grounds, signaling openness to Southern conservatives without direct racial rhetoric. This laid groundwork for later efforts.\n- Richard Nixon's 1968 and 1972 campaigns emphasized \"law and order,\" opposition to school busing, and states' rights, drawing voters frustrated with federal interventions. Strom Thurmond's party switch from Democrat to Republican exemplified the shift.\n- Over time, the strategy accelerated party sorting, moving conservative Southerners into the GOP while liberal Northerners consolidated with Democrats.\n\nThese factors combined to produce a durable partisan realignment, with race serving as one catalyst among broader ideological and electoral calculations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 927,
+  "total_tokens": 1133,
+  "cost": 0.0024406,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0024406,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.0023175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 579,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:47.646820+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

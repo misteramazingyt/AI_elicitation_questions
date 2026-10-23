@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "Q",
+ "prompt": "What were the consequences of the Great Depression?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Great Depression (1929–1939) had profound and lasting consequences across economic, social, political, and global spheres. Here’s a breakdown of the major impacts:\n\n### Economic Consequences\n- **Mass unemployment and poverty**: In the US, unemployment reached 25% by 1933, with similar spikes in Europe (e.g., over 30% in Germany). Millions lost savings due to bank failures—over 9,000 US banks collapsed between 1930 and 1933.\n- **Industrial and agricultural collapse**: Factory production plummeted (US industrial output fell ~45%), and farm prices crashed, leading to widespread foreclosures and the Dust Bowl in the American Midwest, which displaced hundreds of thousands.\n- **Deflation and trade contraction**: Prices and wages fell sharply, worsening debt burdens. Global trade shrank by two-thirds due to protectionist policies like the US Smoot-Hawley Tariff Act (1930).\n- **Long-term reforms**: It prompted banking regulations (e.g., Glass-Steagall Act), the end of the gold standard in many countries, and the rise of Keynesian economics favoring government spending.\n\n### Social Consequences\n- **Widespread hardship**: Families faced evictions, malnutrition, and homelessness, leading to shantytowns called “Hoovervilles.” Suicide rates rose, and marriage/birth rates dropped.\n- **Migration and inequality**: In the US, the Dust Bowl triggered the “Okie” migration to California. Racial and gender disparities worsened, with minorities and women often last hired and first fired.\n- **Cultural shifts**: It fueled literature and art reflecting despair and resilience (e.g., John Steinbeck’s *The Grapes of Wrath*) and increased reliance on charity and mutual aid.\n\n### Political Consequences\n- **Rise of extremism**: Economic despair fueled authoritarianism in Europe—Adolf Hitler’s Nazi Party gained power in Germany partly by exploiting unemployment and resentment over reparations. Similar dynamics boosted fascism in Italy and elsewhere.\n- **Government expansion**: In the US, Franklin D. Roosevelt’s New Deal introduced Social Security, unemployment insurance, public works (e.g., WPA), and financial reforms, shifting toward a more interventionist welfare state.\n- **Erosion of democracies**: Weakened governments in Europe struggled, contributing to political instability.\n\n### Global and Long-Term Consequences\n- **Path to World War II**: The Depression destabilized the international order, enabling aggressive expansionism by Germany, Japan, and Italy. It also delayed recovery until wartime spending in the late 1930s/1940s.\n- **Institutional changes**: Led to the creation of the International Monetary Fund (IMF) and World Bank after WWII to prevent future crises. It accelerated decolonization movements as empires weakened.\n- **Demographic and psychological scars**: A generation shaped by scarcity influenced post-war policies emphasizing stability and growth.\n\nRecovery was uneven and largely tied to World War II mobilization. The event fundamentally altered views on capitalism, government roles, and international cooperation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 201,
+  "completion_tokens": 927,
+  "total_tokens": 1128,
+  "cost": 0.00243435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00243435,
+   "upstream_inference_prompt_cost": 0.00011685,
+   "upstream_inference_completions_cost": 0.0023175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 328,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:18.201359+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

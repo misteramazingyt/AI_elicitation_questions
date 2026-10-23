@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "C",
+ "prompt": "What were the main causes of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The famine in Soviet Ukraine (1932–1933), known as the Holodomor, resulted primarily from deliberate Soviet policies under Stalin rather than natural disaster alone.**\n\nHistorians across multiple archives and survivor accounts identify the following core causes:\n\n- **Forced collectivization and dekulakization**: Starting in 1929–1930, the regime compelled peasants into state-controlled collective farms. Resistance was crushed through the liquidation of “kulaks” (more prosperous farmers), with hundreds of thousands deported, executed, or stripped of property. This destroyed incentives for production and triggered widespread slaughter of livestock.\n\n- **Unrealistic grain procurement quotas**: The state imposed confiscatory targets on Ukraine, the USSR’s breadbasket. Even when harvests fell short due to disrupted farming, authorities seized seed grain, livestock, and household food reserves. Villages failing quotas were blacklisted, cutting off all supplies.\n\n- **Movement restrictions and border sealing**: In January 1933, internal passports were introduced and Ukrainian borders were closed to prevent peasants from fleeing to Russia or cities. This trapped starving populations in place.\n\n- **Confiscation of all food sources**: Beyond grain, authorities seized potatoes, vegetables, and even non-food items. This went beyond economic extraction into punitive measures against perceived Ukrainian nationalist or peasant resistance.\n\n- **Political targeting of Ukraine**: Stalin viewed Ukrainian peasants and the national elite as threats after earlier independence efforts. Policies coincided with purges of Ukrainian intellectuals, clergy, and party officials. Grain was exported abroad even as deaths mounted, prioritizing industrialization and regime control.\n\nWeather and poor harvests played a secondary role in some areas, but the famine’s extreme severity and geographic focus on Ukraine, Kazakhstan, and parts of Russia point to policy as the decisive factor. Death estimates for Ukraine range from 3 to 5 million or higher. Many governments and scholars classify the Holodomor as genocide due to the intentional nature of the measures against the Ukrainian population. Soviet records and later Russian narratives often attribute it solely to “kulak sabotage” or weather, but primary evidence shows centralized direction from Moscow.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 211,
+  "completion_tokens": 990,
+  "total_tokens": 1201,
+  "cost": 0.00260435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00260435,
+   "upstream_inference_prompt_cost": 0.00012935,
+   "upstream_inference_completions_cost": 0.002475
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 575,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:57.867832+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

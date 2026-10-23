@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "D",
+ "prompt": "Describe the 2020 George Floyd protests.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2020 George Floyd protests were a series of widespread demonstrations and civil unrest that began in the United States and spread globally following the murder of George Floyd, a 46-year-old Black man, by a Minneapolis police officer on May 25, 2020.\n\nThe protests are widely considered the largest movement in United States history, with estimates suggesting that between 15 million and 26 million people participated in the U.S. alone.\n\nHere is a breakdown of the key aspects of the protests:\n\n### The Catalyst\nOn May 25, 2020, George Floyd was arrested by Minneapolis police officers for allegedly using a counterfeit $20 bill. During the arrest, officer Derek Chauvin knelt on Floyd’s neck for 9 minutes and 29 seconds, despite Floyd’s repeated pleas that he could not breathe. Floyd died shortly after. A bystander’s video of the incident went viral, sparking immediate outrage and grief.\n\n### Scope and Scale\n*   **Global Reach:** While the protests began in Minneapolis, they quickly spread to all 50 U.S. states and eventually to over 60 countries across every continent except Antarctica.\n*   **Demographics:** The protests were notable for their diversity. Unlike many previous civil rights movements, these demonstrations saw significant participation from white Americans, as well as people of various ages, socioeconomic backgrounds, and political affiliations.\n*   **Duration:** The protests were sustained over several months, peaking in late May and June 2020, but continuing in various forms throughout the summer and into the fall.\n\n### Nature of the Protests\nThe protests took many forms, ranging from peaceful marches, vigils, and \"die-ins\" to instances of property damage, looting, and clashes with law enforcement.\n*   **Peaceful Demonstrations:** The vast majority of the protests were peaceful. Millions of people marched in cities large and small, carrying signs, chanting slogans like \"Black Lives Matter,\" \"No Justice, No Peace,\" and \"Say His Name.\"\n*   **Civil Unrest:** In some cities, protests escalated into riots, arson, and looting. This led to the deployment of the National Guard in several states and the imposition of curfews in major cities.\n*   **Police Response:** The police response was highly controversial. In many cities, law enforcement used tear gas, rubber bullets, pepper spray, and batons against protesters and journalists. This heavy-handed response drew widespread criticism and fueled further protests regarding police brutality and the militarization of law enforcement.\n\n### Key Themes and Demands\nThe protests were not just about George Floyd; they were a culmination of years of frustration regarding systemic racism and police violence. Key demands included:\n*   **Police Reform:** Calls to ban chokeholds, end qualified immunity for officers, and increase police accountability.\n*   **\"Defund the Police\":** A central, and highly debated, slogan that called for reallocating police budgets toward social services, mental health care, education, and community development.\n*   **Systemic Change:** The movement highlighted broader issues of racial inequality in the justice system, housing, healthcare, and the economy.\n\n### Impact and Legacy\nThe 2020 protests had a profound impact on American society and culture:\n*   **Policy Changes:** Many cities and states passed legislation to reform policing, such as banning no-knock warrants, restricting the use of chokeholds, and mandating body cameras.\n*   **Corporate and Cultural Shifts:** Corporations, universities, and sports leagues issued statements in support of Black Lives Matter and pledged to address internal diversity and inclusion issues. There was a widespread re-examination of historical monuments, leading to the removal of many Confederate statues and other symbols of white supremacy.\n*   **Political Mobilization:** The protests energized voter registration and turnout efforts, which many analysts believe played a significant role in the 2020 U.S. presidential election.\n*   **The \"Racial Reckoning\":** The events of 2020 forced a national conversation about race, privilege, and systemic inequality that permeated media, education, and corporate boardrooms, often referred to as a \"racial reckoning.\"\n\nThe 2020 protests remain a defining moment in 21st-century American history, serving as a powerful testament to the public's demand for accountability and racial justice.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 11,
+  "completion_tokens": 1050,
+  "total_tokens": 1061,
+  "cost": 0.00157775,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00157775,
+   "upstream_inference_prompt_cost": 2.75e-06,
+   "upstream_inference_completions_cost": 0.001575
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 131,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:50.358403+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

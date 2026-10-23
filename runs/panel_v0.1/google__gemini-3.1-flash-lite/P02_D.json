@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "D",
+ "prompt": "Describe the 1883 eruption of Krakatoa.",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 1883 eruption of Krakatoa (or Krakatau) in the Sunda Strait of Indonesia remains one of the most catastrophic and well-documented volcanic events in modern history. It was not merely a single explosion, but a series of escalating events that culminated in a cataclysmic destruction of the island itself.\n\nHere is a description of the eruption, its immediate effects, and its global impact.\n\n### The Buildup (May–August 1883)\nKrakatoa had been dormant for over 200 years before showing signs of life in May 1883. For months, the island experienced minor tremors and steam vents. By August, the activity intensified significantly. Ships passing through the Sunda Strait reported massive ash clouds and explosions that could be heard hundreds of miles away.\n\n### The Climax (August 26–27, 1883)\nThe eruption reached its violent peak on the morning of August 27. Four massive explosions occurred, with the third being the most powerful.\n\n*   **The Sound:** The third explosion, occurring at 10:02 AM, is widely considered the loudest sound ever recorded in human history. It was heard clearly in Perth, Australia (nearly 2,000 miles away) and on the island of Rodrigues in the Indian Ocean (nearly 3,000 miles away). People who heard it described it as sounding like distant cannon fire.\n*   **The Destruction:** The force of the explosions was equivalent to roughly 200 megatons of TNT—about 13,000 times the yield of the atomic bomb dropped on Hiroshima. The energy released was so immense that it caused the volcanic island to collapse into its own magma chamber, destroying two-thirds of the island and creating a massive underwater caldera.\n\n### The Aftermath and Tsunamis\nThe collapse of the island triggered a series of devastating tsunamis. As the volcanic material rushed into the sea and the caldera collapsed, it displaced massive volumes of water.\n\n*   **The Waves:** Tsunamis reaching heights of up to 120 feet (36 meters) slammed into the coasts of Java and Sumatra. Entire coastal towns were wiped off the map.\n*   **The Toll:** The official death toll was recorded at 36,417 people, though many historians believe the actual number was significantly higher, as many victims were swept out to sea or buried under ash and debris.\n\n### Global Effects\nThe 1883 eruption was one of the first \"global\" media events. Because the telegraph had recently connected the world, news of the disaster spread rapidly, making it the first volcanic eruption to be reported on in real-time across the globe.\n\n*   **Atmospheric Impact:** The eruption injected an enormous amount of sulfur dioxide and ash into the stratosphere. This created a global \"volcanic winter.\" For years afterward, global temperatures dropped by an average of 1.2°C (2.2°F).\n*   **Optical Phenomena:** The ash particles in the atmosphere caused spectacular, vivid sunsets and sunrises around the world for several years. The sky often appeared to glow with an eerie, blood-red hue, which some historians believe influenced the background of Edvard Munch’s famous painting, *The Scream*.\n*   **Barometric Pressure:** The shockwave from the final explosion was so powerful that it circled the globe seven times, and barometers around the world recorded the pressure spike for days afterward.\n\n### Legacy\nThe 1883 eruption fundamentally changed the study of volcanology and meteorology. It provided scientists with the first comprehensive data set on how volcanic eruptions affect global climate and weather patterns.\n\nToday, the site of the original island is home to **Anak Krakatau** (\"Child of Krakatoa\"), a new volcanic island that emerged from the caldera in 1927. It remains active, serving as a constant reminder of the volatile geological forces that reshaped the Sunda Strait over a century ago.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 13,
+  "completion_tokens": 976,
+  "total_tokens": 989,
+  "cost": 0.00146725,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00146725,
+   "upstream_inference_prompt_cost": 3.25e-06,
+   "upstream_inference_completions_cost": 0.001464
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 133,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:53.166079+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

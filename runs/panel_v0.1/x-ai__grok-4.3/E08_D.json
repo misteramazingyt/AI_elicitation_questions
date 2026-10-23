@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "D",
+ "prompt": "Describe the Great Depression.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Great Depression was the most severe economic downturn in modern history, lasting from 1929 to the late 1930s (with full recovery often tied to the onset of World War II). It began in the United States but quickly spread globally, causing widespread unemployment, poverty, bank failures, and social upheaval.\n\n### Key Timeline and Triggers\n- **Onset**: It is conventionally dated to the Wall Street Crash of October 1929, when the U.S. stock market plummeted, wiping out billions in wealth. However, underlying weaknesses had been building throughout the 1920s, including speculative bubbles, uneven wealth distribution, and overproduction in agriculture and industry.\n- **Peak severity**: In the U.S., unemployment reached about 25% by 1933, industrial production fell by nearly 50%, and roughly 9,000 banks failed. Deflation drove prices and wages down sharply, while farm incomes collapsed amid the Dust Bowl droughts in the Midwest.\n- **Global spread**: Countries reliant on U.S. loans and exports (such as Germany, Britain, and much of Latin America) were hit hard. International trade shrank by two-thirds as nations raised tariffs (e.g., the U.S. Smoot-Hawley Tariff of 1930), worsening the contraction.\n\n### Causes\nEconomists point to a combination of factors:\n- **Financial panic and credit contraction**: Bank runs and the Federal Reserve’s tight monetary policy reduced the money supply.\n- **Decline in demand**: Consumers and businesses cut spending amid falling confidence and rising debt.\n- **Structural issues**: The gold standard constrained governments’ ability to expand money supplies; rigid wages and prices prolonged the slump.\n- **Policy missteps**: Protectionism and delayed fiscal stimulus in many nations amplified the damage.\n\n### Social and Political Impacts\n- **Human cost**: Millions lost homes and savings, leading to shantytowns (“Hoovervilles”), soup kitchens, and mass migration. In the U.S., the Dust Bowl displaced hundreds of thousands of farmers.\n- **Political shifts**: The crisis fueled extremism. In Germany, it helped the Nazi Party rise; elsewhere, it prompted experiments with authoritarianism or radical reforms. In the U.S., it led to Franklin D. Roosevelt’s election in 1932 and the New Deal—a series of programs (Social Security, public works, banking reforms) that expanded the federal government’s role in the economy.\n- **Cultural legacy**: It inspired literature (e.g., John Steinbeck’s *The Grapes of Wrath*), photography documenting rural poverty, and lasting skepticism toward unregulated markets.\n\n### Recovery and Aftermath\nWorld War II ultimately ended the Depression through massive government spending and mobilization. Postwar institutions (IMF, World Bank, Bretton Woods system) were designed partly to prevent a repeat. Economists still debate its lessons—particularly the roles of monetary policy, fiscal stimulus, and financial regulation—in shaping modern responses to recessions.\n\nIn short, the Great Depression was not merely a stock-market crash but a decade-long global crisis that reshaped economies, governments, and societies.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 197,
+  "completion_tokens": 861,
+  "total_tokens": 1058,
+  "cost": 0.00226435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00226435,
+   "upstream_inference_prompt_cost": 0.00011185,
+   "upstream_inference_completions_cost": 0.0021525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 241,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:15.244843+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

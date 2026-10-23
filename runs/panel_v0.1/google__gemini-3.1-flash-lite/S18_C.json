@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "C",
+ "prompt": "What were the main causes of the 2011 military intervention in Libya?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The 2011 military intervention in Libya, led by NATO under a United Nations mandate, was a complex event driven by a combination of humanitarian concerns, geopolitical strategy, and the regional instability of the Arab Spring.\n\nHere are the main causes and factors that led to the intervention:\n\n### 1. The Arab Spring and the Uprising\nThe intervention was triggered by the Libyan Civil War, which began in February 2011 as part of the broader \"Arab Spring\" movement. Protests erupted in Benghazi against the 42-year rule of Muammar Gaddafi. Unlike the relatively peaceful transitions in Tunisia or Egypt, Gaddafi responded with immediate and extreme violence, using the military, mercenaries, and air power against his own citizens.\n\n### 2. The \"Responsibility to Protect\" (R2P) Doctrine\nThe primary legal and moral justification for the intervention was the international doctrine known as the \"Responsibility to Protect\" (R2P). Adopted by the UN in 2005, this doctrine asserts that if a state fails to protect its population from mass atrocities (such as war crimes or crimes against humanity), the international community has a responsibility to intervene.\n\nAs Gaddafi’s forces advanced toward Benghazi—the opposition's stronghold—he gave a televised speech in which he referred to the rebels as \"rats\" and \"cockroaches\" and vowed to hunt them down \"house by house, room by room.\" This rhetoric led many international observers to fear an imminent massacre of civilians, creating a sense of urgency for the UN to act.\n\n### 3. UN Security Council Resolution 1973\nOn March 17, 2011, the UN Security Council passed Resolution 1973. This resolution authorized member states to take \"all necessary measures\" to protect civilians and civilian-populated areas under threat of attack in Libya. It also established a no-fly zone.\n\nCrucially, the resolution was passed with the support of the Arab League, which had called for the no-fly zone. This regional support was vital for the legitimacy of the intervention, as it prevented the operation from being viewed solely as a Western colonial endeavor.\n\n### 4. Geopolitical and Strategic Interests\nWhile humanitarian concerns were the stated cause, geopolitical factors also played a significant role:\n\n*   **Containment of Instability:** Western powers, particularly in Europe, were concerned that a prolonged civil war in Libya would lead to a massive refugee crisis across the Mediterranean and destabilize the region.\n*   **Credibility of NATO:** After the initial hesitation, NATO leaders (particularly in France and the UK) felt that allowing Gaddafi to slaughter the opposition would be a massive failure of Western foreign policy and would undermine the credibility of international institutions.\n*   **Regime Change Ambitions:** While the UN mandate was strictly limited to the \"protection of civilians,\" it quickly became clear that the coalition, particularly France, the UK, and the U.S., viewed the removal of Gaddafi as the only way to ensure long-term stability. This led to criticism that the mission \"mission creeped\" from humanitarian protection into regime change.\n\n### 5. Gaddafi’s History of Hostility\nMuammar Gaddafi was a long-standing pariah in the West due to his history of supporting militant groups, his involvement in the Lockerbie bombing (1988), and his pursuit of weapons of mass destruction (which he had only recently agreed to dismantle in 2003). Because he was viewed as an unpredictable and dangerous actor, there was little political will among Western leaders to keep him in power once he turned his military against his own people.\n\n### Summary of the Outcome\nThe intervention was militarily successful in preventing the massacre in Benghazi and eventually leading to the fall of Gaddafi’s regime in October 2011. However, the intervention remains highly controversial. Critics argue that the coalition failed to plan for the \"day after,\" leading to a power vacuum, the proliferation of weapons across the Sahel, and a decade of fractured governance and civil war in Libya. This has made the 2011 intervention a frequent case study in the complexities and risks of humanitarian military intervention.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 17,
+  "completion_tokens": 1019,
+  "total_tokens": 1036,
+  "cost": 0.00153275,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00153275,
+   "upstream_inference_prompt_cost": 4.25e-06,
+   "upstream_inference_completions_cost": 0.0015285
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 140,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:45.280560+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

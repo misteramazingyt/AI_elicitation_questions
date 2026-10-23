@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The abolition of the slave trade (1807) and the subsequent abolition of slavery itself (1833/1838) in the British Empire was not the result of a single event, but rather a convergence of moral, economic, political, and social pressures.\n\nHistorians generally categorize these causes into four main areas:\n\n### 1. The Moral and Religious Campaign\nThis is often cited as the most significant driver. By the late 18th century, a powerful moral crusade had emerged in Britain.\n*   **The Quakers:** The Society of Friends (Quakers) were the first organized group to oppose slavery, arguing that it was incompatible with Christian teachings.\n*   **The Evangelicals:** Figures like William Wilberforce and Granville Sharp were deeply religious and viewed slavery as a \"national sin.\" They utilized the printing press to distribute pamphlets, petitions, and graphic images (such as the famous diagram of the slave ship *Brookes*) to shock the British public.\n*   **Public Opinion:** This campaign successfully turned abolition into a mainstream moral issue. It was one of the first instances of a mass-mobilization political campaign in history, involving boycotts of slave-grown sugar and massive petition drives to Parliament.\n\n### 2. Economic Factors (The \"Williams Thesis\" Debate)\nThere is a long-standing historical debate regarding whether slavery became economically unviable.\n*   **The Decline of the West Indies:** Historian Eric Williams famously argued that the slave trade became less profitable due to overproduction, soil exhaustion in the Caribbean, and the high cost of maintaining slave populations.\n*   **The Rise of Industrial Capitalism:** As Britain industrialized, the economic focus shifted from mercantilist plantation agriculture to free-market manufacturing. Industrialists argued that \"free labor\" was more efficient and productive than slave labor. They wanted a global market where people were paid wages, as those people would then become consumers of British manufactured goods.\n*   *Note:* While this theory is debated (some historians argue slavery remained profitable until the end), it is widely accepted that the *political* power of the West Indian plantation lobby was waning compared to the rising power of the industrial North.\n\n### 3. Slave Resistance and Rebellions\nThe enslaved people themselves were active agents in their own liberation. The British government became increasingly terrified of the instability caused by slave uprisings.\n*   **The Haitian Revolution (1791–1804):** The successful revolution in Saint-Domingue (Haiti) sent shockwaves through the British Empire. It proved that enslaved people could organize, fight, and win.\n*   **The Baptist War (1831):** Also known as the Christmas Rebellion in Jamaica, this massive uprising led by Samuel Sharpe was brutally suppressed, but it cost the British government a fortune in military expenses and property damage. It convinced many in Parliament that the slave system was becoming too dangerous and expensive to maintain.\n\n### 4. Political Changes in Britain\nThe political landscape of Britain shifted in ways that favored abolitionists.\n*   **The Enlightenment:** The intellectual movement of the 18th century emphasized \"natural rights,\" liberty, and equality. These ideas made the concept of chattel slavery increasingly intellectually indefensible among the educated elite.\n*   **The Reform Act of 1832:** This act expanded the franchise (the right to vote) to the growing middle class in industrial cities. These new voters were generally more sympathetic to the abolitionist cause than the old landed aristocracy, who often had financial ties to the Caribbean plantations. This shift in power allowed the Whig government to pass the Slavery Abolition Act in 1833.\n\n### Summary of the Timeline\n*   **1807 (Slave Trade Act):** Britain abolished the *trade* of enslaved people across the Atlantic. This was largely driven by the moral campaign and the desire to weaken rival nations (like France) by cutting off their supply of labor.\n*   **1833 (Slavery Abolition Act):** This act abolished the institution of slavery throughout most of the British Empire.\n*   **1838 (Full Emancipation):** The 1833 Act included a period of \"apprenticeship\" (essentially forced labor) that was meant to last until 1840. However, due to continued protests and the failure of the system, the apprenticeship was ended early, and full emancipation was granted in 1838.\n\n**Conclusion:**\nAbolition was a \"perfect storm.\" The **moral crusade** provided the public pressure, **slave rebellions** provided the fear of instability, **industrialization** provided the economic argument for free labor, and the **Reform Act** provided the political mechanism to finally pass the legislation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 1137,
+  "total_tokens": 1164,
+  "cost": 0.00171225,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00171225,
+   "upstream_inference_prompt_cost": 6.75e-06,
+   "upstream_inference_completions_cost": 0.0017055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 147,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:41.810562+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

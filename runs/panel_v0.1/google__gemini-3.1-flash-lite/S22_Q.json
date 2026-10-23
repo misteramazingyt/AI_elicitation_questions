@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration and Nationality Act of 1965?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Immigration and Nationality Act of 1965, also known as the **Hart-Celler Act**, is widely considered one of the most transformative pieces of legislation in 20th-century American history. By abolishing the discriminatory national-origins quota system that had been in place since the 1920s, it fundamentally altered the demographic, social, and economic landscape of the United States.\n\nHere are the primary consequences of the Act:\n\n### 1. A Shift in Demographic Composition\nThe most immediate and visible consequence was a dramatic change in the source countries of immigrants.\n*   **End of European Dominance:** The previous system (established in 1924) was designed to favor immigrants from Northern and Western Europe (Great Britain, Ireland, Germany) while severely restricting or banning immigrants from Asia, Africa, and Southern/Eastern Europe. The 1965 Act abolished these quotas.\n*   **Rise of Non-European Immigration:** As a result, the U.S. saw a massive influx of immigrants from Asia (particularly the Philippines, China, India, and Vietnam), Latin America (Mexico, the Dominican Republic, and others), and the Caribbean. This shifted the U.S. from a nation that was predominantly European-descended to a much more racially and ethnically diverse society.\n\n### 2. Emphasis on Family Reunification and Skilled Labor\nThe Act established a new preference system that prioritized two main categories:\n*   **Family Reunification:** The majority of visas were allocated to relatives of U.S. citizens and permanent residents. This created \"chain migration,\" where early immigrants established a foothold and then sponsored family members to join them, leading to the growth of established immigrant communities.\n*   **Skilled Labor:** The Act also created preferences for professionals and workers with specialized skills. This led to a \"brain drain\" from developing nations, as doctors, engineers, and scientists from countries like India and the Philippines moved to the U.S. to fill gaps in the American labor market.\n\n### 3. Unintended Consequences: Illegal Immigration\nWhile the Act was intended to create a more orderly system, it had unintended effects on unauthorized immigration:\n*   **Western Hemisphere Caps:** For the first time, the Act placed a numerical cap on immigration from the Western Hemisphere (the Americas). Previously, there had been no numerical limit on immigration from countries like Mexico.\n*   **Increased Demand vs. Limited Supply:** Because the demand for labor in the U.S. remained high, but the legal pathways for low-skilled workers from Latin America were severely restricted by the new caps, many people who would have previously migrated legally began to do so without authorization. This contributed to the rise of undocumented immigration, which became a major political issue in subsequent decades.\n\n### 4. Cultural and Social Transformation\nThe demographic shifts triggered by the Act led to profound changes in American culture:\n*   **Multiculturalism:** The influx of diverse populations introduced new foods, religions, languages, and cultural practices into the American mainstream. This accelerated the transition of the U.S. toward a more multicultural society.\n*   **Political Realignment:** The new immigrant populations eventually became a significant voting bloc. Over time, these groups have influenced local, state, and national politics, often leaning toward the Democratic Party, though this varies significantly by ethnic group and generation.\n\n### 5. Economic Impact\nThe economic consequences of the Act are complex and debated, but generally include:\n*   **Filling Labor Gaps:** Immigrants filled critical roles in both high-tech sectors (via the skilled worker preferences) and low-wage sectors (agriculture, hospitality, and construction), helping to sustain economic growth.\n*   **Entrepreneurship:** Immigrant communities have historically shown high rates of entrepreneurship, contributing to the creation of small businesses and economic revitalization in many urban centers.\n\n### Summary\nThe Hart-Celler Act was intended to be a civil rights measure—a way to remove the \"racist\" stain of the 1924 quota system. Its authors, including President Lyndon B. Johnson, did not anticipate the scale of the demographic shift that would follow.\n\nWhile the Act succeeded in making the U.S. immigration system more equitable and merit-based, it also created new challenges. It transformed the United States into a more diverse, globalized nation, but it also set the stage for the intense, ongoing political debates regarding border security, the status of undocumented immigrants, and the pace of cultural change that define American politics today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 17,
+  "completion_tokens": 1067,
+  "total_tokens": 1084,
+  "cost": 0.00160475,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00160475,
+   "upstream_inference_prompt_cost": 4.25e-06,
+   "upstream_inference_completions_cost": 0.0016005
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 130,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:49.926131+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

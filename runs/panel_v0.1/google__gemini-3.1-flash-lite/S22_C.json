@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration and Nationality Act of 1965?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The Immigration and Nationality Act of 1965, also known as the **Hart-Celler Act**, was a watershed moment in American history. It fundamentally changed the demographic makeup of the United States by abolishing the discriminatory \"national origins\" quota system that had been in place since the 1920s.\n\nThe causes of this legislation were a complex mix of Cold War geopolitics, the Civil Rights Movement, and shifting economic needs. Here are the main factors that led to its passage:\n\n### 1. The Civil Rights Movement\nThe most significant domestic driver was the Civil Rights Movement. By the mid-1960s, the United States was undergoing a profound moral reckoning regarding racial equality.\n*   **The Hypocrisy of Quotas:** The existing immigration system (established by the Immigration Act of 1924) was explicitly designed to favor immigrants from Northern and Western Europe while severely restricting or banning those from Asia, Africa, and Southern/Eastern Europe.\n*   **Alignment with Equality:** As the nation fought to dismantle Jim Crow laws and segregation, the \"national origins\" quota system—which was based on the racist premise that some ethnic groups were superior to others—became increasingly indefensible. Supporters of the 1965 Act argued that immigration policy should reflect the same democratic values of equality and non-discrimination that the Civil Rights Movement was championing.\n\n### 2. Cold War Geopolitics\nThe United States was locked in a global ideological struggle with the Soviet Union. Immigration policy became a tool of foreign policy.\n*   **Winning \"Hearts and Minds\":** The U.S. wanted to project an image of itself as a land of freedom and equality to win over developing nations in Asia, Africa, and Latin America. The discriminatory quota system was a major propaganda liability; the Soviet Union frequently pointed to American racism and exclusionary immigration laws to discredit the U.S. on the world stage.\n*   **Strategic Alliances:** By opening immigration to non-European countries, the U.S. sought to strengthen ties with allies in Asia and elsewhere, signaling that it was a modern, inclusive global power.\n\n### 3. The Influence of the Kennedy and Johnson Administrations\nThe Act was a priority for both President John F. Kennedy and his successor, Lyndon B. Johnson.\n*   **JFK’s Vision:** John F. Kennedy, himself the grandson of Irish immigrants, was a vocal critic of the quota system. He wrote a book titled *A Nation of Immigrants* (published posthumously in 1964), which argued that the quota system was \"outmoded\" and \"un-American.\"\n*   **LBJ’s Political Capital:** After Kennedy’s assassination, President Lyndon B. Johnson used the emotional weight of the tragedy and his immense political capital to push through a massive legislative agenda, including the Civil Rights Act of 1964 and the Voting Rights Act of 1965. The Immigration and Nationality Act was viewed as the final piece of this \"Great Society\" legislative puzzle.\n\n### 4. Economic Needs and Labor Demands\nWhile the primary arguments were moral and political, there was also an economic component.\n*   **The Need for Skilled Labor:** By the 1960s, the U.S. economy was shifting toward technology and science. There was a growing demand for highly skilled workers, scientists, and engineers. The old quota system made it difficult to recruit talent from outside of Western Europe. The 1965 Act prioritized \"preference categories\" based on skills and family reunification, which helped the U.S. attract the human capital needed for a modernizing economy.\n\n### 5. Changing Public Opinion\nThe American public’s view on immigration had shifted significantly since the isolationist era of the 1920s.\n*   **Post-WWII Integration:** The experience of World War II had helped integrate many immigrant groups (such as Italians, Poles, and Jews) into the American mainstream. As these groups became more politically powerful, they lobbied against the restrictive laws that had previously kept their relatives from joining them in the U.S.\n*   **Family Reunification:** The Act was heavily supported by ethnic lobbies who wanted to bring family members to the U.S. The Act prioritized family reunification, which became the primary driver of immigration patterns in the decades that followed.\n\n### Summary\nThe Immigration and Nationality Act of 1965 was not passed because lawmakers anticipated the massive demographic shift it would cause (in fact, many supporters at the time downplayed the likelihood of large-scale non-European immigration). Rather, it was passed because **the old system was viewed as a moral embarrassment** that contradicted the nation's Civil Rights goals and hindered its Cold War foreign policy objectives.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 1130,
+  "total_tokens": 1148,
+  "cost": 0.0016995,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0016995,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.001695
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 131,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:49.732787+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

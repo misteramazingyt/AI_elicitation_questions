@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "D",
+ "prompt": "Describe Britain's Winter of Discontent (1978-1979).",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "Britain's **Winter of Discontent** refers to the period of widespread industrial unrest from roughly November 1978 to March 1979. It was one of the most severe strike waves in modern British history and is widely seen as a turning point that ended the post-war political consensus and helped bring Margaret Thatcher to power.\n\n### Background and Causes\nBy the late 1970s, the UK was struggling with **stagflation**—high inflation combined with stagnant growth and rising unemployment. The Labour government under Prime Minister **James Callaghan** had introduced strict **incomes policies** (the \"Social Contract\") to control wages and combat inflation. These policies capped public-sector pay rises at 5% at a time when inflation was running much higher.\n\nMany trade unions, especially in the public sector, rejected the limit. After years of wage restraint, they demanded substantial increases to restore living standards. When negotiations broke down, a wave of strikes began in the autumn of 1978.\n\n### Key Events\n- **November–December 1978**: Lorry drivers and road haulage workers struck, causing fuel shortages and disrupting supplies. The government declared a state of emergency.\n- **January–February 1979**: The strikes spread to public services:\n  - Refuse collectors walked out, leaving mountains of uncollected rubbish in cities (most famously in London’s Leicester Square).\n  - Gravediggers and cemetery workers struck, leading to bodies being stored in temporary mortuaries or, in some cases, left unburied.\n  - NHS ancillary workers, ambulance drivers, and hospital staff struck, causing severe disruption to healthcare.\n  - Train drivers, civil servants, and local government workers also took action.\n- The phrase **“Winter of Discontent”** was coined by a *Sun* newspaper headline in early 1979, referencing the opening lines of Shakespeare’s *Richard III* (“Now is the winter of our discontent…”).\n\n### Immediate Impact\nDaily life was visibly disrupted. Rubbish piled up in the streets, schools closed, and some essential services were severely curtailed. The strikes damaged the Labour government’s reputation for governing effectively and for its close relationship with the trade unions.\n\n### Political Consequences\nThe unrest contributed directly to Labour’s defeat in the **May 1979 general election**. Margaret Thatcher’s Conservative Party campaigned on promises to curb union power, reduce inflation, and restore order. Once in office, Thatcher introduced a series of trade-union reforms that significantly weakened the unions’ legal position.\n\n### Historical Significance\nThe Winter of Discontent is often viewed as the symbolic end of the post-1945 settlement in Britain. It marked the collapse of the Keynesian, corporatist approach that had dominated since the war and paved the way for the neoliberal policies of the 1980s. For many on the political right, it became a cautionary tale about excessive union power; for many on the left, it represented the failure of a Labour government to protect workers’ living standards.\n\nIn short, it was a chaotic, highly visible breakdown of industrial relations that helped reshape British politics for a generation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 205,
+  "completion_tokens": 910,
+  "total_tokens": 1115,
+  "cost": 0.00239685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00239685,
+   "upstream_inference_prompt_cost": 0.00012185,
+   "upstream_inference_completions_cost": 0.002275
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 284,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:18.929188+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

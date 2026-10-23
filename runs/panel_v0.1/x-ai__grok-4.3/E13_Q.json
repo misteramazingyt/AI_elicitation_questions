@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1996 U.S. welfare reform law?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The 1996 welfare reform law**—formally the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA)—replaced the open-ended Aid to Families with Dependent Children (AFDC) entitlement with Temporary Assistance for Needy Families (TANF), a block-grant program. It imposed work requirements, five-year lifetime limits on benefits, and greater state flexibility in spending.\n\n### Major documented outcomes\n\n- **Sharp decline in caseloads**: Welfare rolls fell roughly 60% from 1996 peaks (about 4.4 million families) to under 2 million by the early 2000s. Participation rates among eligible families also dropped significantly.\n\n- **Increased employment among single mothers**: Labor force participation for never-married mothers rose from around 46% in 1995 to over 65% by 2000. Employment gains were largest for the least-educated and previously non-working groups.\n\n- **Poverty and child poverty trends**: Official child poverty rates declined from 20.5% in 1996 to 16.2% in 2000 amid strong economic growth, EITC expansion, and minimum-wage increases. Deep poverty (below 50% of the poverty line) showed mixed results; some analyses found modest increases in material hardship or disconnected families (neither working nor receiving cash aid) after the initial boom.\n\n- **State-level variation and spending shifts**: States gained flexibility to redirect funds. Many expanded work supports like child care or earnings disregards, but others diverted portions to non-cash programs or budget balancing. Responsiveness to recessions weakened because funding was fixed rather than entitlement-based.\n\n- **Longer-term patterns**: By the 2010s, TANF served far fewer poor families than AFDC had (often under 25% of eligible households in many states). Studies from sources like the Urban Institute and HHS reports noted higher employment persistence for some but persistent barriers for others (mental health, substance issues, disabilities). Child outcomes showed no large negative aggregate effects in early evaluations, though subgroup differences appeared.\n\n### Attribution debates\nEconomists generally credit the combination of reform, the late-1990s expansion, and policy complements (EITC) for employment gains rather than reform alone. Critics highlight reduced safety-net coverage during downturns and uneven state performance. Supporters point to sustained lower dependency metrics compared with pre-1996 trends.\n\nData come primarily from Census, HHS administrative records, and longitudinal studies through the 2000s. Outcomes were not uniform across demographics or states, and later expansions of other programs (SNAP, Medicaid, housing) interacted with TANF rules.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 208,
+  "completion_tokens": 1010,
+  "total_tokens": 1218,
+  "cost": 0.0026506,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0026506,
+   "upstream_inference_prompt_cost": 0.0001256,
+   "upstream_inference_completions_cost": 0.002525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 481,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:00:32.916630+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

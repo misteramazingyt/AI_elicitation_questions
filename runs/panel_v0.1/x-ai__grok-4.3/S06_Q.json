@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Kent State shootings of 1970?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The Kent State shootings** (May 4, 1970) occurred when Ohio National Guard troops fired on unarmed student protesters at Kent State University opposing the Vietnam War and the U.S. invasion of Cambodia. Four students were killed (Allison Krause, Jeffrey Miller, Sandra Lee Scheuer, and William Knox Schroeder) and nine others wounded.\n\n### Immediate Social and Political Consequences\n- **Massive campus unrest**: The event triggered the largest student strike in U.S. history, involving over 4 million students at roughly 900 colleges and universities. Hundreds of campuses shut down for days or weeks; some remained closed for the rest of the semester. Protests spread to high schools and cities nationwide.\n- **Shift in public opinion**: It intensified opposition to the Vietnam War, with polls showing growing disapproval of both the war and the Nixon administration’s handling of dissent. The shootings became a symbol of government overreach against peaceful protest.\n- **National Guard and law-enforcement scrutiny**: The incident prompted reviews of crowd-control tactics. The President’s Commission on Campus Unrest (Scranton Commission) later condemned the Guard’s actions as “unnecessary, unwarranted, and inexcusable.”\n\n### Legal Outcomes\n- **Criminal proceedings**: A federal grand jury indicted eight guardsmen in 1974, but all were acquitted or charges were dropped. No one was convicted of criminal wrongdoing.\n- **Civil litigation**: Families of the victims sued the state of Ohio. In 1979, a settlement awarded $675,000 (plus legal fees) to the victims’ families and survivors, accompanied by a statement of regret from the state but no admission of liability.\n- **Ongoing investigations**: Further reviews in the 1970s and 2000s (including audio analysis) found evidence suggesting an order to fire may have been given, but no new prosecutions resulted.\n\n### Cultural and Institutional Legacy\n- **Music and media**: Crosby, Stills, Nash & Young’s “Ohio” became an anthem of the era. The event was widely covered in documentaries, books, and photography (notably the Pulitzer-winning image of a student kneeling over a body).\n- **Memorialization**: Kent State established a permanent memorial; the site is now a National Historic Landmark. Annual commemorations continue.\n- **Policy changes**: Universities and states revised protest-management policies, emphasizing de-escalation and clearer rules of engagement for National Guard deployments. It also contributed to broader reforms in how law enforcement interacts with demonstrators.\n\nIn short, the shootings did not end the war but significantly accelerated the erosion of public support for it, highlighted tensions between authority and dissent, and produced lasting legal, cultural, and institutional ripples without resulting in criminal accountability for the shooters.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 941,
+  "total_tokens": 1147,
+  "cost": 0.0024756,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0024756,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.0023525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 396,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:03.486204+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

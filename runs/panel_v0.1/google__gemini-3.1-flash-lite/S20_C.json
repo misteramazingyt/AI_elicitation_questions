@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "C",
+ "prompt": "What were the main causes of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "google/gemini-3.1-flash-lite",
+ "model_served": "google/gemini-3.1-flash-lite",
+ "provider": "Google",
+ "response": "The U.S. \"War on Drugs,\" officially declared by President Richard Nixon in 1971 and intensified through the 1990s, was not driven by a single factor. Instead, it was the result of a complex convergence of political strategy, social anxiety, racial dynamics, and shifting public policy.\n\nHere are the main causes that fueled the War on Drugs during this period:\n\n### 1. Political Strategy and the \"Law and Order\" Platform\nIn the late 1960s, the United States was experiencing significant social upheaval, including anti-Vietnam War protests, the Civil Rights Movement, and urban riots.\n*   **Nixon’s Strategy:** Richard Nixon campaigned on a platform of \"Law and Order.\" He sought to appeal to the \"Silent Majority\"—white, middle-class Americans who felt alienated by the counterculture and the perceived chaos of the era. By framing drug use as a threat to national stability, Nixon could position himself as the defender of traditional American values.\n*   **The Southern Strategy:** Political strategists realized that \"tough on crime\" rhetoric was an effective way to appeal to white voters in the South who were uncomfortable with the progress of the Civil Rights Movement. This rhetoric allowed politicians to target minority communities under the guise of fighting crime without explicitly mentioning race.\n\n### 2. Fear of the Counterculture\nDuring the 1960s and 70s, drug use (particularly marijuana and LSD) became synonymous with the anti-war movement and the hippie counterculture.\n*   **Criminalizing Dissent:** By associating drugs with political dissent, the government could effectively criminalize the lifestyle of its political opponents. John Ehrlichman, a top aide to Nixon, later admitted in a 1994 interview that the administration had two enemies: the anti-war left and Black people. He stated that by associating the hippies with marijuana and Blacks with heroin, they could \"arrest their leaders, raid their homes, break up their meetings, and vilify them night after night on the evening news.\"\n\n### 3. The Rise of Urban Crime and Heroin\nIn the early 1970s, there was a genuine public health and safety crisis regarding heroin addiction, particularly in major cities and among returning Vietnam veterans.\n*   **Public Anxiety:** As crime rates rose in urban centers, the public demanded action. The government framed the drug problem as the primary driver of this crime wave. This created a feedback loop: the government poured money into law enforcement rather than public health, which led to more arrests, which in turn fueled the perception that the \"drug war\" was the only solution to urban decay.\n\n### 4. The Crack Cocaine Epidemic (1980s)\nThe 1980s saw the introduction of crack cocaine, which was cheaper and more addictive than powder cocaine.\n*   **Media Hysteria:** The media coverage of the \"crack epidemic\" was intense and often sensationalized. Images of \"crack babies\" and violent inner-city drug markets dominated the news cycle. This created a moral panic that pressured politicians to act aggressively.\n*   **The Anti-Drug Abuse Act of 1986:** This legislation established the infamous 100-to-1 sentencing disparity between crack cocaine (associated with Black users) and powder cocaine (associated with white users). This policy caused a massive spike in incarceration rates for Black Americans, cementing the racial disparities that define the legacy of the War on Drugs.\n\n### 5. The \"Tough on Crime\" Consensus (1990s)\nBy the 1990s, the War on Drugs had become a bipartisan political necessity.\n*   **Political Survival:** No politician wanted to be labeled \"soft on crime.\" This led to the 1994 Crime Bill, signed by President Bill Clinton, which provided funding for more police, more prisons, and incentives for states to implement \"truth-in-sentencing\" laws (which eliminated parole and forced longer prison terms).\n*   **Institutional Momentum:** By the 90s, the War on Drugs had created a massive bureaucracy. Police departments, prison systems, and private prison corporations became dependent on drug-related arrests and convictions for funding and growth. This created an institutional incentive to keep the war going, regardless of its effectiveness in reducing drug use.\n\n### Summary\nThe War on Drugs was not merely a public health initiative; it was a **political tool**. It allowed the government to:\n1.  **Consolidate power** by appealing to voters' fears of crime and social change.\n2.  **Marginalize political opponents** (the counterculture and civil rights activists).\n3.  **Address urban instability** through incarceration rather than addressing the root causes of poverty and systemic inequality.\n\nBy the end of the 1990s, these factors had resulted in the United States having the highest incarceration rate in the world, with a disproportionate number of those prisoners being people of color, despite drug usage rates being relatively similar across racial lines.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 1200,
+  "total_tokens": 1229,
+  "cost": 0.00180725,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00180725,
+   "upstream_inference_prompt_cost": 7.25e-06,
+   "upstream_inference_completions_cost": 0.0018
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 145,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:59:47.487906+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}
