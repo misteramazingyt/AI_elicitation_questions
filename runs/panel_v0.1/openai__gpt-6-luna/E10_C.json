@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "C",
+ "prompt": "What were the main causes of the UK miners' strike of 1984-1985?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The strike was caused by a clash over the future of Britain’s coal industry, intensified by years of industrial and political conflict.\n\n- **Pit closures and job losses:** The National Coal Board (NCB), led by Ian MacGregor, planned to close “uneconomic” pits. The immediate trigger was the March 1984 announcement that Cortonwood colliery in Yorkshire would close, with further closures expected. Miners feared the plan would destroy jobs and communities.\n- **A dispute over who should decide:** The National Union of Mineworkers (NUM), led by Arthur Scargill, opposed closures and argued that pits should not be shut on narrow financial grounds. The government and NCB maintained that loss-making capacity had to be reduced.\n- **A long-running decline in coal:** Falling demand, competition from oil and other fuels, and the cost of producing coal had put the industry under pressure. The disagreement was partly about how quickly and by what criteria it should be restructured.\n- **A wider political confrontation:** The Conservative government under Margaret Thatcher was determined to curb the power of trade unions, especially after the disruption of the 1972 and 1974 miners’ strikes. The government had prepared for possible industrial action, while the NUM saw the closures as an attack on miners’ livelihoods and collective strength.\n- **Disagreement within the union:** The NUM called the strike without a national ballot. Some areas, notably Nottinghamshire, opposed striking and continued working. This weakened the union’s unity and made the dispute more bitter.\n\nIn short, the immediate cause was the threatened pit closures, but the strike became a much broader struggle over jobs, the future of coal, union authority and the power of the government.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 403,
+  "total_tokens": 428,
+  "cost": 0.000204,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000204,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.0002015
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 52,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:52.946483+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

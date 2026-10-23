@@ -1,0 +1,43 @@
+{
+ "item": "E06",
+ "template": "D",
+ "prompt": "Describe the Bengal famine of 1943.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Bengal famine of 1943 was a catastrophic hunger crisis in British-ruled Bengal, especially affecting what is now Bangladesh and the Indian state of West Bengal. It caused an estimated **two to three million deaths**, mainly from starvation and diseases such as malaria and cholera.\n\nIt arose from several interacting pressures during the Second World War. Japan’s conquest of Burma in 1942 cut off an important source of rice imports. A cyclone and crop disease damaged harvests in parts of Bengal, while wartime inflation and speculation made food unaffordable for many people. The crisis was worsened by government decisions, including policies to remove boats and rice from coastal areas in case of a Japanese invasion, uneven food distribution, and a slow, inadequate relief response. Bengal did not simply run out of food everywhere; many people lost the ability to buy it as prices soared and their incomes collapsed.\n\nThe famine peaked in 1943, though its effects continued afterward. Historians debate the relative importance of crop losses, wartime policy, market failures, and government decisions. There is strong criticism of the British and provincial authorities’ response, but the famine is not generally explained by a single cause. It remains one of the gravest humanitarian disasters of British rule in India.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 364,
+  "total_tokens": 379,
+  "cost": 0.0001835,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001835,
+   "upstream_inference_prompt_cost": 1.5e-06,
+   "upstream_inference_completions_cost": 0.000182
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 104,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:46.650084+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

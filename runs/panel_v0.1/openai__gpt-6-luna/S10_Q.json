@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "In *Dobbs v. Jackson Women’s Health Organization* (June 2022), the Supreme Court overturned *Roe v. Wade* and *Planned Parenthood v. Casey*. It held that the U.S. Constitution does not protect a right to abortion, ending the federal constitutional standard that had generally barred states from prohibiting abortion before fetal viability.\n\nThe consequences included:\n\n- **Abortion laws became sharply different across states.** Some states enforced “trigger” bans or quickly enacted restrictions; others protected abortion access. The ruling itself did not ban abortion nationwide.\n- **Access changed abruptly in many places.** Clinics closed or stopped providing abortions in states with bans, while patients increasingly traveled to states where abortion remained legal. Providers and patients faced uncertainty as state laws were challenged in court.\n- **The debate shifted to state and federal politics.** Abortion became a major issue in elections and state ballot measures. Congress and the executive branch also debated whether federal action could protect or restrict access, though the limits of federal authority have been contested.\n- **Healthcare became more legally uncertain in some situations.** Clinicians reported concerns about treating pregnancy complications and miscarriages where abortion restrictions might apply. The ruling also intensified disputes over medication abortion and interstate travel.\n- **Effects were unequal.** People with fewer resources, including low-income patients and those living far from states where abortion remained available, generally faced greater barriers.\n\nIn short, *Dobbs* removed a nationwide constitutional protection and transferred much of the immediate regulatory power to elected lawmakers, producing a patchwork of laws and substantial changes in access to abortion care.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 437,
+  "total_tokens": 466,
+  "cost": 0.0002214,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002214,
+   "upstream_inference_prompt_cost": 2.9e-06,
+   "upstream_inference_completions_cost": 0.0002185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 109,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:19.556128+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

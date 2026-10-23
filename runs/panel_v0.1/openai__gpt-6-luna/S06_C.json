@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "C",
+ "prompt": "What were the main causes of the Kent State shootings of 1970?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Kent State shootings grew out of escalating opposition to the Vietnam War, especially President Richard Nixon’s April 30, 1970, announcement that U.S. forces had entered Cambodia. The announcement prompted protests at Kent State University and on campuses nationwide.\n\nSeveral factors turned the protests into a deadly confrontation:\n\n- **A tense local situation:** Protests, clashes, and damage to property took place in Kent in the days before May 4. An ROTC building on campus was burned on May 2; who set the fire was never definitively established.\n- **The decision to deploy the National Guard:** Ohio Governor James Rhodes sent Guard troops to Kent State. Their presence and attempts to disperse demonstrations heightened tensions.\n- **A breakdown in crowd control and communication:** On May 4, Guardsmen ordered a rally to disperse, then pursued demonstrators across campus. After moving to a hill, some turned and fired into the crowd. The exact reasons for the volley and whether any order to fire was given remain disputed.\n\nThe shootings were therefore not caused by one event alone. Antiwar anger and unrest formed the backdrop, while the deployment of armed troops, poor crowd-control decisions, and the Guardsmen’s gunfire led to the deaths of four students and injuries to nine others.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 336,
+  "total_tokens": 357,
+  "cost": 0.0001701,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001701,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.000168
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 73,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:11.337842+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

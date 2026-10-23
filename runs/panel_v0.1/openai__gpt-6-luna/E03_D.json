@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "D",
+ "prompt": "Describe the famine in Soviet Ukraine in 1932-1933.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The famine in Soviet Ukraine in 1932–1933—known in Ukraine as the **Holodomor**—was a catastrophic mass famine that killed millions. It occurred during a wider famine across the Soviet Union, but Ukraine was especially hard hit.\n\nThe crisis grew out of **forced collectivization**, which had disrupted farming and met fierce resistance from peasants. Soviet authorities imposed demanding grain-procurement quotas. When villages failed to meet them, officials confiscated grain and other food, sometimes taking seed stocks needed for the next planting. The state also punished communities through measures such as blacklisting, which restricted trade and supplies. In 1933, authorities sharply limited peasants’ ability to leave famine-stricken areas in search of food. Poor harvests contributed to the emergency, but they do not by themselves explain its scale: government policies and enforcement made the famine far worse.\n\nDeaths peaked in the spring and early summer of 1933. Estimates vary, but scholars commonly place famine deaths in Soviet Ukraine at **roughly 3.5 to 5 million**. The famine devastated rural communities and families. Soviet authorities suppressed information about it, restricted relief and denied or concealed the crisis.\n\nHistorians continue to debate whether the famine should be classified as genocide—particularly how to interpret Soviet leaders’ intent toward Ukrainians. Ukraine and many other countries formally recognize the Holodomor as genocide; other scholars emphasize that the famine also affected regions beyond Ukraine and debate whether the evidence establishes a specifically genocidal purpose. There is broad agreement, however, that Soviet policies were a central cause of the disaster and that the state intensified it through coercion and repression.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 470,
+  "total_tokens": 490,
+  "cost": 0.000237,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000237,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.000235
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 131,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.631036+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "C",
+ "prompt": "What were the main causes of the Republican Party's \"Southern strategy\"?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Republican Party’s **“Southern strategy”** grew out of a major political realignment, especially from the 1960s onward. Its main causes were:\n\n- **The civil-rights realignment:** As national Democrats increasingly backed civil-rights legislation, many white Southern voters who had long supported the Democratic Party became more open to Republicans. The Republican Party’s 1964 presidential nominee, Barry Goldwater, opposed the Civil Rights Act on constitutional grounds; his strong showing in parts of the Deep South helped signal the shift.\n- **White resistance to federal civil-rights policies:** Opposition to desegregation, voting-rights enforcement, and federal intervention in Southern affairs created an opportunity for Republicans to appeal to white voters dissatisfied with the Democratic Party’s direction.\n- **Electoral strategy:** Republican leaders, notably Richard Nixon’s campaign, sought to build a durable national majority by attracting Southern whites as well as disaffected voters elsewhere. Appeals to “law and order,” local control, and states’ rights could resonate with those concerns, sometimes through language that avoided explicit racial references.\n- **Broader social and political change:** Over time, suburban growth, religious conservatism, and debates over issues such as school prayer and abortion helped consolidate many white Southern voters in the Republican coalition.\n\nThe shift was gradual, not an overnight switch: Southern politics remained mixed for decades, and different voters moved for different reasons. Race and resistance to civil-rights change were central to the strategy’s origins, alongside a wider movement toward conservative politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 406,
+  "total_tokens": 426,
+  "cost": 0.000205,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000205,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.000203
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 94,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:05.228153+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

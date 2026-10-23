@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "H",
+ "prompt": "How have historians interpreted the New Deal (1933-1939)? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally agree that the New Deal transformed the relationship between the federal government and the public, but they disagree about how radical that transformation was, how much it aided economic recovery, and who benefited. “The New Deal” was also not a single, consistent program: policies changed between 1933 and 1939, and different agencies and constituencies often pulled in different directions.\n\n### Major interpretations\n\n**1. A liberal reform that saved American democracy.**  \nMid-century historians often portrayed Franklin Roosevelt’s programs as a pragmatic response to the Depression that preserved capitalism while making it more humane. Arthur M. Schlesinger Jr.’s *The Age of Roosevelt* (1957–1960) emphasized political conflict between reformers and business interests. William E. Leuchtenburg’s *Franklin D. Roosevelt and the New Deal, 1932–1940* (1963) likewise treated the New Deal as a major expansion of federal responsibility and a turning point in modern American politics. In this account, reforms such as Social Security and federal labor protections established lasting protections without replacing the market economy.\n\n**2. A limited and conservative reform.**  \nFrom the 1960s, “revisionist” historians questioned whether the New Deal went far enough. Barton J. Bernstein argued that it achieved important reforms but left the basic distribution of wealth and power largely intact; he famously described its accomplishments as “the conservative achievements of liberal reform” (“The New Deal: The Conservative Achievements of Liberal Reform,” 1968). Other critics stressed that relief and public-works programs did not redistribute wealth on a large scale, and that the New Deal did not end the Depression. This perspective sees it less as a social revolution than as a way of stabilizing American capitalism.\n\n**3. A politically constrained, unevenly built state.**  \nA related line of scholarship asks why the New Deal’s reforms were limited and uneven. Kenneth Finegold and Theda Skocpol argue that political institutions and coalition-building shaped what the federal government could accomplish (*State and Party in America’s New Deal*, 1995). Alan Brinkley, in *The End of Reform* (1995), traces how the administration moved away from some early ambitions for national economic planning toward policies more compatible with private enterprise. From this angle, the New Deal greatly enlarged federal government, but did not create a unified or consistently powerful welfare state.\n\n**4. Race, gender, and unequal access.**  \nMore recent historians have examined who was included in New Deal protections and who was left out. Ira Katznelson argues that Southern Democrats’ power in Congress helped secure New Deal legislation while also preserving racial exclusions—especially in programs that initially left many agricultural and domestic workers outside key protections (*Fear Itself*, 2013). Scholars of labor and social policy have also shown how women and Black Americans participated in, shaped, and challenged New Deal programs, even as discrimination and unequal administration limited their benefits. Useful works include Lizabeth Cohen’s *Making a New Deal* (1990) and Alice Kessler-Harris’s *In Pursuit of Equity* (2001).\n\n**5. A contested economic record.**  \nHistorians and economists continue to debate how much New Deal policy accelerated recovery. Some accounts emphasize relief, banking stabilization, and the restoration of confidence; others point to persistent unemployment and the Depression’s continuation through the 1930s. Economic scholarship has also disputed whether particular policies prolonged the downturn. For example, Harold L. Cole and Lee E. Ohanian argue that some New Deal policies impeded recovery (“New Deal Policies and the Persistence of the Great Depression,” *Journal of Political Economy*, 2004). That argument remains controversial, and economic interpretations depend partly on which policies and measures of recovery are being assessed.\n\n**6. A conservative critique.**  \nConservative writers have portrayed the New Deal as an excessive expansion of federal power that discouraged private investment or made recovery slower. Amity Shlaes’s *The Forgotten Man* (2007) is a prominent popular example. Such accounts have helped keep the economic and political debate alive, though they are not the only or necessarily representative view within academic historiography.\n\n### Overall\n\nA useful synthesis is that the New Deal **recast American government and created durable protections, but did not fundamentally overturn the capitalist order**. Its achievements were substantial yet incomplete: they depended on political compromise, were distributed unequally, and did not by themselves end the Depression. Historians’ emphasis varies—on reform, class power, state-building, racial exclusion, or economic performance—but the strongest accounts usually treat the New Deal as both transformative and limited.\n\n### Selected sources\n\n- Bernstein, Barton J. “The New Deal: The Conservative Achievements of Liberal Reform.” In *Towards a New Past*, edited by Barton J. Bernstein, 1968.  \n- Brinkley, Alan. *The End of Reform: New Deal Liberalism in Recession and War*. 1995.  \n- Cohen, Lizabeth. *Making a New Deal: Industrial Workers in Chicago, 1919–1939*. 1990.  \n- Cole, Harold L., and Lee E. Ohanian. “New Deal Policies and the Persistence of the Great Depression.” *Journal of Political Economy* 112, no. 4 (2004): 779–816.  \n- Finegold, Kenneth, and Theda Skocpol. *State and Party in America’s New Deal*. 1995.  \n- Katznelson, Ira. *Fear Itself: The New Deal and the Origins of Our Time*. 2013.  \n- Kessler-Harris, Alice. *In Pursuit of Equity: Women, Men, and the Quest for Economic Citizenship in 20th-Century America*. 2001.  \n- Leuchtenburg, William E. *Franklin D. Roosevelt and the New Deal, 1932–1940*. 1963.  \n- Schlesinger, Arthur M., Jr. *The Age of Roosevelt*. 3 vols., 1957–1960.  \n- Shlaes, Amity. *The Forgotten Man: A New History of the Great Depression*. 2007.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 1757,
+  "total_tokens": 1781,
+  "cost": 0.0008809,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008809,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.0008785
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 478,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.607960+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

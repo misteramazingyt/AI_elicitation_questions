@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "D",
+ "prompt": "Describe the 2008 financial crisis.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **2008 financial crisis** was a severe global banking and economic crisis that began in the United States and spread worldwide. It grew out of a housing boom, risky lending, and a financial system that had become highly leveraged and interconnected.\n\n### How it developed\n\nIn the early and mid-2000s, rising home prices encouraged lenders to issue more mortgages, including **subprime loans** to borrowers with weak credit. Many of these mortgages had low initial payments that later rose. Banks and other firms packaged mortgages into securities and sold them to investors. These products were often given high credit ratings, despite being exposed to the same underlying risk: a fall in house prices and a rise in defaults.\n\nFinancial firms borrowed heavily to invest in these assets. When home prices fell and mortgage defaults increased, the securities lost value. Because institutions did not know how large one another’s losses were, lending between banks and other firms seized up. The crisis deepened sharply in 2008:\n\n- **Bear Stearns** was rescued in March.\n- The U.S. government took control of mortgage companies **Fannie Mae and Freddie Mac** in September.\n- **Lehman Brothers** filed for bankruptcy on September 15, triggering panic in global markets.\n- **AIG**, a major insurer that had guaranteed many risky financial products, was rescued soon afterward.\n\n### What followed\n\nCredit became difficult to obtain, businesses cut investment and jobs, and household wealth fell. The crisis helped cause the **Great Recession**, a deep global downturn that lasted from 2007 to 2009 in the United States. Millions of people lost jobs or homes, and governments and central banks intervened with bank rescues, emergency lending, low interest rates, and economic stimulus.\n\nThe crisis exposed weaknesses in financial regulation, mortgage lending, risk assessment, and the use of complex financial products. In response, the United States and other countries introduced reforms intended to strengthen oversight and make banks more resilient.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 14,
+  "completion_tokens": 469,
+  "total_tokens": 483,
+  "cost": 0.0002359,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002359,
+   "upstream_inference_prompt_cost": 1.4e-06,
+   "upstream_inference_completions_cost": 0.0002345
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 69,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:47.852593+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "Q",
+ "prompt": "What were the consequences of the Reagan tax cuts of the 1980s?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Reagan tax cuts, chiefly the Economic Recovery Tax Act of 1981 and the Tax Reform Act of 1986, had a range of effects that economists and historians still debate. Here is a summary of the main consequences and the disagreements around them.\n\n**Economic effects**\n\n- **Recovery from the early-1980s recession.** Growth rebounded strongly from 1983, and the economy expanded for most of the rest of the decade. Supporters credit the tax cuts, along with Federal Reserve policy that brought inflation down, though many economists attribute the recovery mainly to monetary policy.\n- **Inflation and interest rates.** Inflation fell sharply from its late-1970s peak, but this owed more to Paul Volcker's tight monetary policy. Interest rates remained high for much of the early 1980s.\n- **Investment and savings.** The 1981 act sped up depreciation and cut top marginal rates, which supporters argued would boost saving and investment. The evidence for large effects on private saving is generally considered weak.\n- **Labor supply.** Research generally finds that labor supply responds only modestly to tax rates, so the act's effect on work effort was smaller than its proponents predicted.\n\n**Fiscal consequences**\n\n- **Large deficits.** Federal revenue fell relative to spending, and the deficit grew substantially. Reagan's tax cuts were not offset by equal spending cuts, and defense spending rose significantly. The national debt roughly tripled during the 1980s, from under $1 trillion to over $2.8 trillion.\n- **Partial reversal.** Congress raised taxes several times after 1982, including the Tax Equity and Fiscal Responsibility Act (1982), and the 1982 and 1984 measures recouped a portion of the 1981 cuts. The 1986 reform broadened the tax base while lowering rates, which was revenue-neutral in intent.\n- **Debate over the \"Laffer curve.\"** Supporters argued that cuts would generate enough growth to largely pay for themselves. Most analyses find that revenues did not rise enough to offset the cuts, though some argue that growth and the reforms of 1986 partly mitigated the losses.\n\n**Distributional effects**\n\n- **Shift toward high earners.** The top marginal income tax rate fell from 70% to 28% by 1988, and the share of tax burden borne by upper-income households shifted downward. Income inequality, measured by many indicators, rose during the decade and continued to rise afterward.\n- **Tax shelters and loopholes.** The 1981 act's generous depreciation rules encouraged real estate and other tax-sheltered investments, some of which were economically wasteful. The 1986 reform was partly a response to this.\n\n**Long-term legacy**\n\n- The tax cuts helped establish supply-side economics as a central part of Republican policy and influenced later tax debates, including the 2001 and 2003 Bush cuts.\n- The 1986 Tax Reform Act is often praised by economists across the spectrum for simplifying the code and removing many shelters, though it also introduced new complexities.\n- Debates continue over whether the deficits were a serious problem, whether growth would have been weaker without the cuts, and how much the policies contributed to rising inequality.\n\nOverall, the consensus is that the cuts did not pay for themselves, contributed to significant deficit growth, and shifted the tax burden toward lower-income groups relative to the high earners who benefited most. Whether the growth of the 1980s was caused substantially by the tax policy remains contested, with monetary policy and other factors often weighted heavily.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1183,
+  "total_tokens": 1215,
+  "cost": 0.0005947,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005947,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.0005915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:52.545744+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

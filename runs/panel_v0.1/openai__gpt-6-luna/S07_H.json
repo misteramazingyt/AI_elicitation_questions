@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "H",
+ "prompt": "How have historians interpreted the FBI's COINTELPRO program? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally interpret COINTELPRO as a secret campaign to disrupt political organizations—not simply to gather information about them. They differ, however, over how to explain its reach, motives, and place in the wider history of American state power.\n\n- **The FBI’s stated rationale was counter-subversion; historians emphasize how broadly it was applied.** The Bureau described its operations as efforts to protect national security and prevent violence. But COINTELPRO expanded from campaigns against the Communist Party and other groups labeled “subversive” to include civil-rights and Black Power organizations, the New Left, and others. Historian Athan Theoharis places the program within a longer history of FBI surveillance and argues that its roots lay in the Bureau’s expansive conception of its security mission.¹\n\n- **For many scholars, it was political repression, not ordinary law enforcement.** The program sought to “expose, disrupt, misdirect, discredit, or otherwise neutralize” targeted groups and individuals. That could mean spreading false information, worsening conflicts within organizations, or damaging reputations. Historian Kenneth O’Reilly emphasizes the FBI’s role in suppressing Black political activism; Joshua Bloom and Waldo E. Martin Jr. examine how state repression interacted with the rise and decline of the Black Panther Party.²\n\n- **COINTELPRO is also interpreted as an attack on constitutional freedoms.** The program operated in secrecy and often targeted lawful political activity, without the safeguards normally associated with criminal investigations. In this view, the central issue is not whether particular organizations were radical or controversial, but whether the government used covert means to weaken dissent. The 1976 Senate investigation led by Frank Church documented the Bureau’s methods and the absence of effective controls.³\n\n- **Some historians stress both state power and the limits of the program.** David Cunningham’s study of FBI campaigns against the New Left treats COINTELPRO as a systematic effort to shape political activity, while also examining how the Bureau selected targets and adapted its tactics. Scholars do not all claim that COINTELPRO alone destroyed the movements it targeted: organizations faced internal divisions, political opposition, and other pressures. The program is better understood as one consequential part of a broader climate of surveillance and repression.⁴\n\n**Sources**\n\n1. Athan G. Theoharis, *The FBI and American Democracy: A Brief Critical History* (University Press of Kansas, 2004).\n2. Kenneth O’Reilly, *Racial Matters: The FBI’s Secret File on Black America, 1960–1972* (Free Press, 1989); Joshua Bloom and Waldo E. Martin Jr., *Black Against Empire: The History and Politics of the Black Panther Party* (University of California Press, 2013).\n3. U.S. Senate, Select Committee to Study Governmental Operations with Respect to Intelligence Activities, *Final Report*, Book II: *Intelligence Activities and the Rights of Americans* (1976).\n4. David Cunningham, *There’s Something Happening Here: The New Left, the Klan, and FBI Counterintelligence* (University of California Press, 2004).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 784,
+  "total_tokens": 807,
+  "cost": 0.0003943,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003943,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.000392
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 132,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:15.303249+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

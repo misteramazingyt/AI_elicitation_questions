@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "D",
+ "prompt": "Describe the War on Poverty and Great Society programs of the 1960s.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **War on Poverty** and the **Great Society** were major domestic initiatives launched by President **Lyndon B. Johnson** in the 1960s. Both aimed to reduce poverty and inequality, expand opportunity, and improve Americans’ quality of life.\n\n### War on Poverty\nJohnson announced the War on Poverty in 1964. Its programs sought to address poverty through education, job training, and community services. The **Economic Opportunity Act of 1964** created the Office of Economic Opportunity and funded programs including:\n\n- **Head Start**, which provided early education and support for children from low-income families.\n- **Job Corps**, offering education and vocational training to young people.\n- **VISTA**, a domestic volunteer program modeled on the Peace Corps.\n- **Community Action Programs**, intended to involve local residents in addressing poverty.\n\n### Great Society\nThe Great Society was Johnson’s broader domestic agenda, which included the War on Poverty as well as reforms in health care, education, civil rights, housing, and the environment. Major measures included:\n\n- **Medicare** for older Americans and **Medicaid** for people with low incomes, established in 1965.\n- Federal aid for elementary and secondary schools, including support for students in disadvantaged communities.\n- The **Voting Rights Act of 1965** and other civil-rights legislation.\n- New housing and urban-development programs, environmental protections, and federal support for the arts and humanities.\n- The **Immigration and Nationality Act of 1965**, which changed the system for admitting immigrants.\n\nThe programs expanded access to health care, education, and social services, and the national poverty rate fell significantly during the 1960s. Their reach and effectiveness varied, however, and critics argued that some programs were inefficient or gave the federal government too large a role. The cost of the Great Society also became harder to sustain as the Vietnam War escalated.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 494,
+  "total_tokens": 516,
+  "cost": 0.0002492,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002492,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.000247
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 103,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:01.805065+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

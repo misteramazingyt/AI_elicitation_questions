@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "D",
+ "prompt": "Describe the 1996 U.S. welfare reform law.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA)** was a major U.S. welfare law signed by President Bill Clinton on **August 22, 1996**. It changed how federal cash assistance for low-income families was structured.\n\nIts central change was replacing **Aid to Families with Dependent Children (AFDC)**—an entitlement program—with **Temporary Assistance for Needy Families (TANF)**. Under TANF:\n\n- The federal government gives states fixed **block grants**, and states have broad discretion over how to run their programs.\n- States must meet federal work-participation requirements, and recipients are generally expected to engage in work or work-related activities.\n- Federal assistance is generally limited to **60 months over a person’s lifetime**, though states can set shorter limits and may use their own funds to provide some extensions.\n- States are responsible for meeting other rules, including requirements related to reducing out-of-wedlock births and promoting two-parent families.\n\nThe law also changed other programs. It tightened eligibility for some **immigrants** seeking public benefits, revised child-support enforcement, and altered rules for food assistance and disability benefits, among other provisions.\n\nSupporters said the law would encourage work and reduce long-term dependence on cash assistance. Critics argued that it weakened the safety net and left states with uneven resources and policies. Its effects have been debated, particularly regarding poverty, employment, and the number of families receiving assistance.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 400,
+  "total_tokens": 418,
+  "cost": 0.0002018,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002018,
+   "upstream_inference_prompt_cost": 1.8e-06,
+   "upstream_inference_completions_cost": 0.0002
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 98,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:59.495616+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

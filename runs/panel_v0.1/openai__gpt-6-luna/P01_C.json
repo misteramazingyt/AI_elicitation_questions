@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "C",
+ "prompt": "What were the main causes of the invention of the movable-type printing press in Europe?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The movable-type printing press emerged in Europe in the mid-15th century because several conditions came together:\n\n- **Growing demand for books and documents:** Expanding schools and universities, urban commerce, government administration, and religious life all needed more written material.\n- **A market for cheaper copies:** Hand-copying was slow and costly, while paper—gradually replacing expensive parchment—made larger-scale production more practical.\n- **Available technical skills and tools:** European craftsmen already worked with metal, punches, molds, and screw presses. Gutenberg combined these skills to make durable metal type, suitable ink, and a press that could print repeatedly.\n- **A writing system well suited to reusable type:** The relatively small set of letters in the Latin alphabet made it practical to assemble pages from individual pieces of type.\n- **A strong incentive to reproduce texts consistently:** Printing could produce many near-identical copies, useful for religious texts, schoolbooks, and official documents.\n\nSo the press was not the result of one isolated invention. It was a practical response to rising demand, enabled by existing materials and craft techniques. Movable type had earlier been developed in East Asia, but Gutenberg’s particular system was adapted to European conditions.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 347,
+  "total_tokens": 370,
+  "cost": 0.0001758,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001758,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.0001735
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 99,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:45.250930+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

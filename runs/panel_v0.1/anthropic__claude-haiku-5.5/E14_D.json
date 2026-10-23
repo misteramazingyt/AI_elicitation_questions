@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "D",
+ "prompt": "Describe the War on Poverty and Great Society programs of the 1960s.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The War on Poverty and the Great Society were interrelated sets of domestic policies launched under Presidents John F. Kennedy and especially Lyndon B. Johnson in the 1960s. They aimed to reduce poverty, expand civil rights, improve health care and education, and address urban problems.\n\n**Origins**\n\nKennedy began the push against poverty, drawing on Michael Harrington's 1962 book *The Other America*, which argued that poverty persisted in pockets of American society despite general prosperity. After Kennedy's assassination in November 1963, Johnson made these efforts central to his agenda. In his January 1964 State of the Union address, he declared \"unconditional war on poverty in America.\" The Economic Opportunity Act of 1964 created the Office of Economic Opportunity to run anti-poverty programs.\n\nJohnson gave the broader vision the name \"the Great Society\" in a 1964 speech at the University of Michigan, describing a nation that would move beyond mere material abundance to address quality of life.\n\n**Major Programs**\n\n*Anti-poverty programs (War on Poverty):*\n- **Job Corps**: residential job training for disadvantaged youth.\n- **Head Start** (1965): early childhood education for low-income children.\n- **Community Action Programs**: local agencies that engaged residents, including the poor, in planning and running services. These were controversial, as some local officials resented the federal bypass of their authority.\n- **VISTA** (Volunteers in Service to America): a domestic counterpart to the Peace Corps.\n- **Legal Services** and **Upward Bound** for disadvantaged students.\n\n*Social insurance and health:*\n- **Medicare** (health insurance for people 65 and older) and **Medicaid** (health coverage for low-income people), both enacted in 1965.\n- **Social Security** expansions, including increased benefits.\n- **Food Stamps** expansion and other nutrition programs.\n\n*Education:*\n- **Elementary and Secondary Education Act** (1965), providing federal aid to schools serving low-income students, the first major federal school aid program of its kind.\n- Higher education aid, including expanded student loans and scholarships.\n\n*Civil rights and voting:*\n- **Civil Rights Act of 1964**, banning discrimination in public accommodations, employment, and federally funded programs.\n- **Voting Rights Act of 1965**, eliminating barriers such as literacy tests that had disenfranchised Black Southerners.\n- **Fair Housing Act of 1968**, prohibiting discrimination in housing sales and rentals.\n\n*Urban and environmental initiatives:*\n- Model Cities program, Department of Housing and Urban Development (HUD) created in 1965, and urban renewal efforts.\n- Environmental laws such as the Clean Air Act and the Wilderness Act, and creation of agencies like the National Endowment for the Arts and Humanities (1965) and the Corporation for Public Broadcasting (1967).\n\n**Results and Assessment**\n\nSupporters credit these programs with substantial achievements. The official poverty rate fell from about 19 percent in 1964 to around 11 percent by 1973. Medicare and Medicaid dramatically reduced the share of elderly Americans without health insurance and expanded care for the poor. Social Security and food programs lowered poverty among the elderly and children, and civil rights laws opened voting, employment, and housing opportunities.\n\nCritics have raised several objections. Conservatives argued that welfare programs fostered dependency and that Great Society spending contributed to inflation and federal deficits, especially as the Vietnam War drained resources. Some on the left argued the programs were too limited, leaving structural poverty and urban problems largely intact. Community Action Programs faced political conflict and mismanagement, and Model Cities had mixed results. Scholars continue to debate how much poverty reduction resulted from these programs versus economic growth and later changes, and how much the poverty rate's measurement overlooks the effects of benefits like Medicare and food aid.\n\n**Legacy**\n\nMany Great Society programs, including Medicare, Medicaid, Head Start, Food Stamps (now SNAP), and federal education aid, remain central to American public policy. The debates they sparked about the proper federal role in fighting poverty, the design of welfare, and the balance between government action and individual responsibility continue to shape American politics today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1439,
+  "total_tokens": 1471,
+  "cost": 0.0007227,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007227,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.0007195
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:16.737531+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1994 U.S. crime bill?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 1994 Violent Crime Control and Law Enforcement Act had **mixed and contested consequences**. It combined policing and crime-prevention funding with tougher sentencing and expanded federal criminal penalties.\n\n- **More funding for policing:** The law authorized grants intended to put roughly 100,000 additional officers on the street and supported community-policing programs. It also funded crime-prevention initiatives, including the Violence Against Women Act.\n- **Tougher penalties and more incarceration:** It expanded the federal death penalty, created a federal “three strikes” provision, and offered states incentives to adopt truth-in-sentencing rules and build prisons. These measures contributed to a broader punitive turn, though states—not the federal law alone—drove much of the growth in incarceration.\n- **A temporary assault-weapons ban:** The law prohibited certain defined assault weapons and large-capacity magazines, but the ban expired in 2004. Research on its effect on overall gun violence is disputed; it appears to have had limited measurable effect on total crime.\n- **Crime fell, but the bill’s role is unclear:** Violent crime declined substantially during the 1990s. The law may have contributed through policing or other measures, but researchers disagree about how much. Crime was already affected by broader social and economic changes, and the decline cannot be attributed to the bill alone.\n- **Unequal burdens:** The law became part of a policy environment associated with mass incarceration and severe racial disparities in imprisonment. Its provisions were not the sole cause of those outcomes, but critics argue that its sentencing incentives and punitive approach reinforced them.\n\nIn short, the bill funded some services and policing while also strengthening punitive policies. Its supporters credit it with helping reduce crime; critics emphasize incarceration, racial disparities, and the limited evidence that many of its toughest provisions made communities safer.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 513,
+  "total_tokens": 534,
+  "cost": 0.0002586,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002586,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.0002565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 142,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:36.027769+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

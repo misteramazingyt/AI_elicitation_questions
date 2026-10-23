@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1969 Stonewall riots? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally treat the Stonewall riots as both a real confrontation with police and a later-made symbol of a much broader movement. They disagree less about whether the events mattered than about **what kind of turning point they were, who should be centered in the story, and how later activism reshaped their meaning**.\n\n### A turning point—but not the beginning\n\nThe uprising began after a police raid on the Stonewall Inn in New York City on June 28, 1969, and protests and clashes continued for several nights. David Carter’s *Stonewall: The Riots That Sparked the Gay Revolution* (2004) gives a detailed narrative of the raid, the crowd’s resistance, and the activists who organized in its aftermath. Martin Duberman’s *Stonewall* (1993), based on interviews with several participants, likewise presents the riots as a break with a more cautious style of gay organizing.\n\nBut historians caution against saying that gay and lesbian activism began at Stonewall. John D’Emilio’s *Sexual Politics, Sexual Communities* (1983) traces organized gay politics back decades, including the Mattachine Society and the Daughters of Bilitis. There had also been earlier acts of resistance to police harassment, including the 1966 Compton’s Cafeteria uprising in San Francisco. Stonewall’s significance, in this interpretation, was not that it created a movement from nothing, but that it helped energize a more confrontational and visible phase of one already underway.\n\n### A catalyst whose meaning was made afterward\n\nSome accounts emphasize the rapid growth of new activist groups after the riots, such as the Gay Liberation Front, and the emergence of annual marches that became Pride events. Yet scholars distinguish the events themselves from the way they were later remembered. Elizabeth A. Armstrong and Suzanna M. Crage, in “Movements and Memory: The Making of the Stonewall Myth” (*American Sociological Review* 71, no. 5, 2006), argue that Stonewall became a powerful commemorative symbol through later organizing. Its prominence was not automatic: activists and organizations helped make it the movement’s central origin story.\n\nCalling Stonewall a “myth” in this scholarly sense does not mean it was invented. It means that a complex history was condensed into a story with shared political force. The familiar account of one dramatic uprising giving birth to a unified movement can obscure both earlier activism and the disagreements and varied experiences within the movement.\n\n### Who participated—and who gets remembered?\n\nAccounts of Stonewall also raise questions about race, class, gender expression, and sexuality. The bar served a varied clientele, including gay men, lesbians, drag queens, and gender-nonconforming people; many accounts describe working-class and racially diverse participants. Duberman and Carter draw on participants’ recollections, but memories differ, and historians cannot reliably identify a single person who “started” the uprising or threw the first object.\n\nLater retellings have often highlighted transgender women and people of color—especially Marsha P. Johnson and Sylvia Rivera—as central figures. Their importance to queer history and activism is clear, but historians warn against turning uncertain recollections into a simple, definitive claim about exactly who led the first night’s resistance. Susan Stryker’s *Transgender History* (2008) places Stonewall in the longer history of transgender and gender-nonconforming activism, while also showing why trans people’s contributions have often been marginalized in accounts of gay liberation.\n\n### In sum\n\nMost historians see Stonewall as a **major catalyst and an enduring symbol**, rather than the single origin of LGBTQ activism. Its historical importance lies both in the resistance that took place in 1969 and in the movement’s later use of Stonewall to express anger at policing, demand public visibility, and create a shared history.\n\n**Selected sources**\n\n- Armstrong, Elizabeth A., and Suzanna M. Crage. “Movements and Memory: The Making of the Stonewall Myth.” *American Sociological Review* 71, no. 5 (2006): 724–751.\n- Carter, David. *Stonewall: The Riots That Sparked the Gay Revolution*. 2004.\n- D’Emilio, John. *Sexual Politics, Sexual Communities: The Making of a Homosexual Minority in the United States, 1940–1970*. 1983.\n- Duberman, Martin. *Stonewall*. 1993.\n- Stryker, Susan. *Transgender History*. 2008.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 1421,
+  "total_tokens": 1443,
+  "cost": 0.0007127,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007127,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0007105
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 495,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:20.804731+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration and Nationality Act of 1965?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Immigration and Nationality Act of 1965—also called the Hart–Celler Act—ended the system that favored immigrants from northern and western Europe through national-origins quotas. It replaced that system with rules giving priority to family reunification and, to a lesser extent, people with needed skills.\n\nIts major consequences included:\n\n- **A shift in immigrants’ countries of origin.** Over time, a much larger share of newcomers came from Asia and Latin America, while the share from Europe declined.\n- **Greater ethnic and cultural diversity.** The law helped reshape the United States’ population and contributed to the growth of Asian American and Latino communities.\n- **Family-based migration networks.** Because citizens and permanent residents could sponsor relatives, immigration often continued through family connections. This was sometimes called “chain migration.”\n- **A gradual increase in immigration.** The act did not immediately produce a dramatic surge; later laws and policy changes also shaped the growth in arrivals.\n- **New limits and policy tensions.** The law introduced numerical limits for immigrants from the Western Hemisphere, and later restrictions contributed to debates over undocumented immigration.\n\nIn short, the act dismantled a racially and nationally discriminatory quota system and changed both who could immigrate and the long-term composition of the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 354,
+  "total_tokens": 376,
+  "cost": 0.0001792,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001792,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.000177
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 90,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:40.861676+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

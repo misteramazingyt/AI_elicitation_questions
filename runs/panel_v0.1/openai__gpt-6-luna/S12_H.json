@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "H",
+ "prompt": "How have historians interpreted the rise of the Moral Majority around 1980? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally interpret the Moral Majority’s emergence in 1979–80 not as a sudden religious awakening, but as the political consolidation of longer-running changes: evangelical organizing, conservative activism, and conflicts over sex, race, education, and the role of government. They differ, however, on which of those forces mattered most.\n\n- **A response to cultural and social change.** One influential account sees the Moral Majority as a backlash against changes associated with the 1960s and 1970s: feminism, abortion rights, gay rights, and the perceived decline of religious influence in public life. Robert Self’s *All in the Family* places the movement within a broader conservative defense of traditional family and gender roles. Daniel K. Williams likewise shows how religious conservatives built a political coalition around social issues—but cautions against treating abortion as the original or sole cause of evangelical mobilization. School prayer, the Equal Rights Amendment, and other issues were important earlier concerns (Self, 2012; Williams, 2010).\n\n- **A movement built on existing networks.** Rather than treating Jerry Falwell as the creator of a movement from nothing, historians emphasize the infrastructure already available: churches, evangelical broadcasters, direct-mail operations, and local conservative groups. Darren Dochuk traces the development of evangelical political networks in the Sunbelt, while Lisa McGirr shows how conservative activism had been developing at the local level well before 1980. In this view, Falwell’s achievement was partly to give dispersed activists a visible national organization and a shared political identity (Dochuk, 2011; McGirr, 2001).\n\n- **Political entrepreneurship and party realignment.** The Moral Majority also helped connect evangelical activists to Republican candidates and institutions. Williams describes the Christian Right as a coalition assembled over time, not a bloc that automatically voted together. Steven P. Miller similarly situates the group within the growing political importance of evangelical identity. The Moral Majority made conservative Christians more visible and organized, but historians generally avoid crediting it alone with Ronald Reagan’s 1980 victory or with the broader conservative realignment (Williams, 2010; Miller, 2014).\n\n- **Race and the politics of religious institutions.** Some accounts stress that the movement’s origins cannot be understood solely through public rhetoric about abortion or religious liberty. Historian Randall Balmer has argued that federal action against the tax-exempt status of racially discriminatory schools helped spur the early organization of the Religious Right. Williams’s account also highlights disputes over schools and federal authority, though the origins and weight of this factor remain debated. The point is not that every Moral Majority supporter was motivated by racial politics, but that the movement developed amid conflicts over school desegregation, private education, and government regulation as well as more familiar social issues (Balmer, 2014; Williams, 2010).\n\n**In short:** historians tend to see the Moral Majority as an effective organizing vehicle for a broader conservative and evangelical mobilization. It drew on grassroots networks and longstanding disputes, while giving them a national political focus. Interpretations differ over how to weigh cultural backlash, party strategy, and the racial politics of education and religious institutions.\n\n**Selected sources**\n\n- Balmer, Randall. “The Real Origins of the Religious Right.” *Politico Magazine*, 2014.  \n- Dochuk, Darren. *From Bible Belt to Sunbelt: Plain-Folk Religion, Grassroots Politics, and the Rise of Evangelical Conservatism*. W. W. Norton, 2011.  \n- McGirr, Lisa. *Suburban Warriors: The Origins of the New American Right*. Princeton University Press, 2001.  \n- Miller, Steven P. *The Age of Evangelicalism: America’s Born-Again Years*. Oxford University Press, 2014.  \n- Self, Robert O. *All in the Family: The Realignment of American Democracy Since the 1960s*. Hill and Wang, 2012.  \n- Williams, Daniel K. *God’s Own Party: The Making of the Christian Right*. Oxford University Press, 2010.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1558,
+  "total_tokens": 1583,
+  "cost": 0.0007815,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007815,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.000779
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 714,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:22.583802+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

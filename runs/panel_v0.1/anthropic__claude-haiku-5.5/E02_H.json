@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "H",
+ "prompt": "How have historians interpreted the Reagan tax cuts of the 1980s? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians disagree sharply about the Reagan tax cuts, mainly over whether they worked, who benefited, and how much they actually changed American fiscal policy. The main interpretations are below. I've cited well-known works from memory, so check edition details and page numbers before using them in formal writing.\n\n## 1. The \"supply-side revolution\" reading\n\nEarly accounts, often by economists and journalists sympathetic to supply-side theory, treated the Economic Recovery Tax Act of 1981 (ERTA) as a deliberate break from Keynesian demand management. They emphasized the cut in marginal rates (the top rate fell from 70% to 50%, and then to 28% under the 1986 reform) and argued it unleashed investment and growth after the stagflation of the 1970s.\n\n- Bruce Bartlett, *Reaganomics: Supply-Side Economics in Action* (1981). A contemporary advocate's account. Bartlett later became a prominent critic of supply-side claims, so his views have shifted.\n- Martin Feldstein, a Reagan adviser, wrote widely on the policy's economic effects. His writings are useful for the advocates' case, though they are not neutral historical analysis.\n\n## 2. The critical/distributional reading\n\nMany historians and political scientists argue the tax cuts were regressive, produced large deficits, and redistributed income upward. The \"revenue loss and deficit\" critique is central here, and it was an argument liberals made at the time.\n\n- Jacob Hacker and Paul Pierson, *Winner-Take-All Politics* (2010). They argue that tax policy from the 1980s onward helped entrench income concentration at the top, and they treat Reagan's tax changes as a turning point.\n- Sean Wilentz, *The Age of Reagan: A History, 1974–2008* (2008). A critical synthesis that questions the claims of Reagan-era prosperity and stresses the deficits and the gap between rhetoric and results.\n- Kevin Phillips, *The Politics of the Rich and Poor* (1990). A journalistic but influential account of rising inequality and the political choices behind it.\n\n## 3. The institutional and \"it's more complicated\" reading\n\nA third group focuses on fiscal mechanics and what actually happened in Congress. These historians stress that Reagan's tax program was not a simple, unbroken cut, and that the record includes significant reversals.\n\n- W. Elliot Brownlee, *Federal Taxation in America: A Short History* (2nd ed., 2004). A key survey. Brownlee shows that Reagan signed several tax increases after 1981, including the Tax Equity and Fiscal Responsibility Act of 1982 (TEFRA) and the Deficit Reduction Act of 1984, to address deficits. He also highlights the growth of payroll taxes, which hit lower- and middle-income workers, and the importance of the Social Security reforms of 1983.\n- Jeffrey Birnbaum and Alan Murray, *Showdown at Gucci Gulch* (1987). A detailed journalistic account of the Tax Reform Act of 1986, showing the lobbying and bargaining that produced a bipartisan reform that broadened the base and lowered rates.\n- Robert M. Collins, *More: The Politics of Economic Growth in Postwar America* (2000). Places 1980s tax debates within longer arguments about growth, government, and the economy.\n\n## 4. The ideological and political-history reading\n\nSome historians place the tax cuts within a larger story about business mobilization, the rise of market ideology, and the making of a neoliberal order. Here the tax cuts matter less as an economic experiment than as a political and cultural project.\n\n- Kim Phillips-Fein, *Invisible Hands: The Businessmen's Crusade Against the New Deal* (2009). Traces the organized business movement that helped build the intellectual and political case against taxation and regulation.\n- Daniel T. Rodgers, *Age of Fracture* (2011). Discusses the shift toward market-centered thinking and its political consequences.\n- Gary Gerstle, *The Rise and Fall of the Neoliberal Order* (2022). Treats the 1980s tax reforms as part of a broader realignment in American political economy.\n- Julian Zelizer, *The Fierce Urgency of Now* (2015). Examines the Carter-to-Reagan transition and the political dynamics behind fiscal and economic change. His *Taxing America* (1998) is valuable background on postwar tax politics.\n\n## Points of consensus and contention\n\n**Relatively settled:**\n- ERTA (1981) cut individual rates sharply, and the deficit grew substantially in the 1980s.\n- Reagan signed later tax increases, so the \"pure cut\" narrative is incomplete.\n- The 1986 Tax Reform Act lowered rates while broadening the base, and it had bipartisan support.\n\n**Still contested:**\n- How much the cuts contributed to growth versus other factors, such as Federal Reserve policy under Paul Volcker, oil prices, and the business cycle.\n- Whether the deficits were caused mainly by tax cuts or by defense spending and other policy choices.\n- How to weigh distributional effects, especially given the tax burden shift toward payroll taxes.\n\nIf you're writing on this, I'd suggest starting with Brownlee for the fiscal facts, then reading Hacker and Pierson alongside a supply-side defense for the range of arguments. Want me to suggest how to structure a paper around these competing readings?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 3409,
+  "total_tokens": 3449,
+  "cost": 0.0017085,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017085,
+   "upstream_inference_prompt_cost": 4e-06,
+   "upstream_inference_completions_cost": 0.0017045
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1589,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:52.737354+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

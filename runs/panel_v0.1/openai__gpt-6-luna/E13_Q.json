@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1996 U.S. welfare reform law?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 1996 Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA) replaced the federal entitlement to cash assistance for poor families with children—Aid to Families with Dependent Children (AFDC)—with **Temporary Assistance for Needy Families (TANF)**, a system of fixed federal grants to states.\n\nIts main consequences included:\n\n- **Far fewer families received cash assistance.** Welfare caseloads fell sharply after the law. The decline reflected the reform, a strong economy, and other changes; the law’s exact share is difficult to separate from those factors.\n- **More single mothers entered paid work, especially in the late 1990s.** Work requirements and time limits were part of the change, but an expanding economy and policies such as the expanded Earned Income Tax Credit also mattered. Some former recipients found steady work; others moved among low-wage jobs or lost assistance without becoming securely employed.\n- **States gained substantial control.** TANF gave states broad discretion over eligibility, benefits, work rules, and services. This produced major differences among states and made the system less uniform.\n- **Help became less reliable as a safety net.** Unlike AFDC, TANF does not guarantee cash aid to eligible families. Lifetime limits, work rules, sanctions, and administrative hurdles can cut off support. Because federal TANF funding is largely fixed, it does not automatically grow when need rises during a recession.\n- **Poverty effects were mixed.** Poverty among children and single-parent families fell during the late-1990s expansion, but cash-assistance reductions did not consistently translate into higher family incomes. Research has raised particular concern about **deep poverty**—families living far below the poverty line—and about children in families disconnected from both work and cash aid.\n- **The law changed rules for other groups too.** It restricted many immigrants’ access to federal benefits, though later laws and state choices modified some restrictions, and it strengthened child-support enforcement.\n\nOverall, the reform reduced reliance on cash welfare and encouraged employment, but it also made assistance less assured. Its effects depended heavily on state policy and economic conditions, and the long-term results were uneven—especially for families facing barriers to work or living through downturns.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 573,
+  "total_tokens": 595,
+  "cost": 0.0002887,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002887,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0002865
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 115,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:00.811055+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

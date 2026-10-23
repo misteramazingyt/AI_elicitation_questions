@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2011 military intervention in Libya? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians and other scholars have interpreted the 2011 intervention in Libya in sharply different ways. The main disagreement is whether NATO’s campaign should be understood primarily as a successful effort to protect civilians, or as a protection mission that became an instrument for overthrowing Muammar Qaddafi. A further debate concerns the intervention’s consequences—and how much responsibility for Libya’s later turmoil belongs to NATO rather than to Libyan political divisions and the choices of postwar leaders.\n\n**A necessary, if imperfect, protection operation.** Supporters emphasize that forces loyal to Qaddafi were advancing on Benghazi, and that the UN Security Council authorized “all necessary measures” to protect civilians in Resolution 1973. From this perspective, intervention offered a credible way to avert a grave danger to the city’s population. International-relations scholar Alex J. Bellamy argues that Libya was an important test of the international norm known as the Responsibility to Protect, while also noting that the conduct of the campaign complicated that norm’s future credibility (Bellamy, “Libya and the Responsibility to Protect: The Exception and the Norm,” *Ethics & International Affairs* 25, no. 3, 2011).\n\n**A protection mandate that turned into regime change.** Critics contend that NATO went beyond civilian protection by helping the rebels win the war and remove Qaddafi. Hugh Roberts argued that the intervention’s political aim became regime change, despite the narrower UN authorization (“Who Said Gaddafi Had to Go?,” *London Review of Books* 33, no. 22, 2011). Alan J. Kuperman takes a particularly critical view: he argues that intervention prolonged the civil war, increased its human costs, and helped produce a rebel victory that might otherwise not have occurred (“A Model Humanitarian Intervention? Reassessing NATO’s Libya Campaign,” *International Security* 38, no. 1, 2013). These accounts dispute how imminent a mass killing in Benghazi was and whether airstrikes were the least harmful way to protect civilians.\n\n**A mission with poor preparation for what followed.** Another major interpretation focuses less on the initial decision to intervene than on the failure to plan for the aftermath. The UK House of Commons Foreign Affairs Committee concluded in its 2016 inquiry that British policy rested on mistaken assumptions and an incomplete understanding of Libya, and that the intervention drifted from civilian protection toward regime change without an adequate postwar strategy (*Libya: Examination of Intervention and Collapse and the UK’s Future Policy Options*, HC 119, 2016). This critique treats the intervention as a contributing cause of Libya’s subsequent instability, while leaving room for the role of Libyan factions, weak institutions, and later foreign interference.\n\n**A mixed record, rather than a single verdict.** The UN’s Commission of Inquiry documented civilian deaths from NATO airstrikes as well as abuses by Libyan forces and opposition groups (UN Human Rights Council, *Report of the International Commission of Inquiry on Libya*, A/HRC/19/68, 2012). That evidence supports neither a simple account of a flawless humanitarian operation nor the claim that every aspect of the campaign was unlawful or deliberately directed at civilians.\n\nIn short, interpretations range from “necessary protection that succeeded in its immediate purpose” to “mission creep that helped create a disastrous aftermath.” A useful distinction is between the **decision to intervene**, the **way NATO conducted the campaign**, and the **failure to secure a stable postwar order**. Scholars disagree over each—and often weigh the three differently.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 1552,
+  "total_tokens": 1575,
+  "cost": 0.0007783,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007783,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.000776
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 826,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:34.253899+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

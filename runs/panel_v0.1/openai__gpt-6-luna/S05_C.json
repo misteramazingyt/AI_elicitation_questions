@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "C",
+ "prompt": "What were the main causes of the 1993 Waco siege?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Waco siege grew out of several factors, rather than a single cause:\n\n- **A federal weapons investigation:** The Bureau of Alcohol, Tobacco and Firearms (ATF) suspected the Branch Davidians, led by David Koresh, of possessing and modifying firearms illegally. It obtained warrants to search their compound and arrest Koresh.\n- **A disastrous raid:** On February 28, 1993, the ATF raid at Mount Carmel ended in a firefight. Four agents and six Branch Davidians died. The exact sequence of who fired first remains disputed.\n- **A difficult standoff:** After the raid, the FBI took over. Negotiations continued, but the FBI also used pressure tactics, including cutting utilities and deploying disruptive lights and sounds. The two sides’ distrust and conflicting approaches made a peaceful resolution harder.\n- **The group’s beliefs and leadership:** Koresh’s authority and the Branch Davidians’ apocalyptic religious beliefs shaped how some members interpreted the confrontation and their willingness to remain inside.\n\nThe standoff ended on April 19, when a fire engulfed the compound and 76 Branch Davidians died, including children. Investigations concluded that members inside started the fires, though the government’s handling of the siege and its tactics have remained controversial.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 442,
+  "total_tokens": 462,
+  "cost": 0.000223,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000223,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.000221
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 177,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:09.224405+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

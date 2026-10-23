@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Kent State shootings of 1970?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The May 4, 1970, shootings at Kent State had immediate and lasting consequences:\n\n- **Four students were killed and nine wounded** when Ohio National Guard troops fired on demonstrators protesting the U.S. invasion of Cambodia and the ongoing Vietnam War. Some of those shot had not been taking part in the protest.\n- **Campuses across the country erupted in protest.** A nationwide student strike involved an estimated four million students, and hundreds of colleges and universities closed temporarily.\n- **The shootings intensified public debate over the war and protest.** A presidential commission later concluded that the Guard’s use of gunfire was “unnecessary, unwarranted, and inexcusable.” The event became a lasting symbol of the divisions of the Vietnam era.\n- **Legal accountability was limited.** No Guardsmen were convicted. In 1979, Ohio settled a civil lawsuit with the wounded students and families of those killed, paying $675,000; the Guardsmen expressed regret but did not admit liability.\n- **The violence continued to resonate.** Ten days later, police killed two students and wounded twelve at Jackson State College in Mississippi, another episode that drew national attention but received less coverage.\n\nKent State did not end the war, but it galvanized antiwar activism and deepened conflict over the war, protest, and the government’s response to dissent.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 441,
+  "total_tokens": 461,
+  "cost": 0.0002225,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002225,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.0002205
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 162,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:12.510726+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "C",
+ "prompt": "What were the main causes of the 2011 military intervention in Libya?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **immediate trigger** was the Libyan uprising against Muammar Gaddafi’s rule in 2011 and the government’s violent crackdown. As Gaddafi’s forces advanced on rebel-held areas, especially Benghazi, his threats to crush the opposition raised fears of large-scale civilian casualties.\n\nThe intervention’s **stated purpose** was to protect civilians. The UN Security Council’s Resolution 1973 authorized “all necessary measures” to protect civilians and established a no-fly zone, while ruling out a foreign occupation. The Arab League had also called for a no-fly zone, lending regional support to action.\n\nOther factors likely shaped the decision, though governments differed in emphasis: European and U.S. concerns about regional instability and refugee flows, pressure to respond to Gaddafi’s threats, and strategic and political interests. The NATO campaign ultimately helped bring about Gaddafi’s overthrow, which went beyond the resolution’s stated civilian-protection aim and became a major source of controversy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 261,
+  "total_tokens": 282,
+  "cost": 0.0001326,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001326,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.0001305
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 55,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:33.876746+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

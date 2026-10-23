@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "C",
+ "prompt": "What were the main causes of the 1996 U.S. welfare reform law?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA), which replaced Aid to Families with Dependent Children (AFDC) with Temporary Assistance for Needy Families (TANF), grew out of several converging forces:\n\n**1. Political pressure from the Republican Congress**\nAfter the 1994 midterm elections, Republicans controlled both houses of Congress and pushed their \"Contract with America\" agenda. Welfare reform was a central plank, reflecting a long-running conservative critique of federal cash assistance.\n\n**2. Concerns about dependency and \"welfare as a way of life\"**\nCritics argued that AFDC discouraged work and marriage, creating intergenerational dependency. Charles Murray's work on the \"underclass\" and the idea of a \"culture of poverty\" shaped this view, and the concept of \"welfare dependency\" became a major theme in policy debate.\n\n**3. Rising caseloads and costs**\nAFDC caseloads grew substantially from the late 1980s into the early 1990s, particularly during the recession of 1990–91, and spending rose. This made the program a visible target for budget hawks and reformers.\n\n**4. Public opinion and the \"welfare queen\" narrative**\nPublic support for welfare had eroded. Negative stereotypes, sometimes exaggerated, fueled resentment, and many Americans supported time limits and work requirements.\n\n**5. Bipartisan elements and the Clinton factor**\nPresident Bill Clinton had campaigned in 1992 on \"ending welfare as we know it.\" He vetoed two earlier Republican bills as too harsh before signing the 1996 version, which he saw as a political necessity to fulfill his campaign promise. Some Democrats also supported work requirements and time limits, so the reform was not purely partisan.\n\n**6. Success of state-level experiments**\nWaivers granted to states in the early 1990s allowed experiments with work requirements, time limits, and family cap policies (such as Wisconsin's and Michigan's programs). Their reported success in reducing caseloads provided a model for federal reform.\n\n**7. Shifts in the economy and labor market**\nThe strong economy of the mid-to-late 1990s and expanded Earned Income Tax Credit made work more feasible for low-income parents, which reformers cited as evidence the approach could work.\n\n**Key features of the law** that reflected these causes included block grants to states, time limits on federal assistance (generally five years lifetime), work requirements, and restrictions on benefits for some immigrants, along with a shift in emphasis toward moving recipients into employment.\n\nHistorians and scholars continue to debate the law's effects, with supporters crediting it for caseload declines and employment gains among single mothers, and critics pointing to deep poverty, unequal state implementation, and the program's limited responsiveness during recessions.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 933,
+  "total_tokens": 964,
+  "cost": 0.0004696,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004696,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.0004665
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:13.855373+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

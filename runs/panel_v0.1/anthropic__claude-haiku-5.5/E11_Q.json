@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "Q",
+ "prompt": "What were the consequences of Venezuela's economic crisis since 2013?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Venezuela's economic crisis, which began in earnest around 2013 and deepened through the late 2010s, is one of the most severe peacetime collapses in modern history. Its consequences include:\n\n**Economic collapse**\n- Gross domestic product fell by roughly 70-80% from its 2013 peak by most independent estimates, making it among the largest contractions recorded outside of war.\n- Oil production, which had supplied the vast majority of export earnings, dropped sharply as state oil company PDVSA lost technical capacity, investment, and skilled staff.\n- Hyperinflation set in around 2016, with annual inflation reaching into the millions of percent by some estimates. The currency was redenominated several times and became largely worthless, pushing many transactions toward the U.S. dollar.\n\n**Humanitarian crisis**\n- Shortages of food, medicine, and basic goods became widespread, and hospitals struggled with lack of supplies, equipment, and power.\n- Malnutrition rose significantly, and preventable diseases such as malaria, diphtheria, and measles reappeared or spread.\n- Infant and maternal mortality increased, and there were reports of rising deaths from treatable conditions.\n- Access to clean water and reliable electricity deteriorated, with recurring blackouts.\n\n**Mass emigration**\n- Over 7 million Venezuelans have left the country, according to UN estimates, making it one of the largest displacement crises in the world. Most have settled in neighboring Colombia, Peru, Ecuador, Brazil, and Chile.\n- The exodus included many professionals, including doctors, engineers, and teachers, which further weakened public services and productive capacity.\n\n**Social and political effects**\n- Poverty and food insecurity affected a large majority of the population, and the middle class shrank dramatically.\n- Real wages collapsed, and public-sector workers were often paid amounts that were insufficient to live on.\n- Rising crime, social unrest, and protests became common, and the government responded with repression, which drew criticism from human rights organizations and UN investigators.\n- The crisis contributed to deep political polarization and disputes over the legitimacy of elections and institutions.\n\n**International consequences**\n- Sanctions imposed by the United States and others, particularly on PDVSA and government officials, were debated as contributors to the crisis, though analysts disagree on how much they worsened economic conditions compared with domestic policy failures.\n- Neighboring countries faced pressure from migration flows, straining public services and prompting policy responses.\n\n**Causes often cited**\nAnalysts commonly point to the collapse in oil prices after 2014, heavy dependence on oil revenue, currency and price controls, expansive money printing to finance deficits, expropriations, corruption, and declining oil output as central drivers. The relative weight of these factors remains debated.\n\nIf you're interested in a particular dimension, such as the migration data, the monetary history, or the policy debates, I can go into more detail.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 968,
+  "total_tokens": 999,
+  "cost": 0.0004871,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004871,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.000484
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:10.834367+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

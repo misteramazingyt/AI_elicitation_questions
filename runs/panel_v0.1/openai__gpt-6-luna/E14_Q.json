@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "Q",
+ "prompt": "What were the consequences of the War on Poverty and Great Society programs of the 1960s?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **War on Poverty** and **Great Society** programs expanded the federal government’s role in health care, education, nutrition, civil rights, and support for low-income people. Their consequences were substantial, but mixed.\n\n- **Poverty fell sharply during the 1960s.** The official poverty rate declined from about 22% in 1959 to around 13% by 1969. The strong economy and rising wages helped drive that decline, alongside federal programs; historians and economists differ on how much of the reduction to attribute to each.\n- **They created lasting social programs.** Medicare and Medicaid expanded access to health care, while food assistance, Head Start, and education funding supported low-income families and children. These programs became central parts of the American safety net.\n- **They broadened federal efforts to promote opportunity and rights.** Great Society legislation strengthened civil-rights protections and increased federal involvement in schools, cities, and public services.\n- **They did not eliminate poverty or inequality.** Poverty remained concentrated in many communities, and programs could not by themselves overcome job loss, discrimination, inadequate housing, or regional economic decline. Some initiatives—especially urban renewal—also displaced residents or disrupted neighborhoods.\n- **They reshaped politics.** Expanded federal spending and authority drew criticism over cost, bureaucracy, and government’s proper role. Backlash against those changes, along with other conflicts of the era, helped fuel later conservative politics. Some programs were later revised or cut, while others endured.\n\nOverall, the programs helped reduce hardship and built a more extensive safety net, but their effects were uneven and did not resolve the deeper causes of poverty.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 434,
+  "total_tokens": 460,
+  "cost": 0.0002196,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002196,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.000217
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 95,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:02.119588+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

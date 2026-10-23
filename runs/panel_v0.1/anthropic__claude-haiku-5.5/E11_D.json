@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "D",
+ "prompt": "Describe Venezuela's economic crisis since 2013.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Venezuela's economic crisis since 2013 is one of the most severe peacetime collapses in modern Latin American history. It has been driven by a combination of falling oil revenue, policy mistakes, institutional decay, and international sanctions. Its main features are outlined below.\n\n**Background and onset (2013-2014)**\nVenezuela depends on oil for roughly 95% of its export earnings. After Hugo Chávez died in March 2013, Nicolás Maduro succeeded him. The government had already relied heavily on high oil prices to fund generous social spending, price controls, and state enterprises, while neglecting diversification, maintenance of the oil industry (PDVSA), and productive investment. When global oil prices fell sharply in 2014, export revenue collapsed, and the economy entered recession.\n\n**Economic contraction**\n- GDP fell by roughly 75% between 2013 and 2021 by most estimates, one of the steepest declines recorded outside wartime.\n- Oil production, which exceeded 3 million barrels per day in the late 2000s, fell to well under 1 million barrels per day by 2020, partly because of underinvestment, mismanagement, and lack of spare parts.\n- Non-oil industries such as manufacturing, agriculture, and food processing shrank as imports of inputs became scarce.\n\n**Hyperinflation**\n- Prices rose at extreme rates. The IMF and independent economists estimated annual inflation above 1,000,000% at its peak around 2018-2019. The government stopped publishing official figures for periods during this time.\n- The government responded with price controls, currency controls, and money printing to finance deficits. These measures reduced the supply of goods and encouraged black-market activity.\n- The bolívar was redenominated several times, and cash became scarce as the currency lost value.\n\n**Currency and exchange controls**\n- Strict exchange controls created multiple exchange rates and a large gap between the official rate and the parallel market rate, which encouraged corruption and rent-seeking.\n- Access to dollars became a key source of privilege, and many people relied on informal dollarization.\n- In 2019, the government adopted a de facto dollarization of much of the economy, allowing dollar transactions and accepting payment in foreign currency, which stabilized prices somewhat after 2020.\n\n**Shortages and humanitarian crisis**\n- Shortages of food, medicine, fuel, and electricity became widespread. Hospitals struggled to function, and treatable diseases resurged.\n- Public services, including water, electricity, and transportation, deteriorated.\n- Real wages collapsed. The minimum wage became nearly worthless, and public sector workers often earned far less than needed to survive.\n- Malnutrition rose significantly, and health indicators, including infant and maternal mortality, worsened.\n\n**Migration**\n- Roughly 7 to 8 million Venezuelans have left the country since 2014, according to UN estimates. This is among the largest displacement crises in the world, with most migrants going to Colombia, Peru, Ecuador, Brazil, Chile, and other countries in the region.\n- Emigration drained the country of skilled workers, doctors, engineers, and professionals, which further reduced economic capacity.\n\n**Sanctions and external factors**\n- The United States imposed sanctions in 2017-2019 targeting government officials, PDVSA, and Venezuelan debt and oil exports. Critics argue these sanctions worsened the crisis by restricting oil revenue and access to finance; the government blames them for the collapse. Most economists attribute the decline mainly to domestic policy, while acknowledging sanctions added pressure.\n- Venezuela defaulted on much of its sovereign and PDVSA debt beginning in 2017, cutting it off from international credit markets.\n\n**Political dimension**\n- The crisis is closely tied to political conflict. Disputed elections in 2018, which were widely criticized as lacking credibility, were followed by a 2019 standoff in which Juan Guaidó, the head of the National Assembly, was recognized by many countries as interim president. The political division has persisted without a resolution.\n- Critics, including international human rights bodies, have documented repression of opposition figures, journalists, and protesters, as well as concerns about the independence of the judiciary and electoral authorities.\n\n**Partial stabilization (2021 onward)**\n- Beginning in 2020, the government loosened some controls, legalized dollar use, and allowed more private enterprise. Inflation dropped substantially from its peak, and some economic indicators, such as GDP, showed modest recovery from their lows.\n- Oil production rose somewhat, aided by partial sanctions relief in 2022 and later changes, but remained far below earlier levels.\n- Poverty, however, remains very high. Public services are still weak, wages remain low relative to living costs, and the migration exodus continues.\n\n**Overall assessment**\nEconomists generally agree that Venezuela's collapse resulted from an oil-dependent model, poor macroeconomic management, money printing, price and exchange controls, weakened institutions, and declining oil production. Sanctions and the oil price collapse intensified the crisis, but the depth of the decline is widely attributed to domestic policy choices. As of recent years, the country has stabilized somewhat from its worst point, but it has not recovered its pre-2013 economic level, and the humanitarian and migration consequences remain severe.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 1775,
+  "total_tokens": 1802,
+  "cost": 0.0008902,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008902,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.0008875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:09.447421+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

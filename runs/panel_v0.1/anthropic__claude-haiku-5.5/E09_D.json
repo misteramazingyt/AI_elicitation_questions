@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "D",
+ "prompt": "Describe Britain's Winter of Discontent (1978-1979).",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Winter of Discontent was a period of widespread industrial action and public disruption in the United Kingdom during the winter of 1978–1979. It is widely seen as a turning point that helped bring down the Labour government of James Callaghan and paved the way for Margaret Thatcher's Conservative victory in the May 1979 general election.\n\n**Background**\n\nBy 1978 Britain was struggling with high inflation, which had peaked above 20% in 1975, and with mounting union frustration over pay. Callaghan's Labour government had imposed a voluntary incomes policy, often called the \"5% limit\" or \"pay norm,\" to curb wage growth as part of an agreement with the trade unions (the \"Social Contract\") and as a condition tied to earlier IMF loans. Many workers saw their real wages fall, and the policy became increasingly unpopular with unions.\n\n**The Strikes**\n\nIn the autumn of 1978 Callaghan declined to call an early election and signalled that the pay policy would continue. Unions responded with a wave of strikes over the winter, including:\n\n- **Lorry drivers (road haulage workers)** who blockaded roads and disrupted the movement of goods, leaving shops short of supplies.\n- **Public sector workers**, including local authority staff, ambulance crews, nurses, and hospital ancillary workers, whose pay had fallen behind. Some hospitals admitted only emergency cases, and ambulance strikes left critically ill patients waiting.\n- **Gravediggers** in some areas refused to bury the dead, with some bodies left unburied for extended periods, an image that became a potent symbol of the crisis.\n- **Refuse collectors**, whose strikes left rubbish piling up in streets, including in Leicester Square in London, which became emblematic of the period.\n- **Other groups** such as school caretakers and some teachers, plus disruption on the railways and at ports.\n\n**Public Reaction and Impact**\n\nThe strikes caused real hardship, particularly for the elderly, the sick, and the vulnerable, and they dominated the news. Media coverage emphasised images of rubbish, unburied bodies, and empty shelves, which fed a widespread perception that the unions had become too powerful and that the government had lost control. The phrase \"Winter of Discontent\" came from Shakespeare's *Richard III* (\"Now is the winter of our discontent\"), and was popularised in headlines in the following months.\n\n**Political Consequences**\n\nIn March 1979 the Labour government lost a confidence vote in the House of Commons, triggering a general election. The Conservatives under Margaret Thatcher, who campaigned on restoring order, reducing union power, and controlling inflation, won a decisive victory in May 1979. The episode is often cited as a major factor in Labour's defeat and in the subsequent political shift toward Thatcherism and the reform of trade union law in the 1980s.\n\n**Historical Debate**\n\nHistorians and commentators continue to debate the period. Some argue that the strikes reflected reasonable grievances over falling real wages and the failure of the pay policy, and that the government's handling of disputes contributed to the crisis. Others argue that the strikes revealed deep structural problems in British industrial relations and that the unions' willingness to disrupt essential services justified the subsequent legal reforms. The Winter of Discontent is generally regarded as a defining moment in the decline of post-war consensus politics in Britain.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 1113,
+  "total_tokens": 1143,
+  "cost": 0.0005595,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005595,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.0005565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:05.207138+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

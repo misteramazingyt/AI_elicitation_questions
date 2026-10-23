@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "Q",
+ "prompt": "What were the consequences of the famine during China's Great Leap Forward (1959-1961)?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Great Leap Forward famine (roughly 1959–1961) was one of the deadliest famines in human history. Estimates of excess deaths generally range from about 15 to 45 million, with many historians citing figures around 30 million. The consequences were far-reaching:\n\n**Human toll**\n- Mass starvation, especially in rural areas, with some regions suffering far higher mortality than others. Provinces such as Sichuan, Anhui, Henan, Gansu, and Guizhou were among the hardest hit.\n- Widespread reports of cannibalism, desperate migration, and the abandonment of children.\n- Disproportionate deaths among children and the elderly, and a sharp drop in births, which created a \"missing generation\" in the demographic record.\n\n**Political consequences**\n- Official acknowledgment was slow and partial. Mao Zedong's government initially blamed weather and natural disasters, and information was tightly controlled. Local officials who reported shortages often faced punishment, so exaggerated grain-output claims made the crisis worse.\n- Mao's authority was damaged. At the 1962 \"Seven Thousand Cadres Conference,\" Liu Shaoqi and Deng Xiaoping's leadership gained ground as a more pragmatic approach emerged, though Mao later reasserted control and launched the Cultural Revolution in 1966.\n- The episode deepened distrust between the central government and the countryside and reinforced the importance of political loyalty over technical expertise.\n\n**Policy changes**\n- The commune system was scaled back. Private plots were partly restored, and some rural households were allowed to farm small plots for themselves, a shift that helped recovery.\n- Agricultural policy was reoriented toward realistic production targets, and the regime moved away from the most radical economic experiments for a time.\n- Grain imports and rationing were adjusted, and the state tightened its control over food distribution.\n\n**Long-term effects**\n- Demographic: the loss of tens of millions of people and the drop in births had lasting effects on China's population structure and labor force for decades.\n- Historical memory: the famine became a deeply sensitive subject. It is rarely discussed publicly in China, and access to archives is restricted. Scholars such as Frank Dikötter, Yang Jisheng (*Tombstone*), and Ralph Thaxton have drawn on local records and survivor accounts to document it.\n- Lessons for development: the famine is widely studied as an example of how political incentives, information suppression, and centralized decision-making can turn an economic policy failure into a catastrophe, and it is often compared with other twentieth-century famines.\n\nIf you want, I can go deeper into any one area, such as the causes, the regional variation, or the debate over death toll estimates.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 892,
+  "total_tokens": 929,
+  "cost": 0.0004497,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004497,
+   "upstream_inference_prompt_cost": 3.7e-06,
+   "upstream_inference_completions_cost": 0.000446
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:58.658918+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

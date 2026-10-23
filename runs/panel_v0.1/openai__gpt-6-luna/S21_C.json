@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Immigration Act of 1924 was driven mainly by **nativism and a desire to limit immigration from Southern and Eastern Europe and Asia**. Its main causes included:\n\n- **Fear of cultural and political change:** Many Americans viewed the growing numbers of immigrants from Italy, Russia, Poland, and other parts of Southern and Eastern Europe as difficult to assimilate or as potential sources of radicalism, especially after the Russian Revolution and the Red Scare.\n- **Racial and eugenic ideas:** Influential restrictionists argued—using theories now recognized as racist and pseudoscientific—that some ethnic groups were less desirable and that immigration should preserve the country’s existing racial and ethnic makeup.\n- **Economic concerns:** Some workers and politicians argued that immigrants competed for jobs and could push down wages, particularly after World War I.\n- **A push to make earlier restrictions permanent:** The temporary quota law of 1921 had already sharply limited immigration. The 1924 act made restrictions more stringent, favoring immigrants from Northern and Western Europe by calculating quotas using older census data.\n- **Exclusion of Asians:** The act barred immigration by people ineligible for U.S. citizenship, effectively excluding Japanese immigrants and extending a broader pattern of Asian exclusion.\n\nTogether, these motives produced a law designed not just to reduce immigration overall, but to shape **who** could enter the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 386,
+  "total_tokens": 406,
+  "cost": 0.000195,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000195,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.000193
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 103,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:37.137673+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "C",
+ "prompt": "What were the main causes of the 1969 Stonewall riots?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Stonewall riots began in New York City in June 1969 after police raided the Stonewall Inn, a gay bar in Greenwich Village. The immediate trigger was patrons and bystanders resisting the raid rather than dispersing.\n\nThe deeper causes included:\n\n- **Routine police harassment:** Gay bars were frequently raided, and LGBTQ+ people could be arrested or publicly exposed simply for being there.\n- **Discrimination and exclusion:** Laws and social norms criminalized or stigmatized same-sex relationships and gender nonconformity, while many LGBTQ+ people faced rejection, job discrimination, and violence.\n- **Anger at the raid’s conduct:** The police’s handling of patrons—especially the rough treatment of some people and the crowding outside—helped turn frustration into confrontation.\n- **Growing activism:** The civil-rights, antiwar, and other protest movements of the 1960s had helped build a stronger spirit of resistance among LGBTQ+ people.\n\nThe uprising was not caused by one isolated incident alone; it reflected years of repression and accumulated anger.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 217,
+  "total_tokens": 237,
+  "cost": 0.0001105,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001105,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.0001085
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:19.931948+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

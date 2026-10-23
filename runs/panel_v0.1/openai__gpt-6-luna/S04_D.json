@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "D",
+ "prompt": "Describe Soviet espionage in the United States in the 1940s, including the Rosenberg case.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Soviet espionage in the United States grew during World War II, when the Soviet Union and the United States were allies but remained deeply mistrustful of one another. Soviet intelligence services—including the NKVD and the military intelligence service, the GRU—sought information on American diplomacy, military technology, and the atomic-bomb project. They used recruited agents, intermediaries, and members or associates of the American Communist movement. Most American communists were not Soviet spies, however, and political sympathy alone is not evidence of espionage.\n\n### What the Soviets sought\n\nThe most consequential effort targeted the Manhattan Project. Soviet leaders wanted to learn how quickly the United States could build an atomic weapon and how it worked. Agents passed information from project sites, including Los Alamos. The Soviets also gathered intelligence on American foreign policy and other scientific and military developments.\n\nSeveral people whose espionage is well established included physicist **Klaus Fuchs**, who passed extensive atomic information to Soviet intelligence; **Theodore Hall**, a young Los Alamos physicist who independently supplied information; and **David Greenglass**, an Army machinist at Los Alamos who provided material through the network associated with Julius Rosenberg. These sources helped the Soviet Union accelerate its atomic program, though historians debate how much they shortened the timeline.\n\n### The Rosenberg case\n\n**Julius Rosenberg**, an engineer and Communist Party member, was convicted in 1951 of conspiring to commit espionage. The prosecution argued that he organized a network that included his brother-in-law, David Greenglass, and that Greenglass supplied information from Los Alamos. Julius was executed in 1953, along with his wife, **Ethel Rosenberg**.\n\nLater evidence, including decrypted wartime Soviet communications known as **Venona**, strongly supports the conclusion that Julius worked for Soviet intelligence and recruited or handled agents. The case against Ethel is less clear. Venona messages refer to a source identified by a code name widely associated with her, but they suggest a more limited role than the prosecution claimed. David Greenglass later acknowledged that his testimony about Ethel’s participation in passing notes was false; he said he had implicated her to protect his wife. Most historians conclude that Ethel knew about Julius’s activities and may have assisted in some way, but the evidence does not establish that she played the central operational role presented at trial.\n\nThe trial took place amid intense Cold War fears, soon after the Soviet Union acquired the bomb and during the Korean War. The Rosenbergs’ guilt and the fairness of their punishment became major political controversies. Their death sentences were widely criticized as exceptionally severe for a conspiracy case, particularly given the uncertainty over Ethel’s role.\n\n### Other cases and the evidence\n\nThe Rosenbergs were part of a broader picture revealed over time. Former Soviet agent **Elizabeth Bentley** defected in 1945 and named people in espionage networks; **Whittaker Chambers**, a former Communist and Soviet courier, accused former State Department official **Alger Hiss** of passing information. Hiss was convicted of perjury, not espionage, and denied the charges until his death. The case remains a prominent example of the difficulty of establishing individual responsibility from testimony and fragmentary records.\n\nThe **Venona project**, a U.S. effort to decrypt some Soviet wartime communications, later provided important corroboration for several espionage investigations. But the messages were incomplete, code names were sometimes hard to identify, and many Soviet records remain unavailable. Venona therefore strengthened the historical case for a substantial Soviet espionage operation without resolving every disputed allegation.\n\nOverall, Soviet intelligence obtained valuable secrets in the 1940s, especially about atomic research. The Rosenberg case was real in its central claim that Julius Rosenberg engaged in espionage, but the evidence and later revelations make Ethel’s precise role—and the fairness of her execution—substantially more contested.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 977,
+  "total_tokens": 1004,
+  "cost": 0.0004912,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004912,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.0004885
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 177,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:08.013208+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

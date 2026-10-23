@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "C",
+ "prompt": "What were the main causes of the Black Death in fourteenth-century Europe?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Black Death was caused by the bacterium *Yersinia pestis*, which spread through Europe in the mid-fourteenth century. Its rapid spread and devastating impact had several main causes:\n\n- **Trade networks:** Ships and caravans carrying goods—and infected rodents and fleas—brought the disease from Central Asia to ports around the Mediterranean, then inland along trade routes.\n- **Fleas and rodents:** Fleas carrying the bacterium could infect people, often after living on rats. In some cases, the infection also spread directly between people through respiratory droplets, especially in its pneumonic form.\n- **Crowded, unsanitary conditions:** Dense towns and poor sanitation helped pests thrive and made it easier for infection to spread.\n- **Limited medical knowledge:** People did not know what caused plague or how it was transmitted, so their efforts to prevent it were often ineffective.\n\nHistorians continue to study the precise roles of rats, human fleas, and person-to-person transmission, but *Yersinia pestis* is widely accepted as the pathogen behind the pandemic.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 219,
+  "total_tokens": 240,
+  "cost": 0.0001116,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001116,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.0001095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:49.603162+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "C",
+ "prompt": "What were the main causes of the Reagan tax cuts of the 1980s?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Reagan tax cuts, chiefly the Economic Recovery Tax Act of 1981 and the Tax Reform Act of 1986, grew out of several interrelated causes:\n\n**1. Economic crisis in the 1970s**\n- Stagflation: high inflation combined with high unemployment and slow growth, which defied the prevailing Keynesian framework.\n- Inflation pushed taxpayers into higher brackets through \"bracket creep,\" since the tax code was not indexed for inflation, raising the real tax burden even without real income gains.\n- Real wages and productivity growth had stagnated, and the broader sense of economic malaise fueled demands for change.\n\n**2. High marginal tax rates**\n- Top federal income tax rates reached 70% (and up to 91–94% in the 1940s–1960s), and the 1970s had seen a top rate of 70% on earned income, with a steep \"maximum tax\" structure.\n- Critics argued these rates discouraged work, saving, investment, and entrepreneurship, and encouraged tax sheltering.\n\n**3. Supply-side economics**\n- The intellectual driving force was supply-side economics, popularized by economists and commentators such as Arthur Laffer, Jude Wanniski, Robert Mundell, and Paul Craig Roberts.\n- The central idea was that lower marginal rates would boost incentives to produce, invest, and work, expanding the tax base enough to partly or fully offset revenue losses (the \"Laffer curve\" concept).\n- This represented a shift away from demand-management Keynesianism toward emphasis on production incentives.\n\n**4. Political factors**\n- Reagan campaigned on cutting taxes and reducing the size of government, and tax reduction was a central plank of his 1980 platform.\n- Growing anti-tax sentiment, tax revolts (such as California's Proposition 13 in 1978), and the broader conservative movement created political momentum.\n- Bipartisan support emerged, particularly in the 1986 reform, which lowered rates while broadening the base by closing loopholes.\n\n**5. Reaction against the \"Great Society\" era and bureaucratic growth**\n- Conservatives argued that the federal government had grown too large and too costly, and that tax relief would constrain spending by limiting revenue (though this constraint proved weaker than hoped, given the large deficits that followed).\n\n**6. Historical and competitive context**\n- Policymakers pointed to the need to remain competitive internationally, as other countries were lowering rates and the U.S. was facing competition from Japan and Western Europe.\n- The 1981 Kemp-Roth bill (named for Rep. Jack Kemp and Sen. William Roth) provided the legislative template for across-the-board rate cuts, which was modified into the final 1981 act.\n\n**Outcomes worth noting:** The 1981 act cut top rates from 70% to 50% and was followed by large budget deficits, which led to later partial reversals (e.g., the 1982 and 1984 tax increases). The 1986 act lowered the top rate to 28% while broadening the base. Economists continue to debate the effects on growth, revenue, and inequality.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1033,
+  "total_tokens": 1065,
+  "cost": 0.0005197,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005197,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.0005165
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:51.962168+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

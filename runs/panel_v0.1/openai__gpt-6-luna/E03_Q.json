@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "Q",
+ "prompt": "What were the consequences of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The famine of 1932–1933—often called the **Holodomor** in Ukraine—had devastating consequences:\n\n- **Mass death and population loss:** Millions of people died from starvation and related disease. Estimates vary because records are incomplete and the famine’s causes and classification remain politically contested; many scholars place deaths in Soviet Ukraine at roughly **3.5–4 million**, with additional losses from fewer births and later deaths.\n- **Rural communities were shattered:** Collectivization, forced grain requisitions, confiscations, and restrictions on movement left many villages without food. Survivors faced severe illness, family separation, and lasting trauma.\n- **Political control tightened:** Soviet authorities suppressed resistance and discussion of the famine. Measures such as the “blacklisting” of villages and restrictions on travel made it harder for people to obtain food elsewhere.\n- **Ukrainian cultural and political life was weakened:** The famine came amid a broader rollback of Ukrainian cultural policies and a purge of Ukrainian officials and intellectuals. Together, these policies strengthened Moscow’s control over the republic.\n- **Long-term effects endured:** The catastrophe shaped family and community memories for generations and contributed to lasting distrust of Soviet authority. Today it remains central to Ukrainian historical memory; Ukraine and several other countries recognize it as genocide, while historians and governments differ over that legal characterization.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 320,
+  "total_tokens": 344,
+  "cost": 0.0001624,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001624,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.00016
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 44,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.641094+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

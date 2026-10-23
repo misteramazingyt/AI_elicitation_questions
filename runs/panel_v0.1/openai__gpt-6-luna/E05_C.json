@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "C",
+ "prompt": "What were the main causes of the famine during China's Great Leap Forward (1959-1961)?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The famine of 1959–1961 was caused chiefly by policies and decisions made during the Great Leap Forward, though poor harvests in some areas also contributed.\n\n- **Collectivization and communal kitchens:** Rural people were organized into communes, and household food stores and cooking were often taken under collective control. This weakened incentives and left families with little ability to protect their own food supplies.\n- **Excessive state grain procurement:** The government continued to requisition grain based on inflated estimates of harvests. In many places, authorities took more than villages could spare, leaving too little food for local consumption.\n- **Disruption of farming:** The campaign diverted large numbers of rural workers from agriculture into projects such as backyard steel production and large-scale construction. Some agricultural policies and hurriedly imposed farming methods also reduced yields.\n- **False reporting and political pressure:** Local officials exaggerated production figures to demonstrate success and avoid punishment. Leaders therefore often acted on inaccurate information, while grain collections remained high.\n- **Suppression of warnings and relief:** Officials and villagers who reported hunger could face retaliation. This delayed recognition of the crisis and hindered efforts to reduce procurement or provide aid.\n- **Adverse weather:** Floods and droughts damaged crops in some regions, worsening shortages. But historians generally regard these as aggravating factors rather than the main explanation for the famine’s scale.\n\nIn short, harvest problems mattered, but the severity and spread of the famine largely reflected policies that removed food from rural communities and made it dangerous or difficult to correct those policies.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 363,
+  "total_tokens": 389,
+  "cost": 0.0001841,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001841,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.0001815
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 48,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.707038+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

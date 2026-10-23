@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2008 financial crisis? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians, economists, and political scientists disagree about the causes, the right response, and the lasting significance of the 2008 crisis. The main interpretive camps are below. Full citations are at the end. I'm working from memory without database access, so please check details such as edition years before using them in formal work.\n\n## 1. Liquidity panic and the shadow banking system\n\nMany economists read 2008 as a classic bank run that happened outside traditional banks, in the repo market and among money-market funds and investment banks. Gary Gorton's *Slapped by the Invisible Hand* (2010) argues that the crisis was a panic in the \"securitized\" banking system, and that opaque, information-sensitive assets triggered runs much like those of the 19th century. Ben Bernanke's memoir *The Courage to Act* (2015) and his academic work on the Depression frame the crisis as a failure of credit intermediation that required aggressive lender-of-last-resort action.\n\n## 2. Regulatory failure and deregulation\n\nThis is probably the most common narrative in popular and policy writing. The *Financial Crisis Inquiry Report* (FCIC, 2011), the official report of the bipartisan U.S. commission, concluded that the crisis was \"avoidable\" and blamed lax lending standards, weak supervision, excessive leverage, and failures of risk management and regulation. Critics on the left, including Joseph Stiglitz (*Freefall*, 2010) and Paul Krugman (*The Return of Depression Economics and the Crisis of 2008*, 2009), emphasize deregulation and the ideology of self-correcting markets. Richard Posner's *A Failure of Capitalism* (2009) takes a similar line, accepting that the crisis revealed the limits of free-market assumptions.\n\n## 3. Government-induced crisis (the dissent)\n\nA minority view holds that government housing policy caused the crisis. Peter Wallison's dissent to the FCIC report (*Dissent from the Majority*, 2011) argues that Fannie Mae and Freddie Mac, and the Community Reinvestment Act, pushed lenders toward risky mortgages. Charles Calomiris and Stephen Haber (*Fragile by Design*, 2014) offer a more nuanced account. They argue that the U.S. banking system's instability stemmed from long-standing political bargains between governments and banks, and that housing finance policy was one part of that pattern. Most historians see government housing policy as a contributing factor but reject the claim that it was the primary cause, since private-label securitization and lending outside the GSEs grew dramatically in the mid-2000s.\n\n## 4. Global imbalances and the \"savings glut\"\n\nBernanke's 2005 speech \"The Global Saving Glut and the U.S. Current Account Deficit\" argued that capital inflows from Asian and oil-exporting economies pushed down long-term interest rates. John Taylor (*Getting Off Track*, 2009) instead argues that the Federal Reserve kept interest rates too low for too long, fueling the housing boom. This debate between a \"global savings\" explanation and a \"monetary policy\" explanation remains active.\n\n## 5. Debt cycles and household balance sheets\n\nDrawing on Hyman Minsky's financial-instability hypothesis (*Stabilizing an Unstable Economy*, 1986), some historians see the crisis as the natural endpoint of a credit boom. Charles Kindleberger and Robert Aliber's *Manias, Panics, and Crashes* (6th ed., 2011) provides the long-run historical framework. Carmen Reinhart and Kenneth Rogoff's *This Time Is Different* (2009) compares the 2008 crisis to a large set of historical banking crises, emphasizing that they tend to be deep and slow to recover. Atif Mian and Amir Sufi's *House of Debt* (2014) focuses on household leverage and argues that the collapse in demand, driven by heavily indebted households, explains much of the depth of the recession.\n\n## 6. Inequality and political economy\n\nRaghuram Rajan's *Fault Lines* (2010) argues that political pressure to expand homeownership and access to credit, in response to rising inequality and stagnant incomes, encouraged the risky lending that led to the crash. Adam Tooze's *Crashed* (2018) takes a broader view, placing the crisis within a decade of linked financial shocks and arguing that the response reshaped global politics and the balance between states and markets.\n\n## 7. Consequences: austerity, Europe, and populism\n\nLater scholarship examines the aftermath. Mark Blyth's *Austerity: The History of a Dangerous Idea* (2013) argues that austerity policies in Europe deepened and prolonged the recession. Barry Eichengreen's *Hall of Mirrors* (2015) compares the euro crisis and the U.S. response. Tooze and others connect the crisis to the rise of populist movements and political polarization, although the causal links are contested.\n\n## Popular and journalistic accounts\n\nThese works shaped public understanding and are often cited by historians: Michael Lewis, *The Big Short* (2010); Andrew Ross Sorkin, *Too Big to Fail* (2009); Gillian Tett, *Fool's Gold* (2009); Bethany McLean and Joe Nocera, *All the Devils Are Here* (2010); and Alan Blinder, *After the Music Stopped* (2013), which is written by a former Fed vice chair.\n\n## Key sources to start with\n\n- Financial Crisis Inquiry Commission (2011). *The Financial Crisis Inquiry Report*. U.S. Government Printing Office.\n- Tooze, A. (2018). *Crashed: How a Decade of Financial Crises Changed the World*. Viking.\n- Gorton, G. (2010). *Slapped by the Invisible Hand*. Oxford University Press.\n- Mian, A. & Sufi, A. (2014). *House of Debt*. University of Chicago Press.\n- Reinhart, C. & Rogoff, K. (2009). *This Time Is Different*. Princeton University Press.\n- Wallison, P. (2011). *Dissent from the Majority*. AEI.\n- Calomiris, C. & Haber, S. (2014). *Fragile by Design*. Princeton University Press.\n- Kindleberger, C. & Aliber, R. (2011). *Manias, Panics, and Crashes*, 6th ed. Palgrave Macmillan.\n- Blyth, M. (2013). *Austerity*. Oxford University Press.\n\nIf you tell me whether you're interested in a specific angle (the U.S. vs. Europe, the economics vs. the politics, or the causes vs. the aftermath), I can narrow this down and suggest more targeted readings.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 34,
+  "completion_tokens": 3652,
+  "total_tokens": 3686,
+  "cost": 0.0018294,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0018294,
+   "upstream_inference_prompt_cost": 3.4e-06,
+   "upstream_inference_completions_cost": 0.001826
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1405,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:02.510368+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

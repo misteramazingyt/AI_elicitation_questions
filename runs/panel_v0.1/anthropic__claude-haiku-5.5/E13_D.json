@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "D",
+ "prompt": "Describe the 1996 U.S. welfare reform law.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1996 U.S. welfare reform law is the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA), signed by President Bill Clinton on August 22, 1996. It overhauled the federal government's main cash assistance program for low-income families and was one of the most significant changes to U.S. social policy in decades.\n\n**Key provisions:**\n\n1. **End of AFDC:** It abolished Aid to Families with Dependent Children (AFDC), an open-ended entitlement that had provided cash aid to needy families since 1935. In its place, it created Temporary Assistance for Needy Families (TANF), a block grant to states.\n\n2. **Block grants:** States received a fixed annual federal payment and gained substantial flexibility in designing their programs, including eligibility rules, benefit levels, and administration. The grants were set at roughly the prior federal funding level and were not adjusted for inflation or economic downturns.\n\n3. **Work requirements:** Recipients were required to engage in work or work-related activities, with participation rates that states had to meet. Adults generally had to find work within a set period.\n\n4. **Time limits:** Federal law imposed a lifetime limit of five years on federally funded TANF assistance for most families. States could set shorter limits or use their own funds to extend aid beyond that point.\n\n5. **Family caps and other conditions:** States were allowed to impose policies such as \"family caps\" (denying increased benefits for children born while a family was on aid), and to require teen parents to live with adults and stay in school.\n\n6. **Paternity and child support:** The law strengthened child support enforcement, including requirements to establish paternity and new national databases to track delinquent parents.\n\n7. **Immigrant restrictions:** It restricted eligibility for many legal immigrants for federal means-tested benefits, including food stamps and SSI, though some restrictions were later partially reversed.\n\n8. **Food stamps changes:** It tightened eligibility for the Food Stamp Program (now SNAP), including work requirements for able-bodied adults without dependents.\n\n**Goals and outcomes:**\n\nSupporters argued the law would reduce dependency, encourage employment, and promote marriage and two-parent families. Caseloads fell dramatically in the late 1990s, and employment among single mothers rose, though the strong economy of that period was a major factor. Critics contended that the law pushed people into low-wage jobs without adequate support, that block grant funding eroded in real terms over time, that many eligible families were left without any aid, and that deep poverty, particularly among families who left the rolls, increased in some periods.\n\nThe law remains a central reference point in debates over the role of federal versus state governments in social welfare and the balance between work requirements and income support.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 888,
+  "total_tokens": 915,
+  "cost": 0.0004467,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004467,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.000444
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:13.365893+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

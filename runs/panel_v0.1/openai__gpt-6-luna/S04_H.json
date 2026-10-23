@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "H",
+ "prompt": "How have historians interpreted Soviet espionage in the United States in the 1940s, including the Rosenberg case? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians have moved from arguing over whether Soviet espionage in the United States was real to debating its **scale, significance, and the reliability of particular evidence**. The broad consensus today is that Soviet intelligence ran genuine and sometimes extensive networks in the 1940s, including people who supplied sensitive information. But historians still distinguish that conclusion from claims that every accused person was a spy, that every piece of intelligence was important, or that the Rosenberg trial was fair.\n\n### From Cold War accounts to revisionist challenges\n\nEarly official accounts presented Soviet espionage as a major security threat. In the 1950s, the Venona decrypts—American intelligence translations of intercepted Soviet communications—helped investigators identify Soviet agents and networks. For decades, however, most of the decrypts remained secret, and public understanding relied heavily on government testimony and prosecutions.\n\nFrom the 1960s onward, critics questioned those accounts. Some argued that the espionage threat had been exaggerated to justify domestic repression; others challenged the fairness of trials and the use of secret intelligence. This scholarship was especially influential in the Rosenberg case. For example, Walter and Miriam Schneir’s *Invitation to an Inquest* questioned the prosecution’s evidence and helped shape skeptical interpretations of the trial.\n\nThe picture changed substantially after the 1990s, when the U.S. government released Venona material and researchers gained access to some Soviet and former Soviet records. John Earl Haynes and Harvey Klehr, among others, argued that these sources confirmed that Soviet espionage was extensive and that several American Communist Party members knowingly cooperated with Soviet intelligence. Their work also stressed that espionage should not be equated with ordinary Communist Party membership or political dissent.\n\n### What historians generally conclude about espionage\n\nThe newer evidence has supported a more differentiated view:\n\n- Soviet intelligence collected political, military, and scientific information, including information related to atomic research.\n- Some sources were ideologically committed; others had different motives. “Soviet spy” did not describe one uniform type of person or activity.\n- The networks varied in importance. Some supplied valuable information, while other cases involved less consequential material.\n- Venona is powerful evidence, but not a complete record. The decrypts are fragmentary, sometimes ambiguous, and were produced by intelligence analysts rather than as courtroom transcripts. Historians therefore compare them with other evidence, including Soviet records, FBI files, and witnesses’ accounts.\n\nHaynes and Klehr’s *Venona: Decoding Soviet Espionage in America* (1999) and their later work with Alexander Vassiliev, *Spies: The Rise and Fall of the KGB in America* (2009), make the case for a substantial Soviet apparatus. Ellen Schrecker, while recognizing that Soviet espionage occurred, emphasizes the broader consequences of anti-Communism: the often indiscriminate treatment of political association as evidence of disloyalty, and the damage done to civil liberties and careers.\n\n### The Rosenberg case\n\nMost current historians accept that **Julius Rosenberg engaged in Soviet espionage**. Venona decrypts and other evidence identify him as a Soviet source, and later archival research strengthened the case that he recruited or assisted a network that supplied information to the USSR. Radosh and Milton’s *The Rosenberg File* (1983) helped move public debate toward accepting Julius’s guilt, though the book and its conclusions have themselves been debated.\n\nThe harder questions concern **what the Rosenberg network actually provided and what Ethel Rosenberg knew**. Julius’s espionage appears to have involved military and technical information, including material connected to atomic research, but historians disagree about the importance of the information he obtained. The Soviet Union’s atomic program also benefited from other sources—notably physicist Klaus Fuchs—so the Rosenbergs should not be treated as the sole or decisive source of Soviet atomic knowledge.\n\nEthel’s case is less certain. Evidence suggests that she knew something of Julius’s activities and may have supported or participated in them, but historians disagree over the extent of her involvement. A key issue is her brother David Greenglass’s testimony: years later, Greenglass admitted that his trial testimony about Ethel typing notes had been false, saying he had lied to protect his wife. That admission deepened doubts about the prosecution’s case against Ethel, even though it did not resolve everything known about her involvement.\n\nHistorians also distinguish the question of guilt from the question of justice. Many regard the trial and death sentences as deeply troubling, particularly given the political climate, the prosecution’s conduct, and the disputed evidence against Ethel. Thus, it is possible to accept that Julius spied for the Soviet Union while still judging that the case against Ethel was less secure and that the punishment was excessive.\n\n### Selected sources\n\n- Haynes, John Earl, and Harvey Klehr. *Venona: Decoding Soviet Espionage in America*. Yale University Press, 1999.\n- Haynes, John Earl, Harvey Klehr, and Alexander Vassiliev. *Spies: The Rise and Fall of the KGB in America*. Yale University Press, 2009.\n- National Security Agency and Central Intelligence Agency. *Venona: Soviet Espionage and the American Response, 1939–1957*. Declassified translations and related material, available through the NSA’s online Venona collection.\n- Radosh, Ronald, and Joyce Milton. *The Rosenberg File*. Holt, Rinehart and Winston, 1983.\n- Schrecker, Ellen. *Many Are the Crimes: McCarthyism in America*. Little, Brown, 1998.\n- Schneir, Walter, and Miriam Schneir. *Invitation to an Inquest*. Doubleday, 1965; substantially revised as *Final Verdict: What Really Happened in the Rosenberg Case*. Melville House, 2010.\n- Vassiliev, Alexander, and John Earl Haynes. *Spies: The Rise and Fall of the KGB in America*. Yale University Press, 2009.\n\nIn short, the main historiographical shift has been toward accepting the reality and reach of Soviet espionage while treating its individual cases—especially Ethel Rosenberg’s—with greater precision and skepticism than either the original prosecution or its earliest critics often allowed.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 34,
+  "completion_tokens": 1653,
+  "total_tokens": 1687,
+  "cost": 0.0008299,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008299,
+   "upstream_inference_prompt_cost": 3.4e-06,
+   "upstream_inference_completions_cost": 0.0008265
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 358,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:08.243337+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "D",
+ "prompt": "Describe the U.S. War on Drugs from 1971 to the 1990s.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **War on Drugs** was a major expansion of U.S. efforts to prevent drug use and trafficking. President Richard Nixon gave the campaign its name in 1971, but it grew out of earlier drug laws and continued under later presidents. From the 1970s through the 1990s, federal policy increasingly emphasized policing, prosecution, and imprisonment, with lasting effects on communities and the criminal justice system.\n\n- **The 1970s:** The 1970 Controlled Substances Act established a federal system classifying drugs by their medical use and potential for misuse. In 1971, Nixon made drug abuse a high-priority issue and expanded federal enforcement. The Drug Enforcement Administration (DEA) was created in 1973 to coordinate federal drug investigations. The period also included treatment and prevention initiatives, and some states moved to reduce penalties for marijuana possession.\n\n- **The 1980s:** Under President Ronald Reagan, the campaign intensified. Federal funding and law-enforcement powers grew, public prevention campaigns became prominent, and Congress passed tougher sentencing laws. The Anti-Drug Abuse Acts of 1986 and 1988 introduced or expanded mandatory minimum sentences and intensified penalties for certain drug offenses. The 1986 law treated crack cocaine much more harshly than powder cocaine: possession or distribution of crack triggered the same federal penalty at quantities far smaller than those of powder cocaine. Because crack prosecutions disproportionately affected Black communities, this disparity became a lasting source of controversy.\n\n- **The 1990s:** Drug enforcement remained a central part of national policy. President Bill Clinton supported the 1994 crime law, which increased federal funding for policing and prisons and included incentives for states to adopt tougher sentencing policies. By the end of the decade, drug convictions—especially for low-level offenses—were a significant contributor to the rapid growth of the U.S. prison population.\n\nThe campaign reflected genuine concerns about drug use and trafficking, but its results were contested. Critics argued that it relied too heavily on punishment rather than public health measures, imposed unequal burdens across racial and economic groups, and did not eliminate drug markets. Later reforms sought to reduce some sentencing disparities and expand treatment, though the effects of the War on Drugs continued well beyond the 1990s.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 586,
+  "total_tokens": 611,
+  "cost": 0.0002955,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002955,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.000293
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 128,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:36.117768+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

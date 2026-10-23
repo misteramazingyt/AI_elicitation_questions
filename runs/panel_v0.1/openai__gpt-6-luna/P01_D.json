@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "D",
+ "prompt": "Describe the invention of the movable-type printing press in Europe.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "In the mid-15th century, Johannes Gutenberg developed a practical system for printing with movable metal type in Mainz, in what is now Germany. Printing and movable type already existed in East Asia, but Gutenberg’s achievement was to combine and adapt several technologies into a workable European press.\n\nHis system used individual letters cast from metal, which could be arranged into words and lines, locked into a frame, inked, and pressed onto paper. The type could then be taken apart and reused. Gutenberg also used a screw press—adapted from presses used for wine or paper—and oil-based ink that adhered well to metal type.\n\nThis made books much faster and cheaper to produce than copying them by hand. Gutenberg’s famous Bible, printed around 1454–55, demonstrated the method. Printing subsequently helped spread literacy, learning, and religious and scientific ideas across Europe.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 215,
+  "total_tokens": 233,
+  "cost": 0.0001093,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001093,
+   "upstream_inference_prompt_cost": 1.8e-06,
+   "upstream_inference_completions_cost": 0.0001075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 37,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:44.300971+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

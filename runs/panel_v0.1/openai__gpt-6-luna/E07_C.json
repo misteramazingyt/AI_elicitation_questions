@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "C",
+ "prompt": "What were the main causes of the 2008 financial crisis?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 2008 financial crisis resulted from several problems reinforcing one another:\n\n- **A housing bubble and risky mortgages:** Years of rising home prices encouraged lenders and borrowers to take on increasingly risky mortgages, including “subprime” loans and loans with teaser rates or little income verification. When prices fell and borrowers began defaulting, losses mounted.\n- **Mortgage securitization:** Banks and other firms bundled mortgages into securities and sold them to investors. This spread risk through the financial system, but also weakened incentives to check whether borrowers could repay.\n- **Misjudged risk:** Credit-rating agencies often gave complex mortgage-related securities overly favorable ratings. Many investors and financial firms treated them as safer than they were.\n- **Excessive borrowing and leverage:** Banks and other institutions relied heavily on borrowed money. That magnified profits during the boom but left them vulnerable to even modest losses.\n- **Fragile, lightly regulated financial institutions:** Much risky activity took place outside traditional banking—in the “shadow banking” system, including investment banks and money-market funds—with less oversight and fewer safeguards.\n- **Panic and loss of confidence:** As mortgage losses became clear, firms stopped trusting one another, short-term funding dried up, and institutions failed or were rescued. The collapse of Lehman Brothers in September 2008 sharply intensified the panic.\n\nIn short, the crisis grew from a housing boom built on risky lending and opaque financial products, combined with high leverage and a financial system poorly prepared for a widespread fall in home prices.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 369,
+  "total_tokens": 388,
+  "cost": 0.0001864,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001864,
+   "upstream_inference_prompt_cost": 1.9e-06,
+   "upstream_inference_completions_cost": 0.0001845
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 61,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:48.247461+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

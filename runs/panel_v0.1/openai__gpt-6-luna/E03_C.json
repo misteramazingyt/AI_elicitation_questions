@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "C",
+ "prompt": "What were the main causes of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The famine in Soviet Ukraine in 1932–33 was caused chiefly by **Soviet government policies that took food from the countryside and prevented people from escaping hunger**. A poor harvest and disruption to farming contributed, but historians generally do not regard them as sufficient to explain the catastrophe.\n\nKey causes included:\n\n- **Forced collectivization:** Peasants were compelled to join collective farms, while livestock and other property were seized. Resistance, disruption, and the loss of experienced farmers damaged agricultural production.\n- **Excessive grain procurement quotas:** The state demanded grain deliveries that were often impossible to meet. Officials confiscated grain—and, in many cases, other food—from villages that fell short, leaving families without reserves for eating or planting.\n- **Punitive enforcement:** Villages and collective farms accused of withholding grain could be “blacklisted,” bringing further seizures and restrictions. Repression and arrests made it dangerous to resist or report hunger.\n- **Restrictions on movement and relief:** In early 1933, authorities stopped many starving peasants from leaving Ukraine and the Kuban to seek food elsewhere. State policy also failed to provide adequate relief despite evidence of mass hunger.\n\nThese policies operated within a wider Soviet famine affecting other regions, but Ukraine was hit especially severely. Many historians and governments classify the Holodomor as a genocide, arguing that the Soviet leadership deliberately used these measures to crush Ukrainian resistance and national life; others dispute whether genocidal intent has been proved. There is broad agreement, however, that government actions greatly intensified the famine and were central to its scale.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 440,
+  "total_tokens": 465,
+  "cost": 0.0002225,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002225,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.00022
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 120,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.639467+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

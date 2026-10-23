@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "C",
+ "prompt": "What were the main causes of the 2008 financial crisis?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 2008 financial crisis had several interrelated causes. The main ones are generally considered to be:\n\n**1. Housing bubble and subprime lending**\n- Low interest rates in the early 2000s, following the dot-com crash and 9/11, encouraged borrowing and rising home prices.\n- Lenders extended mortgages to borrowers with poor credit or little ability to repay (\"subprime\" loans), often with adjustable rates, teaser terms, or minimal documentation.\n- Home prices rose far above historical norms and then began falling in 2006-2007, leaving many borrowers owing more than their homes were worth.\n\n**2. Securitization and the originate-to-distribute model**\n- Banks bundled mortgages into mortgage-backed securities (MBS) and collateralized debt obligations (CDOs), selling them to investors.\n- Because lenders passed the risk onward, they had less incentive to ensure loans were sound.\n- Complex structuring made it hard to assess the true risk of these products, and credit rating agencies often gave them top ratings despite the risks, partly due to conflicts of interest (issuers paid the raters).\n\n**3. Excessive leverage in financial institutions**\n- Investment banks and other institutions borrowed heavily relative to their capital, some at ratios of 30:1 or more.\n- Small declines in asset values could wipe out their equity, making them vulnerable.\n\n**4. Derivatives and interconnectedness**\n- Credit default swaps (CDS), especially those tied to mortgage securities, were used to insure against defaults, but they were largely unregulated.\n- AIG, which had sold massive amounts of CDS protection, nearly collapsed when it couldn't meet obligations.\n- Counterparty relationships meant that the failure of one firm could threaten many others.\n\n**5. Regulatory failures and gaps**\n- Oversight was fragmented, and parts of the financial system (shadow banking, investment banks, the CDS market) operated with little regulation.\n- Regulators failed to address rising risks, and some deregulatory measures (such as the 2004 SEC decision relaxing leverage limits for large investment banks, and the Commodity Futures Modernization Act of 2000) are often cited.\n\n**6. Global imbalances and capital flows**\n- Large inflows of foreign capital, particularly from countries with high savings rates such as China, pushed down long-term interest rates and fueled demand for U.S. debt and mortgage securities.\n\n**7. Moral hazard and short-term incentives**\n- Compensation structures rewarded short-term volume and profits over long-term risk, and \"too big to fail\" expectations suggested government rescues would follow failures.\n\n**The trigger:** Rising defaults in 2007 caused the value of mortgage-linked securities to collapse. Crises followed at institutions like Bear Stearns (rescued in March 2008), and then Lehman Brothers' bankruptcy in September 2008 triggered a broad panic, freezing credit markets and leading to government bailouts and severe global recession.\n\nEconomists still debate the relative weight of these factors, but most agree the crisis resulted from a combination of them rather than any single cause.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 1035,
+  "total_tokens": 1061,
+  "cost": 0.0005201,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005201,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.0005175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:02.271146+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

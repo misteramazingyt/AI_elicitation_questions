@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2003 U.S.-led invasion of Iraq?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 2003 U.S.-led invasion toppled Saddam Hussein’s government, but its consequences extended far beyond the initial military campaign and remain contested.\n\n- **End of Saddam’s rule:** Saddam was captured in 2003, later tried and executed. Iraq held elections and adopted a new constitution, creating a competitive political system. But institutions were weak, and many Iraqis experienced the new order as unstable or exclusionary.\n- **Insurgency and sectarian violence:** The collapse of state authority, the disbanding of the Iraqi army, and policies that removed many former Baathists from public life helped fuel armed resistance. Conflict intensified between Sunni and Shia groups, especially from 2006 to 2008, killing many civilians and displacing millions.\n- **Human toll and displacement:** Hundreds of thousands of Iraqis died from violence during the years following the invasion, though estimates vary by method and time period. Millions were forced from their homes. U.S. and coalition forces also suffered thousands of deaths and many more injuries.\n- **Rise of extremist groups:** Al-Qaeda in Iraq grew amid the conflict and later evolved into the Islamic State (ISIS). ISIS seized large areas of Iraq in 2014, prompting another international military campaign and further destruction and displacement.\n- **Regional effects:** The removal of Saddam altered the regional balance of power. Iran gained greater influence in Iraqi politics, while instability and armed networks spread across borders.\n- **Economic and institutional damage:** Iraq’s infrastructure and public services suffered amid war, looting, corruption, and insecurity. Oil production eventually recovered and grew, but wealth did not translate consistently into reliable services or broad prosperity.\n- **Consequences for the United States:** The war cost the U.S. government trillions of dollars when long-term expenses are included, strained military personnel and alliances, and damaged U.S. credibility—especially after no stockpiles of the weapons of mass destruction cited as a central justification for the invasion were found.\n- **Long-term legacy:** Iraq became more politically open than under Saddam, but its postwar system remained fragile and divided. The invasion is widely regarded as a major turning point in Middle Eastern politics, though scholars and policymakers continue to debate how much of what followed was inevitable and how much resulted from specific decisions made during the occupation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 544,
+  "total_tokens": 567,
+  "cost": 0.0002743,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002743,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.000272
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 74,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:31.792655+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

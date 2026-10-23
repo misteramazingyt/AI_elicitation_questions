@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "D",
+ "prompt": "Describe the Great Depression.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Great Depression was a severe worldwide economic downturn that began in 1929 and lasted, in many countries, until the late 1930s or the start of World War II. It is widely regarded as the deepest and longest-lasting economic crisis of the modern industrialized era.\n\n**Trigger and timeline**\n- The stock market crash of October 1929 (Black Tuesday, October 29) wiped out enormous paper wealth and shook confidence in the financial system.\n- Between 1929 and 1933, banks failed in waves, the money supply contracted sharply, and credit dried up.\n- The crisis deepened through the early 1930s and reached its low point around 1933. Recovery was uneven and slow, and unemployment in the U.S. remained high until the buildup to World War II.\n\n**Scale of the impact**\n- In the United States, unemployment peaked at roughly 25 percent. Industrial production fell by about half, and thousands of banks failed.\n- Global trade collapsed, with world trade falling dramatically as countries raised tariffs, such as the U.S. Smoot-Hawley Tariff of 1930.\n- Agriculture suffered badly due to falling crop prices, and farmers faced foreclosures. The Dust Bowl drought of the 1930s compounded the hardship in the American Plains.\n- Millions of people lost homes, savings, and jobs. Breadlines, shantytowns (nicknamed \"Hoovervilles\"), and migration in search of work became common sights.\n\n**Causes**\nHistorians emphasize several overlapping factors:\n- Speculation and excessive buying on margin in the 1920s stock market.\n- Structural weaknesses, including unequal income distribution and overproduction in agriculture and industry.\n- Bank failures and a contracting money supply, which Milton Friedman and Anna Schwartz argued were central, partly because the Federal Reserve failed to act decisively.\n- The gold standard, which constrained governments' ability to expand the money supply and which many countries abandoned at different times, with recovery generally coming sooner for those that left it earlier.\n- Reduced international lending and trade barriers that spread the downturn worldwide.\n\n**Responses and legacy**\n- In the U.S., President Franklin D. Roosevelt's New Deal introduced programs for relief, recovery, and reform, including the Securities and Exchange Commission, FDIC deposit insurance, Social Security, and public works projects.\n- Governments increasingly accepted a role in managing economic stability, a shift influenced by economists such as John Maynard Keynes, whose ideas favored deficit spending during downturns.\n- The period reshaped political movements worldwide. In some countries, economic despair contributed to the rise of authoritarian regimes, including Nazi Germany.\n- It left lasting marks on financial regulation, social welfare systems, and public expectations about the government's responsibility during economic crises.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 947,
+  "total_tokens": 965,
+  "cost": 0.0004753,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004753,
+   "upstream_inference_prompt_cost": 1.8e-06,
+   "upstream_inference_completions_cost": 0.0004735
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:03.340169+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

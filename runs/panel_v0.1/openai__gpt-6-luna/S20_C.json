@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "C",
+ "prompt": "What were the main causes of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The U.S. “War on Drugs” grew from several forces rather than one cause. Its emphasis and scale changed over time:\n\n- **Political strategy and public anxiety in the 1970s:** In 1971, President Richard Nixon declared drug abuse “public enemy number one” and expanded federal drug-control efforts. Rising concern about crime and social disorder helped make a tough response politically attractive. Nixon’s policies also reflected the era’s backlash against the counterculture and protest movements. A later claim by a former Nixon aide that the administration deliberately used drug enforcement to target Black people and antiwar activists has become influential, though historians debate how directly it explains the administration’s decisions.\n\n- **Existing racial and punitive traditions:** Drug laws long predated Nixon, and enforcement had often fallen hardest on marginalized communities. The new campaign built on those traditions. Its effects were not evenly distributed: policing and punishment were concentrated in poor and Black and Latino neighborhoods, even though drug use occurred across racial groups.\n\n- **Institutional growth:** Federal agencies, police departments, and prosecutors gained resources and authority for drug enforcement. New laws and enforcement practices made arrests and imprisonment a central measure of success, helping the campaign persist beyond any one administration.\n\n- **The 1980s crack crisis and “tough on crime” politics:** The spread of crack cocaine, highly publicized violence, and sensational media coverage intensified public alarm. President Ronald Reagan’s administration greatly expanded the drug war, while Congress passed harsh sentencing laws—including the 1986 federal law that imposed much longer penalties for crack than for powder cocaine. Democrats as well as Republicans supported many tough-on-crime measures.\n\n- **Long-term political incentives:** Politicians faced pressure to appear strong on crime, while prevention, treatment, and harm reduction often seemed less immediately visible. Mandatory sentences and other punitive policies became entrenched, helping keep drug enforcement central into the 1990s.\n\nIn short, the War on Drugs was driven by public concern about drugs and crime, political competition, racialized patterns of policing, and institutions and laws that increasingly favored punishment over treatment.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 540,
+  "total_tokens": 570,
+  "cost": 0.000273,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000273,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.00027
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 115,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:36.369263+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

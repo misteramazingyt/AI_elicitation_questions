@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "Q",
+ "prompt": "What were the consequences of the Great Depression?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Great Depression, which began in 1929 and lasted through much of the 1930s, had far-reaching consequences:\n\n- **Economic hardship:** Businesses failed, industrial production fell, and international trade contracted. Banks collapsed, wiping out savings and restricting credit.\n- **Unemployment and poverty:** Millions lost their jobs, homes, and farms. Many families faced hunger and relied on charity or government relief.\n- **Political change:** Governments took a larger role in managing the economy. In the United States, Franklin D. Roosevelt’s **New Deal** introduced relief programs, public works, and financial reforms.\n- **Social effects:** Poverty and insecurity disrupted family life and increased migration. In the United States, for example, drought and economic distress drove many people from the Great Plains.\n- **International instability:** Economic nationalism and trade barriers deepened the downturn. In some countries, hardship weakened faith in democracy and helped extremist movements gain support, including the Nazis in Germany.\n- **Long-term reforms:** The crisis led to stronger banking rules, social safety nets, and greater acceptance of government responsibility for economic stability. It also helped shape the conditions preceding World War II.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 266,
+  "total_tokens": 281,
+  "cost": 0.0001345,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001345,
+   "upstream_inference_prompt_cost": 1.5e-06,
+   "upstream_inference_completions_cost": 0.000133
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 27,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:49.481017+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

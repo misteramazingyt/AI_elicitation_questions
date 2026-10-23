@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Supreme Court’s 1973 decision in *Roe v. Wade* rested mainly on a constitutional argument and a balancing of competing interests:\n\n- **Constitutional privacy:** The Court held that the liberty protected by the Fourteenth Amendment’s Due Process Clause included a right to privacy broad enough to cover a person’s decision to end a pregnancy. It connected this reasoning to earlier cases recognizing privacy rights in matters such as contraception and family life.\n- **Limits on state power:** The Court said that the privacy right was not absolute. States had legitimate interests in pregnant people’s health and in potential life, but those interests became stronger at different stages of pregnancy.\n- **The trimester framework:** To balance those interests, the Court set out a framework under which, early in pregnancy, the abortion decision was largely left to the patient and doctor; later, states could regulate abortion to protect health; and after viability, states could generally prohibit it, subject to exceptions for the pregnant person’s life or health.\n- **The Texas law at issue:** *Roe* challenged a Texas law that criminalized most abortions. The Court concluded that the law was too broad under its constitutional framework.\n\nThe decision also arose amid growing public and medical debate over abortion laws, but its formal basis was the Court’s interpretation of constitutional privacy and liberty. *Roe* was later overruled by *Dobbs v. Jackson Women’s Health Organization* in 2022.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 356,
+  "total_tokens": 382,
+  "cost": 0.0001806,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001806,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.000178
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 59,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:17.942114+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

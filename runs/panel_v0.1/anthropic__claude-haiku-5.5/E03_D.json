@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "D",
+ "prompt": "Describe the famine in Soviet Ukraine in 1932-1933.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Holodomor (\"death by hunger\") was a catastrophic famine that struck Soviet Ukraine in 1932–1933, killing an estimated 3.5 to 5 million people, with some estimates higher. It was among the deadliest humanitarian disasters of the twentieth century.\n\n**Causes and context**\n\n- **Collectivization:** Under Stalin's First Five-Year Plan, peasant farms were forcibly merged into collective farms (kolkhozy). Many peasants resisted, slaughtering livestock rather than surrender them, and output fell.\n- **Unrealistic procurement quotas:** The state set grain requisition targets that were often impossibly high relative to harvests. Ukraine, one of the Soviet Union's major grain-producing regions, was assigned especially heavy quotas. Local officials who failed to meet them faced punishment, so they seized grain aggressively.\n- **Confiscation of food:** Authorities requisitioned not only grain but potatoes, vegetables, and other food, often leaving villages with nothing to eat. A August 1932 decree (the \"law of five spikelets\") made the theft of even small amounts of collective farm property punishable by severe penalties, including execution or ten years' imprisonment.\n- **Repression and \"blacklisting\":** Villages that failed to meet quotas were placed on \"blacklists,\" which cut them off from trade and consumer goods and barred them from receiving grain. Brigades of activists searched homes and confiscated hidden food.\n- **Border controls:** In early 1933, peasants were largely prevented from leaving Ukraine and the North Caucasus to seek food elsewhere. Internal passport restrictions and guarded borders trapped people in starving areas.\n- **Political dimension:** Many historians, and the governments of Ukraine and a number of other countries, regard the famine as deliberately inflicted on Ukrainians, with Ukrainian national and cultural movements suppressed alongside it. Others emphasize that the famine also hit other Soviet regions, notably Kazakhstan, the North Caucasus, and the Volga region, and see it primarily as the result of catastrophic policy and ideological rigidity rather than a targeted ethnic campaign. This debate remains active among historians, though the scale of the disaster and the central role of Soviet policy are not disputed.\n\n**Course of the famine**\n\n- Winter 1932–1933 saw mass starvation as food stores ran out. Peasants ate seed grain, animals, tree bark, weeds, and in some cases resorted to cannibalism.\n- Death tolls peaked in the spring of 1933, when the hunger reached its worst before the new harvest.\n- Rural areas were hit hardest, and children, the elderly, and the weak died first. Entire villages were depopulated.\n- The Soviet government denied the famine existed, restricted information, and blocked foreign aid and journalists' access to affected areas. Some Western reporters, such as Walter Duranty of *The New York Times*, minimized or denied reports of mass death.\n- Grain exports from the USSR continued during the famine to earn foreign currency.\n\n**Aftermath**\n\n- Food shortages persisted for some time, and the state gradually eased procurement in 1933–1934.\n- The regime did not acknowledge the famine publicly. Survivors were often stigmatized, and discussion was suppressed for decades.\n- In 2006, Ukraine's parliament officially recognized the Holodomor as a genocide against the Ukrainian people, a designation recognized by a number of other countries but not by all historians or states.\n- Memorials, including the Holodomor Memorial in Kyiv, commemorate the victims, and the famine remains a central part of Ukrainian national memory.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1225,
+  "total_tokens": 1257,
+  "cost": 0.0006157,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006157,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.0006125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:52.976066+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

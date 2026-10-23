@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "Q",
+ "prompt": "What were the consequences of the Black Death in fourteenth-century Europe?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Black Death, which reached Europe in 1347, killed an enormous share of the population—often estimated at roughly one-third to one-half, though losses varied widely by region. Its consequences were profound and continued beyond the fourteenth century:\n\n- **Population collapse:** Villages and towns lost many residents, and repeated plague outbreaks kept populations low for generations. Some settlements were abandoned.\n- **Economic disruption and change:** Labor shortages left farms, workshops, and estates without enough workers. Wages often rose, while land and food became relatively abundant. Landowners sometimes shifted from labor-intensive farming to grazing sheep or leasing land.\n- **Conflict over labor:** In parts of western Europe, governments and employers tried to restrain wages and workers’ movement. These measures provoked resistance, including the English Peasants’ Revolt of 1381. Elsewhere, especially in much of eastern Europe, landlords were able to tighten control over peasants.\n- **Strain on social and religious life:** The deaths of clergy and community leaders disrupted institutions. Some people turned to intense religious devotion, while others criticized the Church’s inability to explain or stop the disease. Antisemitism also intensified: Jewish communities were falsely accused of poisoning wells and were persecuted and massacred.\n- **Changes in culture and attitudes:** Death became a more prominent subject in art, literature, and religious practice. The scale of mortality also altered ideas about family, work, wealth, and social status.\n- **Political and institutional effects:** Governments faced falling tax revenues and pressure to maintain order, while the changing balance between workers and landowners contributed to social conflict and gradual economic restructuring.\n\nThe plague did not end feudalism or produce the same outcome everywhere. Rather, it accelerated existing changes, with effects shaped by local economies, laws, and power relations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 423,
+  "total_tokens": 443,
+  "cost": 0.0002135,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002135,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.0002115
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 50,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:49.907960+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

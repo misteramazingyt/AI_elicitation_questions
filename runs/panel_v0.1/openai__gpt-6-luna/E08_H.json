@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "H",
+ "prompt": "How have historians interpreted the Great Depression? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians have not settled on a single explanation of the Great Depression. Their interpretations differ over what caused the collapse, why it lasted so long, and how much the New Deal changed the United States. They also increasingly treat it as a global crisis, not just an American one.\n\n### 1. Monetary collapse and banking failures\n\nA major interpretation, associated with **Milton Friedman and Anna J. Schwartz**, argues that the Federal Reserve turned a severe downturn into a catastrophe by allowing the money supply to contract and banks to fail. In their account, the Depression was not simply an unavoidable market correction: better central-bank action could have limited its depth.\n\n- Milton Friedman and Anna J. Schwartz, *A Monetary History of the United States, 1867–1960* (1963).\n\n**Peter Temin** challenged the idea that monetary forces alone explain the initial collapse, arguing that falling demand and spending were already central. Later work by **Ben Bernanke** showed how bank failures and the disruption of credit made the downturn worse, even beyond their effect on the money supply.\n\n- Peter Temin, *Did Monetary Forces Cause the Great Depression?* (1976).\n- Ben S. Bernanke, “Nonmonetary Effects of the Financial Crisis in the Propagation of the Great Depression,” *American Economic Review* 73, no. 3 (1983).\n\n### 2. Falling demand and the international gold standard\n\nA related interpretation emphasizes collapsing investment, consumption, and aggregate demand—the problem that Keynesian economics made central. On this view, monetary contraction and banking distress mattered partly because they intensified an already severe decline in spending.\n\nFor the international crisis, **Barry Eichengreen** argues that the gold standard was a crucial mechanism of transmission. Countries that stayed on gold faced pressure to defend their currencies, often by raising interest rates or cutting spending when their economies needed relief. Countries that abandoned gold earlier generally had more room to recover.\n\n- Barry Eichengreen, *Golden Fetters: The Gold Standard and the Great Depression, 1919–1939* (1992).\n- Peter Temin, *Lessons from the Great Depression* (1989).\n\n### 3. A crisis of the world economy\n\nHistorians of the global Depression stress the links among the 1929 crash, war debts and reparations, international lending, trade, and the gold standard. **Charles Kindleberger** argued that the world economy lacked a country willing and able to stabilize it by providing credit, keeping markets open, and supporting the international financial system. The resulting breakdown helped turn a downturn into a worldwide depression.\n\n- Charles P. Kindleberger, *The World in Depression, 1929–1939* (1973).\n\nThis approach shifts attention away from a single national cause: the Depression emerged from a fragile international system in which problems in one country quickly spread to others.\n\n### 4. The New Deal: reform, recovery, and limits\n\nInterpretations of the New Deal have also changed. Earlier accounts often emphasized Roosevelt’s reforms and the creation of a more active federal government. Later social histories examined how New Deal programs affected workers, unions, communities, and different racial and ethnic groups. They also highlighted how benefits and protections were distributed unevenly.\n\n- William E. Leuchtenburg, *Franklin D. Roosevelt and the New Deal, 1932–1940* (1963).\n- Lizabeth Cohen, *Making a New Deal: Industrial Workers in Chicago, 1919–1939* (1990).\n- Ira Katznelson, *Fear Itself: The New Deal and the Origins of Our Time* (2013).\n\nThere is also a debate about whether New Deal policies slowed recovery. Some economists, notably **Harold Cole and Lee Ohanian**, argued that policies that limited competition and supported prices may have held output back. This interpretation is contested; other scholars emphasize the benefits of financial stabilization, relief, and increased confidence. A related point is that recovery began before the United States entered World War II, but the Depression was not fully ended until wartime mobilization brought enormous government spending and employment.\n\n- Harold L. Cole and Lee E. Ohanian, “New Deal Policies and the Persistence of the Great Depression,” *Journal of Political Economy* 112, no. 4 (2004).\n- Christina D. Romer, “What Ended the Great Depression?” *Journal of Economic History* 52, no. 4 (1992).\n\n### In brief\n\nA useful synthesis is that the Depression had **multiple, interacting causes**: a collapse in demand, monetary and banking failures, and an international system constrained by the gold standard and weakened by financial instability. Historians then disagree over the relative weight of those causes and over how far the New Deal aided recovery versus reshaped American society and government. The Depression’s eventual end also depended on wartime mobilization, rather than on a single New Deal program.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 1391,
+  "total_tokens": 1409,
+  "cost": 0.0006973,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006973,
+   "upstream_inference_prompt_cost": 1.8e-06,
+   "upstream_inference_completions_cost": 0.0006955
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 377,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:50.129905+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

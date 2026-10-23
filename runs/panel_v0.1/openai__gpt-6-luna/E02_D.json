@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "D",
+ "prompt": "Describe the Reagan tax cuts of the 1980s.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The “Reagan tax cuts” usually refers to two major laws, alongside later changes that partly reversed them:\n\n- **Economic Recovery Tax Act of 1981 (ERTA):** Reduced individual income-tax rates by about 23% overall, phased in over three years. The top marginal rate fell from 70% to 50%, and tax brackets were indexed to inflation so people would not automatically move into higher brackets as prices rose. The law also expanded business investment incentives and reduced estate taxes.\n- **Tax Equity and Fiscal Responsibility Act of 1982:** Reversed some of the 1981 law’s revenue losses by closing loopholes and raising certain taxes. It was one of several measures during the decade that offset part of the original cuts.\n- **Tax Reform Act of 1986:** Simplified the tax code by eliminating many deductions and shelters while lowering statutory rates. The top individual rate fell to 28% (with a temporary 33% rate for some incomes), and the corporate rate was reduced from 46% to 34%.\n\n**Effects and debate:** The laws lowered marginal tax rates and changed incentives for work, saving, investment, and tax planning. Federal revenues fell relative to what they otherwise would have been after the 1981 cuts, while large budget deficits developed in the early 1980s; defense spending and the recession also contributed. The 1986 law was designed to be broadly revenue-neutral, shifting the tax burden among types of income and taxpayers rather than simply cutting taxes overall. Economists and historians continue to debate how much the cuts contributed to economic growth, deficits, and changes in income distribution.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 380,
+  "total_tokens": 398,
+  "cost": 0.0001918,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001918,
+   "upstream_inference_prompt_cost": 1.8e-06,
+   "upstream_inference_completions_cost": 0.00019
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 45,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.611154+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

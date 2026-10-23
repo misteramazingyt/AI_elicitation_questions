@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "C",
+ "prompt": "What were the main causes of Argentina's 2001 economic crisis?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Argentina's 2001 economic crisis, which culminated in the December 2001 collapse, had several interrelated causes:\n\n**1. The Convertibility Plan (1991–2001)**\n- Introduced by Economy Minister Domingo Cavallo under President Carlos Menem, it pegged the peso one-to-one to the US dollar and legally guaranteed that each peso was backed by a dollar in reserve.\n- It successfully ended hyperinflation of the late 1980s, but it removed the central bank's ability to act as lender of last resort or adjust monetary policy.\n- The peso became overvalued over time, hurting exports and competitiveness, especially after the Brazilian real devalued in 1999.\n\n**2. Rising Public Debt and Fiscal Deficits**\n- Governments borrowed heavily, particularly in foreign currency, during the 1990s. Public debt grew substantially, and provinces also accumulated large obligations.\n- Fiscal deficits persisted, and the government relied on international credit to finance them.\n- Investor confidence eroded as debt levels rose, making it increasingly expensive to borrow.\n\n**3. Recession and Rising Unemployment**\n- Argentina entered recession in 1998, worsened by external shocks: the Asian financial crisis (1997–98), the Russian default (1998), and Brazil's devaluation (1999).\n- Unemployment climbed above 20% at its peak, and poverty and inequality increased sharply.\n\n**4. Loss of Competitiveness**\n- Because the peso could not devalue, adjustment had to occur through wage and price deflation, which is painful and slow. Deflation increased the real burden of debt.\n\n**5. Capital Flight and Banking Stress**\n- As confidence waned, deposits fled the banking system. The \"corralito\" (restrictions on withdrawals introduced in late 2001 under Economy Minister Domingo Cavallo, who returned to the post) limited access to savings and intensified public anger.\n\n**6. The IMF Program and Policy Constraints**\n- The IMF supported Argentina with large loans (e.g., the 2000 \"blindaje\" package) tied to fiscal austerity. Critics argue the austerity deepened the recession, though others contend that the fundamental problems were already unsustainable.\n- Austerity measures, including public spending cuts and tax changes, contributed to social unrest.\n\n**7. Political Instability and Loss of Confidence**\n- The De la Rúa government (elected 1999) struggled to implement reforms and lost political support. Its handling of the crisis contributed to widespread protests in December 2001 (\"cacerolazos\"), leading to President Fernando de la Rúa's resignation on December 20, 2001, followed by a rapid succession of interim presidents and a sovereign debt default in late December 2001.\n\n**Aftermath:** The peg was abandoned in January 2002, the peso was devalued sharply, and Argentina defaulted on a large portion of its sovereign debt. Economic recovery followed from 2003, aided by high commodity prices and a competitive exchange rate.\n\nIf you're studying this in depth, economists continue to debate the relative weight of the convertibility regime versus fiscal mismanagement and external shocks.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 1062,
+  "total_tokens": 1092,
+  "cost": 0.000534,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000534,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.000531
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:12.211604+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

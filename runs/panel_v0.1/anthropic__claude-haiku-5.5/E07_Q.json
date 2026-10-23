@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2008 financial crisis?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 2008 financial crisis, triggered largely by the collapse of the U.S. housing bubble and the failure of major institutions like Lehman Brothers, had far-reaching consequences:\n\n**Economic effects**\n- **Severe recession:** The Great Recession was the deepest U.S. downturn since the 1930s. Global GDP contracted, and world trade fell sharply.\n- **Job losses:** U.S. unemployment peaked near 10% in October 2009, and millions of people lost homes, jobs, and savings. Recovery of employment took years.\n- **Housing collapse:** Millions of foreclosures occurred, and home values fell dramatically in many areas, wiping out wealth for many middle-class families.\n- **Wealth losses:** Household net worth fell significantly, and retirement accounts lost substantial value before markets recovered.\n\n**Financial sector changes**\n- **Bailouts:** Governments injected huge sums into banks and firms. The U.S. Troubled Asset Relief Program (TARP) and the rescues of AIG, Fannie Mae, and Freddie Mac were prominent examples. Many countries nationalized or partially nationalized banks.\n- **Bank failures and consolidation:** Lehman Brothers collapsed, while Bear Stearns, Merrill Lynch, and Washington Mutual were sold or rescued. Surviving institutions often grew larger.\n- **Regulatory reform:** The U.S. passed the Dodd-Frank Act (2010), creating the Consumer Financial Protection Bureau and stricter oversight. Internationally, Basel III raised capital and liquidity requirements for banks.\n- **Stress testing and \"too big to fail\" debates:** Regulators began routine stress tests, and debate continues about systemically important institutions.\n\n**Monetary and fiscal policy**\n- **Near-zero interest rates:** Central banks, especially the Federal Reserve, cut rates to near zero and held them there for years.\n- **Quantitative easing:** Large-scale asset purchases expanded central bank balance sheets dramatically.\n- **Fiscal stimulus and austerity:** The U.S. enacted a stimulus package in 2009, while many European countries pursued austerity, which sparked debate about its effects on recovery.\n- **Sovereign debt crisis:** In Europe, the crisis spread into a debt crisis affecting Greece, Ireland, Portugal, Spain, and others.\n\n**Social and political consequences**\n- **Public anger and inequality:** Perceptions that bankers escaped accountability while ordinary people suffered fueled resentment. This contributed to movements such as Occupy Wall Street and the Tea Party in the U.S., and the rise of populist politics in many countries.\n- **Loss of trust:** Confidence in financial institutions, economists, and governments declined.\n- **Political shifts:** Incumbent governments were voted out across much of Europe and elsewhere, and political polarization intensified.\n- **Debates over inequality and globalization:** The crisis renewed discussion of how economic gains and losses are distributed.\n\n**Long-term and intellectual effects**\n- **Slow recovery:** Many economies took years to return to pre-crisis output, and some experienced a \"lost decade\" of weak growth.\n- **Changes in economic thought:** The crisis prompted reconsideration of assumptions about market efficiency, financial stability, and the role of macroprudential regulation.\n- **Shadow banking scrutiny:** Regulators examined non-bank financial institutions and complex derivatives more closely.\n- **Lasting policy tools:** Unconventional monetary policy and macroprudential oversight became standard features of the policy landscape.\n\nIf you're interested in a particular dimension, such as the European sovereign debt crisis, the policy debates around bailouts, or effects on specific groups, I can go deeper.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 1279,
+  "total_tokens": 1305,
+  "cost": 0.0006421,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006421,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.0006395
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:02.308147+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "C",
+ "prompt": "What were the main causes of the Great Depression?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Great Depression (1929–early 1940s) had several interrelated causes. Economists and historians emphasize different factors, but the main ones include:\n\n**1. The Stock Market Crash of 1929**\nStock prices had soared in the late 1920s, fueled by speculation and buying on margin (borrowing to invest). When prices began falling in October 1929, investors faced huge losses, banks that had lent against stocks were hit, and consumer and business confidence collapsed.\n\n**2. Banking Crisis and Bank Failures**\nBetween 1930 and 1933, thousands of U.S. banks failed. Without deposit insurance, depositors rushed to withdraw their money, causing bank runs. Failing banks destroyed savings, reduced the money supply, and cut off credit to businesses and households. Milton Friedman and Anna Schwartz argued that the Federal Reserve's failure to act as a lender of last resort made this much worse.\n\n**3. Reduction in the Money Supply and Deflation**\nThe Federal Reserve allowed the money supply to contract sharply. Deflation (falling prices) increased the real burden of debt, leading to defaults, bankruptcies, and reduced spending and investment.\n\n**4. Collapse in Consumer and Business Spending**\nFalling incomes, unemployment, and uncertainty led households and firms to cut spending and investment. This reduced demand for goods, which led to more layoffs, creating a downward spiral.\n\n**5. Structural Weaknesses in the Economy**\nSome economists point to pre-existing problems: unequal income distribution, overproduction in agriculture and some industries, weak regulation of banks and financial markets, and an overreliance on credit.\n\n**6. The Gold Standard**\nMost countries tied their currencies to gold. When economies contracted, countries that stayed on gold had to keep interest rates high and restrict money supply to defend their currency. Barry Eichengreen argues that leaving the gold standard early was key to recovery, and that countries that stayed on it longer suffered longer.\n\n**7. International Trade Collapse**\nThe Smoot-Hawley Tariff Act (1930) raised U.S. tariffs, prompting retaliation from trading partners. World trade shrank dramatically, worsening the downturn globally, though economists debate how large a role it played.\n\n**8. Policy Mistakes**\nMany policymakers initially followed orthodox fiscal and monetary tightening, balanced budgets, and passive responses. Later, more expansionary policies (such as the New Deal and abandoning the gold standard) helped recovery.\n\n**Why it became so severe:** Most economists today see the Depression as the result of a combination of these factors, with the banking collapse and monetary contraction playing especially central roles. The downturn was then amplified by the gold standard, trade barriers, and delayed policy responses.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 933,
+  "total_tokens": 955,
+  "cost": 0.0004687,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004687,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0004665
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:03.937673+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

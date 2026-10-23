@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "D",
+ "prompt": "Describe McCarthyism in the 1950s.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "**McCarthyism** describes the intense anti-communist investigations and accusations that shaped U.S. politics in the early 1950s. The term comes from Senator **Joseph McCarthy**, who claimed in 1950 that Communists had infiltrated the U.S. government. He often made dramatic charges without producing reliable evidence.\n\nThe campaign grew amid Cold War fears of Soviet espionage and the spread of communism. Congressional committees, including the House Un-American Activities Committee, investigated government workers, entertainers, teachers, and other Americans. People suspected of communist ties could be questioned, pressured to name others, or dismissed from their jobs. In Hollywood and other industries, blacklists shut many people out of work.\n\nMcCarthyism was not limited to McCarthy himself: it also refers more broadly to the use of sweeping accusations and investigations that damaged reputations and restricted civil liberties, often without fair evidence or process. McCarthy’s influence declined after televised Senate hearings exposed his bullying tactics. In 1954, the Senate formally censured him.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 17,
+  "completion_tokens": 281,
+  "total_tokens": 298,
+  "cost": 0.0001422,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001422,
+   "upstream_inference_prompt_cost": 1.7e-06,
+   "upstream_inference_completions_cost": 0.0001405
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 66,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:06.233844+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

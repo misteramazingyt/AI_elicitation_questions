@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2008 financial crisis? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians have generally treated the 2008 crisis not as a sudden accident, but as the result of longer changes in finance, politics, and the global economy. They disagree, however, about which changes mattered most—and about whether the crisis was chiefly American or global.\n\n- **A crisis of financialization and political choice.** Historians of capitalism often trace the crisis to the growing power of finance and to policy choices that encouraged credit and weakened constraints on financial institutions. Greta Krippner argues that the rise of finance was partly a political response to difficulties in managing the economy through other means (*Capitalizing on Crisis*, 2011). Kim Phillips-Fein’s history of business conservatism helps place the political movement toward deregulation in a longer context (*Invisible Hands*, 2009). On this account, the housing bubble was a trigger, not a sufficient explanation.\n\n- **A longer history of debt and household risk.** Louis Hyman places the crisis within a decades-long transformation in how Americans borrowed, moving from older forms of installment credit toward widespread, complex consumer debt (*Debtor Nation*, 2011). This approach shifts attention from Wall Street alone to the institutions and policies that made borrowing central to household life.\n\n- **A global crisis, not just a US mortgage collapse.** Adam Tooze argues that the crisis quickly became a worldwide financial and political upheaval. Dollar funding markets, international banks, and government responses connected the US housing shock to Europe and beyond. He also emphasizes that state intervention—especially the rescue of financial institutions—reshaped global politics (*Crashed*, 2018). This interpretation challenges accounts that treat the crisis as a domestic US story.\n\n- **A warning about historical analogy.** Barry Eichengreen compares the Great Recession with the Great Depression, arguing that policymakers learned enough from the earlier disaster to avoid an equally severe collapse, but that the comparison also obscured important differences (*Hall of Mirrors*, 2015). His account highlights both the value and the limits of using past crises to interpret the present.\n\n- **A dispute over the role of deregulation.** Many accounts emphasize deregulation, shadow banking, securitization, and weak oversight. But historians and economic historians differ over whether deregulation alone explains the crash. Some stress broader conditions—such as global capital flows, the demand for safe assets, and institutional incentives—that helped produce the boom as well as the failure. The Financial Crisis Inquiry Commission’s report, while not a historical monograph, is a useful source for the competing explanations and evidence (*The Financial Crisis Inquiry Report*, 2011).\n\nTaken together, these interpretations make the crisis a **history of institutions and choices**, not merely a story of bad mortgages or reckless bankers. The main points of debate are how much weight to assign to deregulation, the long-term expansion of household debt, global financial structures, and the decisions governments made before and during the crash.\n\n**Sources**\n\n- Eichengreen, Barry. *Hall of Mirrors: The Great Depression, the Great Recession, and the Uses—and Misuses—of History*. Oxford University Press, 2015.\n- Financial Crisis Inquiry Commission. *The Financial Crisis Inquiry Report*. US Government Printing Office, 2011.\n- Hyman, Louis. *Debtor Nation: The History of America in Red Ink*. Princeton University Press, 2011.\n- Krippner, Greta R. *Capitalizing on Crisis: The Political Origins of the Rise of Finance*. Harvard University Press, 2011.\n- Phillips-Fein, Kim. *Invisible Hands: The Businessmen’s Crusade Against the New Deal*. W. W. Norton, 2009.\n- Tooze, Adam. *Crashed: How a Decade of Financial Crises Changed the World*. Viking, 2018.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 1234,
+  "total_tokens": 1255,
+  "cost": 0.0006191,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006191,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.000617
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 452,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:48.849562+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "D",
+ "prompt": "Describe the 1994 U.S. crime bill.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **Violent Crime Control and Law Enforcement Act of 1994**, often called the **1994 crime bill**, was a wide-ranging federal law signed by President Bill Clinton on September 13, 1994. Passed with bipartisan support, it combined funding for law enforcement with tougher criminal penalties and crime-prevention programs.\n\nIts major provisions included:\n\n- **Funding for more police officers:** It created the COPS program, intended to put roughly 100,000 additional officers on the streets.\n- **More prison funding:** It offered states grants to build or expand prisons, with incentives for laws requiring people convicted of certain crimes to serve a substantial portion of their sentences.\n- **Tougher federal penalties:** It expanded the federal death penalty and created or strengthened penalties for various violent crimes. It also included a federal “three strikes” provision for certain serious offenses.\n- **A temporary assault-weapons ban:** It prohibited the manufacture and sale of specified assault weapons and high-capacity magazines; the ban expired in 2004.\n- **Violence against women programs:** It established the Violence Against Women Act, supporting efforts to prevent and respond to domestic violence, sexual assault, and stalking.\n- **Crime-prevention and justice programs:** It funded initiatives including community policing, drug courts, and programs for victims.\n\nThe law remains controversial. Critics argue that its prison grants and sentencing incentives contributed to mass incarceration and disproportionately harmed Black and Latino communities. Supporters point to its investment in policing and prevention, and note that crime declined during the 1990s. The bill was one part of a much larger set of federal, state, and local policies; how much it contributed to those trends is debated.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 17,
+  "completion_tokens": 506,
+  "total_tokens": 523,
+  "cost": 0.0002547,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002547,
+   "upstream_inference_prompt_cost": 1.7e-06,
+   "upstream_inference_completions_cost": 0.000253
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 160,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:34.446392+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "D",
+ "prompt": "Describe the IRS's handling of tax-exempt applications from political groups (2010-2013).",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "From 2010 to 2013, the IRS subjected some organizations seeking tax-exempt status—especially applicants for **501(c)(4)** “social welfare” status—to extra scrutiny based on their names or stated policy interests.\n\n- **How the screening worked:** IRS staff flagged applications using terms such as “Tea Party,” “Patriot,” and “9/12.” The screening later expanded to other indicators, including some liberal or advocacy-related terms. Flagged applications could face prolonged review rather than routine processing.\n- **What applicants were asked for:** Some received broad or intrusive requests for information, including details about donors, members, activities, and communications. The requests could be burdensome and, in some cases, went beyond what was appropriate for deciding tax-exempt eligibility.\n- **What the IRS acknowledged:** In May 2013, the IRS admitted that using those names and policy positions to select applications for scrutiny was improper. The agency apologized, and the episode led to the resignation of acting commissioner Steven Miller.\n- **What investigators found:** A Treasury Inspector General report found that the IRS used inappropriate criteria, applied them inconsistently, and mishandled the review process. It also found poor management and lengthy delays. The report did **not** establish that the screening was directed by the White House or that it was designed to punish applicants for political reasons. Later Justice Department investigators did not bring criminal charges.\n\nThe episode became known as the **IRS targeting controversy**. Its central issue was not that the IRS examined political activity at all—political activity can matter to a 501(c)(4) application—but that it used politically suggestive labels to select cases and then handled some of them with excessive, inconsistent scrutiny.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 556,
+  "total_tokens": 582,
+  "cost": 0.0002806,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002806,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.000278
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 204,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:15.709284+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

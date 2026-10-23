@@ -1,0 +1,43 @@
+{
+ "item": "E06",
+ "template": "D",
+ "prompt": "Describe the Bengal famine of 1943.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Bengal famine of 1943 was a catastrophic famine in British India's Bengal Presidency (today's Bangladesh and the Indian state of West Bengal) that killed an estimated 2 to 3 million people, though some estimates run higher. It is one of the most debated events of the colonial era, with historians disagreeing about its causes and the degree of responsibility borne by British authorities.\n\n**Background and causes**\n\n- **Wartime disruption:** Japan's entry into the Second World War brought the conflict to Asia. Japanese forces captured Burma (Myanmar) in 1942, cutting off rice imports from that region, which had been a major source of supply for Bengal.\n- **Military and administrative priorities:** The British government prioritized supplying its armed forces and stockpiling food, and restricted the movement of grain and boats in parts of Bengal, partly out of fear that they could aid a Japanese invasion.\n- **Scorched-earth and denial policies:** Authorities implemented measures such as evacuating coastal areas and destroying boats, which disrupted food distribution and livelihoods.\n- **Price inflation and hoarding:** Wartime inflation, speculation, and hoarding by traders and some wealthy individuals drove up rice prices sharply. Wages for agricultural laborers failed to keep pace.\n- **Natural factors:** A cyclone in October 1942 and a poor harvest, along with crop disease, worsened shortages, though many historians argue these were not sufficient alone to cause a famine of such scale.\n- **Colonial governance:** The Bengal provincial government under Premier Khawaja Nazimuddin and then others was weak and lacked effective authority, while the central government in Delhi under the Viceroy, Lord Wavell (from 1943), and the British war cabinet under Churchill were slow to respond. Churchill's attitudes toward India and its people are often criticized, and his government reportedly resisted or delayed large-scale food imports, though the extent of this is debated.\n\n**Impact**\n\nStarvation and disease spread through rural and urban areas, particularly in Calcutta (Kolkata), where destitute migrants flooded the city. Mortality was concentrated among the poor, especially landless laborers, fishermen, and artisans whose incomes collapsed. Families sold land, tools, and eventually their children or themselves in desperation, and women and girls were frequently forced into sex work to survive. Epidemics of malaria, cholera, and smallpox compounded the death toll.\n\n**Response and legacy**\n\nRelief efforts began belatedly. Food imports and public kitchens were eventually organized, and the famine officially ended after the 1944 harvest, though its effects lingered for years. A Famine Inquiry Commission (the Woodhead Commission, 1945) concluded that the crisis stemmed from a combination of factors and criticized government policy, though its findings were limited.\n\nThe famine is remembered as a major tragedy. It contributed to the political and social upheaval in Bengal, and its memory was a factor in debates over Indian independence and the 1947 partition. Scholars such as Amartya Sen have argued that the famine resulted less from absolute food shortage than from entitlement failures and the collapse of purchasing power among poor workers, and that a functioning democratic press and political accountability might have prevented it.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 1091,
+  "total_tokens": 1114,
+  "cost": 0.0005478,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005478,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.0005455
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:59.436475+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

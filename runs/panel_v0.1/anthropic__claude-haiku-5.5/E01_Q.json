@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "Q",
+ "prompt": "What were the consequences of the New Deal (1933-1939)?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The New Deal, Franklin D. Roosevelt's response to the Great Depression, produced consequences that are still debated, but its major effects fall into several categories.\n\n**Economic and financial reforms**\n- **Banking system stabilized:** The Emergency Banking Act (1933) and creation of the FDIC insured bank deposits, ending the wave of bank runs. Bank failures dropped sharply.\n- **Securities regulation:** The Securities Act (1933) and Securities Exchange Act (1934) created the SEC and required disclosure from companies issuing stock.\n- **Monetary changes:** The U.S. abandoned the gold standard domestically in 1933, and the dollar was devalued, which helped raise prices and spur recovery.\n- **Recovery was partial:** GDP and employment improved considerably from their 1933 lows, but unemployment remained high (around 14-17% in 1938-39), and full recovery came only with World War II spending.\n\n**Social welfare and labor**\n- **Social Security Act (1935)** created old-age pensions, unemployment insurance, and aid for dependent children and the disabled. It became the foundation of the modern American welfare state.\n- **Labor rights:** The National Labor Relations Act (Wagner Act, 1935) protected collective bargaining and union organizing, leading to significant growth in union membership, especially in mass-production industries.\n- **Minimum wage and maximum hours:** The Fair Labor Standards Act (1938) established a federal minimum wage and overtime pay and restricted child labor.\n\n**Public works and employment programs**\n- Agencies such as the Works Progress Administration (WPA), Civilian Conservation Corps (CCC), and Public Works Administration (PWA) employed millions and built infrastructure: roads, bridges, schools, airports, parks, and public buildings.\n- Programs also supported artists, writers, and historians, and produced lasting cultural records.\n\n**Agriculture and resource development**\n- The Agricultural Adjustment Act paid farmers to reduce production, raising farm incomes, though it was later struck down in part and reformed. Its critics note it also harmed tenant farmers and sharecroppers, particularly Black Southerners.\n- The Tennessee Valley Authority brought electricity, flood control, and development to a poor region, and the Rural Electrification Administration extended power to many rural households.\n- Soil conservation and dam projects like Grand Coulee and Hoover Dam (begun under Hoover but completed in this era) reshaped the Western landscape.\n\n**Political and institutional consequences**\n- **Expanded federal power:** The national government took on responsibilities previously left to states, localities, or private charity, establishing a lasting shift toward federal activism.\n- **Realignment:** The Democratic Party built a durable coalition of urban workers, union members, Catholics, Jews, Southern whites, and Black voters (though Black voters' gains were limited). This shaped American politics for decades.\n- **Executive growth:** The presidency and federal bureaucracy expanded significantly.\n- **Judicial conflict:** The Supreme Court struck down several key measures (including the NIRA and AAA) in 1935-36, prompting Roosevelt's failed 1937 court-packing plan. Afterward, the Court generally upheld New Deal economic regulation, broadening federal commerce power.\n\n**Limitations and criticisms**\n- Many programs excluded agricultural and domestic workers, who were largely Black, to win Southern congressional support.\n- Recovery was incomplete, and the 1937-38 recession showed the economy was still fragile.\n- Critics on the left (e.g., Huey Long, later socialists) argued it did too little to redistribute wealth; critics on the right argued it expanded government excessively and hampered business.\n- Historians debate how much credit the New Deal deserves for recovery versus World War II's effect.\n\n**Long-term legacy**\nMany New Deal institutions (Social Security, FDIC, SEC, labor protections, federal insurance programs) persisted and became cornerstones of American life. The era established the expectation that the federal government would act to cushion economic downturns and protect citizens against poverty and insecurity.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1380,
+  "total_tokens": 1408,
+  "cost": 0.0006928,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006928,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.00069
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:51.398127+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

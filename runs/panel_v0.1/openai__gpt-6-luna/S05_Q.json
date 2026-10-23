@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1993 Waco siege?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The siege ended on April 19, 1993, when a fire destroyed the Branch Davidian compound near Waco, Texas. Its consequences included:\n\n- **Heavy loss of life:** Four federal agents and six Branch Davidians were killed during the initial raid on February 28. In the final fire, **76 Branch Davidians died**, including leader David Koresh and 25 children. Nine people survived the fire.\n- **Criminal trials and investigations:** Survivors were prosecuted; several were convicted of offenses related to the initial gun battle, though not all charges brought against them resulted in convictions. Congressional hearings and Justice Department reviews examined the government’s handling of the raid and siege. The reviews identified mistakes in planning and communication but did not substantiate claims of a government plot to deliberately kill those inside.\n- **Lasting debate over federal force:** The siege became a major example in disputes over law-enforcement tactics, religious freedom, gun rights, and the use of force by federal agencies.\n- **Political and social repercussions:** Waco became a rallying point for anti-government movements. Oklahoma City bomber Timothy McVeigh cited the siege as a motivating grievance, though it was not the only factor behind his actions.\n\nThe event’s scale of death and the disputed decisions leading to the final assault left a lasting, deeply contested legacy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 513,
+  "total_tokens": 532,
+  "cost": 0.0002584,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002584,
+   "upstream_inference_prompt_cost": 1.9e-06,
+   "upstream_inference_completions_cost": 0.0002565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 237,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:09.588208+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

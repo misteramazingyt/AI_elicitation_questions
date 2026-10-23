@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "C",
+ "prompt": "What were the main causes of the 1996 U.S. welfare reform law?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 1996 welfare reform law—the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA)—grew out of several forces:\n\n- **Longstanding criticism of AFDC**, the main cash-assistance program. Critics argued it fostered dependency, discouraged work, and was poorly managed. Those claims were politically influential, though the evidence on how much welfare itself caused long-term poverty or dependency was contested.\n- **A shift toward work requirements and “personal responsibility.”** From the 1980s onward, policymakers increasingly favored time limits, job training, and stricter eligibility rules over open-ended cash assistance.\n- **Public concern about welfare and changing family patterns.** Anxiety about government spending, poverty, and births outside marriage helped build support for tougher rules. Racialized stereotypes about welfare recipients also shaped public debate.\n- **State-level experiments.** Federal waivers let states test work requirements and other changes to AFDC. Supporters cited these experiments as evidence that a more restrictive system could work.\n- **Partisan competition and Clinton’s 1992 campaign promise.** Bill Clinton pledged to “end welfare as we know it.” After Republicans took control of Congress in 1994, they pushed a more sweeping overhaul; Clinton vetoed earlier bills, then signed PRWORA in 1996.\n- **A political opening to replace AFDC.** The law ended the federal entitlement to cash assistance and created Temporary Assistance for Needy Families (TANF), giving states block grants and broad discretion while imposing work rules and time limits.\n\nIn short, the law resulted from a long-running ideological and policy shift, strengthened by public pressure and state experiments, and finally enacted through a political bargain between a Democratic president and a Republican Congress.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 443,
+  "total_tokens": 466,
+  "cost": 0.0002238,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002238,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.0002215
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 87,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:00.601996+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "H",
+ "prompt": "How have historians interpreted the Great Depression? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "# Historical Interpretations of the Great Depression\n\nHistorians have debated the Great Depression's causes, its duration, the effectiveness of responses like the New Deal, and its social meaning. The main schools are below, roughly in chronological order, though many scholars combine elements of several.\n\n## 1. Early Explanations: Underconsumption and Austrian Business Cycle Theory\n\nContemporaries offered competing diagnoses. Some blamed overproduction and inequality, while Austrian economists such as Friedrich Hayek blamed credit expansion that had distorted investment. Hayek's *Prices and Production* (1931) is the classic statement of the latter view. Karl Polanyi's *The Great Transformation* (1944) later framed the crisis as the collapse of a self-regulating market economy and its gold-standard foundations.\n\n## 2. The Keynesian and New Deal Liberal Interpretation\n\nJohn Maynard Keynes's *The General Theory of Employment, Interest and Money* (1936) argued that insufficient aggregate demand could leave economies stuck in prolonged slumps. Keynesian historians drew on this framework.\n\n- **Arthur M. Schlesinger Jr.**, *The Crisis of the Old Order* (1957) and *The Coming of the New Deal* (1958), part of *The Age of Roosevelt*, portrayed the New Deal as a necessary response to a failed laissez-faire system.\n- **William E. Leuchtenburg**, *Franklin D. Roosevelt and the New Deal, 1932–1940* (1963), offered a balanced account of its achievements and limits.\n- **John Kenneth Galbraith**, *The Great Crash, 1929* (1955), emphasized speculation, corporate structure, and inequality as preconditions for the collapse.\n\n## 3. The Monetarist Interpretation\n\nThe most influential academic reinterpretation came from Milton Friedman and Anna Schwartz, who argued that the Federal Reserve's failure to prevent a collapse of the money supply, through bank failures and deflation, turned a recession into a catastrophe.\n\n- **Milton Friedman and Anna Schwartz**, *A Monetary History of the United States, 1867–1960* (1963), especially chapter 7 on the 1929–1933 contraction.\n\nThis view implicitly rehabilitated the idea that the crisis was preventable and placed responsibility on policy rather than on capitalism as such.\n\n## 4. The International Gold Standard Interpretation\n\nLater scholarship shifted attention from the Federal Reserve alone to the international monetary system, which spread the contraction across countries.\n\n- **Charles P. Kindleberger**, *The World in Depression, 1929–1939* (1973), argued that no country was willing to act as the \"stabilizer\" of the world economy.\n- **Peter Temin**, *Did Monetary Forces Cause the Great Depression?* (1976), challenged the monetarist primacy of money. He argued that the initial downturn was driven by declining spending, possibly consumption, and that the monetary contraction was partly a consequence.\n- **Barry Eichengreen**, *Golden Fetters: The Gold Standard and the Great Depression, 1919–1939* (1992), argued that adherence to gold transmitted deflation internationally, and that countries that abandoned gold earlier recovered sooner. Eichengreen and Jeffrey Sachs, \"Exchange Rates and Economic Recovery in the 1930s,\" *Journal of Economic History* 45 (1985), made this argument empirically.\n\n## 5. The Credit and Financial Channel\n\nBen Bernanke, later Federal Reserve chair, extended Friedman and Schwartz by arguing that bank failures damaged the financial system's ability to allocate credit, even beyond their effect on the money supply.\n\n- **Ben S. Bernanke**, \"Nonmonetary Effects of the Financial Crisis in the Propagation of the Great Depression,\" *American Economic Review* 73 (1983), and *Essays on the Great Depression* (2000).\n\nHis work became especially influential after the 2008 financial crisis.\n\n## 6. Debates over Recovery and the New Deal\n\nA major contemporary debate concerns why recovery was so slow and whether New Deal policies helped or hindered it.\n\n- **Christina Romer**, \"What Ended the Great Depression?\" *Journal of Economic History* 52 (1992), argued that expansionary monetary policy, especially gold inflows, drove recovery more than fiscal policy did. She argued that fiscal stimulus was too small to matter much.\n- **Peter Temin and Barrie Wigmore**, \"The End of One Big Deflation,\" *Explorations in Economic History* 27 (1990), emphasized regime change in monetary policy as the trigger for recovery.\n- **Harold Cole and Lee Ohanian**, \"New Deal Policies and the Persistence of the Great Depression,\" *Journal of Political Economy* 112 (2004), argued that New Deal cartelization policies, especially the National Industrial Recovery Act, delayed recovery by supporting wages and prices.\n- **Robert Higgs**, \"Regime Uncertainty: Why the Great Depression Lasted So Long and Why Prosperity Resumed after the War,\" *Independent Review* 1 (1997), attributed prolonged weakness to investor fear of government policy, a view echoed in popular work such as **Amity Shlaes**, *The Forgotten Man* (2007).\n- **Michael A. Bernstein**, *The Great Depression: Delayed Recovery and Economic Change in America, 1929–1939* (1987), stressed structural changes and the uneven, slow nature of recovery.\n\n## 7. Social and Cultural History\n\nSocial historians have moved beyond macroeconomics to examine how ordinary people experienced the Depression.\n\n- **Robert S. McElvaine**, *The Great Depression: America, 1929–1941* (1984), emphasized human suffering and cultural change.\n- **Studs Terkel**, *Hard Times: An Oral History of the Great Depression* (1970), collected firsthand accounts.\n- **Lizabeth Cohen**, *Making a New Deal: Industrial Workers in Chicago, 1919–1939* (1990), examined how workers' political consciousness developed.\n- **Ira Katznelson**, *Fear Itself: The New Deal and the Origins of Our Time* (2013), argued that New Deal programs often excluded Black Americans. He showed that Southern Democrats shaped policies in ways that reinforced racial hierarchy.\n\n## 8. Synthesis and Recent Overviews\n\n- **",
+ "finish_reason": "length",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 4000,
+  "total_tokens": 4030,
+  "cost": 0.002003,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002003,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.002
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1791,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:04.540405+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

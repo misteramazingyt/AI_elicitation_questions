@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "C",
+ "prompt": "What were the main causes of the 2003 U.S.-led invasion of Iraq?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The invasion was driven by a combination of **publicly stated security claims, longstanding U.S. policy goals, and the post‑9/11 political climate**.\n\n- **Weapons of mass destruction (WMD):** The Bush administration argued that Iraq retained chemical and biological weapons and was pursuing nuclear capabilities, in violation of U.N. obligations. These claims were a central justification for war. After the invasion, investigators found no active stockpiles of the kind asserted, and prewar intelligence had been seriously flawed and overstated.\n- **Terrorism and 9/11:** Officials argued that Saddam Hussein’s government might aid terrorists and portrayed Iraq as part of a broader threat. Iraq had contacts with some militant groups, but investigations found **no evidence that Iraq was involved in the September 11 attacks or had an operational partnership with al‑Qaeda**.\n- **Enforcing U.N. resolutions:** The administration said Iraq had repeatedly violated U.N. resolutions, including requirements to disclose and disarm its weapons programs. The U.S. and Britain argued that earlier authorization for force remained valid; many other governments and legal experts disputed that interpretation.\n- **Regime change and regional strategy:** The U.S. had sought Saddam’s removal for years, and some officials believed replacing his government could improve security and reshape the Middle East. The 2002 U.S. National Security Strategy’s doctrine of preemptive action also shaped the decision.\n- **The post‑9/11 climate:** Public fear of terrorism and the administration’s emphasis on acting before threats materialized helped build political support for invading.\n\nOil is often cited as a motive, but it is difficult to establish as the invasion’s main cause; the administration’s public case centered on WMD, security, and U.N. compliance.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 420,
+  "total_tokens": 444,
+  "cost": 0.0002124,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002124,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.00021
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 54,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:31.176201+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

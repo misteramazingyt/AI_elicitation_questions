@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1996 U.S. welfare reform law? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally treat the 1996 Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA) not as a sudden break, but as the culmination of a long political struggle over poverty, race, gender, and the role of government. They differ, however, in what they emphasize: the law’s racial politics, its attack on welfare as an entitlement, the influence of conservative ideas, or the limits of the political alternatives available in the 1990s.\n\n- **A long retreat from welfare as a right.** Marisa Chappell traces the movement to “end welfare as we know it” through decades of political conflict, rather than attributing it simply to the 1996 Republican Congress or President Clinton. In her account, reform reflected a growing agreement across party lines that welfare should be tied to paid work and individual responsibility. PRWORA replaced the federal Aid to Families with Dependent Children (AFDC) entitlement with state block grants, work requirements, and time limits—an institutional shift, not just a change in program rules (Chappell, *The War on Welfare*, 2010).\n\n- **Race and the making of “deserving” and “undeserving” poor.** Jill Quadagno and Alice O’Connor place welfare reform in a longer history in which racial ideas shaped Americans’ understanding of poverty and public assistance. Their work helps explain why welfare became a particularly charged target, often associated in public debate with Black mothers, even though its recipients were diverse. From this perspective, PRWORA’s language of personal responsibility drew force from longstanding distinctions between people imagined to deserve help and those judged responsible for their poverty (Quadagno, *The Color of Welfare*, 1994; O’Connor, *Poverty Knowledge*, 2001).\n\n- **Gender and the disciplining of poor mothers.** Historians of welfare and welfare activism emphasize that reform was also about regulating family life and women’s work. The law’s work requirements, time limits, and restrictions on benefits for some immigrants and people convicted of drug offenses affected more than income support: they helped make paid employment and particular models of family responsibility conditions of assistance. This connects the 1996 law to earlier efforts to police poor women’s behavior, while also highlighting how its burdens fell especially heavily on low-income mothers (Chappell, 2010; Premilla Nadasen, *Welfare Warriors*, 2005).\n\n- **A defeat for welfare-rights activism—and a reminder that alternatives existed.** Felicia Kornbluh and Nadasen recover the organizing by welfare recipients, especially Black women, that had earlier pressed for adequate benefits and a stronger claim to public support. Their histories complicate accounts that portray welfare policy as something shaped only by politicians and experts: recipients had built a movement and articulated different visions of economic security. The 1996 settlement therefore appears, in part, as the defeat or marginalization of those claims (Kornbluh, *The Battle for Welfare Rights*, 2007; Nadasen, 2005).\n\nTaken together, these historians portray PRWORA as a **bipartisan, historically rooted transformation**: it ended the federal entitlement to cash assistance for poor families and strengthened a system organized around work, state discretion, and judgments about personal responsibility. They also caution against treating the law as the sole cause of subsequent changes in poverty or employment; economic conditions, state choices, and the effects of other policies matter too.\n\n**Sources**\n\n- Chappell, Marisa. *The War on Welfare: Family, Poverty, and Politics in Modern America*. University of Pennsylvania Press, 2010.\n- Kornbluh, Felicia. *The Battle for Welfare Rights: Politics and Poverty in Modern America*. University of Pennsylvania Press, 2007.\n- Nadasen, Premilla. *Welfare Warriors: The Welfare Rights Movement in the United States*. Routledge, 2005.\n- O’Connor, Alice. *Poverty Knowledge: Social Science, Social Policy, and the Poor in Twentieth-Century U.S. History*. Princeton University Press, 2001.\n- Quadagno, Jill. *The Color of Welfare: How Racism Undermined the War on Poverty*. Oxford University Press, 1994.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1308,
+  "total_tokens": 1333,
+  "cost": 0.0006565,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006565,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.000654
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 433,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:01.322202+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

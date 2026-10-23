@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "Q",
+ "prompt": "What were the consequences of Argentina's 2001 economic crisis?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Argentina’s 2001 economic crisis brought a severe recession to a head and reshaped the country’s economy and politics.\n\n- **Default and financial turmoil:** In December 2001, Argentina defaulted on roughly $100 billion of public debt—the largest sovereign default at the time. The government also froze bank withdrawals, a measure known as the *corralito*, triggering protests and a loss of public trust.\n- **Political upheaval:** President Fernando de la Rúa resigned amid mass demonstrations and violence. Argentina went through several presidents in a matter of days before Eduardo Duhalde took office.\n- **Currency collapse and inflation:** In 2002, the government abandoned the peso’s one-to-one peg to the U.S. dollar. The peso fell sharply, savings and incomes lost value, and inflation rose.\n- **Deepening poverty and unemployment:** The crisis pushed millions into poverty, while unemployment and underemployment soared. Many households lost savings, jobs, or access to cash and credit.\n- **Social consequences:** Protests, *cacerolazos* (street demonstrations in which people banged pots and pans), barter networks, and neighborhood and worker-run initiatives became prominent. The crisis also weakened confidence in political institutions and banks.\n- **Recovery, with lasting costs:** Economic growth returned from 2003, aided by a cheaper currency, stronger exports, and improved conditions for some industries. But the recovery did not erase the crisis’s social damage, and disputes over debt, inflation, and economic policy continued for years.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 346,
+  "total_tokens": 365,
+  "cost": 0.0001749,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001749,
+   "upstream_inference_prompt_cost": 1.9e-06,
+   "upstream_inference_completions_cost": 0.000173
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 34,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:58.703798+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

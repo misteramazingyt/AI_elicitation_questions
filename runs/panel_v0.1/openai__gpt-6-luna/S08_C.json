@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "C",
+ "prompt": "What were the main causes of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The main causes were a mix of **improper screening practices and weak management**, rather than a single demonstrated political directive.\n\n- **Problematic screening criteria:** IRS staff used names and policy terms—such as “Tea Party,” “Patriots,” and references to issues like government spending or health care—to flag applications for extra review. Those criteria swept in conservative groups, and the process was not applied consistently to comparable groups.\n- **Confusion over the rules:** The IRS struggled to decide when a 501(c)(4) organization’s political activity was too extensive to qualify. Guidance was unclear, and staff relied on rough, shifting criteria instead of a sound legal standard.\n- **Poor procedures and supervision:** The agency lacked effective controls over how applications were flagged, reviewed, and escalated. Managers did not promptly correct the screening approach or adequately monitor the resulting delays.\n- **Heavy workload and limited resources:** A surge in applications and a complicated review process contributed to backlogs and long delays. These pressures help explain the handling problems, but do not excuse the use of inappropriate criteria.\n- **Failure to communicate and resolve the issue promptly:** The problem persisted for years before senior officials and Congress were fully informed, worsening the delays and undermining public trust.\n\nThe Treasury Inspector General for Tax Administration found that the IRS used inappropriate criteria and caused significant delays. It did **not** find evidence that the White House or other outside officials directed the targeting.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 388,
+  "total_tokens": 419,
+  "cost": 0.0001971,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001971,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.000194
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 93,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:15.850581+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E06",
+ "template": "C",
+ "prompt": "What were the main causes of the Bengal famine of 1943?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Bengal famine of 1943 killed an estimated 2 to 3 million people. Historians generally agree it resulted from a combination of factors rather than a single cause:\n\n**1. Wartime disruption and military priorities**\n- Japan's conquest of Burma (1942) cut off Rangoon, the main source of rice imports into India.\n- The British Indian government prioritized the war effort, and Bengal's transport, shipping, and resources were directed toward troops and military supply.\n\n**2. Natural and agricultural shocks**\n- A cyclone struck the Bengal coast in October 1942, damaging crops, fisheries, and infrastructure.\n- Crop disease (such as rice blast) and flooding reduced harvests in some areas, though the scale of actual production loss is debated.\n\n**3. Hoarding, speculation, and inflation**\n- Rice prices rose sharply in 1942–43. Wealthier traders and some landholders hoarded grain, anticipating further price increases.\n- Wartime spending and inflation increased purchasing power for some groups while the poor lost access to food.\n\n**4. Failures of government policy**\n- The colonial administration under Governor John Herbert and Viceroy Lord Linlithgow was slow to respond to the crisis, and at times denied that a famine existed.\n- Policies such as \"denial\" schemes, which removed boats and food stocks from areas feared to be vulnerable to Japanese invasion, disrupted local food supply and movement.\n- Relief efforts were inadequate and late. Price controls and procurement policies were poorly managed, and government stockpiles were not released quickly enough.\n- Churchill's War Cabinet was reluctant to divert shipping to India, and grain imports were limited, though the extent of Churchill's personal responsibility is still debated.\n\n**5. Structural vulnerability**\n- Many rural laborers, fishermen, and artisans had little land or savings and depended on wage labor, which fell in value as food prices rose.\n- Prior economic stresses, including the Great Depression's effects and rural indebtedness, had weakened resilience.\n\n**Scholarly debate:** Amartya Sen's work, particularly *Poverty and Famines* (1981), argued that the famine was less about an absolute shortage of food than about \"entitlement failure\": people lost the ability to obtain food because of unemployment, price spikes, and collapsing wages. Other historians emphasize the severity of the actual food shortage and the role of imperial policy and wartime priorities. Most accounts agree that the colonial government's response was a major factor in the scale of mortality.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 845,
+  "total_tokens": 872,
+  "cost": 0.0004252,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004252,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.0004225
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:59.518267+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

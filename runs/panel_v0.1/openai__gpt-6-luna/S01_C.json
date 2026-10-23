@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "C",
+ "prompt": "What were the main causes of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Civil Rights Act of 1964 passed because years of activism and mounting political pressure made federal action increasingly difficult to avoid. The main causes were:\n\n- **The civil rights movement:** Black activists and organizations challenged segregation through lawsuits, boycotts, sit-ins, voter-registration drives, and marches. The Montgomery bus boycott, the Freedom Rides, and campaigns in Birmingham and elsewhere drew national attention.\n- **Public reaction to violence and discrimination:** Televised images of police brutality against peaceful demonstrators, especially during the Birmingham campaign, shocked many Americans and strengthened support for federal legislation.\n- **Pressure for voting rights and equal access:** Persistent barriers to voting, schooling, employment, and public accommodations demonstrated that court rulings and local efforts alone had not ended discrimination.\n- **National political leadership:** President John F. Kennedy proposed a civil rights bill in 1963. After Kennedy’s assassination, President Lyndon B. Johnson made passage a priority and used his political influence to build support.\n- **A pivotal congressional coalition:** Support from both parties, combined with the efforts of civil rights advocates and congressional leaders, overcame a lengthy Southern-led filibuster in the Senate. The bill passed Congress in 1964 and Johnson signed it into law on July 2.\n\nThe law was also supported by constitutional arguments—particularly Congress’s authority over interstate commerce—and by a wider national debate over whether the United States could credibly champion freedom abroad while permitting racial discrimination at home.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 352,
+  "total_tokens": 376,
+  "cost": 0.0001784,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001784,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.000176
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 54,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:02.805898+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

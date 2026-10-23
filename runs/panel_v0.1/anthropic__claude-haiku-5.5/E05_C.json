@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "C",
+ "prompt": "What were the main causes of the famine during China's Great Leap Forward (1959-1961)?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Great Leap Forward famine (roughly 1959–1961), which killed an estimated 15 to 45 million people (most scholarly estimates cluster around 30 million), resulted from a combination of policy failures, political pressures, and structural problems. The main causes include:\n\n**1. Collectivization and the commune system**\n- By late 1958, nearly all rural households had been merged into People's Communes, which pooled land, tools, and labor.\n- Communal kitchens, decentralized management, and the disruption of traditional farming incentives reduced productivity and weakened household-level motivation to produce and store food.\n\n**2. Unrealistic production targets and exaggerated reports**\n- Local officials competed to report ever-higher grain yields to please superiors, who in turn set procurement quotas based on those inflated figures.\n- Reports of \"grain miracles\" (e.g., claims of several-fold yield increases) led Beijing to believe surpluses existed, so state procurement remained high even as harvests fell.\n\n**3. Excessive state grain procurement**\n- The state continued to requisition large shares of harvests, sometimes 30–40% or more, to fund urban industrialization and exports (partly to pay for Soviet debt repayment and imports of industrial equipment).\n- Grain was often taken even from areas where people were already short of food, leaving peasants with little or nothing.\n\n**4. Agricultural disruption from the Leap itself**\n- Deep plowing, close planting, and neglect of normal agricultural cycles reduced yields.\n- Labor was diverted to backyard steel furnaces and large infrastructure projects, leaving fields understaffed at critical times.\n- Poor weather in some years (flooding and drought in parts of the country) compounded the damage, though most historians see policy as the dominant cause rather than natural disaster alone.\n\n**5. Suppression of information and dissent**\n- Officials who reported shortages or resisted quotas risked being labeled \"rightists\" (especially after the Lushan Plenum in 1959, when Peng Dehuai's criticism was crushed).\n- This created a feedback failure: Mao and central leaders often did not learn the true scale of the crisis until it was extreme.\n- Local cadres sometimes concealed deaths and hoarded grain to avoid blame.\n\n**6. Restrictions on movement and food distribution**\n- The hukou system and local controls prevented many peasants from leaving stricken areas to seek food.\n- Grain was sometimes withheld from regions deemed politically unreliable, and in some places local cadres used food as a means of control.\n\n**7. Ideological commitment and political incentives**\n- Mao's drive to surpass Britain in steel and other industries and to achieve rapid communism encouraged voluntarism over economic realism.\n- Expertise and cautious advice were discounted, and campaigns against \"conservatism\" punished those who questioned the program.\n\n**Historiographical note:** Scholars such as Frank Dikötter emphasize the deliberate and coercive nature of many policies and the violence used against peasants, while others (e.g., Yang Jisheng, Cormac Ó Gráda, and Felix Wemheuer) stress the interplay of ideology, bureaucratic incentives, and information failure. Most agree that the famine was man-made in the sense that policy decisions were decisive, even if debate continues over the relative weight of intent versus incompetence.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 1106,
+  "total_tokens": 1143,
+  "cost": 0.0005567,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005567,
+   "upstream_inference_prompt_cost": 3.7e-06,
+   "upstream_inference_completions_cost": 0.000553
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:58.108599+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

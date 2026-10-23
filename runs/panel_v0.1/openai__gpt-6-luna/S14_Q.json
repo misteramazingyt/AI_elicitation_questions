@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "Q",
+ "prompt": "What were the consequences of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Britain’s abolition came in stages: the **Slave Trade Act of 1807** outlawed British participation in the Atlantic slave trade, while the **Slavery Abolition Act of 1833** ended slavery in most British colonies from **1 August 1834**. Many formerly enslaved people were then forced into an “apprenticeship” system; it was ended early in 1838.\n\nThe consequences included:\n\n- **The trade was suppressed, but not stopped immediately.** The Royal Navy’s West Africa Squadron and treaties with other powers helped intercept slave ships. British pressure contributed to the wider international abolition of the trade, though illegal trafficking continued for decades.\n- **Millions of people in British colonies gained legal freedom—but not equal rights or security.** Emancipation ended their legal status as property, yet former enslavers retained much of their land and political power. Apprenticeship compelled many people to keep working for former owners, and coercive labour systems and racial discrimination persisted after 1838.\n- **Plantation economies were disrupted and reshaped.** Some plantation owners complained of labour shortages and falling output; others adapted by hiring workers or changing production. In the Caribbean, employers increasingly recruited indentured labourers from India and elsewhere, often under harsh conditions.\n- **Slave owners received compensation, not the formerly enslaved.** The British government paid £20 million to compensate owners for the loss of their legally recognized property. The freed people received no comparable payment, land, or general programme of support. The compensation was financed through public borrowing, with taxpayers bearing the cost over time.\n- **Britain’s role in slavery changed, rather than simply disappearing.** The state used naval power and diplomacy to oppose the trade, while British merchants, investors and consumers remained connected to plantation-produced goods and to colonial systems built around coerced labour.\n\nOverall, abolition was a major legal and political transformation that helped end Britain’s direct participation in the slave trade and slavery in most of its empire. But freedom was limited by apprenticeship, economic dependence, racial inequality and the failure to redistribute land or wealth; abolition did not by itself dismantle the wider systems of exploitation that slavery had created.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 518,
+  "total_tokens": 544,
+  "cost": 0.0002616,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002616,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.000259
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 71,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:25.188781+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

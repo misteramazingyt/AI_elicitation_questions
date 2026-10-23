@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "D",
+ "prompt": "Describe the famine during China's Great Leap Forward (1959-1961).",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Great Chinese Famine (1959–1961) was one of the deadliest famines in recorded history, killing an estimated 15 to 45 million people, with most scholarly estimates falling around 30 million. It occurred in the aftermath of the Great Leap Forward, the Chinese Communist Party's campaign under Mao Zedong to rapidly transform China from an agrarian society into a industrialized, collectivized socialist state.\n\n**Causes**\n\n- **Collectivization:** Peasants were organized into large communes, often comprising thousands of households. Private land, tools, and livestock were pooled, and households lost much of their autonomy over labor and food.\n- **Unrealistic targets:** Local officials, competing for favor, reported inflated grain yields and steel production. Based on these falsified figures, the state set high procurement quotas, requiring communes to hand over large shares of their harvest to urban areas and export markets.\n- **Backyard furnaces:** Peasants were pulled from farm work to produce steel in crude backyard furnaces, often with poor results. Crops rotted in fields as labor was diverted, and tools and cooking implements were melted down.\n- **Ideological pressure:** Criticism of excessive grain requisitioning was suppressed. In 1959, at the Lushan Conference, Peng Dehuai, who had privately warned of the problems, was purged after Mao denounced him, which silenced internal dissent.\n- **Poor policies:** Deep plowing, close planting, and other practices promoted by ideology reduced yields, and natural disasters, including floods and droughts in some regions, worsened conditions.\n\n**Consequences**\n\n- **Mass starvation:** Food was scarce, and in many provinces, especially Sichuan, Anhui, Gansu, Henan, and Guizhou, villages were devastated. Famine deaths resulted from starvation, malnutrition-related diseases, and exhaustion.\n- **Local cannibalism:** Documented cases of cannibalism occurred in some areas, as recorded in archives and survivor accounts.\n- **Suppression of information:** Local officials often concealed deaths and continued to report surpluses, while the central government was slow to respond. Grain exports continued in some periods, and relief was limited.\n- **Social breakdown:** Families were torn apart, and punishment for hoarding or \"stealing\" food, even gleaning grain, was harsh. Forced labor and violence were widespread.\n- **Demographic impact:** The famine caused a sharp drop in birth rates and a large population deficit, and its effects were felt for decades.\n\n**Aftermath**\n\nPolicies were partially reversed in 1961 under moderates such as Liu Shaoqi and Deng Xiaoping, who restored some private plots and household production. Mao's authority was temporarily weakened, though he later launched the Cultural Revolution in 1966. The famine is now widely regarded by historians as a man-made disaster resulting from ideological fervor, bureaucratic incentives to lie, and policies that ignored economic reality.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 998,
+  "total_tokens": 1030,
+  "cost": 0.0005022,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005022,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.000499
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:57.906790+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

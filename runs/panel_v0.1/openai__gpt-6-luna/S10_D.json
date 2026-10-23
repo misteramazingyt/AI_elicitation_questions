@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "In **Dobbs v. Jackson Women’s Health Organization**, decided on June 24, 2022, the U.S. Supreme Court upheld Mississippi’s law banning most abortions after 15 weeks of pregnancy.\n\nIn a 6–3 opinion written by Justice Samuel Alito, the Court held that the U.S. Constitution does not confer a right to abortion. It overruled **Roe v. Wade** (1973) and **Planned Parenthood v. Casey** (1992), which had protected abortion rights and limited when states could prohibit abortion. The majority concluded that abortion regulation should be left to elected lawmakers at the state and federal levels.\n\nThe decision removed the federal constitutional protection for abortion that had applied under Roe and Casey. It did **not** itself impose a nationwide abortion ban; instead, it allowed states to regulate or prohibit abortion subject to other applicable legal constraints. Three justices dissented, arguing that the ruling discarded a long-standing constitutional liberty and would have serious consequences for women and pregnant people.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 307,
+  "total_tokens": 332,
+  "cost": 0.000156,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000156,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.0001535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 95,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:18.653768+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

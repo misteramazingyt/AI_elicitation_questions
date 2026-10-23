@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "C",
+ "prompt": "What were the main causes of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Civil Rights Act of 1964 resulted from a convergence of several factors:\n\n**1. The Civil Rights Movement itself**\nDecades of activism by African Americans and their allies drove the push for legislation. Key campaigns included the Montgomery Bus Boycott (1955-56), sit-ins at lunch counters (beginning 1960), the Freedom Rides (1961), and the Birmingham campaign (1963). Organizations such as the NAACP, SCLC, SNCC, and CORE mobilized mass protest and nonviolent direct action.\n\n**2. Televised violence and public outrage**\nBrutal responses to peaceful protesters, broadcast on national television, shifted public opinion. Images of police using fire hoses and attack dogs on demonstrators in Birmingham in May 1963 were especially influential, as was violence against Freedom Riders and the murders of civil rights workers such as Medgar Evers (June 1963) and the three workers in Mississippi in the \"Freedom Summer\" of 1964.\n\n**3. Presidential leadership and political circumstances**\nPresident John F. Kennedy proposed civil rights legislation in June 1963 after the Birmingham crisis, and he framed it as a moral issue. After Kennedy's assassination in November 1963, President Lyndon B. Johnson made passage a priority, invoking Kennedy's memory and using his legislative skill to build support in Congress.\n\n**4. The March on Washington (August 1963)**\nThe massive march, which drew roughly 250,000 people and featured Martin Luther King Jr.'s \"I Have a Dream\" speech, demonstrated broad public support and pressured lawmakers.\n\n**5. Congressional dynamics**\nSouthern Democrats and Republicans had long blocked civil rights bills through filibusters and procedural maneuvers. The House passed the bill in February 1964, and Senate supporters, including Republican Everett Dirksen, helped break a lengthy filibuster in June 1964 through cloture, a rare achievement at the time. Bipartisan coalitions were essential to its success.\n\n**6. Economic and Cold War considerations**\nRacial discrimination damaged America's international image during the Cold War, as the Soviet Union used it in propaganda. Business leaders also increasingly saw segregation as an obstacle to economic growth and social stability.\n\n**7. Legal and moral momentum**\nEarlier Supreme Court decisions, especially *Brown v. Board of Education* (1954), and the 1957 and 1960 Civil Rights Acts had already expanded federal involvement, building precedent and public acceptance of federal action.\n\nTogether, these factors created the political will to pass a law that outlawed discrimination based on race, color, religion, sex, or national origin in public accommodations, employment, and federally funded programs.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 922,
+  "total_tokens": 955,
+  "cost": 0.0004643,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004643,
+   "upstream_inference_prompt_cost": 3.3e-06,
+   "upstream_inference_completions_cost": 0.000461
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:18.325442+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

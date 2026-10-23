@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "H",
+ "prompt": "How have historians interpreted the invention of the movable-type printing press in Europe? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally treat Europe’s movable-type press not as a single isolated “eureka” moment, but as a major technological innovation whose effects depended on the institutions, markets, and readers that developed around it. Gutenberg’s workshop in Mainz produced printed books by the 1450s; the press combined movable metal type with other technologies and materials, including paper and oil-based ink.\n\nSeveral influential interpretations shape the debate:\n\n- **A communications revolution.** Elizabeth Eisenstein argued that print transformed European intellectual life by making texts more reproducible and widely available. In her account, printing helped stabilize texts, preserve knowledge, and support the exchange and comparison of ideas—developments important to the Renaissance, Reformation, and Scientific Revolution. She stressed the press’s long-term effects rather than claiming it caused any one event by itself (Eisenstein, *The Printing Press as an Agent of Change*, 1979).\n\n- **A change made by people and institutions, not by technology alone.** Adrian Johns challenged the idea that printing automatically produced reliable, standardized texts. Printed books could contain errors, and their authority had to be established through the work of printers, authors, booksellers, and readers. From this perspective, “print culture” was something people built and negotiated, not an automatic consequence of the machine (Johns, *The Nature of the Book*, 1998).\n\n- **Gradual change and coexistence with manuscript culture.** Historians have emphasized that print did not instantly replace handwritten books. Manuscripts and printed works circulated alongside one another for centuries, and early printers often imitated manuscript layouts and conventions. The transition was uneven, varying by place, subject, and readership (Febvre and Martin, *The Coming of the Book*, English trans. 1976; McKitterick, *Print, Manuscript and the Search for Order, 1450–1830*, 2003).\n\n- **Commercial and social context.** Recent accounts put printers’ businesses, distribution networks, and readers at the center. Print expanded the scale of book production, but its reach depended on demand, literacy, trade, and access to institutions such as schools and churches. It could spread ideas, but it could also serve established authorities and commercial interests (Pettegree, *The Book in the Renaissance*, 2010).\n\n- **A European innovation with a wider global background.** Historians distinguish Gutenberg’s European printing system from earlier printing technologies in East Asia. Woodblock printing and forms of movable type existed in China and Korea before Gutenberg. Their existence complicates claims that printing was invented in Europe in an absolute sense, though historians generally discuss Gutenberg’s press as a distinct European development; direct transmission to Gutenberg’s workshop has not been established (Tsien, *Science and Civilisation in China*, vol. 5, part 1, 1985).\n\n**In short:** the press is often seen as a powerful catalyst, but historians disagree about how directly it caused Europe’s major cultural changes. Eisenstein emphasizes its transformative capacity; Johns and other contextual historians stress that its effects were gradual, contested, and shaped by human practices and institutions.\n\n**Selected sources**\n\n- Eisenstein, Elizabeth L. *The Printing Press as an Agent of Change: Communications and Cultural Transformations in Early-Modern Europe*. 2 vols. Cambridge University Press, 1979.\n- Febvre, Lucien, and Henri-Jean Martin. *The Coming of the Book: The Impact of Printing, 1450–1800*. Translated by David Gerard. Verso, 1976.\n- Johns, Adrian. *The Nature of the Book: Print and Knowledge in the Making*. University of Chicago Press, 1998.\n- McKitterick, David. *Print, Manuscript and the Search for Order, 1450–1830*. Cambridge University Press, 2003.\n- Pettegree, Andrew. *The Book in the Renaissance*. Yale University Press, 2010.\n- Tsien, Tsuen-Hsuin. *Paper and Printing*. *Science and Civilisation in China*, vol. 5, part 1. Cambridge University Press, 1985.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1316,
+  "total_tokens": 1341,
+  "cost": 0.0006605,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006605,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.000658
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 460,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:45.776052+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

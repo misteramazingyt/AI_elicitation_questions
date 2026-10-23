@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "H",
+ "prompt": "How have historians interpreted the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians have not settled on a single interpretation of *Dobbs*. The main divide is over whether the decision is best understood as a return to older abortion law, a culmination of a modern political movement, or a major break in the history of constitutional rights. Much of the scholarship is still developing, and some of the most-cited contributors are legal historians rather than historians working in history departments.\n\n**1. The majority’s history is contested.** In *Dobbs*, the Court argued that abortion was not a right “deeply rooted” in the nation’s history and tradition, and that the Fourteenth Amendment therefore did not protect it. Historians of abortion have challenged the impression that the ruling simply restores an unchanging historical rule. James C. Mohr’s *Abortion in America* traces how abortion was understood and regulated in the nineteenth century; Leslie J. Reagan’s *When Abortion Was a Crime* shows how criminalization developed and was enforced. Their work emphasizes that law and practice changed over time—and that historical categories do not map neatly onto the modern legal question of a constitutional right. (Mohr, *Abortion in America* [Oxford University Press, 1978]; Reagan, *When Abortion Was a Crime* [University of California Press, 1997].)\n\n**2. It is also seen as the product of modern politics, not just an ancient tradition revived.** Mary Ziegler, a legal historian, has traced the changing coalitions, strategies, and arguments behind the abortion debate. Her histories place *Dobbs* in a long political struggle over the meaning of *Roe v. Wade*, rather than treating it as the inevitable outcome of a timeless consensus about abortion. Her post-*Dobbs* account stresses that overturning *Roe* did not end that struggle; it shifted it into state legislatures, courts, elections, and disputes over access across state lines. (Ziegler, *Roe: The History of a National Obsession* [Yale University Press, 2023]; *After Roe: The Lost History of the Abortion Debate* [Harvard University Press, 2015].)\n\n**3. The ruling is interpreted as a turning point in the history of constitutional rights and the Court.** Because *Dobbs* overturned nearly fifty years of national precedent, historians and legal historians have treated it as more than a change in abortion policy: it raises questions about how the Court uses history to define rights, and how durable constitutional protections are when the Court’s membership changes. Reva B. Siegel’s historical work on abortion regulation is useful here: it connects changing legal rules to broader disputes about gender equality and the role of the state, rather than treating abortion law as a purely technical matter. (Siegel, “Reasoning from the Body: A Historical Perspective on Abortion Regulation and Questions of Equal Protection,” *Stanford Law Review* 44, no. 2 [1992]: 261–381.)\n\n**4. “Returning the issue to the states” is not the same as restoring a settled past.** A federalist reading emphasizes that *Dobbs* removed the federal constitutional protection recognized in *Roe* and *Planned Parenthood v. Casey*. But the resulting landscape is not a simple replay of an earlier era: modern medicine, national political organizations, medication abortion, and interstate travel create conditions that earlier abortion laws did not address. Reagan’s history of how criminal abortion laws operated, and Ziegler’s account of the post-*Roe* political debate, help explain why historians see the new state-by-state regime as a new phase, not merely a return to the past.\n\nIn short, historians commonly place *Dobbs* at the intersection of **contested historical claims, a decades-long political campaign, and a major change in constitutional law**. They are particularly wary of treating the decision’s account of history as a neutral description of an unchanging tradition. **Key sources:** James C. Mohr, *Abortion in America* (1978); Leslie J. Reagan, *When Abortion Was a Crime* (1997); Reva B. Siegel, “Reasoning from the Body” (1992); Mary Ziegler, *After Roe* (2015) and *Roe* (2023); *Dobbs v. Jackson Women’s Health Organization*, 597 U.S. 215 (2022).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1676,
+  "total_tokens": 1708,
+  "cost": 0.0008412,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008412,
+   "upstream_inference_prompt_cost": 3.2e-06,
+   "upstream_inference_completions_cost": 0.000838
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 766,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:19.597245+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

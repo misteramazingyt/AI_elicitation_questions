@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "C",
+ "prompt": "What were the main causes of the 1994 U.S. crime bill?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 1994 Violent Crime Control and Law Enforcement Act grew out of several forces:\n\n- **Public concern about crime:** Violent crime had risen substantially through the 1980s and reached a high point around 1991. The crack-cocaine era and highly publicized violence intensified fears, even though crime was beginning to decline by the time the law passed.\n- **Electoral pressure:** Crime was a major political issue. Democrats, including President Bill Clinton, sought to show they were as committed to public safety as Republicans, who had long emphasized “tough on crime” policies.\n- **A longer shift toward tougher criminal-justice policy:** Earlier federal and state laws had expanded penalties and incarceration. The 1994 bill continued that trend, while also responding to calls for more police and crime-prevention resources.\n- **A bipartisan coalition:** Law-enforcement groups, victims’ advocates, and politicians from both parties supported major parts of the bill. Its broad package combined funding for police and prevention with stricter sentencing, expanded federal death-penalty provisions, and a temporary federal assault-weapons ban.\n\nSo the bill was not caused by crime statistics alone. It reflected real public anxiety, political competition, and a decades-long move toward more punitive crime policy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 445,
+  "total_tokens": 467,
+  "cost": 0.0002247,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002247,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0002225
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 185,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:35.508927+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

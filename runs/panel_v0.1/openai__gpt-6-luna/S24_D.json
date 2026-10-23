@@ -1,0 +1,43 @@
+{
+ "item": "S24",
+ "template": "D",
+ "prompt": "Describe the January 6, 2021 attack on the U.S. Capitol.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "On January 6, 2021, a violent crowd of supporters of then-President Donald Trump breached the U.S. Capitol in Washington, D.C., as Congress met to count and certify the Electoral College votes confirming Joe Biden’s victory in the 2020 presidential election.\n\nTrump had repeatedly made false claims that the election was stolen. Earlier that day, he spoke at a rally near the White House and urged supporters to go to the Capitol. Some people in the crowd then forced their way past police barriers and into the building. They smashed windows and doors, assaulted officers, and entered the Senate chamber and lawmakers’ offices. Members of Congress and Vice President Mike Pence were evacuated or sheltered while police worked to secure the building.\n\nCongress reconvened that evening and completed the certification early on January 7. More than 140 police officers were injured. One attendee, Ashli Babbitt, was fatally shot by a Capitol Police officer; several other people died that day from medical emergencies. Capitol Police officer Brian Sicknick died the following day after suffering strokes. The medical examiner classified his death as natural, though he had been involved in the response to the attack. Several officers later died by suicide.\n\nThe attack led to a second impeachment of Trump, numerous criminal prosecutions, and a congressional investigation. Courts and election officials had found no evidence supporting claims of widespread fraud sufficient to change the election result.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 398,
+  "total_tokens": 421,
+  "cost": 0.0002013,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002013,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.000199
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 111,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:42.575353+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

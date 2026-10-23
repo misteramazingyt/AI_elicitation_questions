@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "D",
+ "prompt": "Describe the 1969 Stonewall riots.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **Stonewall riots** were a series of protests and clashes between LGBTQ+ people and police in New York City in June 1969.\n\nIn the early hours of **June 28**, police raided the **Stonewall Inn**, a gay bar in Greenwich Village. Such raids were common, and LGBTQ+ people faced widespread harassment and discrimination. This time, patrons and people gathered outside resisted rather than dispersing. Protests and confrontations continued for several nights, drawing crowds from the neighborhood.\n\nStonewall did not begin the LGBTQ+ rights movement, which already had organized groups and activism. But it became a powerful turning point and symbol of more open, militant resistance. The following year, marches marking the anniversary helped establish the tradition that became **Pride**. Accounts differ about exactly who sparked the resistance; many people contributed, and later retellings have sometimes overstated the role of any one individual.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 241,
+  "total_tokens": 256,
+  "cost": 0.000122,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000122,
+   "upstream_inference_prompt_cost": 1.5e-06,
+   "upstream_inference_completions_cost": 0.0001205
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 52,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:19.917348+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

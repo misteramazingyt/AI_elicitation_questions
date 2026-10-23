@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "H",
+ "prompt": "How have historians interpreted the Immigration Act of 1924? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally interpret the **Immigration Act of 1924**, or Johnson–Reed Act, as more than a numerical limit on immigration. It was also an effort to define who could belong to the United States—by race, national origin, and presumed capacity for assimilation. The emphasis varies: some historians stress nativism and eugenics; others focus on how the law built new systems of racial classification and immigration control.\n\n### A culmination of nativism and restriction\n\nJohn Higham’s influential *Strangers in the Land* treats the law as the high point of a long nativist campaign. After World War I, restrictionists argued that immigrants from southern and eastern Europe threatened American institutions and social cohesion. The Act’s quotas—generally limiting each nationality to 2 percent of the number of people of that nationality recorded in the United States in the 1890 census—favored immigration from northern and western Europe by drawing on a census taken before large-scale immigration from southern and eastern Europe. In this interpretation, the law translated cultural prejudice into national policy (Higham, *Strangers in the Land*, 1955; rev. ed. 2002).\n\nHistorians also connect this restrictionism to eugenics and racial theories that ranked populations by supposed hereditary qualities. The law’s supporters used arguments about “desirable” and “undesirable” immigrants to give racial and ethnic preferences the appearance of scientific or administrative judgment. Mae Ngai, among others, shows how such classifications helped make race and nationality central to federal immigration policy (Ngai, *Impossible Subjects*, 2004).\n\n### A racial and legal boundary-making project\n\nNgai interprets the Act as part of the creation of a modern immigration regime that sorted people into legal categories—admissible and inadmissible, citizen and alien, legal and “illegal.” She emphasizes that the law did not simply reduce immigration: it reshaped the meaning and consequences of immigration status, while enforcement and border control expanded. In this account, the Act helped make “illegal alien” a consequential category in American law and politics.\n\nThe law’s racial boundaries were especially stark in its treatment of Asia. It barred immigration by people deemed ineligible for citizenship, extending Asian exclusion, and specifically ended Japanese immigration under the existing diplomatic arrangement. Erika Lee places this policy in the longer history of exclusion and racialized immigration control, emphasizing that Asian immigrants faced restrictions not imposed in the same way on Europeans (Lee, *At America’s Gates*, 2003; *America for Americans*, 2019).\n\n### A political compromise, not a uniform closure of the country\n\nOther historians stress the political coalitions and institutional decisions behind the Act. Daniel Tichenor’s account of immigration policy shows restriction emerging from conflicts among lawmakers, employers, labor groups, and organized nativists—not simply from a single, coherent national consensus (Tichenor, *Dividing Lines*, 2002). Aristide Zolberg likewise treats immigration law as a product of state-building and political bargaining, as well as of changing ideas about national identity (Zolberg, *A Nation by Design*, 2006).\n\nThat perspective draws attention to the law’s unevenness. The Act sharply restricted immigration from Europe and excluded most immigration from Asia, but it did **not** impose the same national-origin quotas on immigrants from the Western Hemisphere. This reflected, among other things, employers’ demand for Mexican labor. Thus, historians often describe the law as racially selective rather than as a simple, comprehensive closure of the United States.\n\n### In sum\n\nA useful synthesis is that historians see the 1924 Act as **nativist restriction made durable through law and bureaucracy**. It favored some European origins over others, imposed an especially severe boundary against Asian immigration, and helped expand federal power to classify and police migration. But its effects were selective: the categories and exceptions reflected political bargaining and labor demand as well as racial ideology.\n\n**Selected sources**\n\n- Higham, John. *Strangers in the Land: Patterns of American Nativism, 1860–1925*. 1955; rev. ed., Rutgers University Press, 2002.\n- Lee, Erika. *At America’s Gates: Chinese Immigration during the Exclusion Era, 1882–1943*. University of North Carolina Press, 2003.\n- Lee, Erika. *America for Americans: A History of Xenophobia in the United States*. Basic Books, 2019.\n- Ngai, Mae M. *Impossible Subjects: Illegal Aliens and the Making of Modern America*. Princeton University Press, 2004.\n- Tichenor, Daniel J. *Dividing Lines: The Politics of Immigration Control in America*. Princeton University Press, 2002.\n- Zolberg, Aristide R. *A Nation by Design: Immigration Policy in the Fashioning of America*. Harvard University Press, 2006.\n- For the text of the law: Immigration Act of 1924, Pub. L. No. 68-139, 43 Stat. 153.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 1549,
+  "total_tokens": 1571,
+  "cost": 0.0007767,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007767,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0007745
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 508,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:38.908149+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

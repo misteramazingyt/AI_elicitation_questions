@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "Q",
+ "prompt": "What were the consequences of McCarthyism in the 1950s?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "McCarthyism—the campaign of investigations and accusations aimed at alleged communist influence in the United States—had consequences well beyond Senator Joseph McCarthy himself:\n\n- **Civil liberties were weakened.** People were investigated, questioned, or pressured to name associates, often with little reliable evidence. Fear of being labeled disloyal chilled speech and political activity.\n- **Careers and reputations were damaged.** Government employees, teachers, union members, and people in entertainment and other fields lost jobs or were effectively barred from work. Hollywood blacklists were a prominent example.\n- **Political debate narrowed.** People and organizations avoided discussing controversial ideas or supporting causes that might attract suspicion. This helped marginalize left-wing politics and labor activism.\n- **Public institutions were affected.** Loyalty investigations and security screenings spread through government and other workplaces, sometimes encouraging conformity and rewarding accusations over proof.\n- **Foreign policy and public life became more polarized.** Anticommunist suspicion shaped debate during the Cold War and was sometimes used to discredit political opponents.\n- **McCarthy’s influence eventually declined.** The Senate censured him in 1954 after televised hearings exposed his methods, but the wider climate of suspicion and the damage to many people lasted longer.\n\nIn short, McCarthyism intensified Cold War fears while inflicting serious personal and professional harm and putting pressure on democratic freedoms.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 332,
+  "total_tokens": 353,
+  "cost": 0.0001681,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001681,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.000166
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 54,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:07.440027+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

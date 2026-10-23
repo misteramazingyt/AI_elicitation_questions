@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "H",
+ "prompt": "How have historians interpreted the Immigration and Nationality Act of 1965? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally regard the Immigration and Nationality Act of 1965—often called the Hart–Celler Act—as a major break with explicitly racialized immigration policy. They disagree, however, about whether to emphasize its civil-rights aims, the political compromises behind it, or the far-reaching effects that followed.\n\n**A civil-rights and antiracist reform.** The act abolished the national-origins quota system, which had heavily favored immigration from northern and western Europe and sharply restricted many other groups. Historians of Asian American history treat its passage as part of the broader dismantling of racial exclusion. Erika Lee, for example, describes the law as a turning point in Asian American history: it ended a system built to exclude Asians, while opening new routes to immigration. But it did not erase racial inequality from immigration policy altogether; it replaced one system with preferences and limits that continued to shape who could enter. (Lee, *The Making of Asian America*, 2015.)\n\n**A product of Cold War liberalism and political compromise.** Other historians stress the international and domestic politics that made reform possible. The old quota system was increasingly embarrassing to the United States as it presented itself as a leader of the “free world” during decolonization and the Cold War. Daniel Tichenor shows how civil-rights arguments, ethnic-group activism, labor interests, and competing political coalitions all shaped the legislation. On this account, the law was not simply the inevitable application of egalitarian principle: it emerged from a negotiated political settlement, including assurances that immigration would not rise dramatically. (Tichenor, *Dividing Lines*, 2002; see also Zolberg, *A Nation by Design*, 2006.)\n\n**A reform with consequences its sponsors did not fully anticipate.** The law gave preference to family reunification and, to a lesser extent, occupational skills. Many historians argue that lawmakers expected these rules to change the system without greatly changing the overall scale or composition of immigration. In practice, family preferences helped sustain migration through family networks, while the removal of national-origins quotas enabled immigration from Asia and other regions to grow substantially. Mae Ngai emphasizes the gap between the law’s reformist aims and the larger, sometimes contradictory effects of immigration policy. These consequences should not be reduced to the claim that the law alone “caused” later demographic change: economic change, refugee policy, later legislation, and migration networks mattered too. (Ngai, *Impossible Subjects*, 2004; Zolberg, *A Nation by Design*, 2006.)\n\n**Part of a longer, contested history of immigration control.** Historians also caution against treating 1965 as a clean break from government restriction. The act ended one explicitly discriminatory quota system but retained numerical limits and established new rules for admission. Subsequent amendments extended numerical limits to the Western Hemisphere, changing the context for migration from Mexico and other countries. Ngai and Tichenor therefore present the act both as a landmark of liberal reform and as one stage in the continuing development of federal immigration control.\n\n**In sum:** historians tend to see the act as a genuine civil-rights-era repudiation of national-origins discrimination, but not as a simple or complete end to racialized immigration policy. They also emphasize that its effects were shaped by political compromises, the law’s family-based preference system, and later policies—not just by the intentions of the lawmakers who passed it.\n\n**Selected sources**\n\n- Lee, Erika. *The Making of Asian America: A History*. Simon & Schuster, 2015.\n- Ngai, Mae M. *Impossible Subjects: Illegal Aliens and the Making of Modern America*. Princeton University Press, 2004.\n- Tichenor, Daniel J. *Dividing Lines: The Politics of Immigration Control in America*. Princeton University Press, 2002.\n- Zolberg, Aristide R. *A Nation by Design: Immigration Policy in the Fashioning of America*. Harvard University Press, 2006.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1585,
+  "total_tokens": 1610,
+  "cost": 0.000795,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000795,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.0007925
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 760,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:41.311463+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

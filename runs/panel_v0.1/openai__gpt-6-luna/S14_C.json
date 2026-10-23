@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Britain abolished the **slave trade in 1807** and slavery in most of its colonies under the **1833 Slavery Abolition Act**, which took effect in 1834. Enslaved people were then kept in an “apprenticeship” system until it ended in 1838. No single cause explains the change; several forces combined.\n\n- **Organized abolitionism and changing moral attitudes:** Quakers, evangelical Christians, and other campaigners built a sustained movement through pamphlets, petitions, boycotts, and parliamentary lobbying. Figures such as Thomas Clarkson and William Wilberforce became prominent, while Black writers and activists—including Olaudah Equiano and Ottobah Cugoano—challenged pro-slavery arguments with firsthand testimony. Mass petitioning made abolition a major public and political issue.\n\n- **Resistance by enslaved people:** Everyday resistance, escapes, maroon communities, and rebellions demonstrated that slavery depended on coercion and could not be maintained without conflict. The Haitian Revolution (1791–1804) had a major impact; later uprisings in Barbados (1816), Demerara (1823), and Jamaica (1831–32) intensified pressure for change. The Jamaican rebellion in particular helped make emancipation an urgent political question.\n\n- **Political change:** Abolitionists gained influence over decades, and the 1832 Reform Act altered the electorate and weakened some of the political power of the old colonial interest. The Whig government that followed passed the emancipation legislation. Political pressures also shaped its limits: slave owners received compensation, and apprenticeship was imposed as a compromise.\n\n- **Economic and imperial considerations:** Britain’s economy was changing, and some argued that free labor and free trade better suited a growing industrial economy. The profitability of plantation slavery, however, did not simply disappear, and historians debate how much economic change drove abolition. The government also had strategic and diplomatic reasons to present Britain as a leader against the slave trade, even as enforcement remained uneven.\n\nOverall, **abolition resulted from the interaction of campaigning, enslaved people’s resistance, shifting politics, and changing economic and imperial priorities**. The 1807 measure ended British participation in the legal transatlantic slave trade, not slavery itself; emancipation in 1833–38 came only after another generation of pressure and struggle.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 751,
+  "total_tokens": 778,
+  "cost": 0.0003782,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003782,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.0003755
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 273,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:24.967747+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

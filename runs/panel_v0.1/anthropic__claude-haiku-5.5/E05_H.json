@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "H",
+ "prompt": "How have historians interpreted the famine during China's Great Leap Forward (1959-1961)? Please cite sources.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Historians broadly agree that the famine of 1959-1961 killed tens of millions of people and that it was made far worse by state policy. They disagree about the death toll and about how much weight to give to weather, ideology, local cadre behavior, and central decision-making.\n\n**1. Death toll: demographic reconstruction**\n\nEstimates of excess deaths cluster around 30 to 45 million, though some estimates run higher.\n\n- **Ashton, Basil, Kenneth Hill, Alan Piazza, and Robin Zeitz, \"Famine in China, 1958–61,\" *Population and Development Review* 10(4), 1984.** This was among the first systematic demographic estimates, around 30 million excess deaths. It is the standard starting point for later work.\n- **Judith Banister, *China's Changing Population* (Stanford University Press, 1987).** Banister's reconstruction also supports figures near 30 million and is widely cited.\n- **Cao Shuji, *Zhongguo renkou shi* (History of Chinese Population), vol. 6 (Fudan University Press, 2005).** Cao, a Chinese demographer, gives a figure in the low 30 millions and offers detailed provincial analysis.\n\nBecause the Chinese government never published full data, these estimates rely on census comparisons, birth and death statistics, and provincial records.\n\n**2. Policy-centered interpretations**\n\nMany historians, especially those working with newly opened archives, argue that the famine resulted from specific policies and that central leaders knew or should have known what was happening.\n\n- **Yang Jisheng, *Tombstone: The Great Chinese Famine, 1958–1962*** (Chinese edition 2008; English edition ed. Stacy Mosher and Guo Jian, Farrar, Straus and Giroux, 2012). Yang, a former *Xinhua* journalist, draws on county and provincial documents and interviews. He estimates about 36 million deaths and argues that the famine was a man-made catastrophe produced by the Great Leap's exaggerated grain targets, procurement quotas, and the suppression of information.\n- **Frank Dikötter, *Mao's Great Famine: The History of China's Most Devastating Catastrophe, 1958–1962*** (Walker & Co./Bloomsbury, 2010). Dikötter uses regional archives and estimates at least 45 million deaths. He emphasizes deliberate violence against peasants, including confiscation of food and punishment of those who hid grain, and places more direct responsibility on Mao and the central leadership. Some specialists consider his death toll too high and his claims about intent contested.\n- **Jasper Becker, *Hungry Ghosts: China's Secret Famine* (John Murray, 1996).** An early, journalistic account that drew on interviews and helped bring the famine to Western attention.\n\n**3. Institutional and economic explanations**\n\nEconomists have tried to explain why the famine was so severe and so localized in its effects.\n\n- **Justin Yifu Lin, \"Collectivization and China's Agricultural Crisis in 1959–1961,\" *Journal of Political Economy* 98(6), 1990.** Lin argues that the collective farming system removed the incentives that normally allow farmers to respond to shortages, and that the withdrawal of the household-based system's flexibility turned a bad harvest into a famine.\n- **Xin Meng, Nancy Qian, and Pierre Yared, \"The Institutional Causes of China's Great Famine, 1959–1961,\" *Review of Economic Studies* 82(4), 2015.** This paper links mortality to the commune structure and to procurement policy, using county-level data to show how institutional features and political pressure shaped who starved.\n\n**4. Local politics and peasant experience**\n\nOther historians focus on how the famine unfolded in villages and how cadres, peasants, and local institutions interacted.\n\n- **Thomas P. Bernstein, \"Stalinism, Famine, and Chinese Peasants: Grain Procurement during the Great Leap Forward,\" *Theory and Society* 13(3), 1984.** Bernstein examines how grain procurement quotas were set and enforced, and how local officials responded to pressure from above.\n- **Ralph A. Thaxton Jr., *Catastrophe and Contention in Rural China: Mao's Great Leap Forward Famine and the Origins of Righteous Resistance in Da Fo Village* (Cambridge University Press, 2008).** Thaxton's detailed village study argues that the famine's causes lay in state extraction and cadre behavior, and that peasants' moral claims shaped later protest.\n\n**5. Political economy of information**\n\n- **Amartya Sen, \"Democracy as a Universal Value,\" *Journal of Democracy* 10(3), 1999, and *Development as Freedom* (Knopf, 1999).** Sen argues that the famine persisted because the authorities faced no independent press or electoral accountability that would have forced them to respond to starvation. He contrasts it with the absence of famine in functioning democracies. This argument is influential but has been debated, especially regarding whether the Chinese state had accurate information.\n\n**6. Collections and surveys**\n\n- **Roderick MacFarquhar, *The Origins of the Cultural Revolution, vol. 2: The Great Leap Forward, 1958–1960* (Columbia University Press/Oxford University Press, 1983).** A major political history of the Great Leap that treats the famine as the outcome of elite conflict and policy failure.\n- **Kimberley Manning and Felix Wemheuer, eds., *Eating Bitterness: New Perspectives on China's Great Leap Forward and Famine* (UBC Press, 2011).** A collection that brings together economic, social, and political approaches.\n- **Xun Zhou, ed., *The Great Famine in China, 1959–1961: A Documentary History* (Yale University Press, 2012).** A documentary collection useful for primary sources.\n\n**Official Chinese account**\n\nThe Chinese Communist Party's 1981 \"Resolution on Certain Questions in the History of Our Party\" acknowledged serious errors in the Great Leap. Official discourse for decades attributed the hardship to \"three years of natural disasters\" and to the withdrawal of Soviet aid. Historians largely reject the claim that weather alone explains the famine, though most accept that poor harvests and bad we",
+ "finish_reason": "length",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 4000,
+  "total_tokens": 4045,
+  "cost": 0.0020045,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0020045,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.002
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1896,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:59.275182+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

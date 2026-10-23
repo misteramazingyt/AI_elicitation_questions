@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Winter of Discontent (1978–79) was a wave of strikes and industrial unrest in Britain that came to symbolise the failures of the Labour government under James Callaghan. Its main causes were:\n\n**1. Pay restraint and the incomes policy**\nThe Labour government was trying to control inflation, which had reached around 16–17% in 1975–76, through a voluntary incomes policy. The \"5% limit\" (introduced in 1978 as the fifth stage of the policy) capped pay rises at about 5%, while inflation was running higher. Unions, especially those with strong bargaining positions, saw this as an unacceptable squeeze on living standards.\n\n**2. Loss of real wages**\nEarlier agreements, notably the \"Social Contract\" between the Labour government and the Trades Union Congress (TUC), had delivered wage restraint in exchange for social benefits. By 1978, many workers felt they had borne the burden of economic adjustment, and real incomes had fallen. The pressure built as prices rose faster than the controlled pay awards.\n\n**3. Strong union bargaining power**\nUnions had grown powerful during the 1960s and 1970s, and the \"Social Contract\" had partly relied on their cooperation. When the government pushed for tighter limits, many unions, particularly in the public sector, were willing and able to strike. Public-sector unions (such as those for lorry drivers, water workers, road gritters, gravediggers, and hospital ancillary staff) were central to the disputes.\n\n**4. Public-sector pay disputes**\nPublic-sector workers in particular felt that their pay had fallen behind comparable private-sector wages. Disputes over low pay in the public sector, including among hospital staff (NUPE and others), local government workers, and ambulance drivers, spread widely and became highly visible.\n\n**5. Disputes over \"differentials\" and pay structures**\nGroups of workers who had previously been paid more relative to others (for example, skilled workers or those with traditional pay relativities) pressed for higher increases to restore their position, which fed the sense of a spiral of demands.\n\n**6. Lorry drivers' strike and fuel/transport disruption**\nA major road haulage strike by drivers (the Road Haulage Association dispute with the Transport and General Workers' Union) in early 1979 caused food and fuel shortages, which made the crisis feel acute to the public.\n\n**7. Political and economic context**\nBritain was in an economically difficult period, with high inflation, weak growth, and reliance on an IMF loan in 1976. The government had a minority position in Parliament and depended on support from smaller parties (the Lib-Lab pact), which constrained its options. Callaghan's decision not to call an autumn 1978 election, and his comment that the government was not \"in a mess\" (a remark popularly attributed to him, though its exact wording is disputed), contributed to the perception that the government was out of touch.\n\n**Consequences**\nThe disruption, including unburied dead and uncollected rubbish, damaged public confidence in Labour. The government lost a no-confidence vote in March 1979, and Margaret Thatcher's Conservatives won the general election in May 1979. The episode helped shape the political debate over union power and public spending for the next decade.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 35,
+  "completion_tokens": 1053,
+  "total_tokens": 1088,
+  "cost": 0.00053,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00053,
+   "upstream_inference_prompt_cost": 3.5e-06,
+   "upstream_inference_completions_cost": 0.0005265
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:05.435444+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

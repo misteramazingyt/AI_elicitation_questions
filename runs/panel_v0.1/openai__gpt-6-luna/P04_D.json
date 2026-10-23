@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "D",
+ "prompt": "Describe the Black Death in fourteenth-century Europe.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **Black Death** was a devastating plague pandemic that swept through Europe between **1347 and 1351**, amid a wider outbreak across parts of Asia and the Middle East. It was caused by the bacterium *Yersinia pestis*. Trade and travel helped carry the disease westward, probably in part through infected fleas associated with rodents, though transmission could also occur directly between people in some forms of the illness.\n\nThe plague took several forms. **Bubonic plague** caused painful swellings called buboes, usually in the groin, armpit, or neck. **Pneumonic plague**, which affected the lungs, could spread through respiratory droplets and was often rapidly fatal. Medieval observers described sudden illness and widespread death, but had no effective understanding of the cause or reliable treatment.\n\nEstimates vary, but the Black Death may have killed **roughly one-third to one-half of Europe’s population**—tens of millions of people. The loss of so many workers disrupted farming, trade, and local government. In many places, labor became scarce and surviving workers could demand better wages, though rulers and landowners sometimes tried to restrict them. The catastrophe also intensified religious fear and social tension, including persecution of Jewish communities, who were falsely blamed for the plague.\n\nThe Black Death did not end in 1351: plague returned in later waves for centuries. Its enormous loss of life reshaped European society, economies, and culture.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 336,
+  "total_tokens": 352,
+  "cost": 0.0001696,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001696,
+   "upstream_inference_prompt_cost": 1.6e-06,
+   "upstream_inference_completions_cost": 0.000168
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 37,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:49.133925+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

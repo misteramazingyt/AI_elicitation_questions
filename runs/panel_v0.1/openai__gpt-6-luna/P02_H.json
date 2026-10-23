@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1883 eruption of Krakatoa? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians have treated Krakatoa not just as a volcanic event, but as a disaster whose meaning was shaped by colonial rule, new communications, and later scientific and popular storytelling. A few important interpretations stand out:\n\n1. **A local catastrophe that became global news.**  \n   The eruption and tsunamis devastated communities around the Sunda Strait, but telegraph networks and the international press carried reports around the world unusually quickly. Simon Winchester’s *Krakatoa* (2003) makes this the center of his account: the eruption became a global event partly because communications technology connected it to distant readers. That emphasis is useful, though “the first global catastrophe” is better understood as a dramatic shorthand than a literal historical first.\n\n2. **A disaster experienced unevenly under colonial rule.**  \n   The Dutch colonial administration produced much of the surviving official documentation, and European observers’ accounts have strongly influenced later narratives. This means the record is richer for administrative and scientific responses than for the experiences of many local people. Accounts of the eruption should therefore be read with attention to who recorded events, whose losses were counted, and whose perspectives were left out. The scale of the human disaster is often summarized as roughly 36,000 deaths, most caused by tsunamis—not simply by the explosive eruption itself. The number is an estimate, not a precise count.\n\n3. **A case study in how scientific knowledge is made.**  \n   The Dutch geologist Rogier Verbeek’s *Krakatau* (1885) documented the eruption, its effects, and the altered landscape. It became a foundational scientific account. Later writers use the episode to show how observations from a colonial setting were collected, circulated, and turned into authoritative knowledge. Verbeek’s report is valuable, but it is also an official scientific record rather than a comprehensive account of local experience.\n\n4. **A landmark in environmental history.**  \n   The eruption destroyed much of the island’s life, making Krakatau an unusually vivid setting for studying ecological recovery. Ian Thornton’s *Krakatau: The Destruction and Reassembly of an Island Ecosystem* (1996) focuses on the island’s subsequent recolonization by plants and animals. This shifts the story from a single moment of destruction to a longer history of ecological change.\n\n5. **A disaster reshaped by later retellings.**  \n   Popular accounts often present Krakatoa as a sudden, world-ending spectacle. Historians and science writers have helped qualify that image by placing the eruption in its regional setting, distinguishing different hazards, and comparing contemporary reports with later scientific evidence. Clive Oppenheimer’s *Eruptions That Shook the World* (2011), for example, situates Krakatoa within the broader history of major eruptions and their climatic and social effects.\n\n**Sources**\n\n- Verbeek, R. D. M. *Krakatau*. Batavia: Government Printing Office, 1885.  \n- Thornton, Ian. *Krakatau: The Destruction and Reassembly of an Island Ecosystem*. Harvard University Press, 1996.  \n- Winchester, Simon. *Krakatoa: The Day the World Exploded, August 27, 1883*. HarperCollins, 2003.  \n- Oppenheimer, Clive. *Eruptions That Shook the World*. Cambridge University Press, 2011.\n\nTaken together, these works show why Krakatoa is interpreted in several ways at once: as a massive regional disaster, as a colonial-era scientific and administrative event, as an early example of news moving rapidly across a connected world, and as a natural experiment in ecological recovery.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 1267,
+  "total_tokens": 1290,
+  "cost": 0.0006358,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006358,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.0006335
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 516,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:46.433183+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "Q",
+ "prompt": "What were the consequences of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Between 2010 and 2013, the IRS used inappropriate political and ideological indicators—such as “Tea Party” and “Patriot”—to flag some organizations applying for tax-exempt status for extra scrutiny. The consequences were:\n\n- **Delays and burdens for applicants:** Many groups faced lengthy waits, extensive questionnaires, and requests for information about donors, activities, and communications. The delays made it harder for some to operate or participate in elections while their applications were pending.\n- **A major political and institutional scandal:** The IRS inspector general documented the improper screening and delays. Congress held investigations and hearings, and acting IRS Commissioner Steven Miller resigned in 2013. Lois Lerner, who led the relevant division, later retired.\n- **Legal and financial consequences:** A federal class-action lawsuit by affected groups ended in a 2017 settlement. The IRS agreed to apologize and pay **$3.5 million** to roughly 400 organizations.\n- **Investigations and lasting damage to trust:** The episode prompted congressional and Justice Department investigations and severely damaged confidence in the IRS.\n\nInvestigations found serious mismanagement and improper criteria, but did not establish that the White House directed the screening or that it was part of a criminal conspiracy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 535,
+  "total_tokens": 565,
+  "cost": 0.0002705,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002705,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.0002675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 282,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:16.119603+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

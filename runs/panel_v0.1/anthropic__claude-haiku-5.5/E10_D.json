@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "D",
+ "prompt": "Describe the UK miners' strike of 1984-1985.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The UK miners' strike of 1984–1985 was a major industrial dispute in Britain, lasting roughly a year (March 1984 to March 1985). It was the largest and most bitter confrontation between organised labour and the Conservative government of Margaret Thatcher.\n\n**Background**\n- The National Coal Board (NCB) planned to close a number of unprofitable pits, with the loss of tens of thousands of jobs over time.\n- The National Union of Mineworkers (NUM), led by Arthur Scargill, opposed closures, arguing they were politically motivated and would devastate mining communities.\n- Thatcher's government had prepared for a confrontation since the 1974 miners' strikes, which had helped bring down Edward Heath's government. It stockpiled coal at power stations and reduced reliance on coal.\n\n**The Dispute**\n- The strike began in March 1984 at Cortonwood colliery in Yorkshire after the announcement of closures. It spread rapidly across the coalfields, though it was never a national ballot-backed strike. Scargill called it without a national ballot, which many miners and commentators criticised, and the NUM's lack of a ballot was used by opponents to argue the action was illegitimate.\n- Some areas, notably Nottinghamshire, South Derbyshire and parts of other coalfields, largely continued working, and a breakaway Union of Democratic Mineworkers (UDM) was formed in late 1984.\n- Flying pickets clashed with police in several places. The most violent confrontation was at Orgreave coking plant in South Yorkshire in June 1984, where mass fighting between pickets and police occurred.\n- The government made extensive use of police, with officers from across England and Wales deployed to coalfields, and the policing was criticised by many as heavy-handed. The state also used measures such as the Social Security system to deny benefits to strikers' families in some cases, and sequestrated union funds through the courts.\n\n**Outcome**\n- The strike collapsed gradually. In March 1985 the NUM called off the strike without a settlement, and miners drifted back to work over the following weeks.\n- The government had not won concessions from the NUM, but it had achieved its broader aim of defeating the union and ensuring it could later close pits. Around 20,000 jobs were lost in the industry as a result, and many pits closed in the following years.\n- The British coal industry was largely dismantled, with the final deep pit closing in 2015.\n\n**Legacy**\n- The strike is seen as a turning point in British industrial relations, weakening trade union power and contributing to the government's wider policy of privatisation and deregulation.\n- It remains a deeply contested subject. Supporters of the miners see it as a heroic defence of communities; critics see it as an attempt by a union leadership to bring down an elected government and a strike that was damaging to the economy and dependent on coercion.\n- Mining communities suffered long-term economic and social decline, with high unemployment and related problems.\n- Documents released later, including those from the Cabinet Office and police records, revealed the extent of government planning and some controversial police conduct, including the Orgreave events and the later Hillsborough-style scrutiny of police accounts, which fed into ongoing debate about the strike's history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 1055,
+  "total_tokens": 1082,
+  "cost": 0.0005302,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005302,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.0005275
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:06.453809+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

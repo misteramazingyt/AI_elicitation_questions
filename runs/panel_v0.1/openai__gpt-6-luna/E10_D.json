@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "D",
+ "prompt": "Describe the UK miners' strike of 1984-1985.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The UK miners’ strike of 1984–85 was a year-long confrontation between the National Union of Mineworkers (NUM) and the Conservative government led by Margaret Thatcher. It began in March 1984 after the state-owned National Coal Board (NCB) announced plans to close uneconomic pits, threatening thousands of jobs. The dispute became a wider struggle over the future of coal mining, trade-union power and the government’s authority.\n\nNUM president Arthur Scargill led the strike. The union did not hold a national ballot, and many miners—particularly in Nottinghamshire—opposed the walkout and continued working. This division, along with shortages of money and supplies, weakened the strike. Police forces were deployed in large numbers to protect working miners and keep coal moving. Clashes at Orgreave in June 1984, where police confronted striking miners, became one of the dispute’s most prominent episodes.\n\nAfter a bitter winter marked by hardship in mining communities, the NUM voted to return to work without securing an agreement to prevent pit closures. Miners went back in March 1985. The strike’s defeat weakened the NUM and accelerated the decline of Britain’s coal industry, leaving lasting divisions in mining towns and a major legacy in debates about industrial relations and the role of the state.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 359,
+  "total_tokens": 379,
+  "cost": 0.0001815,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001815,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.0001795
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 92,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:52.481472+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "H",
+ "prompt": "How have historians interpreted the discovery of penicillin? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally treat penicillin’s “discovery” not as one sudden event, but as a **chain of discoveries and developments**: Fleming noticed an unusual mold in 1928; researchers at Oxford turned its antibacterial effect into a possible treatment; and wartime scientists and manufacturers made the drug available on a large scale.\n\n- **Fleming’s observation was important, but not the whole story.** In 1929, Alexander Fleming reported that a mold growing on a culture plate inhibited nearby bacteria. Historians credit him with recognizing and naming penicillin, while noting that he could not purify it or establish a reliable treatment from it. Robert Bud’s history emphasizes that the observation became medically consequential only through later work and institutions—not through a lone “eureka” moment.  \n  *(Fleming, “On the Antibacterial Action of Cultures of a Penicillium,”* British Journal of Experimental Pathology *10 [1929]: 226–36; Robert Bud,* Penicillin: Triumph and Tragedy, *Oxford University Press, 2007.)*\n\n- **The Oxford team made penicillin a therapeutic prospect.** From 1939, Howard Florey, Ernst Chain, Norman Heatley, and colleagues developed ways to extract and test the unstable substance. Their animal experiments and early human treatments in 1940–41 shifted penicillin from a laboratory curiosity toward a usable medicine. Accounts centered on Fleming can obscure this collaborative work and the practical ingenuity involved.  \n  *(Chain et al., “Penicillin as a Chemotherapeutic Agent,”* The Lancet *2 [1940]: 226–28; Eric Lax,* The Mold in Dr. Florey’s Coat: The Story of the Penicillin Miracle, *Henry Holt, 2004.)*\n\n- **Mass production was another essential part of the story.** The Oxford team’s work did not by itself create a widely available drug. Wartime collaboration among British researchers, U.S. government agencies, and pharmaceutical companies helped scale production. Bud’s account stresses that the “penicillin miracle” depended on industrial processes and public investment as much as on laboratory discovery.\n\n- **The familiar hero narrative reflects how credit was assigned.** Fleming became the most recognizable figure, particularly after the war, while the contributions of Florey, Chain, Heatley, technicians, and industrial researchers were less visible to the public. The 1945 Nobel Prize in Physiology or Medicine went to Fleming, Florey, and Chain; Heatley was not included. Historians use this contrast to show how public fame and scientific credit can diverge from the collaborative character of research.  \n  *(Bud,* Penicillin: Triumph and Tragedy; *Kevin Brown,* Penicillin Man: Alexander Fleming and the Antibiotic Revolution, *Sutton, 2004.)*\n\nSo, historians do not usually deny Fleming’s role. Rather, they distinguish **the discovery of penicillin’s effect** from **the creation of penicillin as a dependable, mass-produced medicine**. The celebrated accidental contamination was the beginning of that history, not its completion.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 1305,
+  "total_tokens": 1325,
+  "cost": 0.0006545,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006545,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.0006525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 661,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:49.090168+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

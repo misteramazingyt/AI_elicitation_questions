@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "D",
+ "prompt": "Describe the 2008 financial crisis.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 2008 financial crisis, often called the Global Financial Crisis, was the most severe worldwide economic downturn since the Great Depression. It originated in the United States and spread rapidly through the global financial system.\n\n**Causes**\n\n- **Housing bubble:** Years of low interest rates and easy credit fueled rapid growth in home prices in the early 2000s, encouraging speculation and overbuilding.\n- **Subprime lending:** Lenders issued large numbers of mortgages to borrowers with weak credit, often with adjustable rates that would rise sharply later, and with little documentation or down payment.\n- **Securitization:** Banks bundled mortgages into mortgage-backed securities and collateralized debt obligations (CDOs), sold them to investors worldwide, and often gave them high credit ratings that underestimated their risk.\n- **Derivatives and leverage:** Financial institutions took on enormous leverage, and instruments like credit default swaps (notably those sold by AIG) spread risk in opaque ways.\n- **Regulatory gaps:** Oversight was fragmented, some institutions operated outside traditional banking regulation, and rating agencies had conflicts of interest.\n- **Global imbalances:** Large capital inflows into the U.S. from countries with high savings, such as China, helped keep borrowing costs low.\n\n**Trigger and Escalation**\n\nHome prices peaked in 2006 and began falling in 2007. As adjustable mortgage rates reset and defaults rose, the securities built on those loans lost value. In 2007, the first signs appeared, including problems at two Bear Stearns hedge funds and rising losses at other lenders. The crisis intensified in 2008:\n\n- **March 2008:** Bear Stearns was sold to JPMorgan Chase with government support.\n- **September 2008:** Fannie Mae and Freddie Mac, which backed much of the U.S. mortgage market, were placed under government conservatorship. Lehman Brothers filed for bankruptcy on September 15, the largest bankruptcy in U.S. history. Merrill Lynch was sold to Bank of America.\n- **Following days:** AIG was rescued with an $85 billion federal loan. The Reserve Primary Fund, a money market fund, \"broke the buck,\" triggering panic in short-term credit markets.\n- Credit froze as banks stopped lending to each other, and stock markets plunged worldwide.\n\n**Responses**\n\n- **Emergency Economic Stabilization Act (October 2008):** Created the $700 billion Troubled Asset Relief Program (TARP), used to recapitalize banks and rescue automakers, among others.\n- **Bank bailouts and stress tests:** Governments injected capital into banks, and the U.S. conducted stress tests in 2009 to assess bank health.\n- **Federal Reserve action:** The Fed cut interest rates to near zero, launched emergency lending facilities, and later began quantitative easing (large-scale asset purchases).\n- **International coordination:** The G20 coordinated stimulus and financial reforms, and other countries enacted their own rescue and stimulus programs.\n- **Regulatory reform:** The Dodd-Frank Wall Street Reform and Consumer Protection Act (2010) created the Consumer Financial Protection Bureau, imposed stricter capital and liquidity requirements, introduced oversight of derivatives, and established procedures for winding down failing firms. Basel III also raised international bank capital standards.\n\n**Consequences**\n\n- **Economic:** The U.S. entered a deep recession from December 2007 to June 2009. Unemployment peaked near 10% in October 2009. Global output fell, and the recovery was slow in many countries, especially in Europe, where the crisis fed into the European sovereign debt crisis.\n- **Housing:** Millions of Americans lost homes to foreclosure, and home values fell sharply in many regions. Recovery took years.\n- **Financial sector:** Many large institutions failed, were acquired, or were nationalized. Public anger over bailouts fueled movements like Occupy Wall Street.\n- **Policy and society:** The crisis reshaped central bank policy, contributed to political polarization, and raised lasting questions about moral hazard, inequality, and the proper role of government in markets.\n\nOverall, the crisis exposed how interconnected and fragile modern finance could be, and it remains a central reference point for discussions of financial regulation and economic policy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 1471,
+  "total_tokens": 1493,
+  "cost": 0.0007377,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007377,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0007355
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:00.707456+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

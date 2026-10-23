@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1996 U.S. welfare reform law?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1996 law, the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA), signed by President Bill Clinton, replaced Aid to Families with Dependent Children (AFDC) with the Temporary Assistance for Needy Families (TANF) block grant. Its consequences are still debated, but the main outcomes include:\n\n**Caseload declines**\n- Welfare rolls fell sharply, from about 12.3 million recipients in 1996 to roughly 4 million by the early 2000s, one of the largest drops in the program's history.\n- Many former recipients left the rolls without necessarily reaching economic stability. Research found that a substantial share of those who left took low-wage jobs, but many also had unstable employment, and some were not working at all.\n\n**Employment and earnings**\n- Employment among single mothers, particularly those with less education, rose in the late 1990s, coinciding with a strong economy and the Earned Income Tax Credit expansions of the same era. Economists disagree about how much of this was due to the welfare law versus the economy and EITC.\n- Earnings for many low-income single mothers who worked rose, though gains were modest and often did not last during economic downturns.\n\n**Poverty and deep poverty**\n- Child poverty fell in the late 1990s to historic lows for Black and Hispanic children, but the decline was partly tied to the economic boom.\n- Deep poverty (income below half the poverty line) rose among families with children after the law, because TANF cash benefits were not indexed to inflation and many states cut benefits or tightened eligibility. Cash assistance as a share of poverty-level income declined significantly over time.\n- Many families who left welfare were not receiving income support of any kind, and critics argue the safety net weakened during recessions, since TANF block grants did not automatically expand with need as AFDC had.\n\n**Structural changes**\n- Work requirements and time limits (generally five years lifetime federal limit) were imposed, with states given wide latitude in design.\n- Block-granting gave states flexibility and a fixed federal funding level, which eroded in real terms over time. Many states diverted TANF funds to other uses, such as child welfare, pre-K, or general budget needs, rather than cash aid.\n- Caseloads became far less responsive to economic downturns than under AFDC. During the 2008–2009 recession, TANF caseloads barely rose.\n\n**Other provisions**\n- Immigrant eligibility for many federal benefits, including SNAP (food stamps) and SSI, was restricted, though some protections were later restored.\n- Major increases in child care funding accompanied the work requirements, supporting employment though often at levels short of need.\n- Other policies, including the 1993 EITC expansion and the 1997 CHIP program, are often considered alongside PRWORA when evaluating outcomes.\n\n**Overall assessment**\nSupporters credit the law with moving people into work, reducing dependency, and lowering child poverty during the boom. Critics argue that the decline in caseloads overstated success, that the safety net became much weaker for the poorest families, and that cash assistance became too thin to protect children in downturns. Most researchers see both employment gains and real hardship among the most disadvantaged families as outcomes of the law.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 1061,
+  "total_tokens": 1092,
+  "cost": 0.0005336,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005336,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.0005305
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:16.221043+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2008 financial crisis?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 2008 financial crisis triggered the deepest global downturn since the Great Depression. Its consequences included:\n\n- **Recession and job losses:** Businesses failed or cut back, unemployment rose, and millions of people lost work or income.\n- **Housing and wealth losses:** Home prices plunged in many countries; foreclosures and falling stock prices erased household savings and wealth.\n- **Banking turmoil and government intervention:** Major financial institutions collapsed or required emergency support. Governments and central banks provided bailouts, guarantees, and stimulus to prevent a wider breakdown.\n- **Public debt and austerity:** The cost of supporting banks and economies, combined with lower tax revenues, strained public finances. Some countries later imposed spending cuts and tax increases.\n- **Long-lasting hardship:** Recovery was slow and uneven. Many households faced prolonged unemployment, reduced earnings, or difficulty getting credit.\n- **Political and social backlash:** Anger over bailouts, inequality, and economic hardship contributed to distrust of governments and financial institutions, protests, and greater support for populist movements.\n- **Stricter financial rules:** Governments introduced reforms intended to make banks hold more capital and reduce the risk of another crisis, though the details and effectiveness of those rules remain debated.\n\nThe crisis also led central banks to use unusually low interest rates and other emergency measures for years, reshaping economic policy well beyond the immediate downturn.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 303,
+  "total_tokens": 321,
+  "cost": 0.0001533,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001533,
+   "upstream_inference_prompt_cost": 1.8e-06,
+   "upstream_inference_completions_cost": 0.0001515
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 24,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:48.755464+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

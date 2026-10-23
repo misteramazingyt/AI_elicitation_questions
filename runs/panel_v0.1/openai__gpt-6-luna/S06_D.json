@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "D",
+ "prompt": "Describe the Kent State shootings of 1970.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The **Kent State shootings** occurred on **May 4, 1970**, at Kent State University in Ohio, during protests against the Vietnam War and President Richard Nixon’s announcement that U.S. forces had entered Cambodia.\n\nOhio Governor James Rhodes had called in the **Ohio National Guard** after several days of unrest, including the burning of the university’s ROTC building on May 2. On May 4, students gathered for a protest despite a ban on demonstrations. Guardsmen tried to disperse the crowd with tear gas and then advanced across campus. After reaching a hill, they turned and fired **67 shots over about 13 seconds**. Why they fired—and whether anyone gave an order—remains disputed.\n\n**Four students were killed**: Allison Krause, Jeffrey Miller, Sandra Scheuer, and William Schroeder. **Nine others were wounded**, including Dean Kahler, who was permanently paralyzed. Some of those shot were protesting; others were nearby.\n\nThe shootings intensified national opposition to the war and prompted a student strike that closed hundreds of colleges. A federal commission later criticized the Guard’s use of force as “unnecessary, unwarranted, and inexcusable.” The event remains a defining episode in the history of protest, state power, and the Vietnam War era.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 434,
+  "total_tokens": 450,
+  "cost": 0.0002186,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002186,
+   "upstream_inference_prompt_cost": 1.6e-06,
+   "upstream_inference_completions_cost": 0.000217
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 167,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:10.806634+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

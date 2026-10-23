@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 1984–85 miners’ strike ended in a major defeat for the National Union of Mineworkers (NUM). After nearly a year, miners returned to work in March 1985 without securing an agreement to prevent pit closures. Its consequences were industrial, economic and political:\n\n- **Weakened trade union power:** The defeat damaged the NUM and showed that the government could withstand a prolonged national strike. The strike also deepened divisions among miners, especially between areas that stayed out and miners in Nottinghamshire who continued working and later formed a rival union.\n- **Changed industrial relations:** The government’s preparation—including coal stockpiles, police deployment and legal action—helped it manage the dispute. The strike became a turning point in the decline of the unions’ influence and accompanied wider restrictions on union activity.\n- **Accelerated the coal industry’s decline:** Pit closures and job losses continued, devastating many mining communities. The strike did not by itself cause the industry’s decline—coal was becoming less competitive, and government policy had already set closures in motion—but it left miners with less power to resist them.\n- **Severe local hardship:** Mining towns faced unemployment, poverty and the loss of a central source of identity and community life. The consequences were felt for decades, even as some areas later found new industries.\n- **A lasting political and cultural legacy:** The conflict intensified divisions over class, regional identity, policing and the role of the state. It remains a major symbol both of working-class solidarity and of the defeat of organised labour.\n\nIn short, the strike marked a decisive shift in power away from the miners’ union and hastened a transformation that reshaped coalfield communities and British industrial politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 457,
+  "total_tokens": 481,
+  "cost": 0.0002309,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002309,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.0002285
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 108,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:53.206034+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "D",
+ "prompt": "Describe the 1993 Waco siege.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Waco siege was a 51-day standoff in 1993 between U.S. federal authorities and the Branch Davidians, a religious group led by David Koresh, at their Mount Carmel compound near Waco, Texas.\n\nOn February 28, Bureau of Alcohol, Tobacco and Firearms (ATF) agents tried to execute a search warrant there, leading to a gunfight. Four agents and six Branch Davidians were killed. The FBI then took over the standoff, which ended on April 19 when agents launched a tear-gas operation and a fire engulfed the compound. Koresh and 75 other Branch Davidians died in the fire, including many children.\n\nInvestigations concluded that Branch Davidians had started the fires, but the government’s tactics and the events leading to the blaze remained intensely controversial. The siege became a lasting subject of debate over federal force, religious freedom, and law-enforcement accountability.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 462,
+  "total_tokens": 477,
+  "cost": 0.0002325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002325,
+   "upstream_inference_prompt_cost": 1.5e-06,
+   "upstream_inference_completions_cost": 0.000231
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 265,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:08.252405+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

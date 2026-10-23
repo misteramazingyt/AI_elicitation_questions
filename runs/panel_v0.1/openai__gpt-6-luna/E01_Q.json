@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "Q",
+ "prompt": "What were the consequences of the New Deal (1933-1939)?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The New Deal was a set of federal programs and reforms introduced under President Franklin D. Roosevelt between 1933 and 1939 to address the Great Depression. Its consequences were far-reaching, though it did not by itself end the Depression.\n\n- **Immediate relief:** Public works and employment programs—including the Civilian Conservation Corps and Works Progress Administration—provided jobs and income to millions. Emergency aid helped families and communities, though unemployment remained high.\n- **Economic and financial reform:** Banking reforms helped restore confidence and stabilize the financial system. The Securities and Exchange Commission regulated stock markets, while the Federal Deposit Insurance Corporation protected bank deposits.\n- **A lasting social safety net:** The Social Security Act established pensions for many older Americans and unemployment insurance. It marked a major expansion of the federal government’s role in citizens’ economic security.\n- **Greater support for workers and farmers:** New laws strengthened labor unions and collective bargaining, set some workplace standards, and sought to support farm incomes. These policies helped reshape relations between employers, workers, and government.\n- **A shift in politics and government:** Roosevelt’s coalition brought many urban voters, workers, immigrants, and African Americans into the Democratic Party. The federal government became a more active regulator and provider of services, a role it continued to play afterward.\n- **Important limitations:** Many New Deal programs excluded or disadvantaged groups, particularly African Americans and other people of color; agricultural and domestic workers—jobs held by many Black workers—were initially left out of key protections. Women often received fewer opportunities or lower pay, and racial discrimination persisted.\n- **An incomplete recovery:** The New Deal eased hardship and strengthened institutions, but the economy remained weak, and unemployment rose again in 1937–38. The large-scale mobilization for World War II ultimately brought the Depression to an end.\n\nOverall, the New Deal reduced suffering, regulated important parts of the economy, and permanently expanded federal responsibility, while leaving significant inequalities and economic problems unresolved.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 438,
+  "total_tokens": 459,
+  "cost": 0.0002211,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002211,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.000219
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 39,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.607398+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

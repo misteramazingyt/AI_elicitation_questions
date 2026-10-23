@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "Q",
+ "prompt": "What were the consequences of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Winter of Discontent—months of strikes and disrupted public services in 1978–79—had several important consequences:\n\n- **Everyday life was disrupted:** Rubbish went uncollected, some transport and deliveries were affected, and strikes hit parts of the public sector, including health services. The impact varied by place and service.\n- **Labour’s standing suffered:** The strikes reinforced an impression that the government had lost control. Labour’s pay restraint policy had helped provoke disputes, though economic difficulties and union-management conflicts also played a role.\n- **The Conservatives won the 1979 election:** After Labour lost a no-confidence vote in March, a general election followed in May. Margaret Thatcher’s Conservatives won, and she became prime minister.\n- **Industrial relations shifted:** The episode became a lasting symbol in political debate about trade-union power. The Thatcher governments subsequently introduced laws that restricted unions’ ability to strike and organize.\n\nThe Winter of Discontent contributed to Labour’s defeat and helped shape the political climate for Thatcherism, but it was not the sole cause of either.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 379,
+  "total_tokens": 402,
+  "cost": 0.0001918,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001918,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.0001895
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 155,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:51.734249+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

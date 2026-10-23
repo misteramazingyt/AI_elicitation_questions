@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "D",
+ "prompt": "Describe the 2011 military intervention in Libya.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 2011 intervention in Libya began during the uprising against Muammar al-Qaddafi, whose forces were moving to retake rebel-held areas. After the government threatened a major assault on Benghazi, the UN Security Council adopted Resolution 1973 on 17 March. It authorized “all necessary measures” to protect civilians, established a no-fly zone, and ruled out a foreign occupation force.\n\nFrance, the United Kingdom, and the United States began air and naval strikes two days later. NATO took command of the operation—named **Operation Unified Protector**—at the end of March. Its actions included enforcing the no-fly zone, enforcing an arms embargo, and striking Libyan government forces and military infrastructure. NATO said its mission was to protect civilians; critics argued that the campaign increasingly helped the rebels defeat Qaddafi, stretching the resolution’s mandate.\n\nQaddafi’s government collapsed, and he was killed after being captured near Sirte in October 2011. The intervention helped prevent the government’s threatened advance on Benghazi and contributed to the regime’s defeat, but Libya was left with weak state institutions, competing armed groups, and prolonged political instability. The intervention’s civilian-protection rationale, its relationship to regime change, and the international community’s limited support for Libya afterward remain subjects of debate.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 346,
+  "total_tokens": 362,
+  "cost": 0.0001746,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001746,
+   "upstream_inference_prompt_cost": 1.6e-06,
+   "upstream_inference_completions_cost": 0.000173
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 74,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:32.089330+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

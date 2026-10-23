@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "C",
+ "prompt": "What were the main causes of the War on Poverty and Great Society programs of the 1960s?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The War on Poverty and Great Society programs grew out of several overlapping problems and political ideas in the early 1960s:\n\n- **Persistent poverty:** Despite postwar prosperity, millions of Americans—especially older people, rural residents, people of color, and residents of inner cities—lacked adequate income, housing, health care, or education. Michael Harrington’s 1962 book *The Other America* helped draw public attention to this “hidden” poverty.\n- **Civil rights demands:** The civil rights movement exposed racial discrimination and deep inequalities in schooling, employment, voting, housing, and access to public services. Federal programs were increasingly seen as necessary to address these conditions.\n- **Belief in government’s ability to help:** President Lyndon B. Johnson and many policymakers believed federal action could expand opportunity and reduce poverty through education, health care, job training, and community programs. Johnson’s own experience growing up poor influenced his commitment.\n- **Economic and demographic changes:** Automation and shifts away from agriculture and manufacturing left some workers without secure jobs, while rapid urban growth strained housing, schools, and local services.\n- **Political opportunity and national confidence:** The strong economy and Democratic majorities in Congress made ambitious legislation more feasible. The programs also built on the New Deal and reflected a broader postwar belief that prosperity should be shared more widely.\n\nTogether, these forces led Johnson to declare an “unconditional war on poverty” in 1964 and pursue the Great Society agenda, including Medicare and Medicaid, federal education aid, civil-rights protections, and anti-poverty initiatives.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 322,
+  "total_tokens": 349,
+  "cost": 0.0001637,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001637,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.000161
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:02.054355+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

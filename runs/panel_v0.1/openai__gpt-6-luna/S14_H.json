@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "H",
+ "prompt": "How have historians interpreted Britain's abolition of the slave trade and slavery (1807-1838)? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally treat British abolition not as a single event, but as a contested process: Parliament outlawed the British slave trade in 1807, passed the Slavery Abolition Act in 1833, and ended the transitional “apprenticeship” system in 1838. The central debate is not simply whether humanitarianism or economics mattered. It is how moral campaigning, political pressure, enslaved people’s resistance, economic change, and imperial policy combined—and why abolition took so long.\n\n### Humanitarianism, religion, and public politics\n\nEarlier accounts often emphasized the moral leadership of evangelical reformers such as William Wilberforce and the campaigning of the Society for Effecting the Abolition of the Slave Trade. More recent historians have retained the importance of religious conviction but placed abolition in a wider political culture. Christopher Leslie Brown argues that British abolitionists built “moral capital”: they made opposition to slavery a source of national virtue and political identity (*Moral Capital: Foundations of British Abolitionism*, 2006). James Walvin likewise stresses the significance of evangelical networks and sustained popular campaigning (*The Zong*, 2011).\n\nHistorians have also examined how abolitionists mobilized beyond Parliament. Petitioning, boycotts, pamphlets, meetings, and consumer activism helped make the slave trade a public political issue. J. R. Oldfield traces the growth and character of this popular movement, while Clare Midgley highlights women’s organizing and campaigning, including their role in the later struggle against slavery itself (*Popular Politics and British Anti-Slavery*, 1995; *Women Against Slavery*, 1992). This work complicates accounts that credit abolition chiefly to a handful of parliamentary leaders.\n\n### Economic change—or a profitable slave system?\n\nA major debate began with Eric Williams’s *Capitalism and Slavery* (1944). Williams argued that slavery and the slave trade had helped generate British wealth, but that abolition became possible when the system’s economic importance declined and industrial capitalism no longer depended on it. His thesis powerfully linked abolition to economic structure, though later scholars have questioned whether British slavery had become unprofitable or economically marginal by the 1780s.\n\nSeymour Drescher directly challenged the idea that abolition followed the decline of the West Indian economy. In *Econocide* (1977), he argued that Britain abolished the trade despite its continued economic value: abolition was, in that sense, a political and moral choice made against powerful commercial interests. Subsequent work has generally avoided reducing the question to a simple choice between Williams and Drescher. Economic interests differed across regions and sectors, and profitability alone cannot explain political decisions. The debate has helped historians ask instead how commercial interests, state policy, public opinion, and moral arguments interacted.\n\n### Enslaved people’s resistance and Caribbean events\n\nA further shift has been to put enslaved people’s actions at the centre of the story. Resistance took many forms: escape, work slowdowns, everyday defiance, revolts, and the creation of independent communities. Historians argue that such resistance weakened slaveholders’ authority and helped make slavery politically and militarily costly to maintain. Michael Craton’s *Testing the Chains* (1982), for example, places enslaved people’s resistance at the heart of Caribbean emancipation.\n\nThe Haitian Revolution and rebellions in the British Caribbean also mattered. These events challenged the claim that slavery was stable, exposed the danger of slave societies, and shaped both pro- and anti-slavery politics. Abolitionists used evidence of violence and revolt to condemn slavery; slaveholders and officials, meanwhile, often treated revolt as a reason to preserve coercive control. Historians therefore see resistance not as a background to abolition, but as a force that changed the circumstances in which it was debated.\n\n### Emancipation, imperial power, and its limits\n\nThe 1833 Act did not immediately give freedom to everyone it covered. It compensated slaveholders, not the formerly enslaved, and placed many people in apprenticeship, a system that retained coercive controls over their labour. Apprenticeship ended in 1838, earlier than originally planned, following continued pressure and resistance. Historians emphasize this gap between abolition as a parliamentary achievement and freedom as lived experience.\n\nAbolition also strengthened Britain’s claims to moral leadership and helped shape its imperial identity. This did not make abolition merely a cynical imperial project: religious and humanitarian commitments were real and consequential. But historians study how anti-slavery policy could coexist with imperial power, racial hierarchy, and efforts to control labour. The outcome was therefore both a major attack on slavery and a managed transition designed in part to protect property and colonial order.\n\n### Overall interpretation\n\nMost current accounts treat abolition as a **multi-causal process**. Humanitarian campaigning helped make slavery politically unacceptable; public mobilization broadened pressure on Parliament; enslaved people’s resistance and Caribbean upheavals undermined the slave system; and changing economic and imperial calculations shaped the choices available to the state. The key historiographical questions are how much weight to give each factor, whose actions to foreground, and how to assess an emancipation that ended legal slavery while compensating enslavers and delaying full freedom.\n\n**Selected sources**\n\n- Brown, Christopher Leslie. *Moral Capital: Foundations of British Abolitionism*. University of North Carolina Press, 2006.\n- Craton, Michael. *Testing the Chains: Resistance to Slavery in the British West Indies*. Cornell University Press, 1982.\n- Drescher, Seymour. *Econocide: British Slavery in the Era of Abolition*. University of Pittsburgh Press, 1977.\n- Midgley, Clare. *Women Against Slavery: The British Campaigns, 1780–1870*. Routledge, 1992.\n- Oldfield, J. R. *Popular Politics and British Anti-Slavery: The Mobilisation of Public Opinion Against the Slave Trade, 1787–1807*. Manchester University Press, 1995.\n- Walvin, James. *The Zong: A Massacre, the Law and the End of Slavery*. Yale University Press, 2011.\n- Williams, Eric. *Capitalism and Slavery*. University of North Carolina Press, 1944.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 1597,
+  "total_tokens": 1626,
+  "cost": 0.0008014,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008014,
+   "upstream_inference_prompt_cost": 2.9e-06,
+   "upstream_inference_completions_cost": 0.0007985
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 314,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:25.397211+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

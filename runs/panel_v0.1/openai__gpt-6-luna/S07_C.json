@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "C",
+ "prompt": "What were the main causes of the FBI's COINTELPRO program?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "COINTELPRO grew out of a mix of **Cold War fears, FBI Director J. Edgar Hoover’s beliefs, and the bureau’s expanding view of its own role**.\n\n- **Fear of communist influence:** The FBI viewed the Communist Party USA and later other groups as potential threats to national security. In 1956, it launched COINTELPRO initially to disrupt the Communist Party.\n- **A broad definition of “subversion”:** The program expanded to target groups Hoover considered dangerous or destabilizing, including civil-rights organizations, Black nationalist groups, antiwar activists, and other left-wing movements. The bureau often treated dissent and protest as evidence of a threat, even when there was no evidence of criminal activity.\n- **Hoover’s political and ideological views:** Hoover was intensely anti-communist and hostile to movements he believed challenged the existing social order. He also sought to protect the FBI’s influence and discourage challenges to its authority.\n- **Institutional incentives and secrecy:** COINTELPRO let the FBI act against groups it considered threats without relying only on arrests or prosecutions. Its covert tactics—such as surveillance, infiltration, disinformation, and efforts to create internal conflict—were kept secret from the public and often from oversight.\n\nThese were the program’s underlying causes and rationales, not a justification for its methods. Later investigations found that COINTELPRO violated civil liberties and targeted lawful political activity.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 365,
+  "total_tokens": 386,
+  "cost": 0.0001846,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001846,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.0001825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 72,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:15.042708+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

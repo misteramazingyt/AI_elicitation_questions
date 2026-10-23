@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "D",
+ "prompt": "Describe the famine during China's Great Leap Forward (1959-1961).",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The famine of 1959–1961 was the deadliest consequence of China’s Great Leap Forward, a campaign launched in 1958 to rapidly industrialize and reorganize agriculture. It caused mass hunger across much of the country, though its severity varied greatly by region. The worst years were generally 1959–1961; recovery began as policies changed in 1961–1962.\n\nThe famine was driven chiefly by government policies and the political system that sustained them. Agricultural labor was diverted to projects such as steel production, while farming was reorganized into large people’s communes. Officials reported harvests far larger than the real ones, and the state continued to procure grain based on these inflated figures, leaving many rural communities with too little to eat. Restrictions on movement, punishment of people who criticized policy, and officials’ reluctance to report hunger or resist grain collection made the crisis harder to relieve. Poor weather contributed in some places, but historians generally regard it as secondary to policy failures.\n\nMillions died from starvation and related illnesses. Estimates differ because records are incomplete and researchers use different methods; many studies place excess deaths in the range of roughly **15–45 million**, with estimates around **30 million** often cited. The famine also led to widespread disease, family separation, and lasting social and economic damage. The Chinese government later retreated from some Great Leap Forward policies, restoring more household control over farming and reducing grain procurement, which helped bring the famine to an end.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 406,
+  "total_tokens": 427,
+  "cost": 0.0002051,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002051,
+   "upstream_inference_prompt_cost": 2.1e-06,
+   "upstream_inference_completions_cost": 0.000203
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 103,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.683243+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

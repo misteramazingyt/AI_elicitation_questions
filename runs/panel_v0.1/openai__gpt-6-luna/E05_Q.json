@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "Q",
+ "prompt": "What were the consequences of the famine during China's Great Leap Forward (1959-1961)?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The famine of 1959–1961 was one of the deadliest in modern history. Its consequences included:\n\n- **Massive loss of life:** Estimates vary, but historians commonly place excess deaths at roughly **15–30 million**, with some estimates higher. Starvation and illness caused most deaths.\n- **Falling births and lasting demographic effects:** Birth rates plunged as people postponed or were unable to have children. The population’s age structure and growth were affected for years.\n- **Widespread illness and social disruption:** Survivors suffered severe malnutrition and disease. Families were separated, local communities were disrupted, and some people fled famine-stricken areas, though movement was often restricted.\n- **Economic damage:** Agricultural production and rural livelihoods were devastated. The crisis also exposed serious weaknesses in the planning system, including unrealistic production claims and grain procurement that left too little food in some regions.\n- **Political consequences:** After the famine, the government scaled back some of the most extreme Great Leap Forward policies and restored a degree of practical decision-making to local officials. The crisis also contributed to tensions among China’s leaders, though public discussion of its causes remained tightly controlled.\n- **Long-term trauma and silence:** For decades, the famine was rarely discussed openly in China. Its effects remained in survivors’ memories and in families’ histories, even as official accounts and public access to information were restricted.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 326,
+  "total_tokens": 351,
+  "cost": 0.0001655,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001655,
+   "upstream_inference_prompt_cost": 2.5e-06,
+   "upstream_inference_completions_cost": 0.000163
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 41,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.699060+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

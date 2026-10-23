@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "Q",
+ "prompt": "What were the consequences of Argentina's 2001 economic crisis?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "Argentina's 2001–2002 crisis was one of the most severe economic and social collapses in the country's modern history. Its consequences were far-reaching:\n\n**Economic consequences**\n- **Default on sovereign debt:** In December 2001 Argentina defaulted on about US$93 billion of public debt, the largest sovereign default at the time. Bondholders were later offered restructuring deals in 2005 and 2010, with many creditors accepting heavy haircuts, and litigation with holdout creditors dragged on for years.\n- **Collapse of the convertibility regime:** The 1991–2001 currency board tied the peso one-to-one to the US dollar. Its abandonment in January 2002 led to a devaluation of roughly 70% in the peso's value against the dollar within months, and a \"pesification\" of dollar deposits and debts that angered savers and businesses.\n- **Recession and depression-like contraction:** GDP fell by roughly 10–11% from 1998 to 2002, with the sharpest drop in 2001–2002. Industrial output and investment plunged.\n- **Banking crisis and \"corralito\":** Authorities froze bank withdrawals in December 2001, restricting savers' access to their deposits for long periods. Many banks failed or were restructured, and public trust in the financial system was badly damaged.\n- **Inflation and capital flight:** After devaluation, inflation rose sharply, eroding real wages and savings, and capital fled the country.\n\n**Social consequences**\n- **Poverty and unemployment:** Poverty rose from roughly a third of the population to about half or more at the peak, and unemployment reached around 20–25%. Millions fell into poverty, and the middle class was significantly reduced.\n- **Social unrest:** The crisis sparked mass protests, including the \"cacerolazos\" (pot-banging demonstrations) in December 2001. Street protests and road blockades by unemployed workers (*piqueteros*) became a lasting feature of Argentine politics. Public anger led to the resignation of President Fernando de la Rúa in December 2001, followed by several interim presidents in quick succession, with the country cycling through five presidents in about two weeks.\n- **Growth of social programs:** The government expanded emergency welfare, notably the *Plan Jefes y Jefas de Hogar* cash transfer program, which later influenced the broader conditional cash-transfer model across Latin America.\n\n**Political consequences**\n- **Loss of trust in institutions:** Widespread disillusionment with mainstream parties, the political class, and the IMF (which had backed the convertibility system) shaped subsequent politics.\n- **Shift in political direction:** Néstor Kirchner, elected in 2003, pursued heterodox economic policies, debt restructuring, and a more state-centered and left-leaning approach, which defined Argentine politics for much of the following decade.\n\n**Recovery**\n- Partly because of the peso's devaluation, which made exports competitive, and rising global commodity prices (notably soybeans), the economy grew strongly from 2003 onward, and poverty and unemployment fell substantially by the mid-2000s.\n\nSome long-term effects, including recurring inflation, debt problems, and political polarization, are still debated by economists and historians as products of the 2001 crisis and the policy responses that followed.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 1089,
+  "total_tokens": 1119,
+  "cost": 0.0005475,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005475,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.0005445
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:12.255000+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

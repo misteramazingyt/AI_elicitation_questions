@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "C",
+ "prompt": "What were the main causes of Argentina's 2001 economic crisis?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Argentina’s 2001 crisis resulted from several problems reinforcing one another:\n\n- **The peso–dollar peg:** Since 1991, the peso had been fixed at one U.S. dollar. The peg helped end hyperinflation, but over time it made Argentine goods expensive relative to competitors. Argentina could not devalue or use independent monetary policy to respond.\n- **A worsening external position:** The U.S. dollar strengthened in the late 1990s, and Brazil—the key regional trading partner—devalued its currency in 1999. Both developments further weakened Argentina’s competitiveness.\n- **Recession and rising debt:** A prolonged downturn reduced tax revenue while public debt and borrowing costs grew. The government struggled to finance itself, and doubts about its ability to repay drove interest rates higher.\n- **Fiscal and political problems:** Persistent budget pressures, disagreements between the federal government and provinces, and political instability undermined confidence. Fiscal problems mattered, though they were not simply the result of unchecked spending; the recession and the costs of servicing debt also played major roles.\n- **Capital flight and banking stress:** As investors and savers feared devaluation or default, money flowed out of the country. Deposit withdrawals put pressure on banks, prompting restrictions on cash withdrawals—the *corralito*—in December 2001.\n- **Loss of confidence and policy constraints:** Efforts to defend the peg and secure international support failed to restore confidence. The economy could not easily grow out of its debt burden while remaining tied to the dollar.\n\nThe crisis culminated in sovereign default, the collapse of the convertibility system, and a sharp devaluation of the peso.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 412,
+  "total_tokens": 432,
+  "cost": 0.000208,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000208,
+   "upstream_inference_prompt_cost": 2e-06,
+   "upstream_inference_completions_cost": 0.000206
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 73,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:57.895792+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

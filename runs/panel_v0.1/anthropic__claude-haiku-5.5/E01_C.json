@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "C",
+ "prompt": "What were the main causes of the New Deal (1933-1939)?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The New Deal (1933-1939) was President Franklin D. Roosevelt's response to the **Great Depression**, the worst economic crisis in U.S. history. Its main causes were:\n\n1. **The Stock Market Crash of 1929:** Speculation and buying on margin inflated stock prices. When the market collapsed in October 1929, it wiped out fortunes and shook confidence in the economy.\n\n2. **Banking Failures:** Thousands of banks failed between 1930 and 1933 because they lacked deposit insurance and reserves. Depositors lost their savings, which reduced the money supply and deepened the crisis.\n\n3. **Collapse of Production and Trade:** Industrial output fell sharply, and international trade shrank after the Smoot-Hawley Tariff (1930) provoked retaliatory tariffs and a global trade slump.\n\n4. **Mass Unemployment:** Unemployment reached roughly 25% by 1933. Millions lost homes and farms, and there was little government assistance for the jobless.\n\n5. **Deflation and Falling Incomes:** Prices and wages fell, which increased the real burden of debts and mortgages and led many businesses and families into default.\n\n6. **Agricultural Crisis:** Farm prices collapsed through the 1920s and 1930s, and many farmers faced foreclosure. Drought and soil erosion in the Dust Bowl (1930s) made the situation worse.\n\n7. **Limited Federal Response under Herbert Hoover:** Hoover believed in voluntarism and limited government intervention. His efforts, such as the Reconstruction Finance Corporation, were seen as too little and too late, which contributed to his defeat in 1932.\n\n8. **Social Unrest and Political Pressure:** Hunger marches, the Bonus Army march (1932), labor strikes, and farmer protests showed growing desperation. Populist movements such as Huey Long's \"Share Our Wealth\" and Francis Townsend's pension plan put pressure on the government to act.\n\n9. **Electoral Mandate:** Roosevelt won a landslide victory in 1932 on promises of bold action, and Democrats gained large majorities in Congress, giving him the political support to pursue sweeping reforms.\n\nTogether, these crises created both the urgent need and the political opportunity for the New Deal's relief, recovery, and reform programs.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 941,
+  "total_tokens": 969,
+  "cost": 0.0004733,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004733,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0004705
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 164,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:50.069145+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

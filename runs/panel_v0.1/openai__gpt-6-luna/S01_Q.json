@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "Q",
+ "prompt": "What were the consequences of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Civil Rights Act of 1964 was a major turning point in U.S. law and society. Its consequences included:\n\n- **Ending legal segregation in public places:** Title II prohibited discrimination in places such as hotels, restaurants, and theaters.\n- **Restricting discrimination in federally funded programs:** Title VI allowed the federal government to withhold funds from programs that discriminated.\n- **Addressing workplace discrimination:** Title VII prohibited employment discrimination based on race, color, religion, sex, or national origin and created the Equal Employment Opportunity Commission (EEOC) to enforce the ban.\n- **Strengthening federal enforcement:** The act gave the federal government new tools to challenge discrimination, including in schools and public accommodations.\n- **Prompting political and social change:** It helped dismantle legal segregation and contributed to a shift in party alignments, while also provoking resistance and backlash.\n\nThe act did not eliminate discrimination or remove barriers to voting. Those issues required further action, including the Voting Rights Act of 1965.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 283,
+  "total_tokens": 306,
+  "cost": 0.0001438,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001438,
+   "upstream_inference_prompt_cost": 2.3e-06,
+   "upstream_inference_completions_cost": 0.0001415
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 74,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:04.149139+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

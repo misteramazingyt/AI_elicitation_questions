@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "D",
+ "prompt": "Describe the Reagan tax cuts of the 1980s.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Reagan tax cuts were a set of major federal tax reforms enacted during Ronald Reagan's presidency, primarily through two laws: the Economic Recovery Tax Act of 1981 (ERTA) and the Tax Reform Act of 1986 (TRA86). They were central to Reagan's economic agenda, often called \"Reaganomics,\" which emphasized supply-side economics, reduced government spending, and deregulation.\n\n**Economic Recovery Tax Act of 1981**\n- Cut individual income tax rates across the board by about 25% over three years (phased in from 1981 to 1984).\n- Lowered the top marginal income tax rate from 70% to 50%, and later the top rate fell further, to 28% by 1988 under the 1986 law.\n- Indexed tax brackets to inflation starting in 1985, so that \"bracket creep\" would not automatically push taxpayers into higher brackets.\n- Expanded depreciation allowances (the Accelerated Cost Recovery System) to encourage business investment.\n- Reduced the estate and gift tax rates and raised exemptions.\n- Introduced the All-Savers Certificate and expanded Individual Retirement Accounts (IRAs) to all workers.\n\n**Tax Reform Act of 1986**\n- Was a bipartisan effort aimed at simplifying the tax code and broadening the tax base.\n- Reduced the top individual rate to 28% and consolidated brackets into two main rates (15% and 28%, with a phase-out raising the effective rate for some high earners).\n- Eliminated or limited many tax shelters and deductions, including limits on passive losses and the investment tax credit.\n- Cut the top corporate tax rate from 46% to 34%, while partly offsetting this by closing loopholes and tightening depreciation rules.\n- Removed many low-income taxpayers from the rolls by increasing the standard deduction and personal exemptions.\n\n**Effects and debate**\n- Supporters credit the cuts with helping to end the early-1980s recession, spurring investment, and contributing to a long economic expansion, along with lower inflation.\n- Critics argue the 1981 cuts contributed substantially to rising federal budget deficits and the national debt, since revenues did not rise enough to offset them, and that the benefits flowed disproportionately to higher-income households.\n- Economists continue to debate how much the cuts stimulated growth versus how much other factors, such as Federal Reserve monetary policy under Paul Volcker, drove the recovery and disinflation.\n- Reagan later signed tax increases in 1982 and 1984 to partly offset the deficits, showing the cuts were accompanied by revenue adjustments.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 885,
+  "total_tokens": 913,
+  "cost": 0.0004453,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004453,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0004425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:51.920611+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "Q",
+ "prompt": "What were the consequences of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The famine of 1932–1933, known as the Holodomor in Ukraine, was a catastrophic human-made famine that killed an estimated 3.5 to 5 million people in Soviet Ukraine (figures vary by scholarly estimate). Its consequences were profound and lasted well beyond the immediate crisis.\n\n**Demographic consequences**\n- Millions of deaths, concentrated in rural areas, with children, the elderly, and those who had lost productive capacity among the most affected.\n- A sharp decline in birth rates, producing a \"missing generation\" whose absence was visible in population statistics for decades.\n- Long-term demographic distortion, including skewed sex ratios and disrupted family structures.\n- Significant population loss in Ukraine's rural heartland, with some villages almost entirely depopulated.\n\n**Economic and agricultural consequences**\n- Collectivized agriculture was severely damaged. Livestock losses were enormous, and draft animals in particular were slaughtered or died, hampering recovery.\n- The state's grain procurement policies, which had driven the famine, remained in place in modified forms, and rural productivity recovered only slowly.\n- Labor shortages and the weakening of the peasantry altered the rural economy for years.\n\n**Social and cultural consequences**\n- Deep, intergenerational trauma that shaped Ukrainian collective memory and national identity.\n- Widespread fear and silence. Discussing the famine was dangerous under Soviet rule, and it was denied or minimized in official Soviet histories for decades.\n- Survivors faced stigma, and cannibalism and other extreme acts recorded in some accounts left lasting psychological scars.\n- Loss of much of the rural cultural and linguistic fabric in affected regions.\n\n**Political consequences**\n- Strengthened Stalin's control over Ukraine and the Communist Party of Ukraine, which underwent purges and was brought more firmly under Moscow's direction.\n- Intensified repression, including the arrest and execution of many officials and intellectuals accused of \"nationalism.\"\n- The famine became a central element in later Ukrainian nationalist movements and in Ukraine's independence-era politics. Ukraine formally recognized it as a genocide in 2006, and a number of countries and scholars have adopted similar characterizations, though the classification remains debated among historians.\n\n**Historiographical and international consequences**\n- Western scholarship in the decades after the famine, and especially after Soviet archives opened in the 1990s, has greatly clarified its causes and death toll.\n- The famine remains a source of diplomatic tension between Ukraine and Russia, with Russia generally framing it as a tragedy affecting multiple Soviet peoples rather than as a deliberate targeting of Ukrainians.\n\nIf you're interested in a particular aspect, such as the policy causes, the death toll debates, or the memory politics, I can go into more detail.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 952,
+  "total_tokens": 988,
+  "cost": 0.0004796,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004796,
+   "upstream_inference_prompt_cost": 3.6e-06,
+   "upstream_inference_completions_cost": 0.000476
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:54.852781+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

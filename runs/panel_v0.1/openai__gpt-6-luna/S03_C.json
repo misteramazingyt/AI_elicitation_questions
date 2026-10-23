@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "C",
+ "prompt": "What were the main causes of McCarthyism in the 1950s?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "McCarthyism grew out of several overlapping fears and political conditions in the early Cold War:\n\n- **Conflict with the Soviet Union:** The USSR’s expansion in Eastern Europe, its 1949 atomic bomb test, and the communist victory in China heightened fears that communism was spreading and that the United States was falling behind.\n- **Espionage revelations:** Real cases—including the discovery of Soviet spy networks and the convictions of Alger Hiss and Julius and Ethel Rosenberg—made claims of communist infiltration seem credible to many Americans.\n- **Domestic political anxiety:** Labor unrest, earlier radical movements, and the presence of the Communist Party in the United States fed concerns that communists might influence government, unions, or cultural institutions.\n- **Fear of nuclear war:** The arms race and the Korean War made the communist threat feel immediate and existential.\n- **Political incentives:** Politicians could gain attention by accusing officials or public figures of being “soft on communism” or disloyal. Senator Joseph McCarthy exploited this atmosphere with dramatic, often unsupported allegations.\n- **Government investigations and public pressure:** Loyalty programs, congressional hearings, and blacklists—especially in government and entertainment—helped spread suspicion and made accusations costly to challenge.\n\nIn short, McCarthyism was fueled by genuine Cold War tensions and espionage concerns, but also by political opportunism and a climate in which fear often outweighed evidence.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 285,
+  "total_tokens": 307,
+  "cost": 0.0001447,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001447,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0001425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:07.324196+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

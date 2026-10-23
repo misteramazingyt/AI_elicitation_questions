@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "D",
+ "prompt": "Describe the 1883 eruption of Krakatoa.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 1883 eruption of **Krakatoa**—a volcanic island in the Sunda Strait between Java and Sumatra—was one of the most powerful eruptions in recorded history.\n\nActivity began in May 1883 and intensified through the summer. On **August 26–27**, a series of enormous explosions shattered much of the island. The final blasts were heard thousands of kilometres away; the last, on the morning of August 27, is often described as among the loudest sounds ever recorded. Ash and gas rose high into the atmosphere, and the pressure wave from the explosions circled the Earth several times.\n\nThe destruction came largely from **tsunamis**, generated as parts of the volcano collapsed into the sea. Waves struck nearby coastlines, sweeping away towns and villages. About **36,000 people died**, most from the tsunamis. Ashfall and volcanic debris also devastated the surrounding region.\n\nThe eruption collapsed much of the volcanic island and left a large underwater caldera. Fine particles spread through the atmosphere, producing vivid red and orange sunsets around the world for months. A new volcanic island, **Anak Krakatau** (“Child of Krakatoa”), later emerged in the caldera.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 312,
+  "total_tokens": 328,
+  "cost": 0.0001576,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001576,
+   "upstream_inference_prompt_cost": 1.6e-06,
+   "upstream_inference_completions_cost": 0.000156
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 63,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:45.973780+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

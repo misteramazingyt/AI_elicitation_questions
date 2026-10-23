@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "H",
+ "prompt": "How have historians interpreted Argentina's 2001 economic crisis? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians and political economists generally treat Argentina’s 2001 crisis not as a sudden collapse, but as the culmination of a decade-long system under mounting economic and political strain. They disagree about which part of that system mattered most.\n\n- **The convertibility regime was fundamentally brittle.** The 1991 plan pegged the peso to the U.S. dollar, helping end hyperinflation but restricting monetary policy. Critics argue that the peg became increasingly hard to sustain as the dollar strengthened, the economy weakened, and public and private borrowing grew. Galiani, Heymann, and Tommasi offer a nuanced account: convertibility initially delivered real gains, but those gains also made abandoning it politically and economically difficult.¹\n\n- **Debt, fiscal policy, and external shocks made the crisis more severe.** One interpretation emphasizes rising debt, recession, and the loss of access to credit. Perry and Servén describe Argentina’s troubles as a “multiple crisis,” in which vulnerabilities in the exchange-rate regime, public finances, and financial system interacted. This account cautions against explaining the collapse through a single cause, such as government overspending or an overvalued peso.²\n\n- **Political choices prolonged the crisis.** Scholars have examined why successive governments defended convertibility despite its growing costs, and why attempts to adjust it failed. The IMF’s independent evaluation criticizes both Argentine authorities and the Fund, arguing that policies and lending decisions repeatedly delayed an orderly change of course. Michael Mussa, a former IMF chief economist, likewise recounts a sequence of missed opportunities, though his account puts particular weight on Argentine policy failures.³\n\n- **The crisis was also a social and political rupture.** The *cacerolazos*, protests, looting, and “que se vayan todos” slogan reflected more than economic hardship: they signaled a collapse of trust in political representation and established institutions. Maristella Svampa links the turmoil to longer-term social exclusion and transformations associated with neoliberal reform.⁴\n\nTaken together, these interpretations suggest that the crisis arose from the interaction of a rigid exchange-rate system, debt and recession, policy mistakes, and weakening political legitimacy. The emphasis varies: economic accounts focus on the peg and financial vulnerabilities; institutional accounts on delayed decisions and failed coordination; and social accounts on the unequal costs of reform and the loss of public trust.\n\n**Sources**\n\n1. Sebastián Galiani, Daniel Heymann, and Mariano Tommasi, “Great Expectations and Hard Times: The Argentine Convertibility Plan,” *Economía* 3, no. 2 (2003): 109–160.  \n2. Guillermo E. Perry and Luis Servén, “The Anatomy of a Multiple Crisis: Why Was Argentina Special and What Can We Learn from It?” World Bank Policy Research Working Paper 3081 (2003).  \n3. IMF Independent Evaluation Office, *The IMF and Argentina, 1991–2001* (2004); Michael Mussa, *Argentina and the Fund: From Triumph to Tragedy* (Peterson Institute for International Economics, 2002).  \n4. Maristella Svampa, *La sociedad excluyente: La Argentina bajo el signo del neoliberalismo* (Taurus, 2005).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 1489,
+  "total_tokens": 1511,
+  "cost": 0.0007467,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007467,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0007445
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 822,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:59.078017+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2003 U.S.-led invasion of Iraq? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians have not settled on a single explanation for the 2003 invasion of Iraq. Their interpretations often overlap: the war can be understood at once as a response to the post-9/11 climate, an attempt to reshape the Middle East, and a disastrous occupation whose consequences were shaped by choices made after the invasion. Over time, scholarship has moved from debating why the United States went to war toward examining how the occupation transformed Iraq and the region.\n\n### 1. A preventive war shaped by 9/11—and by mistaken threat assessments\n\nOne interpretation emphasizes the shock of 9/11 and the Bush administration’s determination to prevent future attacks. In this account, officials came to see Saddam Hussein’s regime as an unacceptable potential threat, even though Iraq had no operational role in 9/11 and the case that it possessed active stockpiles of chemical or biological weapons proved wrong. The invasion was therefore a *preventive* war: it aimed to remove a possible future danger, rather than respond to an imminent attack.\n\nHistorians also stress that the intelligence failure alone does not explain the war. Officials interpreted uncertain intelligence through assumptions about Saddam’s intentions, the risks of waiting, and the possibility of reshaping Iraq. The postwar failure to find the claimed stockpiles—and later investigations into how prewar intelligence was handled—are central to this debate.¹\n\n### 2. A project to remake the Middle East\n\nA second interpretation places the invasion within a broader ideological and strategic project. Some accounts highlight neoconservative influence and the belief that removing Saddam could trigger democratic change across the region. Others see this as part of a longer U.S. effort to maintain influence and shape political order in the Middle East. In these interpretations, weapons of mass destruction were important to the public case for war, but did not fully explain the administration’s ambitions.\n\nThis perspective does not necessarily mean that every official had the same motive, or that oil alone explains the invasion. Rather, it directs attention to the larger goals—regional influence, security, and political transformation—that made regime change attractive to different members of the administration. Rashid Khalidi, for example, interprets the invasion through the history of U.S. power in the Middle East, while Andrew Bacevich places it in a longer history of American military intervention in the region.²\n\n### 3. A war whose consequences were shaped by occupation policy\n\nA substantial body of work focuses less on the decision to invade than on what followed. It examines the dismantling of Iraqi institutions, the disbanding of the army, de-Ba’athification, the failure to establish security, and the decisions and limitations of the occupation authorities. These choices, scholars argue, helped create conditions in which insurgency, political fragmentation, and sectarian violence could grow.\n\nThis interpretation does not treat Iraqis as passive recipients of U.S. policy. Iraqi political actors, communities, and armed groups pursued their own aims, and regional powers also affected events. But it rejects explanations that treat post-invasion violence as simply the eruption of ancient or inevitable sectarian divisions. Iraq’s political history and the decisions of both Iraqi and foreign actors matter.³\n\n### 4. Competing judgments about the war’s wider significance\n\nSome interpretations emphasize the damage the invasion did to U.S. credibility, the international order, and American claims about promoting democracy. Others stress the fall of Saddam Hussein’s dictatorship and debate whether that outcome can be separated from the enormous costs of the war and occupation. The disagreement is partly about evidence and partly about what counts as the central historical question: the administration’s intentions, the legality and justification of the war, the experience of Iraqis, or the long-term regional consequences.\n\n**In brief:** a useful synthesis is that the invasion grew from post-9/11 threat perceptions and ambitions for regime change, while the occupation’s failures and Iraqis’ own political struggles shaped the war’s disastrous course. Historians differ over which of those elements deserves the greatest weight.\n\n### Selected sources\n\n1. Melvyn P. Leffler, “The Foreign Policies of the George W. Bush Administration: A Post-9/11 Appraisal,” *Diplomatic History* 37, no. 2 (2013), pp. 190–216; U.S. Senate Select Committee on Intelligence, *Report on the U.S. Intelligence Community’s Prewar Intelligence Assessments on Iraq* (2004), with the committee’s additional findings in 2008.  \n2. Rashid Khalidi, *Resurrecting Empire: Western Footprints and America’s Perilous Path in the Middle East* (Beacon Press, 2004); Andrew J. Bacevich, *America’s War for the Greater Middle East: A Military History* (Random House, 2016).  \n3. Toby Dodge, *Iraq: From War to a New Authoritarianism* (Routledge, 2012); Phebe Marr and Ibrahim al-Marashi, *The Modern History of Iraq*, 4th ed. (Routledge, 2017); Charles Tripp, *A History of Iraq*, 3rd ed. (Cambridge University Press, 2007). For a detailed account of the occupation’s failures, see Rajiv Chandrasekaran, *Imperial Life in the Emerald City* (Knopf, 2006).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 1951,
+  "total_tokens": 1977,
+  "cost": 0.0009781,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009781,
+   "upstream_inference_prompt_cost": 2.6e-06,
+   "upstream_inference_completions_cost": 0.0009755
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 843,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:32.041201+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

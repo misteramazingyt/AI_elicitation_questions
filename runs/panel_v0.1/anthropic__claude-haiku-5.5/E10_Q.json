@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1984–85 UK miners' strike, led by Arthur Scargill's National Union of Mineworkers (NUM) against the Conservative government of Margaret Thatcher and the National Coal Board's plans for pit closures, ended in defeat for the union after about a year. Its consequences were far-reaching:\n\n**Industrial and economic consequences**\n- **Pit closures:** The government's programme went ahead. Around 150 pits were closed in the following years, and the number of miners fell from roughly 180,000 at the start of the strike to under 10,000 by the late 1990s and eventually a few thousand.\n- **Collapse of mining communities:** Former coalfield areas in South Wales, Yorkshire, Scotland, the North East, and the Midlands suffered long-term unemployment, falling population, poor health outcomes, and social deprivation. Many of these areas struggled to diversify their economies.\n- **Energy policy:** The strike accelerated the shift away from coal toward gas, nuclear, and later North Sea gas and imports, and it reinforced the government's willingness to rely on market-driven energy policy.\n\n**Trade union consequences**\n- **Weakened unions:** The defeat significantly reduced the power of trade unions in Britain. It contributed to a broader decline in union membership and strike activity over the following decades.\n- **Legal restrictions:** The Conservative government passed successive Employment Acts (1980, 1982, 1984, and later 1988 and 1990) that restricted secondary picketing, required secret ballots, and limited union immunities. The government also used the courts and sequestration of union funds, and the NUM was hit with heavy fines and legal action.\n- **Divisions within the NUM:** The strike split the union. Notably, the Nottinghamshire area and some others refused to strike, and a breakaway Union of Democratic Mineworkers was formed. Bitter divisions lasted for years.\n- **Leadership debate:** Scargill's leadership was heavily criticised, both by opponents who saw the strike as politically motivated and by some within the labour movement who felt it was poorly planned, particularly for failing to hold a national ballot.\n\n**Political and social consequences**\n- **Thatcher's government strengthened:** The defeat was a major triumph for Thatcher and her government, which saw it as a decisive victory over the most powerful trade union in Britain. It helped cement a wider policy agenda of privatisation, deregulation, and reduced union power.\n- **Labour's political realignment:** The strike exposed tensions in the Labour Party and the wider left. Neil Kinnock's leadership distanced Labour from the militant left, and the party's subsequent \"modernisation\" under Kinnock, Smith, and Blair owed something to the lessons drawn from the dispute.\n- **Public and social divisions:** The strike was marked by violent clashes between police and pickets, most notoriously at Orgreave in June 1984. It left lasting bitterness in mining communities and deep political polarisation. Policing and the use of police powers during industrial disputes were subjects of ongoing controversy.\n- **Cultural legacy:** The strike has been extensively depicted in film, music, literature, and art, and it remains a symbol in debates about industrial change, class, and the role of the state.\n\n**Later developments**\n- In 2012, the South Yorkshire Police's role at Orgreave and the Hillsborough-style debates resurfaced, and a 2016 government apology and compensation process covered some miners arrested during the strike. Fuller reckoning with the strike's legacy continues to shape political debate.\n\nIn short, the strike's defeat marked a turning point: it accelerated deindustrialisation, reshaped the trade union movement, and helped define the political and economic settlement of the following decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 1237,
+  "total_tokens": 1268,
+  "cost": 0.0006216,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006216,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.0006185
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:08.925298+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

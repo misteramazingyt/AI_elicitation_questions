@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2020 George Floyd protests?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 2020 protests after George Floyd’s killing had wide-ranging effects, though they did not produce a single, lasting national overhaul of policing. Their consequences included:\n\n- **Greater attention to racism and policing.** The protests made police violence and racial inequality central topics in public debate, news coverage, workplaces, schools, and politics. They also prompted renewed scrutiny of other killings and of the history of monuments and institutions.\n- **Some local and state reforms.** Jurisdictions adopted measures such as limits on chokeholds and no-knock warrants, requirements to intervene or report misconduct, body-camera rules, and changes to police training or oversight. The scope and enforcement of these changes varied, and some were later weakened or reversed.\n- **A national reform effort that stalled.** Congress considered the George Floyd Justice in Policing Act, but it did not become law. Proposals to redirect some funding from police to social services—often summarized as “defund the police”—became politically prominent, but broad, lasting budget shifts were limited.\n- **Legal accountability in Floyd’s case.** Former officer Derek Chauvin was convicted of murder and manslaughter in 2021. The case was widely seen as an exceptional instance of criminal accountability, rather than proof that accountability had become routine.\n- **Changes in public opinion and institutional behavior.** Support for racial-justice causes rose sharply in 2020, and many companies, universities, and nonprofits announced diversity initiatives or donations. Some organizations later scaled back or refocused those efforts.\n- **A political backlash and sharper polarization.** The protests influenced campaigns and policy debates, including disputes over crime, policing, race education, and protest tactics. Some demonstrations were peaceful; others involved property damage, clashes, or looting, which also shaped public reactions.\n- **International effects.** Demonstrations and debates over police violence, racism, and colonial history spread to many countries, sometimes connecting Floyd’s killing to local issues and prompting reviews of monuments and public institutions.\n\nOverall, the protests elevated demands for racial justice and prompted concrete changes in some places, but many larger goals—especially comprehensive federal policing reform—remained unmet, and the period also generated substantial political resistance.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 544,
+  "total_tokens": 563,
+  "cost": 0.0002739,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002739,
+   "upstream_inference_prompt_cost": 1.9e-06,
+   "upstream_inference_completions_cost": 0.000272
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 94,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:41.927053+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

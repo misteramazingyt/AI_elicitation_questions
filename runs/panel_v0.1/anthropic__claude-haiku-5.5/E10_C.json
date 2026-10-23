@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "C",
+ "prompt": "What were the main causes of the UK miners' strike of 1984-1985?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The 1984–1985 UK miners' strike, led by Arthur Scargill's National Union of Mineworkers (NUM) against the Conservative government of Margaret Thatcher, had several interrelated causes:\n\n**1. Pit closure programme.** In March 1984, the National Coal Board (NCB) announced the closure of 20 collieries with the loss of around 20,000 jobs, with more closures expected. The NUM saw this as the start of a broader plan to shrink the industry, and the government's plans were widely interpreted as a deliberate reduction in mining capacity.\n\n**2. Economic rationale versus social consequences.** The government and NCB argued that many pits were uneconomic and that coal was costing more to produce than it was worth, especially compared with imported coal and other energy sources. The NUM countered that closures were politically motivated and that many pits were viable, and it emphasised the devastating social cost to mining communities.\n\n**3. Political ideology.** Thatcher's government was committed to reducing state subsidies to nationalised industries, weakening trade union power, and reshaping the economy along free-market lines. Many on the left and within the NUM viewed the dispute as a confrontation with the government over the direction of the country.\n\n**4. Lack of a national ballot.** The NUM leadership, under Scargill, called the strike without a national ballot of members. Many miners in areas such as Nottinghamshire, and the Union of Democratic Mineworkers that later formed, opposed striking on this basis. This split was a major factor in the strike's failure to gain universal support.\n\n**5. Preparation by the government and NCB.** The government had built up coal stocks at power stations, and it had prepared contingency plans to keep power supplies running. This reduced the miners' ability to disrupt the energy supply.\n\n**6. Memories of earlier disputes.** The 1972 and 1974 strikes had successfully pressured Conservative governments (Heath's in particular), and Thatcher was determined not to be defeated the same way. The 1981 strike was averted when the government backed down, and the subsequent Battle of Orgreave in June 1984 and policing tactics became symbols of the state's readiness to confront the union.\n\n**7. Use of policing and legal measures.** Police were deployed in large numbers from forces across the country, and the government used laws on picketing and sequestration of union funds to restrict the strikers' activities.\n\nThe strike lasted about a year and ended in March 1985 with the miners returning to work without a deal, a significant defeat for the NUM. It was followed by a large programme of pit closures over the next decade.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 841,
+  "total_tokens": 872,
+  "cost": 0.0004236,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004236,
+   "upstream_inference_prompt_cost": 3.1e-06,
+   "upstream_inference_completions_cost": 0.0004205
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:08.400417+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

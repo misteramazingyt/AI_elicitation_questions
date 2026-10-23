@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "H",
+ "prompt": "How have historians interpreted the IRS's handling of tax-exempt applications from political groups (2010-2013)? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "There is **not yet a settled historical consensus** on the IRS episode. The events are recent, and much of the evidence-based interpretation comes from inspectors general, congressional investigations, and legal scholars rather than a mature body of historical scholarship. The main interpretive distinction is between **improper screening and delay**, which investigations established, and **deliberate partisan direction**, which they did not establish.\n\n### What the investigations found\n\nFrom 2010 to 2012, IRS staff used names and terms such as “Tea Party,” “Patriots,” and “9/12” to flag some applications for tax-exempt status for extra review. The Treasury Inspector General for Tax Administration (TIGTA) found that using those terms as screening criteria was inappropriate and that applications were subjected to lengthy delays and burdensome questions. TIGTA also found that the screening process was poorly managed and that some applications from other kinds of groups were reviewed. Its report did **not**, however, establish that the screening had been ordered by the White House or directed by senior IRS officials to harm Republicans.  \n**Source:** TIGTA, *Inappropriate Criteria Were Used to Identify Tax-Exempt Applications for Review*, May 14, 2013, [Report 2013-10-053](https://www.tigta.gov/sites/default/files/reports/2022-02/201310053fr.pdf).\n\nSubsequent investigations sharpened that distinction. A House Oversight Committee report criticized the IRS’s conduct and management, while a Justice Department investigation announced in 2015 that it had found no evidence warranting criminal charges. Those conclusions are not identical: the absence of evidence for a criminally directed scheme does not undo TIGTA’s finding that the screening criteria and process were improper.  \n**Sources:** House Committee on Oversight and Government Reform, *The IRS: Targeting Americans for Their Political Beliefs* (2014); U.S. Department of Justice, statement on the IRS investigation, October 23, 2015.\n\n### How the episode is usually interpreted\n\n1. **A serious administrative failure.** The clearest, least disputed interpretation is that the IRS used crude labels to triage a growing and difficult workload, then failed to supervise the process, communicate with applicants, or resolve cases promptly. TIGTA’s findings support this account, though they do not make the screening acceptable.\n\n2. **A problem rooted in ambiguity about political activity and tax exemption.** The controversy arose partly because “social welfare” organizations under section 501(c)(4) could engage in some political activity, while the boundary between permitted activity and campaign intervention was contested. As political spending by nonprofit groups grew, the IRS faced a difficult enforcement question without clear, consistently applied rules. This helps explain why the issue became larger than the handling of a few applications; it does not excuse using political-sounding keywords as a proxy for review.\n\n3. **A politically powerful account of government overreach.** Many conservatives interpreted the episode as evidence that federal agencies were being used against political opponents. That interpretation had a lasting political effect even though investigations did not substantiate a White House-directed operation. Historians of recent U.S. politics are likely to treat this as part of the wider story of polarization and the rise of the Tea Party, rather than as proof of a centrally coordinated political campaign.\n\n**In short:** the strongest evidence supports an account of **improper screening, delay, and weak administration**. Claims of deliberate partisan direction became central to the political debate, but the major investigations did not establish that higher-level scheme. The longer-term historical question is how ambiguity in campaign-finance and nonprofit rules, combined with political polarization, made an administrative failure so consequential.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 1728,
+  "total_tokens": 1761,
+  "cost": 0.0008673,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008673,
+   "upstream_inference_prompt_cost": 3.3e-06,
+   "upstream_inference_completions_cost": 0.000864
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 968,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:17.610598+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2020 George Floyd protests? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians have not settled on a single interpretation of the 2020 George Floyd protests. The scholarship is still developing, and some of the most influential accounts come from political scientists and sociologists as well as historians. A few recurring interpretations stand out:\n\n1. **A rupture that was also part of a much longer history.**  \n   Floyd’s killing became a catalyst for an extraordinary wave of protest, but historians generally resist treating the protests as a sudden or isolated event. Elizabeth Hinton places them in a longer history of police violence, Black protest, and urban rebellion, arguing that accounts of “riots” often obscure the grievances and political choices that produced them. The protests also grew out of earlier organizing—especially the movement that took shape after Trayvon Martin’s killing and the 2014 protests in Ferguson.  \n   *Sources:* Elizabeth Hinton, *America on Fire: The Untold History of Police Violence and Black Rebellion Since the 1960s* (Liveright, 2021); Barbara Ransby, *Making All Black Lives Matter: Reimagining Freedom in the Twenty-First Century* (University of California Press, 2018); Keeanga-Yamahtta Taylor, *From #BlackLivesMatter to Black Liberation* (Haymarket Books, 2016).\n\n2. **A distinctive, decentralized movement—not simply a rerun of the civil-rights era.**  \n   The protests drew on older traditions of Black activism but differed from familiar accounts of the 1950s and 1960s: organizing was spread across many local groups, there was no single national leader, and social media helped people coordinate and circulate evidence of police violence. Deva Woodly interprets Black Lives Matter as a movement that not only demands policy changes but also challenges who gets to define democracy and political legitimacy.  \n   *Sources:* Deva R. Woodly, *Reckoning: Black Lives Matter and the Democratic Necessity of Social Movements* (Oxford University Press, 2021); Ransby, *Making All Black Lives Matter*.\n\n3. **A major multiracial mobilization, with debates over what that coalition meant.**  \n   The protests were remarkable for their reach beyond Black communities and for drawing participants in cities and towns across the United States. That breadth is often read as evidence that the killing resonated with a wider public. But historians and other scholars caution that participation did not necessarily mean agreement on the movement’s goals: calls to reform or defund police, and more sweeping abolitionist demands, were not interchangeable.  \n   *Sources:* Woodly, *Reckoning*; Taylor, *From #BlackLivesMatter to Black Liberation*. For analysis of protest participation and organizing in the broader 2020 wave, see Dana R. Fisher, *American Resistance: From the Women’s March to the Blue Wave* (Columbia University Press, 2019), read alongside her research on subsequent protest activity.\n\n4. **An uprising whose results remain contested.**  \n   Interpretations differ over whether the protests produced lasting change. They shifted public discussion, put police violence and racial inequality at the center of national politics, and prompted some local changes. But many proposed reforms did not become permanent policy, and the protests also provoked political backlash. The historical question is therefore not just whether the protests “succeeded,” but which effects endured, for whom, and how they compare with the consequences of earlier protest waves. Omar Wasow’s study of 1960s protest is useful for understanding why protest can affect public opinion and electoral politics in complicated—and sometimes unintended—ways.  \n   *Source:* Omar Wasow, “Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting,” *American Political Science Review* 114, no. 3 (2020): 638–659, https://doi.org/10.1017/S000305542000009X.\n\n**In short:** historians tend to see the 2020 protests as both a dramatic national rupture and an episode in a much longer history of Black organizing, police violence, and resistance. They disagree more about the protests’ lasting political effects and the relative weight of reformist, abolitionist, and electoral interpretations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 1775,
+  "total_tokens": 1797,
+  "cost": 0.0008897,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008897,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0008875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 899,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:42.406111+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

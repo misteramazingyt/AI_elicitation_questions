@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "In **Dobbs v. Jackson Women’s Health Organization (2022)**, the Supreme Court upheld Mississippi’s ban on most abortions after 15 weeks and overturned **Roe v. Wade** and **Planned Parenthood v. Casey**. The main reasons were:\n\n- **The majority found no constitutional right to abortion.** Writing for the Court, Justice Samuel Alito argued that the Constitution does not mention abortion and that a right to abortion is not deeply rooted in the nation’s history and tradition. The majority therefore rejected the earlier decisions’ protection of abortion under the Fourteenth Amendment’s right to privacy and liberty.\n- **It considered Roe and Casey wrongly decided.** The majority said Roe lacked a sound constitutional basis and that Casey’s viability rule—generally barring abortion bans before a fetus could survive outside the womb—was unworkable.\n- **It concluded precedent should be overruled.** The Court applied its usual factors for reconsidering precedent, including whether a ruling was well reasoned, workable, and had produced reliance interests. The majority found those factors supported overturning Roe and Casey.\n- **It returned abortion regulation to elected governments.** Under the majority’s approach, abortion laws would generally be reviewed under a deferential “rational basis” standard, rather than protected by a federal constitutional right.\n\nThe case arose because Mississippi’s 15-week law directly conflicted with Roe and Casey, which protected abortion access before viability. The Court’s changed membership—after appointments by Presidents George W. Bush and Donald Trump—also made overruling those precedents possible. The three dissenting justices argued that the Constitution’s protection of liberty should include the right to decide whether to continue a pregnancy, and warned that the ruling would undermine women’s equality and bodily autonomy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 474,
+  "total_tokens": 504,
+  "cost": 0.00024,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00024,
+   "upstream_inference_prompt_cost": 3e-06,
+   "upstream_inference_completions_cost": 0.000237
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 110,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:18.805236+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

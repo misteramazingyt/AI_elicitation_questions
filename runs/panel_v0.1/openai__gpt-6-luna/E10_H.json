@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "H",
+ "prompt": "How have historians interpreted the UK miners' strike of 1984-1985? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians have treated the 1984–85 miners’ strike not simply as a dispute over pit closures, but as a turning point in industrial relations and a test of the power of the Thatcher government. The main interpretations differ over what drove the defeat: the state’s preparation and use of power, the National Union of Mineworkers’ strategy and divisions, or deeper economic and social change.\n\n### 1. A confrontation between the union and the state\n\nOne influential interpretation sees the strike as a political contest in which the government and the National Coal Board were unusually well prepared to defeat the NUM. Historians and commentators have examined the importance of coal stocks, policing, legal action and the government’s determination not to repeat the disruption of the 1970s. Huw Beynon’s contemporary collection, *Digging Deeper: Issues in the Miners’ Strike* (1985), documents how the dispute was experienced and contested while it was happening.\n\nSeumas Milne’s *The Enemy Within* (1994) makes the strongest case that the government and security services waged a coordinated campaign against the miners. It remains an important source for this interpretation, but its claims and evidential basis have been disputed. A more cautious account treats state preparation and policing as central without assuming that every aspect of the outcome was predetermined.\n\n### 2. Union strategy and internal divisions\n\nAnother line of interpretation focuses on the NUM itself: its leadership, tactics and ability to maintain solidarity across different coalfields. Andrew Richards’s *Miners on Strike: Class Solidarity and Division in Britain* (1996) examines both the solidarity the strike generated and the divisions that weakened it. The absence of a national ballot, the effectiveness of picketing, and the continued working of many miners in Nottinghamshire are often discussed as consequential choices and fractures—not as explanations that, by themselves, make the defeat inevitable.\n\nThis approach also helps explain why the strike’s course varied so much by region. Jim Phillips’s *Collieries, Communities and the Miners’ Strike in Scotland, 1984–85* (2012), for example, shows how local industrial and political histories shaped participation and support.\n\n### 3. Structural decline and Thatcherism\n\nA broader political-economic interpretation places the dispute within the decline of the British coal industry and the transformation of the economy under Thatcher. On this view, the strike was both a conflict over particular closures and a struggle over whether a powerful industrial union could resist the restructuring of a declining industry. Richard Vinen’s *Thatcher’s Britain: The Politics and Social Upheaval of the 1980s* (2009) situates the strike within wider changes in British politics and society.\n\nThis perspective cautions against explaining the outcome solely by the government’s actions or the NUM’s mistakes. Coal faced long-term pressures, but historians still debate how much closure was economically unavoidable and how much was a political choice about the pace and terms of industrial change.\n\n### 4. Communities, gender and the meaning of solidarity\n\nSocial historians have widened the story beyond union leaders and picket lines. The strike affected households and entire communities, and women’s organising—through support groups, fundraising and public campaigning—became a major part of the dispute. Jean Spence and Carol Stephenson’s article “Side by Side with Our Men? Women’s Activism, Community, and Gender in the 1984–1985 British Miners’ Strike” (*International Labor and Working-Class History*, 75, 2009) explores how women’s activism both drew on community solidarity and challenged conventional ideas about gender and political participation.\n\n### Overall\n\nTaken together, these interpretations present the strike as a **multifaceted defeat**: a major confrontation with a state determined and equipped to prevail; a test of NUM strategy and internal unity; and a turning point in the decline of organised industrial labour. Historians disagree about the relative weight of those factors. They also distinguish between the strike’s immediate defeat and its longer legacy: the weakening of union power, the lasting effects on mining communities, and the political experience built through local solidarity.\n\n**Selected sources**\n\n- Beynon, Huw, ed. *Digging Deeper: Issues in the Miners’ Strike*. 1985.  \n- Milne, Seumas. *The Enemy Within: The Secret War Against the Miners*. 1994.  \n- Phillips, Jim. *Collieries, Communities and the Miners’ Strike in Scotland, 1984–85*. 2012.  \n- Richards, Andrew. *Miners on Strike: Class Solidarity and Division in Britain*. 1996.  \n- Spence, Jean, and Carol Stephenson. “Side by Side with Our Men? Women’s Activism, Community, and Gender in the 1984–1985 British Miners’ Strike.” *International Labor and Working-Class History* 75 (2009).  \n- Vinen, Richard. *Thatcher’s Britain: The Politics and Social Upheaval of the 1980s*. 2009.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 1998,
+  "total_tokens": 2025,
+  "cost": 0.0010017,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0010017,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.000999
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 960,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:53.465536+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

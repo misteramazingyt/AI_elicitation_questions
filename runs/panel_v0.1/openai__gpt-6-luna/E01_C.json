@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "C",
+ "prompt": "What were the main causes of the New Deal (1933-1939)?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The New Deal was a response to the economic and political crisis of the Great Depression. Its main causes were:\n\n- **Mass unemployment and poverty:** After the 1929 stock-market crash, businesses closed, incomes fell, and millions of Americans lost their jobs and homes.\n- **Banking and financial collapse:** Bank failures wiped out savings, while weak regulation and falling confidence made it difficult for businesses and households to obtain credit.\n- **A worsening economic spiral:** Falling demand led to more business failures and job losses, while deflation and debt made recovery harder.\n- **Dissatisfaction with the Hoover administration:** Many voters believed President Herbert Hoover’s response was inadequate. Franklin D. Roosevelt won the 1932 election promising a “New Deal” and stronger federal action.\n- **Pressure for reform and relief:** Farmers, workers, and the unemployed demanded help, while many Americans also wanted reforms to prevent another financial disaster.\n\nThe New Deal, launched from 1933, aimed to provide **relief**, promote **economic recovery**, and reform the system. The severe drought and Dust Bowl added to the hardship, especially in the mid-to-late 1930s.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 301,
+  "total_tokens": 323,
+  "cost": 0.0001527,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001527,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0001505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 61,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.604801+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

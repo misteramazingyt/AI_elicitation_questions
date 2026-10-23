@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "D",
+ "prompt": "Describe the passage of the Civil Rights Act of 1964.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The Civil Rights Act of 1964 emerged from years of activism against segregation and discrimination, intensified by events such as the Birmingham campaign and the March on Washington. In June 1963, President John F. Kennedy asked Congress to pass a major civil rights bill. After Kennedy’s assassination that November, President Lyndon B. Johnson made the bill a priority, urging Congress to honor Kennedy’s commitment.\n\nThe bill passed the House on February 10, 1964, by a vote of 290–130. In the Senate, Southern opponents mounted a lengthy filibuster. On June 10, supporters secured cloture—the first time the Senate had successfully used it to end debate on a civil rights bill—and the Senate passed the measure on June 19, by 73–27. The House then accepted the Senate’s version, and Johnson signed the act into law on July 2, 1964.\n\nThe law barred discrimination in public accommodations and many federally funded programs, authorized the federal government to pursue school desegregation, and prohibited employment discrimination based on race, color, religion, sex, or national origin. It was a landmark federal intervention, though further laws were needed to strengthen voting rights and address continuing discrimination.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 555,
+  "total_tokens": 574,
+  "cost": 0.0002794,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002794,
+   "upstream_inference_prompt_cost": 1.9e-06,
+   "upstream_inference_completions_cost": 0.0002775
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 301,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:02.469958+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

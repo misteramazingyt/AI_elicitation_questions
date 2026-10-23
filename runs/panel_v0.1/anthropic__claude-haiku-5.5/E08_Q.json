@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "Q",
+ "prompt": "What were the consequences of the Great Depression?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Great Depression (roughly 1929 to the late 1930s, with recovery uneven until World War II) had consequences that reshaped economies, politics, and societies worldwide.\n\n**Economic consequences**\n- **Massive unemployment:** In the United States unemployment peaked near 25%, and in some countries it was higher. Millions lost jobs, savings, homes, and farms.\n- **Bank failures:** Thousands of banks collapsed, especially in the U.S. between 1930 and 1933, wiping out depositors' savings and shrinking the money supply.\n- **Deflation and collapse in trade:** Prices and wages fell, debts grew heavier in real terms, and global trade contracted sharply, partly due to protectionist measures like the U.S. Smoot-Hawley Tariff (1930).\n- **Business and agricultural collapse:** Industrial output fell dramatically, and farm incomes plummeted, causing hardship in rural areas.\n\n**Government and policy changes**\n- **The New Deal (U.S.):** Franklin D. Roosevelt's programs created jobs (Works Progress Administration, Civilian Conservation Corps), provided relief, regulated banking and securities (FDIC, SEC, Glass-Steagall), and built a social safety net (Social Security, unemployment insurance, labor protections such as the right to collective bargaining).\n- **Expanded role of the state:** The depression helped establish the principle that governments should actively manage economic downturns, a shift popularized by John Maynard Keynes's ideas about deficit spending and demand management.\n- **Abandoning the gold standard:** Countries that left gold earlier generally recovered sooner, a lesson economists later emphasized.\n- **Welfare states:** Many countries, including the UK (with its post-war reforms) and Scandinavian nations, expanded public welfare systems in response.\n\n**Political consequences**\n- **Rise of extremism:** Economic despair helped fuel the rise of fascism and authoritarian movements, most notably the Nazis in Germany, who gained strong electoral support as unemployment soared. Militarism grew in Japan, and authoritarian regimes strengthened in parts of Europe and Latin America.\n- **Erosion of democratic confidence:** In many countries, faith in liberal democracy and parliamentary government weakened.\n- **International tensions:** Economic nationalism, competition for resources and markets, and weakened international cooperation contributed to the conditions leading to World War II.\n\n**Social consequences**\n- **Hardship and migration:** Families suffered poverty, homelessness, and malnutrition. Many people migrated in search of work, such as the Dust Bowl migrants moving to California.\n- **Changed attitudes:** The experience shaped a generation's values, emphasizing financial caution and, in many countries, greater support for government assistance.\n- **Impact on families and fertility:** Many couples delayed marriage and having children, and divorce and family breakups sometimes increased as economic strain grew.\n\n**Long-term legacy**\n- The depression led to new institutions and tools, including modern financial regulation, deposit insurance, and macroeconomic policy frameworks.\n- It influenced postwar international economic architecture, such as the Bretton Woods system, the IMF, and the World Bank, created in 1944 to prevent a repeat of the interwar collapse.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 1107,
+  "total_tokens": 1129,
+  "cost": 0.0005557,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005557,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0005535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:04.289059+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

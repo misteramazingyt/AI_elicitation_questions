@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "C",
+ "prompt": "What were the main causes of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Holodomor (1932–1933) in Soviet Ukraine, along with the concurrent famine in Kazakhstan and parts of Russia, resulted from a combination of policy choices, structural conditions, and political decisions. Historians debate the relative weight of these factors, particularly whether the famine was primarily intended to target Ukrainians, but the main causes most often identified are:\n\n**1. Collectivization of agriculture**\nStalin's forced collectivization drove peasants into collective farms (kolkhozy). Many peasants resisted by slaughtering livestock, destroying crops, and hiding grain. The process was brutal, and it disrupted production and the traditional farming economy. Peasants who were labeled \"kulaks\" (a loosely defined category of \"wealthy\" peasants) were deported, imprisoned, or killed.\n\n**2. Unrealistic and escalating grain procurement quotas**\nThe state set very high grain requisition targets to finance rapid industrialization and to export grain for hard currency. In 1932 the quotas for Ukraine were set at levels that left insufficient grain for seed and food. Authorities continued seizing grain even as shortages became evident. The \"law of five spikelets\" (August 1932) made theft of collective property punishable by death or long imprisonment, and was used to prosecute even gleaning.\n\n**3. Bad harvests and natural conditions**\nPoor weather and harvest problems in 1931–1932 reduced output, though the scale of the famine was driven far more by requisitioning than by the harvest shortfall alone.\n\n**4. Export policy**\nGrain was exported even during the famine to earn foreign currency for industrial imports. Ukraine, one of the Soviet Union's most productive grain regions, was particularly hard hit.\n\n**5. Administrative and political measures against Ukraine**\n- Ukrainian party and government structures were purged in 1932–1933 for alleged \"nationalist deviation\" and failure to meet quotas.\n- Restrictions on movement were imposed: internal passports were withheld from peasants, and in late 1932–early 1933 authorities blocked villages on blacklists (the \"blacklist\" system) from receiving goods, and sealed borders to prevent starving peasants from leaving Ukraine in search of food.\n- Cultural and national policies (the \"Ukrainianization\" of the 1920s was reversed) fed suspicions that Ukrainian national sentiment was a threat to Moscow's control.\n\n**6. Ideological and political factors**\nStalin's government viewed peasant resistance as class warfare and sabotage, and was reluctant to acknowledge the scale of the crisis. Officials who reported famine conditions were often accused of disloyalty. Relief was limited, and when some aid was granted it was insufficient.\n\n**Debate over intent**\nMany Ukrainian and Western historians (and some governments, including the European Parliament and several national legislatures) regard the Holodomor as a genocide, arguing that the policies were deliberately aimed at breaking Ukrainian national resistance. Others, including some Russian and Western scholars, argue that the famine was a catastrophic result of collectivization and industrialization policies applied across the USSR without a specific intent to destroy Ukrainians, while acknowledging the harshness applied in Ukraine. Estimates of deaths in Ukraine generally range from roughly 3.5 to 5 million.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 1113,
+  "total_tokens": 1149,
+  "cost": 0.0005601,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005601,
+   "upstream_inference_prompt_cost": 3.6e-06,
+   "upstream_inference_completions_cost": 0.0005565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:53.531721+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "C",
+ "prompt": "What were the main causes of the 1948 Arab-Israeli war?",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "The 1948 Arab–Israeli War grew out of a longer conflict over land, national self-determination, and the end of British rule in Palestine. It had two closely connected phases: fighting between Jewish and Arab communities after November 1947, followed by war between Israel and neighboring Arab states after Israel declared independence in May 1948.\n\nThe main causes were:\n\n- **Competing national movements:** Jews and Palestinian Arabs both sought political self-determination in the same territory. Jewish immigration and land purchases, especially under the British Mandate, intensified Arab fears of displacement and loss of political control.\n- **The end of the British Mandate:** Britain’s withdrawal left the question of who would govern Palestine unresolved, amid escalating violence and no agreed transfer of power.\n- **The UN partition plan:** In November 1947, the UN proposed dividing Palestine into Jewish and Arab states, with Jerusalem under international administration. Jewish leaders accepted the plan as a basis for statehood; Palestinian Arab leaders and Arab governments rejected it, arguing that partition unjustly allocated land and ignored the wishes of the Arab majority. Fighting began soon afterward.\n- **Civil war and displacement:** Before Israel’s declaration of independence, Jewish and Arab forces fought over territory, roads, and towns. The fighting caused large-scale flight and expulsions of Palestinians; by the war’s end, hundreds of thousands had become refugees. This displacement was both a consequence of the conflict and a lasting source of grievance.\n- **Israel’s declaration and neighboring states’ intervention:** On May 14, 1948, Israel declared independence. The next day, forces from Egypt, Transjordan, Syria, Iraq, and Lebanon entered the former Mandate territory. Their governments opposed Israel’s creation, though they had different aims and were not acting as a fully unified coalition.\n\nIn short, the war was triggered by the collapse of British rule and rejection of the UN partition plan, but its deeper causes lay in the collision of Jewish and Palestinian Arab national claims and the struggle over sovereignty and territory.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 519,
+  "total_tokens": 541,
+  "cost": 0.0002617,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002617,
+   "upstream_inference_prompt_cost": 2.2e-06,
+   "upstream_inference_completions_cost": 0.0002595
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 102,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:27.120079+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

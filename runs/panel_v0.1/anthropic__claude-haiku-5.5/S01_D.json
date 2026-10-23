@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "D",
+ "prompt": "Describe the passage of the Civil Rights Act of 1964.",
+ "model_requested": "anthropic/claude-haiku-5.5",
+ "model_served": "anthropic/claude-haiku-5.5",
+ "provider": "Claude Platform on AWS",
+ "response": "The Civil Rights Act of 1964 was one of the most significant pieces of federal civil rights legislation in U.S. history. Its passage unfolded over roughly a year and involved intense political maneuvering.\n\n**Background and proposal**\nPresident John F. Kennedy proposed civil rights legislation in June 1963, amid widespread protests, including the Birmingham campaign and the March on Washington in August 1963. After Kennedy's assassination in November 1963, President Lyndon B. Johnson made passage of the bill a priority, invoking Kennedy's memory and urging Congress to act.\n\n**House action**\nThe bill was introduced in the House and advanced through the Judiciary Committee, chaired by Emanuel Celler, which added provisions and reshaped the measure. In February 1964, the House passed it by a 290–130 vote. Several Republicans supported it, while a majority of Southern Democrats opposed it.\n\n**Senate filibuster**\nThe bill faced its greatest obstacle in the Senate. Southern Democrats, led by senators such as Richard Russell of Georgia, mounted a filibuster that lasted 57 working days, the longest in Senate history at that time. Opponents argued the bill infringed on states' rights, property rights, and freedom of association.\n\nSupporters, led by Majority Leader Mike Mansfield and Minority Leader Everett Dirksen, worked to build a coalition. Dirksen's support was especially important in securing Republican votes. Negotiations produced a substitute version of the bill, which was designed to address concerns while preserving its core provisions. Key figures in the coalition-building included Hubert Humphrey, who managed the bill on the Senate floor, and Thomas Kuchel, a Republican leader. Advocacy by civil rights organizations and public pressure also played a role.\n\n**Cloture and final passage**\nIn June 1964, the Senate invoked cloture, ending the filibuster, by a vote of 71–29, the first successful cloture vote on a civil rights bill since Reconstruction. The Senate then passed the amended bill, and the House agreed to the Senate version. Johnson signed the Civil Rights Act into law on July 2, 1964.\n\n**Content**\nThe law prohibited discrimination based on race, color, religion, sex, or national origin in public accommodations, employment, and federally funded programs. It also created the Equal Employment Opportunity Commission and strengthened enforcement mechanisms.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 802,
+  "total_tokens": 831,
+  "cost": 0.0004039,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004039,
+   "upstream_inference_prompt_cost": 2.9e-06,
+   "upstream_inference_completions_cost": 0.000401
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:58:18.323812+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

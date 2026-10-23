@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "D",
+ "prompt": "Describe the FBI's COINTELPRO program.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "**COINTELPRO**—short for **Counterintelligence Program**—was a series of covert FBI operations conducted mainly from **1956 to 1971**. Under Director J. Edgar Hoover, the FBI aimed not merely to monitor groups it considered threats, but to **disrupt, discredit, and weaken** them.\n\nThe program targeted a wide range of organizations and movements, including the Communist Party, socialist groups, the Ku Klux Klan and other white supremacist organizations, Black civil-rights and Black nationalist groups, Puerto Rican independence advocates, and anti–Vietnam War activists. The FBI often treated lawful protest and political organizing as security threats.\n\nIts tactics included infiltrating organizations, spreading false or damaging information, sending anonymous letters, encouraging internal disputes, pressuring employers and institutions, and conducting intrusive surveillance. Some operations were intended to damage people’s reputations or break up groups; they went beyond ordinary investigation and violated civil liberties.\n\nCOINTELPRO became public in **1971**, after activists burglarized an FBI office in Media, Pennsylvania, and passed stolen documents to the press. Subsequent investigations, especially the Senate **Church Committee** in the 1970s, documented abuses and prompted new rules and oversight. The FBI formally ended COINTELPRO in 1971, though debates over government surveillance and political policing have continued.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 426,
+  "total_tokens": 442,
+  "cost": 0.0002146,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002146,
+   "upstream_inference_prompt_cost": 1.6e-06,
+   "upstream_inference_completions_cost": 0.000213
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 147,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:13.807583+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "D",
+ "prompt": "Describe Argentina's 2001 economic crisis.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Argentina’s 2001 economic crisis was the culmination of a severe recession, mounting debt, and a failing currency system. It caused a sovereign default, a banking panic, mass protests, and a dramatic change in government.\n\n**How it developed:** In 1991, Argentina had pegged the peso to the U.S. dollar at one-to-one under the *Convertibility Plan*. The arrangement helped end hyperinflation and brought initial stability, but it also made the peso increasingly uncompetitive as the dollar strengthened. By the late 1990s, Argentina was in recession. The country faced high unemployment, weak tax revenues, heavy public debt, and limited room to stimulate the economy while maintaining the peg. External shocks—including Brazil’s 1999 currency devaluation—added pressure.\n\n**The breaking point:** In 2001, investors lost confidence that Argentina could keep servicing its debt and defend the peso. Capital fled, and people rushed to withdraw money from banks. The government restricted withdrawals and transfers in December in measures known as the *corralito*. These restrictions intensified public anger. Protests and riots followed, and President Fernando de la Rúa resigned on December 20. Argentina soon suspended payments on much of its public debt—the largest sovereign default to that point.\n\n**Aftermath:** In early 2002, the government abandoned the one-to-one peg and devalued the peso. The economy contracted sharply, and poverty and unemployment rose; many people saw their savings and incomes lose value. Argentina’s political crisis also deepened, with several presidents serving in quick succession. The economy eventually began to recover, helped by a cheaper currency, stronger exports, and a rebound in demand, but the crisis left lasting damage and remained contested in debates over debt, exchange-rate policy, and the costs of economic adjustment.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 481,
+  "total_tokens": 496,
+  "cost": 0.000242,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000242,
+   "upstream_inference_prompt_cost": 1.5e-06,
+   "upstream_inference_completions_cost": 0.0002405
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 111,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:57.260619+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "H",
+ "prompt": "How have historians interpreted the Supreme Court's 1973 decision in Roe v. Wade? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians have generally treated *Roe v. Wade* not as an isolated judicial breakthrough, but as a turning point produced by—and reshaping—decades of debate over abortion, medicine, women’s rights, and constitutional liberty. They differ, however, over how much weight to give the Court itself, the activists and lawyers who brought the case, and the political reaction that followed.\n\n- **A culmination of earlier change.** Leslie J. Reagan places *Roe* against a long history of criminal abortion laws and their enforcement. Her account shows that abortion had never simply disappeared under prohibition: women, doctors, and others navigated a complicated and unequal system. In this view, the ruling was a major legal break, but not the beginning of abortion politics or a complete solution to its dangers and inequities.¹\n\n- **Part of a broader privacy and civil-liberties story.** David J. Garrow traces *Roe* to earlier constitutional arguments about privacy, sexuality, and personal autonomy, as well as to the lawyers and litigants who developed them. This interpretation presents the decision as the culmination of a wider legal campaign, rather than a sudden act by the justices.²\n\n- **A consequential but limited victory for women’s rights.** Linda Greenhouse and Reva B. Siegel’s collection of pre-*Roe* documents emphasizes that the debate had included claims about women’s equality and bodily autonomy, not only medical judgment or privacy. The Court’s opinion, however, grounded the right chiefly in the Fourteenth Amendment’s protection of liberty and privacy. Historians and legal historians have therefore noted a tension: *Roe* protected a significant choice, but its reasoning did not make women’s equal citizenship the central constitutional basis for that protection.³\n\n- **A change in politics, but not a simple cause of the anti-abortion movement.** The decision became a powerful focus for political mobilization. But historians caution against the tidy story that *Roe* single-handedly created the movement or immediately produced the modern Republican coalition. Mary Ziegler’s history stresses that abortion debate and organizing were more varied before and after 1973 than later accounts often suggest. Daniel K. Williams likewise traces the Christian Right’s political development over time, rather than treating it as an instant response to the ruling.⁴\n\n- **A right whose practical reach remained unequal.** Legal protection did not guarantee equal access to abortion. Cost, geography, medical control, and later restrictions shaped who could exercise the right. Reagan’s history and Rickie Solinger’s work on reproductive politics both help situate *Roe* within broader inequalities in reproductive health and policy.⁵\n\nOverall, historians tend to see *Roe* as both a landmark and a contingent settlement: it transformed constitutional law and national politics, but it emerged from older struggles, reflected particular legal arguments, and left major disputes about access and equality unresolved.\n\n**Sources**\n\n1. Leslie J. Reagan, *When Abortion Was a Crime: Women, Medicine, and Law in the United States, 1867–1973* (University of California Press, 1997).  \n2. David J. Garrow, *Liberty and Sexuality: The Right to Privacy and the Making of Roe v. Wade* (University of California Press, 1994).  \n3. Linda Greenhouse and Reva B. Siegel, eds., *Before Roe v. Wade: Voices That Shaped the Abortion Debate Before the Supreme Court’s Ruling* (Kaplan, 2010).  \n4. Mary Ziegler, *After Roe: The Lost History of the Abortion Debate* (Harvard University Press, 2015); Daniel K. Williams, *God’s Own Party: The Making of the Christian Right* (Oxford University Press, 2010).  \n5. Rickie Solinger, *Pregnancy and Power: A Short History of Reproductive Politics in America* (New York University Press, 2005).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1831,
+  "total_tokens": 1859,
+  "cost": 0.0009183,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009183,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0009155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1004,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:57:18.027423+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

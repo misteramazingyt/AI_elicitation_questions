@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "H",
+ "prompt": "How have historians interpreted the famine during China's Great Leap Forward (1959-1961)? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians generally interpret the Great Leap Forward famine as a **man-made catastrophe in which radical economic policies and an authoritarian political system turned harvest failures into mass starvation**. They differ, however, over the relative weight of particular policies, how directly Mao and other leaders were responsible, and how many people died.\n\n### From “natural disaster” to policy failure\n\nFor years, the Chinese government described the famine chiefly as the result of “three years of natural disasters,” while also acknowledging policy mistakes. Historical research has increasingly challenged explanations that give weather the leading role. Poor harvests and adverse weather mattered, but scholars argue that they cannot explain the scale and distribution of the famine on their own.\n\nThe policies most often identified include the creation of people’s communes, the diversion of rural labor into steelmaking and other projects, inflated harvest reports, and state grain procurement that continued even when local food supplies were inadequate. In this account, the Great Leap’s targets and reporting system encouraged officials to exaggerate output, while political pressure made it dangerous to report hunger or resist procurement.\n\nEconomic historians Li and Yang emphasize how central planning and distorted incentives produced disastrous resource allocation. Kung and Lin examine how the political and institutional setting shaped the famine’s severity. Meng, Qian, and Yared argue that a highly centralized system helped sustain excessive grain procurement: local officials had weak incentives and little scope to protect their populations by withholding grain.\n\n### Politics, coercion, and responsibility\n\nA second major line of interpretation stresses that famine was not simply a consequence of mistaken economic planning. Scholars including Yang Jisheng and Frank Dikötter describe a political system in which officials concealed bad news, punished dissent, and enforced procurement and restrictions on movement even as people starved. Their work, drawing on Chinese records and other evidence, gives particular weight to coercion and to the leadership’s failure to reverse course promptly.\n\nThere is debate about how to characterize that responsibility. Some accounts emphasize disastrous policies and institutional failure; others argue that leaders continued policies despite mounting evidence of mass hunger and thus bear a more direct responsibility. That does not mean historians generally describe the famine as a centrally planned effort to kill people. The dispute is more often about how much the leadership knew, when it knew it, and how far it knowingly prioritized political or economic objectives over relieving starvation.\n\n### How many died?\n\nEstimates vary substantially because records are incomplete and researchers use different methods. A frequently cited demographic study by Ashton and colleagues estimated about **30 million excess deaths**. Dikötter gives a substantially higher estimate—at least **45 million premature deaths**—using a broader evidentiary approach. These figures should not be treated as directly comparable: researchers differ over the period counted, the baseline used to calculate excess deaths, and whether they include deaths from violence and other causes associated with the famine. Fertility also fell sharply, so the demographic impact went beyond deaths alone.\n\n### Overall interpretation\n\nThe broad scholarly view is that weather and harvest conditions contributed to the crisis, but that **the scale of mortality resulted chiefly from political and economic decisions, compounded by censorship, coercion, and the inability of local communities to respond**. Historians continue to debate the precise death toll and the balance between Mao’s personal decisions, central institutions, and local implementation.\n\n**Selected sources**\n\n- Ashton, Basil, Kenneth Hill, Alan Piazza, and Robin Zeitz. “Famine in China, 1958–61.” *Population and Development Review* 10, no. 4 (1984): 613–645.\n- Dikötter, Frank. *Mao’s Great Famine: The History of China’s Most Devastating Catastrophe, 1958–62*. Walker & Company, 2010.\n- Kung, James Kai-sing, and Justin Yifu Lin. “The Causes of China’s Great Leap Famine, 1959–1961.” *Economic Development and Cultural Change* 52, no. 1 (2003): 51–73.\n- Li, Wei, and Dennis Tao Yang. “The Great Leap Forward: Anatomy of a Central Planning Disaster.” *Journal of Political Economy* 113, no. 4 (2005): 840–877.\n- Meng, Xin, Nancy Qian, and Pierre Yared. “The Institutional Causes of China’s Great Famine, 1959–1961.” *The Review of Economic Studies* 82, no. 4 (2015): 1568–1611.\n- Wemheuer, Felix. *Famine Politics in Maoist China and the Soviet Union*. Yale University Press, 2014.\n- Yang, Jisheng. *Tombstone: The Great Chinese Famine, 1958–1962*. Translated by Stacy Mosher and Guo Jian. Farrar, Straus and Giroux, 2012.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1613,
+  "total_tokens": 1641,
+  "cost": 0.0008093,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008093,
+   "upstream_inference_prompt_cost": 2.8e-06,
+   "upstream_inference_completions_cost": 0.0008065
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 619,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.715216+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

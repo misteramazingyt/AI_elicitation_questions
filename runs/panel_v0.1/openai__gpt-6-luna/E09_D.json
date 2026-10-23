@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "D",
+ "prompt": "Describe Britain's Winter of Discontent (1978-1979).",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Britain’s **Winter of Discontent** was a wave of strikes and industrial disputes in the winter of **1978–79**, during the Labour government led by **James Callaghan**. It became a symbol of economic disorder and weakened public confidence in the government.\n\nThe disputes grew out of years of high inflation and falling real wages. To curb inflation, Labour had sought to limit pay rises—initially through voluntary agreements and later through a guideline of about **5%**. Many workers felt this restraint was unfair, particularly after private-sector settlements exceeded the guideline. When the government refused to allow larger rises for public-sector workers, strikes spread.\n\nAmong those involved were lorry drivers, local-government workers, and NHS staff. Some local-authority strikes disrupted rubbish collection; in Liverpool, striking gravediggers caused a backlog of burials, though claims that the dead were simply left unburied were exaggerated. The disputes did not involve all workers or bring the whole country to a halt, but their effects were highly visible.\n\nThe crisis damaged Labour politically. In January 1979, Callaghan returned from an overseas summit and disputed the impression of chaos. The *Sun* famously turned his remarks into the headline **“Crisis? What Crisis?”**—a phrase often attributed to him, though he did not actually say those exact words. In March, the government lost a parliamentary vote of confidence by one vote, prompting a general election. Margaret Thatcher’s Conservatives won in May 1979.\n\nThe Winter of Discontent was therefore both an industrial conflict over pay and a political turning point. Its vivid images helped shape public perceptions of Britain as difficult to govern, though later accounts sometimes magnified the extent of the disruption.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 490,
+  "total_tokens": 509,
+  "cost": 0.0002469,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002469,
+   "upstream_inference_prompt_cost": 1.9e-06,
+   "upstream_inference_completions_cost": 0.000245
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 138,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:51.141858+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "H",
+ "prompt": "How have historians interpreted the famine in Soviet Ukraine in 1932-1933? Please cite sources.",
+ "model_requested": "openai/gpt-6-luna",
+ "model_served": "openai/gpt-6-luna",
+ "provider": "OpenAI",
+ "response": "Historians broadly agree that the 1932–33 famine was catastrophic, that Soviet policies were central to it, and that Stalin’s government knew people were starving and continued to enforce grain requisitions. The main debate is over **intent**: was the famine a deliberately engineered genocide against Ukrainians, or a famine produced by coercive policies whose brutality was not designed specifically to destroy the Ukrainian people? Many historians take positions between those poles.\n\n### The famine as deliberate genocide\n\nRobert Conquest’s *The Harvest of Sorrow* (1986) was an influential account arguing that Stalin’s policies deliberately starved the Ukrainian peasantry and amounted to genocide. After the opening of Soviet archives, historians such as Stanislav Kulchytsky and Timothy Snyder continued to emphasize intentionality, while grounding their arguments in newly available evidence.\n\nAnne Applebaum’s *Red Famine: Stalin’s War on Ukraine* (2017) argues that the famine became a means of suppressing Ukrainian national life. She stresses not only grain seizures, but also the 1932–33 measures that intensified pressure on Ukraine: the blacklisting of villages, restrictions on peasants leaving the republic in search of food, and a crackdown on Ukrainian cultural and political institutions. In this interpretation, the famine’s origins and development were bound up with Stalin’s determination to crush both peasant resistance and Ukrainian national aspirations.\n\nSome scholars distinguish between an initial intention to cause a famine and a later decision to use famine conditions as a weapon. On this view, even if the famine was not planned from the outset as a program of mass killing, Soviet leaders knowingly intensified and exploited it in Ukraine.\n\n### The famine as the result of coercive policy, without a specific genocidal plan\n\nR. W. Davies and Stephen G. Wheatcroft, in *The Years of Hunger: Soviet Agriculture, 1931–1933* (2004), argue that famine resulted from a combination of disastrous collectivization, excessive procurement demands, disrupted agriculture and poor harvests. They reject the claim that Stalin set out to kill Ukrainians as a national group, while holding Soviet policy responsible for the scale and severity of the catastrophe.\n\nMark B. Tauger has also questioned whether the evidence supports a plan to cause famine, emphasizing harvest shortfalls and the difficulties of reconstructing agricultural production from Soviet records. His work is part of a wider debate over how much weight to give environmental and production factors. Critics of this approach argue that such factors cannot explain away the state’s continued confiscations and restrictions once mass starvation was known.\n\n### A distinctive Ukrainian dimension within a wider Soviet famine\n\nA further interpretation places Ukraine in the context of the famine across the Soviet Union, which also struck regions including Kazakhstan, the North Caucasus and the Volga basin. Historians such as Hiroaki Kuromiya have examined both the famine’s wider Soviet setting and the particular political pressures in Ukraine. On this account, the famine was not confined to Ukrainians, but the actions taken in Ukraine—including the sealing of borders and the repression of Ukrainian institutions—gave it a distinct national and political dimension.\n\n### What is relatively settled—and what remains disputed\n\nThere is substantial agreement that the famine was **not simply a natural disaster**: collectivization, forced requisitions and other state policies made it far worse, and the government obstructed many people’s efforts to find food. The sharpest disagreement concerns whether this amounts to genocide in the historical sense: whether Stalin’s government intended to destroy Ukrainians as a national group, or whether its primary aims were political control and the extraction of grain, with mass death accepted as a consequence.\n\nThe disagreement is partly about evidence and partly about how historians define and infer intent. Historians often assess intent from policies and their effects, rather than from a single written order. The famine is commonly called the **Holodomor**; the term’s use as a historical description is widespread, though interpretations of its intent differ.\n\n### Selected sources\n\n- Robert Conquest, *The Harvest of Sorrow: Soviet Collectivization and the Terror-Famine* (1986).\n- R. W. Davies and Stephen G. Wheatcroft, *The Years of Hunger: Soviet Agriculture, 1931–1933* (2004).\n- Mark B. Tauger, “The 1932 Harvest and the Famine of 1933,” *Slavic Review* 50, no. 1 (1991).\n- Anne Applebaum, *Red Famine: Stalin’s War on Ukraine* (2017).\n- Timothy Snyder, *Bloodlands: Europe Between Hitler and Stalin* (2010).\n- Hiroaki Kuromiya, *Freedom and Terror in the Donbas: A Ukrainian-Russian Borderland, 1870s–1990s* (1998), which provides context for the region and its political history.\n- Raphael Lemkin, “Soviet Genocide in Ukraine” (1953; published in *Holodomor: Reflections on the Great Famine of 1932–1933 in Soviet Ukraine*, 2009), an influential legal and political argument for understanding the famine as genocide.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 1500,
+  "total_tokens": 1527,
+  "cost": 0.0007527,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007527,
+   "upstream_inference_prompt_cost": 2.7e-06,
+   "upstream_inference_completions_cost": 0.00075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 451,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T20:56:41.640426+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}
