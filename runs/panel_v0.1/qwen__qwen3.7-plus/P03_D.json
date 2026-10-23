@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "D",
+ "prompt": "Describe the discovery of penicillin.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The discovery of penicillin is one of the most famous and consequential events in the history of medicine. It marked the dawn of the antibiotic age, transforming fatal bacterial infections into easily treatable conditions and saving countless millions of lives. \n\nHowever, the story of penicillin is not just about a single \"eureka\" moment; it is a multi-decade saga of observation, collaboration, and industrial ingenuity.\n\nHere is the story of the discovery and development of penicillin.\n\n### 1. The \"Accidental\" Discovery (1928)\nThe story begins with **Alexander Fleming**, a Scottish bacteriologist working at St. Mary’s Hospital in London. In the summer of 1928, Fleming was researching *Staphylococcus*, the bacteria responsible for boils and blood poisoning. Before leaving for a two-week vacation, he stacked several petri dishes containing bacterial cultures on a bench.\n\nWhen he returned in September, he began sorting through the dishes to see which ones could be salvaged. He noticed that one dish had been contaminated by a stray mold spore. However, instead of the mold simply growing alongside the bacteria, there was a clear, halo-like ring around the mold where the bacteria had been destroyed. \n\nFleming’s genius lay not in the accident itself, but in his recognition of its significance. He later wrote, *\"When I woke up just after dawn on September 28, 1928, I certainly didn't plan to revolutionise all medicine... but I suppose that was exactly what I did.\"*\n\nHe identified the mold as belonging to the *Penicillium* genus (specifically *Penicillium notatum*) and named the active antibacterial substance **\"penicillin.\"** \n\n### 2. The \"Lost\" Decade (1928–1938)\nDespite the profound implications of his discovery, Fleming could not turn penicillin into a usable drug. The active ingredient was highly unstable, difficult to isolate, and broke down quickly. Lacking the chemical expertise to purify it, Fleming published his findings in 1929 but eventually moved on to other research. For a decade, penicillin remained a scientific curiosity, largely ignored by the broader medical community.\n\n### 3. The Oxford Team and Development (1938–1941)\nThe true transformation of penicillin from a laboratory oddity to a life-saving drug was driven by a team at Oxford University, led by Australian pathologist **Howard Florey** and German-born biochemist **Ernst Chain**. In 1938, they began systematically screening natural substances for antibacterial properties and stumbled upon Fleming’s forgotten 1929 paper.\n\nFlorey and Chain, along with a brilliant young biochemist named **Norman Heatley**, took up the challenge. Heatley developed a crucial method to extract and purify penicillin using ether and back-extraction into water. \n\nIn **May 1940**, the team conducted a landmark experiment. They infected eight mice with a lethal dose of streptococcus. Four were left untreated and died; the four treated with penicillin survived. This proved that penicillin was not only effective in a petri dish but also safe and effective inside a living body (*in vivo*).\n\nThe first human trial took place in early 1941 on Albert Alexander, a police officer with a severe, life-threatening facial infection. After being treated with penicillin, his condition dramatically improved. Tragically, the team did not have enough of the drug to sustain him; when the supply ran out, the infection returned, and he died. This proved the drug worked in humans, but highlighted the desperate need for mass production.\n\n### 4. The American Connection and Mass Production (1941–1944)\nWith Britain under heavy bombardment during World War II, Florey and Heatley traveled to the United States in 1941 to seek help with mass production. They set up a laboratory in Peoria, Illinois, at the USDA’s Northern Regional Research Laboratory.\n\nTwo massive breakthroughs occurred in Peoria:\n*   **The \"Moldy Mary\" Cantaloupe:** A laboratory assistant named Mary Hunt (nicknamed \"Moldy Mary\") was tasked with finding better strains of mold in the local markets. She brought in a moldy cantaloupe found at a market. The mold on it, *Penicillium chrysogenum*, produced **200 times more penicillin** than Fleming’s original strain.\n*   **Deep-Tank Fermentation:** Chemical engineer **Margaret Hutchinson Rousseau** designed a process to grow the mold in deep tanks of \"corn steep liquor\" (a byproduct of corn milling) rather than in shallow bottles. This allowed for the industrial-scale production of the drug.\n\nBy **D-Day in June 1944**, Allied pharmaceutical companies were producing enough penicillin to treat all severe casualties among the Allied forces. It drastically reduced the death rate from infected wounds and gangrene, which had been the primary killer in previous wars.\n\n### 5. Legacy and the Nobel Prize\nIn **1945**, Alexander Fleming, Howard Florey, and Ernst Chain were jointly awarded the Nobel Prize in Physiology or Medicine for the discovery of penicillin and its curative effect in various infectious diseases. (Norman Heatley was nominated but was not awarded the prize, as the Nobel committee limits the award to a maximum of three individuals).\n\n**The Impact:**\nPenicillin fundamentally altered the trajectory of human history. It made complex surgeries, organ transplants, and chemotherapy possible by protecting patients from secondary infections. It contributed significantly to the massive spike in global life expectancy in the mid-20th century.\n\n**A Modern Caveat:**\nFleming himself warned in his 1945 Nobel acceptance speech about the danger of under-dosing penicillin, which could lead to \"microbes\" becoming resistant to the drug. Today, **antimicrobial resistance** is one of the greatest threats to global health, serving as a sobering reminder that the miracle of penicillin must be protected through responsible use.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 2725,
+  "total_tokens": 2743,
+  "cost": 0.00349376,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00349376,
+   "upstream_inference_prompt_cost": 5.76e-06,
+   "upstream_inference_completions_cost": 0.003488
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1422,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:28:39.634289+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

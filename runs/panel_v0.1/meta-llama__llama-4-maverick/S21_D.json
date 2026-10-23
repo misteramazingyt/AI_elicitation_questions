@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "D",
+ "prompt": "Describe the Immigration Act of 1924.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Immigration Act of 1924, also known as the Johnson-Reed Act, was a federal law passed in the United States that significantly restricted immigration to the country. The law was enacted on May 26, 1924, and it had a profound impact on the demographics of the United States.\n\nKey provisions of the Immigration Act of 1924:\n\n1. **Quota system**: The law established a quota system that limited the number of immigrants allowed to enter the United States based on their country of origin. The quota was set at 2% of the total number of people from a particular country who were already living in the United States as of the 1890 census.\n2. **Annual immigration limit**: The total number of immigrants allowed to enter the United States was capped at 165,000 per year.\n3. **Country-specific quotas**: The quotas were allocated based on the number of people from each country who were already living in the United States. Countries with larger populations in the United States, such as the United Kingdom and Germany, were allocated larger quotas.\n4. **Preference for Northern and Western Europeans**: The law effectively favored immigration from Northern and Western Europe, as the quotas were based on the 1890 census, which reflected the demographics of the United States before large-scale immigration from Southern and Eastern Europe.\n5. **Restrictions on Asian immigration**: The law also prohibited immigration from countries in the \"Asiatic Barred Zone,\" which included most of Asia, including China, Japan, and India.\n6. **Exemptions**: Certain groups were exempt from the quotas, including wives and unmarried children of U.S. citizens, as well as immigrants from countries in the Western Hemisphere.\n\nConsequences of the Immigration Act of 1924:\n\n1. **Reduced immigration**: The law significantly reduced the number of immigrants entering the United States, from around 800,000 in 1921 to around 150,000 in 1925.\n2. **Shift in immigrant demographics**: The law led to a shift in the demographics of immigrants, with a greater proportion coming from Northern and Western Europe, and fewer from Southern and Eastern Europe.\n3. **Increased anti-immigrant sentiment**: The law reflected and reinforced anti-immigrant sentiment in the United States, which was fueled by concerns about the perceived cultural and economic impacts of immigration.\n4. **Long-term impact**: The Immigration Act of 1924 had a lasting impact on U.S. immigration policy, shaping the country's approach to immigration for decades to come.\n\nThe Immigration Act of 1924 was a significant piece of legislation that reflected the nativist and isolationist sentiments of the time. It was eventually repealed and replaced by the Immigration and Nationality Act of 1965, which abolished the quota system and opened up immigration to the United States to people from a wider range of countries.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 580,
+  "total_tokens": 599,
+  "cost": 0.0003820125,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003820125,
+   "upstream_inference_prompt_cost": 3.5625e-06,
+   "upstream_inference_completions_cost": 0.00037845
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:50.972711+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "D",
+ "prompt": "Describe McCarthyism in the 1950s.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "**McCarthyism** refers to the wave of intense anti-communist suspicion, investigation, and political repression in the United States during the early Cold War, especially from about **1950 to 1954**. It is named after **Senator Joseph McCarthy**, a Republican from Wisconsin, but it was part of a broader “Second Red Scare” that also involved the House Un-American Activities Committee (HUAC), federal loyalty programs, and anti-communist laws.\n\nAfter World War II, fears of Soviet expansion, the “loss” of China, the Soviet atomic bomb, and espionage cases such as Alger Hiss and the Rosenbergs created a climate of anxiety. President Truman’s federal loyalty program in 1947 and HUAC’s investigations—especially into Hollywood—helped set the stage. McCarthy burst into national prominence in **February 1950** with a speech in Wheeling, West Virginia, claiming that the State Department employed known communists. Although he never produced solid evidence, his accusations attracted enormous publicity.\n\nAs chair of the Senate Permanent Subcommittee on Investigations, McCarthy held hearings, bullied witnesses, and used **guilt by association**, insinuation, and unsupported charges. People accused of communist ties faced loyalty boards, blacklists, loss of jobs, and social ostracism. Targets included government employees, teachers, academics, union activists, entertainment figures, and even the U.S. Army. Many witnesses invoked the Fifth Amendment, which was often treated as an admission of guilt. Some people were prosecuted under the Smith Act, and Julius and Ethel Rosenberg were executed in 1953.\n\nMcCarthy’s power peaked and then collapsed in **1954**. The televised **Army–McCarthy hearings** exposed his bullying tactics to a national audience. Edward R. Murrow’s *See It Now* broadcasts also criticized him. In December 1954, the Senate censured McCarthy for conduct unbecoming a senator. He lost influence and died in 1957.\n\nThe broader impact of McCarthyism was a climate of fear and conformity that ruined careers and reputations, chilled political dissent, and narrowed public debate. At the same time, anti-communist concern was not entirely imaginary—Soviet espionage was real—but McCarthy’s methods and many of his accusations were reckless, unfair, and damaging. Today, “McCarthyism” is often used to mean making unfounded accusations of disloyalty or subversion for political gain.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 1290,
+  "total_tokens": 1330,
+  "cost": 0.00092647,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00092647,
+   "upstream_inference_prompt_cost": 4.12e-06,
+   "upstream_inference_completions_cost": 0.00092235
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 784,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:11:27.156751+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

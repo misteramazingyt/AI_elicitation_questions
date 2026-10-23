@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "C",
+ "prompt": "What were the main causes of the Great Depression?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "Parasail",
+ "response": "The Great Depression, which lasted from 1929 to the late 1930s, was a global economic downturn that was caused by a combination of factors. The main causes of the Great Depression can be summarized as follows:\n\n1. **Stock Market Crash of 1929**: The stock market crash of 1929 is often seen as the trigger that set off the Great Depression. On Black Tuesday, October 29, 1929, stock prices plummeted, leading to a massive loss of wealth for investors and a sudden contraction in economic activity.\n2. **Overproduction and Underconsumption**: In the 1920s, there was a surge in industrial production and a rise in consumer debt. However, many Americans were unable to afford the goods being produced, leading to a mismatch between supply and demand.\n3. **Credit Crisis**: Many Americans had bought stocks on margin (using borrowed money), and when the stock market crashed, they were unable to pay back their loans. This led to a credit crisis, as banks and other lenders found themselves with large amounts of bad debt.\n4. **Banking System**: The banking system at the time was fragile and lacked effective regulation. Many banks had invested heavily in the stock market and had loaned money to speculators. When the stock market crashed, these banks found themselves with large losses, leading to widespread bank failures.\n5. **Protectionist Trade Policies**: The passage of the Smoot-Hawley Tariff Act in 1930, which raised tariffs on imported goods, is also seen as a contributing factor to the Great Depression. The act led to retaliatory measures from other countries, resulting in a sharp decline in international trade.\n6. **Monetary Policy**: The Federal Reserve, the central bank of the United States, raised interest rates in 1928 and 1929 to combat perceived inflation and speculation in the stock market. This reduced borrowing and spending, contributing to the economic downturn.\n7. **Global Economic Conditions**: The global economy was already facing challenges in the late 1920s, including a decline in agricultural prices and a slowdown in international trade.\n8. **Wealth Inequality**: The wealthiest 1% of Americans held a disproportionate amount of wealth, leading to a lack of consumer spending power among the broader population.\n\nThese factors combined to create a perfect storm that led to the Great Depression, a period of economic hardship that lasted for over a decade and had far-reaching consequences for individuals, businesses, and governments around the world.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 513,
+  "total_tokens": 533,
+  "cost": 0.00052,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00052,
+   "upstream_inference_prompt_cost": 7e-06,
+   "upstream_inference_completions_cost": 0.000513
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:03:17.005971+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

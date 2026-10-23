@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "D",
+ "prompt": "Describe Venezuela's economic crisis since 2013.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Venezuela's Economic Crisis Since 2013\n\nVenezuela's crisis is one of the worst economic collapses of a major economy in modern history, developing under Presidents Nicolás Maduro (after Hugo Chávez's death in 2013).\n\n## Causes\n\n- **Oil dependence**: Oil provided ~95% of export earnings. Maduro inherited a state oil company (PDVSA) already hollowed out by underinvestment and political patronage.\n- **Oil price collapse (2014–2016)**: Crude prices fell dramatically, gutting government revenue.\n- **Currency and price controls**: Fixed exchange rates, subsidies, and price controls created shortages, black markets, and massive distortions.\n- **Money printing**: To cover deficits, the central bank monetized spending, fueling hyperinflation.\n- **Expropriations and mismanagement**: Nationalizations, corruption, and the dismantling of PDVSA's expertise cut oil output from ~3 million barrels/day (2000s) to under 700,000 by 2019–2020.\n\n## Key Features\n\n- **Hyperinflation**: Inflation reached an estimated 1.7 million percent in 2018 and remained in the hundreds or thousands of percent for years. The bolívar lost virtually all value, requiring repeated redenominations (removing 14 zeros total by 2021).\n- **GDP collapse**: The economy shrank by roughly 75–80% between 2013 and 2020—a contraction deeper than the Great Depression.\n- **Humanitarian crisis**: Widespread shortages of food and medicine, an estimated 7.7 million+ Venezuelans leaving the country (one of the largest displacement crises globally), collapsing healthcare, and rising poverty (around 80% by some measures).\n- **Social unrest**: Major protests in 2014, 2017, and 2019 were met with harsh repression.\n\n## Political Dimension\n\nMaduro's 2018 re-election was widely considered fraudulent, and Juan Guaidó was recognized as interim president by the U.S. and many allies (2019). U.S. and international sanctions, particularly on oil exports (2017–2019), worsened the government's access to revenue—though the economic collapse was largely underway before sanctions.\n\n## Partial Stabilization (2019–present)\n\nThe government liberalized the economy (\"radical dollarization\" de facto), allowing dollar transactions and private imports. Inflation slowed from quadruple digits to double/triple digits, GDP began recovering from 2021, aided by rising oil production and easing sanctions. However, poverty remains extreme, the banking system is weak, and the recovery is fragile. The 2024 presidential election, disputed by the opposition, returned Maduro to power amid continued sanctions tensions.\n\nThe crisis remains unresolved: Venezuela today is far poorer than a decade ago, with deep structural damage and continued emigration.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 591,
+  "total_tokens": 613,
+  "cost": 0.000231948,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000231948,
+   "upstream_inference_prompt_cost": 2.64e-06,
+   "upstream_inference_completions_cost": 0.000229308
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:32.786465+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

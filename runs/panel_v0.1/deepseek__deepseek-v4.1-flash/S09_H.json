@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "H",
+ "prompt": "How have historians interpreted the Supreme Court's 1973 decision in Roe v. Wade? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "Historians do not treat *Roe v. Wade*, 410 U.S. 113 (1973), as having a single meaning. The historiography has moved from top-down constitutional-law accounts toward social, political, gender, and medical history. Major interpretations include:\n\n1. **A constitutional landmark extending privacy doctrine.** Legal historians often place *Roe* in a line from *Griswold v. Connecticut* (1965), treating it as a culmination of due-process privacy and bodily-autonomy jurisprudence—but also as a controversial, judicially crafted compromise with its trimester framework and viability line. See David J. Garrow, *Liberty and Sexuality: The Right to Privacy and the Making of Roe v. Wade* (1994); Linda Greenhouse & Reva B. Siegel, *Before Roe v. Wade* (2010).\n\n2. **A product of social movements and medical/legal reform, not a sudden court invention.** Historians emphasize decades of abortion-law reform, feminist activism, medical-professional change, and litigation before 1973. Leslie J. Reagan, *When Abortion Was a Crime* (1997), and James C. Mohr, *Abortion in America* (1978), show that *Roe* built on longer histories of criminalization, medical authority, and reform. Rickie Solinger’s *Beggars and Choosers* (2001) adds class and race dimensions.\n\n3. **A contingent, contested nationalization of abortion politics.** Mary Ziegler, *After Roe: The Lost History of the Abortion Debate* (2015), argues that *Roe* did not create the abortion debate from scratch; it reorganized and nationalized already-existing conflicts. Greenhouse and Siegel’s “Before (and After) *Roe v. Wade*: New Questions About Backlash,” 120 *Yale Law Journal* 2028 (2011), challenges the simple claim that *Roe* caused immediate backlash, showing that polarization was already developing and was shaped by activists and institutions.\n\n4. **A catalyst for backlash and political realignment—but with debated causation.** Historians of conservatism and religion often see *Roe* as a key symbol and mobilizing tool for the pro-life movement and the religious right, though they disagree about timing and causality. Ziegler’s *After Roe* and Greenhouse & Siegel’s backlash article are central here. Kristin Luker, *Abortion and the Politics of Motherhood* (1984), shows how grassroots activists on both sides constructed competing worldviews around abortion.\n\n5. **A limited “privacy” framework with gendered and racial critiques.** Feminist legal historians argue that *Roe*’s privacy rationale centered medical authority and individual choice while leaving questions of equality, access, and reproductive justice underdeveloped. See Reva B. Siegel, “Reasoning from the Body: A Historical Perspective on Abortion Regulation and Questions of Equal Protection,” 44 *Stanford Law Review* 261 (1992); Dorothy Roberts, *Killing the Black Body* (1997); Solinger, *Beggars and Choosers*.\n\n6. **A legitimacy controversy in constitutional history.** Historians and legal scholars often frame *Roe* through the debate over judicial review and countermajoritarian difficulty. John Hart Ely’s “The Wages of Crying Wolf: A Comment on *Roe v. Wade*,” 82 *Yale Law Journal* 920 (1973), is a classic critique; Jack M. Balkin’s *What Roe v. Wade Should Have Said* (2005) collects alternative constitutional visions. Historians use these debates to explain how *Roe* became a symbol in fights over courts, democracy, and federalism.\n\nIn short, historians generally see *Roe* as both a genuine constitutional landmark and a historically contingent event: it extended privacy doctrine, reflected and accelerated social movements, nationalized abortion politics, and became a durable symbol in conflicts over gender, religion, medicine, race, and judicial authority.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 52,
+  "completion_tokens": 2710,
+  "total_tokens": 2762,
+  "cost": 0.001641756,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001641756,
+   "upstream_inference_prompt_cost": 1.5756e-05,
+   "upstream_inference_completions_cost": 0.001626
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1871,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:14:26.017813+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

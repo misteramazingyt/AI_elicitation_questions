@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "H",
+ "prompt": "How have historians interpreted the New Deal (1933-1939)? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "Historians have interpreted the New Deal in various ways, reflecting changing perspectives and emphases over time. Here are some of the major interpretations, along with relevant sources:\n\n1. **Liberal/Progressive Interpretation**: Early historians, such as Arthur Schlesinger Jr. (1957) and William Leuchtenburg (1963), viewed the New Deal as a heroic response to the Great Depression, a bold experiment that saved capitalism and reformed American society. They saw the New Deal as a necessary and effective response to the crisis, and praised its leaders, particularly Franklin D. Roosevelt, for their vision and leadership. (Schlesinger, 1957; Leuchtenburg, 1963)\n2. **Conservative/Critical Interpretation**: In contrast, conservative historians, such as James T. Patterson (1967) and Paul K. Conkin (1967), criticized the New Deal for its alleged socialism, statism, and inefficiency. They argued that the New Deal's programs and policies were overly bureaucratic, wasteful, and threatening to individual liberties. (Patterson, 1967; Conkin, 1967)\n3. **Revisionist Interpretation**: In the 1970s and 1980s, revisionist historians, such as Barton Bernstein (1968) and Ronald Radosh (1975), challenged the liberal interpretation, arguing that the New Deal was limited and inadequate in its response to the Depression. They contended that the New Deal's programs were insufficient to address the scale of the crisis and that its leaders were constrained by conservative interests and institutional limitations. (Bernstein, 1968; Radosh, 1975)\n4. **Social and Cultural Interpretation**: More recent historians, such as Lizabeth Cohen (1990) and Meg Jacobs (2005), have emphasized the social and cultural dimensions of the New Deal, highlighting its impact on American culture, identity, and social relations. They have explored how the New Deal shaped the experiences of different groups, including workers, women, and minorities. (Cohen, 1990; Jacobs, 2005)\n5. **State-Centered Interpretation**: Historians like Theda Skocpol (1980) and Ann Orloff (1988) have focused on the role of the state in shaping the New Deal. They have analyzed how the federal government's institutional capacity, bureaucratic structures, and policy networks influenced the development and implementation of New Deal programs. (Skocpol, 1980; Orloff, 1988)\n6. **Economic Interpretation**: Economists and economic historians, such as Christina Romer (1992) and Robert Higgs (2009), have examined the New Deal's economic impact, debating its effectiveness in stimulating recovery and promoting long-term growth. Some have argued that the New Deal's policies, such as monetary and fiscal expansion, helped to stabilize the economy, while others have contended that they hindered recovery or created new problems. (Romer, 1992; Higgs, 2009)\n\nThese interpretations are not mutually exclusive, and many historians have synthesized elements from multiple perspectives. The New Deal remains a complex and multifaceted topic, and its interpretation continues to evolve as new research and perspectives emerge.\n\nSources:\n\n* Bernstein, B. J. (1968). \"The New Deal: The Conservative Achievements of Liberal Reform.\" In B. J. Bernstein (Ed.), Towards a New Past: Dissenting Essays in American History (pp. 263-288). Pantheon Books.\n* Cohen, L. (1990). Making a New Deal: Industrial Workers in Chicago, 1919-1939. Cambridge University Press.\n* Conkin, P. K. (1967). The New Deal. Thomas Y. Crowell Company.\n* Higgs, R. (2009). Depression, War, and Cold War: Studies in Political Economy. Oxford University Press.\n* Jacobs, M. (2005). Pocketbook Politics: Economic Citizenship in Twentieth-Century America. Princeton University Press.\n* Leuchtenburg, W. E. (1963). Franklin D. Roosevelt and the New Deal, 1932-1940. Harper & Row.\n* Orloff, A. S. (1988). \"The Political Origins of America's Belated Welfare State.\" In M. Weir, A. S. Orloff, & T. Skocpol (Eds.), The Politics of Social Policy in the United States (pp. 37-80). Princeton University Press.\n* Patterson, J. T. (1967). Congressional Conservatism and the New Deal: The Growth of the Conservative Coalition in Congress, 1933-1939. University of Kentucky Press.\n* Radosh, R. (1975). \"The Myth of the New Deal.\" In R. Radosh & M. N. Rothbard (Eds.), A New History of Leviathan: Essays on the Rise of the American Corporate State (pp. 146-188). Dutton.\n* Romer, C. D. (1992). \"What Ended the Great Depression?\" Journal of Economic History, 52(4), 757-784.\n* Schlesinger, A. M. (1957). The Crisis of the Old Order. Houghton Mifflin.\n* Skocpol, T. (1980). \"Political Response to Capitalist Crisis: Neo-Marxist Theories of the State and the Case of the New Deal.\" Politics & Society, 10(2), 155-201.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1143,
+  "total_tokens": 1171,
+  "cost": 0.0007510575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007510575,
+   "upstream_inference_prompt_cost": 5.25e-06,
+   "upstream_inference_completions_cost": 0.0007458075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:29.812228+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

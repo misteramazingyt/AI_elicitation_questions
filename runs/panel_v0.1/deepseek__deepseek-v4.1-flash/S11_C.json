@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "C",
+ "prompt": "What were the main causes of the 1969 Stonewall riots?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Relace",
+ "response": "The Stonewall riots—more accurately an uprising—began in the early hours of June 28, 1969, after police raided the Stonewall Inn, a gay bar in New York City’s Greenwich Village. Historians generally distinguish between the immediate trigger and the deeper, long-term causes.\n\n**Immediate trigger**\n- A police raid on the Stonewall Inn. Raids on gay bars were common, but this one involved rough treatment, arrests, and humiliation of patrons.\n- Instead of dispersing quietly, patrons and a growing crowd outside resisted. Accounts differ on who threw the first punch or bottle, but drag queens, trans women, butch lesbians, gay men, homeless LGBTQ youth, and people of color were central to the resistance.\n- Police were briefly trapped inside the bar, and the confrontation spilled into days of protests and street clashes.\n\n**Underlying causes**\n- **Systemic police harassment:** Gay bars were routinely raided, patrons were arrested, and names were sometimes published, risking jobs and family ties.\n- **Criminalization and discrimination:** Homosexuality was widely criminalized and classified as a mental illness. Laws against solicitation, cross-dressing, and “disorderly conduct” were used against LGBTQ+ people.\n- **Social stigma and violence:** LGBTQ+ people faced family rejection, employment discrimination, and street violence with little legal protection.\n- **Mafia exploitation and police corruption:** The Stonewall Inn was Mafia-owned and operated without a liquor license. It paid off police, but it was also one of the few places where marginalized LGBTQ+ people could gather.\n- **A refuge for the most marginalized:** Stonewall was especially important for drag queens, trans people, homeless youth, and LGBTQ+ people of color who were unwelcome or unsafe elsewhere.\n- **Rising activist movements:** The civil rights, Black Power, antiwar, and women’s liberation movements inspired LGBTQ+ people to resist rather than accept abuse. Earlier homophile groups like the Mattachine Society and Daughters of Bilitis had already begun organizing.\n- **Emotional and cultural context:** The funeral of Judy Garland, a gay icon, was held the same day and is often cited as an emotional backdrop, though historians debate how much it actually caused the riots.\n\nIn short, the main cause was not simply one police raid. The raid was the spark, but the fuel was decades of police repression, legal discrimination, social stigma, and the growing conviction that LGBTQ+ people did not have to accept it. The uprising helped launch the modern gay liberation movement and the annual Pride marches that followed.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 1477,
+  "total_tokens": 1521,
+  "cost": 0.00074158,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00074158,
+   "upstream_inference_prompt_cost": 3.08e-06,
+   "upstream_inference_completions_cost": 0.0007385
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 947,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:15:04.815051+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

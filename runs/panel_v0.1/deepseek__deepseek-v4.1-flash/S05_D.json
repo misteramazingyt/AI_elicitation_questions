@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "D",
+ "prompt": "Describe the 1993 Waco siege.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The 1993 Waco siege was a 51-day standoff between U.S. federal law enforcement and the Branch Davidians, a religious sect led by David Koresh, at the Mount Carmel Center near Waco, Texas.\n\n**Background**\n- The Branch Davidians were an offshoot of the Davidian Seventh-day Adventist movement.\n- Koresh, born Vernon Howell, had taken control of the group and claimed prophetic authority.\n- The Bureau of Alcohol, Tobacco and Firearms (ATF) investigated the group for alleged illegal possession and manufacture of firearms and explosives. There were also allegations of child abuse, investigated separately by Texas authorities.\n\n**Initial raid: February 28, 1993**\n- ATF agents attempted to serve search and arrest warrants at the compound.\n- A gunfight broke out. Four ATF agents were killed, and six Branch Davidians died.\n- After a ceasefire, the FBI took over the standoff.\n\n**The standoff**\n- Negotiations alternated with tactical pressure, including loud music, bright lights, and surrounding the compound.\n- Koresh repeatedly promised to surrender but did not.\n- The standoff lasted 51 days and became a national media event.\n\n**Final assault: April 19, 1993**\n- After negotiations stalled, Attorney General Janet Reno approved an FBI plan to insert CS tear gas into the compound using armored vehicles to force evacuation.\n- A fire broke out soon after. The compound burned to the ground.\n- Seventy-six Branch Davidians died, including Koresh and many children. Some members escaped.\n\n**Aftermath and controversy**\n- Surviving Branch Davidians were tried; some were convicted on weapons or manslaughter charges, while others were acquitted.\n- Congressional hearings and independent investigations examined the government’s actions.\n- The cause of the fire and the responsibility for the deaths remain disputed. A 2000 government investigation led by former Sen. John Danforth concluded that the FBI did not start the fire or shoot at the Davidians, but it also criticized aspects of the government’s handling of the siege.\n- The event became a symbol in debates over federal power, religious freedom, gun rights, and law enforcement tactics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 1710,
+  "total_tokens": 1749,
+  "cost": 0.001226667,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001226667,
+   "upstream_inference_prompt_cost": 4.017e-06,
+   "upstream_inference_completions_cost": 0.00122265
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1259,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:12:02.220073+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "C",
+ "prompt": "What were the main causes of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Venice",
+ "response": "The 1932–1933 famine in Soviet Ukraine—widely known as the **Holodomor**—was primarily man-made. Its main causes were Stalinist policies of forced collectivization and grain requisitioning, compounded by punitive political measures. Key factors included:\n\n1. **Forced collectivization and “dekulakization”**  \n   From 1929–30, peasants were forced into collective farms, and wealthier peasants labeled “kulaks” were expropriated, deported, or killed. Many peasants resisted by slaughtering livestock and reducing sowing, which disrupted agriculture and destroyed incentives to produce.\n\n2. **Unrealistically high grain procurement quotas**  \n   The Soviet state demanded huge grain deliveries from Ukraine. In 1932, despite a poor harvest, quotas remained extremely high. Requisition brigades seized not only surplus grain but also food and seed grain needed for survival and the next planting.\n\n3. **Punitive measures against villages and districts**  \n   The August 1932 “law of five ears of grain” criminalized even small-scale gleaning. In late 1932 and early 1933, whole villages and districts were “blacklisted”: goods were removed, trade was blocked, and food supplies were withheld until quotas were met.\n\n4. **Border closure and restrictions on movement**  \n   In January 1933, Stalin and Molotov ordered the borders of Ukraine and the Kuban closed to prevent starving peasants from fleeing to cities or other regions. Internal passport restrictions trapped people in famine areas.\n\n5. **Continued grain exports and priority to industrialization**  \n   While rural Ukraine starved, the Soviet government continued exporting grain and prioritizing food for cities, the army, and industrial workers to fund rapid industrialization.\n\n6. **Political and ideological factors**  \n   Stalin distrusted the Ukrainian peasantry and Ukrainian national aspirations. The policies aimed to crush resistance to collectivization and tighten central control. Many scholars and governments therefore classify the Holodomor as a genocide; others emphasize it as part of a broader Soviet famine that also hit Kazakhstan, the North Caucasus, and the Volga region.\n\n7. **Environmental factors played a secondary role**  \n   Drought in 1931–32 worsened conditions, but it cannot explain a famine of this scale. Similar or worse weather had not produced mass starvation without the requisition policies.\n\nIn short, the main causes were **forced collectivization, extreme grain requisitions, punitive blacklists, border closures, and continued grain exports**, all driven by Stalinist policy. Natural conditions contributed but were not the primary cause. Estimates of deaths in Soviet Ukraine range roughly from 3.5 to 5 million.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 2252,
+  "total_tokens": 2302,
+  "cost": 0.0027174,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0027174,
+   "upstream_inference_prompt_cost": 1.5e-05,
+   "upstream_inference_completions_cost": 0.0027024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1703,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:17.886160+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

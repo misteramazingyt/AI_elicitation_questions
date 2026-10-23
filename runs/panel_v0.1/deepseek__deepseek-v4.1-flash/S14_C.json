@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Decart",
+ "response": "Britain’s abolition of the slave trade in 1807 and of slavery itself in 1833–38 was not caused by one factor. It resulted from a combination of moral/religious campaigning, slave resistance, economic change, political reform, and imperial/international calculations.\n\n**1. Humanitarian and religious abolitionism**\nThe most visible cause was the rise of organized anti-slavery opinion. Quakers, Granville Sharp, Thomas Clarkson, William Wilberforce and the Clapham Sect campaigned for decades against the slave trade. Evangelical Christianity and Enlightenment ideas of natural rights made slavery increasingly appear morally indefensible. After 1807, abolitionists turned to slavery itself. In the 1820s–30s, the Anti-Slavery Society, women’s anti-slavery groups, nonconformist churches, petitions, and sugar boycotts created mass pressure. Elizabeth Heyrick’s *Immediate, Not Gradual Abolition* (1824) helped shift opinion from gradual reform to immediate emancipation.\n\n**2. Slave resistance and rebellion**\nEnslaved people were not passive victims. The Haitian Revolution (1791–1804) terrified planters and inspired enslaved people across the Caribbean. Later revolts—Barbados (1816), Demerara (1823), and especially Jamaica (1831–32, led by Sam Sharpe)—convinced many in Britain that slavery could not be safely maintained without constant repression. The 1831–32 Jamaica rebellion was a major catalyst for the 1833 Abolition Act. Continued resistance also helped end the apprenticeship system in 1838.\n\n**3. Economic change and the “Williams thesis”**\nEric Williams argued in *Capitalism and Slavery* (1944) that abolition came when the British West Indian sugar economy was declining and industrial capitalism no longer needed slavery. There is truth in this: old sugar colonies faced debt, soil exhaustion, and competition from Cuba and Brazil; free-trade ideas undermined mercantilist protection. But the economic argument is contested. Seymour Drescher and others showed that slavery and the slave trade were still profitable, and abolition was costly—Britain paid £20 million compensation to slave owners in 1833. So economic decline was a context, not the sole cause.\n\n**4. Political and parliamentary factors**\nThe 1832 Reform Act expanded the electorate and strengthened middle-class and nonconformist influence, making Parliament more responsive to abolitionist pressure. The Whig government of Earl Grey pushed the 1833 Slavery Abolition Act, though it was a compromise: slavery was abolished, but owners received compensation and enslaved people were forced into “apprenticeship” until 1838. In 1807, the political campaign in Parliament, combined with war against France and a desire for national moral prestige, helped secure the slave-trade ban.\n\n**5. International and imperial context**\nAfter 1807, Britain used its naval power to suppress the slave trade and pressured other nations to follow. The Congress of Vienna (1815) condemned the slave trade, and Britain cast itself as an abolitionist moral leader. At the same time, colonial “amelioration” policies—trying to improve slavery without ending it—failed, discrediting gradual reform. Abolition also served imperial interests by presenting Britain as progressive while policing global commerce.\n\n**Conclusion**\nThe 1807 abolition of the slave trade was driven mainly by evangelical/humanitarian campaigning, changing moral ideas, and political opportunity. The 1833 abolition of slavery and the 1838 end of apprenticeship came from a wider combination: continued mass abolitionism, slave revolts, reform politics after 1832, the declining legitimacy and profitability of old colonial slavery, and Britain’s international anti-slavery posture. In short, it was a mixture of pressure from below, moral argument, political calculation, and economic change—not a single cause.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 52,
+  "completion_tokens": 3616,
+  "total_tokens": 3668,
+  "cost": 0.00065556,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00065556,
+   "upstream_inference_prompt_cost": 4.68e-06,
+   "upstream_inference_completions_cost": 0.00065088
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3263,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:15:59.166457+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

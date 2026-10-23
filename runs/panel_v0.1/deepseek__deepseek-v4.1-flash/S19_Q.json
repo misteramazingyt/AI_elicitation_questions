@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1994 U.S. crime bill?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Fireworks",
+ "response": "The 1994 **Violent Crime Control and Law Enforcement Act**—often called the “1994 crime bill”—was a roughly $30 billion omnibus law signed by President Bill Clinton. Its consequences were mixed, far-reaching, and still debated.\n\n**1. Policing and crime reduction**\n- It created the **COPS program**, which funded about **100,000 additional community-policing officers**.\n- Violent crime fell sharply in the late 1990s and 2000s, but criminologists generally attribute that decline to many factors: the fading crack epidemic, economic growth, changing policing, incarceration, and demographic shifts.\n- Some studies found COPS hiring reduced crime; others see the bill’s overall crime-reduction effect as modest. The assault-weapons ban’s effect is especially contested.\n\n**2. Mass incarceration and longer sentences**\n- **Truth-in-sentencing grants** encouraged states to require violent offenders to serve at least **85% of their sentences** in exchange for prison-construction money.\n- The federal **“three strikes”** provision imposed life sentences for certain repeat violent or drug offenders.\n- The bill expanded the **federal death penalty** to about 60 offenses.\n- These provisions helped lengthen sentences and grow prison populations. The total U.S. incarcerated population rose from roughly **1.5 million in 1994 to about 2.3 million by 2008**. The federal prison population more than doubled.\n- However, the 1994 bill was not the sole cause. The war on drugs, mandatory minimums, and state-level policies predated and often exceeded it.\n\n**3. Racial and social disparities**\n- Increased policing, longer sentences, and prison expansion fell disproportionately on **Black and Latino communities**.\n- At the same time, those communities were also disproportionately affected by violent crime, so the bill’s legacy is complex: it funded both enforcement and some prevention and victim services.\n\n**4. Violence Against Women Act**\n- VAWA was a major part of the bill. It created the **Office on Violence Against Women**, funded shelters, hotlines, training, and prosecution, and improved legal responses to domestic violence and sexual assault.\n- Intimate-partner violence declined substantially after 1994, though many factors contributed.\n- Its civil-rights remedy was struck down by the Supreme Court in **U.S. v. Morrison (2000)**. Critics also argue VAWA expanded criminal-legal responses in ways that sometimes harmed marginalized communities.\n\n**5. Gun control**\n- The bill imposed a **10-year ban on certain semiautomatic “assault weapons” and large-capacity magazines**.\n- The ban expired in **2004**. Studies on its effects are mixed: it likely had limited impact on overall gun violence, partly because of loopholes and grandfathered weapons, though some research suggests possible effects on certain mass-shooting outcomes.\n\n**6. Sex-offender registries**\n- The **Jacob Wetterling Act** required states to create sex-offender registries. Later laws added public notification and residency restrictions.\n- Consequences include lifelong registration, housing and employment barriers, public shaming, and family disruption. Their effectiveness in reducing recidivism is debated.\n\n**7. Prevention programs and political legacy**\n- The bill funded drug courts, boot camps, after-school programs, and other prevention efforts, with mixed results. “Midnight basketball” became a political symbol.\n- It cemented a bipartisan **“tough on crime”** consensus. In later years, it became controversial, with critics blaming it for mass incarceration. Bill Clinton and Joe Biden, who helped pass it, later expressed regrets about parts of it. The backlash helped fuel later reforms like the **First Step Act (2018)**.\n\n**Bottom line:** The 1994 crime bill helped fund police and VAWA, and may have contributed modestly to the 1990s crime decline. But it also accelerated mass incarceration, longer sentences, and racial disparities. Its effects were not solely caused by the bill, but it became a symbol of the era’s punitive turn.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 7648,
+  "total_tokens": 7693,
+  "cost": 0.00643377,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00643377,
+   "upstream_inference_prompt_cost": 9.45e-06,
+   "upstream_inference_completions_cost": 0.00642432
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 6807,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:57:16.752178+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

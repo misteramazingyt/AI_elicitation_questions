@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "Q",
+ "prompt": "What were the consequences of Venezuela's economic crisis since 2013?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Makora",
+ "response": "Venezuela’s crisis after 2013—often described as one of the deepest peacetime economic collapses in modern history—had economic, humanitarian, political, and regional consequences.\n\n**Economic consequences**\n- **GDP collapse:** Real GDP fell by roughly three-quarters between 2013 and 2021, one of the largest contractions ever recorded outside wartime.\n- **Hyperinflation and currency collapse:** Inflation reached astronomical levels, peaking around 2018–2019. The bolívar lost most of its value, savings and wages were destroyed, and the economy partially dollarized informally.\n- **Oil production collapse:** Output fell from about 2.5 million barrels per day in 2013 to under 0.5 million by 2020, crippling the main source of state revenue and foreign currency.\n- **Default and isolation:** Venezuela defaulted on debt, lost access to international credit, and faced sanctions, especially on PDVSA and state entities. This worsened fiscal and import capacity.\n- **Shortages and informal economy:** Food, medicine, and basic goods became scarce; price controls, black markets, and remittances reshaped daily life.\n\n**Social and humanitarian consequences**\n- **Mass poverty:** Independent surveys found income poverty affecting over 90% of households at the peak, with extreme poverty rising sharply.\n- **Food insecurity and malnutrition:** Many families could not afford basic food; child malnutrition and stunting increased.\n- **Health system collapse:** Medicine and equipment shortages, deteriorating hospitals, and emigration of doctors led to outbreaks of measles, diphtheria, and malaria, plus rising maternal and infant mortality and excess deaths.\n- **Education decline:** School dropout rates rose, teachers emigrated, and infrastructure deteriorated.\n- **Utilities and services:** Chronic blackouts, water shortages, and transport breakdowns became common.\n- **Crime and violence:** Venezuela remained among the most violent countries in the region, though homicide data are contested; extortion, kidnapping, and armed groups expanded.\n\n**Political and institutional consequences**\n- **Protests and repression:** Major protests occurred in 2014, 2017, 2019, and later. The government responded with arrests, torture allegations, and exile.\n- **Legitimacy crisis:** Contested elections, especially in 2018 and 2024, led to international isolation and a dual-power episode in 2019 when Juan Guaidó was recognized by many countries as interim president.\n- **Corruption and militarization:** State corruption deepened, and the military expanded its role in the economy.\n- **Erosion of rule of law:** Press freedom, judicial independence, and democratic institutions weakened.\n\n**Migration and regional impact**\n- **Mass emigration:** More than 7.7 million Venezuelans have left the country, mostly to Colombia, Peru, Chile, Ecuador, Brazil, and other Latin American states. It is the largest displacement crisis in the Western Hemisphere.\n- **Brain drain:** Doctors, engineers, teachers, and other professionals left, reducing long-term recovery capacity.\n- **Regional strain:** Host countries faced pressure on health, education, housing, and labor markets, along with rising xenophobia in some places.\n- **Remittances:** Money sent by migrants became a lifeline for many families inside Venezuela.\n\n**Long-term effects**\nThe crisis destroyed productive capacity, human capital, and institutional trust. Some indicators improved after 2021 due to partial dollarization, remittances, and limited oil licensing, but living standards and state capacity remain far below 2013 levels. The causes are complex—oil dependence, mismanagement, corruption, price and currency controls, falling oil prices, and sanctions all interacted—but the consequences have been severe and region-wide.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 3152,
+  "total_tokens": 3196,
+  "cost": 0.00369928,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00369928,
+   "upstream_inference_prompt_cost": 1.144e-05,
+   "upstream_inference_completions_cost": 0.00368784
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2392,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:10:06.815609+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "D",
+ "prompt": "Describe the Reagan tax cuts of the 1980s.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "Parasail",
+ "response": "The Reagan tax cuts, also known as the Economic Recovery Tax Act (ERTA) of 1981 and the Tax Reform Act of 1986, were a series of tax reductions implemented during the presidency of Ronald Reagan in the 1980s. The tax cuts were a key component of Reagan's economic policy, known as \"Reaganomics,\" which aimed to stimulate economic growth, reduce the size of government, and increase competitiveness.\n\n**Economic Recovery Tax Act (ERTA) of 1981**\n\nThe ERTA, signed into law on August 13, 1981, was the first major tax cut of the Reagan administration. The law reduced marginal tax rates across the board by 23% over three years, with the top marginal tax rate falling from 70% to 50%. The law also:\n\n1. Reduced tax rates on capital gains from 28% to 20%.\n2. Indexed tax brackets for inflation to prevent \"bracket creep.\"\n3. Increased the exemption for estate taxes.\n4. Accelerated depreciation allowances for businesses.\n\n**Tax Reform Act of 1986**\n\nThe Tax Reform Act of 1986, signed into law on October 22, 1986, was a more comprehensive tax reform effort. The law:\n\n1. Reduced the number of tax brackets from 14 to 2 (15% and 28%).\n2. Lowered the top marginal tax rate from 50% to 28%.\n3. Eliminated many tax loopholes and deductions, such as the deduction for state and local sales taxes.\n4. Reduced tax rates on capital gains to 28% (although this was later increased to 33% in 1987).\n5. Simplified the tax code and reduced the number of tax brackets.\n\n**Key features and effects**\n\nThe Reagan tax cuts had several key features and effects:\n\n1. **Reduced tax rates**: The tax cuts significantly reduced marginal tax rates, particularly for high-income earners.\n2. **Increased economic growth**: The tax cuts were associated with a period of strong economic growth, often referred to as the \"Reagan Boom.\"\n3. **Increased income inequality**: Critics argue that the tax cuts disproportionately benefited high-income earners, contributing to increased income inequality.\n4. **Reduced government revenue**: The tax cuts reduced government revenue, contributing to a significant increase in the federal budget deficit.\n5. **Changes in tax policy**: The Reagan tax cuts marked a shift towards a more supply-side oriented tax policy, emphasizing the importance of reducing tax rates to stimulate economic growth.\n\n**Legacy**\n\nThe Reagan tax cuts remain a topic of debate among economists and policymakers. While some argue that they stimulated economic growth and increased competitiveness, others contend that they contributed to increased income inequality and reduced government revenue. The tax cuts have also been cited as a model for subsequent tax reform efforts, such as the Tax Cuts and Jobs Act of 2017.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 589,
+  "total_tokens": 611,
+  "cost": 0.0005967,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005967,
+   "upstream_inference_prompt_cost": 7.7e-06,
+   "upstream_inference_completions_cost": 0.000589
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:31.710887+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

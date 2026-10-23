@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Cohere",
+ "response": "*Roe v. Wade* (1973) was a watershed decision. The Supreme Court held that the Constitution’s implied right to privacy—rooted in the 14th Amendment’s due process clause—protected a woman’s decision to have an abortion, striking down most state bans. Its consequences were legal, medical, political, and social.\n\n**Legal and constitutional consequences**\n- It legalized abortion nationwide, though not without limits. Under *Roe*’s trimester framework, states could not ban abortion in the first trimester, could regulate it in the second, and could ban it after viability except to protect the woman’s life or health.\n- It invalidated many state abortion bans and made abortion a constitutional right, fueling decades of debate over judicial activism, originalism, and substantive due process.\n- It produced a long chain of litigation and legislation: the 1976 Hyde Amendment restricted federal Medicaid funding for abortion; *Planned Parenthood v. Casey* (1992) reaffirmed the core right but replaced the trimester framework with a viability/undue-burden standard; *Gonzales v. Carhart* (2007) upheld a federal partial-birth abortion ban; and *Dobbs v. Jackson Women’s Health Organization* (2022) overturned *Roe* entirely.\n- It made Supreme Court appointments and confirmation fights heavily about abortion.\n\n**Health and access consequences**\n- Legal abortion became far safer than illegal abortion. Maternal deaths from botched illegal abortions declined sharply.\n- Access was never equal. The Hyde Amendment, state waiting periods, parental consent laws, mandatory ultrasounds, TRAP laws, and clinic closures meant many poor, rural, and minority women could not easily obtain abortions. In practice, abortion was legal but often not accessible.\n- The number of legal abortions rose after 1973, peaked around 1980, and then generally declined in later decades.\n\n**Political and social consequences**\n- *Roe* mobilized both the pro-choice and pro-life movements. Evangelical Christians and conservative Catholics became a key part of the Republican coalition, while pro-choice groups aligned increasingly with the Democratic Party.\n- It sparked mass marches, clinic protests, Operation Rescue-style blockades, and occasional violence against abortion providers.\n- Attempts to pass a Human Life Amendment to overturn *Roe* failed, but the issue remained central to American politics.\n- Public opinion stayed complex: most Americans supported legal abortion in some circumstances, but many also supported restrictions, especially later in pregnancy.\n\n**Demographic and socioeconomic consequences**\n- Research links legal abortion access to increased women’s education, labor-force participation, and earnings, as well as delayed marriage and childbearing. Effects were strongest for young women.\n- It changed family planning and reduced some teen births, though the exact causal impact is debated.\n- Some scholars have argued *Roe* contributed to lower crime rates decades later, but that theory is highly contested.\n\n**Long-term legacy**\n- *Roe* did not settle the abortion debate; it nationalized and intensified it. It created a half-century political and legal conflict that culminated in *Dobbs* (2022), which returned abortion law to the states and produced a patchwork of bans and protections.\n\nIn short, *Roe v. Wade* legalized abortion nationwide and made it much safer, but it also polarized American politics, produced uneven access, and set off a decades-long battle that continues today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 49,
+  "completion_tokens": 3111,
+  "total_tokens": 3160,
+  "cost": 0.0037479,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0037479,
+   "upstream_inference_prompt_cost": 1.47e-05,
+   "upstream_inference_completions_cost": 0.0037332
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2407,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:14:15.912952+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

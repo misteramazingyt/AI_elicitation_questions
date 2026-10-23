@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "H",
+ "prompt": "How have historians interpreted Venezuela's economic crisis since 2013? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "Venezuela's economic collapse under Nicolás Maduro has attracted substantial scholarship, though I should note upfront that I can't verify exact publication details from memory, so treat the citations below as starting points to verify rather than definitive references.\n\n## Major interpretive themes in the scholarly literature\n\n**1. The \"petro-state\" structural argument**\nMany scholars root the crisis in long-standing oil dependency rather than Chavismo alone. This builds on the classic work of **Terry Lynn Karl**, *The Paradox of Plenty: Oil Booms and Petro-States* (University of California Press, 1997), which analyzed Venezuela as the paradigmatic petro-state. Historians in this vein (e.g., scholars writing for *Latin American Research Review* and the *Journal of Latin American Studies*) argue PDVSA's fiscal dependence and underinvestment in the oil sector after 2002–03 (when Chávez fired thousands of PDVSA workers) set the stage for collapse when oil prices fell in 2014.\n\n**2. Policy mismanagement and the politics of distribution**\nPolitical scientists and economic historians like **Francisco Rodríguez** (*Oil Makes the Rules*, and his debate with Mark Weisbrot over whether Chávez-era poverty statistics were genuine) argue that price and currency controls, expropriations, and money printing explain the hyperinflation that began in 2017. **Mark Weisbrot** (Center for Economic and Policy Research) offers a counterinterpretation emphasizing external shocks, falling oil revenue, and financial sanctions (especially after 2017) as key drivers—though most historians treat the crisis as predating the 2017 sanctions.\n\n**3. The collapse as political-economic failure of the Bolivarian model**\nWorks like **Javier Corrales and Michael Penfold**, *Dragon in the Tropics: Venezuela and the Legacy of Hugo Chávez* (Brookings, 2015; updated 2nd edition) argue that institutional erosion—hyper-presidentialism, weakening checks and balances—made macroeconomic recklessness possible and unavoidable.\n\n**4. Crisis through a social-historical lens**\nScholars emphasize humanitarian dimensions: migration of roughly 7 million Venezuelans, food insecurity, and the collapse of the health system. The **Monroe School / Universidad Católica Andrés Bello (UCAB) ENCOVI surveys** and reports by **Anuj Kapoor**-style data work aside, key published sources include work by **Manuel Rueda** in journalism and academic studies in *The Lancet* documenting maternal mortality and disease resurgence.\n\n**5. Comparativist framing**\nSome historians place Venezuela in comparative crisis literature alongside Zimbabwe and Weimar Germany regarding hyperinflation (see Steve Hanke's Johns Hopkins hyperinflation tables, widely cited though controversial), or frame it within the broader \"left turn\" literature in Latin America (e.g., **Kurt Weyland** and colleagues).\n\n## A caveat on sources\n\nBecause scholarship on 2013–present is recent and politically charged, be careful: outputs from think tanks (CEPR, Brookings, Human Rights Watch, Foro Penal) carry different biases. My citation details above (years, titles) are reconstructed from memory and may contain errors—please verify each in Google Scholar or JSTOR before citing. If you tell me which interpretive angle interests you (oil dependency, sanctions debate, humanitarian crisis, or institutional collapse), I can go deeper on that strand.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 756,
+  "total_tokens": 785,
+  "cost": 0.000296808,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000296808,
+   "upstream_inference_prompt_cost": 3.48e-06,
+   "upstream_inference_completions_cost": 0.000293328
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 43,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:33.709730+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

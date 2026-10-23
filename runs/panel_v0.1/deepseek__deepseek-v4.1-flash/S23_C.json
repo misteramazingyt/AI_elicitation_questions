@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "C",
+ "prompt": "What were the main causes of the 2020 George Floyd protests?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "The 2020 George Floyd protests were sparked by the May 25, 2020 killing of George Floyd, a Black man, by Minneapolis police officer Derek Chauvin, who was filmed kneeling on Floyd’s neck for several minutes. That video became the immediate trigger.\n\nUnderlying causes included:\n\n- **Longstanding police violence and lack of accountability**, especially against Black Americans, including cases like Breonna Taylor and Ahmaud Arbery that gained attention around the same time.\n- **Systemic racism and racial inequality** in policing, criminal justice, housing, health care, and employment.\n- **The Black Lives Matter movement’s existing infrastructure and framing**, which connected Floyd’s death to a broader pattern of racial injustice.\n- **COVID-19 conditions**: lockdowns, economic hardship, unemployment, and disproportionate health and economic impacts on Black and minority communities heightened anger and frustration.\n- **Viral video and social media**, which spread footage rapidly and helped mobilize protests nationally and internationally.\n- **Perceptions of militarized policing and heavy-handed responses** to early protests, which sometimes escalated tensions and broadened participation.\n- **Political polarization and distrust** of institutions, along with demands for police reform, defunding, and broader racial justice.\n\nIn short, Floyd’s killing was the spark, while systemic racism, police brutality, inequality, the pandemic context, and social media mobilization were the main underlying causes.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 404,
+  "total_tokens": 448,
+  "cost": 0.000255732,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000255732,
+   "upstream_inference_prompt_cost": 1.3332e-05,
+   "upstream_inference_completions_cost": 0.0002424
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 121,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:01.169800+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

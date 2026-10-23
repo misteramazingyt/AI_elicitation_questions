@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the UK Miners' Strike (1984–85)\n\nThe year-long strike, led by the National Union of Mineworkers (NUM) under Arthur Scargill against pit closures, was one of the most bitter industrial disputes in British history. Its consequences were profound and long-lasting.\n\n## For the Mining Industry\n\n- **Defeat for the NUM**: The strike ended without a settlement on 3 March 1985, and miners returned to work without an agreement protecting pits from closure.\n- **Rapid pit closures**: The number of working collieries fell dramatically—from around 170 at the strike's start to only a handful by the 1990s. The UK coal industry was effectively privatised in 1994.\n- **Collapse of coal employment**: Mining jobs fell from around 190,000 to under 10,000 within two decades.\n\n## For Communities\n\n- **Devastation of mining villages**: Communities in South Wales, Yorkshire, Durham, Scotland, and Kent suffered long-term unemployment, poverty, and depopulation.\n- **Lasting social damage**: Many former mining areas still rank among the most deprived in Britain, with persistent health problems, drug use, and low economic mobility.\n- **Generational scarring**: The strike remains a defining memory in these regions, shaping local identity and political allegiance.\n\n## Political Consequences\n\n- **Strengthened Thatcher's government**: The victory removed the most powerful obstacle to her economic programme and demonstrated that a determined government could defeat organised labour.\n- **Weakened trade unions**: Union membership and influence declined sharply. The strike is often seen as the turning point that ended the era of union power that had defined the 1970s.\n- **Shift in industrial relations law**: The government had prepared extensively, including stockpiling coal, using the police as a paramilitary force at events like Orgreave, and later passing legislation restricting picketing and requiring union ballots.\n\n## Controversies and Legacy\n\n- **The Battle of Orgreave**: Violent confrontations between police and pickets led to allegations of police brutality and fabricated evidence; some arrested miners had charges dropped when police evidence collapsed.\n- **Deep political divisions**: The strike polarised the country and remains contested—remembered by some as a heroic defence of communities and by others as a destructive, undemocratic dispute (Scargill held no national ballot).\n- **Cultural impact**: Films like *Billy Elliot* and *Pride*, and numerous books and songs, reflect its enduring place in British cultural memory.\n\nIn short, the strike marked the end of the post-war consensus on coal and union power, accelerated deindustrialisation, and left deep social wounds in Britain's former coalfields that persist today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 751,
+  "total_tokens": 796,
+  "cost": 7.05998e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.05998e-05,
+   "upstream_inference_prompt_cost": 1.2825e-06,
+   "upstream_inference_completions_cost": 6.93173e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 187,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:30.617521+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

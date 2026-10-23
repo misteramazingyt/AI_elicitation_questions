@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **Winter of Discontent (1978–1979)** was a period of widespread industrial unrest in the UK, marked by strikes across multiple sectors, severe economic disruption, and a collapse in public confidence in the Labour government. The main causes were:\n\n### **1. Wage Restraint & Inflation (The \"Social Contract\")**\n- The Labour government, led by **James Callaghan**, had been implementing **wage controls** since 1975 as part of the **\"Social Contract\"** with trade unions, aiming to curb inflation (which had peaked at **27% in 1975**).\n- By 1978, inflation had fallen to **8%**, but unions were frustrated by **real wage cuts**—workers' pay had not kept up with rising prices.\n- The government imposed a **5% pay rise limit** for 1978–79, which unions saw as unfair, especially as **public sector workers** (e.g., nurses, lorry drivers, gravediggers) were hit hardest.\n\n### **2. Rising Unemployment & Economic Stagnation**\n- The UK was suffering from **\"stagflation\"** (high inflation + stagnant growth + rising unemployment).\n- Unemployment had risen to **1.5 million** by 1978, increasing pressure on workers to demand higher wages.\n- The **International Monetary Fund (IMF) bailout (1976)** had forced the government to cut public spending, worsening conditions for public sector workers.\n\n### **3. Trade Union Power & Militancy**\n- Unions, particularly the **Transport and General Workers' Union (TGWU)** and the **General and Municipal Workers' Union (GMB)**, were **highly organized and militant**.\n- **Secondary picketing** (where striking workers blockaded other workplaces) was legal, amplifying disruption.\n- The **Trades Union Congress (TUC)** initially supported wage restraint but **lost control** of its members as local branches defied national agreements.\n\n### **4. Government Weakness & Political Misjudgment**\n- **James Callaghan’s complacency**: He famously dismissed concerns about strikes in a **1978 press conference**, saying:\n  > *\"I don’t think other people in the world would share the view that there is mounting chaos.\"*\n  This was widely mocked as **\"Crisis? What crisis?\"** and damaged public confidence.\n- The government **delayed calling an election** in autumn 1978, hoping to improve economic conditions, but this backfired as strikes escalated.\n- **No clear strategy**: The government oscillated between **negotiation and confrontation**, failing to contain the unrest.\n\n### **5. Public Sector Grievances**\n- **Lorry drivers (TGWU)** went on strike in **January 1979**, crippling fuel and food supplies.\n- **Ford workers** had already won a **17% pay rise** in late 1978, setting a precedent for other unions.\n- **Public sector workers** (nurses, ambulance drivers, gravediggers, refuse collectors) struck over **low pay**, leading to **unburied bodies** and **overflowing rubbish** in some areas.\n- **The \"Winter of Discontent\" name** came from Shakespeare’s *Richard III* (\"Now is the winter of our discontent\"), popularized by the media to describe the chaos.\n\n### **6. Media & Public Backlash**\n- The **tabloid press (e.g., *The Sun*, *Daily Mail*)** sensationalized the strikes, portraying unions as **out of control**.\n- **Public opinion turned against the unions**, with many blaming them for the disruption rather than the government’s wage policies.\n- The strikes contributed to **Labour’s defeat in the 1979 election** and the rise of **Margaret Thatcher**, who promised to curb union power.\n\n### **7. Long-Term Structural Issues**\n- **Deindustrialization**: Traditional industries (coal, steel, manufacturing) were in decline, leading to job insecurity and union militancy.\n- **Weak productivity growth**: British industry was less efficient than competitors (e.g., Germany, Japan), making wage demands harder to meet.\n- **Post-war consensus breaking down**: The **post-1945 \"Butskellite\" consensus** (Keynesian economics, welfare state, union cooperation) was collapsing under economic strain.\n\n### **Consequences of the Winter of Discontent**\n- **Labour’s electoral defeat (1979)**: The strikes destroyed Callaghan’s government, leading to **Margaret Thatcher’s victory** and the start of **neoliberal reforms**.\n- **Thatcher’s anti-union laws**: The new Conservative government introduced **legislation to curb union power** (e.g., banning secondary picketing, requiring strike ballots).\n- **End of the \"Social Contract\"**: Unions and Labour never fully regained their post-war influence.\n- **Shift in public opinion**: Many voters accepted that **unions had become too powerful** and needed reform.\n\n### **Conclusion**\nThe **Winter of Discontent** was the result of **economic crisis, wage restraint, union militancy, and government mismanagement**. It marked the **end of the post-war consensus** and paved the way for **Thatcherism**, fundamentally reshaping British politics and industrial relations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 1137,
+  "total_tokens": 1163,
+  "cost": 0.0017185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0017185,
+   "upstream_inference_prompt_cost": 1.3e-05,
+   "upstream_inference_completions_cost": 0.0017055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:30:27.546284+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

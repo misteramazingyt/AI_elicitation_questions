@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "Q",
+ "prompt": "What were the consequences of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "The IRS’s handling of tax-exempt applications from political groups in 2010–2013—often called the “IRS targeting controversy”—had several consequences:\n\n- **Inspector General findings:** A May 2013 Treasury Inspector General for Tax Administration report found that the IRS used inappropriate criteria to flag applications for extra review, including names and terms such as “Tea Party,” “Patriots,” “9/12 Project,” “constitutional,” and “limited government.” It found ineffective management and significant delays, though it did not establish that final decisions were driven by political bias.\n\n- **Leadership accountability:** Acting IRS Commissioner Steven Miller resigned under pressure. Lois Lerner, the IRS official at the center of the controversy, was placed on administrative leave, retired, and was later held in contempt by the House Oversight Committee.\n\n- **Congressional and criminal investigations:** Congress held hearings and conducted investigations. The Justice Department and FBI investigated and closed the matter in 2015 without bringing criminal charges, citing mismanagement rather than criminal conduct.\n\n- **Lawsuits and settlements:** Conservative and other affected groups sued the IRS over delays and burdensome treatment. Some cases were settled, with the IRS apologizing and agreeing to changes; the litigation contributed to public scrutiny and costs.\n\n- **Operational reforms:** The IRS revised its review procedures, centralized handling of advocacy cases, improved training, and moved away from using ideological labels or names in screening applications. It also implemented many TIGTA recommendations.\n\n- **Policy fallout:** The controversy affected proposed IRS rules on political activity by 501(c)(4) social welfare organizations; a controversial 2013 proposal was later withdrawn amid broad opposition.\n\n- **Effects on applicants and public trust:** Many groups experienced long delays, additional information requests, legal costs, and in some cases withdrawal of applications. The episode damaged public confidence in the IRS’s neutrality and made IRS oversight of political nonprofits a continuing political and legal issue.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 54,
+  "completion_tokens": 1694,
+  "total_tokens": 1748,
+  "cost": 0.001032762,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001032762,
+   "upstream_inference_prompt_cost": 1.6362e-05,
+   "upstream_inference_completions_cost": 0.0010164
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1300,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:13:59.325857+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

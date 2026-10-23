@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of Dobbs v. Jackson Women's Health Organization (2022)\n\nThe decision overturned *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992), ending the federal constitutional right to abortion and returning authority to states. Its consequences have been wide-ranging:\n\n## Legal and Political Consequences\n\n- **State-by-state patchwork**: Roughly half of U.S. states moved to restrict or ban abortion, while others codified protections. Trigger laws in about 13 states took effect immediately or shortly after.\n- **Increased state legislative activity**: Abortion became a central issue in statehouses and elections, with ballot measures protecting abortion access passing even in conservative states (e.g., Kansas, Michigan, Ohio).\n- **Legal uncertainty**: New litigation emerged over issues *Roe* never resolved—emergency care obligations, interstate travel, medication abortion (mifepristone), and state jurisdiction over pills mailed across state lines.\n\n## Practical Effects on Access\n\n- **Clinic closures**: Many abortion clinics in restrictive states closed or relocated to states where the procedure remained legal.\n- **Travel burdens**: Patients in ban states increasingly traveled across state lines, creating long waits and significant costs. \"Abortion funds\" and logistics networks expanded to help.\n- **Declining numbers in ban states**: Abortions fell sharply in states with bans, though national totals did not drop—largely due to increased medication abortion and travel.\n\n## Medication Abortion\n\n- Mifepristone became the primary method of abortion in the U.S., and its legal status became a major battleground, including a 2024 Supreme Court case (*FDA v. Alliance for Hippocratic Medicine*) that preserved access on standing grounds.\n\n## Healthcare and Social Effects\n\n- **Emergency care concerns**: Reports emerged of delays in care for miscarriages and pregnancy complications, as physicians in ban states worried about legal liability.\n- **Maternal health and inequality**: Researchers documented increased births in ban states, with disproportionate effects on low-income women and women of color, who face the greatest barriers to travel.\n- **Chilling effects on medical training**: OB-GYN residency programs in ban states reported recruitment challenges.\n\n## Broader Implications\n\n- **Political mobilization**: The decision energized Democratic voters in the 2022 midterms and shaped the 2024 election.\n- **Debates over other rights**: Justices' concurrences (notably Thomas's) sparked discussion about whether precedents like *Griswold*, *Lawrence*, and *Obergefell* could be revisited, though the Court's majority disclaimed that intent.\n- **Federal-state tension**: Congress and the Biden administration attempted protections (e.g., for veterans' facilities and emergency care), leading to further litigation.\n\nOverall, Dobbs fundamentally restructured abortion governance in the U.S., shifting it from a constitutional right to a matter of state policy, with consequences still unfolding in courts, legislatures, and healthcare systems.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 51,
+  "completion_tokens": 746,
+  "total_tokens": 797,
+  "cost": 7.03093e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.03093e-05,
+   "upstream_inference_prompt_cost": 1.4535e-06,
+   "upstream_inference_completions_cost": 6.88558e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 136,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:11.132643+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

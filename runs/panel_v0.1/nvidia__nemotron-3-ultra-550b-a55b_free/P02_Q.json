@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1883 eruption of Krakatoa?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The 1883 eruption of Krakatoa (Krakatau) in the Sunda Strait, Indonesia, was one of the most violent volcanic events in recorded history. Its consequences were catastrophic locally and profound globally, affecting geology, climate, human society, and scientific understanding.\n\nHere is a breakdown of the major consequences categorized by scope:\n\n---\n\n### 1. Immediate Local & Regional Catastrophe\n*   **Tsunamis (The Primary Killer):** The eruption generated massive tsunamis (up to 40 meters / 130 feet high) caused by the collapse of the volcano into the sea (caldera collapse) and pyroclastic flows displacing water.\n    *   **Death Toll:** Official Dutch colonial records cite **36,417 deaths**, though modern estimates often exceed **120,000**. Entire coastal communities on Java and Sumatra were wiped out.\n    *   **Destruction:** 165 villages destroyed; the town of Merak was obliterated; the Dutch naval vessel *Gouvernementsmarine* was carried 3 km (2 miles) inland.\n*   **Pyroclastic Flows & Hot Ash:** Superheated gas and rock (pyroclastic density currents) traveled across the ocean surface (up to 40 km / 25 miles) at high speeds, burning ships at sea and scorching coastlines on nearby islands (Sebesi, Sebuku).\n*   **Total Annihilation of the Island:** Two-thirds of Krakatoa island (approx. 23 km²) vanished. The volcanic cone collapsed into a massive underwater caldera (6–7 km wide).\n*   **Ashfall:** Thick ash (up to 1 meter in places) buried nearby islands, destroying agriculture, contaminating water supplies, and collapsing roofs.\n\n---\n\n### 2. Global Atmospheric & Climatic Effects\n*   **Global Cooling:** The eruption injected an estimated **20–25 million tons of sulfur dioxide (SO₂)** into the stratosphere. This formed a global veil of sulfate aerosols that reflected sunlight.\n    *   **Temperature Drop:** Average global temperatures fell by **0.4°C to 1.2°C (0.7°F–2.2°F)** in the year following the eruption (1884).\n    *   **\"Year Without a Summer\" Echo:** While not as severe as the 1815 Tambora eruption, 1884 saw record cold winters, cool summers, and failed harvests in parts of Europe, North America, and Asia.\n*   **Spectacular Optical Phenomena:** The aerosols scattered sunlight, causing vivid atmospheric displays for **3 years** (1883–1886):\n    *   **Bishop’s Rings:** Diffraction coronas around the sun/moon.\n    *   **Afterglows:** Intense red/orange sunsets and \"false dawns\" visible globally.\n    *   **Blue/Green Suns & Moons:** Particles of specific size (~1 micron) scattered red light, making the sun appear blue or green (observed in the Atlantic, Pacific, and South America).\n*   **Weather Disruption:** Altered atmospheric circulation patterns led to record rainfall in Southern California (1883–84 \"Great Flood\"), droughts in other regions, and disrupted monsoon cycles.\n\n---\n\n### 3. Geological & Geographical Changes\n*   **Caldera Formation:** The eruption created a 300-meter-deep (1,000 ft) submarine caldera.\n*   **New Islands (Phreatomagmatic Activity):** Post-eruption activity built new islands (Steers, Calmeyer, Anak Krakatau) which were quickly eroded by waves.\n*   **Anak Krakatau (\"Child of Krakatoa\"):** A new volcanic cone emerged from the caldera in **1927**. It has been growing steadily since, suffering a major flank collapse in **December 2018** that triggered another deadly tsunami (killing 400+), proving the geological cycle continues.\n*   **Seafloor Topography:** The eruption drastically altered the bathymetry of the Sunda Strait, creating new hazards and channels for shipping.\n\n---\n\n### 4. Human, Societal & Economic Impact\n*   **Demographic Shift:** The depopulation of the Ujung Kulon peninsula (Java) and nearby coasts allowed nature to reclaim the land. This area eventually became the **Ujung Kulon National Park**, the last refuge of the **Javan Rhinoceros**.\n*   **Economic Disruption:** The Sunda Strait was a vital shipping lane. The eruption blocked it for weeks with floating pumice rafts (some large enough to support trees/vegetation, reported as far as East Africa a year later). Insurance markets (Lloyd’s of London) faced massive claims.\n*   **Quarantine & Disease:** The destruction of infrastructure and contamination of water led to outbreaks of cholera and dysentery among survivors.\n*   **Colonial Policy:** The Dutch East Indies government faced criticism for slow relief response, fueling nascent nationalist sentiments.\n\n---\n\n### 5. Scientific & Historical Legacy (The \"First Modern Disaster\")\n*   **Birth of Modern Volcanology:** It was the first major eruption studied with modern instruments (seismographs, barographs, telegraphy).\n    *   **Pressure Wave:** Barographs worldwide recorded the atmospheric pressure wave circling the globe **3.5 to 4 times** over 5 days (traveling at ~1,080 km/h / 670 mph).\n    *   **Sound:** The loudest sound in recorded history (~180–310 dB). Heard distinctly **4,800 km (3,000 miles) away** on Rodrigues Island (Indian Ocean) and Alice Springs (Australia) as \"distant cannon fire.\"\n*   **Understanding Tsunamis:** It provided the first definitive proof that volcanic collapse (not just earthquakes) could generate trans-oceanic tsunamis. Tide gauges as far away as the English Channel and San Francisco recorded the wave.\n*   **Global Communication:** The global telegraph network allowed near-real-time reporting. *The Times* (London) and *The New York Times* ran detailed accounts within days, making it the first truly \"global\" media event.\n*   **Art & Culture:** The vivid sunsets inspired artists globally. **Edvard Munch’s *The Scream* (1893)** is widely theorized to depict the blood-red skies over Oslo (Christiania) caused by Krakatoa aerosols. Poets (Tennyson, Hopkins) and painters (William Ascroft, Frederic Church) documented the skies scientifically and artistically.\n\n---\n\n### Summary Table\n\n| Category | Key Consequence |\n| :--- | :--- |\n| **Human Cost** | ~36,000–120,000 dead (mostly tsunamis); total destruction of coastal settlements. |\n| **Climate** | Global cooling (~0.5–1.2°C); disrupted weather patterns for 1–5 years. |\n| **Atmosphere** | 3 years of vivid \"Krakatoa sunsets,\" Bishop's Rings, blue/green suns. |\n| **Geology** | Island destroyed; 7km caldera formed; birth of Anak Krakatau (active today). |\n| **Science** | First instrumentally recorded global pressure wave; proof of volcanic tsunamis; foundation of modern volcanology. |\n| **Ecology** | Creation of Ujung Kulon wilderness (Javan Rhino sanctuary). |",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 1688,
+  "total_tokens": 1721,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 63,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:50:04.997562+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

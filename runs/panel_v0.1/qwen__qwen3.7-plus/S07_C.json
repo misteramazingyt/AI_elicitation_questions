@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "C",
+ "prompt": "What were the main causes of the FBI's COINTELPRO program?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The FBI’s COINTELPRO (Counter Intelligence Program) was a series of covert, and often illegal, projects conducted between 1956 and 1971 aimed at surveilling, infiltrating, discrediting, and disrupting domestic political organizations. \n\nThe causes and motivations behind COINTELPRO were complex, evolving over the 15 years it was active. They were rooted in the geopolitical climate of the Cold War, the social upheavals of the 1950s and 1960s, and the specific institutional culture of the FBI under Director J. Edgar Hoover. \n\nHere are the main causes and driving factors behind the program:\n\n### 1. Cold War Paranoia and Anti-Communism (The Initial Catalyst)\nCOINTELPRO was originally launched in 1956 specifically to target the Communist Party USA (CPUSA). During the early Cold War, there was a pervasive fear in the U.S. government and among the public of Soviet subversion and espionage. The FBI had a long history of tracking radical and left-wing groups, dating back to the Palmer Raids of the 1920s. The immediate cause of COINTELPRO was the FBI’s desire to neutralize the American communist movement, which Hoover viewed as a direct extension of Soviet intelligence, using covert tactics to exacerbate internal divisions and destroy the party",
+ "finish_reason": "error",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 1916,
+  "total_tokens": 1931,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00245728,
+   "upstream_inference_prompt_cost": 4.8e-06,
+   "upstream_inference_completions_cost": 0.00245248
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1599,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:02.087582+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

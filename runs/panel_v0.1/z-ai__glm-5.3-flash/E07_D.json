@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "D",
+ "prompt": "Describe the 2008 financial crisis.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The 2008 Financial Crisis\n\nThe 2008 financial crisis was the most severe economic downturn since the Great Depression, triggered by the collapse of the U.S. housing market and spreading globally through the financial system.\n\n## Background and Causes\n\n**Housing bubble:** Low interest rates in the early 2000s fueled rapid home price increases. Lenders extended mortgages to borrowers with poor credit (\"subprime\" borrowers), often with adjustable rates and little verification of income.\n\n**Securitization:** Banks bundled these mortgages into complex financial products (mortgage-backed securities and collateralized debt obligations) and sold them worldwide. Rating agencies gave many of these risky products top ratings, masking their danger.\n\n**Excessive leverage and risk-taking:** Financial institutions borrowed heavily to invest in these securities, and the widespread use of credit default swaps spread risk throughout the system with little oversight.\n\n## The Crisis Unfolds\n\n- **2006–2007:** Housing prices peaked and began falling. Subprime borrowers began defaulting as interest rates reset upward.\n- **2007:** Bear Stearns hedge funds tied to mortgage securities collapsed; credit markets began freezing.\n- **March 2008:** Bear Stearns was sold to JPMorgan Chase in an emergency deal.\n- **September 2008:** The crisis peaked—Fannie Mae and Freddie Mac were placed under government conservatorship, Lehman Brothers filed for bankruptcy (the largest in U.S. history), and Merrill Lynch was sold to Bank of America. AIG was bailed out with $85 billion to prevent its collapse.\n- **October 2008:** Congress passed the $700 billion Troubled Asset Relief Program (TARP) to stabilize banks. Global stock markets plunged.\n\n## Consequences\n\n- **Economic devastation:** Millions lost homes to foreclosure; unemployment in the U.S. reached 10% by 2009; global GDP contracted for the first time since WWII.\n- **Global contagion:** European banks and governments (notably Iceland, Greece, and others) faced severe crises.\n- **Government responses:** Central banks slashed interest rates to near zero and launched quantitative easing; governments enacted stimulus packages.\n- **Regulatory reform:** The Dodd-Frank Act (2010) imposed new banking regulations, stress tests, and consumer protections.\n- **Long-term effects:** Slow recovery, political backlash (contributing to populist movements), and lasting debates about \"too big to fail\" banks and inequality.\n\nThe crisis fundamentally reshaped banking regulation, monetary policy, and public trust in financial institutions worldwide.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 35,
+  "completion_tokens": 1041,
+  "total_tokens": 1076,
+  "cost": 9.70818e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.70818e-05,
+   "upstream_inference_prompt_cost": 9.975e-07,
+   "upstream_inference_completions_cost": 9.60843e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 523,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:15.761409+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

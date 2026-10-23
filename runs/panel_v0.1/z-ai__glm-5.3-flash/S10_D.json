@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Dobbs v. Jackson Women's Health Organization (2022)\n\n## Overview\nIn a 6-3 decision issued June 24, 2022, the Supreme Court overturned *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992), ending the federal constitutional right to abortion that had stood for nearly 50 years.\n\n## Background\nThe case challenged Mississippi's Gestational Age Act, which prohibited most abortions after 15 weeks of pregnancy—well before fetal viability (around 22-24 weeks), the line *Roe* had established as the constitutional cutoff.\n\n## The Majority Opinion (Justice Alito)\n- **Held**: The Constitution does not confer a right to abortion. The 14th Amendment's Due Process Clause protects only rights \"deeply rooted in this Nation's history and tradition\" and implicit in \"ordered liberty\"—and abortion, Alito argued, does not meet that standard.\n- **Overruled** *Roe* and *Casey*, criticizing *Roe* as \"egregiously wrong from the start\" and poorly reasoned.\n- **Emphasized** that the issue should be returned to \"the people's elected representatives\" in the states—a democratic, not judicial, resolution.\n- Noted that other substantive due process rights (contraception, same-sex marriage, etc.) were not affected because they don't involve the destruction of potential life.\n\n## The Concurrence (Justice Thomas)\nJustice Thomas agreed but suggested the Court should reconsider other substantive due process precedents, including *Griswold*, *Lawrence*, and *Obergefell*—a suggestion the majority explicitly disclaimed.\n\n## The Dissents\n- **Justice Breyer, Sotomayor, and Kagan** (joined by Kagan's opinion for the three) argued the majority was substituting the Court's judgment for that of women, stripping a fundamental right, and undermining the Court's legitimacy. They warned of consequences for women's health, equality, and autonomy.\n- **Chief Justice Roberts** concurred only in the judgment. He would have upheld Mississippi's 15-week law without overturning *Roe* or *Casey* entirely, favoring a narrower, incremental approach.\n\n## Aftermath\n- Abortion regulation returned to the states, resulting in immediate bans in numerous states (many \"trigger laws\" took effect) and expanded protections in others.\n- The decision sparked intense political, legal, and public debate, and continues to generate litigation over state bans, exceptions, interstate travel, and medication abortion (e.g., the mifepristone cases).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 632,
+  "total_tokens": 679,
+  "cost": 5.96731e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.96731e-05,
+   "upstream_inference_prompt_cost": 1.3395e-06,
+   "upstream_inference_completions_cost": 5.83336e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 89,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:10.611700+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

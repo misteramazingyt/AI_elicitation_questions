@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "D",
+ "prompt": "Describe Soviet espionage in the United States in the 1940s, including the Rosenberg case.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "Soviet espionage in the United States during the 1940s was extensive, running through both the NKVD/NKGB and the GRU, the Soviet military intelligence agency. Although the U.S. and USSR were allies against Nazi Germany from 1941 to 1945, Moscow continued and expanded secret collection against its American partner. Soviet agents targeted the State Department, Treasury, War Department, OSS, industrial firms, and—most importantly—the Manhattan Project.\n\n**Major networks and figures**\n- The Communist Party USA’s underground apparatus helped recruit and support agents. Jacob Golos ran much of this work until his death in 1943; Elizabeth Bentley, a courier, continued it and then defected in 1945, naming dozens of alleged Soviet sources.\n- Washington-based networks included the Ware Group, the Silvermaster Group, and the Perlo Group. They passed government documents to Soviet handlers.\n- Whittaker Chambers, a former courier, testified in 1948 against Alger Hiss, a former State Department official. Hiss was convicted of perjury in 1950, not espionage, because the statute of limitations had run. Later Venona decrypts and Soviet archival material tended to support the view that Hiss had indeed been a Soviet source.\n- The Venona project—decrypted Soviet cable traffic declassified in 1995—confirmed that Soviet espionage in the U.S. was real and broader than many Americans had believed.\n\n**Atomic espionage**\nThe most damaging espionage involved the atomic bomb. Key Soviet sources included:\n- **Klaus Fuchs**, a British physicist at Los Alamos, who passed detailed technical information to the Soviets through courier Harry Gold.\n- **Theodore Hall**, a young American physicist who independently gave atomic secrets to Soviet agents.\n- **George Koval**, a GRU agent who infiltrated Oak Ridge and other Manhattan Project sites.\n- **David Greenglass**, an Army machinist at Los Alamos, who provided sketches and information through his brother-in-law Julius Rosenberg and courier Harry Gold.\n\n**The Rosenberg case**\nJulius Rosenberg was a New York electrical engineer and Communist Party member recruited by Soviet intelligence in the early 1940s. He ran a small spy network. His wife, Ethel Rosenberg, was the sister of David Greenglass. In 1944–45, Greenglass passed atomic-related information to Julius, with Ruth Greenglass and Harry Gold acting as couriers.\n\nAfter Fuchs confessed in 1950, Gold was arrested and implicated Greenglass, who then implicated the Rosenbergs. Julius and Ethel were arrested in 1950 and tried in 1951 under the Espionage Act for conspiracy to commit espionage—not treason, since the USSR had been an ally during the alleged wartime acts. The prosecution relied heavily on David Greenglass and Harry Gold. Both Rosenbergs were convicted and sentenced to death. Morton Sobell, a co-defendant, received 30 years. Julius and Ethel Rosenberg were executed at Sing Sing on June 19, 1953.\n\n**Historical assessment**\nJulius Rosenberg’s guilt as a Soviet spy is well established by Venona decrypts and later Soviet archival evidence. Ethel Rosenberg’s role is more disputed: she likely knew about and facilitated some activity, but she was not a major atomic spy. David Greenglass later suggested he had exaggerated or misremembered her role in typing documents. The case became a symbol of Cold War fear, McCarthyism, and debates over the death penalty.\n\nOverall, Soviet espionage in 1940s America was a real and serious intelligence threat, especially in atomic and government circles. The Rosenberg case was its most famous public spectacle—partly a genuine espionage prosecution and partly a politically charged Cold War drama.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 5486,
+  "total_tokens": 5536,
+  "cost": 0.00392764,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00392764,
+   "upstream_inference_prompt_cost": 5.15e-06,
+   "upstream_inference_completions_cost": 0.00392249
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4710,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:55:13.552696+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

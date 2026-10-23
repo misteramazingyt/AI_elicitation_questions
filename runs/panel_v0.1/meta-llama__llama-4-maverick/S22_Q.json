@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration and Nationality Act of 1965?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Immigration and Nationality Act of 1965, also known as the Hart-Celler Act, had significant consequences on the demographics, economy, and society of the United States. Some of the key consequences include:\n\n1. **Shift in immigration patterns**: The Act abolished the national origins quota system, which had favored immigration from Northern and Western Europe. As a result, immigration from Asia, Latin America, and Africa increased significantly, changing the demographic makeup of the country.\n2. **Increased diversity**: The Act led to a significant increase in immigration from diverse countries, resulting in a more multicultural and multiracial society. The US population became more diverse, with a growing presence of Asian, Hispanic, and African Americans.\n3. **Changes in the US population**: The Act contributed to a significant increase in the US population, particularly in urban areas. Many immigrants settled in cities, leading to the growth of ethnic enclaves and changes in the cultural and economic landscape of urban areas.\n4. **Economic impact**: The Act had a significant impact on the US economy. Immigrants contributed to the workforce, filled labor gaps, and started new businesses, stimulating economic growth. However, some argue that the influx of low-skilled immigrants depressed wages for native-born workers in certain industries.\n5. **Cultural impact**: The Act led to a cultural transformation in the US, as immigrants brought new customs, traditions, and values. This diversity enriched American culture, with significant contributions to the arts, cuisine, music, and literature.\n6. **Demographic changes in specific regions**: The Act led to significant demographic changes in specific regions, such as the Southwest, where Hispanic immigration increased, and the West Coast, where Asian immigration grew.\n7. **Impact on US politics**: The Act's consequences have been felt in US politics, as the growing diversity of the electorate has influenced voting patterns and policy debates. Politicians have had to adapt to the changing demographics and respond to the needs and concerns of new immigrant communities.\n8. **Chain migration and family reunification**: The Act prioritized family reunification, allowing US citizens and permanent residents to sponsor family members for immigration. This led to chain migration, where immigrants brought their families and relatives to the US, further increasing the immigrant population.\n9. **Undocumented immigration**: While the Act increased legal immigration, it also created a backlog in the immigration system, leading some individuals to enter the country without documentation or overstay their visas. This contributed to the growth of undocumented immigration, which has become a contentious issue in US politics.\n10. **Ongoing debates and policy responses**: The consequences of the Immigration and Nationality Act of 1965 continue to shape US immigration policy debates. Policymakers have responded to the changing demographics and economic conditions with various reforms, including the Immigration Reform and Control Act of 1986 and the Deferred Action for Childhood Arrivals (DACA) program.\n\nOverall, the Immigration and Nationality Act of 1965 had far-reaching consequences that transformed the demographics, economy, and society of the United States, shaping the country into the diverse and complex nation it is today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 635,
+  "total_tokens": 661,
+  "cost": 0.0004192125,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004192125,
+   "upstream_inference_prompt_cost": 4.875e-06,
+   "upstream_inference_completions_cost": 0.0004143375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:07.499442+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "Q",
+ "prompt": "What were the consequences of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Consequences of the U.S. War on Drugs (1971–1990s)\n\nThe War on Drugs, declared by President Nixon in 1971 and intensified under Reagan, Bush, and Clinton, produced wide-ranging consequences:\n\n## Mass Incarceration\n\n- The U.S. prison population grew dramatically—from roughly 200,000 in 1970 to over 1.5 million by the mid-1990s\n- Drug offenses accounted for a large share of new incarcerations\n- Mandatory minimum sentences and \"three strikes\" laws lengthened sentences significantly\n- The U.S. became the world's largest incarcerator per capita\n\n## Racial Disparities\n\n- Black Americans were arrested and imprisoned at far higher rates despite similar rates of drug use across racial groups\n- The 100:1 sentencing disparity between crack and powder cocaine (Anti-Drug Abuse Act of 1986) disproportionately affected Black communities\n- Felony convictions resulted in disenfranchisement, loss of employment opportunities, housing restrictions, and exclusion from public benefits\n\n## Community and Social Effects\n\n- Concentrated incarceration destabilized families and neighborhoods, particularly in low-income urban communities\n- \"Broken windows\" policing and stop-and-frisk practices strained police-community relations\n- Children of incarcerated parents faced increased hardship\n- Drug convictions created lasting barriers to education, employment, and housing\n\n## Militarization and International Impact\n\n- Police departments received military equipment and adopted more aggressive tactics\n- U.S. drug interdiction efforts in Latin America (Plan Colombia, operations in Mexico and the Andes) drew criticism for violence and human rights concerns\n- Crop eradication programs affected farmers abroad without substantially reducing supply\n\n## Policy Effectiveness Debate\n\n- Drug prices fell and purity increased over this period, suggesting supply was not meaningfully reduced\n- Critics argued spending shifted resources from treatment and prevention to law enforcement\n- Supporters pointed to declines in some drug use rates during the 1980s, though these trends predated and exceeded policy effects\n\n## Later Reckonings\n\nMany of these consequences—sentencing disparities, collateral consequences of convictions, and drug policy's racial impact—became the basis for later reform efforts, including the Fair Sentencing Act of 2010, the First Step Act of 2018, and state-level legalization and decriminalization movements. Even some architects of the policies later expressed regret.\n\nWould you like more detail on any particular aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 500,
+  "total_tokens": 536,
+  "cost": 0.00019832,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00019832,
+   "upstream_inference_prompt_cost": 4.32e-06,
+   "upstream_inference_completions_cost": 0.000194
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:37.834778+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "Q",
+ "prompt": "What were the consequences of the New Deal (1933-1939)?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The New Deal, a series of programs, public work projects, financial reforms, and regulations enacted by President Franklin D. Roosevelt between 1933 and 1939, fundamentally transformed the United States. Its consequences can be categorized into economic, social, political, and infrastructural impacts. \n\nHere is a detailed breakdown of the consequences of the New Deal:\n\n### 1. Economic Consequences\n*   **Financial Regulation and Stability:** The New Deal restored public confidence in the financial system. The Glass-Steagall Act (1933) separated commercial and investment banking and created the Federal Deposit Insurance Corporation (FDIC), which insured bank deposits and virtually eliminated bank runs. The creation of the Securities and Exchange Commission (SEC) regulated the stock market to prevent the abuses that led to the 1929 crash.\n*   **Job Creation and Relief:** Programs like the Civilian Conservation Corps (CCC), the Works Progress Administration (WPA), and the Public Works Administration (PWA) employed millions of Americans. While these programs did not end the Great Depression (unemployment remained high until the mobilization for World War II), they provided crucial income and prevented mass starvation and homelessness.\n*   **Economic Limitations:** Historians and economists note that the New Deal did not fully restore the economy to pre-Depression levels. Furthermore, FDR’s attempt to balance the budget in 1937 led to the \"Roosevelt Recession,\" which caused a sharp spike in unemployment, demonstrating the limits of New Deal economic policies in achieving full recovery.\n\n### 2. Social and Labor Consequences\n*   **The Social Safety Net:** The Social Security Act of 1935 was perhaps the most enduring domestic legacy of the New Deal. It established a system of old-age pensions, unemployment insurance, and aid for dependent mothers and children, fundamentally shifting the responsibility for social welfare from local charities and state governments to the federal government.\n*   **Empowerment of Labor:** The National Labor Relations Act (Wagner Act) of 1935 guaranteed workers the right to unionize and engage in collective bargaining. It also created the National Labor Relations Board (NLRB) to enforce these rights. This led to a massive surge in union membership and the rise of the Congress of Industrial Organizations (CIO), significantly increasing the bargaining power of the working class.\n*   **Impact on Minorities:** The consequences for minority groups were mixed. Many New Deal programs were administered locally, allowing for widespread discrimination. The Federal Housing Administration (FHA) institutionalized \"redlining,\" which restricted Black Americans from buying homes in certain neighborhoods. Agricultural and domestic workers—occupations heavily held by African Americans and Mexican Americans—were initially excluded from Social Security. However, the WPA and CCC did provide vital relief to minorities, and FDR’s \"Black Cabinet\" of African American advisors helped shift Black voting allegiance from the Republican to the Democratic Party.\n\n### 3. Political Consequences\n*   **Expansion of Federal Power:** The most profound political consequence was the massive expansion of the federal government's size, scope, and power. The New Deal ended the era of *laissez-faire* economics, establishing the precedent that the federal government has a direct responsibility to manage the economy and ensure the economic well-being of its citizens.\n*   **The New Deal Coalition:** FDR’s policies forged a new political alignment known as the \"New Deal Coalition.\" This coalition included labor unions, blue-collar workers, African Americans, urban ethnic minorities, the Solid South, and intellectuals. This realignment made the Democratic Party the dominant political force in the U.S. for the next several decades.\n*   **Constitutional Clash:** The expansion of federal power led to a clash with the Supreme Court, which struck down several early New Deal programs (like the NRA and AAA) as unconstitutional. In response, FDR proposed the \"court-packing\" plan in 1937. Though the plan failed politically, it ultimately led to a shift in the Court’s jurisprudence (the \"switch in time that saved nine\"), resulting in the Court upholding subsequent New Deal legislation and vastly expanding the federal government's constitutional authority to regulate the economy.\n\n### 4. Infrastructure and Environmental Consequences\n*   **Modernization of Infrastructure:** The New Deal left a massive physical legacy. The Tennessee Valley Authority (TVA) built dams that provided flood control, navigable waterways, and cheap electricity to a deeply impoverished region. The Rural Electrification Administration (REA) brought electricity to millions of farms, modernizing American agriculture.\n*   **Environmental Conservation:** The CCC employed young men in environmental projects, planting billions of trees, building state and national parks, and combating soil erosion. This era marked a significant shift toward federal management of natural resources and environmental conservation.\n\n### Summary\nThe consequences of the New Deal were profound and permanent. While it did not single-handedly end the Great Depression, it alleviated the worst of the suffering, reformed the financial system, and built a lasting physical infrastructure. Politically and socially, it redefined the relationship between the American people and their government, establishing the modern American welfare state and setting the stage for the political and economic landscape of the mid-to-late 20th century.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 2633,
+  "total_tokens": 2662,
+  "cost": 0.00337952,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00337952,
+   "upstream_inference_prompt_cost": 9.28e-06,
+   "upstream_inference_completions_cost": 0.00337024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1537,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:19:19.588081+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

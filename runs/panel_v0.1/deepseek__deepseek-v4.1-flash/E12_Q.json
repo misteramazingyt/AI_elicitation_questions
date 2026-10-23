@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "Q",
+ "prompt": "What were the consequences of Argentina's 2001 economic crisis?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "CoreWeave",
+ "response": "Argentina’s 2001 crisis—culminating in sovereign default, the end of the 1:1 peso-dollar convertibility system, and a massive devaluation—had far-reaching economic, social, political, and institutional consequences.\n\n**Economic**\n- Argentina defaulted on roughly **$100 billion** of sovereign debt, then the largest default in history.\n- The peso was devalued from **1:1 to about 4:1** against the dollar by 2002, causing a sharp rise in inflation—around **41% in 2002**.\n- GDP collapsed by **10.9% in 2002**; industrial output, construction, and consumption fell sharply.\n- The **“corralito”** and later **“corralón”** froze bank deposits, and asymmetric pesification wiped out much of the savings of middle-class Argentines.\n- Unemployment peaked above **21%** in 2002, with underemployment around 18%.\n- Poverty surged to over **50%**, and extreme poverty reached roughly **25%**.\n\n**Political**\n- President Fernando de la Rúa resigned in December 2001 amid massive protests and the **cacerolazos**.\n- Argentina had **five presidents in about two weeks** before Eduardo Duhalde took over as interim president.\n- The slogan **“Que se vayan todos”** (“Throw them all out”) reflected a deep crisis of political legitimacy.\n- The traditional party system was weakened, and Néstor Kirchner’s election in 2003 began the Kirchnerist era.\n\n**Social**\n- Millions fell from the middle class into poverty; soup kitchens, barter clubs, and workers’ recovered factories spread.\n- Emigration increased, especially among young professionals.\n- Health, education, and nutrition indicators deteriorated.\n- Inequality and informal labor grew, and distrust of banks and the peso became entrenched.\n\n**Financial and institutional**\n- Argentina lost access to international credit markets for years.\n- Debt was restructured in **2005 and 2010** with large creditor haircuts.\n- Holdout creditors led to a **2014 technical default**, settled in **2016**.\n- Argentina repaid the IMF in **2006**, seeking to reduce external conditionality.\n- The crisis left a lasting culture of **dollarization of savings** and deep distrust in the banking system.\n\n**Longer-term policy and recovery**\n- The convertibility model and much of the Washington Consensus agenda were discredited.\n- The devaluation and later commodity boom helped produce an export-led recovery: GDP grew strongly from **2003 to 2007**, and poverty fell.\n- But vulnerabilities remained: inflation, fiscal fragility, dependence on commodities, weak institutions, and recurring debt problems.\n\nRegionally, the crisis also spilled over into neighboring countries, especially **Uruguay**, which suffered a banking crisis in 2002. Overall, Argentina’s 2001 crisis destroyed a economic model, impoverished millions, reshaped national politics, and left lasting scars on its financial system.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 3473,
+  "total_tokens": 3516,
+  "cost": 0.0022639,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0022639,
+   "upstream_inference_prompt_cost": 6.45e-06,
+   "upstream_inference_completions_cost": 0.00225745
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2854,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:10:18.728513+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

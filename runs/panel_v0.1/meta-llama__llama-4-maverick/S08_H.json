@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "H",
+ "prompt": "How have historians interpreted the IRS's handling of tax-exempt applications from political groups (2010-2013)? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The IRS's handling of tax-exempt applications from political groups between 2010 and 2013 has been a subject of significant historical interpretation and controversy. Here's a summary of how historians and scholars have interpreted this event, along with relevant sources:\n\n**Background**: During the 2010-2013 period, the IRS scrutinized applications for tax-exempt status from conservative and Tea Party groups, as well as some liberal groups. The agency's Cincinnati office flagged applications with names containing certain keywords, such as \"Tea Party\" or \"Patriots,\" for additional review. This led to delays and requests for additional information, sparking allegations of political bias and improper targeting.\n\n**Interpretations**:\n\n1. **Partisan bias**: Some historians and scholars have argued that the IRS's actions were motivated by partisan bias against conservative groups. For example, a 2013 report by the Republican-led House Oversight and Government Reform Committee concluded that the IRS \"unlawfully discriminated against conservative groups\" (1). Similarly, a study by the Heritage Foundation argued that the IRS's actions were \"a clear example of bureaucratic abuse and politicization\" (2).\n2. **Bureaucratic ineptitude**: Others have interpreted the IRS's handling of tax-exempt applications as a result of bureaucratic ineptitude and mismanagement rather than partisan bias. A 2013 report by the Treasury Inspector General for Tax Administration (TIGTA) found that the IRS's processing of tax-exempt applications was \"inefficient and ineffective\" but did not find evidence of intentional targeting (3). Historian and tax expert, Steven R. Weisman, has argued that the IRS's actions were \"a classic case of bureaucratic overreach and incompetence\" (4).\n3. **Complex motivations**: Some scholars have suggested that the IRS's actions were motivated by a combination of factors, including bureaucratic culture, risk aversion, and a desire to scrutinize groups with potentially radical or fringe ideologies. For example, a study by the Brookings Institution argued that the IRS's actions were \"a product of a complex set of factors, including a lack of clear guidance, inadequate training, and a culture of caution\" (5).\n\n**Sources**:\n\n1. House Oversight and Government Reform Committee. (2013). \"The IRS Targeted Scandal: The Real Story.\" (Report)\n2. D. Kyle Johnson. (2013). \"The IRS's Tea Party Targeting: A Case Study in Bureaucratic Abuse.\" Heritage Foundation.\n3. Treasury Inspector General for Tax Administration. (2013). \"Inappropriate Criteria Were Used to Identify Tax-Exempt Applications for Review.\" (Report No. 2013-10-053)\n4. Steven R. Weisman. (2014). \"The Great Tax Wars: Lincoln to Wilson—The Fierce Battles over Money and Power That Transformed the Nation.\" Simon & Schuster.\n5. Donald Kettl. (2014). \"System Under Stress: The IRS and the Tea Party.\" Brookings Institution.\n\nThese sources represent a range of perspectives on the IRS's handling of tax-exempt applications from political groups between 2010 and 2013. While some historians and scholars have argued that the IRS's actions were motivated by partisan bias, others have interpreted the events as a result of bureaucratic ineptitude or complex motivations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 692,
+  "total_tokens": 729,
+  "cost": 0.0004584675,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004584675,
+   "upstream_inference_prompt_cost": 6.9375e-06,
+   "upstream_inference_completions_cost": 0.00045153
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:05:58.593095+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

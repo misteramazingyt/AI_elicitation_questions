@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "C",
+ "prompt": "What were the main causes of the 1948 Arab-Israeli war?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 1948 Arab-Israeli War (also called Israel's War of Independence or the Palestinian Nakba) stemmed from decades of escalating conflict over land, immigration, and sovereignty in Mandatory Palestine, culminating in open warfare after the British withdrawal.\n\n### Long-term causes\n- **Zionist settlement and Arab opposition**: Jewish immigration to Palestine, driven by the Zionist movement and later intensified by the Holocaust, created demographic and territorial tensions. Arab leaders viewed this as colonial encroachment on Arab land, leading to periodic violence such as the 1929 riots and the 1936–1939 Arab Revolt.\n- **British policies and conflicting promises**: The 1917 Balfour Declaration supported a Jewish national home, while Britain also made commitments to Arab independence. Post-WWII, Britain faced irreconcilable demands from both sides and referred the issue to the UN.\n\n### Immediate triggers (1947–1948)\n- **UN Partition Plan**: UN General Assembly Resolution 181 (November 29, 1947) proposed dividing Palestine into separate Jewish and Arab states, with Jerusalem under international control. Jewish leaders accepted it; Arab leaders rejected it as unjust, arguing it awarded disproportionate territory to the Jewish minority (about one-third of the population) and ignored Arab self-determination.\n- **Civil war phase**: Following the partition vote, Arab forces attacked Jewish communities and supply lines, while Jewish militias (Haganah, Irgun, Lehi) fought back and secured territory. This internal conflict killed thousands before the mandate ended.\n- **End of the British Mandate and Israeli independence**: Britain withdrew on May 14, 1948. Israel declared statehood the same day. The next day, armies from Egypt, Transjordan (Jordan), Syria, Iraq, and Lebanon invaded, aiming to prevent the Jewish state from forming and to control the territory.\n- **Refugee movements and territorial fighting**: Both sides committed atrocities; hundreds of thousands of Palestinians fled or were expelled amid the fighting, while Jewish communities in Arab-controlled areas faced similar pressures. The war ended in 1949 with armistice lines that gave Israel more territory than the partition plan had allocated.\n\nIsraeli accounts frame the war primarily as a defensive struggle for survival against existential threats. Arab and Palestinian accounts emphasize resistance to imposed partition and displacement. The conflict's roots lie in incompatible national claims rather than a single event.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 207,
+  "completion_tokens": 1011,
+  "total_tokens": 1218,
+  "cost": 0.00265185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00265185,
+   "upstream_inference_prompt_cost": 0.00012435,
+   "upstream_inference_completions_cost": 0.0025275
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 536,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:38.853013+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

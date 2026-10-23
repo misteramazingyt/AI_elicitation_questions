@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 1973 decision in Roe v. Wade.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "Parasail",
+ "response": "The Supreme Court's 1973 decision in Roe v. Wade (410 U.S. 113) is a landmark ruling that established a woman's constitutional right to have an abortion. The case was brought by a pregnant woman, known as \"Jane Roe\" (later revealed to be Norma McCorvey), who challenged the constitutionality of a Texas law that prohibited abortions except in cases where the mother's life was at risk.\n\nIn a 7-2 decision, the Supreme Court held that a woman's right to have an abortion falls within the scope of the right to privacy, which is protected by the Due Process Clause of the Fourteenth Amendment to the U.S. Constitution. The Court ruled that a woman's decision to have an abortion is a fundamental right that cannot be unduly burdened by the state.\n\nThe Court established a trimester framework to balance the woman's right to an abortion with the state's interests in protecting the health of the mother and the potential life of the fetus. The framework divided pregnancy into three trimesters:\n\n1. **First trimester**: The Court held that during the first trimester (approximately the first 12 weeks of pregnancy), a woman's decision to have an abortion is virtually unrestricted, and the state may not interfere with that decision.\n2. **Second trimester**: During the second trimester (approximately weeks 13-26), the state may regulate abortion procedures to protect the health of the mother, but it may not prohibit abortions altogether.\n3. **Third trimester**: In the third trimester (after approximately 26 weeks), the state's interest in protecting the potential life of the fetus becomes more compelling, and it may prohibit abortions except in cases where the mother's life or health is at risk.\n\nThe Roe v. Wade decision effectively invalidated many state laws that prohibited or restricted abortion, and it established a national standard for abortion rights. The ruling has been the subject of ongoing controversy and debate, with numerous challenges and attempts to restrict or overturn it over the years.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 400,
+  "total_tokens": 425,
+  "cost": 0.00040875,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00040875,
+   "upstream_inference_prompt_cost": 8.75e-06,
+   "upstream_inference_completions_cost": 0.0004
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:05:58.945608+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

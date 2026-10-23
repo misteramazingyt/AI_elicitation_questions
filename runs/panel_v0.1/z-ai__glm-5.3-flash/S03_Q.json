@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "Q",
+ "prompt": "What were the consequences of McCarthyism in the 1950s?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of McCarthyism\n\nMcCarthyism, named after Senator Joseph McCarthy, had far-reaching effects on American society, politics, and culture during the late 1940s and 1950s.\n\n## Political and Governmental Effects\n\n- **Loyalty programs**: Executive Order 9835 (1947) required federal employees to undergo loyalty screenings; thousands were investigated, and hundreds lost their jobs\n- **Purges of government agencies**: The State Department lost valuable experts on East Asia, which some historians argue contributed to misjudgments about China and Korea\n- **Chilling effect on diplomacy**: Officials became afraid to make recommendations that could be construed as \"soft on communism\"\n\n## Impact on Individuals\n\n- **Blacklisting**: People in entertainment, academia, and other fields were placed on lists that effectively ended their careers\n- **The Hollywood Ten**: Screenwriters and directors were jailed for contempt of Congress after refusing to testify; many others were blacklisted\n- **Ruined lives**: People lost jobs, friendships, and reputations based on accusations, often without evidence or due process\n- **The Rosenbergs**: Julius and Ethel Rosenberg were executed in 1953 for espionage, a case that remains controversial, particularly regarding Ethel's involvement\n\n## Cultural and Social Effects\n\n- **Self-censorship**: Writers, filmmakers, and academics avoided controversial topics\n- **Conformity pressure**: Political dissent became suspect; labor unions purged leftists\n- **Suppression of progressive movements**: Civil rights activists and labor organizers were sometimes targeted as subversives\n- **Science and academia suffered**: Some scholars left the country or changed research areas\n\n## Institutional Consequences\n\n- **Strengthened FBI**: J. Edgar Hoover's surveillance of citizens expanded dramatically\n- **Erosion of civil liberties**: Loyalty oaths became common at universities and workplaces\n\n## Eventual Backlash\n\n- **Army-McCarthy hearings (1954)**: Televised hearings exposed McCarthy's bullying tactics, and public opinion turned against him\n- **Censure**: The Senate censured McCarthy in December 1954, and his influence collapsed\n- **Long-term lessons**: The era became a cautionary tale about demagoguery, guilt by association, and threats to constitutional rights\n\nThe term \"McCarthyism\" itself entered the lexicon as a byword for reckless, unsubstantiated accusations and persecution of political dissent.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 553,
+  "total_tokens": 594,
+  "cost": 5.22104e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.22104e-05,
+   "upstream_inference_prompt_cost": 1.1685e-06,
+   "upstream_inference_completions_cost": 5.10419e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 55,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:52.148785+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

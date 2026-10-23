@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Baidu",
+ "response": "Dobbs v. Jackson Women’s Health Organization (2022) was not caused by one single factor. It resulted from a combination of immediate legal triggers and deeper political/institutional causes.\n\n**1. A changed Supreme Court majority**\nThe most decisive cause was the Court’s composition. By 2022, there was a 6–3 conservative majority. President Trump’s three appointments—Neil Gorsuch (2017), Brett Kavanaugh (2018), and Amy Coney Barrett (2020)—were especially important. Barrett replaced Ruth Bader Ginsburg shortly before the 2020 election, and Kavanaugh replaced swing Justice Anthony Kennedy. This produced five votes—Alito, Thomas, Gorsuch, Kavanaugh, and Barrett—to overrule Roe v. Wade and Planned Parenthood v. Casey. Chief Justice Roberts concurred only in the judgment and would have upheld Mississippi’s law without fully overruling Roe.\n\n**2. A long-term conservative legal movement**\nFor decades, conservative legal scholars, the Federalist Society, and anti-abortion litigators argued that Roe was constitutionally illegitimate. They advanced originalism and textualism, arguing that the Constitution does not mention abortion, that the “penumbral” privacy reasoning in Roe was weak, and that the viability line was arbitrary and unworkable. This intellectual and legal infrastructure helped shape the arguments and judicial appointments that made Dobbs possible.\n\n**3. Mississippi’s deliberate test case**\nMississippi’s 2018 Gestational Age Act banned most abortions after 15 weeks, well before the ~24-week viability line recognized under Casey. Lower courts blocked it under Roe and Casey. Mississippi then appealed directly to the Supreme Court and explicitly asked the justices to overrule Roe and Casey. The case was thus a carefully designed vehicle to challenge the constitutional abortion right.\n\n**4. The majority’s stated legal reasoning**\nJustice Alito’s majority opinion held that:\n- The Constitution does not confer a right to abortion.\n- Abortion is not “deeply rooted” in the nation’s history and tradition.\n- Roe and Casey were wrongly decided and their reasoning was unworkable.\n- Stare decisis—the principle of respecting precedent—did not require keeping them.\n- The authority to regulate abortion should return to the people and their elected representatives in the states.\n\n**5. Broader political context**\nAbortion had become a central partisan issue. Republican presidents and senators prioritized judicial appointments aimed at overturning Roe; the 2016 Republican refusal to consider Merrick Garland and Trump’s election shaped the Court for decades. Meanwhile, state-level battles over abortion restrictions created a steady pipeline of cases.\n\nIn short, the proximate cause was Mississippi’s 15-week ban and its direct challenge to Roe. The decisive cause was the transformed Supreme Court majority. The deeper causes were the long conservative legal campaign against Roe, the rise of originalist jurisprudence, and the political mobilization that shaped judicial appointments.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 55,
+  "completion_tokens": 3351,
+  "total_tokens": 3406,
+  "cost": 0.0007227483,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007227483,
+   "upstream_inference_prompt_cost": 2.9535e-06,
+   "upstream_inference_completions_cost": 0.0007197948
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2744,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:14:38.083969+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

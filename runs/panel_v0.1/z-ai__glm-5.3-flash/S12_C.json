@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "C",
+ "prompt": "What were the main causes of the rise of the Moral Majority around 1980?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Rise of the Moral Majority (1979)\n\nThe Moral Majority, founded by Jerry Falwell in 1979, emerged from several converging forces:\n\n## Religious Factors\n\n- **Growth of evangelicalism**: The 1960s–70s saw explosive growth in conservative Protestant churches, especially in the Sun Belt. By 1980, tens of millions of Americans identified as \"born-again\" Christians.\n- **Perceived secularization**: Evangelicals felt increasingly alienated by court decisions and cultural changes they saw as hostile to their values.\n\n## Political Triggers\n\n- **Roe v. Wade (1973)**: Legalized abortion became a galvanizing issue, though evangelical opposition to abortion actually intensified gradually through the decade.\n- **IRS battles over tax exemptions**: The attempt to revoke tax-exempt status from segregated Christian schools (like Bob Jones University) convinced many evangelical leaders that the federal government was targeting them. This was a significant mobilizing factor, particularly for segregationist-leaning schools in the South.\n- **Gay rights and the Equal Rights Amendment**: The late 1970s saw campaigns against these, notably Anita Bryant's \"Save Our Children\" campaign (1977) and Phyllis Schlafly's anti-ERA organizing.\n\n## Cultural Backlash\n\n- **Reaction to the 1960s**: The sexual revolution, feminism, and counterculture were seen by conservatives as evidence of moral decline.\n- **Disillusionment with the 1970s**: Watergate, stagflation, the energy crisis, and the Iran hostage crisis created a widespread sense of national malaise that religious conservatives framed as spiritual decline.\n\n## Organizational and Media Infrastructure\n\n- **New communication networks**: Christian radio, televangelism, and direct-mail campaigns (pioneered by figures like Richard Viguerie) allowed rapid mobilization.\n- **Political strategists**: Conservative operatives like Paul Weyrich and Howard Phillips actively courted evangelical leaders, recognizing untapped political potential among previously disengaged evangelicals.\n- **Carter's alienation of evangelicals**: Many evangelicals had voted for Jimmy Carter in 1976 but felt betrayed by his administration's positions, pushing them toward the Republican Party.\n\n## Result\n\nThe Moral Majority claimed millions of members and helped mobilize evangelical voters for Ronald Reagan's 1980 victory, marking the emergence of the religious right as a major force in American politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 591,
+  "total_tokens": 635,
+  "cost": 5.58033e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.58033e-05,
+   "upstream_inference_prompt_cost": 1.254e-06,
+   "upstream_inference_completions_cost": 5.45493e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 94,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:16.470076+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

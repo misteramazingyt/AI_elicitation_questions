@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "Q",
+ "prompt": "What were the consequences of the Great Depression?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Great Depression (1929–1939) was the most severe and prolonged economic downturn in modern history. Its consequences were profound and far-reaching, fundamentally altering the economic, social, political, and geopolitical landscape of the world. \n\nHere is a breakdown of the major consequences of the Great Depression:\n\n### 1. Economic Consequences\n*   **Massive Unemployment:** In the United States, unemployment peaked at roughly 25% in 1933. In countries like Germany and the UK, it reached nearly 30%. Millions of people were left without income for years.\n*   **Banking and Financial Collapse:** Thousands of banks failed globally. In the U.S. alone, over 9,000 banks collapsed, wiping out the life savings of millions of citizens who had no deposit insurance.\n*   **Deflation and Collapse of Production:** Prices for goods and services plummeted (deflation), which sounds good for consumers but devastated businesses and farmers. Global industrial production dropped by roughly a third.\n*   **Collapse of Global Trade:** In a misguided attempt to protect domestic industries, countries enacted massive tariffs (such as the U.S. Smoot-Hawley Tariff). This triggered retaliatory tariffs worldwide, causing global trade to shrink by an estimated 60%.\n\n### 2. Social and Human Consequences\n*   **Widespread Poverty and Homelessness:** Millions faced starvation and malnutrition. In the U.S., homeless populations built shantytowns out of scrap wood and cardboard, mockingly dubbed \"Hoovervilles\" after President Herbert Hoover.\n*   **Agricultural Devastation and the Dust Bowl:** Crop prices collapsed, bankrupting farmers. In the U.S. Great Plains, this economic disaster was compounded by a severe ecological disaster—the Dust Bowl—which forced hundreds of thousands of farmers (often called \"Okies\") to migrate westward in search of work.\n*   **Demographic Shifts:** The economic uncertainty caused a sharp decline in birth rates and a delay in marriage. People could not afford to start families or move out of their parents' homes.\n*   **Psychological Trauma:** The Depression shattered the prevailing optimism of the 1920s. It created a \"scarcity mindset\" that affected the \"Greatest Generation\" for the rest of their lives, fostering extreme frugality and a deep distrust of financial markets.\n\n### 3. Political Consequences\n*   **Expansion of Government Power (The New Deal):** In the U.S., Franklin D. Roosevelt’s \"New Deal\" fundamentally changed the relationship between the government and the economy. The federal government took on a new responsibility for the economic welfare of its citizens, creating massive public works programs, labor protections, and the social safety net.\n*   **Rise of Extremism and Fascism:** The economic desperation destroyed faith in democratic capitalism in several countries. In Germany, the Weimar Republic collapsed under the weight of hyperinflation and Depression-era unemployment, paving the way for Adolf Hitler and the Nazi Party. Similar authoritarian and fascist movements gained traction in Italy, Spain, and elsewhere.\n*   **Realignment of Political Parties:** In the U.S., the Depression caused a massive political realignment. African Americans, working-class citizens, and urban populations shifted from the Republican to the Democratic Party, creating the \"New Deal Coalition\" that would dominate U.S. politics for decades.\n\n### 4. Geopolitical Consequences (Path to World War II)\n*   **Aggressive Expansionism:** Desperate for resources and markets, and crippled by global trade barriers, militaristic nations turned to conquest. Japan invaded Manchuria in 1931; Italy invaded Ethiopia in 1935; and Germany began aggressively rearming and expanding its territory.\n*   **Isolationism:** In the U.S. and Britain, the trauma of the Depression and the memory of WWI led to a strong isolationist sentiment. Governments focused inward on domestic recovery, failing to confront the aggressive actions of Axis powers in the 1930s.\n*   **Abandonment of the Gold Standard:** Countries abandoned the gold standard to devalue their currencies and boost exports. While this helped some domestic economies recover, it led to \"beggar-thy-neighbor\" policies that worsened international economic relations.\n\n### 5. Long-Term Legacy and Institutional Changes\n*   **Birth of Modern Macroeconomics:** The Depression discredited classical economic theory, which argued that free markets would naturally self-correct. It led to the rise of **Keynesian economics**, which argued that governments must actively intervene through deficit spending and monetary policy to manage economic cycles.\n*   **Financial Regulation:** To prevent a repeat of the 1929 crash, governments instituted strict financial regulations. In the U.S., this included the Glass-Steagall Act (separating commercial and investment banking) and the creation of the Securities and Exchange Commission (SEC) and the Federal Deposit Insurance Corporation (FDIC).\n*   **The Modern Welfare State:** The Depression proved that private charity was insufficient to handle mass economic crises. It led to the establishment of the modern welfare state, including unemployment insurance, minimum wage laws, and old-age pensions (like the U.S. Social Security Act of 1935).\n\n**Summary:**\nThe Great Depression did not just destroy wealth; it destroyed the pre-existing global order. It ended the era of *laissez-faire* capitalism, birthed the modern welfare state, and created the economic desperation and political instability that directly set the stage for the Second World War.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 2412,
+  "total_tokens": 2431,
+  "cost": 0.00309344,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00309344,
+   "upstream_inference_prompt_cost": 6.08e-06,
+   "upstream_inference_completions_cost": 0.00308736
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1239,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:22:02.554590+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

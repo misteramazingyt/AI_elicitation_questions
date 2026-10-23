@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The UK miners’ strike of 1984–1985 was a major industrial action between the National Union of Mineworkers (NUM) and the Conservative government of Prime Minister Margaret Thatcher. The strike was a watershed moment in modern British history, and its consequences profoundly reshaped the country’s economic, social, and political landscape. \n\nThe consequences of the strike can be categorized into several key areas:\n\n**1. Decline of the Coal Industry and Economic Shifts**\n*   **Accelerated Pit Closures:** The primary goal of the NUM was to prevent pit closures, but the failure of the strike led to an accelerated reduction in the coal industry. Following the strike, the National Coal Board (later British Coal) rapidly closed unprofitable mines. \n*   **Privatization and Restructuring:** The strike paved the way for the eventual privatization of the UK coal industry in 1994. By the time of privatization, the industry had shrunk dramatically, employing only a fraction of the workforce it had in the early 1980s.\n*   **Shift in Energy Policy:** The strike highlighted the vulnerability of relying heavily on domestic coal. The government subsequently diversified the UK’s energy mix, increasing reliance on North Sea oil and gas, expanding nuclear power, and eventually paving the way for renewable energy sources.\n\n**2. Impact on Trade Unions and Industrial Relations**\n*   **Weakening of Union Power:** The defeat of the NUM, historically one of the most powerful and militant trade unions in the UK, significantly weakened the broader British trade union movement. It demonstrated the government's ability and willingness to withstand prolonged industrial action.\n*   **Changes in Labor Laws:** The government’s success during the strike emboldened it to continue implementing legislation that restricted union powers. Laws requiring secret ballots for strikes, limiting secondary picketing, and making unions liable for damages during unlawful strikes were solidified, fundamentally altering the balance of power between employers and unions.\n*   **Decline in Strike Activity:** Following the miners' strike, the number of working days lost to industrial action in the UK dropped precipitously, marking the end of the era of frequent, large-scale strikes that had characterized the 1970s.\n\n**3. Social and Community Consequences**\n*   **Devastation of Mining Communities:** The closure of mines led to severe economic hardship in communities that were entirely dependent on the coal industry. Towns and villages in Wales, Scotland, and Northern England experienced massive job losses, leading to long-term unemployment and poverty.\n*   **Social Fragmentation:** The strike was highly divisive, not just between the miners and the government, but within the mining communities themselves. The conflict between those who crossed the picket lines (often referred to as \"scabs\" by striking miners) and those who continued to strike caused deep, lasting social fractures that persisted for generations.\n*   **Regional Inequalities:** The decline of the coal industry exacerbated the economic divide between the more prosperous South of England and the deindustrialized regions of the North, Scotland, and Wales. While some areas eventually regenerated, many former mining communities continue to face economic challenges and lower employment rates today.\n\n**4. Political Consequences**\n*   **Consolidation of Thatcherism:** For Margaret Thatcher and the Conservative Party, the defeat of the strike was a major political victory. It cemented her authority, validated her free-market economic policies, and demonstrated the government's capacity to confront and defeat organized opposition to its agenda.\n*   **Impact on the Labour Party:** The strike and its aftermath contributed to the electoral difficulties of the Labour Party in the 1980s. The party's traditional alliance with the trade union movement was called into question. Over the following decade, this contributed to internal debates that eventually led to the party's modernization and its shift toward the political center under Tony Blair in the 1990s.\n*   **Policing and Civil Liberties:** The strike featured a massive and highly controversial police presence. The use of tactics such as roadblocks to prevent picketing, and the clashes between police and picketers (most notably at the Battle of Orgreave), sparked lasting debates about policing methods, civil liberties, and the relationship between the state and working-class communities.\n\n**Legacy**\nThe legacy of the 1984–1985 miners' strike remains a deeply resonant and debated topic in British history. For some, it is viewed as a necessary, albeit painful, transition that modernized the UK economy, curbed the excessive power of union leaders, and made the country more globally competitive. For others, it is remembered as a traumatic period characterized by the deliberate destruction of viable industries, the devastation of working-class communities, and the heavy-handed tactics of the state. Regardless of perspective, the strike fundamentally altered the trajectory of modern Britain.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 2293,
+  "total_tokens": 2325,
+  "cost": 0.00294528,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00294528,
+   "upstream_inference_prompt_cost": 1.024e-05,
+   "upstream_inference_completions_cost": 0.00293504
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1277,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:22:40.089627+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Kent State shootings of 1970?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The Kent State shootings on May 4, 1970—where Ohio National Guardsmen fired on unarmed college students protesting the Cambodian Campaign, killing four and wounding nine—had profound and lasting consequences across American politics, culture, law, and higher education.\n\nHere is a breakdown of the major consequences:\n\n### 1. Immediate National Crisis & Student Strike\n*   **Nationwide Student Strike:** The shootings triggered the **largest student strike in U.S. history**. Over **4 million students** at more than **900 colleges and universities** participated in walkouts, protests, and campus shutdowns during May 1970.\n*   **Campus Closures:** Hundreds of campuses closed for the remainder of the semester (some voluntarily, some by gubernatorial order), disrupting the academic year and forcing universities to adopt \"pass/fail\" grading or early finals.\n*   **Violence & Unrest:** The week following the shootings saw the most intense period of campus unrest in U.S. history, including the burning of ROTC buildings (as had happened at Kent State prior to the shooting), clashes with police, and the deployment of National Guard units to dozens of campuses.\n\n### 2. Political & Policy Consequences\n*   **Shift in Public Opinion (Short vs. Long Term):**\n    *   *Immediate:* A Gallup poll taken shortly after showed **58% of Americans blamed the students** for the violence, while only 11% blamed the Guard. This reflected a deep \"silent majority\" backlash against the counterculture.\n    *   *Long Term:* Over time, public opinion shifted significantly. The event became a symbol of government overreach and the tragedy of the Vietnam War, contributing to the growing anti-war majority.\n*   **The 26th Amendment (1971):** The slogan **\"Old enough to fight, old enough to vote\"** gained massive traction after Kent State. The contradiction of drafting 18-year-olds to die in Vietnam while denying them the vote became untenable. The 26th Amendment lowering the voting age to 18 was ratified in record time (under 4 months) in 1971.\n*   **End of the Cambodian Incursion:** The political firestorm pressured the Nixon administration to accelerate the withdrawal from Cambodia (completed by June 30, 1970) and fueled congressional efforts to limit presidential war powers (leading eventually to the War Powers Act of 1973).\n*   **Nixon’s \"Law and Order\" Rhetoric:** The Nixon administration used the unrest to solidify its \"law and order\" base, portraying protesters as radicals and the Guard as defenders of order. This polarization defined the 1972 election.\n\n### 3. Legal & Judicial Consequences\n*   **Criminal Trials:**\n    *   **The \"Kent State 25\" (Students):** 25 students were indicted on charges related to the May 1–4 unrest (arson, rioting). Most charges were eventually dismissed or reduced due to lack of evidence; one student pleaded guilty to a misdemeanor.\n    *   **The Guardsmen:** Eight guardsmen were indicted by a federal grand jury in 1973 for violating the students' civil rights. In **1974, a federal judge dismissed the case** before it went to the jury, ruling the prosecution had failed to prove the guardsmen *willfully* intended to deprive students of their rights.\n*   **Civil Settlements:** In **1979**, a civil suit filed by the wounded students and families of the deceased was settled out of court for **$675,000** (paid by the State of Ohio). The guardsmen signed a statement of \"regret\" (not an admission of guilt), acknowledging the tragedy \"should not have occurred.\"\n*   **Legal Precedent on Protest Rights:** The litigation helped clarify (though often restrictively) the legal boundaries of the National Guard's role in civil disorder and the First Amendment rights of protesters on public university grounds.\n\n### 4. Changes in Higher Education & Campus Policing\n*   **Demilitarization of Campus Police:** Before 1970, many campus police were unarmed or lightly armed. The backlash against the National Guard led universities to professionalize their *own* police forces (arming them, requiring academy training) to handle protests internally rather than calling in the military.\n*   **Rise of \"Student Affairs\" Administration:** Universities created formal **Student Affairs/Dean of Students** offices to manage dissent through negotiation and due process rather than force.\n*   **Curricular Changes:** The strike forced many faculty to restructure curricula, leading to a boom in **Peace Studies, Conflict Resolution, and Vietnam War history** courses.\n*   **Shared Governance:** The crisis accelerated the movement toward \"shared governance,\" giving students formal representation on university boards and committees.\n\n### 5. Cultural & Historical Legacy\n*   **Iconic Imagery:** The Pulitzer Prize-winning photo by **John Filo** of Mary Ann Vecchio screaming over the body of Jeffrey Miller became one of the most enduring images of the Vietnam War era and the anti-war movement.\n*   **\"Ohio\" by Crosby, Stills, Nash & Young:** Released weeks after the shooting, Neil Young’s protest song became an anthem, keeping the event in the national consciousness (\"Four dead in Ohio\").\n*   **Symbol of the \"Generation Gap\":** Kent State crystallized the cultural divide between the \"Greatest Generation\" (authority, patriotism) and the \"Baby Boomers\" (dissent, anti-authoritarianism).\n*   **Annual Commemoration:** Kent State University established the **May 4 Task Force** (student-run) and, in 2010, the **May 4 Visitors Center**. The site was designated a **National Historic Landmark in 2016**.\n*   **Historical Re-evaluation:** The release of the **Strubbe tape** (an audio recording of the shooting) in the 2000s and subsequent audio analysis reignited debate over whether a verbal \"command to fire\" was given, keeping the historical controversy alive.\n\n### Summary\nThe Kent State shootings did not end the Vietnam War immediately, but they **shattered the illusion that domestic dissent could be managed with military force**. They forced a structural change in how universities handle protest, accelerated the enfranchisement of 18-year-olds, and left a permanent scar on the American psyche regarding the relationship between the state and its citizens.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 1450,
+  "total_tokens": 1483,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 52,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:47:29.625026+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

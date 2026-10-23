@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "Q",
+ "prompt": "What were the consequences of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "During the period from 2010 to 2013, the Internal Revenue Service (IRS) faced significant scrutiny regarding its handling of tax-exempt applications from political groups, particularly those with names containing terms like \"Tea Party\" or \"Patriots.\" The consequences of this situation were multifaceted and had lasting impacts on public trust and governmental processes.  \n\nKey consequences included:  \n1. **Public and Political Backlash**: The revelations led to widespread criticism from lawmakers, advocacy groups, and the media, raising concerns about potential political bias in the application review process.  \n2. **Investigations and Oversight**: Multiple investigations were launched, including by the Treasury Inspector General for Tax Administration (TIGTA) and Congress, to examine the IRS's practices and determine whether improper targeting had occurred.  \n3. **Leadership Changes**: Several IRS officials resigned or were placed on administrative leave amid the controversy, including Lois Lerner, who oversaw the tax-exempt organizations division.  \n4. **Legal and Policy Revisions**: The IRS implemented changes to its procedures for reviewing tax-exempt applications to ensure greater transparency and fairness, though debates over the adequacy of these reforms continued.  \n5. **Erosion of Public Trust**: The incident contributed to diminished confidence in the IRS's impartiality, affecting perceptions of government institutions more broadly.  \n\nThe situation underscored the importance of maintaining neutrality in tax administration and prompted ongoing discussions about safeguarding against political influence in federal agencies.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 52,
+  "completion_tokens": 751,
+  "total_tokens": 803,
+  "cost": 7.07993e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.07993e-05,
+   "upstream_inference_prompt_cost": 1.482e-06,
+   "upstream_inference_completions_cost": 6.93173e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 451,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:07.314787+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

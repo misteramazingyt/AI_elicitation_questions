@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "H",
+ "prompt": "How have historians interpreted the IRS's handling of tax-exempt applications from political groups (2010-2013)? Please cite sources.",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "Historians and political scientists have offered varied interpretations of the **IRS's handling of tax-exempt applications from political groups (2010–2013)**, particularly those applying under **501(c)(4) \"social welfare\" status**. The controversy, often referred to as the **\"IRS targeting scandal,\"** emerged after reports that the agency had subjected conservative-leaning groups (e.g., Tea Party organizations) to heightened scrutiny, including intrusive questionnaires and delays in processing.\n\nKey interpretations from historians and scholars include:\n\n### **1. Partisan Targeting (Conservative Critique)**\nMany conservative historians and commentators argue that the IRS **deliberately targeted right-leaning groups** for political reasons, seeing it as an abuse of power by the Obama administration to suppress opposition.\n\n- **Kimberley Strassel** (*The Wall Street Journal*, 2014) argued that the IRS’s actions were part of a broader effort to stifle conservative activism, particularly in the lead-up to the 2012 election.\n  - *Source:* Strassel, K. (2014). *The Intimidation Game: How the Left Is Silencing Free Speech*. Twelve.\n\n- **Jay Cost** (*The Weekly Standard*, 2013) suggested that the IRS’s behavior reflected a **culture of bias** within the agency, where liberal-leaning bureaucrats disproportionately scrutinized conservative groups.\n  - *Source:* Cost, J. (2013). \"The IRS Scandal: What Really Happened?\" *The Weekly Standard*.\n\n- **The House Oversight Committee (2014)** concluded that the IRS had engaged in **\"inappropriate criteria\"** that disproportionately affected conservative groups, though it did not find direct evidence of White House involvement.\n  - *Source:* U.S. House of Representatives, Committee on Oversight and Government Reform. (2014). *The IRS Targeting Investigation: What Is the Administration Hiding?*\n\n### **2. Bureaucratic Mismanagement (Neutral/Liberal Perspective)**\nOther historians and legal scholars argue that the IRS’s actions were **not politically motivated** but rather the result of **poor management, unclear regulations, and a surge in 501(c)(4) applications** after the *Citizens United* (2010) decision.\n\n- **Paul Caron** (tax law professor, *TaxProf Blog*) and **Ellen Aprill** (Loyola Law School) argued that the IRS was **overwhelmed** by a flood of applications and lacked clear guidelines on how to distinguish between \"social welfare\" and political activity.\n  - *Source:* Aprill, E. (2014). \"The Latest IRS Targeting Scandal: A Problem of Politics or a Problem of Law?\" *The Atlantic*.\n  - *Source:* Caron, P. (2013). \"IRS Scandal: A Problem of Politics or Law?\" *TaxProf Blog*.\n\n- **The Treasury Inspector General for Tax Administration (TIGTA, 2013)** found that the IRS used **\"inappropriate criteria\"** (e.g., names like \"Tea Party\" or \"Patriot\") to flag applications but did not conclude that the targeting was politically motivated.\n  - *Source:* Treasury Inspector General for Tax Administration. (2013). *Inappropriate Criteria Were Used to Identify Tax-Exempt Applications for Review*.\n\n- **David Cay Johnston** (*Reuters*, 2013) argued that the IRS’s actions were **clumsy but not partisan**, noting that some progressive groups (e.g., \"Progressive\" or \"Occupy\") were also flagged.\n  - *Source:* Johnston, D. C. (2013). \"IRS Scandal: A Phony Outrage?\" *Reuters*.\n\n### **3. Structural and Regulatory Failures**\nSome scholars emphasize that the scandal exposed **deep flaws in IRS oversight of 501(c)(4) groups**, which were increasingly being used for political purposes despite legal restrictions.\n\n- **Frances Hill** (University of Miami Law School) argued that the IRS’s problems stemmed from **Congress’s failure to clarify the rules** for 501(c)(4) groups, which are supposed to be primarily engaged in social welfare but can engage in some political activity.\n  - *Source:* Hill, F. (2014). \"The IRS Scandal and the Future of Nonprofit Regulation.\" *The Nonprofit Quarterly*.\n\n- **Lloyd Mayer** (Notre Dame Law School) noted that the IRS was **caught between conflicting pressures**: enforcing vague rules while facing accusations of bias from both sides.\n  - *Source:* Mayer, L. (2014). \"The IRS and the Political Speech of Nonprofits.\" *The Conversation*.\n\n### **4. Long-Term Historical Context**\nSome historians place the scandal in a broader context of **IRS politicization**, noting that both parties have accused the agency of bias at different times.\n\n- **Julian Zelizer** (Princeton historian) argued that the IRS has **long been a political football**, with both Democrats and Republicans accusing it of targeting their opponents.\n  - *Source:* Zelizer, J. (2013). \"The IRS Has Always Been Political.\" *The Atlantic*.\n\n- **Daniel J. B. Mitchell** (UCLA) compared the 2013 scandal to **earlier IRS controversies**, such as the **Nixon-era audits of political enemies** and the **Reagan-era targeting of liberal groups** in the 1980s.\n  - *Source:* Mitchell, D. J. B. (2013). \"The IRS Scandal in Historical Perspective.\" *Economic Policy Institute*.\n\n### **Conclusion: Consensus and Disagreements**\n- **Conservative historians** tend to see the IRS’s actions as **deliberate political targeting**.\n- **Liberal and neutral scholars** often frame it as **bureaucratic incompetence** exacerbated by unclear laws.\n- **Legal experts** emphasize that the **real issue was regulatory ambiguity**, not partisan malice.\n\nThe **TIGTA report (2013)** and **Congressional investigations (2014–2015)** did not find evidence of **direct White House involvement**, but they confirmed that the IRS used **inappropriate screening methods**. The scandal led to **resignations (e.g., IRS Commissioner Steven Miller)** and **reforms in IRS procedures**, but debates over its political nature persist.\n\nWould you like a deeper dive into any particular aspect (e.g., legal implications, comparisons to other IRS scandals)?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 34,
+  "completion_tokens": 1412,
+  "total_tokens": 1446,
+  "cost": 0.002135,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002135,
+   "upstream_inference_prompt_cost": 1.7e-05,
+   "upstream_inference_completions_cost": 0.002118
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:35:35.064397+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

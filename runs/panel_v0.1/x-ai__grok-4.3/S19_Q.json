@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1994 U.S. crime bill?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The 1994 Violent Crime Control and Law Enforcement Act** expanded federal funding for policing, imposed new sentencing rules, and created incentives for states to lengthen prison terms. Its main provisions included money for 100,000 additional police officers, the Violence Against Women Act, an assault-weapons ban (sunset in 2004), expansion of the federal death penalty, “three-strikes” language for certain federal offenses, and “truth-in-sentencing” grants that rewarded states for requiring inmates to serve at least 85 percent of their sentences.\n\n### Crime trends\nViolent crime and homicide rates had already begun falling from their early-1990s peaks before the bill took full effect. National data show continued sharp declines through the late 1990s and 2000s. Economists attribute the drop to multiple factors: the end of the crack epidemic, increased police numbers and tactics (including CompStat-style deployment), higher incarceration itself, reduced lead exposure, and demographic shifts. Studies that isolate the bill’s police-hiring grants find modest additional crime reduction in funded cities, but the overall national decline predates and exceeds the legislation’s direct reach.\n\n### Incarceration and sentencing\nState prison populations rose from roughly 900,000 in 1994 to more than 1.2 million by 2000 and peaked above 1.6 million in the late 2000s. The bill’s grants and federal sentencing changes reinforced a trend already underway at the state level. “Three-strikes” and truth-in-sentencing rules lengthened time served for repeat offenders; federal three-strikes applied narrowly, but many states adopted broader versions. Black Americans, who were disproportionately both victims and perpetrators of the high-crime period, experienced the largest absolute increases in imprisonment. Per-capita offending rates for homicide and robbery remained markedly higher among young Black males throughout the 1980s–1990s, consistent with victimization surveys and arrest data.\n\n### Other effects\n- The assault-weapons ban covered a limited set of semi-automatic firearms and magazines; subsequent research found little measurable impact on overall gun homicide rates.\n- VAWA funding supported domestic-violence prosecutions and shelters; reported intimate-partner violence declined in the same period as general crime.\n- Federal prison growth accelerated, but states accounted for the bulk of the national increase.\n\n### Later assessments\nRetrospective analyses by the Bureau of Justice Statistics and academic reviews show the legislation amplified existing state-level tough-on-crime policies rather than single-handedly creating mass incarceration. Crime victimization surveys confirm large drops in actual offending after 1994, not merely changes in policing or reporting. Claims that the bill was the primary driver of either the crime drop or racial disparities in prison overstate its isolated role; state legislatures, prosecutors, and local policing decisions carried more weight. Public support for the measure at the time reflected record homicide levels in many cities during the preceding decade.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 207,
+  "completion_tokens": 1184,
+  "total_tokens": 1391,
+  "cost": 0.00308435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00308435,
+   "upstream_inference_prompt_cost": 0.00012435,
+   "upstream_inference_completions_cost": 0.00296
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 598,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:54.066330+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

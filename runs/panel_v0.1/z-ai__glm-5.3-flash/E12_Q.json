@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "Q",
+ "prompt": "What were the consequences of Argentina's 2001 economic crisis?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of Argentina's 2001 Economic Crisis\n\nArgentina's 2001 crisis was one of the most severe economic collapses in modern history. Its consequences were wide-ranging:\n\n## Economic Consequences\n\n- **Default on sovereign debt**: Argentina defaulted on approximately $82–100 billion in debt, the largest sovereign default in history at the time.\n- **End of convertibility**: The peso's one-to-one peg to the US dollar was abandoned in early 2002, causing the peso to lose roughly 75% of its value.\n- **\"Corralito\" and bank freeze**: Bank accounts were frozen, limiting withdrawals and sparking public outrage. Savings were effectively confiscated when dollar accounts were forcibly converted to devalued pesos (the \"pesofication\").\n- **Massive poverty increase**: Poverty rates soared from around 35% to over 57% by 2002, with more than half the population falling below the poverty line.\n- **GDP collapse**: The economy contracted by roughly 10–15% between 2001 and 2002.\n- **Unemployment**: Unemployment peaked above 20%, with underemployment pushing effective joblessness even higher.\n\n## Social Consequences\n\n- **Middle-class impoverishment**: Many Argentines saw their life savings wiped out, devastating the middle class.\n- **Rise of the *piqueteros***: Unemployed workers' movements organized road blockades as a form of protest.\n- ***Asambleas barriales***: Neighborhood assemblies emerged as forms of grassroots self-organization.\n- **Barter networks and alternative currencies**: Communities created local exchange systems to survive without cash.\n- **Worker-run factories**: Employees took over abandoned businesses (*empresas recuperadas*), running them as cooperatives.\n- **Food insecurity and soup kitchens**: Charitable and community kitchens expanded dramatically.\n\n## Political Consequences\n\n- **Collapse of government**: President Fernando de la Rúa resigned in December 2001 amid riots and looting. Argentina cycled through five presidents in about two weeks.\n- **Deaths during protests**: Over 30 people died in the December 2001 unrest, including protesters killed by police.\n- **\"Que se vayan todos\"**: The slogan \"let them all go\" reflected widespread rejection of the entire political class.\n- **Rise of Kirchnerism**: Néstor Kirchner won the presidency in 2003, launching a new political era.\n- **Long-term distrust**: The crisis deepened public distrust of banks, the IMF, and political institutions.\n\n## International Consequences\n\n- **IMF criticism**: The crisis damaged the IMF's reputation, as it had supported Argentina's policies until the collapse.\n- **Debt restructuring battles**: Argentina's 2005 and 2010 restructurings, and subsequent litigation with \"holdout\" bondholders (leading to the 2014 technical default), stemmed directly from the 2001 default.\n- **Cautionary tale**: The crisis became a case study in the dangers of currency pegs, heavy foreign borrowing, and austerity during downturns.\n\nNotably, Argentina also staged a strong recovery from 2003 onward, growing rapidly for nearly a decade—though the crisis left lasting scars on its economy and politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 919,
+  "total_tokens": 959,
+  "cost": 8.59637e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.59637e-05,
+   "upstream_inference_prompt_cost": 1.14e-06,
+   "upstream_inference_completions_cost": 8.48237e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 257,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:40.459486+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

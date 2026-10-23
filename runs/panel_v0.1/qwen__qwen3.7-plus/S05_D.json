@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "D",
+ "prompt": "Describe the 1993 Waco siege.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 1993 Waco siege was a 51-day standoff between the United States federal government and the Branch Davidians, a religious sect led by David Koresh, at their compound known as the Mount Carmel Center, located just outside Waco, Texas. The siege began on February 28, 1993, and ended in a tragic fire on April 19, 1993, resulting in the deaths of 80 people. \n\nHere is a detailed breakdown of the event, its phases, and its lasting legacy.\n\n### Background\nThe **Branch Davidians** were a splinter group of the Seventh-day Adventist Church. By the late 1980s, the group had come under the control of **David Koresh** (born Vernon Howell), a charismatic and deeply controversial figure who claimed to be a prophet and the final messiah. \n\nUnder Koresh’s leadership, the group became increasingly isolated. The federal government began investigating the sect due to allegations of severe internal abuses, including the sexual abuse of minors (Koresh claimed to have taken multiple \"spiritual wives,\" some as young as 12) and the illegal stockpiling and modification of firearms. \n\nIn early 1993, the **Bureau of Alcohol, Tobacco, and Firearms (ATF)** obtained a search warrant for the Mount Carmel Center, suspecting the group possessed illegal automatic weapons and grenades.\n\n### Phase 1: The Initial Raid (February 28, 1993)\nThe ATF initially planned a covert entry into the compound, disguised as a routine delivery. However, the element of surprise was lost when a local newspaper published a story about the impending raid, and a Davidian guard spotted the agents.\n\nThe ATF pivoted to an overt, frontal assault. The resulting shootout was fierce and chaotic. The Davidians, armed with semi-automatic rifles, repelled the agents. \n* **Casualties:** Four ATF agents were killed, and 16 were wounded. Five Branch Davidians were killed, and several others were injured. \n* Following the failure of the raid, the ATF withdrew, and the **Federal Bureau of Investigation (FBI)** Hostage Rescue Team (HRT) took over the operation, transitioning the situation from a law enforcement raid to a hostage/barricade standoff.\n\n### Phase 2: The 51-Day Standoff\nFor the next seven weeks, the FBI surrounded the compound with armored vehicles and snipers. The FBI’s strategy relied heavily on negotiation, psychological pressure, and isolation.\n\n* **Negotiations:** FBI negotiators engaged in prolonged phone conversations with Koresh. Koresh frequently delayed surrender, claiming he needed to receive messages from God or finish writing theological manuscripts. \n* **Psychological Tactics:** The FBI employed aggressive psychological warfare. They cut off the compound's electricity, blared loud, discordant music and sounds of dying animals through loudspeakers, and illuminated the compound with massive floodlights at night to prevent sleep.\n* **Conditions Inside:** Inside the compound, conditions deteriorated. Food and water supplies dwindled, and the psychological toll on the inhabitants, including dozens of children, grew severe.\n\n### Phase 3: The Final Assault and Fire (April 19, 1993)\nFrustrated by the lack of progress and believing the Davidians were preparing for a mass suicide or armed breakout, the FBI decided to force the issue. Attorney General Janet Reno approved the use of **CS tear gas** to flush the inhabitants out of the compound.\n\nOn the morning of April 19, FBI Combat Support Vehicles (large tanks modified to hold tear gas) began punching holes in the walls of the compound and pumping in the gas. The Davidians responded by moving inside, boarding up windows, and occasionally firing at the tanks.\n\nAt approximately 6:00 a.m., a fire broke out inside the compound. The fire spread with astonishing speed, fueled by highly flammable materials and the wind. Within hours, the Mount Carmel Center was reduced to ashes. \n\n### Casualties and Aftermath\n* **The Dead:** 76 Branch Davidians died in the fire, including David Koresh. Koresh died from a gunshot wound to the head; the official investigation concluded it was likely a suicide, though some survivors claimed he was shot by an aide. Four ATF agents had died in the initial raid, bringing the total death toll to 80.\n* **The Survivors:** Only nine people survived the fire, some of whom were very young children who had been hidden in a concrete vault.\n* **Investigations:** The aftermath triggered massive congressional hearings and multiple government investigations. The Treasury Department heavily criticized the ATF for the botched initial raid. The Justice Department largely cleared the FBI of intentionally starting the fire, though it criticized the FBI's use of tear gas and psychological tactics. (A later independent investigation led by former Senator John Danforth in 2000 concluded definitively that the FBI did not use pyrotechnics that started the fire, placing the blame for the fire on the Davidians).\n\n### Legacy and Historical Impact\nThe Waco siege had a profound and lasting impact on American history, politics, and law enforcement:\n\n1. **Rise of the Militia Movement:** Waco became a rallying cry for anti-government extremists, militias, and sovereign citizens. It was viewed by these groups as proof of a tyrannical federal government willing to murder its own citizens.\n2. **The Oklahoma City Bombing:** The most direct and tragic legacy of Waco was the 1995 Oklahoma City bombing. Domestic terrorist Timothy McVeigh, who was deeply radicalized by the Waco siege, deliberately timed his bombing of the Alfred P. Murrah Federal Building to occur on the second anniversary of the final day of the Waco fire. The blast killed 168 people.\n3. **Law Enforcement Reform:** The FBI and other federal agencies underwent massive overhauls. The FBI changed its hostage negotiation protocols, reduced the use of aggressive psychological tactics, and improved inter-agency communication. The military also restricted its involvement in domestic law enforcement operations.\n4. **Cultural Divide:** Waco remains a deeply polarizing event. To the federal government and mainstream observers, it was a tragic standoff with a dangerous, abusive cult leader. To anti-government activists and many on the political fringes, it remains the ultimate symbol of government overreach and tyranny.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 2749,
+  "total_tokens": 2770,
+  "cost": 0.00352544,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00352544,
+   "upstream_inference_prompt_cost": 6.72e-06,
+   "upstream_inference_completions_cost": 0.00351872
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1400,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:24:37.349656+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

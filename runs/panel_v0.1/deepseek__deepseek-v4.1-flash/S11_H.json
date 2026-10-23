@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1969 Stonewall riots? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "Historians have not settled on a single meaning of the 1969 Stonewall riots. Interpretations have moved from seeing Stonewall as the dramatic “birth” of gay liberation to treating it as a complex event whose later fame was partly constructed by movement memory.\n\n1. **Foundational turning point.** Early and influential accounts—Martin Duberman’s oral history *Stonewall* (1993), David Carter’s *Stonewall: The Riots That Sparked the Gay Revolution* (2004), and Lillian Faderman’s *The Gay Revolution* (2015)—treat the riots as a catalytic moment. Carter argues that Stonewall was not the first act of queer resistance, but it was uniquely consequential because it lasted several nights, drew crowds, and helped generate groups such as the Gay Liberation Front. Duberman emphasizes the diversity of participants and the emotional/political rupture.\n\n2. **Revisionist and memory-focused accounts.** Elizabeth Armstrong and Suzanna Crage’s “Movements and Memory: The Making of the Stonewall Myth” (*American Sociological Review*, 2006) argues that Stonewall’s status was not inevitable. It became the remembered founding event because it was dramatic, media-covered, commemorated annually, and fit a national movement’s needs—while other resistances, such as Compton’s Cafeteria and Cooper Do-nuts, were largely forgotten. Marc Stein’s *The Stonewall Riots: A Documentary History* (2019) similarly treats Stonewall as an event whose meanings were made retrospectively and contested.\n\n3. **Local and pre-Stonewall context.** John D’Emilio’s *Sexual Politics, Sexual Communities* (1983) and George Chauncey’s *Gay New York* (1994) place Stonewall within longer histories of homophile organizing, urban gay life, and earlier resistance. Historians note that police raids on gay bars were routine, that the Stonewall Inn was Mafia-owned, and that police corruption and Village politics shaped the confrontation. This complicates the idea that Stonewall was a purely spontaneous “first” rebellion.\n\n4. **Intersectional and trans historiography.** Susan Stryker’s *Transgender History* (2008), Duberman’s oral history, and Stein’s documentary collection stress that street youth, drag queens, trans women, lesbians, and gay men of color were central participants. Sylvia Rivera and Marsha P. Johnson became iconic, but historians caution against simplifying who “threw the first brick”; Johnson herself denied doing so, and the evidence is uncertain. The historiographical point is that later commemorations have sometimes whitewashed or de-radicalized Stonewall’s participants.\n\n5. **Memory and commemoration.** Stein and Armstrong/Crage show that historians now distinguish between the event and its afterlife: annual Pride, the Gay Liberation Front, and later “Stonewall was a riot” rhetoric are part of how the riots have been interpreted and used politically.\n\nIn short: historians increasingly see Stonewall as both a real confrontation and a constructed symbol—important not because it was the first queer resistance, but because it was remembered, commemorated, and made to carry the meaning of gay liberation.\n\n**Sources cited:** Duberman, *Stonewall* (1993); Carter, *Stonewall* (2004); D’Emilio, *Sexual Politics, Sexual Communities* (1983); Chauncey, *Gay New York* (1994); Armstrong and Crage, “Movements and Memory,” *ASR* 71 (2006); Stryker, *Transgender History* (2008); Faderman, *The Gay Revolution* (2015); Stein, *The Stonewall Riots: A Documentary History* (2019); *The Stonewall Reader* (2019).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 2584,
+  "total_tokens": 2630,
+  "cost": 0.001564338,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001564338,
+   "upstream_inference_prompt_cost": 1.3938e-05,
+   "upstream_inference_completions_cost": 0.0015504
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1791,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:15:21.153755+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

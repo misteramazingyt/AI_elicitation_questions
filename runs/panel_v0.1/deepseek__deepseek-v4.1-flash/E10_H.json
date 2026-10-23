@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "H",
+ "prompt": "How have historians interpreted the UK miners' strike of 1984-1985? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Together",
+ "response": "Historians have not reached a single agreed interpretation of the UK miners’ strike of 1984–85. Early accounts were often journalistic and polemical; later work has become more academic, regional, social, and cultural. The main interpretive clusters are:\n\n**1. Class war and the left-labour interpretation**  \nMany left-wing and labour-movement accounts see the strike as a defensive class struggle against Thatcherism and deindustrialisation. Arthur Scargill and the NUM are portrayed as resisting a government determined to break union power, with the state, police, media, and NCB allegedly coordinating to defeat the miners. Key examples are Seumas Milne, *The Enemy Within: The Secret War Against the Miners* (1994; 4th ed. 2014), and Huw Beynon (ed.), *Digging Deeper: Issues in the Miners’ Strike* (1985). Raphael Samuel, Barbara Bloomfield and Guy Boanas (eds), *The Enemy Within: Pit Villages and the Miners’ Strike of 1984–5* (1986), emphasises community solidarity and the strike as a defence of a whole way of life.\n\n**2. Thatcherite and neo-liberal interpretations**  \nFrom the right, the strike is often presented as a necessary confrontation with over-mighty trade unions, with Scargill’s refusal to hold a national ballot and the violence on picket lines alienating public opinion. Margaret Thatcher’s memoir, *The Downing Street Years* (1993), is a primary statement of this view. It stresses economic reality, the need to close unprofitable pits, and the government’s resolve not to be dictated to by a union minority.\n\n**3. Industrial-relations and strategic-failure interpretations**  \nAcademic industrial-relations scholars have focused less on heroes and villains and more on the NUM’s federal structure, the absence of a national ballot, the Nottinghamshire split, coal stocks, and government contingency planning. Martin Adeney and John Lloyd, *The Miners’ Strike 1984–5: Loss Without Limit* (1986), is a key early account; Jonathan Winterton and Ruth Winterton, *Coal, Crisis and Conflict: The 1984–85 Miners’ Strike in Yorkshire* (1989), provides a detailed regional study. Andrew Taylor, *The NUM and British Politics*, 2 vols (2003, 2005), places the strike in the longer history of NUM politics and argues that the union’s internal divisions and strategic choices were as important as Thatcher’s determination.\n\n**4. Social, community and gender history**  \nSince the 1980s, historians have increasingly treated the strike as a social and community event, not just a top-level political confrontation. They examine food kitchens, welfare networks, women’s support groups, family life, and the cultural memory of pit villages. Samuel et al., *The Enemy Within* (1986), is central here. This literature shows that mining communities were not simply passive victims; women often became politicised, and the strike reshaped gender roles and local identities.\n\n**5. Policing, law and the state**  \nA significant body of work analyses policing, civil liberties, mass picketing, and the legal framework. Bob Fine and Robert Millar (eds), *Policing the Miners’ Strike* (1985), and Penny Green, *The Enemy Without: Policing and Class Consciousness in the Miners’ Strike* (1990), argue that the police and legal system were used as instruments of state power. David Waddington, Karen Jones and Chas Critcher, *Flashpoints: Studies in Public Disorder* (1989), examine public-order policing and the dynamics of confrontations such as Orgreave.\n\n**6. Memory and legacy**  \nMore recent work treats the strike as a contested memory. Interpretations range from heroic defeat and state victimisation to necessary reform and union intransigence. Historians link the strike to longer-term deindustrialisation, the decline of coal, the weakening of trade unionism, and even later political developments such as Brexit. The 30th and 40th anniversaries produced new oral histories and local studies that stress complexity, regional variation, and the continuing bitterness of the dispute.\n\nIn short, the historiography has moved from contemporary polemic towards a more fragmented picture: the strike was simultaneously a national political confrontation, an industrial-relations disaster for the NUM, a state-policing crisis, a community survival struggle, and a gendered social experience. The best accounts combine these dimensions rather than reducing the strike to a single narrative of Thatcher’s victory or Scargill’s defeat.\n\n**Key sources cited**  \n- Martin Adeney and John Lloyd, *The Miners’ Strike 1984–5: Loss Without Limit* (1986).  \n- Huw Beynon (ed.), *Digging Deeper: Issues in the Miners’ Strike* (1985).  \n- Bob Fine and Robert Millar (eds), *Policing the Miners’ Strike* (1985).  \n- Geoffrey Goodman, *The Miners’ Strike* (1985).  \n- Penny Green, *The Enemy Without: Policing and Class Consciousness in the Miners’ Strike* (1990).  \n- Seumas Milne, *The Enemy Within: The Secret War Against the Miners* (1994; 4th ed. 2014).  \n- Raphael Samuel, Barbara Bloomfield and Guy Boanas (eds), *The Enemy Within: Pit Villages and the Miners’ Strike of 1984–5* (1986).  \n- Andrew Taylor, *The NUM and British Politics*, 2 vols (2003, 2005).  \n- Margaret Thatcher, *The Downing Street Years* (1993).  \n- David Waddington, Karen Jones and Chas Critcher, *Flashpoints: Studies in Public Disorder* (1989).  \n- Peter Wilsher, Donald Macintyre and Michael Jones, *Strike: Thatcher, Scargill and the Miners* (1985).  \n- Jonathan Winterton and Ruth Winterton, *Coal, Crisis and Conflict: The 1984–85 Miners’ Strike in Yorkshire* (1989).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 51,
+  "completion_tokens": 6638,
+  "total_tokens": 6689,
+  "cost": 0.0079809,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0079809,
+   "upstream_inference_prompt_cost": 1.53e-05,
+   "upstream_inference_completions_cost": 0.0079656
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 5334,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:53:15.063203+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

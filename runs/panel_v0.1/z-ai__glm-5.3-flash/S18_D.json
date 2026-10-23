@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "D",
+ "prompt": "Describe the 2011 military intervention in Libya.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "The 2011 military intervention in Libya, often referred to as Operation Unified Protector, was a NATO-led effort that began in March 2011. The intervention was authorized by the United Nations Security Council Resolution 1973, which was passed on March 17, 2011. The resolution imposed a no-fly zone over Libya and authorized international forces to protect civilians from the regime of Muammar Gaddafi, who had been in power for over four decades.\n\n### Background:\nThe Arab Spring, a wave of pro-democracy protests and uprisings across the Middle East and North Africa, reached Libya in February 2011. Demonstrations against Gaddafi's regime quickly escalated into a full-scale civil war. Gaddafi's forces responded with severe violence against the rebels and civilians, leading to widespread condemnation from the international community. Fears of a humanitarian crisis, particularly in the rebel-held city of Benghazi, prompted calls for international action.\n\n### Key Events:\n1. **UN Security Council Resolution 1973**: This resolution authorized a no-fly zone over Libya, an arms embargo, and measures to protect civilians. It specifically allowed for \"all necessary measures\" to enforce the no-fly zone and protect civilians, excluding an occupation force.\n2. **NATO's Involvement**: NATO took command of the military operations on March 31, 2011. The coalition included the United States, United Kingdom, France, and several other NATO and non-NATO countries. Qatar and the United Arab Emirates also participated.\n3. **Military Operations**: The intervention involved airstrikes against Gaddafi's military assets, including tanks, artillery, air defenses, and command-and-control facilities. Naval forces enforced an arms embargo in the Mediterranean.\n4. **Support for Rebels**: While the intervention was ostensibly to protect civilians, it effectively supported the rebel forces, the National Transitional Council (NTC), in their fight against Gaddafi's regime.\n5. **Fall of Tripoli**: After months of fighting, rebel forces captured Tripoli in August 2011, marking the collapse of Gaddafi's regime.\n6. **Death of Gaddafi**: Muammar Gaddafi was captured and killed on October 20, 2011, in his hometown of Sirte, effectively ending the civil war.\n\n### Outcomes:\n- The intervention succeeded in overthrowing Gaddafi's regime, and the National Transitional Council assumed power.\n- However, the aftermath was marked by instability, with rival militias and factions vying for control, leading to a prolonged period of conflict and political turmoil.\n- Critics argued that the intervention exceeded the mandate of protecting civilians and amounted to regime change, while supporters contended that it prevented a humanitarian catastrophe.\n\nThe 2011 military intervention in Libya remains a subject of debate regarding its effectiveness and long-term consequences for the country and the region.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 923,
+  "total_tokens": 945,
+  "cost": 0.000360764,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000360764,
+   "upstream_inference_prompt_cost": 2.64e-06,
+   "upstream_inference_completions_cost": 0.000358124
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 352,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:33.933324+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

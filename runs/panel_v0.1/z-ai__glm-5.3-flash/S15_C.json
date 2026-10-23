@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "C",
+ "prompt": "What were the main causes of the 1948 Arab-Israeli war?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the 1948 Arab-Israeli War\n\nThe war (also called the First Arab-Israeli War or Israel's War of Independence) had deep and interconnected roots:\n\n## Long-Term Causes\n\n**1. Rise of Zionism**\n- Beginning in the late 19th century, the Zionist movement sought to establish a Jewish homeland in Palestine, driven partly by European antisemitism and persecution.\n\n**2. Competing Nationalisms**\n- Both Jewish and Arab nationalist movements laid claim to the same territory, with neither side accepting the other's aspirations.\n\n**3. British Mandate Tensions**\n- The 1917 Balfour Declaration promised support for a \"Jewish national home\" while Britain also made conflicting promises to Arab leaders during WWI.\n- British rule (1920–1948) struggled to manage escalating violence between communities, including the Arab Revolt of 1936–1939.\n\n**4. Jewish Immigration**\n- Waves of Jewish immigration, especially fleeing Nazi persecution in the 1930s, dramatically altered the demographic balance, alarming the Arab population.\n\n## Immediate Causes\n\n**5. The UN Partition Plan (November 1947)**\n- UN Resolution 181 proposed dividing Palestine into Jewish and Arab states, with Jerusalem under international control.\n- Jewish leaders accepted the plan; Arab states and Palestinian leaders rejected it, viewing it as illegitimate.\n\n**6. Civil War in Palestine (1947–1948)**\n- Violence erupted immediately after the partition vote, with fighting between Jewish and Arab militias. The Haganah and Irgun gained the upper hand, and events like the Deir Yassin massacre (April 1948) fueled panic and Palestinian flight.\n\n**7. British Withdrawal**\n- Britain announced it would end the Mandate on May 15, 1948, leaving a power vacuum.\n\n**8. Declaration of Israeli Independence**\n- On May 14, 1948, David Ben-Gurion declared the State of Israel. The next day, armies from Egypt, Jordan, Syria, Iraq, and Lebanon invaded, turning the civil war into an international conflict.\n\n## Underlying Issues\n- Arab states rejected the legitimacy of Jewish statehood in what they considered Arab land\n- The plight of Palestinian refugees, who had begun fleeing or being expelled during the fighting, became a rallying cause\n\nWould you like more detail on any particular aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 827,
+  "total_tokens": 870,
+  "cost": 7.75576e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.75576e-05,
+   "upstream_inference_prompt_cost": 1.2255e-06,
+   "upstream_inference_completions_cost": 7.63321e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 327,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:24.298107+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

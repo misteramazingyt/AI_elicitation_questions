@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Main Causes Leading to Roe v. Wade (1973)\n\nThe Supreme Court's landmark decision arose from several interconnected historical, social, and legal factors:\n\n## Social and Cultural Factors\n\n- **The women's rights movement**: The feminist movement of the 1960s and 70s increasingly framed reproductive freedom as essential to women's equality and autonomy.\n- **Changing public attitudes**: Growing acceptance of contraception (following *Griswold v. Connecticut*, 1965, which established a right to privacy in marital relations) shifted public discourse on reproductive matters.\n- **Deaths from illegal abortions**: Estimates suggested thousands of women died annually from unsafe, illegal procedures, raising public health concerns among physicians and reformers.\n\n## Legal Landscape\n\n- **State-by-state variation**: Abortion laws were wildly inconsistent—some states banned it entirely, while reform-minded states like New York had liberalized their laws by 1970, creating legal uncertainty.\n- **Reform movements**: Organizations like Planned Parenthood and legal advocates had been challenging restrictive laws through test cases since the 1960s.\n- **American Law Institute reforms**: Legal scholars in the late 1950s and 1960s recommended modernizing abortion statutes, influencing some state legislatures.\n\n## The Case Itself\n\n- **Norma McCorvey (\"Jane Roe\")** challenged Texas's law that banned abortion except to save the mother's life.\n- **Strategic litigation**: Attorney Sarah Weddington and others deliberately sought a case that could establish broader constitutional principles.\n- **Extension of privacy doctrine**: The Court built on *Griswold* and other precedents suggesting a constitutional \"right to privacy,\" even though the Constitution never explicitly mentions it.\n\n## Broader Context\n\nThe decision reflected the era's broader constitutional trends, including expanded substantive due process interpretation and the Court's willingness to strike down state laws it found inconsistent with individual rights under the Fourteenth Amendment.\n\nWould you like more detail on any of these aspects?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 402,
+  "total_tokens": 435,
+  "cost": 0.000159936,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000159936,
+   "upstream_inference_prompt_cost": 3.96e-06,
+   "upstream_inference_completions_cost": 0.000155976
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:08.855179+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

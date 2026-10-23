@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "C",
+ "prompt": "What were the main causes of the 1883 eruption of Krakatoa?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1883 eruption of Krakatoa was a complex event with multiple factors contributing to its occurrence. While the exact causes are still debated among volcanologists, the main factors that led to the eruption are believed to be:\n\n1. **Magma buildup and pressure**: Krakatoa is a stratovolcano located at a subduction zone, where the Indo-Australian plate is being pushed beneath the Eurasian plate. This process, known as subduction, leads to the formation of magma as the overlying plate is subjected to increasing heat and pressure. Over time, magma accumulated in the chamber beneath Krakatoa, causing pressure to build up.\n2. **Tectonic stress and earthquakes**: The region around Krakatoa is seismically active, with frequent earthquakes caused by the movement of the tectonic plates. These earthquakes may have weakened the volcano's structure and contributed to the release of pressure in the magma chamber.\n3. **Phreatomagmatic interactions**: Krakatoa is a submarine volcano, and its vent is connected to the sea. The interaction between the hot magma and seawater is thought to have played a role in the eruption. As magma rose into the vent, it came into contact with seawater, causing a violent reaction that produced a large amount of steam. This phreatomagmatic interaction is believed to have contributed to the explosive nature of the eruption.\n4. **Volcanic unrest and precursory activity**: In the years leading up to the 1883 eruption, Krakatoa was experiencing increased volcanic unrest, with frequent earthquakes, tremors, and smaller-scale eruptions. This activity suggests that the volcano was already in a state of heightened unrest, making a larger eruption more likely.\n\nThe combination of these factors ultimately led to the catastrophic eruption of Krakatoa on August 27, 1883, which is considered one of the most powerful volcanic eruptions in recorded history. The eruption was characterized by a massive explosion that produced a tsunami, pyroclastic flows, and widespread ash fall, causing widespread destruction and loss of life.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 415,
+  "total_tokens": 441,
+  "cost": 0.0002756625,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002756625,
+   "upstream_inference_prompt_cost": 4.875e-06,
+   "upstream_inference_completions_cost": 0.0002707875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:45.345154+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

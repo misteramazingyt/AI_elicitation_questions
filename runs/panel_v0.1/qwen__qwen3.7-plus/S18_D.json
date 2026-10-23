@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "D",
+ "prompt": "Describe the 2011 military intervention in Libya.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 2011 military intervention in Libya was a United Nations-authorized, NATO-led military campaign conducted during the First Libyan Civil War. The intervention ultimately resulted in the defeat and death of long-time Libyan leader Muammar Gaddafi, but it also led to prolonged instability in the country. \n\nHere is an overview of the intervention, its context, execution, and aftermath:\n\n### Background and Context\nIn early 2011, inspired by the broader \"Arab Spring\" uprisings across the Middle East and North Africa, protests erupted in Libya against the four-decade rule of Muammar Gaddafi. The Libyan government responded to the protests with severe military force, quickly escalating into a full-scale civil war. \n\nBy March 2011, Gaddafi’s forces were advancing on the eastern city of Benghazi, the stronghold of the anti-Gaddafi opposition. Gaddafi publicly vowed to show \"no mercy\" to the rebels and threatened to hunt down protesters \"alley by alley,\" raising international fears of an impending massacre.\n\n### United Nations Authorization\nIn response to the crisis, the UN Security Council passed two key resolutions:\n*   **Resolution 1970 (February 26, 2011):** Imposed an arms embargo, targeted travel bans, and asset freezes on Gaddafi and his inner circle, and referred the situation to the International Criminal Court (ICC).\n*   **Resolution 1973 (March 17, 2011):** Authorized member states to take \"all necessary measures\" to protect civilians and civilian-populated areas under threat of attack. Crucially, it established a no-fly zone over Libyan airspace and explicitly ruled out \"a foreign occupation force of any form on any part of Libyan territory.\"\n\n### The Military Campaign\nThe military intervention began on the evening of March 19, 2011. \n*   **Initial Strikes:** The first strikes were carried out by a coalition primarily consisting of the United States (Operation Odyssey Dawn), France (Operation Harmattan), and the United Kingdom (Operation Ellamy). They targeted Libyan air defense systems and armored units advancing on Benghazi, halting the government's offensive.\n*   **NATO Command:** On March 31, 2011, command of the military operation was transferred to NATO under the name **Operation Unified Protector**. \n*   **Nature of the Operation:** The intervention relied entirely on air and naval power. NATO conducted thousands of sorties, targeting Libyan government command and control centers, armor, artillery, and logistics hubs. A naval blockade was also enforced to maintain the arms embargo. No foreign ground troops were deployed to Libya.\n\n### Impact on the Civil War\nWhile the UN mandate was strictly limited to the protection of civilians, the airstrikes significantly degraded the capabilities of Gaddafi’s military. In practice, NATO's air campaign acted as the air force for the Libyan rebel groups, primarily organized under the political umbrella of the National Transitional Council (NTC). \n\nWith Gaddafi's forces weakened and their supply lines disrupted by NATO, rebel forces were able to go on the offensive. They gradually captured key coastal cities, eventually surrounding the capital, Tripoli, which fell in August 2011. The conflict effectively ended in October 2011 when Gaddafi’s hometown of Sirte was captured, and Gaddafi himself was captured and killed by rebel forces on October 20, 2011. NATO officially ended its mission on October 31, 2011.\n\n### Aftermath and Legacy\nThe 2011 intervention remains a highly debated subject in international relations and military strategy.\n\n*   **Supporters' Perspective:** Proponents of the intervention argue that it was a necessary and successful application of the \"Responsibility to Protect\" (R2P) doctrine. They maintain that without international military action, a large-scale massacre of civilians in Benghazi would have occurred, and that the intervention helped remove a brutal dictator.\n*   **Critics' Perspective:** Critics argue that the intervention suffered from \"mission creep,\" asserting that NATO exceeded its UN mandate by actively pursuing regime change rather than strictly protecting civilians. Furthermore, critics point to the aftermath of the intervention, noting that the lack of a post-conflict stabilization plan led to a power vacuum. \n\nFollowing Gaddafi's death, Libya descended into a second civil war, fracturing into rival governments and becoming a haven for militant groups and a hub for human trafficking. The long-term instability in Libya is frequently cited by critics as a cautionary tale regarding the unintended consequences of military interventions.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 2408,
+  "total_tokens": 2430,
+  "cost": 0.00308928,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00308928,
+   "upstream_inference_prompt_cost": 7.04e-06,
+   "upstream_inference_completions_cost": 0.00308224
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1460,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:02.100763+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

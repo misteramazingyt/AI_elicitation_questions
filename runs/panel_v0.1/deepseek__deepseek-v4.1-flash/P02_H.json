@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1883 eruption of Krakatoa? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "CoreWeave",
+ "response": "Historians have generally treated the 1883 eruption of Krakatoa/Krakatau not as a single event with one meaning, but as a node in several overlapping histories: scientific, imperial, media, environmental, and local/Indonesian. The main interpretations can be grouped as follows.\n\n**1. A landmark geophysical and global-scientific event.**  \nEarly official interpretation came from the Royal Society’s Krakatoa Committee, which collected worldwide observations of air-pressure waves, tsunamis, sunsets, and atmospheric dust. It framed the eruption as a planetary-scale natural experiment and helped consolidate international scientific cooperation. Later volcanologists and historians of science have treated it as a benchmark eruption for understanding caldera collapse, tsunami generation, and stratospheric aerosol effects. See Royal Society/Symons 1888; Self and Rampino 1981; Simkin and Fiske 1983; Oppenheimer 2011.\n\n**2. A colonial and imperial crisis.**  \nHistorians of the Dutch East Indies have read the eruption through colonial governance. The disaster exposed the limits of Dutch administrative reach, prompted relief and surveillance measures, and intensified debates about race, welfare, and control. Sartono Kartodirdjo’s classic study of the 1888 Banten peasant revolt argues that the eruption worsened socioeconomic and religious tensions in Java, feeding messianic and anti-colonial expectations. In this interpretation, Krakatoa was not just a natural disaster but a political event that shaped colonial legitimacy and resistance. See Kartodirdjo 1966.\n\n**3. The first modern global media event.**  \nSimon Winchester’s popular history argues that the telegraph made Krakatoa one of the first truly global news events: reports, scientific bulletins, and sensational stories circulated rapidly through imperial cable networks and newspapers. This interpretation emphasizes globalization, communications, and the emergence of a shared global consciousness of catastrophe. Specialists caution that Winchester’s account is popular and sometimes dramatic; his synthesis is best read alongside the documentary compilation of Simkin and Fiske 1983. See Winchester 2003; Simkin and Fiske 1983.\n\n**4. An environmental and climate-history event.**  \nClimate historians and geoscientists have interpreted the eruption as a global environmental agent. Sulfate aerosols injected into the stratosphere produced vivid sunsets, “blue moons,” and measurable global cooling of roughly 0.5°C in the following year. This approach places Krakatoa within a longer history of volcanic forcing of climate, alongside Tambora 1815 and other eruptions. See Rampino and Self 1982; Oppenheimer 2011; for the broader climate-history method, Wood 2014.\n\n**5. A disaster-memory, ecological, and Indonesian/local history.**  \nEcologists and historians of disaster have studied the eruption’s aftermath: the sterilization of Krakatau’s biota, the reassembly of island ecosystems, and the later emergence of Anak Krakatau. Indonesian and local accounts often emphasize religious meaning, trauma, oral memory, and the disaster’s place in national and regional identity. This literature stresses local agency and vulnerability rather than treating the eruption only as a European scientific or media spectacle. See Thornton 1996; Kartodirdjo 1966; Simkin and Fiske 1983.\n\nIn short, older interpretations tended to be scientific and colonial-administrative. Since the late twentieth century, historians have increasingly read Krakatoa through postcolonial, environmental, media, and disaster-studies lenses. The most reliable scholarship combines these scales rather than reducing the eruption to a single “global” or “local” story.\n\n**Sources cited**\n\n- Royal Society, *The Eruption of Krakatoa and Subsequent Phenomena*, ed. G. J. Symons (London: Trübner, 1888).  \n- Self, Stephen, and Michael R. Rampino. “The 1883 Eruption of Krakatau.” *Nature* 294 (1981): 699–704.  \n- Rampino, Michael R., and Stephen Self. “Historic Eruptions of Tambora (1815), Krakatau (1883), and Agung (1963), Their Stratospheric Aerosols, and Climatic Impact.” *Quaternary Research* 18 (1982): 127–143.  \n- Simkin, Tom, and Richard S. Fiske. *Krakatau 1883: The Volcanic Eruption and Its Effects*. Washington, DC: Smithsonian Institution Press, 1983.  \n- Kartodirdjo, Sartono. *The Peasants’ Revolt of Banten in 1888: Its Conditions, Course and Sequel*. The Hague: Martinus Nijhoff, 1966.  \n- Thornton, Ian W. B. *Krakatau: The Destruction and Reassembly of an Island Ecosystem*. Cambridge, MA: Harvard University Press, 1996.  \n- Winchester, Simon. *Krakatoa: The Day the World Exploded, August 27, 1883*. New York: HarperCollins, 2003.  \n- Oppenheimer, Clive. *Eruptions That Shook the World*. Cambridge: Cambridge University Press, 2011.  \n- Wood, Gillen D’Arcy. *Tambora: The Eruption That Changed the World*. Princeton: Princeton University Press, 2014.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 48,
+  "completion_tokens": 5755,
+  "total_tokens": 5803,
+  "cost": 0.00374795,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00374795,
+   "upstream_inference_prompt_cost": 7.2e-06,
+   "upstream_inference_completions_cost": 0.00374075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4643,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:58:07.900203+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

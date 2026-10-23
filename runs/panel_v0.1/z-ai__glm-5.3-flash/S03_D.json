@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "D",
+ "prompt": "Describe McCarthyism in the 1950s.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# McCarthyism in the 1950s\n\nMcCarthyism refers to the intense anti-communist hysteria and political persecution that swept the United States in the late 1940s and 1950s, named after Senator Joseph McCarthy of Wisconsin.\n\n## Origins\n\nThe movement emerged from Cold War fears following World War II. Key events that fueled anxiety included:\n- The Soviet Union's development of nuclear weapons (1949)\n- The \"fall\" of China to communism (1949)\n- The Korean War (1950–1953)\n- Soviet spy revelations, including the cases of Alger Hiss and the Rosenbergs\n\n## Joseph McCarthy\n\nIn February 1950, McCarthy made a famous speech in Wheeling, West Virginia, claiming he had a list of communists working in the State Department. Though he never substantiated his claims (and the number of names he cited kept changing), the accusation catapulted him to national prominence. For roughly four years, he chaired investigations and held hearings, often making sweeping, unproven accusations against government officials, academics, entertainers, and others.\n\n## Key Characteristics\n\nMcCarthyism became associated with:\n- **Unsubstantiated accusations** — charges made without evidence, difficult to disprove\n- **Guilt by association** — people were suspect for knowing communists or attending leftist meetings decades earlier\n- **Blacklisting** — especially in Hollywood, where suspected communists could not find work\n- **Loyalty oaths and investigations** — the FBI under J. Edgar Hoover kept extensive files; government employees were screened\n- **Suppression of dissent** — criticism of the government could be labeled un-American\n\n## Broader Context\n\nMcCarthyism extended beyond McCarthy himself. The House Un-American Activities Committee (HUAC) had been investigating suspected communists since the late 1940s, famously targeting the \"Hollywood Ten\" in 1947. Loyalty programs begun under President Truman in 1947 purged thousands from federal employment.\n\n## Downfall\n\nMcCarthy's influence collapsed in 1954 during the **Army-McCarthy hearings**, which were televised nationally. His bullying tactics were exposed before millions of viewers, and army counsel Joseph Welch's famous rebuke — \"Have you no sense of decency, sir?\" — marked a turning point. The Senate censured McCarthy in December 1954, and he died in 1957.\n\n## Legacy\n\nMcCarthyism damaged countless lives and careers, chilled free expression, and weakened civil liberties. The term \"McCarthyism\" endures as shorthand for reckless, unfounded accusations and political persecution. It also prompted later reflections on the balance between national security and individual rights during times of fear.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 685,
+  "total_tokens": 722,
+  "cost": 6.428e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.428e-05,
+   "upstream_inference_prompt_cost": 1.0545e-06,
+   "upstream_inference_completions_cost": 6.32255e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 128,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:50.893504+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

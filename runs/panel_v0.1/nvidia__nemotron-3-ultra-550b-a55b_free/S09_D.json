@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 1973 decision in Roe v. Wade.",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "**Roe v. Wade, 410 U.S. 113 (1973)**, was a landmark decision of the U.S. Supreme Court in which the Court ruled that the Constitution of the United States protects a pregnant woman's liberty to choose to have an abortion without excessive government restriction. The decision struck down many federal and state abortion laws and fueled an ongoing national debate regarding the legality of abortion, the role of the Supreme Court, and the balance between individual rights and state interests.\n\nHere is a detailed breakdown of the case:\n\n### 1. Background\n*   **Plaintiff:** \"Jane Roe\" (a pseudonym for **Norma McCorvey**), a Texas woman who sought to terminate an unwanted pregnancy in 1969.\n*   **Defendant:** **Henry Wade**, the District Attorney of Dallas County, Texas.\n*   **Texas Law:** At the time, Texas statutes (Articles 1191–1194 of the Penal Code) made it a crime to procure or attempt an abortion except \"for the purpose of saving the life of the mother.\"\n*   **Procedural History:** McCorvey filed suit in federal district court against Wade, arguing the Texas law was unconstitutionally vague and violated her right to privacy. A three-judge district court panel ruled the law unconstitutional under the Ninth Amendment but declined to issue an injunction against enforcement. Both sides appealed to the Supreme Court.\n\n### 2. The Constitutional Question\nDoes the Constitution recognize a woman's right to terminate her pregnancy by abortion? Specifically, does the **Due Process Clause of the Fourteenth Amendment** (which protects against state action depriving \"any person of life, liberty, or property, without due process of law\") encompass a right to privacy broad enough to include the decision to have an abortion?\n\n### 3. The Holding (7–2 Decision)\n**Majority Opinion by Justice Harry Blackmun.**\n\nThe Court held that a woman's right to an abortion falls within the **right to privacy** protected by the Fourteenth Amendment's Due Process Clause. The Court acknowledged that this right is not absolute and must be balanced against the state's interests in regulating abortions: **protecting women's health** and **protecting the potentiality of human life**.\n\nTo balance these interests, the Court established a **trimester framework**:\n\n1.  **First Trimester (up to ~12 weeks):** The decision to abort is left entirely to the woman and her physician. The state **cannot regulate** the procedure in any way.\n2.  **Second Trimester (~13–24 weeks):** The state **may regulate** the abortion procedure, but **only in ways reasonably related to maternal health** (e.g., licensing clinics, requiring qualified physicians).\n3.  **Third Trimester (Viability, ~24 weeks onward):** Once the fetus reaches **viability** (the point at which it can survive outside the womb), the state's interest in \"potential life\" becomes compelling. The state **may regulate or even prohibit** abortion, **except where necessary to preserve the life or health of the mother** (defined broadly to include physical, emotional, psychological, and familial health).\n\n### 4. Key Legal Reasoning\n*   **Right to Privacy:** The Court traced the right to privacy to the \"penumbras\" of the Bill of Rights (citing *Griswold v. Connecticut*, 1965) and the Fourteenth Amendment's concept of personal liberty. It noted this right is \"broad enough to encompass a woman's decision whether or not to terminate her pregnancy.\"\n*   **Not a \"Person\":** The Court held that the word \"person\" in the Fourteenth Amendment does not include the unborn. Therefore, the fetus does not have constitutional rights (specifically the right to life) that would override the mother's liberty interest.\n*   **State Interests:** The Court recognized that the state has legitimate interests in protecting both the health of the pregnant woman and the potentiality of human life, and that these interests grow and become \"compelling\" at various stages of pregnancy.\n\n### 5. Concurring and Dissenting Opinions\n*   **Concurrences:** Justices Stewart, Douglas, and Burger wrote separate concurrences emphasizing different aspects of the liberty interest or the limits of the ruling.\n*   **Dissent (Justice Byron White, joined by Justice William Rehnquist):** Justice White called the decision an \"exercise of raw judicial power.\" He argued the Constitution contains no right to privacy encompassing abortion and that the Court was creating a new constitutional right not found in the text or history of the document, usurping the legislative role of the states. Justice Rehnquist wrote a separate dissent arguing the Court's trimester framework was judicial legislation and that the right to abortion was not \"fundamental\" or \"implicit in the concept of ordered liberty.\"\n\n### 6. Immediate Impact\n*   Invalidated abortion laws in **46 states** (laws in 30 states were automatically voided; others were severely restricted).\n*   Legalized abortion nationwide through all nine months of pregnancy (subject to the health exception in the third trimester).\n*   Established the Supreme Court as the final arbiter of abortion policy in the U.S. for nearly 50 years.\n\n### 7. Subsequent Modification: *Planned Parenthood v. Casey* (1992)\nIn 1992, the Court reaffirmed the \"central holding\" of *Roe* (the right to abortion before viability) in *Planned Parenthood of Southeastern Pennsylvania v. Casey*. However, it **abandoned the trimester framework** and replaced it with the **\"undue burden\" standard**:\n*   States could regulate abortion before viability so long as the regulation did not place a \"substantial obstacle in the path of a woman seeking an abortion\" (an \"undue burden\").\n*   This allowed states to enact restrictions like waiting periods, informed consent requirements, and parental consent laws for minors.\n\n### 8. Overturning: *Dobbs v. Jackson Women's Health Organization* (2022)\nOn **June 24, 2022**, the Supreme Court explicitly **overruled *Roe v. Wade* and *Planned Parenthood v. Casey*** in a 6–3 decision (5–4 to overturn the precedents specifically).\n*   **Majority Opinion (Justice Samuel Alito):** The Court held that the Constitution makes no reference to abortion and no such right is implicitly protected by any constitutional provision. It ruled that the authority to regulate abortion is returned to the people and their elected representatives (state legislatures).\n*   **Result:** Abortion is no longer a federally protected constitutional right. Regulation is now determined entirely by individual state laws, leading to a patchwork of bans, restrictions, and protections across the country.\n\n### Summary of Significance\n*Roe v. Wade* is one of the most famous, controversial, and consequential Supreme Court decisions in U.S. history. It fundamentally reshaped American politics, galvanizing the modern \"pro-life\" and \"pro-choice\" movements, influencing judicial nominations, and serving as a central fault line in cultural and electoral battles for nearly five decades until its reversal in *Dobbs*.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 35,
+  "completion_tokens": 1620,
+  "total_tokens": 1655,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 92,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:47:40.882328+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

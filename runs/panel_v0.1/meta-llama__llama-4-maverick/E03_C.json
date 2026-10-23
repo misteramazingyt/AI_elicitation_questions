@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "C",
+ "prompt": "What were the main causes of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The famine in Soviet Ukraine in 1932-1933, known as the Holodomor, was a devastating event that resulted in the deaths of millions of people. The main causes of the famine were complex and multifaceted, involving a combination of factors related to Soviet agricultural policies, economic conditions, and the actions of the Soviet government.\n\n1. **Forced Collectivization**: The Soviet government's policy of forced collectivization, initiated in the late 1920s, was a primary cause of the famine. The government sought to rapidly industrialize the country and to control the agricultural sector by consolidating individual farms into large-scale collective farms (kolkhozes) and state farms (sovkhozes). This process was often carried out brutally, with peasants being forced to give up their land, livestock, and equipment. The resistance to collectivization was met with repression, including the deportation of \"kulaks\" (wealthier peasants) to remote areas.\n\n2. **Grain Procurement Quotas**: The Soviet government set high grain procurement quotas for Ukraine and other agricultural regions. These quotas were often unrealistic and were enforced rigorously, leaving peasants with insufficient grain for their own consumption. The quotas were not adjusted even when it became clear that crops were failing or that the harvests were poor.\n\n3. **Confiscation of Food**: In 1932-1933, the situation worsened as the government not only took the grain but also other foodstuffs from the peasants, leaving them without the means to survive. The confiscation was carried out by special brigades that searched for and seized any food they could find, including grain hidden by peasants.\n\n4. **Export of Grain**: Despite the famine, the Soviet Union continued to export grain. This was partly to fulfill international trade obligations and partly to finance industrialization projects. The export of grain while people were starving exacerbated the famine's severity.\n\n5. **Repression and Blacklisting**: Villages that failed to meet their grain procurement quotas were often blacklisted, meaning they were cut off from trade and supplies, and were subject to increased repression. This further exacerbated the famine in affected areas.\n\n6. **Denial of Famine and Restriction of Aid**: The Soviet government initially denied the existence of the famine, both domestically and internationally. Even when the scale of the disaster became impossible to ignore, the government was slow to provide adequate aid, partly due to ideological reasons and partly to avoid acknowledging the failure of its policies.\n\n7. **Specific Policies Targeting Ukraine**: Some historians argue that the famine was deliberately targeted at Ukraine, aiming to crush Ukrainian nationalism and the peasantry's resistance to Soviet rule. The policies implemented in Ukraine were particularly harsh, and the region suffered disproportionately compared to other parts of the Soviet Union.\n\nThe combination of these factors led to one of the most tragic events in Ukrainian history, resulting in an estimated 3 to 5 million deaths. The Holodomor remains a highly sensitive and debated topic, with ongoing discussions about its causes, consequences, and the extent to which it was a deliberate act of genocide against the Ukrainian people.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 642,
+  "total_tokens": 671,
+  "cost": 0.0004243425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004243425,
+   "upstream_inference_prompt_cost": 5.4375e-06,
+   "upstream_inference_completions_cost": 0.000418905
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:34.424820+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

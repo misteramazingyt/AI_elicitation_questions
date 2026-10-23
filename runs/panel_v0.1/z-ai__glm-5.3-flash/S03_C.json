@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "C",
+ "prompt": "What were the main causes of McCarthyism in the 1950s?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of McCarthyism\n\nMcCarthyism—the intense anti-communist hysteria of the late 1940s and 1950s—emerged from several converging factors:\n\n## International Tensions\n\n- **The Cold War**: Rising hostility with the Soviet Union after WWII created genuine fears about communist expansion.\n- **The \"Fall\" of China (1949)**: Mao Zedong's communist victory shocked Americans and fueled claims that communists had infiltrated the U.S. government.\n- **Soviet atomic espionage**: The 1949 Soviet atomic bomb test, followed by the conviction of Julius and Ethel Rosenberg (1950–53) for passing atomic secrets, seemed to confirm fears of internal subversion.\n- **The Korean War (1950)**: The outbreak of war in Korea intensified fears of global communist aggression.\n\n## Domestic Political Factors\n\n- **Republican political strategy**: After 20 years of Democratic rule, Republicans like Joseph McCarthy used accusations of communist infiltration to attack the Truman administration and Democrats generally.\n- **Loyalty programs**: Truman's 1947 executive order establishing loyalty reviews for federal employees legitimized suspicion of government workers.\n- **HUAC**: The House Un-American Activities Committee had been investigating alleged communists since 1938, creating institutional momentum.\n\n## Social and Cultural Conditions\n\n- **Historical anti-communism**: The First Red Scare (1917–1920) and long-standing suspicion of radicals and immigrants provided a foundation.\n- **Media amplification**: Newspapers and radio gave McCarthy's dramatic, unsubstantiated charges enormous publicity.\n- **Economic anxieties**: Postwar uncertainty and fears about atomic warfare made the public receptive to simple explanations for complex threats.\n- **Conformity culture**: Cold War-era pressure to demonstrate patriotism discouraged dissent and enabled accusations to go unchallenged.\n\n## McCarthy's Personal Role\n\nSenator Joseph McCarthy's February 1950 Wheeling, West Virginia speech—claiming to have a list of communists in the State Department—catalyzed the movement. His willingness to make sweeping, often baseless accusations set the tone for an era where reputation could be destroyed by mere suspicion.\n\nThe phenomenon eventually faded after McCarthy's Army hearings (1954) were televised and his tactics were publicly discredited, leading to his censure by the Senate in December 1954.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 615,
+  "total_tokens": 657,
+  "cost": 5.79615e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.79615e-05,
+   "upstream_inference_prompt_cost": 1.197e-06,
+   "upstream_inference_completions_cost": 5.67645e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 130,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:51.914788+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

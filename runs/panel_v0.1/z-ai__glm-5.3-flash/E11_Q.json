@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "Q",
+ "prompt": "What were the consequences of Venezuela's economic crisis since 2013?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Consequences of Venezuela's Economic Crisis\n\nVenezuela's crisis, which intensified after oil prices collapsed in 2014, has had profound consequences:\n\n## Humanitarian Impact\n\n- **Mass emigration**: Over 7 million Venezuelans left the country—one of the largest displacement crises in the world, with most settling in Colombia, Peru, Brazil, and other neighboring countries\n- **Poverty**: The majority of the population fell into poverty, with many dependent on remittances or government aid programs\n- **Food insecurity**: Widespread shortages led to malnutrition, and average weight loss of significant amounts was reported among the population\n- **Healthcare collapse**: Shortages of medicines and medical supplies, mass emigration of doctors, and resurgence of previously controlled diseases (measles, malaria, diphtheria)\n\n## Economic Devastation\n\n- **Hyperinflation**: Inflation peaked at over 1,000,000% in 2018, wiping out savings and making the bolívar nearly worthless\n- **GDP collapse**: The economy shrank by roughly 75% between 2013 and 2021—a contraction deeper than most major economic crises in modern history\n- **Currency devaluation**: Multiple redenominations of the bolívar (removing zeros from the currency several times)\n- **Dollarization**: Informal adoption of the US dollar for many transactions\n\n## Social Consequences\n\n- Collapse of public services: chronic electricity blackouts, water shortages, and deteriorating infrastructure\n- Decline in education access as teachers emigrated and schools closed\n- Rising crime and insecurity, though homicide rates fell later partly due to emigration\n- Increased dependence on cash transfers and remittances from abroad\n\n## Political Consequences\n\n- **Political crisis**: Contested legitimacy between Nicolás Maduro's government and Juan Guaidó (recognized by many Western countries as interim president in 2019)\n- **International sanctions**: US sanctions on the oil sector and government officials, which further constrained the economy (their impact remains debated)\n- **Geopolitical tensions**: Alignment with Russia, China, Iran, and Cuba\n- **Oil industry decline**: PDVSA, once a major oil producer, saw output collapse due to mismanagement, corruption, and sanctions\n\n## Partial Recovery (2021–present)\n\nSome stabilization has occurred since 2021—growth resumed, inflation moderated, and informal dollarization helped commerce—though living standards remain far below pre-crisis levels and the situation remains fragile.\n\nWould you like more detail on any particular aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 523,
+  "total_tokens": 549,
+  "cost": 0.000206044,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000206044,
+   "upstream_inference_prompt_cost": 3.12e-06,
+   "upstream_inference_completions_cost": 0.000202924
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:33.280691+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

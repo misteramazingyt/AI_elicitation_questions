@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "C",
+ "prompt": "What were the main causes of the UK miners' strike of 1984-1985?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The UK miners' strike of 1984-1985 was a major industrial dispute between the National Union of Mineworkers (NUM) and the National Coal Board (NCB). The main causes of the strike were:\n\n1. **Coal pit closures and job losses**: The Conservative government, led by Prime Minister Margaret Thatcher, had announced plans to close unprofitable coal mines, which would lead to significant job losses. The NUM opposed these closures, arguing that they would devastate mining communities and lead to widespread unemployment.\n2. **Disagreement over coal industry restructuring**: The Thatcher government had introduced policies aimed at reducing the UK's dependence on coal and increasing the use of alternative energy sources. The NUM saw this as a threat to the livelihoods of miners and the future of the coal industry.\n3. **Ian MacGregor's appointment as NCB chairman**: In 1983, Ian MacGregor, a hardline industrialist with experience in restructuring industries, was appointed chairman of the NCB. MacGregor was determined to reduce the coal industry's workforce and close unprofitable pits, which further antagonized the NUM.\n4. **NUM opposition to pit closures**: The NUM, led by Arthur Scargill, had long opposed pit closures and had negotiated agreements with previous governments to maintain the industry's workforce. The union saw the proposed closures as a breach of these agreements and a threat to the miners' way of life.\n5. **Fears of a repeat of the 1981 pit closure dispute**: In 1981, the NUM had opposed pit closures, but the dispute had been resolved through negotiations. The NUM feared that the 1984 closures would be more extensive and that the government would not be willing to negotiate.\n\nThese factors combined to create a perfect storm that led to the 1984-1985 miners' strike, one of the most significant and bitter industrial disputes in UK history. The strike lasted for 12 months, causing widespread hardship and division within the UK's mining communities.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 407,
+  "total_tokens": 436,
+  "cost": 0.000271005,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000271005,
+   "upstream_inference_prompt_cost": 5.4375e-06,
+   "upstream_inference_completions_cost": 0.0002655675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:03:35.476442+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

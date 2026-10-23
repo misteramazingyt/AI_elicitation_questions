@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "C",
+ "prompt": "What were the main causes of the invention of the movable-type printing press in Europe?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The European movable-type printing press, associated with Johannes Gutenberg around 1440–1450 in Mainz, was not caused by one factor but by a convergence of economic, cultural, technical, and religious developments.\n\n**Main causes:**\n\n1. **Rising demand for books and written information**  \n   Medieval universities, schools, humanist scholars, merchants, lawyers, and church officials all needed more texts. Scribal copying was slow and expensive, so demand increasingly outstripped supply.\n\n2. **The spread of cheap paper**  \n   Papermaking reached Europe from China through the Islamic world, and paper mills spread in Italy, France, and Germany in the 13th–14th centuries. Paper was far cheaper than parchment, making mass reproduction economically possible.\n\n3. **Existing printing and engraving techniques**  \n   Woodblock printing was already used in Europe for playing cards, religious images, and block books. This proved there was a market for printed material and provided techniques that movable type could improve upon.\n\n4. **Advances in metallurgy and mechanical skills**  \n   Gutenberg benefited from European expertise in goldsmithing, punch-cutting, casting, and metal alloys. His key innovations included durable metal type, an adjustable hand mold for casting letters, oil-based ink, and a press adapted from screw presses used for wine, oil, or paper.\n\n5. **Commercial and urban growth**  \n   The growth of towns, trade, banking, and guilds created both capital and markets. Printing required substantial investment, and entrepreneurs like Gutenberg’s backer Johann Fust helped finance it.\n\n6. **Renaissance and religious demand**  \n   Humanists wanted accurate, standardized classical and biblical texts. The Church and religious orders also needed Bibles, liturgy, devotional works, and administrative documents. The Reformation later accelerated printing, but it did not cause the invention.\n\n7. **The advantage of the Latin alphabet**  \n   Compared with Chinese or Japanese scripts, the Latin alphabet had a relatively small number of characters. This made movable type far more practical and economical in Europe than in societies with thousands of characters.\n\nIn short, the movable-type printing press arose from a combination of **high demand for texts, cheap paper, prior print techniques, metallurgical know-how, commercial capital, and the practical advantages of the Latin alphabet**. Gutenberg’s invention was the successful synthesis of these conditions rather than a sudden isolated breakthrough.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 1749,
+  "total_tokens": 1796,
+  "cost": 0.001255376,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001255376,
+   "upstream_inference_prompt_cost": 4.841e-06,
+   "upstream_inference_completions_cost": 0.001250535
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1257,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:26.598263+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

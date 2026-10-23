@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "C",
+ "prompt": "What were the main causes of the 2011 military intervention in Libya?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The 2011 military intervention in Libya—led first by a U.S./European coalition and then by NATO—had no single cause. It resulted from a combination of Libya’s domestic uprising, Gaddafi’s violent response, international legal and humanitarian arguments, regional pressure, and strategic interests.\n\n**Main causes:**\n\n1. **The Libyan uprising and civil war**  \n   Inspired by the Arab Spring, protests erupted in Benghazi and other cities in February 2011. They quickly became an armed rebellion against Muammar Gaddafi’s regime. As Gaddafi’s forces counterattacked, the country slid toward civil war.\n\n2. **Gaddafi’s brutal crackdown and threat of mass atrocities**  \n   The regime used live fire, artillery, and air power against protesters and rebels. Gaddafi’s rhetoric—such as threatening to hunt down opponents “alley by alley” and suggesting Benghazi would be cleansed—raised fears of a large-scale massacre if his forces took the city.\n\n3. **UN Security Council action and the “responsibility to protect”**  \n   The UN Security Council passed Resolution 1970 in February 2011, imposing sanctions and referring the situation to the ICC. In March 2011, Resolution 1973 authorized a no-fly zone and “all necessary measures” to protect civilians. This provided the legal basis for intervention. The R2P norm—shaped by failures in Rwanda and Bosnia—was a major justification.\n\n4. **Regional and international pressure**  \n   The Arab League, Gulf Cooperation Council, and Organisation of Islamic Cooperation called for action to protect Libyan civilians. France and the UK were especially proactive, while the U.S. initially hesitated but later joined, eventually “leading from behind.” Regional support was crucial because it countered claims that the intervention was purely Western.\n\n5. **Strategic and political interests**  \n   Although officially humanitarian, the intervention was also driven by narrower interests:  \n   - European concerns about oil and gas supplies and regional stability.  \n   - Fears of mass migration if Libya collapsed.  \n   - France’s desire to assert leadership in North Africa and the Mediterranean.  \n   - The UK and U.S. interest in removing a long-isolated and unpredictable regime.  \n   - Competition for influence in post-Gaddafi Libya.\n\n6. **Gaddafi’s isolation and refusal to compromise**  \n   Gaddafi had few international defenders and rejected calls to step down or negotiate. His regime’s history of sponsoring terrorism, repression, and erratic behavior made outside powers more willing to act.\n\n**In short:** The immediate trigger was the threat to civilians in Benghazi; the legal basis was UN Resolution 1973; the political momentum came from Arab and European calls; and the deeper causes included humanitarian outrage, regional stability concerns, and strategic interests. Over time, the mission also became entangled with the goal of regime change, even though the UN mandate was to protect civilians.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 1314,
+  "total_tokens": 1359,
+  "cost": 0.000944145,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000944145,
+   "upstream_inference_prompt_cost": 4.635e-06,
+   "upstream_inference_completions_cost": 0.00093951
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 700,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:16:40.980382+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

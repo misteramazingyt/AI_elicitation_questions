@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "D",
+ "prompt": "Describe the 2020 George Floyd protests.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 2020 George Floyd protests began after George Floyd, a 46-year-old Black man, died on May 25 in Minneapolis, Minnesota, during an arrest by police. Officer Derek Chauvin knelt on Floyd's neck for over nine minutes while Floyd was handcuffed and prone on the ground; Floyd repeatedly stated he could not breathe. Bodycam and bystander video footage circulated widely, leading to immediate public outrage.\n\nProtests started in Minneapolis the next day and rapidly expanded to hundreds of cities across the United States and internationally. Organizers framed the events around opposition to police brutality and racial disparities in policing, with Black Lives Matter groups playing a prominent role. Demonstrations occurred in over 2,000 locations in the U.S. alone, drawing millions of participants over several months, primarily from late May through the summer and into fall.\n\nThe protests were not uniform. Many gatherings remained peaceful marches, rallies, and speeches focused on policy demands such as changes to qualified immunity, body camera requirements, and reduced police funding. However, significant violence and property destruction occurred in numerous cities, including Minneapolis, Portland, Kenosha, Seattle, and Atlanta. Rioting involved arson (including the burning of a Minneapolis police precinct), looting of businesses, assaults on police and bystanders, and clashes with law enforcement. Estimates of insured property damage ranged from $1 billion to $2 billion, making it one of the costliest periods of civil unrest in U.S. history. Roughly two dozen people died amid the disorder, with thousands of police officers injured and thousands of arrests made. Some cities imposed curfews and deployed National Guard troops. Autonomous zones, such as Seattle's CHOP/CHAZ, emerged briefly in a few locations before being cleared.\n\nPolitically, the events intensified debates over policing, crime rates, and institutional responses. Some municipalities pursued reforms or budget cuts to police departments, while others emphasized law enforcement and rejected \"defund the police\" proposals. Crime spikes followed in several major cities during and after the unrest. The protests also overlapped with the 2020 presidential election cycle, amplifying partisan divisions.\n\nDerek Chauvin was later convicted on state and federal charges related to Floyd's death; three other officers faced related convictions or pleas. The episode produced lasting cultural and institutional effects, including corporate statements, curriculum changes in schools, and shifts in public discourse on race and law enforcement, though polling showed public support for the protests declined as violence persisted.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 201,
+  "completion_tokens": 1111,
+  "total_tokens": 1312,
+  "cost": 0.00289435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00289435,
+   "upstream_inference_prompt_cost": 0.00011685,
+   "upstream_inference_completions_cost": 0.0027775
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 623,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:08.038906+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

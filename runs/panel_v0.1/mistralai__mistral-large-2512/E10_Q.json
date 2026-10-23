@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **UK miners' strike of 1984–1985** was one of the most significant industrial disputes in British history, with profound and lasting consequences for the labour movement, the coal industry, and British politics. Here are the key outcomes:\n\n### **1. Defeat of the Miners & Decline of the Coal Industry**\n- The strike ended in **March 1985** with the **National Union of Mineworkers (NUM)** conceding defeat after a year of bitter struggle.\n- The government, led by **Margaret Thatcher**, had prepared extensively, stockpiling coal and using police to break picket lines.\n- The **National Coal Board (NCB)** closed **20 uneconomic pits** in 1985, with many more following in the years ahead.\n- By the **early 1990s**, the coal industry had been **dramatically scaled back**, with deep mining largely replaced by cheaper imports and opencast mining.\n- By **2015**, only **three deep coal mines** remained in the UK, and the last one (Kellingley Colliery) closed in **December 2015**, marking the end of deep coal mining in Britain.\n\n### **2. Weakening of Trade Union Power**\n- The strike was a **major defeat for the trade union movement**, particularly the NUM, which had been one of the most powerful unions in Britain.\n- The government introduced **anti-union laws** (e.g., the **Trade Union Act 1984**), requiring **secret ballots** for strikes and banning **secondary picketing** (where workers from other industries supported strikers).\n- Union membership **declined sharply** in the following decades, from **13 million in 1979** to **6.5 million by 2015**.\n- The **NUM’s influence collapsed**, and its leader, **Arthur Scargill**, became a controversial figure, accused of **mismanaging the strike** and refusing to hold a national ballot (which weakened public support).\n\n### **3. Political & Social Consequences**\n- The strike **polarised British society**, with strong support for the miners in traditional coalfield areas (e.g., Yorkshire, South Wales, Scotland) but **growing hostility** from the middle class and media.\n- Thatcher’s government **portrayed the strike as a battle against \"militant unionism\"**, framing it as a struggle for economic modernisation.\n- The **police were heavily criticised** for their aggressive tactics, including **mass arrests, roadblocks, and violent clashes** (e.g., the **Battle of Orgreave**, June 1984, where police charged picketing miners).\n- The strike **deepened regional divisions**, with former mining communities suffering **long-term economic decline, unemployment, and social deprivation**.\n\n### **4. Economic & Industrial Changes**\n- The **privatisation of the coal industry** began in **1994** under John Major, with **British Coal** being sold off to private companies.\n- The **dash for gas** in the 1990s (using North Sea gas for electricity) further reduced coal’s role in energy production.\n- By the **2010s**, coal’s share of UK electricity generation fell from **~70% in 1984** to **less than 2% by 2020**, with the UK committing to **phasing out coal by 2024**.\n- The **deindustrialisation of Britain** accelerated, with manufacturing jobs declining and service-sector growth dominating the economy.\n\n### **5. Long-Term Impact on Mining Communities**\n- Former coalfield areas (e.g., **South Wales, Yorkshire, Durham, Nottinghamshire**) suffered **high unemployment, poverty, and social problems** for decades.\n- Many ex-miners developed **health issues** (e.g., **black lung disease, mental health problems**) due to years of hard labour and post-strike stress.\n- Some communities **never fully recovered**, with **youth unemployment, drug abuse, and crime** remaining persistent problems.\n- The **NUM’s legacy** became a symbol of **working-class resistance**, but also of **defeat and decline**.\n\n### **6. Cultural & Historical Legacy**\n- The strike became a **symbol of class struggle**, inspiring books, films, and songs (e.g., **Billy Elliot, Pride, The Battle for Orgreave**).\n- It **reinforced Thatcher’s reputation** as a **strong leader** who \"took on the unions\" and reshaped Britain’s economy.\n- The **Labour Party** (then under **Neil Kinnock**) distanced itself from the NUM, contributing to its **shift towards New Labour** in the 1990s.\n- The strike is still **debated today**, with some seeing it as a **necessary fight against Thatcherism**, while others view it as a **doomed last stand** of an outdated industry.\n\n### **Conclusion**\nThe **1984–85 miners' strike** was a **turning point** in British history, marking the **decline of the coal industry, the weakening of trade unions, and the triumph of Thatcherite free-market policies**. Its consequences are still felt today in the **economic struggles of former mining towns** and the **reduced power of organised labour** in the UK.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1131,
+  "total_tokens": 1156,
+  "cost": 0.001709,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001709,
+   "upstream_inference_prompt_cost": 1.25e-05,
+   "upstream_inference_completions_cost": 0.0016965
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:30:40.158565+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

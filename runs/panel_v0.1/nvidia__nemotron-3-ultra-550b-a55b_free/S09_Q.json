@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The Supreme Court’s 1973 decision in *Roe v. Wade* (410 U.S. 113) recognized a constitutional right to abortion under the Fourteenth Amendment’s right to privacy. Its consequences were profound, immediate, and long-lasting, reshaping American law, politics, medicine, and culture for nearly 50 years until it was overturned by *Dobbs v. Jackson Women’s Health Organization* in 2022.\n\nHere is a breakdown of the major consequences categorized by domain:\n\n### 1. Immediate Legal & Medical Impact\n*   **National Legalization:** The decision struck down restrictive abortion laws in **46 states**, making abortion legal nationwide through all nine months of pregnancy (subject to the trimester framework).\n*   **Standardization of Care:** It forced states to regulate abortion as a medical procedure rather than a crime, leading to the rapid establishment of outpatient clinics and the integration of abortion training into medical residencies (OB/GYN).\n*   **Public Health Improvements:** Data from the CDC and Guttmacher Institute show a dramatic, immediate drop in **maternal mortality and morbidity** related to illegal/unsafe abortions. Complications from \"back-alley\" abortions (sepsis, hemorrhage, perforation) became rare in the legal medical system.\n*   **The Trimester Framework:** The Court established a regulatory structure:\n    *   *First Trimester:* Decision left to the woman and her physician (state cannot regulate).\n    *   *Second Trimester:* State may regulate only to protect maternal health.\n    *   *Third Trimester (Viability):* State may prohibit abortion except to preserve the life or health of the mother.\n\n### 2. Political Consequences & Realignment\n*   **Birth of the Modern Pro-Life Movement:** Before *Roe*, opposition to abortion was largely led by the Catholic Church. *Roe* galvanized a broad, grassroots, interfaith (evangelical Protestant/Catholic) political movement focused on overturning the decision.\n*   **Judicial Litmus Tests:** *Roe* made the Supreme Court a central campaign issue. Presidents began explicitly pledging to appoint justices who would overturn (Republicans) or uphold (Democrats) *Roe*. This intensified confirmation battles (e.g., Robert Bork, Clarence Thomas, Brett Kavanaugh).\n*   **Party Realignment:** The decision accelerated the sorting of the two parties on cultural lines. The Republican Platform adopted a \"Human Life Amendment\" plank in 1976; the Democratic Platform codified support for *Roe* shortly after. White evangelicals, previously politically diverse or apolitical, became a reliable Republican voting bloc largely due to abortion.\n*   **State-Level \"Trigger Laws\" & Restrictions:** Almost immediately, states began passing laws testing the boundaries of *Roe* (parental consent, waiting periods, spousal notification, funding bans like the **Hyde Amendment (1976)**).\n\n### 3. Legal Doctrine Evolution (The \"Undue Burden\" Standard)\n*   *Roe’s* strict trimester framework proved unstable. In **Planned Parenthood v. Casey (1992)**, the Court upheld the \"central holding\" of *Roe* (right to choose pre-viability) but replaced the trimester framework with the **\"Undue Burden\" standard**: states could regulate pre-viability abortion so long as the regulation did not place a \"substantial obstacle\" in the path of a woman seeking an abortion.\n*   This shift allowed a wave of state restrictions (mandatory waiting periods, biased counseling, TRAP laws targeting clinics) that significantly reduced access in many states *while Roe was still law*.\n\n### 4. Social & Cultural Consequences\n*   **Women’s Economic & Educational Advancement:** Economists (notably the \"Roe v. Wade\" natural experiment studies by Levine et al., and later Myers) argue legal abortion contributed to increased female labor force participation, higher educational attainment, and delayed marriage/childbearing, particularly for Black women and young women.\n*   **Demographic Shifts:** Birth rates fell immediately following legalization, particularly among teens, unmarried women, and non-white women. Some researchers (e.g., Donohue & Levitt) controversially linked the drop in unwanted births to the crime decline of the 1990s, though this remains debated.\n*   **Cultural Polarization:** Abortion became the defining \"culture war\" issue, symbolizing broader conflicts over gender roles, sexual morality, religious liberty, and the role of the judiciary.\n\n### 5. Federalism & State Innovation (Pre-Dobbs)\n*   Because *Roe* set a *floor* (states couldn't ban pre-viability) but not a *ceiling*, states became laboratories.\n    *   **Restrictive States:** Passed hundreds of regulations (TRAP laws, gestational bans at 20/15/6 weeks) designed to close clinics or challenge *Roe*.\n    *   **Protective States:** Passed \"shield laws,\" codified *Roe* into state constitutions (via amendment or court ruling), and expanded Medicaid funding for abortion.\n\n### 6. The \"Shadow Docket\" & Erosion (2010s–2022)\n*   Following the appointment of Justices Gorsuch, Kavanaugh, and Barrett, the Court shifted right.\n*   The Court allowed the **Texas SB 8 (2021)** law—a novel 6-week ban enforced by private citizen lawsuits—to take effect, effectively nullifying *Roe* in Texas months before *Dobbs* was decided.\n*   This period saw a massive decline in the number of operational clinics in the South and Midwest, creating \"abortion deserts\" where access was theoretical but not practical.\n\n### 7. The Ultimate Consequence: *Dobbs v. Jackson* (2022)\n*   The most definitive consequence of *Roe* was the 50-year campaign it sparked to overturn it.\n*   In **June 2022**, the Court ruled in *Dobbs* that \"the Constitution does not confer a right to abortion,\" explicitly overruling *Roe* and *Casey*.\n*   **Post-Roe Landscape:** Authority returned to the states. As of 2024, roughly **14 states have near-total bans**, while others have protected access up to viability or beyond. This created a patchwork of laws, interstate travel for care, legal battles over medication abortion (mifepristone), and prosecutions/legal threats against providers and patients.\n\n### Summary\n*Roe v. Wade* did not settle the abortion debate; it **nationalized and intensified it**. Its primary consequences were:\n1.  **Saving lives** by making abortion safe and legal.\n2.  **Restructuring American partisan politics** around the Supreme Court and social conservatism.\n3.  **Creating a unique legal regime** where a medical procedure was governed by constitutional law rather than standard health regulation.\n4.  **Generating a half-century of state-level conflict** that culminated in the removal of the federal right and the current fragmented legal landscape.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 1632,
+  "total_tokens": 1670,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 105,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:47:42.008857+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

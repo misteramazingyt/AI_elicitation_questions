@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "C",
+ "prompt": "What were the main causes of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The U.S. War on Drugs, which began in 1971 and continued through the 1990s, was a complex and multifaceted phenomenon with various causes and contributing factors. Here are some of the main causes:\n\n1. **Rise of recreational drug use in the 1960s**: The 1960s saw a significant increase in recreational drug use, particularly among young people, as part of the counterculture movement. This led to growing concerns about the impact of drug use on society and public health.\n2. **Nixon's administration and the \"War on Drugs\" declaration**: In 1971, President Richard Nixon declared a \"War on Drugs,\" which marked the beginning of a concerted federal effort to reduce drug use and trafficking. Nixon's administration was responding to perceived threats to national security, public health, and social order.\n3. **Fear of heroin and other \"hard\" drugs**: Heroin, in particular, was seen as a major threat due to its perceived addictive potential and association with crime and urban decay. The administration's focus on heroin and other \"hard\" drugs drove the initial War on Drugs efforts.\n4. **Racial and social anxieties**: The War on Drugs was also influenced by racial and social anxieties, particularly regarding the perceived threat posed by urban, minority communities. The Nixon administration's rhetoric and policies often targeted African American and Latino communities, which were seen as being associated with crime and drug use.\n5. **Law and order politics**: The late 1960s and early 1970s saw a growing \"law and order\" movement, which emphasized the need for stricter law enforcement and punishment to address perceived social problems, including crime and drug use.\n6. **Media coverage and public perception**: Sensationalized media coverage of drug use and its consequences contributed to a growing public perception of the problem as a major national threat. This, in turn, fueled public support for the War on Drugs.\n7. **International factors**: The U.S. government's concerns about international narcotics trafficking, particularly from countries like Mexico and Colombia, also played a role in shaping the War on Drugs. The administration sought to disrupt global supply chains and cooperate with foreign governments to reduce the flow of illicit drugs into the United States.\n8. **Bipartisan support and legislative actions**: The War on Drugs received bipartisan support in Congress, with lawmakers passing legislation such as the Comprehensive Drug Abuse Prevention and Control Act of 1970 and the Anti-Drug Abuse Act of 1986. These laws increased funding for drug enforcement, expanded penalties for drug offenses, and established new programs to address drug use.\n\nThroughout the 1970s, 1980s, and 1990s, the War on Drugs continued to evolve, with shifting priorities and strategies. The main causes mentioned above contributed to a complex and multifaceted policy response that had far-reaching consequences for U.S. society, including the mass incarceration of nonviolent drug offenders, the militarization of law enforcement, and ongoing debates about the effectiveness and equity of U.S. drug policy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 34,
+  "completion_tokens": 627,
+  "total_tokens": 661,
+  "cost": 0.0004154925,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004154925,
+   "upstream_inference_prompt_cost": 6.375e-06,
+   "upstream_inference_completions_cost": 0.0004091175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:45.539504+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

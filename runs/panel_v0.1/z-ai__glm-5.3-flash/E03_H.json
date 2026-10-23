@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "H",
+ "prompt": "How have historians interpreted the famine in Soviet Ukraine in 1932-1933? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of the Holodomor (1932–1933)\n\nThe famine in Soviet Ukraine has been one of the most contested subjects in Soviet historiography. Interpretations have evolved through several distinct phases:\n\n## 1. Soviet Denial and Silence (1930s–1980s)\n\nThe Soviet government denied the famine's existence, suppressed census data (the 1937 census was classified and its organizers punished), and restricted foreign journalists' access. Walter Duranty of the *New York Times*, who won a Pulitzer Prize for his coverage of Stalin's Five-Year Plan, famously wrote \"any report of a famine in Russia is today an exaggeration or malignant propaganda\" (March 31, 1933), though he privately acknowledged millions of deaths. Gareth Jones, a Welsh journalist, published firsthand accounts of the famine in 1933 and was widely discredited at the time.\n\n## 2. Diaspora and Cold War Scholarship (1950s–1980s)\n\nUkrainian émigré scholars were the first to document the famine systematically:\n\n- **Robert Conquest**, *The Harvest of Sorrow: Soviet Collectivization and the Terror-Famine* (1986), argued the famine was deliberately engineered by Stalin to crush Ukrainian nationalism—a \"terror-famine.\"\n- **James Mace**, who worked on the U.S. Commission on the Ukraine Famine, similarly concluded it was genocide. The commission's 1988 report to Congress concluded the famine \"was deliberately engineered... to eliminate a threat to Soviet power.\"\n- Earlier works like **Dana Dalrymple's** compilation of eyewitness accounts and **Miron Dolot's** memoir *Execution by Hunger* (1985) provided testimony.\n\nSoviet and some Western leftist scholars dismissed these interpretations as Cold War propaganda.\n\n## 3. Post-1991 Archival Revolution\n\nThe opening of Soviet archives after 1991 transformed scholarship:\n\n- **R.W. Davies and Stephen Wheatcroft**, *The Years of Hunger: Soviet Agriculture, 1931–1933* (2004), using archival data, documented the famine's causes in Stalin's brutal requisition policies but argued it was not deliberately aimed at exterminating Ukrainians—they rejected the \"intentionalist\" genocide thesis while acknowledging Stalin's cruelty and refusal to relieve the famine.\n- **Stanislav Kulchytsky**, a Ukrainian historian and deputy director of the Institute of History of Ukraine, moved from Soviet-era denial to arguing the famine was genocide, publishing extensively in the 1990s–2000s.\n- **Anne Applebaum**, *Red Famine: Stalin's War on Ukraine* (2017), synthesized recent scholarship and concluded the famine constituted genocide, emphasizing deliberate border closures preventing peasants from fleeing and blacklisting of villages.\n\n## 4. The Genocide Debate\n\nThe central interpretive divide concerns intent:\n\n- **Genocide interpretation**: Scholars like Mace, Kulchytsky, Applebaum, and Raphael Lemkin himself (who coined \"genocide\" and in 1953 called the famine \"the classic example of Soviet genocide\") argue Stalin deliberately targeted Ukrainians as a group.\n- **\"Crimes against humanity\" interpretation**: Davies, Wheatcroft, and others argue the famine resulted from Stalinist policies applied across the USSR (also devastating Kazakhstan and parts of Russia), with no specific intent to destroy Ukrainians as such—though they acknowledge Stalin's harshness toward Ukraine specifically intensified the famine there.\n- **Middle positions**: Some scholars, like **Timothy Snyder** (*Bloodlands*, 2010), emphasize the famine's specificity to Ukraine while situating it within broader Stalinist violence, noting that Stalin's policies toward Ukraine were uniquely punitive even if the famine was not solely a planned extermination.\n\n## 5. Political Recognition\n\nThe interpretation debate has had political dimensions: Ukraine (2006), and numerous other countries, have recognized the Holodomor as genocide; the UN, EU, and other bodies have condemned it as a crime against humanity or acknowledged it as genocide in various resolutions. Russia officially rejects the genocide characterization.\n\n## Key Sources\n\n- Robert Conquest, *The Harvest of Sorrow* (1986)\n- R.W. Davies & S.G. Wheatcroft, *The Years of Hunger* (2004)\n- Anne Applebaum, *Red Famine* (2017)\n- Timothy Snyder, *Bloodlands: Europe Between Hitler and Stalin* (2010)\n- Report of the U.S. Commission on the Ukraine Famine (1988)\n- Stanislav Kulchytsky, *The Famine of 1932–1933 in Ukraine: An Anatomy of the Holodomor* (2016)\n- Andrea Graziosi, \"The Great Soviet Peasant War\" and related works on Bolshevik perceptions of the peasantry\n- Oksana Kis and others on memory and gender dimensions of Holodomor studies\n\nWould you like me to go deeper into any particular interpretive school or debate?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 1259,
+  "total_tokens": 1309,
+  "cost": 0.0001176307,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001176307,
+   "upstream_inference_prompt_cost": 1.425e-06,
+   "upstream_inference_completions_cost": 0.0001162057
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 234,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:52.276211+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

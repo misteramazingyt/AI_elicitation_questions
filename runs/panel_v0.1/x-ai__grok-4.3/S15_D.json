@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "D",
+ "prompt": "Describe the 1948 Arab-Israeli war.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 1948 Arab-Israeli War (also called Israel's War of Independence by Israelis and the Nakba, or \"catastrophe,\" by Palestinians) was the first major armed conflict between the newly declared State of Israel and a coalition of Arab states. It lasted from late 1947 to early 1949 and resulted in Israel's establishment as a sovereign state, significant territorial changes, and the displacement of hundreds of thousands of Palestinians.\n\n### Background\nFollowing World War II and the Holocaust, international support grew for a Jewish homeland in Palestine, then under British Mandate. In November 1947, the United Nations General Assembly passed Resolution 181, proposing to partition Palestine into separate Jewish and Arab states, with Jerusalem under international administration. Jewish leaders accepted the plan; Arab leaders rejected it, viewing it as unjust given the Arab majority population and land ownership patterns at the time. Violence erupted immediately after the vote, escalating into civil war between Jewish and Arab communities in Palestine.\n\nBritain ended its mandate on May 14, 1948. That same day, David Ben-Gurion declared Israel's independence. Neighboring Arab states—Egypt, Transjordan (Jordan), Syria, Iraq, and Lebanon—invaded the next day, aiming to prevent the new state's formation and support Palestinian Arabs.\n\n### Course of the War\nThe conflict unfolded in two main phases:\n\n- **Civil War Phase (November 1947–May 1948)**: Irregular fighting between Jewish paramilitary groups (primarily the Haganah, with Irgun and Lehi also active) and Arab militias. Jewish forces gained control of key areas allocated to the Jewish state under the partition plan, including mixed cities like Haifa and Tiberias. Massacres and expulsions occurred on both sides (e.g., Deir Yassin by Jewish forces, attacks on Jewish convoys).\n\n- **Invasion and Conventional War (May 1948–March 1949)**: Regular Arab armies crossed borders. Israel, though outnumbered, benefited from better organization, arms supplies (initially from Czechoslovakia), and internal lines of communication. Key battles included fighting around Jerusalem, the Negev, and Galilee. Israel conducted operations that expanded its territory beyond the UN partition lines. Arab forces were hampered by poor coordination and divided command.\n\nBy mid-1949, Israel had signed armistice agreements with Egypt, Lebanon, Jordan, and Syria (Iraq withdrew without an agreement). No peace treaties were signed at the time.\n\n### Outcomes and Consequences\n- **Territory**: Israel ended up controlling about 78% of former Mandatory Palestine (versus the ~55% allocated in the UN plan), including western Jerusalem. Jordan annexed the West Bank and East Jerusalem; Egypt took control of the Gaza Strip. The proposed Arab state never materialized.\n- **Demographics and Refugees**: Approximately 700,000–750,000 Palestinian Arabs fled or were expelled from their homes, creating a large refugee population in neighboring countries and the West Bank/Gaza. Around 6,000 Jews were killed (about 1% of the Jewish population in Palestine), along with roughly 10,000–15,000 Arab deaths.\n- **Long-term Impact**: The war established Israel but left unresolved issues of borders, refugees, and Jerusalem that fueled subsequent conflicts (1956, 1967, 1973). It also marked the beginning of the Palestinian national movement's focus on return and statehood.\n\nHistorians note that both sides committed atrocities, and interpretations of events like specific village clearances remain contested. The war is viewed differently depending on national narratives: a defensive victory and ingathering of exiles for Israelis, versus dispossession and loss for Palestinians. Primary sources include UN records, Israeli archives, and Arab accounts, though access and interpretations vary.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 202,
+  "completion_tokens": 1163,
+  "total_tokens": 1365,
+  "cost": 0.0030256,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0030256,
+   "upstream_inference_prompt_cost": 0.0001181,
+   "upstream_inference_completions_cost": 0.0029075
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 409,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:38.784466+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

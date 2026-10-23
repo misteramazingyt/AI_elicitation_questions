@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "Q",
+ "prompt": "What were the consequences of the Reagan tax cuts of the 1980s?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Baidu",
+ "response": "The Reagan tax cuts of the 1980s—especially the **Economic Recovery Tax Act of 1981** and the **Tax Reform Act of 1986**—had mixed and heavily debated consequences. They were not a single, simple cut: some later laws, like TEFRA in 1982 and the 1983 Social Security amendments, raised taxes or offset parts of the cuts.\n\n**Main consequences:**\n\n- **Economic recovery and growth:** After the severe 1981–82 recession, the economy expanded strongly from 1983 until 1990. Unemployment fell from about 10.8% in late 1982 to 5.3% by 1989, and inflation dropped from double digits to around 4%. However, this recovery was also driven by the Fed’s disinflation, defense spending, deregulation, and global factors—not tax cuts alone.\n\n- **Large budget deficits and debt:** The tax cuts were not matched by equivalent spending cuts. Combined with a major defense buildup and no major reductions to Social Security/Medicare, deficits soared. The annual deficit reached about $221 billion in 1986, and the national debt roughly tripled from about $900 billion in 1980 to nearly $2.8 trillion by 1989. This was perhaps the most lasting fiscal consequence.\n\n- **No “self-financing” revenue boom:** Supply-side advocates argued the cuts would generate so much growth that revenues would rise. That did not happen. Federal receipts as a share of GDP fell somewhat, though they did not collapse because of economic growth, bracket creep, base broadening in 1986, and payroll-tax increases. The cuts still added to deficits.\n\n- **Rising income inequality:** The top marginal income tax rate fell from 70% to 50% and eventually 28% (with a 33% “bubble” in 1988), while capital gains and corporate taxes were also changed. High-income earners benefited disproportionately. The share of income going to the top 1% rose significantly during the 1980s, and the tax code became less progressive overall.\n\n- **Mixed effects on saving and investment:** Supply-side theory predicted higher personal saving and business investment. Personal saving actually fell from around 10% of disposable income in the early 1980s to about 7% by the late 1980s. Investment recovered with the economy, but there was no clear long-run supply-side miracle in productivity or saving.\n\n- **Political and institutional legacy:** “Reaganomics” made tax cutting a central Republican priority, while the deficits it helped create made deficit reduction a major issue in the late 1980s and 1990s. Reagan himself later accepted tax increases, and the 1986 Tax Reform Act broadened the tax base and eliminated many deductions while lowering rates.\n\n**Overall:** The Reagan tax cuts contributed to the 1980s economic expansion and reshaped American tax politics, but they also helped produce large deficits, a tripling of the national debt, and greater income inequality. They did not pay for themselves, and their effects cannot be cleanly separated from monetary policy, defense spending, deregulation, and broader economic trends.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 5619,
+  "total_tokens": 5665,
+  "cost": 0.0012094314,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0012094314,
+   "upstream_inference_prompt_cost": 2.4702e-06,
+   "upstream_inference_completions_cost": 0.0012069612
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4964,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:52:37.322944+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

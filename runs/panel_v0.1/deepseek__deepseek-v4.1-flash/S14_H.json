@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "H",
+ "prompt": "How have historians interpreted Britain's abolition of the slave trade and slavery (1807-1838)? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Together",
+ "response": "Historians have interpreted British abolition between 1807 and 1838 in sharply different ways. The debate is less about the chronology—1807 abolished the British slave trade; the 1833 Slavery Abolition Act took effect in 1834; apprenticeship ended in 1838—than about causes, agency, and significance. Most recent work is multi-causal, but several distinct schools stand out.\n\n**1. Humanitarian/Whig interpretation.** Older histories presented abolition as a moral triumph driven by evangelical Christians, philanthropists, and parliamentary heroes such as William Wilberforce and Thomas Clarkson. Clarkson’s own *History of the Rise, Progress, and Accomplishment of the Abolition of the African Slave-Trade* (1808) set the tone, and Reginald Coupland’s *The British Anti-Slavery Movement* (1933) later gave it a scholarly imperial-liberal form. This view has been criticized as elitist, triumphalist, and inattentive to economic interests and enslaved people’s agency.\n\n**2. Economic/Williams thesis.** Eric Williams’s *Capitalism and Slavery* (1944) transformed the field. Williams argued that slavery and the slave trade had been central to British capitalism, but that by 1807 the West Indian slave economy was declining while industrial capitalism needed free trade, wage labour, and new markets. Abolition, on this view, was less a humanitarian victory than the result of changing economic interests. C. L. R. James’s *The Black Jacobins* (1938) similarly linked slave revolt and capitalist crisis, though with more attention to Black agency.\n\n**3. Revisionist economic history.** Williams’s thesis was challenged by Roger Anstey, *The Atlantic Slave Trade and British Abolition, 1760–1810* (1975), and especially Seymour Drescher, *Econocide: British Slavery in the Era of Abolition* (1977). Drescher showed that British slavery and the slave trade were still profitable and expanding around 1807; abolition was therefore “econocide” if judged purely by economic interest. David Eltis, *Economic Growth and the Ending of the Transatlantic Slave Trade* (1987), further complicated the economic picture. These historians argue that economic decline cannot by itself explain abolition; politics, ideology, and abolitionist mobilisation must be central.\n\n**4. Political, social, and “moral capital” interpretations.** David Brion Davis, *The Problem of Slavery in the Age of Revolution, 1770–1823* (1975), and Thomas L. Haskell, “Capitalism and the Origins of the Humanitarian Sensibility” (1985), explored how capitalism, ideology, and changing moral sensibilities interacted. Christopher Leslie Brown, *Moral Capital: Foundations of British Abolitionism* (2006), argues that British abolitionism emerged partly from a desire to restore national moral standing after the American Revolution. Adam Hochschild, *Bury the Chains* (2005), emphasises the mass extra-parliamentary movement: petitions, boycotts, pamphlets, women’s associations, and nonconformist networks.\n\n**5. Slave resistance and Black agency.** Robin Blackburn, *The Overthrow of Colonial Slavery, 1776–1848* (1988), and Manisha Sinha, *The Slave’s Cause* (2016), place enslaved resistance and Black abolitionism at the centre. The Haitian Revolution, the 1823 Demerara rebellion, and the 1831–32 Jamaica “Baptist War” created fear and pressure that made emancipation politically unavoidable. See also Emilia Viotti da Costa, *Crowns of Glory, Tears of Blood* (1994), and Gelien Matthews, *Caribbean Slave Revolts and the British Abolitionist Movement* (2006).\n\n**6. Imperial, compensation, and continuity interpretations.** Nicholas Draper, *The Price of Emancipation* (2010), and Catherine Hall et al., *Legacies of British Slave-Ownership* (2014), show that the 1833 Act compensated slave owners with £20 million, not enslaved people, and imposed apprenticeship. Marika Sherwood, *After Abolition* (2007), and Hilary McD. Beckles, *Britain’s Black Debt* (2013), stress that 1807 did not end slavery, and that coerced labour and illegal slave trading continued. Abolition appears here as a managed imperial transition, not a simple moral rupture.\n\n**Overall**, historians now generally reject single-cause explanations. The strongest syntheses—such as Blackburn (1988), Davis, *Inhuman Bondage* (2006), Brown (2006), and Drescher, *Abolition* (2009)—treat British abolition as the product of economic change, religious and popular mobilisation, parliamentary politics, imperial rivalry, and, crucially, enslaved people’s resistance.\n\n**Key sources cited:** Clarkson (1808); Coupland (1933); James (1938); Williams (1944); Anstey (1975); Davis (1975); Drescher (1977); Haskell (1985); Eltis (1987); Blackburn (1988); da Costa (1994); Hochschild (2005); Brown (2006); Matthews (2006); Sherwood (2007); Drescher (2009); Draper (2010); Beckles (2013); Hall et al. (2014); Sinha (2016).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 54,
+  "completion_tokens": 5020,
+  "total_tokens": 5074,
+  "cost": 0.0060402,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0060402,
+   "upstream_inference_prompt_cost": 1.62e-05,
+   "upstream_inference_completions_cost": 0.006024
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3867,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:56:39.837652+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

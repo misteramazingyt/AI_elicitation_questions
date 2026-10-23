@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "Q",
+ "prompt": "What were the consequences of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Consequences of the Civil Rights Act of 1964\n\n## Legal and Social Changes\n\n**Ended legal segregation in public accommodations**\n- The Act outlawed discrimination in hotels, restaurants, theaters, and other public places, effectively ending the \"Jim Crow\" system in the South\n\n**Banned employment discrimination**\n- Prohibited discrimination based on race, color, religion, sex, or national origin in hiring, firing, and workplace conditions\n- Created the **Equal Employment Opportunity Commission (EEOC)** to enforce these provisions\n\n**Strengthened school desegregation**\n- Gave the federal government power to withhold funds from school districts that refused to integrate, accelerating desegregation\n\n## Political Consequences\n\n**Realigned American politics**\n- The Democratic Party became associated with civil rights, while many white Southern voters shifted toward the Republican Party over subsequent decades\n- President Lyndon B. Johnson reportedly predicted the Democrats would \"lose the South for a generation\"\n\n**Set the stage for further legislation**\n- Paved the way for the **Voting Rights Act of 1965** and the **Fair Housing Act of 1968**\n\n## Social and Economic Effects\n\n- Black voter registration and political participation increased significantly in the South\n- African Americans gained greater access to jobs, education, and public facilities\n- Women benefited from the Act's prohibition of sex discrimination, which catalyzed the modern feminist movement\n\n## Resistance and Continued Struggle\n\n- Some Southern states and businesses defied the law initially, testing enforcement\n- De facto segregation and economic inequality persisted in housing, schools, and employment, requiring continued activism\n- Legal challenges were resolved when the Supreme Court upheld the Act's constitutionality (*Heart of Atlanta Motel v. United States*, 1964)\n\nOverall, the Act represented the most significant civil rights legislation since Reconstruction and fundamentally transformed American law and society.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 380,
+  "total_tokens": 409,
+  "cost": 0.00015092,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00015092,
+   "upstream_inference_prompt_cost": 3.48e-06,
+   "upstream_inference_completions_cost": 0.00014744
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:46.786600+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

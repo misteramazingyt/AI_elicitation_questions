@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "C",
+ "prompt": "What were the main causes of the 2003 U.S.-led invasion of Iraq?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "The 2003 U.S.-led invasion of Iraq had multiple, overlapping causes—some publicly stated, others underlying and contested.\n\n**1. Alleged weapons of mass destruction (WMD)**\nThe Bush administration’s main public justification was that Saddam Hussein’s regime possessed or was developing chemical, biological, and nuclear weapons and could transfer them to terrorists. This was framed as an urgent post-9/11 security threat. After the invasion, no stockpiles of WMD were found, making faulty intelligence and exaggerated claims central to the controversy.\n\n**2. Post-9/11 security fears and alleged terrorist links**\nAfter the September 11 attacks, the administration sought to prevent future attacks and warned about possible links between Iraq and terrorist groups, including al-Qaeda. These links were not substantiated in the way presented, but the broader “war on terror” climate made military action politically possible.\n\n**3. Regime change and neoconservative strategy**\nKey administration officials had long advocated removing Saddam Hussein. Neoconservative advisers argued that regime change in Iraq could democratize the Middle East, remove a destabilizing dictator, and demonstrate American resolve. This ideological agenda predated 9/11 but gained traction afterward.\n\n**4. Enforcement of UN resolutions and containment failure**\nThe U.S. and Britain argued that Iraq had repeatedly violated UN Security Council resolutions requiring disarmament and cooperation with inspectors. The failure to secure explicit UN authorization for war was deeply contested; the U.S. argued existing resolutions provided legal cover, while critics said the invasion was not properly authorized.\n\n**5. Strategic and geopolitical interests**\nIraq’s location, oil reserves, and role in the Middle East shaped strategic calculations. Critics emphasize oil and regional influence; supporters generally deny that oil was the primary motive. The U.S. also sought to remove a hostile regime and reduce the perceived threat to allies such as Israel and Gulf states.\n\n**6. Humanitarian and democracy-promotion arguments**\nSome advocates cited Saddam’s brutality, human-rights abuses, and the possibility of building a democratic Iraq as secondary justifications. These arguments became more prominent when WMD evidence failed to materialize.\n\n**7. Domestic politics and bureaucratic dynamics**\nThe administration’s desire to project strength after 9/11, congressional support, media framing, and bureaucratic pressure to act all contributed. Intelligence agencies’ assessments were interpreted through an atmosphere of threat and certainty.\n\nIn short, the invasion is best understood as the product of **post-9/11 threat perception, alleged WMD, long-standing regime-change goals, neoconservative ideology, UN enforcement disputes, and strategic interests in the Middle East**—with the WMD rationale being the most important public justification and the most consequential intelligence failure.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 48,
+  "completion_tokens": 681,
+  "total_tokens": 729,
+  "cost": 0.000423144,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000423144,
+   "upstream_inference_prompt_cost": 1.4544e-05,
+   "upstream_inference_completions_cost": 0.0004086
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 126,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:16:29.708409+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "H",
+ "prompt": "How have historians interpreted Soviet espionage in the United States in the 1940s, including the Rosenberg case? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of Soviet Espionage in the United States, 1940s\n\nThe interpretation of Soviet espionage—especially the Rosenberg case—has evolved dramatically, shaped by new evidence and political context. Historians generally divide the historiography into several phases.\n\n## 1. Early Cold War Era (1950s–1960s): The \"Guilty\" Consensus\n\nDuring the McCarthy era, most American historians and the public accepted the government's case against Julius and Ethel Rosenberg at face value. The couple was executed in 1953 for conspiracy to commit espionage regarding atomic secrets. Early accounts largely reflected prosecutorial narratives, though some liberal intellectuals (e.g., *The Nation*, *The Progressive*) raised concerns about the evidence against Ethel and the severity of the death sentence.\n\n## 2. Revisionist Phase (1960s–1970s): The \"Innocent\" or \"Frame-up\" Thesis\n\nThe Vietnam-era distrust of government fueled revisionism. Historians argued the Rosenbergs were scapegoats in an anti-communist hysteria:\n\n- **Walter and Miriam Schneir**, \"The Rosenbergs: A Postscript\" (*The Nation*, 1968) and later *Invitation to an Inquest* (1965, rev. 1983), questioned the physical evidence, particularly the \"grease pencil\" X-ray table testimony.\n- **Ronald Radosh** and **Joyce Milton**, *The Rosenberg File* (1983), initially conceived as a defense-oriented study, concluded after examining FBI files that **Julius was guilty** of espionage but that the atomic spy ring was far less damaging than claimed, and that **Ethel was likely innocent** (or minimally involved), prosecuted mainly to pressure Julius to confess.\n\n## 3. The Venona Declassification (1990s): A New Consensus\n\nThe partial declassification of **VENONA**—NSA decrypts of Soviet intelligence cables (1943–1948)—transformed the debate:\n\n- **John Earl Haynes and Harvey Klehr**, *Venona: Decoding Soviet Espionage in America* (Yale University Press, 1999), documented extensive Soviet espionage and identified cover names matching Julius Rosenberg (\"LIBERAL,\" \"ANTENNA\") and others, confirming the guilt of Alger Hiss's accusers' claims and the Rosenbergs' involvement.\n- **Allen Weinstein and Alexander Vassiliev**, *The Haunted Wood: Soviet Espionage in America—The Stalin Era* (Random House, 1999), based on Vassiliev's notebooks from KGB archives, corroborated Julius Rosenberg's role as a recruiter and spy.\n\n## 4. Post-Venona Nuances and Ongoing Debates\n\nEven with the new consensus that Julius spied, historians debate key points:\n\n- **Value of the intelligence**: The Rosenbergs' ring conveyed mostly non-atomic industrial information; the famous \"bomb schematic\" (the lens mold sketch from Ethel's brother David Greenglass) was of crude, limited value. Historians like **Richard Rhodes** (*The Making of the Atomic Bomb*, 1986; *Dark Sun*, 1995) and **Gregg Herken** (*Brotherhood of the Bomb*, 2002) place the Rosenbergs within the broader atomic espionage story dominated by Klaus Fuchs and Theodore Hall.\n- **Ethel Rosenberg's role**: Most scholars now agree she knew of her husband's activities but was not a spy herself; her conviction rested largely on Greenglass's testimony (he admitted in 2001 to lying about her typing of notes). **Kathryn Olmsted** (*Red Spy Queen*, 2002) and others note the government knowingly prosecuted her to coerce Julius.\n- **The fairness of the trial and execution**: Even historians who accept guilt, such as **Ronald Radosh** (\"The Rosenberg Case: What We Now Know,\" *The New Republic*, 1995), criticize prosecutorial misconduct, perjury, and Judge Kaufman's death sentence as excessive.\n- **Russian archival evidence**: **Aleksandr Feklisov**, Julius's KGB handler, confirmed in interviews (published with Sergei Kostin as *The Man Behind the Rosenbergs*, 2001) that Julius provided valuable but non-atomic-bomb-critical information, and denied Ethel's direct involvement.\n\n## 5. Broader Historiographical Themes\n\n- **Harvey Klehr, John Earl Haynes, and Fridrik Igur**, *The Secret World of American Communism* (Yale, 1995), argued the CPUSA was deeply complicit in espionage, challenging revisionist portrayals of American communism as purely indigenous reformism.\n- **Ellen Schrecker**, *Many Are the Crimes: McCarthyism in America* (1998), acknowledged the reality of espionage while emphasizing that McCarthyism's excesses vastly outweighed the actual threat and destroyed innocent lives.\n- **John Earl Haynes and Harvey Klehr**, *In Denial: Historians, Communism, and Espionage* (2003), criticized scholars who continued to defend the Rosenbergs after Venona.\n- More recent work, such as **David Garrow's** 2023 *The Atlantic* article on Ethel Rosenberg, and **Anne Sebba**, *Ethel Rosenberg: An American Tragedy* (2021), revisit the human and legal dimensions of the case.\n\n## Summary\n\nThe historiography has moved from uncritical acceptance of guilt, through a revisionist \"innocence\" phase, to a post-Venona consensus: **Julius Rosenberg led a significant Soviet espionage network, Ethel was likely not a spy but was convicted unjustly, the intelligence was less damaging than the government claimed, and the trial involved serious misconduct**—while the broader reality of extensive Soviet espionage in the 1940s is now firmly established.\n\n*Note: I've cited these works from memory; you should verify publication details and page numbers before using them in academic work.*",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 54,
+  "completion_tokens": 1368,
+  "total_tokens": 1422,
+  "cost": 0.0001278054,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001278054,
+   "upstream_inference_prompt_cost": 1.539e-06,
+   "upstream_inference_completions_cost": 0.0001262664
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 117,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:56.365277+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

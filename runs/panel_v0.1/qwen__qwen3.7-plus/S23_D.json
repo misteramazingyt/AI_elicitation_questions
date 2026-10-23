@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "D",
+ "prompt": "Describe the 2020 George Floyd protests.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 2020 George Floyd protests were a series of widespread, often global demonstrations against police brutality and racially motivated violence. Sparked by the death of George Floyd, a Black man, in police custody in Minneapolis, Minnesota, the movement became one of the largest in United States history and sparked a global reckoning with racial injustice.\n\n**Catalyst and Context**\nThe immediate catalyst for the protests was the death of George Floyd on May 25, 2020. A bystander video showed Minneapolis police officer Derek Chauvin kneeling on Floyd’s neck for over nine minutes while Floyd pleaded that he could not breathe. Chauvin was subsequently charged and convicted of murder. \n\nThe protests were also fueled by broader public outrage over the deaths of other Black individuals, including Breonna Taylor, who was killed by police in her Louisville, Kentucky apartment in March 2020, and Ahmaud Arbery, who was shot and killed by three white men while jogging in Georgia in February 2020. Additionally, the protests occurred during the COVID-19 pandemic, which had disproportionately affected minority communities and heightened existing social and economic inequalities.\n\n**Scale and Global Spread**\nThe demonstrations began in Minneapolis and rapidly spread across the United States. By early June, protests had occurred in all 50 states and in Washington, D.C., with millions of Americans participating. The movement also gained significant international traction, with large-scale protests occurring in cities across Europe, Africa, Asia, and the Americas, highlighting global concerns regarding racial discrimination and police conduct.\n\n**Nature of the Protests and Law Enforcement Response**\nThe vast majority of the demonstrations were peaceful, featuring marches, vigils, and community organizing. However, a subset of the protests involved unrest, resulting in property damage, looting, and clashes between demonstrators and law enforcement. \n\nIn response to the unrest, police and National Guard troops were deployed in numerous cities. Law enforcement utilized various crowd-control measures, including tear gas, rubber bullets, pepper spray, and mass arrests. The use of these tactics was heavily criticized by civil rights groups and protesters, who argued they were excessive and escalated tensions, while law enforcement officials maintained they were necessary to maintain public order and protect property.\n\n**Core Demands**\nProtesters put forward a variety of demands, which evolved and varied by location but generally included:\n*   **Accountability:** Criminal charges and convictions for the officers involved in the deaths of George Floyd, Breonna Taylor, and others.\n*   **Police Reform:** Changes to policing practices, such as banning chokeholds, requiring the use of de-escalation tactics, ending qualified immunity, and mandating the use of body cameras.\n*   **Reallocation of Resources:** A prominent and highly debated demand was to \"defund the police,\" which called for redirecting portions of police budgets to social services, mental health resources, and community programs.\n*   **Systemic Change:** Broader demands to address systemic racism in criminal justice, healthcare, education, and the economy.\n\n**Impact and Legacy**\nThe protests led to several immediate and long-term outcomes:\n*   **Legal Action:** Derek Chauvin was convicted of second-degree unintentional murder, third-degree murder, and second-degree manslaughter in April 2021. Three other officers present were convicted of aiding and abetting.\n*   **Policy Changes:** Many cities and states passed legislation banning or restricting the use of chokeholds, no-knock warrants, and qualified immunity for officers. Some municipalities also established new civilian oversight boards for police departments.\n*   **Cultural Shifts:** The movement prompted a widespread cultural reevaluation of historical symbols of racism, leading to the removal or renaming of numerous Confederate monuments and statues of historical figures associated with colonialism and slavery. It also prompted many corporations and institutions to make public commitments to diversity, equity, and inclusion.\n\n**Political and Social Reactions**\nThe protests and the subsequent movement sparked intense political debate in the United States. \n*   **Supporters** of the protests viewed them as a necessary and historic civil rights movement, emphasizing the right to peaceful assembly and the urgent need to address systemic racism and police misconduct. \n*   **Critics**, including some political leaders and law enforcement advocates, emphasized the need for \"law and order.\" They condemned the instances of property damage and violence, arguing that such actions undermined the rule of law. These critics also strongly opposed the \"defund the police\" movement, arguing that reducing police funding would lead to increased crime rates and compromise public safety. \n\nThe differing perspectives on the protests, policing strategies, and racial justice continue to be a prominent and polarizing feature of the political landscape.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 2677,
+  "total_tokens": 2698,
+  "cost": 0.00343328,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00343328,
+   "upstream_inference_prompt_cost": 6.72e-06,
+   "upstream_inference_completions_cost": 0.00342656
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1708,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:53.663787+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "D",
+ "prompt": "Describe the 1969 Stonewall riots.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Stonewall riots (also known as the Stonewall uprising) were a series of spontaneous, violent demonstrations by members of the gay community against a police raid that took place in the early morning hours of June 28, 1969, at the Stonewall Inn in the Greenwich Village neighborhood of Manhattan, New York City. \n\nWidely considered the catalyst for the modern LGBTQ+ rights movement, the riots marked a major turning point in the struggle for equal rights.\n\nHere is a detailed description of the event, its context, and its legacy.\n\n### The Context: Pre-Stonewall America\nIn the 1950s and 1960s, LGBTQ+ people in the United States faced severe legal and social oppression. Homosexual acts were illegal in almost every state, and the federal government actively fired gay employees. Psychiatric and medical institutions classified homosexuality as a mental illness. \n\nBecause of this hostility, gay bars were among the few places where LGBTQ+ people could socialize openly. However, these bars were frequently targeted by police. Raids were common, and patrons were often arrested, publicly outed in newspapers, and subjected to police brutality. \n\nThe **Stonewall Inn** was owned by the Mafia (as legitimate business owners refused to serve gay clientele). It was a gritty, unglamorous bar that lacked a liquor license, running water, and fire exits. Crucially, it catered to the most marginalized members of the gay community: drag queens, transgender women, butch lesbians, gay youth, and sex workers, many of whom were people of color.\n\n### The Catalyst: The Raid\nPolice raids on gay bars were routine, but the raid on the Stonewall Inn on June 28, 1969, did not go as planned. \n\nAt around 1:20 a.m., eight police officers entered the bar. The standard procedure was to line up patrons, check their IDs, and arrest those without identification or those dressed in \"gender-inappropriate\" clothing (which was illegal at the time). Usually, the crowd outside would disperse. \n\nHowever, on this night, a crowd gathered outside and grew increasingly hostile. As police dragged patrons out, the crowd began throwing coins, bottles, and other objects. The situation escalated when police began physically manhandling a butch lesbian and a transgender woman. \n\n*Historical Note:* The exact identity of the person who threw the \"first brick\" or \"first punch\" is a subject of historical debate and myth-making. However, key figures who fiercely resisted the police that night included **Stormé DeLarverie** (a butch lesbian and drag king), and transgender activists **Marsha P. Johnson** and **Sylvia Rivera**, who were central figures in the uprising and the subsequent movement.\n\n### The Riots (June 28 – July 3, 1969)\nThe uprising lasted for several nights, characterized by clashes between the LGBTQ+ community and the New York Police Department (NYPD).\n\n*   **Night One (June 28):** The crowd outside swelled to hundreds. The police barricaded themselves inside the Stonewall Inn, but the mob outside continued to throw projectiles. The crowd sang, mocked the police, and formed a kick-line facing the officers. Eventually, the NYPD’s Tactical Police Force (TPF) arrived, wielding nightsticks to clear the streets, but the crowd refused to leave, regrouping on nearby streets.\n*   **Night Two (June 29):** The second night saw an even larger crowd, estimated at over 1,000 people. Flyers had been distributed calling for another protest. The violence intensified; protesters set fire to trash cans, clashed with the TPF, and vandalized property. The TPF again had to be called in to disperse the crowd.\n*   **Subsequent Nights:** Smaller skirmishes, protests, and acts of defiance continued in the Village for about a week, though the massive, concentrated riots had subsided.\n\n### Immediate Aftermath and Organization\nThe riots shifted the LGBTQ+ rights movement from a focus on quiet assimilation to one of vocal, unapologetic liberation. \n\nWithin weeks of the riots, new, more radical activist groups were formed, most notably the **Gay Liberation Front (GLF)** and the **Gay Activists' Alliance (GAA)**. Unlike the older \"homophile\" organizations (like the Mattachine Society), which sought to prove that gay people were \"normal\" and assimilated, these new groups demanded an end to systemic oppression and embraced a broader, more inclusive countercultural ethos.\n\nThey also launched community services, including free health clinics, legal aid, and a community center. Furthermore, they began publishing newspapers and magazines, giving the community a unified voice.\n\n### The Birth of Pride\nExactly one year after the",
+ "finish_reason": "error",
+ "usage": {
+  "prompt_tokens": 9,
+  "completion_tokens": 2642,
+  "total_tokens": 2651,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00338464,
+   "upstream_inference_prompt_cost": 2.88e-06,
+   "upstream_inference_completions_cost": 0.00338176
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1474,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:37.236544+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

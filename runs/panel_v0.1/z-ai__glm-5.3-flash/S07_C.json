@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "C",
+ "prompt": "What were the main causes of the FBI's COINTELPRO program?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# COINTELPRO: Origins and Causes\n\nCOINTELPRO (Counter Intelligence Program) was an FBI program running from 1956 to 1971. Its main causes and motivations included:\n\n## Cold War Anti-Communism\n- The program emerged during the height of the Cold War, when fears of Soviet influence and domestic communism were intense\n- FBI Director J. Edgar Hoover viewed communist organizations as existential threats to American security\n- McCarthyism created a political climate where aggressive surveillance and disruption of \"subversive\" groups was tolerated or encouraged\n\n## Hoover's Institutional Philosophy\n- Hoover believed the FBI had a mandate to protect America from internal threats, and he interpreted this expansively\n- He was skeptical of legal constraints and believed disruption was more effective than prosecution for groups he deemed dangerous\n- The FBI feared losing jurisdiction or relevance if it couldn't demonstrate ongoing domestic threats\n\n## Specific Triggers\n- **1956**: The program formally began after the FBI grew frustrated that it couldn't legally prosecute the Communist Party USA, so it shifted to covert disruption\n- **Civil Rights Movement**: Hoover viewed civil rights activism (and Martin Luther King Jr. specifically) with deep suspicion, fearing communist infiltration of the movement\n- **1960s unrest**: The program expanded to target the Black Panther Party, New Left organizations, anti-war groups, and others amid urban unrest and anti-Vietnam War protests\n\n## Political Pressures\n- Presidents and attorneys general (particularly during the Kennedy and Johnson administrations) sometimes encouraged or tacitly approved surveillance of political opponents\n- Hoover cultivated relationships with lawmakers who protected the FBI from oversight\n\n## Underlying Ideology\n- A belief that certain political movements were inherently un-American and illegitimate\n- Racial attitudes within the FBI leadership that viewed Black activism as inherently radical or foreign-inspired\n\nThe program was exposed in 1971 when activists broke into an FBI office in Media, Pennsylvania, and leaked documents, leading to congressional investigations (the Church Committee) and reforms restricting FBI domestic operations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 669,
+  "total_tokens": 711,
+  "cost": 6.29457e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.29457e-05,
+   "upstream_inference_prompt_cost": 1.197e-06,
+   "upstream_inference_completions_cost": 6.17487e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 257,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:02.535079+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

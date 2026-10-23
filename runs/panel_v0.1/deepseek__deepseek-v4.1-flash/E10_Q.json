@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Decart",
+ "response": "The 1984–85 UK miners’ strike ended in March 1985 without a negotiated settlement. Its consequences were profound and long-lasting, reshaping industrial relations, politics, energy policy and whole communities.\n\n**1. Defeat of the NUM and organised labour**\n- The National Union of Mineworkers (NUM) failed to stop pit closures or force the government to change course.\n- Miners returned to work without a deal; NUM funds were sequestered, and the union faced fines and legal costs.\n- The strike exposed deep divisions: Nottinghamshire miners and others had continued working, and in 1985 the breakaway Union of Democratic Mineworkers (UDM) was formed.\n- The defeat weakened the wider trade union movement and reinforced Margaret Thatcher’s trade union reforms, including strike ballots and restrictions on secondary action.\n\n**2. Accelerated pit closures and deindustrialisation**\n- The government pressed ahead with closures after the strike. British Coal was privatised in 1994.\n- Deep-mine employment collapsed from around 180,000 in the early 1980s to roughly 10,000 by the mid-1990s.\n- Most collieries in Yorkshire, South Wales, Scotland, Durham, Kent and elsewhere closed. The last deep coal mine, Kellingley, closed in 2015.\n\n**3. Devastation of coalfield communities**\n- Mining towns and villages lost their main employer, leading to mass unemployment, poverty and out-migration.\n- Long-term social problems followed: poor health, mental health issues, family stress, drug and alcohol problems, and reduced opportunities for younger generations.\n- Some regeneration occurred, but many coalfield areas never fully recovered economically or socially.\n\n**4. Political consequences**\n- The strike boosted Thatcher and the Conservatives, helping them win the 1987 general election.\n- It weakened the NUM’s political influence and contributed to Labour’s move away from close union ties, eventually towards New Labour.\n- Arthur Scargill became increasingly isolated, though he remained NUM president until 2002.\n\n**5. Energy policy shift**\n- The UK moved further away from domestic coal towards gas, oil, nuclear power and later renewables, as well as imported coal.\n- Coal ceased to be a major British industry and employer.\n\n**6. Policing, law and civil liberties**\n- The strike saw mass picketing, violent clashes and heavy policing, most famously at Orgreave.\n- Thousands were arrested; many convictions were later quashed or campaigned against. The policing tactics remain controversial and the subject of justice campaigns.\n\n**7. Social and cultural legacy**\n- Women Against Pit Closures and other support groups gave many women a new political role and lasting activist networks.\n- The strike became a cultural symbol of resistance and industrial decline, remembered in films such as *Billy Elliot* and *Pride*, in music, and in annual commemorations.\n- It also deepened regional and union divisions, especially between striking and non-striking miners.\n\nOverall, the strike was a turning point. It did not cause the decline of British coal by itself—economic and energy changes were already underway—but it accelerated closures, decisively weakened organised labour, and left a lasting political, economic and cultural scar on Britain’s coalfield communities.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 48,
+  "completion_tokens": 3778,
+  "total_tokens": 3826,
+  "cost": 0.00068436,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00068436,
+   "upstream_inference_prompt_cost": 4.32e-06,
+   "upstream_inference_completions_cost": 0.00068004
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3272,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:59.349277+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

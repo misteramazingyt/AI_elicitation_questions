@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1994 U.S. crime bill?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the 1994 Crime Bill\n\nThe Violent Crime Control and Law Enforcement Act of 1994, signed by President Clinton, had far-reaching and often debated consequences:\n\n## Incarceration Effects\n- **Prison population growth**: Contributed to rising incarceration rates, though most growth had begun before the bill. The federal prison population roughly doubled in the following decades.\n- **Racial disparities**: Black Americans were disproportionately affected, particularly through drug offense prosecutions and sentencing.\n\n## Key Provisions and Their Impacts\n\n**Violent Offender Incarceration and Truth-in-Sentencing grants**: Incentivized states to require longer sentences, contributing to longer prison terms and higher incarceration costs.\n\n**Federal \"three strikes\" provision**: Mandated life sentences for repeat federal violent offenders.\n\n**Drug policy**: Expanded federal death penalty-eligible crimes and increased penalties for drug offenses, including gang-related activity.\n\n**Assault weapons ban**: The 10-year ban on certain semi-automatic firearms expired in 2004; studies on its effectiveness remain mixed, partly due to limited research funding.\n\n**COPS program**: Funded roughly 100,000 additional community police officers, expanding police presence and, critics argue, increasing arrests for minor offenses.\n\n## Broader Consequences\n- **Mass incarceration**: The bill became a symbol of the tough-on-crime era that helped produce the world's largest prison population.\n- **Community impact**: Families and communities, especially in low-income and minority neighborhoods, experienced destabilization from high incarceration rates.\n- **Funding for prevention**: It also included grants for drug courts, domestic violence programs (including the landmark Violence Against Women Act), and youth programs—often overlooked.\n- **Political legacy**: The bill became controversial in later years; figures like Bernie Sanders and Hillary Clinton faced criticism for supporting it, and it influenced 2020s criminal justice reform debates.\n\n## Scholarly Debate\nResearchers disagree on how much the bill itself caused incarceration growth versus state-level policies, sentencing guidelines, and pre-existing trends. Many analysts now view it as both overblown in its immediate effects and symbolically important in cementing punitive policy norms.\n\nWould you like more detail on any particular aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 574,
+  "total_tokens": 616,
+  "cost": 5.41772e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.41772e-05,
+   "upstream_inference_prompt_cost": 1.197e-06,
+   "upstream_inference_completions_cost": 5.29802e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 127,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:36.083770+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

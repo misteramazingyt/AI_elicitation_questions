@@ -1,0 +1,43 @@
+{
+ "item": "S03",
+ "template": "C",
+ "prompt": "What were the main causes of McCarthyism in the 1950s?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "CoreWeave",
+ "response": "McCarthyism—the anti-communist investigations, loyalty tests, blacklists, and public accusations of the late 1940s and 1950s—had no single cause. It emerged from a convergence of Cold War fear, real espionage, partisan politics, institutional anti-communism, and social anxiety. “McCarthyism” is named after Senator Joseph McCarthy, but the phenomenon was broader and predated his 1950 rise.\n\n**1. Cold War fear and international setbacks.**  \nAfter World War II, the U.S. and USSR became rivals. Events such as the Soviet atomic bomb test (1949), the communist victory in China (1949), and the Korean War (1950–53) made communism seem like an expanding global threat. If communism was winning abroad, many Americans feared it was also infiltrating the U.S. government, unions, universities, and media.\n\n**2. Real Soviet espionage and spy cases.**  \nThere was genuine Soviet espionage in the U.S., though far less extensive than McCarthy and others claimed. Cases like the Gouzenko defection (1945), Alger Hiss (1948), Klaus Fuchs (1950), and the Rosenbergs (1950–53), plus later Venona decrypts, convinced many Americans that subversion was real. These cases gave anti-communist accusations credibility and made wilder charges seem plausible.\n\n**3. Partisan politics and the search for advantage.**  \nRepublicans, out of the White House since 1933, used anti-communism to attack the New Deal, the Truman administration, and Democrats generally. The “Who lost China?” charge and the Korean War stalemate became weapons. Democrats responded by trying to prove they were equally tough on communism, creating a bipartisan race to the right on the issue. McCarthy himself used the issue to gain attention and power.\n\n**4. Government anti-communist machinery.**  \nInstitutions already existed or were created to investigate disloyalty: the House Un-American Activities Committee (HUAC), the FBI under J. Edgar Hoover, Truman’s Federal Employee Loyalty Program (1947), the Smith Act prosecutions, the Taft-Hartley Act’s anti-communist provisions, and the McCarran Internal Security Act (1950). These gave official legitimacy and platforms to anti-communist crusaders.\n\n**5. Social and cultural anxieties.**  \nPostwar America was changing rapidly: labor militancy, urbanization, new roles for women, racial change, and the growth of a mass consumer society unsettled many people. Anti-communism channeled anxieties about conformity, status, religion, immigration, and “un-American” ideas. Conservative religious and business groups also opposed communism and labor radicalism.\n\n**6. Media sensationalism and demagogic tactics.**  \nMcCarthy and others mastered publicity. His 1950 Wheeling, West Virginia, speech claiming communists in the State Department made him a national figure. Newspapers, radio, and television amplified accusations, often without requiring proof. The result was a climate in which mere suspicion could destroy careers.\n\nIn short, McCarthyism was caused by the intersection of real Cold War dangers, exaggerated fears, partisan opportunism, institutional anti-communism, and social insecurity. McCarthy was less the sole cause than a symbol and accelerator of a broader Second Red Scare.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 2019,
+  "total_tokens": 2064,
+  "cost": 0.0013191,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013191,
+   "upstream_inference_prompt_cost": 6.75e-06,
+   "upstream_inference_completions_cost": 0.00131235
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1332,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:11:30.434595+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

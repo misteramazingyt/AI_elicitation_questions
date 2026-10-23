@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Supreme Court’s 1973 decision in *Roe v. Wade* was a landmark ruling that had profound and wide-ranging legal, political, social, and cultural consequences in the United States. By ruling that the Due Process Clause of the Fourteenth Amendment provides a fundamental \"right to privacy\" that protects a pregnant woman's liberty to choose whether to have an abortion, the Court fundamentally altered the American legal and political landscape. \n\nThe consequences of the decision unfolded over the next five decades, until the ruling was overturned in 2022. These consequences can be categorized into several key areas:\n\n**1. Legal and Medical Consequences**\n*   **Nationwide Legalization:** The most immediate consequence was the invalidation of many state and federal laws that banned or severely restricted abortion. The procedure became legal and accessible across the United States, shifting it from a criminal issue to a medical one in most jurisdictions.\n*   **The Trimester Framework:** The Court established a framework that balanced the woman's right to privacy with the state's interest in protecting potential life and maternal health. It prohibited states from banning abortion in the first trimester, allowed for some regulation in the second trimester, and permitted states to ban or heavily restrict abortion in the third trimester (fetal viability), except when necessary to protect the woman's life or health. \n*   **Changes in Medical Practice:** The decision allowed for the formalization and regulation of abortion procedures within the medical establishment, leading to a significant decrease in maternal mortality and morbidity associated with unsafe, illegal abortions.\n\n**2. Political Consequences**\n*   **Mobilization of Political Movements:** *Roe* served as a catalyst for the modern political movements on both sides of the issue. It helped mobilize the \"pro-choice\" movement, which focused on women's rights and bodily autonomy, and the \"pro-life\" (or anti-abortion) movement, which focused on fetal rights and the moral implications of the procedure.\n*   **A \"Wedge Issue\" in Elections:** Abortion became a deeply polarizing \"wedge issue\" in American politics. It heavily influenced the platforms of the Democratic and Republican parties, shaped voter turnout, and became a central topic in presidential and congressional campaigns.\n*   **Impact on Judicial Nominations:** The decision made the ideological leanings of Supreme Court justices a major political issue. Presidents frequently nominated, and the Senate scrutinized, judicial candidates based on their perceived stance on *Roe v. Wade*, making the confirmation process for Supreme Court justices highly contentious.\n\n**3. Legislative Consequences**\n*   **State-Level Restrictions:** While *Roe* prevented outright bans in the first two trimesters, it allowed states to pass regulations. Over the decades, many states enacted various restrictions, such as mandatory waiting periods, parental consent laws for minors, mandatory counseling, and Targeted Regulation of Abortion Providers (TRAP) laws, which imposed strict clinic requirements.\n*   **Federal Funding Restrictions:** In 1976, Congress passed the Hyde Amendment, which prohibited the use of federal Medicaid funds to pay for abortions except in cases of rape, incest, or danger to the life of the mother. This had the consequence of limiting access to abortion for low-income women, even though the procedure remained legally protected.\n\n**4. Social and Cultural Consequences**\n*   **Societal Polarization:** The decision deeply polarized the American public. Supporters viewed *Roe* as a vital protection of fundamental human rights, gender equality, and personal liberty. Opponents viewed it as an act of judicial overreach and \"judicial activism,\" arguing that the Constitution did not explicitly mention abortion and that the Court had usurped the democratic process by taking the issue away from state legislatures.\n*   **Impact on the Women’s Movement:** *Roe* became a foundational pillar for the second-wave feminist movement. Supporters argued that the ability to control reproduction was essential for women to participate equally in the economic and social life of the nation. Conversely, some cultural and religious conservatives argued the decision undermined traditional family structures and moral values.\n\n**5. Subsequent Jurisprudence**\n*   **Modification in *Planned Parenthood v. Casey* (1992):** The consequences of *Roe* continued to evolve legally. In 1992, the Supreme Court upheld the \"essential holding\" of *Roe* but discarded the rigid trimester framework. In its place, the Court established the \"undue burden\" standard, which allowed states to regulate abortion prior to fetal viability as long as the regulations did not place a \"substantial obstacle\" in the path of a woman seeking an abortion.\n*   **Overturning in *Dobbs v. Jackson* (2022):** The ultimate legal consequence of the 1973 decision was the decades-long legal and political battle to either cement or dismantle it. In 2022, the Supreme Court ruled in *Dobbs v. Jackson Women's Health Organization* that the Constitution does not confer a right to abortion. This decision overturned both *Roe* and *Casey*, returning the authority to regulate or ban abortion to individual states and states' elected representatives. \n\nIn summary, *Roe v. Wade* not only transformed the legal and medical landscape regarding reproductive rights in the U.S., but it also fundamentally reshaped American political alignments, judicial confirmation processes, and cultural debates for half a century.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 2585,
+  "total_tokens": 2616,
+  "cost": 0.00331872,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00331872,
+   "upstream_inference_prompt_cost": 9.92e-06,
+   "upstream_inference_completions_cost": 0.0033088
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1451,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:23.164108+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

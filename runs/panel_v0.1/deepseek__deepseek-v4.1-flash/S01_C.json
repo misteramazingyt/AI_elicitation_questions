@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "C",
+ "prompt": "What were the main causes of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Sail Research",
+ "response": "The Civil Rights Act of 1964 passed because of a convergence of long-term pressure, legal change, international embarrassment, and a rare political opening. No single cause explains it.\n\n**1. The grassroots civil rights movement.**  \nSustained activism was the central cause. Montgomery bus boycott, sit-ins, Freedom Rides, Birmingham campaign, and the March on Washington forced civil rights onto the national agenda. Birmingham in 1963 was especially pivotal: televised images of police dogs and fire hoses against Black protesters shocked many Americans and pushed President Kennedy to propose a broad civil rights bill.\n\n**2. Legal victories and federal intervention.**  \n*Brown v. Board of Education* (1954) undermined legal segregation and inspired challenges across the South. Later Supreme Court rulings and federal actions—such as Eisenhower sending troops to Little Rock in 1957—showed that segregation was both legally vulnerable and a federal responsibility. Earlier civil rights acts in 1957 and 1960, though weak, established a legislative precedent.\n\n**3. Presidential and congressional leadership.**  \nKennedy’s June 1963 civil rights speech and proposed bill were crucial. After his assassination, Lyndon B. Johnson made the bill a memorial to Kennedy and used his legislative skill to push it through. In the Senate, Republican leader Everett Dirksen helped assemble a bipartisan coalition to break the Southern filibuster. The Act passed the House in February 1964 and the Senate in June 1964.\n\n**4. Cold War and international pressure.**  \nRacial segregation damaged America’s image during the Cold War, especially as newly independent African and Asian nations watched. Soviet propaganda used American racism to discredit U.S. claims of democracy and freedom. The State Department and foreign-policy elites saw civil rights reform as a national-security interest.\n\n**5. Economic, demographic, and political change.**  \nThe Great Migration had brought millions of Black Americans to northern and western cities, increasing their political influence. Labor unions, churches, and civil rights organizations formed a broad coalition. Many business and political leaders also recognized that legal segregation was becoming economically and politically costly.\n\n**6. Public opinion and media coverage.**  \nNational television coverage of violence against peaceful protesters, the murder of Medgar Evers, and the Birmingham church bombing helped shift northern public opinion. Polls showed growing support for federal civil rights legislation, especially outside the South.\n\n**7. The political moment after JFK’s assassination.**  \nKennedy’s death in November 1963 created a moral and political climate in which opposition to the bill seemed like opposition to the martyred president. Johnson exploited this, combined with the 1964 election-year pressures, to move Congress.\n\nIn short, the Act passed because mass protest created a crisis, legal and moral authorities legitimized the cause, Cold War pressures made reform urgent, and LBJ plus a bipartisan congressional coalition found a way to overcome the Southern filibuster.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 48,
+  "completion_tokens": 2431,
+  "total_tokens": 2479,
+  "cost": 0.00061207,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00061207,
+   "upstream_inference_prompt_cost": 4.32e-06,
+   "upstream_inference_completions_cost": 0.00060775
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1835,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:11:08.746734+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "C",
+ "prompt": "What were the main causes of the 1883 eruption of Krakatoa?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Causes of the 1883 Krakatoa Eruption\n\nThe eruption of Krakatoa (August 27, 1883) was ultimately driven by geological processes deep beneath the volcano:\n\n## Primary Geological Causes\n\n**Subduction zone activity**: Krakatoa sits in the Sunda Strait between Java and Sumatra, where the Indo-Australian Plate subducts beneath the Eurasian Plate. As the descending plate melts, magma forms and rises through the crust, feeding the volcanoes of the Sunda Arc.\n\n**Magma chamber pressure buildup**: Over time, magma accumulated in chambers beneath the volcano. Pressure built from:\n- Rising magma and volatiles (gases like water vapor and CO₂)\n- Gas exsolution as magma ascended and pressure decreased\n\n**Water interaction**: Krakatoa's location near the sea meant seawater could infiltrate the volcanic system. When magma met water, it produced highly explosive \"phreatomagmatic\" eruptions—steam explosions that shattered rock and amplified the violence of the eruption.\n\n## The Eruption Sequence\n\n- **May 1883**: Initial phreatic (steam-driven) eruptions began\n- **August 26–27**: A series of increasingly powerful explosions culminated in the catastrophic August 27 eruption, likely triggered when the magma chamber's roof collapsed, allowing seawater to contact magma directly\n- The collapse created a **caldera** and generated devastating tsunamis over 30 meters high\n\n## Contributing Factors\n\nSome researchers suggest the volcano may have been destabilized by earlier activity, and the island's volcanic edifice was essentially primed for collapse after centuries of intermittent eruptions (notably in 1680).\n\nThe eruption killed over 36,000 people, mostly from the tsunamis, and was heard nearly 5,000 km away—one of the loudest sounds in recorded history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 538,
+  "total_tokens": 581,
+  "cost": 5.08829e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.08829e-05,
+   "upstream_inference_prompt_cost": 1.2255e-06,
+   "upstream_inference_completions_cost": 4.96574e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 154,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:52.570233+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "C",
+ "prompt": "What were the main causes of the 2011 military intervention in Libya?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 2011 military intervention in Libya, primarily conducted by a NATO-led coalition under the mandate of United Nations Security Council Resolution 1973, was driven by a complex mix of humanitarian, legal, regional, and geopolitical factors. \n\nHere are the main causes and catalysts for the intervention:\n\n### 1. The Arab Spring and the Libyan Uprising\nThe immediate catalyst for the intervention was the spread of the \"Arab Spring\" protests to Libya in February 2011. Inspired by uprisings in Tunisia and Egypt, Libyans began protesting against the 42-year rule of Muammar Gaddafi. The government responded with severe military force, which quickly escalated the protests into a full-scale armed rebellion and civil war. By March 2011, Gaddafi’s forces were advancing on the rebel stronghold of Benghazi, threatening to crush the opposition.\n\n### 2. Imminent Humanitarian Crisis and \"Responsibility to Protect\"\nA primary justification for the intervention was the prevention of a mass atrocity. As Gaddafi’s forces closed in on Benghazi, he delivered a televised address vowing to show \"no mercy\" and promising to hunt down the protesters \"alley by alley, house by house, and room by room.\" \n\nThis rhetoric triggered international alarm regarding an imminent massacre. The international community invoked the **Responsibility to Protect (R2P)** doctrine—a global political commitment endorsed at the 2005 UN World Summit, which states that sovereign states have a responsibility to protect their citizens from mass atrocities, and if they fail to do so (or are the perpetrators), the international community has the responsibility to intervene.\n\n### 3. Regional Diplomacy: The Arab League's Request\nA crucial diplomatic factor was the request by the **Arab League** for the UN to impose a no-fly zone over Libya. This was highly significant because it provided the intervention with regional legitimacy. Without the backing of the Arab League, military action by Western powers in a Middle Eastern/North African country would have been widely condemned as Western imperialism or neo-colonialism. The Arab League's support helped secure the backing of hesitant nations and paved the way for UN action.\n\n### 4. UN Security Council Resolution 1973\nThe legal framework for the intervention was established on March 17, 2011, when the UN Security Council passed Resolution 1973. The resolution demanded an immediate ceasefire, authorized member states to take \"all necessary measures\" to protect civilians and civilian-populated areas under threat of attack, and established a no-fly zone. \n*   *Note on the vote:* The resolution passed with 10 votes in favor and 5 abstentions (Russia, China, Germany, Brazil, and India). No permanent member used their veto power, creating a permissive legal environment for military action.\n\n### 5. Geopolitical and National Interests of Key States\nWhile humanitarian concerns were the primary public justification, the strategic and national interests of key intervening nations also played a major role:\n*   **France:** Under President Nicolas Sarkozy, France was the first country to recognize the Libyan rebel National Transitional Council (NTC) and pushed hardest for military action. France sought to project leadership in Europe and the Mediterranean, stabilize its southern flank, and distance itself from Gaddafi, whom Sarkozy had previously tried to reconcile with but who had recently insulted French leaders.\n*   **The United Kingdom:** Prime Minister David Cameron’s government was highly active in pushing for intervention. The UK sought to rehabilitate its international image following the controversial 2003 invasion of Iraq by championing an intervention with a clear UN mandate, regional backing, and a strictly humanitarian focus (an \"ethical foreign policy\").\n*   **The United States:** The Obama administration initially hesitated but ultimately joined the coalition. The U.S. motivation was driven by a desire to prevent a humanitarian disaster, maintain regional stability, and uphold the credibility of the UN and the R2P doctrine. The U.S. adopted a \"leading from behind\" strategy, providing crucial intelligence, logistics, and initial strikes, but handing over command to NATO shortly after the campaign began to avoid the appearance of another American-led war in the Middle East.\n\n### 6. Gaddafi’s International Isolation\nUnlike in previous conflicts in the region, Gaddafi lacked a powerful international patron willing to shield him from UN action. During the Cold War, Libya had been backed by the Soviet Union. By 2011, Gaddafi had alienated many of his former allies, and his relationships with neighboring African and Arab states had deteriorated. Consequently, when the crisis erupted, no major power was willing to use a UN Security Council veto to protect his regime.\n\n### Summary\nThe 2011 intervention in Libya was the result of a unique convergence of factors: a domestic uprising met with brutal force, a credible threat of mass atrocities in Benghazi, the invocation of the R2P doctrine, a UN mandate, crucial backing from the Arab League, and the aligned strategic interests of Western powers who saw an opportunity to act decisively in a region undergoing massive upheaval. \n\n*(Note: While the intervention successfully prevented the fall of Benghazi and led to the overthrow and death of Muammar Gaddafi, the subsequent power vacuum and lack of post-intervention planning led to a prolonged civil war and ongoing instability in Libya, which has since become a major subject of debate regarding the long-term consequences of the 2011 intervention.)*",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 2366,
+  "total_tokens": 2393,
+  "cost": 0.00303712,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00303712,
+   "upstream_inference_prompt_cost": 8.64e-06,
+   "upstream_inference_completions_cost": 0.00302848
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1229,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:06.746382+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

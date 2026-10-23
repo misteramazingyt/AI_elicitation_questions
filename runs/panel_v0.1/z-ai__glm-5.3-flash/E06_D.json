@@ -1,0 +1,43 @@
+{
+ "item": "E06",
+ "template": "D",
+ "prompt": "Describe the Bengal famine of 1943.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Bengal Famine of 1943\n\nThe Bengal famine of 1943 was one of the deadliest famines in Indian history, occurring in British-ruled Bengal (present-day Bangladesh and West Bengal) during World War II. An estimated **2 to 3 million people** died from starvation, malnutrition, and related diseases.\n\n## Background and Causes\n\nThe famine resulted from a complex combination of factors:\n\n**Wartime pressures:**\n- Japan's occupation of Burma (Myanmar) in 1942 cut off Bengal's major rice imports\n- Fear of Japanese invasion led to a \"denial policy\" — British authorities confiscated or destroyed boats, rice stocks, and transport in coastal regions to deny resources to a potential invader, devastating local fishing and rice trade\n\n**Economic factors:**\n- Wartime inflation caused rice prices to triple or quadruple, pricing the poor out of the market\n- Provincial trade barriers prevented grain from neighboring regions from reaching Bengal\n- Hoarding and speculation by traders and wealthier consumers worsened shortages\n\n**Policy failures:**\n- The British government prioritized food supplies for soldiers, war workers, and Europe\n- Churchill's War Cabinet repeatedly declined requests to divert shipping for emergency grain imports\n- Colonial officials were slow to acknowledge the crisis and slow to respond\n\n**Underlying vulnerability:**\n- Rural poverty, landlessness, and debt left much of the population with little resilience\n- The 1942 cyclone and fungal rice disease (brown spot) had already damaged the harvest\n\n## Course of the Famine\n\nThe crisis peaked between mid-1943 and mid-1944. Unlike some famines, there was not an absolute absence of food — rather, entitlement failure meant the poor simply couldn't afford to buy it. Millions of rural laborers, fishermen, and landless families starved while food remained available in cities at high prices. Calcutta saw thousands of destitute migrants dying on its streets. Epidemics of cholera, malaria, and dysentery followed, killing many even after food became more available.\n\n## Aftermath and Legacy\n\n- The famine discredited British colonial rule and galvanized the Indian independence movement\n- It prompted the **Bengal Famine Commission** (Woodhead Commission, 1944), which criticized the government's preparedness and response\n- Economist **Amartya Sen** later used the famine as a landmark case in his \"entitlement approach\" to famine theory, arguing that famines result from failures of distribution and access, not just food shortage\n- Debates continue over the degree of responsibility attributed to Churchill's government, with some historians characterizing the response as negligent or even contributing to the death toll\n\nThe famine remains a defining tragedy of the colonial era and a key case study in famine economics and disaster response.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 749,
+  "total_tokens": 786,
+  "cost": 7.01872e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.01872e-05,
+   "upstream_inference_prompt_cost": 1.0545e-06,
+   "upstream_inference_completions_cost": 6.91327e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 166,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:09.502790+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

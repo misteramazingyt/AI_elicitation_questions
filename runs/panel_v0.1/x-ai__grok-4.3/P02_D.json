@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "D",
+ "prompt": "Describe the 1883 eruption of Krakatoa.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 1883 eruption of Krakatoa (also spelled Krakatau) was one of the most violent volcanic events in recorded history. It occurred on the island of Krakatoa in the Sunda Strait between Java and Sumatra, Indonesia.\n\n### Build-up and Climax\nThe eruption began in May 1883 with a series of smaller explosions and ash emissions from the island’s three main volcanic cones (Perboewatan, Danan, and Rakata). Activity intensified in late August. The climax came on August 27, when four massive explosions occurred between 5:30 a.m. and 10:02 a.m. local time. The final blast at 10:02 a.m. was the largest, with an estimated Volcanic Explosivity Index (VEI) of 6. It completely destroyed two-thirds of the island, collapsing the caldera and generating pyroclastic flows that traveled across the sea.\n\n### Immediate Effects\n- **Tsunamis**: The explosions displaced enormous volumes of water, producing tsunamis up to 40 meters (130 feet) high. These waves devastated coastal communities on Java and Sumatra, killing an estimated 36,417 people—most of the total fatalities.\n- **Destruction**: The island itself was largely obliterated; only a small remnant of Rakata remained. Ash and pumice fell across a wide area, and the sound of the final explosion was heard as far away as Perth, Australia (about 3,100 km / 1,900 miles) and Rodrigues Island in the Indian Ocean (roughly 4,800 km / 3,000 miles).\n- **Atmospheric impact**: The eruption injected massive amounts of ash and sulfur dioxide into the stratosphere, creating a global veil of aerosols.\n\n### Global and Long-term Consequences\nThe stratospheric aerosols caused dramatic optical effects, including unusually vivid red and orange sunsets worldwide for months afterward (famously depicted in paintings by artists such as Edvard Munch). Average global temperatures dropped by about 1.2 °C (2.2 °F) for the following year due to the “volcanic winter” effect. The event was one of the first major eruptions studied with modern scientific instruments and telegraph communications, providing early insights into caldera formation, tsunami generation, and atmospheric propagation of sound and pressure waves.\n\nIn the decades after the eruption, a new volcanic cone, Anak Krakatau (“Child of Krakatau”), emerged from the caldera and remains active today. The 1883 event remains a benchmark for understanding catastrophic volcanic eruptions and their far-reaching environmental and societal impacts.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 203,
+  "completion_tokens": 881,
+  "total_tokens": 1084,
+  "cost": 0.00232185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00232185,
+   "upstream_inference_prompt_cost": 0.00011935,
+   "upstream_inference_completions_cost": 0.0022025
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 355,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:18.728774+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

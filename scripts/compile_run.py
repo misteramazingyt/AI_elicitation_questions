@@ -48,7 +48,14 @@ def main() -> None:
         mean = s["words"] / s["n"] if s["n"] else 0
         out.append(f"| `{m['id']}` | {m['lab']} | {int(s['n'])}/{expected} | {mean:.0f} | {int(s['truncated'])} | {s['cost']:.3f} |")
     total = sum(s["cost"] for s in stats.values())
-    out += ["", f"Total cost: ${total:.2f}.", ""]
+    out += ["", f"Total cost of the kept responses: ${total:.2f}.", ""]
+    caps = sorted({r["params"]["max_tokens"] for r in records})
+    if len(caps) > 1:
+        out += [f"`max_tokens` (which counts reasoning tokens) was raised during the run ({' → '.join(map(str, caps))}). "
+                "Responses that hit the lower cap were asked again; each record's `params` holds the cap it ran under.", ""]
+    cut = [f"`{r['model_requested']}` {r['item']}_{r['template']}" for r in records if r["finish_reason"] == "length"]
+    if cut:
+        out += ["Still truncated at the final cap: " + ", ".join(cut) + ".", ""]
     (run_dir / "SUMMARY.md").write_text("\n".join(out))
     print("\n".join(out))
 

@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "C",
+ "prompt": "What were the main causes of Argentina's 2001 economic crisis?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Argentina's 2001 Economic Crisis: Main Causes\n\nArgentina's 2001 crisis was one of the worst in modern history, involving default on over $80 billion in debt. Several interlocking factors contributed:\n\n## 1. The Convertibility Plan (Currency Board)\n- Established in 1991, it pegged the peso 1:1 to the US dollar\n- This initially tamed hyperinflation but made the peso **overvalued**, especially after the dollar strengthened in the late 1990s\n- Argentine exports became uncompetitive, hurting growth\n\n## 2. External Shocks\n- The **1997-98 Asian financial crisis** and **1999 Brazilian currency devaluation** hit Argentina hard\n- Brazil's devaluation made Argentine exports far more expensive relative to its largest trading partner\n- The US dollar's strength in the late 1990s worsened the peso's overvaluation\n\n## 3. Heavy Debt Burden\n- Persistent fiscal deficits led to massive borrowing, often in foreign currency\n- As recession deepened, debt-to-GDP ratios climbed and borrowing costs rose\n- By 2001, markets lost confidence, and Argentina was effectively locked out of credit markets\n\n## 4. Fiscal Problems\n- Chronic government deficits, particularly at the provincial level\n- Weak tax collection and resistance to spending cuts\n- IMF-mandated austerity during recession worsened the downturn (procyclical policies)\n\n## 5. Banking System Vulnerabilities\n- Banks held large amounts of government debt\n- As default fears grew, depositors fled—bank runs drained deposits throughout 2001\n- The government's \"corralito\" (December 2001) froze bank accounts, sparking riots and the fall of President De la Rúa\n\n## 6. Political Instability\n- Inability to form consensus around fiscal reforms\n- Rapid succession of presidents in December 2001 (five in two weeks)\n\n## The Outcome\nArgentina defaulted on its debt, abandoned the peg in early 2002 (the peso lost ~75% of its value), and poverty rates soared—though the subsequent devaluation eventually fueled a strong recovery from 2003 onward.\n\nWould you like more detail on any particular aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 722,
+  "total_tokens": 763,
+  "cost": 6.78091e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.78091e-05,
+   "upstream_inference_prompt_cost": 1.1685e-06,
+   "upstream_inference_completions_cost": 6.66406e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 265,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:37.265192+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

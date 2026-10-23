@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "D",
+ "prompt": "Describe the New Deal (1933-1939).",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The New Deal was a series of programs, policies, and projects implemented by President Franklin D. Roosevelt (FDR) during the Great Depression, from 1933 to 1939. The New Deal was a comprehensive response to the economic crisis that had ravaged the United States, with the goal of providing relief, recovery, and reform to those affected.\n\n**Background**\nThe Great Depression, which began in 1929, had led to widespread poverty, unemployment, and economic instability. By 1933, the unemployment rate had soared to over 25%, and millions of Americans were struggling to make ends meet. FDR, who took office in March 1933, was determined to address the crisis through a bold and innovative program.\n\n**The Three Phases of the New Deal**\n\n1. **The First New Deal (1933-1934)**: FDR's initial response focused on providing immediate relief to those suffering. He implemented a series of emergency measures, including:\n\t* The Civilian Conservation Corps (CCC), which employed young men in conservation and infrastructure projects.\n\t* The Federal Emergency Relief Administration (FERA), which provided direct financial assistance to states for relief programs.\n\t* The Civil Works Administration (CWA), which created jobs through infrastructure projects.\n\t* The National Recovery Administration (NRA), which established codes of fair competition and set minimum wages and working conditions.\n2. **The Second New Deal (1935-1936)**: As the economy began to recover, FDR shifted his focus to reform and recovery. Key programs included:\n\t* The Works Progress Administration (WPA), which provided jobs for millions of Americans through infrastructure, arts, and literacy projects.\n\t* The National Youth Administration (NYA), which supported young people through job training and education programs.\n\t* The Resettlement Administration (RA), which helped farmers and rural communities through land reform and rehabilitation programs.\n\t* The Social Security Act, which established a system of old-age pensions and unemployment insurance.\n3. **The Third New Deal (1937-1939)**: As the economy continued to recover, FDR's focus turned to long-term reform and institutional change. Notable initiatives included:\n\t* The Fair Labor Standards Act, which established minimum wage and overtime protections.\n\t* The National Housing Act, which promoted affordable housing and urban planning.\n\t* The Tennessee Valley Authority (TVA), which developed a comprehensive regional development program.\n\n**Key Features and Achievements**\n\n1. **Job creation**: The New Deal created millions of jobs through various programs, such as the WPA, CCC, and CWA.\n2. **Infrastructure development**: The New Deal invested heavily in infrastructure projects, including roads, bridges, and public buildings.\n3. **Social welfare**: The New Deal introduced a range of social welfare programs, including Social Security, unemployment insurance, and public housing.\n4. **Regulatory reform**: The New Deal implemented significant regulatory reforms, including the establishment of the Securities and Exchange Commission (SEC) and the Federal Deposit Insurance Corporation (FDIC).\n5. **Economic stimulus**: The New Deal provided stimulus to the economy through government spending and monetary policy.\n\n**Legacy**\nThe New Deal had a profound impact on American society and politics. It:\n\n1. **Helped alleviate the Great Depression**: The New Deal's programs and policies helped to stabilize the economy and reduce unemployment.\n2. **Reformed the financial system**: The New Deal's regulatory reforms helped to prevent future financial crises.\n3. **Established a social safety net**: The New Deal's social welfare programs created a foundation for the modern welfare state.\n4. **Transformed the role of government**: The New Deal marked a significant shift in the role of government in the economy, with the federal government taking on a more active and interventionist role.\n\nOverall, the New Deal was a comprehensive and innovative response to the Great Depression, which helped to alleviate suffering, stimulate economic recovery, and reform the financial and social systems of the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 812,
+  "total_tokens": 833,
+  "cost": 0.0005337675,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005337675,
+   "upstream_inference_prompt_cost": 3.9375e-06,
+   "upstream_inference_completions_cost": 0.00052983
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:28.286447+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

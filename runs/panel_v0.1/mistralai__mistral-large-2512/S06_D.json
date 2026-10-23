@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "D",
+ "prompt": "Describe the Kent State shootings of 1970.",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **Kent State shootings**, also known as the **May 4 massacre**, occurred on **May 4, 1970**, at **Kent State University** in Kent, Ohio. The incident involved the **Ohio National Guard** firing into a crowd of unarmed student protesters, killing **four students** and wounding **nine others**. The shootings became a defining moment in U.S. history, symbolizing the deep divisions over the **Vietnam War** and sparking nationwide protests.\n\n### **Background & Causes**\n1. **Vietnam War Opposition** – By 1970, anti-war sentiment was at its peak. President **Richard Nixon** had recently announced the **Cambodian Incursion** (April 30, 1970), expanding the war into Cambodia, which enraged many Americans who believed the conflict was already unwinnable.\n2. **Protests at Kent State** – On **May 1**, students at Kent State held a peaceful protest against the war. That night, some demonstrators clashed with local police, leading to property damage in downtown Kent. The mayor declared a **state of emergency** and requested National Guard assistance.\n3. **National Guard Deployment** – Ohio Governor **Jim Rhodes** sent the **Ohio National Guard** to Kent State on **May 2**, declaring the protesters \"the worst type of people we harbor in America\" and vowing to use \"whatever force necessary\" to stop them.\n4. **Escalation of Tensions** – On **May 3**, guardsmen used **tear gas** to disperse a rally, and some students threw rocks. The Guard was ordered to **ban all protests**, but students defied the order, leading to a tense standoff.\n\n### **The Shootings (May 4, 1970)**\n- Around **noon on May 4**, about **2,000 students** gathered on campus for a protest against the war and the National Guard’s presence.\n- The Guard, armed with **M1 Garand rifles** and **bayonets**, ordered the crowd to disperse. When students refused, the Guard fired **tear gas** and advanced with fixed bayonets.\n- Some students threw rocks and tear gas canisters back at the Guard. At **12:24 PM**, a group of **28 guardsmen** suddenly turned and fired **67 rounds** in **13 seconds** into the crowd.\n- **Four students were killed**:\n  - **Allison Krause** (19) – Shot in the chest\n  - **Jeffrey Miller** (20) – Shot in the mouth\n  - **Sandra Scheuer** (20) – Shot in the neck (not a protester, walking to class)\n  - **William Schroeder** (19) – Shot in the back (an ROTC member, not a protester)\n- **Nine others were wounded**, including one who was **paralyzed for life**.\n\n### **Aftermath & Reactions**\n1. **Nationwide Outrage** – The shootings shocked the nation. **Hundreds of colleges and universities** shut down in protest, and **millions of students** went on strike.\n2. **Government Response** – President Nixon expressed **regret** but did not condemn the Guard. A **federal grand jury** later indicted **eight guardsmen**, but all charges were dismissed in 1974 due to lack of evidence.\n3. **Scranton Commission** – A presidential commission (led by **William Scranton**) concluded that the shootings were **\"unnecessary, unwarranted, and inexcusable.\"**\n4. **Legal Settlements** – In 1979, the **U.S. government and Ohio** settled a civil lawsuit with the victims' families for **$675,000** (about $2.8 million today) and issued a **statement of regret**.\n5. **Cultural Impact** – The event inspired **Neil Young’s song \"Ohio\"** (performed by Crosby, Stills, Nash & Young), which became an anti-war anthem. The shootings also fueled **distrust in government** and intensified opposition to the Vietnam War.\n\n### **Legacy**\n- The Kent State shootings remain one of the most **controversial and tragic events** of the Vietnam War era.\n- The site of the shootings is now a **National Historic Landmark**, and **May 4** is commemorated annually at Kent State.\n- The incident highlighted the **militarization of domestic protests** and the dangers of **government overreach** in suppressing dissent.\n\nWould you like more details on any specific aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 17,
+  "completion_tokens": 999,
+  "total_tokens": 1016,
+  "cost": 0.001507,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001507,
+   "upstream_inference_prompt_cost": 8.5e-06,
+   "upstream_inference_completions_cost": 0.0014985
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:34:32.673643+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

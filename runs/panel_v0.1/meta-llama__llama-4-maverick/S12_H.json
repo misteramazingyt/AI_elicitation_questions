@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "H",
+ "prompt": "How have historians interpreted the rise of the Moral Majority around 1980? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The rise of the Moral Majority around 1980 has been a subject of interest among historians, who have offered various interpretations of this phenomenon. Here are some of the key perspectives:\n\n1. **Reaction to social and cultural changes**: Many historians see the Moral Majority as a response to the social and cultural upheavals of the 1960s and 1970s, including the civil rights movement, the feminist movement, and the gay rights movement. The Moral Majority's founder, Jerry Falwell, and other conservative Christians felt that traditional American values were being eroded and sought to mobilize against these changes (Liebman and Wuthnow, 1983; Wilcox, 1992).\n2. **Part of a broader conservative movement**: Historians have also interpreted the Moral Majority as part of a larger conservative movement that was gaining momentum in the late 1970s and early 1980s. This movement included other groups, such as the National Rifle Association and the anti-abortion movement, and was characterized by a shared commitment to limited government, traditional values, and a strong national defense (Diamond, 1995; Himmelstein, 1990).\n3. **A response to the perceived failures of liberalism**: Some historians argue that the Moral Majority's rise was a reaction to the perceived failures of liberalism, particularly the Democratic Party's inability to address issues like crime, inflation, and national security. The Moral Majority's emphasis on law and order, traditional values, and a strong national defense resonated with many Americans who felt disillusioned with liberal policies (Kazin, 1995; Martin, 1996).\n4. **A manifestation of evangelical Protestantism's growing political engagement**: The Moral Majority was closely tied to the evangelical Protestant movement, which had traditionally been apolitical. Historians have seen the Moral Majority's rise as a key moment in the growing politicization of evangelical Protestants, who became increasingly involved in politics and activism in the late 20th century (Balmer, 2006; Sutton, 2014).\n\nSome key sources that support these interpretations include:\n\n* Liebman, R. C., & Wuthnow, R. (Eds.). (1983). The New Christian Right: Mobilization and Legitimation. New York: Aldine Publishing Company.\n* Wilcox, C. (1992). God's Warriors: The Christian Right in Twentieth-Century America. Baltimore: Johns Hopkins University Press.\n* Diamond, S. (1995). Roads to Dominion: Right-Wing Movements and Political Power in the United States. New York: Guilford Press.\n* Himmelstein, J. L. (1990). To the Right: The Transformation of American Conservatism. Berkeley: University of California Press.\n* Kazin, M. (1995). The Populist Persuasion: An American History. New York: Basic Books.\n* Martin, W. (1996). With God on Our Side: The Rise of the Religious Right in America. New York: Broadway Books.\n* Balmer, R. (2006). Thy Kingdom Come: How the Religious Right Distorts the Faith and Threatens America. New York: Basic Books.\n* Sutton, M. (2014). American Apocalypse: A History of Modern Evangelicalism. Cambridge, MA: Harvard University Press.\n\nThese sources provide a range of perspectives on the rise of the Moral Majority and its significance in American history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 715,
+  "total_tokens": 744,
+  "cost": 0.000471975,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000471975,
+   "upstream_inference_prompt_cost": 5.4375e-06,
+   "upstream_inference_completions_cost": 0.0004665375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:06:32.716128+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

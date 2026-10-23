@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "H",
+ "prompt": "How have historians interpreted the Immigration Act of 1924? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of the Immigration Act of 1924 (Johnson-Reed Act)\n\nThe Immigration Act of 1924, which established national-origin quotas and effectively barred Asian immigration, has been interpreted through several distinct historiographical lenses. Here are the major strands:\n\n## 1. Nativism as the Central Explanation\n\n**John Higham**, in *Strangers in the Land: Patterns of American Nativism, 1860–1925* (1955; reissued 1988), offered the classic interpretation. He argued that the restrictive legislation of the 1920s grew out of a \"tribal\" nativism rooted in ethnic and racial hostility, intensified by World War I, the Red Scare, and social anxieties of the 1920s. Higham emphasized that the quotas reflected a desire to preserve an Anglo-Saxon Protestant cultural dominance rather than purely economic concerns.\n\n## 2. Eugenics and Scientific Racism\n\n**Desmond King**, in *Making Americans: Immigration, Race, and the Origins of the Diverse Democracy* (2000), highlighted the role of eugenicist ideology and the federal government's active promotion of racial hierarchy in shaping the Act. Similarly, historians such as **Nancy Ordover** (*American Eugenics*, 2003) have connected the Act to the broader eugenics movement, noting the influence of figures like Harry Laughlin, who testified before Congress and whose quota formulas were written into the law.\n\n## 3. Race, Whiteness, and Nation-Making\n\n**Mae Ngai**, in *Impossible Subjects: Illegal Aliens and the Making of Modern America* (2004), reframed the Act as foundational to modern American statehood. She argued the quotas created the very category of the \"illegal alien\" by establishing numerical limits for the first time, and that the law was an act of racial nation-building that defined who could belong.\n\n**Matthew Frye Jacobson**, in *Whiteness of a Different Color* (1998), interpreted the Act as a landmark in the legal consolidation of \"whiteness,\" showing how earlier distinctions among European \"races\" (Nordic, Alpine, Mediterranean) were encoded into law before later eroding.\n\n**Aristide Zolberg**, in *A Nation by Design: Immigration Policy in the Nineteenth Century* (2006), placed the Act within a longer pattern of deliberate, politically driven nation-shaping, arguing the U.S. consistently used immigration policy to engineer its population.\n\n## 4. State-Building and Border Control\n\n**Erika Lee**, in *At America's Gates: Chinese Immigration During the Exclusion Era, 1882–1943* (2003), showed how the 1924 Act extended and hardened earlier Chinese exclusion, creating a \"gatekeeping\" state. **Daniel Tichenor**, in *Dividing Lines: The Politics of Immigration Control in America* (2002), emphasized the political coalitions—labor unions, progressive reformers, and nativist groups—that converged to pass the Act, complicating the picture of restriction as purely reactionary.\n\n## 5. Revisionist/Economic Interpretations\n\nSome scholars have pushed back on purely ideological explanations, noting economic factors: postwar recession, labor competition, and the declining need for mass industrial labor. **Roger Daniels** (*Guarding the Golden Door*, 2004) and others have noted that restrictionist sentiment also drew on progressive-era concerns about urbanization and labor standards, not just prejudice.\n\n## Points of Consensus\n\nDespite differing emphases, most historians agree that the Act of 1924 was a watershed: it ended the era of open European immigration, institutionalized racial and national hierarchy in law, and created the administrative machinery (visas, border patrols, illegal status) that defines U.S. immigration policy to this day.\n\n---\n\n*Note: I've cited these works from memory; page numbers and some details should be verified against the original texts, and I'd recommend checking recent scholarship (e.g., work by Julia Gaffield or newer syntheses) for the latest interpretations.*",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 1262,
+  "total_tokens": 1305,
+  "cost": 0.0001177081,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001177081,
+   "upstream_inference_prompt_cost": 1.2255e-06,
+   "upstream_inference_completions_cost": 0.0001164826
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 417,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:39.342825+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

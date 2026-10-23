@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "D",
+ "prompt": "Describe the 1994 U.S. crime bill.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The 1994 Crime Bill (Violent Crime Control and Law Enforcement Act)\n\nThe Violent Crime Control and Law Enforcement Act, signed by President Bill Clinton in September 1994, was one of the largest crime bills in U.S. history. It was a bipartisan effort, championed by Clinton and Senator Joe Biden, with support from many Republicans.\n\n## Major Provisions\n\n**Law enforcement funding**\n- Authorized funding for roughly 100,000 new police officers through the COPS (Community Oriented Policing Services) program\n- Provided billions of dollars for prisons, including incentives for states to build more correctional facilities\n\n**Sentencing and penalties**\n- Expanded the federal death penalty to cover around 60 additional crimes\n- Established \"three strikes\" provisions mandating life sentences for federal offenders convicted of three violent or serious felonies\n- Increased funding for drug courts and prison construction\n\n**Gun control**\n- Banned the manufacture of certain semi-automatic \"assault weapons\" for ten years (expired in 2004)\n- Banned large-capacity ammunition magazines (over 10 rounds)\n\n**Violence Against Women Act (VAWA)**\n- Created federal protections and services for victims of domestic violence, sexual assault, and stalking\n- Funded shelters, hotlines, and legal assistance\n\n**Other measures**\n- Increased penalties for gang-related crimes\n- Funded prevention programs, including after-school initiatives\n- Restricted gun sales to people with domestic violence convictions\n\n## Legacy and Criticism\n\nThe bill is now highly controversial. Critics argue it contributed to **mass incarceration**, disproportionately affecting Black and Latino communities, and that its incentives encouraged harsher sentencing. Supporters point to declining crime rates in the 1990s, though the extent of the bill's role in that decline is debated.\n\nThe bill's legacy influenced later politics: Joe Biden, a key architect, faced criticism during his 2020 presidential campaign, and many Democrats have since called for reforms to undo aspects of the law. The Violence Against Women Act, however, remains widely praised and has been reauthorized multiple times.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 482,
+  "total_tokens": 520,
+  "cost": 4.55716e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.55716e-05,
+   "upstream_inference_prompt_cost": 1.083e-06,
+   "upstream_inference_completions_cost": 4.44886e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 59,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:35.091770+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

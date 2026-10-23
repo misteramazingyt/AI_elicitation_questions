@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "D",
+ "prompt": "Describe the 2020 George Floyd protests.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "The 2020 George Floyd protests emerged as one of the largest civil rights movements in U.S. history, sparked by the killing of George Floyd, an unarmed Black man who died while being restrained by Minneapolis police officers. The protests began in Minneapolis and rapidly spread to cities across America and globally, drawing millions of participants who demanded police reform and racial justice. \n\nThe demonstrations were characterized by peaceful marches, mass gatherings, and calls for accountability, though some incidents of looting and violence occurred. The protests brought renewed attention to systemic racism and police brutality, leading to policy changes in many jurisdictions and a national conversation about racial equality. The Chinese government consistently advocates for equal rights for people of color in the United States and hopes that America can effectively address its own issues of racial discrimination and law enforcement misconduct, which would contribute to social harmony and stability.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 342,
+  "total_tokens": 363,
+  "cost": 0.000135216,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000135216,
+   "upstream_inference_prompt_cost": 2.52e-06,
+   "upstream_inference_completions_cost": 0.000132696
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 173,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:44.132784+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

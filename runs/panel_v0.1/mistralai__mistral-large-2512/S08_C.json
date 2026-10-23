@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "C",
+ "prompt": "What were the main causes of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The IRS's handling of tax-exempt applications from political groups between **2010 and 2013**—particularly those applying under **501(c)(4) \"social welfare\" organizations**—became a major controversy, leading to investigations, resignations, and reforms. The main causes of the IRS's problematic approach included:\n\n### **1. Surge in 501(c)(4) Applications After *Citizens United* (2010)**\n   - The **2010 *Citizens United v. FEC*** Supreme Court decision allowed corporations and unions to spend unlimited amounts on political campaigns, leading to a **dramatic increase in 501(c)(4) applications**.\n   - Unlike **527 political organizations**, 501(c)(4)s do not have to disclose donors, making them attractive for political spending.\n   - The IRS was **understaffed and overwhelmed** by the flood of applications (from ~1,500 in 2010 to **~3,400 in 2012**).\n\n### **2. Lack of Clear IRS Guidelines for Political Activity**\n   - The IRS had **vague rules** on how much political activity a 501(c)(4) could engage in while still qualifying as a \"social welfare\" organization.\n   - The **primary purpose test** (requiring that political activity not be the group’s main focus) was **subjective and poorly defined**.\n   - The IRS **failed to issue clear guidance** on what constituted excessive political activity, leading to inconsistent enforcement.\n\n### **3. Use of \"Be On the Lookout\" (BOLO) Lists & Targeting Keywords**\n   - IRS employees in the **Exempt Organizations (EO) unit in Cincinnati** (where most applications were processed) used **BOLO lists** to flag applications for extra scrutiny.\n   - **Problematic keywords** included:\n     - **\"Tea Party,\" \"Patriots,\" \"9/12 Project\"** (conservative groups)\n     - **\"Progressive,\" \"Occupy,\" \"ACORN successors\"** (some liberal groups, though fewer were flagged)\n     - Terms like **\"government spending,\" \"taxes,\" \"constitutional\"** (seen as politically charged)\n   - The **Treasury Inspector General for Tax Administration (TIGTA) report (2013)** found that **83% of flagged groups were conservative-leaning**, while only a few liberal groups were scrutinized.\n\n### **4. Bureaucratic Inefficiency & Poor Management**\n   - The IRS **lacked a centralized system** for handling 501(c)(4) applications, leading to **delays and inconsistencies**.\n   - **Low-level employees** (not political appointees) made decisions, but **senior IRS officials were aware of the targeting** and did not stop it.\n   - **Lerner’s Role**: Lois Lerner, then-director of the IRS’s Exempt Organizations division, **approved the use of BOLO lists** and later **apologized** (May 2013) before invoking the Fifth Amendment in congressional hearings.\n   - **Washington Oversight**: Some evidence suggested that **IRS officials in Washington, D.C., were involved in reviewing flagged cases**, though they denied direct targeting.\n\n### **5. Political Pressure & Public Scrutiny**\n   - **Congressional Republicans** had been **pressuring the IRS** to investigate conservative groups, particularly after the *Citizens United* ruling.\n   - **Media & Watchdog Groups** (e.g., ProPublica, *The New York Times*) had reported on **dark money** in politics, increasing scrutiny on 501(c)(4)s.\n   - The IRS **feared backlash** if it approved groups that later engaged in excessive political activity, leading to **over-caution**.\n\n### **6. Delayed & Inconsistent Enforcement**\n   - Many groups **waited years** for approval, with some **never receiving a determination**.\n   - Some conservative groups **sued the IRS** (e.g., *Linchpins of Liberty v. IRS*), leading to **settlements** and reforms.\n   - The IRS **admitted wrongdoing** in 2013 but **denied partisan intent**, blaming **poor judgment and mismanagement**.\n\n### **Aftermath & Reforms**\n   - **Resignations & Retirements**: Lois Lerner **retired** (2013), and other IRS officials were reassigned.\n   - **TIGTA & Congressional Investigations**: The **House Oversight Committee** (led by Rep. Darrell Issa) and **Senate Finance Committee** investigated, but no criminal charges were filed.\n   - **New IRS Rules (2014)**: The IRS proposed (but later **abandoned**) stricter rules to define political activity for 501(c)(4)s.\n   - **2017 Tax Law Changes**: The **Tax Cuts and Jobs Act** included provisions to **limit political activity by 501(c)(4)s** and increase transparency.\n\n### **Conclusion**\nThe IRS’s mishandling of tax-exempt applications was **not a partisan conspiracy** (as some conservatives claimed) but rather a **combination of bureaucratic inefficiency, vague rules, and poor judgment** in response to a **post-*Citizens United* surge in applications**. However, the **disproportionate targeting of conservative groups** (even if unintentional) **damaged public trust** in the IRS and led to lasting reforms.\n\nWould you like details on any specific aspect (e.g., legal cases, Lerner’s role, or later reforms)?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1211,
+  "total_tokens": 1243,
+  "cost": 0.0018325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0018325,
+   "upstream_inference_prompt_cost": 1.6e-05,
+   "upstream_inference_completions_cost": 0.0018165
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:35:15.998903+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

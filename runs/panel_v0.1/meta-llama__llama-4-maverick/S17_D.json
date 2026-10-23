@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "D",
+ "prompt": "Describe the 2003 U.S.-led invasion of Iraq.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 2003 U.S.-led invasion of Iraq, also known as Operation Iraqi Freedom, was a military campaign launched on March 20, 2003, by a coalition of countries led by the United States, with the primary objective of overthrowing the government of Iraq, which was then led by Saddam Hussein. The invasion was authorized by U.S. President George W. Bush and involved a coalition of forces from several countries, including the United Kingdom, Australia, and Poland.\n\n**Background and Justification**\n\nThe invasion was justified by the U.S. and its allies on several grounds, including:\n\n1. **Saddam Hussein's alleged possession of weapons of mass destruction (WMDs)**: The U.S. and its allies claimed that Iraq possessed WMDs, including chemical and biological agents, and was developing nuclear weapons. However, subsequent investigations found no evidence to support these claims.\n2. **Iraq's alleged links to terrorist organizations**: The U.S. claimed that Saddam Hussein's regime had ties to terrorist organizations, including al-Qaeda. However, these claims were later disputed, and no conclusive evidence was found to support them.\n3. **Human rights abuses**: Saddam Hussein's regime was known for its brutal suppression of the Iraqi people, including the use of torture, executions, and other human rights abuses.\n\n**The Invasion**\n\nThe invasion began on March 20, 2003, with a series of airstrikes against key military targets in Iraq, followed by a ground invasion by coalition forces. The initial invasion force consisted of approximately 150,000 troops, including:\n\n1. **U.S. forces**: The U.S. contributed the majority of the troops, with approximately 130,000 soldiers, sailors, airmen, and Marines.\n2. **British forces**: The UK contributed around 45,000 troops, including ground forces, air support, and naval units.\n3. **Other coalition forces**: Other countries, including Australia, Poland, and Italy, contributed smaller contingents of troops.\n\nThe invasion was characterized by a rapid advance by coalition forces, with key cities, including Basra, Nasiriyah, and Baghdad, falling to the coalition within a few weeks. Saddam Hussein's regime collapsed on April 9, 2003, when Baghdad was captured by U.S. forces.\n\n**Aftermath**\n\nThe invasion and subsequent occupation of Iraq were marked by significant challenges, including:\n\n1. **Insurgency and sectarian violence**: The collapse of Saddam Hussein's regime created a power vacuum, which was filled by various insurgent groups, including Sunni and Shia militias. This led to a protracted and bloody insurgency, which lasted for several years.\n2. **Humanitarian crisis**: The invasion and subsequent conflict led to a significant humanitarian crisis, with widespread displacement, injury, and death among the Iraqi civilian population.\n3. **Reconstruction challenges**: The coalition faced significant challenges in rebuilding Iraq's infrastructure, economy, and governance structures.\n\nThe 2003 U.S.-led invasion of Iraq remains a highly contested and debated event, with ongoing discussions about its justification, conduct, and consequences.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 648,
+  "total_tokens": 671,
+  "cost": 0.0004271325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004271325,
+   "upstream_inference_prompt_cost": 4.3125e-06,
+   "upstream_inference_completions_cost": 0.00042282
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:17.848585+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

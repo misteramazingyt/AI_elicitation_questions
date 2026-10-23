@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "D",
+ "prompt": "Describe the New Deal (1933-1939).",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The New Deal (1933–1939)\n\nThe New Deal was a series of programs, reforms, and public works projects enacted by President **Franklin D. Roosevelt** in response to the **Great Depression**. It fundamentally transformed the role of the federal government in American economic and social life.\n\n## Background\n\nWhen FDR took office in March 1933, the U.S. was in the depths of the Depression: unemployment was around 25%, banks were failing, industrial output had collapsed, and public confidence was shattered. In his inaugural address, Roosevelt famously declared, \"the only thing we have to fear is fear itself.\"\n\n## The \"Three R's\"\n\nThe New Deal is often organized around three goals:\n\n### 1. Relief — immediate help for the unemployed and poor\n- **Civilian Conservation Corps (CCC)** — employed young men in conservation work\n- **Federal Emergency Relief Administration (FERA)** — direct aid to states\n- **Works Progress Administration (WPA)** — the largest jobs program, building roads, bridges, schools, and funding artists and writers\n\n### 2. Recovery — stimulating the economy\n- **National Recovery Administration (NRA)** — set industry codes for wages, prices, and working conditions (struck down by the Supreme Court in 1935)\n- **Agricultural Adjustment Administration (AAA)** — paid farmers to reduce production to raise crop prices\n- **Public Works Administration (PWA)** — large-scale infrastructure projects\n\n### 3. Reform — preventing future crises\n- **Banking reforms**: Emergency Banking Act, **Glass-Steagall Act** (separated commercial and investment banking), **FDIC** (insured bank deposits)\n- **Securities Act & SEC** — regulated stock markets\n- **Social Security Act (1935)** — pensions for the elderly, unemployment insurance, aid to dependent children\n- **Wagner Act (1935)** — protected workers' right to unionize and bargain collectively\n- **Fair Labor Standards Act (1938)** — established minimum wage and limits on child labor\n\n## Phases\n\n- **First New Deal (1933–1934)**: Focused on banking recovery, relief, and stabilization during the \"Hundred Days\" of rapid legislation.\n- **Second New Deal (1935–1938)**: More progressive, emphasizing social welfare, labor rights, and redistribution.\n\n## Opposition and Challenges\n\n- **Conservatives and business leaders** criticized it as excessive government expansion and \"socialism.\"\n- The **Supreme Court** struck down key programs (NRA, AAA), prompting FDR's controversial **\"court-packing\" plan** in 1937, which failed but pressured the Court.\n- Some critics, like **Huey Long** and **Father Coughlin**, argued it didn't go far enough.\n\n## Impact and Legacy\n\n- It **did not fully end the Depression** — unemployment remained high until World War II mobilization.\n- It **permanently expanded federal power**, creating the modern welfare state and regulatory framework.\n- It forged the **New Deal coalition** (labor, urban voters, African Americans, farmers, intellectuals) that dominated U.S. politics for decades.\n- Institutions like **Social Security, the FDIC, and the SEC** remain central to American life today.\n\nIn short, the New Deal redefined the relationship between Americans and their government, establishing the principle that Washington bears responsibility for the nation's economic well-being.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 802,
+  "total_tokens": 843,
+  "cost": 7.51931e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.51931e-05,
+   "upstream_inference_prompt_cost": 1.1685e-06,
+   "upstream_inference_completions_cost": 7.40246e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 79,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:25.726406+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

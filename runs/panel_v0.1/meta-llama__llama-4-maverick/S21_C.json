@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Immigration Act of 1924, also known as the Johnson-Reed Act, was a significant piece of legislation that restricted immigration to the United States. The main causes of the Immigration Act of 1924 were:\n\n1. **Nativism and Anti-Immigrant Sentiment**: The early 20th century saw a rise in nativist sentiment in the United States, with many Americans expressing concerns about the impact of immigration on the country's culture, economy, and society. This sentiment was fueled by the large influx of immigrants from Southern and Eastern Europe, particularly from Italy, Poland, and Russia.\n2. **Fear of \"New Immigration\"**: The Immigration Act of 1924 was largely a response to the \"new immigration\" from Southern and Eastern Europe, which was seen as distinct from the \"old immigration\" from Northern and Western Europe. Many Americans believed that the new immigrants were culturally and racially inferior, and that they were changing the character of American society.\n3. **Racial and Ethnic Prejudice**: The Act was also motivated by racial and ethnic prejudice, with many supporters advocating for restrictions on immigration from certain countries, particularly those with predominantly non-white or non-Protestant populations.\n4. **Economic Concerns**: The post-World War I economic downturn and the rise of unemployment in the United States contributed to concerns about the impact of immigration on the labor market. Many Americans believed that immigrants were taking jobs away from native-born Americans and depressing wages.\n5. **Pseudoscientific Theories**: The Immigration Act of 1924 was also influenced by pseudoscientific theories, such as eugenics, which posited that certain racial or ethnic groups were inherently superior or inferior. Proponents of the Act used these theories to argue that certain immigrant groups were \"unassimilable\" and posed a threat to American society.\n6. **Lobbying by Interest Groups**: Various interest groups, including labor unions, patriotic organizations, and nativist groups, lobbied for restrictions on immigration. These groups argued that immigration was a threat to American jobs, culture, and values.\n\nThe Immigration Act of 1924 was a response to these concerns, and it established a quota system that limited immigration to 2% of the total number of people from a particular country living in the United States in 1890. The Act also established a preference for immigrants from Northern and Western Europe, and it effectively barred immigration from many countries in Asia and Africa. The Act had a profound impact on immigration to the United States, shaping the country's demographic makeup and influencing immigration policy for decades to come.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 528,
+  "total_tokens": 552,
+  "cost": 0.00034902,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00034902,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.00034452
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:53.469517+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

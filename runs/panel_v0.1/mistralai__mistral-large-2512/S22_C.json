@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration and Nationality Act of 1965?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **Immigration and Nationality Act of 1965** (also known as the **Hart-Celler Act**) was a landmark piece of legislation that fundamentally transformed U.S. immigration policy. Its main causes were rooted in **civil rights reforms, Cold War politics, and shifting public attitudes** toward immigration. Here are the key factors that led to its passage:\n\n### **1. Civil Rights Movement & Racial Equality**\n- The **1960s civil rights movement** exposed the hypocrisy of U.S. immigration laws, which were based on **racial and ethnic quotas** established by the **1924 Immigration Act (Johnson-Reed Act)**.\n- The **1924 law** had favored Northern and Western European immigrants while severely restricting Southern and Eastern Europeans, Asians, Africans, and other non-white groups.\n- Civil rights leaders, including **President Lyndon B. Johnson (LBJ)**, saw the **abolition of discriminatory immigration policies** as a natural extension of the **Civil Rights Act of 1964** and the **Voting Rights Act of 1965**.\n\n### **2. Cold War & Global Image of the U.S.**\n- The U.S. was competing with the **Soviet Union** for influence in the **decolonizing world** (Africa, Asia, Latin America).\n- The **racially discriminatory immigration system** undermined America’s claim to be a **beacon of democracy and freedom**, making it harder to win allies in the **Third World**.\n- The **Kennedy administration** (and later LBJ) pushed for reform to **counter Soviet propaganda** that portrayed the U.S. as racist.\n\n### **3. Changing Public Opinion & Labor Needs**\n- By the 1960s, **European immigration had declined**, while **Latin American, Asian, and African immigration** was increasing.\n- **Business and labor groups** (including the **AFL-CIO**) initially opposed reform but later supported it due to **labor shortages** in certain industries.\n- **Religious and ethnic groups** (e.g., Italian, Jewish, Greek, and Polish Americans) lobbied to **end discriminatory quotas** that had limited their relatives’ immigration.\n\n### **4. Political Leadership & Legislative Momentum**\n- **President John F. Kennedy** had proposed immigration reform in **1963** (A Nation of Immigrants), but his assassination delayed action.\n- **President Lyndon B. Johnson** made it a priority, framing it as part of his **\"Great Society\"** agenda.\n- **Key supporters in Congress** included:\n  - **Senator Philip Hart (D-MI)** – Co-sponsor, progressive reformer.\n  - **Representative Emanuel Celler (D-NY)** – Longtime advocate for ending national origins quotas.\n  - **Senator Ted Kennedy (D-MA)** – Played a crucial role in securing passage.\n\n### **5. End of the National Origins Quota System**\n- The **1924 Immigration Act** had established **quotas based on 1890 census data**, favoring Northern Europeans.\n- The **1965 Act abolished these quotas**, replacing them with a **hemispheric system** (later modified in 1978 to a **global cap**).\n- It prioritized **family reunification, skilled labor, and refugees** over racial or national origin preferences.\n\n### **6. Unexpected Consequences & Later Debates**\n- While the law was **not intended to increase immigration dramatically**, it led to a **surge in Asian and Latin American immigration** due to **family reunification provisions**.\n- Some critics (including **Senator Sam Ervin, D-NC**) warned that the law would **change the ethnic composition of the U.S.**, but supporters argued it was a **moral and necessary reform**.\n\n### **Conclusion**\nThe **1965 Immigration Act** was driven by **civil rights ideals, Cold War pressures, and economic needs**, marking a shift from **racially restrictive policies** to a **more inclusive, family-based system**. Its long-term effects reshaped the **demographic and cultural landscape of the United States**.\n\nWould you like more details on any specific aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 891,
+  "total_tokens": 913,
+  "cost": 0.0013475,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013475,
+   "upstream_inference_prompt_cost": 1.1e-05,
+   "upstream_inference_completions_cost": 0.0013365
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T22:08:31.394393+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

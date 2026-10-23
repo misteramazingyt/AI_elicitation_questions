@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "D",
+ "prompt": "Describe the Immigration and Nationality Act of 1965.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Immigration and Nationality Act of 1965\n\nThe Immigration and Nationality Act of 1965, also known as the **Hart-Celler Act**, was a landmark piece of U.S. legislation that fundamentally reshaped American immigration policy. Signed into law by President Lyndon B. Johnson on October 3, 1965, it took effect on June 30, 1968.\n\n## What It Replaced\n\nThe act abolished the **national origins quota system** established by the Immigration Act of 1924, which heavily favored immigrants from Northern and Western Europe and effectively barred most immigrants from Asia, Africa, and other regions.\n\n## Key Provisions\n\n- **Eliminated national origin quotas** as the basis for admitting immigrants\n- **Established a new preference system** focused on:\n  - Family reunification (the largest category)\n  - Skilled workers and professionals\n  - Refugees (added later in 1980 with the Refugee Act)\n- **Set a cap of 170,000 visas** annually from the Eastern Hemisphere, with a 20,000-person limit per country\n- **Imposed the first-ever cap** (120,000) on immigration from the Western Hemisphere (applied in 1976)\n- **Ended the exclusion of Asian immigrants**, removing barriers that had effectively banned Asian immigration since the late 1800s\n\n## Impact\n\nThe act dramatically changed the demographic makeup of the United States:\n\n- **Shifted immigration sources**: Most new immigrants came from Latin America, Asia, Africa, and the Middle East rather than Europe\n- **Increased diversity**: Cities like Los Angeles, New York, and Miami became far more multicultural\n- **Chain migration**: Family-based provisions led to sustained immigration flows as new arrivals sponsored relatives\n- **Population growth**: The foreign-born population in the U.S. grew substantially in the decades that followed\n\n## Legacy\n\nThe Hart-Celler Act is widely considered one of the most consequential immigration laws in American history. It's credited with creating the modern, diverse American population, though it has also been the subject of ongoing political debate about family-based versus skills-based immigration systems.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 605,
+  "total_tokens": 644,
+  "cost": 5.6953e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.6953e-05,
+   "upstream_inference_prompt_cost": 1.1115e-06,
+   "upstream_inference_completions_cost": 5.58415e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 164,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:42.724875+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "C",
+ "prompt": "What were the main causes of the 2011 military intervention in Libya?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 2011 military intervention in Libya was a complex event with multiple causes and motivations. The main causes can be summarized as follows:\n\n1. **Gaddafi's crackdown on protesters**: The Libyan Civil War began in February 2011, when protests against the authoritarian regime of Muammar Gaddafi were violently suppressed. Gaddafi's forces responded to the protests with brutal force, leading to widespread human rights abuses and a humanitarian crisis.\n2. **Humanitarian concerns**: The international community was alarmed by reports of Gaddafi's forces committing atrocities, including airstrikes on civilian areas, and the potential for a large-scale massacre. The international community was concerned about the protection of civilians and the prevention of a humanitarian catastrophe.\n3. **UN Security Council Resolution 1970 and 1973**: The United Nations Security Council (UNSC) responded to the crisis by passing Resolution 1970 (February 2011) and Resolution 1973 (March 2011). Resolution 1970 imposed sanctions and an arms embargo on Libya, while Resolution 1973 authorized member states to take \"all necessary measures\" to protect civilians and enforce a no-fly zone.\n4. **Regional and international pressure**: The Arab League, the African Union, and other regional organizations called for international action to protect Libyan civilians. Western countries, including the United States, France, and the United Kingdom, also pushed for military intervention to prevent a humanitarian disaster.\n5. **Gaddafi's threats and rhetoric**: Gaddafi's public statements, in which he vowed to \"cleanse Libya house by house\" and threatened to \"show no mercy\" to his opponents, were seen as a credible threat to the civilian population. This rhetoric contributed to the perception that a humanitarian catastrophe was imminent.\n6. **Fear of a Srebrenica-style massacre**: The international community drew parallels between the situation in Libya and the 1995 Srebrenica massacre in Bosnia, where thousands of civilians were killed by Bosnian Serb forces. The fear of a similar atrocity in Libya contributed to the decision to intervene militarily.\n\nThese factors combined to create a sense of urgency and a perceived need for international action to protect Libyan civilians. The subsequent military intervention, led by NATO and other coalition partners, aimed to enforce a no-fly zone, protect civilians, and ultimately contribute to the overthrow of Gaddafi's regime.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 495,
+  "total_tokens": 520,
+  "cost": 0.000327675,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000327675,
+   "upstream_inference_prompt_cost": 4.6875e-06,
+   "upstream_inference_completions_cost": 0.0003229875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:28.795140+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2020 George Floyd protests? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 2020 George Floyd protests, a global outpouring of demonstrations and riots in response to the murder of George Floyd by a Minneapolis police officer, have been the subject of much historical analysis and interpretation. While it is still relatively early to expect a comprehensive historical interpretation, scholars and historians have begun to contextualize and analyze the events. Here are some of the ways historians and scholars have interpreted the 2020 George Floyd protests:\n\n1. **Continuity with the Civil Rights Movement and Black Liberation Struggle**: Many historians have seen the 2020 George Floyd protests as part of a long tradition of Black resistance and activism in the United States, dating back to the Civil Rights Movement and beyond. For example, historian Peniel Joseph has argued that the protests represent a continuation of the Black Liberation Struggle, with roots in the activism of figures like Martin Luther King Jr. and Malcolm X (Joseph, 2020).\n2. **A turning point in the history of policing and racial justice**: Some scholars have interpreted the 2020 George Floyd protests as a watershed moment in the history of policing and racial justice in the United States. Historian Elizabeth Hinton, for example, has argued that the protests marked a significant shift in public opinion and policy debates around policing and racial justice, with many cities and states implementing reforms in response to the protests (Hinton, 2021).\n3. **A global moment of anti-racist solidarity**: The 2020 George Floyd protests were not limited to the United States, with demonstrations and solidarity actions taking place in cities around the world. Historians have noted the global nature of the protests, highlighting the ways in which they reflected a growing international awareness of and outrage against systemic racism and police brutality. For example, historian Keisha N. Blain has written about the global dimensions of the protests, highlighting the ways in which they connected to other anti-racist and social justice movements around the world (Blain, 2021).\n4. **A moment of intersectional activism**: Many historians have noted the intersectional nature of the 2020 George Floyd protests, with activists and protesters drawing attention to a range of issues, including police brutality, economic inequality, and environmental justice. Historian and activist Barbara Ransby has argued that the protests represented a moment of intersectional activism, with Black women and other marginalized groups playing a key role in shaping the movement (Ransby, 2020).\n\nSome sources that provide historical context and analysis of the 2020 George Floyd protests include:\n\n* Joseph, P. E. (2020). \"The George Floyd Uprising: A New Chapter in the Black Liberation Struggle.\" The Journal of African American History, 105(3), 431-443.\n* Hinton, E. (2021). \"America on Fire: The Fight for Racial Justice and the George Floyd Uprising.\" The Nation.\n* Blain, K. N. (2021). \"To Make the Wounded Whole: The George Floyd Uprising and the Global Struggle for Racial Justice.\" Journal of African American History, 106(2), 161-175.\n* Ransby, B. (2020). \"The Black Lives Matter Uprising: A Movement Born of History.\" Souls, 22(2), 131-144.\n\nThese sources, among others, provide a range of historical perspectives on the 2020 George Floyd protests, highlighting their significance within the broader context of American and global history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 721,
+  "total_tokens": 747,
+  "cost": 0.0004753275,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004753275,
+   "upstream_inference_prompt_cost": 4.875e-06,
+   "upstream_inference_completions_cost": 0.0004704525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:18.088504+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

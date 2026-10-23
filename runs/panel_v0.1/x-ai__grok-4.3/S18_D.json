@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "D",
+ "prompt": "Describe the 2011 military intervention in Libya.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 2011 military intervention in Libya, officially known as NATO's Operation Unified Protector (following the initial U.S.-led Operation Odyssey Dawn), was a multinational air and naval campaign authorized by United Nations Security Council Resolution 1973 on March 17, 2011. It aimed to enforce a no-fly zone, protect civilians, and halt attacks by forces loyal to Libyan leader Muammar Gaddafi during the Libyan Civil War, which erupted amid the broader Arab Spring uprisings.\n\n### Background and Authorization\n- In February 2011, protests against Gaddafi's 42-year rule in cities like Benghazi escalated into armed rebellion. Gaddafi's regime responded with military force, including airstrikes and ground assaults on rebel-held areas, raising fears of mass civilian casualties (e.g., threats against Benghazi).\n- The UN resolution, passed under Chapter VII of the UN Charter, authorized \"all necessary measures\" short of foreign occupation to protect civilians. It explicitly banned a ground invasion but permitted air and naval actions. Key supporters included France, the UK, and the US, with Arab League backing. Russia and China abstained but later criticized the operation's expansion.\n\n### Key Events and Operations\n- **Initial Phase (March 19–31, 2011)**: Coalition forces (primarily US, UK, France, with contributions from Canada, Italy, and others) launched cruise missile strikes and airstrikes on Gaddafi's air defenses, command centers, and armored units. This halted advances on Benghazi and destroyed much of Libya's air force.\n- **NATO Command (April–October 2011)**: NATO took over, enforcing the no-fly zone with over 26,000 sorties (including 9,600 strike missions). Targets expanded to include Gaddafi's military infrastructure, supply lines, and command-and-control nodes. Special forces from several nations provided limited on-ground support for intelligence and training rebels, though no large-scale troop deployment occurred.\n- The intervention shifted the balance toward anti-Gaddafi rebels (the National Transitional Council), enabling them to capture Tripoli in August and Gaddafi's hometown of Sirte in October.\n\n### Outcome\nGaddafi was captured and killed by rebels on October 20, 2011, ending his regime. The operation formally ended on October 31. Casualty estimates vary: NATO reported no civilian deaths from its strikes (disputed by some investigations), while Libyan deaths from the conflict overall reached tens of thousands, including regime forces, rebels, and civilians.\n\n### Aftermath and Controversy\nThe intervention succeeded in its narrow mandate of preventing immediate mass atrocities but contributed to Libya's prolonged instability. Post-Gaddafi Libya fractured into rival militias, leading to a second civil war (2014–2020), economic collapse, and waves of migration across the Mediterranean. Critics (including Russia and some analysts) argued NATO exceeded the UN mandate by pursuing regime change, while supporters viewed it as a necessary humanitarian action. It remains a debated case study in \"responsibility to protect\" (R2P) doctrine versus risks of unintended consequences like state failure.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 202,
+  "completion_tokens": 911,
+  "total_tokens": 1113,
+  "cost": 0.0023956,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0023956,
+   "upstream_inference_prompt_cost": 0.0001181,
+   "upstream_inference_completions_cost": 0.0022775
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 285,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:48.379258+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

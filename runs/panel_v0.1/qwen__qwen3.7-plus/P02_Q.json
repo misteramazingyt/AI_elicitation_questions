@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1883 eruption of Krakatoa?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 1883 eruption of Krakatoa (located in the Sunda Strait between the Indonesian islands of Java and Sumatra) was one of the most violent and consequential volcanic events in recorded history. Its consequences were felt locally, regionally, and globally, ranging from immediate physical destruction to long-term climatic and scientific impacts.\n\nHere is a detailed breakdown of the consequences of the 1883 Krakatoa eruption:\n\n### 1. Devastating Tsunamis (The Deadliest Impact)\nWhile the eruption itself was catastrophic, the majority of the destruction and loss of life was caused by the tsunamis generated when the volcano's caldera collapsed into the sea.\n* **Wave Height:** The tsunamis reached heights of up to 30 to 40 meters (100 to 130 feet).\n* **Destruction:** The waves swept across the Sunda Strait, completely wiping out hundreds of coastal towns and villages in Java and Sumatra. \n* **Maritime Impact:** Dozens of ships were tossed inland or smashed against the coast, and heavy pumice rafts blocked the ocean for months.\n\n### 2. Massive Human and Economic Toll\n* **Death Toll:** The official death toll recorded by the Dutch colonial authorities was **36,417**, though some modern estimates suggest it could have been as high as 120,000. Almost all of these deaths were caused by the tsunamis.\n* **Displacement:** Tens of thousands of people were left homeless. \n* **Economic Ruin:** The regional economy was crippled. Ports were destroyed, agricultural lands were buried under thick layers of ash, and the local fishing and trading industries were decimated.\n\n### 3. The Loudest Sound in Recorded History\nThe final, massive explosion on August 27, 1883, created an acoustic shockwave of unprecedented proportions.\n* **Audible Range:** The blast was heard clearly **3,000 miles (4,800 km) away** on the island of Rodrigues in the Indian Ocean (near Mauritius). \n* **Physical Impact:** People within a 10-mile radius had their eardrums ruptured. The shockwave was so powerful that it was recorded on barographs (barometers) around the world.\n* **Global Circulation:** The atmospheric shockwave rippled around the Earth, passing the antipodes (New Zealand) and returning to Krakatoa. It circled the globe at least three and a half times before dissipating.\n\n### 4. Global Climatic and Atmospheric Effects\nKrakatoa injected roughly 20 cubic kilometers of rock, ash, and pumice, along with millions of tons of sulfur dioxide, into the stratosphere.\n* **Global Cooling:** The sulfur aerosols reflected sunlight, causing the average global temperature to drop by about **1.2°C (2.2°F)**. The Earth did not return to normal temperatures until 1888.\n* **Spectacular Sunsets:** The ash and aerosols scattered light in a way that produced vivid, blood-red sunsets and twilight glows worldwide. These spectacular skies were observed as far away as New York, London, and even the polar regions. (It is widely believed that these eerie red skies inspired Edvard Munch’s famous painting, *The Scream*).\n\n### 5. Destruction and Rebirth of the Island\n* **Geological Alteration:** The eruption blew away roughly two-thirds of the original Krakatoa island, leaving a massive underwater caldera. The bathymetry (depth) of the Sunda Strait was permanently altered.\n* **Birth of Anak Krakatau:** The story did not end with the destruction. In 1927, a new volcanic cone began to emerge from the center of the underwater caldera. Named **Anak Krakatau** (Child of Krakatoa), it has been growing steadily ever now and remains highly active. (Notably, a partial collapse of Anak Krakatau in 2018 triggered another deadly tsunami).\n\n### 6. Scientific and Historical Legacy\n* **The First \"Global\" Disaster:** The 1883 eruption occurred shortly after the global undersea telegraph network was completed. For the first time in history, news of a natural disaster was transmitted around the world within hours. This allowed for a coordinated global scientific response and marked the beginning of modern, globally connected disaster reporting.\n* **Advancement of Volcanology:** The event provided scientists with a wealth of data. It helped establish the links between volcanic eruptions, atmospheric aerosols, and global climate change. It also provided crucial insights into the mechanics of caldera collapse and tsunami generation.\n\nIn summary, the 1883 eruption of Krakatoa was a watershed moment in Earth's history. It reshaped the local geography, caused unprecedented local devastation, altered the global climate for years, produced the loudest sound in human history, and forever changed how the world monitors and reports on natural disasters.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 2262,
+  "total_tokens": 2289,
+  "cost": 0.002904,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002904,
+   "upstream_inference_prompt_cost": 8.64e-06,
+   "upstream_inference_completions_cost": 0.00289536
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1203,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:28:37.716558+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1996 U.S. welfare reform law?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Relace",
+ "response": "The 1996 law—the **Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA)**—replaced the federal cash-aid entitlement **AFDC** with the block-granted, time-limited **TANF** program. Its consequences were mixed, uneven by state and group, and are still debated.\n\n**1. Cash welfare caseloads fell sharply.**  \nAFDC/TANF families dropped from about **4.4 million in 1996** to roughly **2.2 million by 2000**, and to around **1.1–1.2 million** in recent years. This was driven by work requirements, time limits, sanctions, state discretion, a strong 1990s economy, and expanded EITC. TANF now reaches only a small share of poor families: in 1996 cash aid reached about **68 of every 100 families with children in poverty**; by 2019 it reached about **21–23**.\n\n**2. Employment among single mothers rose.**  \nLabor-force participation and employment among less-educated single mothers increased substantially in the late 1990s. Many former recipients moved into jobs. But those jobs were often **low-wage, unstable, part-time, and without benefits**, so leaving welfare did not always mean leaving poverty.\n\n**3. Poverty fell in the short run, but deep poverty and hardship persisted.**  \nChild poverty and single-mother poverty fell in the late 1990s, though the EITC, minimum-wage increases, and tight labor markets also contributed. At the same time, many of the most disadvantaged families—those with disabilities, caregiving responsibilities, limited English, or barriers to work—were sanctioned or timed off aid. Research has found increased **deep poverty, food insecurity, housing instability, and material hardship** among some groups, especially those not working or not receiving TANF.\n\n**4. States gained huge discretion, creating wide variation.**  \nTANF’s fixed block grant gave states broad power over benefit levels, time limits, sanctions, and eligibility. Some states kept relatively generous benefits or used state funds to help families; others imposed very low benefits and strict rules. The federal block grant has remained about **$16.5 billion since 1996**, losing roughly **40% of its value to inflation**. In most states, TANF cash benefits are far below the poverty line.\n\n**5. The safety net shifted away from cash aid.**  \nTANF funds were often diverted to child care, work supports, and other services rather than direct cash assistance. Other programs—**EITC, SNAP, Medicaid/CHIP, and SSI**—became more central to low-income families. TANF also proved less responsive to recessions: during 2007–09, TANF caseloads rose only modestly while SNAP caseloads surged.\n\n**6. Immigrant restrictions had lasting effects.**  \nPRWORA restricted legal immigrants’ access to many federal means-tested benefits, causing sharp declines in Medicaid, SNAP, and TANF use among immigrants and even citizen children due to “chilling effects.” Some restrictions were later relaxed, but the effects persisted.\n\n**7. Health coverage and child outcomes were mixed.**  \nAlthough Medicaid eligibility was not eliminated, many people leaving welfare lost coverage because of administrative barriers, increasing uninsurance among low-income mothers. Evidence on children is mixed: some studies find small positive effects when mothers entered work; others find negative effects for adolescents or no clear causal link. Teen birth rates continued to fall, but not clearly because of welfare reform.\n\n**Overall:** The law succeeded in reducing cash welfare rolls and increasing work among single mothers, but it did not end poverty. It replaced a federal entitlement with a time-limited, work-conditioned, state-run program, making cash aid much less available and leaving many very poor families without direct cash assistance. The broader U.S. safety net became more work-based, fragmented, and reliant on programs like SNAP, Medicaid, and the EITC.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 4646,
+  "total_tokens": 4692,
+  "cost": 0.00232622,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00232622,
+   "upstream_inference_prompt_cost": 3.22e-06,
+   "upstream_inference_completions_cost": 0.002323
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3811,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:53:43.502347+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

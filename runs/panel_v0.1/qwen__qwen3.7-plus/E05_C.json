@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "C",
+ "prompt": "What were the main causes of the famine during China's Great Leap Forward (1959-1961)?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Great Chinese Famine (1959–1961), occurring during the Great Leap Forward, is widely considered by historians and economists to be one of the deadliest famines in human history. While the Chinese government initially referred to this period as the \"Three Years of Natural Disasters,\" modern historical consensus and academic research attribute the famine primarily to a combination of radical policy errors, systemic institutional failures, and political dynamics, compounded by natural disasters.\n\nThe main causes can be categorized as follows:\n\n### 1. Radical Agricultural Policies and Labor Diversion\nThe Great Leap Forward aimed to rapidly transform China from an agrarian economy to a communist society through rapid industrialization and collectivization.\n*   **Backyard Furnaces:** In an effort to boost steel production, millions of peasants were diverted from farming to operate makeshift \"backyard furnaces.\" This massive shift of labor away from the fields occurred during critical planting and harvesting seasons, leading to crops rotting in the fields due to a lack of manpower.\n*   **Pseudoscientific Farming:** The government mandated the implementation of Soviet-inspired agricultural techniques, often associated with Trofim Lysenko. These included \"deep plowing\" (which disrupted soil structure) and \"close planting\" (planting seeds too densely, causing them to compete for nutrients and wither). These methods significantly reduced crop yields.\n\n### 2. Institutional Changes: The People's Communes\nThe rapid establishment of People's Communes fundamentally altered rural life and economic incentives.\n*   **Loss of Incentives:** Private farming was abolished, and land was pooled into large communes. The removal of private plots and the guarantee of rations regardless of work effort (the \"iron rice bowl\") reduced the incentive for peasants to work hard or manage resources efficiently.\n*   **Communal Dining Halls:** Initially, communal dining halls were established where food was provided freely. This led to the rapid overconsumption of grain reserves in late 1958, depleting the food supply before the shortages set in.\n\n### 3. Political Climate and Information Distortion\nA critical factor in the severity of the famine was the breakdown of information flow between local governments and the central leadership.\n*   **Exaggerated Reports:** During the \"Anti-Rightist Campaign,\" local officials faced immense pressure to meet unrealistic production targets set by the central government. To avoid political persecution or to demonstrate loyalty, officials systematically exaggerated grain output figures.\n*   **Excessive State Procurement:** Based on these inflated reports, the central government believed there was a massive surplus of grain. Consequently, the state increased its procurement quotas, taking a much larger percentage of the harvest than was actually available. This left the rural population with insufficient food to survive.\n\n### 4. Natural Disasters\nWhile policy failures were the primary driver, natural disasters did occur during this period and exacerbated the situation.\n*   **Weather Events:** The Yellow River flooded in 1958, and severe droughts affected other parts of China in 1959 and 1960. Pests and epidemics also affected crops and livestock.\n*   **Compounding Effect:** Historians generally agree that while these natural events were serious, the famine's scale and lethality were caused by the government's inability or unwillingness to respond effectively due to the rigid political system and the continued export of grain to repay debts (particularly to the Soviet Union) even as people starved.\n\n### 5. Infrastructure and Resource Mismanagement\n*   **Focus on Heavy Industry:** Resources were disproportionately funneled into heavy industry at the expense of light industry and agriculture.\n*   **Transport Issues:** The chaotic management of the economy and the focus on steel production disrupted the transportation network, making it difficult to move food from areas that had some surplus to areas facing starvation.\n\nIn summary, the famine was the result of a \"perfect storm\" where radical social engineering and the pursuit of rapid industrialization disrupted agricultural production, while a political climate of fear prevented accurate reporting and timely corrective action, all occurring against a backdrop of adverse weather conditions.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 35,
+  "completion_tokens": 1945,
+  "total_tokens": 1980,
+  "cost": 0.0025008,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0025008,
+   "upstream_inference_prompt_cost": 1.12e-05,
+   "upstream_inference_completions_cost": 0.0024896
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1094,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:21:22.211075+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

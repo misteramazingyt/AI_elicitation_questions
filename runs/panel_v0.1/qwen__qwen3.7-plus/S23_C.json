@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "C",
+ "prompt": "What were the main causes of the 2020 George Floyd protests?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 2020 George Floyd protests, which sparked a massive global movement for racial justice, were driven by a combination of an immediate catalyst and long-standing underlying grievances. The main causes can be broken down into the following categories:\n\n**1. The Immediate Catalyst: The Death of George Floyd**\nThe direct trigger for the protests was the death of George Floyd, a 46-year-old Black man, on May 25, 2020, in Minneapolis, Minnesota. A bystander’s video, which quickly went viral on social media, showed Derek Chauvin, a white police officer, kneeling on Floyd’s neck for over nine minutes while Floyd was handcuffed and pleading that he could not breathe. The graphic nature of the video and the circumstances of his death sparked immediate local outrage that rapidly escalated into national and international demonstrations.\n\n**2. Police Brutality and Lack of Accountability**\nA central cause of the protests was widespread concern over police brutality, specifically the disproportionate use of lethal force against Black Americans. Protesters and civil rights advocates pointed to a historical pattern of similar incidents and expressed frustration over the legal and institutional frameworks—such as qualified immunity and the influence of police unions—that they argued often protected officers from criminal and civil accountability. \n\n**3. Systemic Racism and Racial Inequality**\nThe protests were also a response to broader grievances regarding systemic racism in the United States. Demonstrators highlighted racial disparities across various sectors of society, including the criminal justice system, healthcare, education, housing, and economic opportunity. The movement sought to address what many viewed as deeply entrenched institutional biases that disadvantaged minority communities.\n\n**4. Other Recent High-Profile Deaths**\nThe protests were fueled by the accumulation of other high-profile deaths of Black individuals that occurred shortly before Floyd’s death, which heightened national tensions. These included the shooting of Breonna Taylor by police in her Louisville, Kentucky, apartment in March 2020, and the killing of Ahmaud Arbery, a Black man who was chased and shot by three white men in Georgia in February 2020. The delayed arrests in the Arbery case and the circumstances surrounding Taylor's death added to the public's sense of injustice.\n\n**5. The Impact of the COVID-19 Pandemic**\nThe protests occurred during the height of the COVID-19 pandemic, which disproportionately affected communities of color in terms of both health outcomes and economic stability. The pandemic exacerbated existing socioeconomic inequalities, leading to higher rates of job loss, housing insecurity, and health crises in minority communities. This compounding stress contributed to the underlying frustration that helped fuel the scale and intensity of the protests.\n\n**6. The Role of Social Media and Smartphone Technology**\nWhile not a root cause of the grievances, the ubiquity of smartphone cameras and social media platforms was a major facilitating cause of the protests' rapid spread. The ability to instantly record and share footage of police interactions allowed the public to witness events that might otherwise have gone unreported, bypassing traditional media gatekeepers and mobilizing millions of people globally in a matter of days. \n\nIn summary, while the death of George Floyd was the specific spark that ignited the 2020 protests, the movement was fundamentally a culmination of long-standing public frustration over policing practices, racial inequality, and the broader treatment of Black Americans in the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 1979,
+  "total_tokens": 2005,
+  "cost": 0.00254144,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00254144,
+   "upstream_inference_prompt_cost": 8.32e-06,
+   "upstream_inference_completions_cost": 0.00253312
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1289,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:55.439794+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Immigration Act of 1924, also known as the Johnson-Reed Act, was a landmark piece of U.S. legislation that severely restricted immigration by establishing a \"national origins\" quota system and completely banning immigration from Asia. \n\nThe passage of the act was driven by a complex intersection of social, economic, political, and pseudo-scientific factors prevalent in the United States during the early 20th century. The main causes include:\n\n**1. Nativism and Cultural Anxiety**\nDuring the late 19th and early 20th centuries, the demographic makeup of immigrants to the U.S. shifted dramatically. While earlier immigrants had largely come from Northern and Western Europe, the \"new\" immigrants increasingly came from Southern and Eastern Europe (such as Italy, Greece, Poland, and Russia). Many native-born Americans, particularly those of White Anglo-Saxon Protestant (WASP) descent, viewed these new arrivals as culturally incompatible, difficult to assimilate, and a threat to traditional American values. This nativist sentiment fueled a desire to preserve the existing cultural and demographic makeup of the country.\n\n**2. Eugenics and \"Scientific Racism\"**\nThe early 20th century saw the rise of the eugenics movement, which promoted the idea that human populations could be \"improved\" through selective breeding. Pseudo-scientific theories of racial hierarchy gained significant traction among intellectuals, politicians, and the public. Books like Madison Grant’s *The Passing of the Great Race* (1916) argued that Northern Europeans were biologically superior and that immigration from Southern and Eastern Europe would lead to \"race suicide\" and the degradation of the American gene pool. These ideas provided an intellectual veneer for nativist prejudices and heavily influenced the lawmakers who drafted the 1924 Act.\n\n**3. Political Fears and the \"Red Scare\"**\nFollowing the Russian Revolution of 1917 and the end of World War I, the U.S. experienced the \"First Red Scare.\" There was widespread fear of communism, anarchism, and radical labor movements. Because many recent immigrants from Southern and Eastern Europe were associated with radical political ideologies or were involved in labor strikes and anarchist violence (such as the 1919 bombings and the subsequent Palmer Raids), nativists argued that restricting immigration was necessary for national security.\n\n**4. Economic Concerns**\nEconomic anxiety also played a significant role. Following the post-WWI economic adjustment and the recession of 1920–1921, many American workers feared that an influx of immigrants would depress wages and take jobs. Labor unions, which had previously been divided on immigration, largely supported restrictionist policies in the 1920s, arguing that limiting the supply of foreign labor would protect the bargaining power and wages of native-born workers.\n\n**5. Anti-Asian Sentiment**\nAnti-Asian prejudice had been building on the West Coast for decades, resulting in earlier restrictive laws like the Chinese Exclusion Act of 1882 and the Gentlemen’s Agreement of 1907 (which limited Japanese immigration). The Immigration Act of 1924 went much further by invoking the \"Asiatic Barred Zone\" established in 1917 and extending it to completely ban immigration from all Asian countries, including Japan. This was largely a concession to powerful political and agricultural interests on the West Coast who demanded total exclusion.\n\n**6. The Precedent of the 1921 Emergency Quota Act**\nThe 1924 Act was a direct tightening of the Emergency Quota Act of 1921. The 1921 Act had established the first numerical limits on European immigration, capping it at 3% of the number of foreign-born individuals from that specific nationality living in the U.S. as of the 1910 census. However, restrictionists felt the 1910 baseline was still too recent and allowed too many Southern and Eastern Europeans. The 1924 Act changed the baseline year to 1890 (before the massive wave of \"new\" immigration had begun) and lowered the quota to 2%, drastically reducing the number of allowed immigrants from non-Northern/Western European countries.\n\n**Summary**\nUltimately, the Immigration Act of 1924 was the culmination of decades of restrictionist sentiment. It was designed by its architects to engineer the demographic future of the United States by favoring Northern and Western Europeans while systematically excluding those deemed racially, culturally, or politically \"undesirable.\" The national origins quota system established by the act remained the foundation of U.S. immigration policy until it was finally abolished by the Immigration and Nationality Act of 1965.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 2192,
+  "total_tokens": 2218,
+  "cost": 0.00281408,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00281408,
+   "upstream_inference_prompt_cost": 8.32e-06,
+   "upstream_inference_completions_cost": 0.00280576
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1200,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:34.051326+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

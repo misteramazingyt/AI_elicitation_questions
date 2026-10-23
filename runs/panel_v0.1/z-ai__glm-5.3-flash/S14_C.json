@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Abolition of the Slave Trade (1807) and Slavery (1833/1838)\n\n## Abolition of the Slave Trade (1807)\n\n**Humanitarian and religious pressure**\n- The Quakers petitioned Parliament from 1783, and the Society for Effecting the Abolition of the Slave Trade (founded 1787) mobilized unprecedented public campaigns—petitions, pamphlets, boycotts of sugar, and the famous Wedgwood \"Am I Not a Man and a Brother?\" medallion\n- Evangelical revivalism, especially William Wilberforce and the \"Clapham Sect,\" made abolition a moral crusade\n- The Zong massacre (1781), in which 132 enslaved people were thrown overboard for insurance money, horrified public opinion\n\n**Economic arguments**\n- Adam Smith's argument that slave labor was inefficient gained traction\n- The trade had become less profitable, especially after disruptions from the French Revolutionary and Napoleonic Wars\n- Planters in older colonies faced competition from newer territories\n\n**Political factors**\n- The French Revolution and especially the Haitian Revolution (1791–1804) made slave societies seem dangerous and unstable\n- Abolishing the trade during the Napoleonic Wars allowed Britain to claim moral leadership and harm rival colonial economies\n- Parliament's 1788–1791 inquiries (Society of Friends' evidence, slave ship diagrams like the *Brookes*) built a factual case\n\n## Abolition of Slavery (1833, effective 1834; full emancipation 1838)\n\n**Continuing activism**\n- The Anti-Slavery Society (1823) and mass female abolitionist movements sustained pressure\n- The 1831–32 slave rebellion in Jamaica (the \"Baptist War\") convinced many that slavery was untenable and violent\n\n**Political change**\n- The Great Reform Act of 1832 created a Parliament more responsive to public opinion, with many MPs pledged to abolition\n- The 1833 Act compensated slave owners (£20 million) rather than the enslaved, making it politically acceptable\n\n**Economic shifts**\n- Sugar from the British West Indies was increasingly uncompetitive against cheaper slave-grown sugar from Cuba and Brazil, and free-trade sentiment (later crystallized by the Anti-Corn Law League) undermined protectionist arguments for the plantation system\n- India's sugar production offered an alternative\n\n**Ideological currents**\n- Evangelicalism remained powerful, but also Enlightenment ideas of rights, and growing working-class radicalism that linked slavery to their own oppression\n\n## Historiographical debates\n\n- **Humanitarian view** (older, e.g., Coupland): abolition as a triumph of moral conscience\n- **Economic interpretation** (Eric Williams, *Capitalism and Slavery*, 1944): slavery was abolished because it had become unprofitable—controversial and largely rejected in its strong form, but influential\n- **Seymour Drescher**: argued slavery was still profitable, so abolition was an \"econocide\"—moral factors were decisive\n- **Recent scholarship** (e.g., Catherine Hall): emphasizes compensation, the entanglement of abolition with imperial control, and the persistence of racial hierarchy through \"apprenticeship\" (ended 1838)\n\nIn short: a combination of sustained moral campaigning, political opportunity, fear of slave revolt, and shifting economic interests—weighted differently by historians—produced abolition.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 795,
+  "total_tokens": 845,
+  "cost": 7.48035e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.48035e-05,
+   "upstream_inference_prompt_cost": 1.425e-06,
+   "upstream_inference_completions_cost": 7.33785e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 86,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:21.248420+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

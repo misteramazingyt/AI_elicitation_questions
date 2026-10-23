@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2011 military intervention in Libya?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 2011 NATO-led military intervention in Libya, authorized under UN Resolution 1973 to protect civilians, quickly shifted to regime change and produced a cascade of destabilizing effects that persist today.\n\n## Immediate Military and Political Results\n- Coalition airstrikes and support for rebels enabled the capture and killing of Muammar Gaddafi in October 2011, ending his 42-year rule.\n- Estimates from human rights groups and UN data placed total deaths during the uprising and intervention between 20,000 and 30,000, with significant civilian casualties from both sides and NATO operations.\n- Gaddafi's forces were defeated, but the transitional National Transitional Council failed to consolidate power amid competing militias.\n\n## State Collapse and Internal Conflict\n- Libya fragmented into rival governments, with the UN-backed Government of National Accord in Tripoli facing off against the Libyan National Army in the east, leading to renewed civil war by 2014.\n- Militias and armed groups proliferated, controlling territory and resources; this vacuum allowed ISIS to establish a foothold in Sirte until 2016, with ongoing jihadist activity.\n- Human development metrics deteriorated sharply: pre-war Libya ranked highest in Africa on the Human Development Index due to oil revenues and subsidies, but post-intervention GDP per capita fell, infrastructure crumbled, and basic services like electricity and healthcare became unreliable.\n\n## Regional and Global Spillovers\n- Weapons stockpiles from Gaddafi's arsenals spread across the Sahel, fueling insurgencies in Mali, Niger, and beyond, including Tuareg rebellions and increased terrorism.\n- Migration routes through Libya intensified, contributing to the European migrant crisis with hundreds of thousands crossing the Mediterranean, many under exploitative smuggling networks.\n- Foreign powers including Turkey, Russia, Egypt, and the UAE inserted themselves via proxies, turning Libya into a proxy battleground rather than a stable democracy.\n\n## Economic and Humanitarian Legacy\n- Oil production, which accounted for over 90 percent of exports, became erratic due to blockades and fighting, causing revenue losses and inflation.\n- Reports from organizations tracking displacement documented hundreds of thousands internally displaced, with persistent risks of arbitrary detention, torture, and slavery-like conditions in some militia-controlled areas.\n\nCritics of the intervention, including analysts from realist foreign policy circles, argue it exemplified overreach under the Responsibility to Protect doctrine, replacing an authoritarian but functional state with anarchy. Supporters maintain the action averted a larger Benghazi massacre, though subsequent violence exceeded initial projections. Data from conflict databases shows Libya's post-2011 trajectory diverged sharply from pre-intervention stability metrics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 1199,
+  "total_tokens": 1405,
+  "cost": 0.0031206,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0031206,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.0029975
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 687,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:52.472076+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

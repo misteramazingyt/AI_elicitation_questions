@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "C",
+ "prompt": "What were the main causes of the 1993 Waco siege?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 1993 Waco siege, a 51-day standoff between the Branch Davidians and United States federal law enforcement, was the result of a complex convergence of legal investigations, religious dynamics, and escalating tactical decisions. \n\nThe main causes of the siege can be broken down into underlying factors and the immediate catalyst.\n\n### 1. The ATF Weapons Investigation (The Legal Trigger)\nThe primary legal cause for the federal government's initial intervention was an investigation by the Bureau of Alcohol, Tobacco, and Firearms (ATF). In late 1992, the ATF received tips that the Branch Davidians, who lived in a compound called Mount Carmel Center outside Waco, Texas, were illegally manufacturing and modifying firearms. \n*   **Specific Suspicions:** The ATF suspected the group was using mail-order parts to convert semi-automatic rifles into fully automatic machine guns, which is heavily regulated under the National Firearms Act. They also suspected the group possessed illegal destructive devices, such as grenade launchers.\n*   **The Warrants:** Based on this evidence, a federal magistrate issued search and arrest warrants for the compound and its leader, David Koresh, in February 1993.\n\n### 2. Religious and Leadership Dynamics\nThe internal culture of the Branch Davidians played a significant role in how the group interacted with the outside world. \n*   **David Koresh’s Leadership:** Vernon Howell, who renamed himself David Koresh, took control of the Branch Davidians (a splinter group of the Seventh-day Adventist Church) in the late 1980s. He claimed to be a prophet and the final messiah.\n*   **Apocalyptic Theology:** Koresh preached an apocalyptic theology based heavily on the Book of Revelation. He believed that an apocalyptic war between his followers and the forces of \"Babylon\" (which he defined as the secular government and law enforcement) was imminent. This theology justified the stockpiling of weapons for self-defense.\n*   **Isolation and Paranoia:** Under Koresh, the group became increasingly isolated. Koresh fostered a deep paranoia regarding government intrusion, convincing his followers that federal agents were coming to destroy them and take their children.\n\n### 3. Prior Internal and External Conflicts\nThe Mount Carmel compound had a history of violence and tension prior to 1993, which set a precedent for armed confrontation.\n*   **Leadership Schism:** Before Koresh took full control, there was a bitter power struggle between him and the previous leader, George Roden. \n*   **The 1989 Shootout:** In 198",
+ "finish_reason": "error",
+ "usage": {
+  "prompt_tokens": 13,
+  "completion_tokens": 2256,
+  "total_tokens": 2269,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00289184,
+   "upstream_inference_prompt_cost": 4.16e-06,
+   "upstream_inference_completions_cost": 0.00288768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1611,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:24:39.456837+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

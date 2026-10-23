@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "D",
+ "prompt": "Describe the 2003 U.S.-led invasion of Iraq.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Cohere",
+ "response": "The 2003 U.S.-led invasion of Iraq—called **Operation Iraqi Freedom** by the United States—began on **March 20, 2003** (March 19 U.S. time). It was launched by a coalition led by the **United States and United Kingdom**, with smaller contributions from Australia, Poland, and other countries. The stated goals were to disarm Iraq of alleged **weapons of mass destruction**, end Saddam Hussein’s alleged support for terrorism, and liberate the Iraqi people.\n\nThe Bush administration argued that Iraq posed a grave threat, especially after the September 11 attacks, and claimed links between Saddam’s regime and al-Qaeda. The UN Security Council had passed **Resolution 1441** in November 2002 demanding that Iraq disarm and cooperate with inspectors, but it did not explicitly authorize military force. France, Germany, Russia, and others opposed the invasion, and the war was launched without a clear new UN mandate.\n\nThe invasion opened with airstrikes and “shock and awe” bombing of Baghdad and government targets. Ground forces attacked from Kuwait, with British forces operating in the south, U.S. forces driving toward Baghdad, and Kurdish Peshmerga and U.S. special forces active in the north. Iraqi resistance was uneven; many regular units collapsed, though some Fedayeen and Republican Guard units fought. **Baghdad fell on April 9, 2003**, symbolized by the toppling of a large statue of Saddam Hussein. Major combat operations were declared over on **May 1, 2003**. Saddam was captured in December 2003 and executed in 2006.\n\nNo stockpiles of weapons of mass destruction were found. Post-invasion investigations, including the Iraq Survey Group’s Duelfer Report, concluded that Iraq had not had active WMD programs since the 1990s, though it retained some intent. The occupation that followed—marked by policies such as de-Ba’athification and the disbanding of the Iraqi army—helped fuel an insurgency, sectarian violence, and long-term instability. The war killed hundreds of thousands of Iraqis by many estimates, displaced millions, cost trillions of dollars, and led to nearly 4,500 U.S. military deaths. It remains one of the most controversial military interventions of the modern era, widely criticized for its flawed rationale and its destabilizing aftermath, including contributing to the rise of ISIS.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 1899,
+  "total_tokens": 1942,
+  "cost": 0.0022917,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0022917,
+   "upstream_inference_prompt_cost": 1.29e-05,
+   "upstream_inference_completions_cost": 0.0022788
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1397,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:16:28.548652+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

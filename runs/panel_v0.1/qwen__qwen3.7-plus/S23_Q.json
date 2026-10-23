@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2020 George Floyd protests?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 2020 protests sparked by the murder of George Floyd grew into one of the largest social movements in U.S. history, drawing millions of participants domestically and internationally. The movement, which focused on police brutality, systemic racism, and criminal justice reform, resulted in a wide array of legal, political, cultural, and economic consequences. \n\nHere is an overview of the primary consequences of the 2020 George Floyd protests:\n\n**1. Legislative and Policy Reforms**\n*   **Police Policy Changes:** In the immediate aftermath of the protests, numerous local, state, and federal law enforcement agencies revised their use-of-force policies. Many states and cities passed legislation banning or restricting the use of chokeholds and neck restraints, limiting the use of no-knock warrants, and mandating the use of body cameras.\n*   **Duty to Intervene:** Several jurisdictions implemented or strengthened \"duty to intervene\" policies, requiring officers to step in if they witness a colleague using excessive force.\n*   **Federal and State Investigations:** The U.S. Department of Justice launched a \"pattern or practice\" investigation into the Minneapolis Police Department, which eventually led to a consent decree mandating sweeping reforms. Similar investigations were initiated or accelerated in other cities.\n\n**2. Legal and Judicial Outcomes**\n*   **Officer Convictions:** The protests brought intense scrutiny to the legal proceedings surrounding George Floyd’s death. In 2021, former Minneapolis police officer Derek Chauvin was convicted of murder and manslaughter. Three other officers involved were also convicted of federal civil rights violations and state charges. \n*   **Civil Settlements:** The city of Minneapolis agreed to a $27 million wrongful death settlement with George Floyd’s family, and other cities faced increased pressure to settle civil rights lawsuits regarding police misconduct.\n\n**3. Cultural and Institutional Shifts**\n*   **Removal of Monuments:** The protests triggered a global reevaluation of historical monuments. Across the U.S. and Europe, statues of Confederate leaders, colonial figures, and others associated with slavery or imperialism were removed by local governments, toppled by protesters, or taken down by institutions.\n*   **Sports Team Names and Mascots:** The movement accelerated changes in professional sports. The Washington Redskins changed their name to the Washington Football Team (later the Washington Commanders), and the Cleveland Indians became the Cleveland Guardians. Various other teams at the collegiate and professional levels also retired Native American mascots.\n*   **DEI Initiatives:** Many corporations, universities, and cultural institutions expanded their Diversity, Equity, and Inclusion (DEI) programs, hired chief diversity officers, and implemented mandatory anti-bias training.\n\n**4. Political and Electoral Impacts**\n*   **Debates on Policing and Funding:** The protests brought the \"Defund the Police\" movement into the mainstream political discourse. While some city councils (such as in Los Angeles, New York, and Austin) voted to reallocate portions of their police budgets to social services, the slogan also sparked intense political debate. \n*   **Electoral Shifts:** The movement influenced the 2020 election, with racial justice being a central issue. However, it also prompted a political backlash. In the 2021 and 2022 election cycles, several jurisdictions saw voters elect \"law and order\" candidates or reject ballot measures that would have significantly restructured or reduced police funding, reflecting a deeply divided public consensus on how to handle crime and policing.\n*   **Qualified Immunity Debates:** The protests led to renewed legislative efforts at both the state and federal levels to limit or eliminate \"qualified immunity,\" a legal doctrine that shields government officials from being sued for discretionary actions performed in their official capacity. While some states passed laws restricting it, comprehensive federal legislation (such as the George Floyd Justice in Policing Act) passed the House but stalled in the Senate.\n\n**5. Corporate and Economic Responses**\n*   **Financial Pledges:** In the wake of the protests, major corporations, banks, and foundations pledged tens of billions of dollars toward racial equity initiatives, Black-owned businesses, and civil rights organizations. \n*   **Corporate Accountability:** Consumers and employees increasingly pressured companies to take public stances on racial justice. This led to subsequent scrutiny and reporting in the following years regarding whether corporations actually fulfilled their initial financial and structural pledges.\n\n**6. Global Impact**\n*   The protests resonated internationally, sparking demonstrations in countries such as the UK, France, Brazil, and New Zealand. This global response led to localized conversations about indigenous rights, colonial histories, and domestic policing practices in those respective nations.\n\n**Summary**\nThe consequences of the 2020 George Floyd protests were vast and complex. They resulted in tangible changes to policing policies, the legal accountability of specific officers, and a permanent shift in how institutions address diversity and historical symbols. Simultaneously, the movement sparked intense political polarization, leading to ongoing national debates regarding the balance between police reform, public safety, and the allocation of municipal resources.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 2450,
+  "total_tokens": 2475,
+  "cost": 0.003144,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003144,
+   "upstream_inference_prompt_cost": 8e-06,
+   "upstream_inference_completions_cost": 0.003136
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1407,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:28:03.469371+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

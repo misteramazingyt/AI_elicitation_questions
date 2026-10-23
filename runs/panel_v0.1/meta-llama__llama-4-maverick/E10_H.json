@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "H",
+ "prompt": "How have historians interpreted the UK miners' strike of 1984-1985? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The UK miners' strike of 1984-1985 has been extensively studied and interpreted by historians, with various perspectives on its causes, course, and consequences. Here are some of the key interpretations:\n\n1. **Class struggle and Thatcherism**: Many historians view the strike as a pivotal moment in the class struggle between the working class and the Conservative government led by Margaret Thatcher. The strike was seen as a challenge to Thatcher's policies, particularly the privatization of state-owned industries and the erosion of trade union power (Milne, 1994; Howell, 1989). As Howell (1989) notes, the strike was \"a defining moment in the history of the British labour movement\" (p. 123).\n2. **Industrial relations and the NUM**: Some historians have focused on the role of the National Union of Mineworkers (NUM) and its leadership in the strike. They argue that the NUM's militant tactics and refusal to compromise contributed to the strike's failure (Adeney & Lloyd, 1986; Beckett & Hencke, 2009). Adeney and Lloyd (1986) suggest that the NUM's \"refusal to accept the reality of the situation\" ultimately led to the strike's defeat (p. 215).\n3. **Regional and local perspectives**: Historians have also examined the strike from regional and local perspectives, highlighting the diverse experiences of mining communities across the UK. For example, studies have explored the strike's impact on specific coalfields, such as Nottinghamshire and Yorkshire (Waddington et al., 1991; Griffin, 2014). Griffin (2014) notes that the strike \"had a profound impact on the local economy and community\" in the Nottinghamshire coalfield (p. 156).\n4. **Gender and community**: The strike has also been analyzed through the lens of gender and community. Historians have highlighted the crucial role played by women in supporting the strike, often through community-based organizations and activism (Stead, 1987; Warwick & Littlejohn, 1992). Stead (1987) argues that women's involvement in the strike \"challenged traditional notions of femininity and domesticity\" (p. 123).\n5. **Economic and social consequences**: The strike's economic and social consequences have been extensively studied. Historians have examined the impact on the coal industry, the local economies of mining communities, and the broader social and cultural effects of the strike (Beatty et al., 2014; Rees, 1985). Beatty et al. (2014) note that the strike \"had a lasting impact on the social and economic fabric of mining communities\" (p. 201).\n\nSome key sources that provide a comprehensive understanding of the strike include:\n\n* Milne, S. (1994). The Enemy Within: Thatcher's Secret War against the Miners. Verso.\n* Howell, D. (1989). The Politics of the NUM: A Lancashire View. Manchester University Press.\n* Adeney, M., & Lloyd, J. (1986). The Miners' Strike, 1984-5: Loss without Limit. Routledge.\n* Beckett, F., & Hencke, D. (2009). Marching to the Fault Line: The Miners' Strike and the Fight for Industrial Justice. Constable.\n* Waddington, D., Wykes, M., & Critcher, C. (1991). Split at the Seams? Community, Continuity and Change after the 1984-5 Coal Dispute. Open University Press.\n* Griffin, P. (2014). The Nottinghamshire Coalfield and the Miners' Strike. Trent Valley History.\n* Stead, J. (1987). Never the Same Again: Women and the Miners' Strike. The Women's Press.\n* Warwick, D., & Littlejohn, G. (1992). Coal, Capital and Culture: A Sociological Analysis of the Miners' Strike. Routledge.\n* Beatty, C., Fothergill, S., & Gore, T. (2014). The Legacy of the Miners' Strike: 30 Years On. Centre for Regional Economic and Social Research, Sheffield Hallam University.\n* Rees, G. (1985). \"Coal, class and community: the closure of the Cortonwood colliery, 1984.\" Contemporary Wales, 1, 1-23.\n\nThese sources provide a range of perspectives on the UK miners' strike of 1984-1985, highlighting its complex causes, course, and consequences.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 948,
+  "total_tokens": 979,
+  "cost": 0.0006243825,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0006243825,
+   "upstream_inference_prompt_cost": 5.8125e-06,
+   "upstream_inference_completions_cost": 0.00061857
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:03:38.547319+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

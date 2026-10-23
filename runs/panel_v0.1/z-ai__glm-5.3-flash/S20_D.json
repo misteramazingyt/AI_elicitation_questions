@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "D",
+ "prompt": "Describe the U.S. War on Drugs from 1971 to the 1990s.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The U.S. War on Drugs (1971–1990s)\n\n## Origins Under Nixon (1971–1974)\n\nPresident Richard Nixon declared drug abuse \"public enemy number one\" in 1971, coining the term \"War on Drugs.\" Key developments included:\n\n- **1970**: The Controlled Substances Act had already established drug scheduling categories\n- **1971**: Nixon formally declared the war, framing it as a response to rising heroin use among Vietnam veterans and counterculture drug use\n- **1972**: Creation of the Office of Drug Abuse Law Enforcement; Operation Intercept attempted to close the Mexican border to marijuana traffic\n- **1973**: The Drug Enforcement Administration (DEA) was created, consolidating federal drug enforcement agencies\n- **1974**: Nixon resigned amid Watergate, but the framework he built persisted\n\nNotably, Nixon's domestic policy emphasized treatment and prevention alongside enforcement, and spending tilted toward rehabilitation in his early years.\n\n## The Ford and Carter Years (1974–1980)\n\n- Enforcement efforts continued but with less rhetorical intensity\n- President Carter campaigned on decriminalizing marijuana, and several states decriminalized small amounts in the 1970s\n- The late 1970s saw rising concern over cocaine use, especially as it became associated with affluent, urban professionals\n- The 1979–80 Iran-Contra precursor era and rising crime rates shifted politics toward \"law and order\"\n\n## Reagan Era Escalation (1981–1989)\n\nThe war intensified dramatically under Ronald Reagan and First Lady Nancy Reagan's \"Just Say No\" campaign:\n\n- **1981–1986**: Federal drug enforcement budgets grew substantially, shifting the balance from treatment toward interdiction and punishment\n- **1984**: The Comprehensive Crime Control Act expanded federal drug penalties\n- **1986**: The Anti-Drug Abuse Act established **mandatory minimum sentences** and the infamous **100-to-1 crack/powder cocaine disparity**, which fell disproportionately on Black Americans\n- **1988**: A second Anti-Drug Abuse Act created the Office of National Drug Control Policy (\"drug czar\") and expanded penalties further\n- The media narrative of \"crack babies\" and crack-related violence fueled public fear, particularly in urban communities\n\n## Bush Administration (1989–1993)\n\n- Drug czar William Bennett pursued aggressive enforcement\n- **1989**: The invasion of Panama removed Manuel Noriega, who was indicted on drug trafficking charges\n- U.S. involvement in interdiction efforts in the Andes (Bolivia, Peru, Colombia) expanded\n- The crack epidemic peaked; incarceration rates continued climbing\n- Washington, D.C.'s drug-related violence made headlines\n\n## Clinton Era (1993–2000)\n\n- Despite campaign rhetoric suggesting treatment emphasis, Clinton's administration largely continued enforcement-heavy policies\n- **1994**: The Violent Crime Control and Law Enforcement Act (the \"1994 Crime Bill\") funded 100,000 new police officers, prison construction, and expanded the federal death penalty for drug kingpins\n- \"Three strikes\" laws and truth-in-sentencing laws spread at the state level\n- Plan Colombia (1999–2000) committed billions to military counter-narcotics efforts in Colombia\n\n## Consequences by the 1990s\n\n- **Mass incarceration**: The U.S. prison population quadrupled between 1980 and 2000, with drug offenses driving much of the increase; Black Americans were imprisoned at vastly disproportionate rates\n- **Racial disparities**: The crack/cocaine sentencing disparity meant Black offenders served far longer sentences than white offenders for similar conduct\n- **Limited impact on supply**: Drug prices fell and purity rose despite billions spent on interdiction\n- **Fiscal costs**: Federal drug control spending grew from roughly $100 million annually in the early 1970s to over $17 billion by 2000\n\n## Legacy\n\nThe policies of this era—mandatory minimums, sentencing disparities, and militarized enforcement—became subjects of bipartisan reconsideration in the 2000s and 2010s, including the Fair Sentencing Act of 2010 (reducing the crack disparity to 18-to-1) and the First Step Act of 2018. The era remains a defining case study in debates over criminal justice policy, race, and public health approaches to addiction.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 1254,
+  "total_tokens": 1301,
+  "cost": 0.0001170837,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001170837,
+   "upstream_inference_prompt_cost": 1.3395e-06,
+   "upstream_inference_completions_cost": 0.0001157442
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 344,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:37.519615+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "C",
+ "prompt": "What were the main causes of the War on Poverty and Great Society programs of the 1960s?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "The War on Poverty and the broader Great Society were not caused by a single factor; they grew out of a mix of economic, social, political, and intellectual developments in the late 1950s and early 1960s.\n\n**Main causes and catalysts:**\n\n1. **Visible poverty amid postwar affluence**\n   - Post-WWII prosperity masked persistent poverty in Appalachia, the rural South, inner cities, and among racial minorities.\n   - Books like Michael Harrington’s *The Other America* (1962) and John Kenneth Galbraith’s *The Affluent Society* helped convince policymakers that poverty was a national problem that government could address.\n\n2. **Civil rights pressure and racial inequality**\n   - The civil rights movement exposed how segregation, discrimination, and disenfranchisement reinforced black poverty.\n   - Federal action on poverty was increasingly seen as necessary to complement civil rights legislation and address urban inequality.\n\n3. **Economic structural change**\n   - Automation, declining coal and agricultural employment, rural-to-urban migration, and persistent unemployment raised fears that prosperity was bypassing many workers.\n   - Policymakers worried about joblessness among youth, unskilled workers, and minorities.\n\n4. **Liberal policy ideas and federal activism**\n   - Keynesian economics, New Deal traditions, and social-science expertise encouraged federal intervention in education, health, housing, and job training.\n   - Kennedy’s New Frontier began planning anti-poverty initiatives; Lyndon Johnson expanded and dramatized them after Kennedy’s assassination.\n\n5. **Political opportunity and leadership**\n   - LBJ’s legislative skill and the 1964 Democratic landslide gave liberals a strong mandate.\n   - Johnson wanted to build a domestic legacy and used the assassination to rally support for Kennedy-inspired programs.\n   - The War on Poverty was launched through the Economic Opportunity Act of 1964; the Great Society became a broader agenda including Medicare, Medicaid, federal aid to education, housing, immigration reform, and environmental and arts programs.\n\n6. **Cold War and national image**\n   - Racial injustice and poverty damaged America’s image abroad during the Cold War.\n   - Federal social reform could be presented as proof that democratic capitalism could address inequality better than communism.\n\n7. **Urban and social crisis concerns**\n   - Urban decay, suburbanization, migration, and later urban unrest made poverty a pressing national political issue.\n   - The Great Society also appealed to middle-class constituencies through education, health, and environmental programs.\n\nIn short, the War on Poverty and Great Society resulted from **postwar affluence exposing persistent poverty, civil rights pressure, economic dislocation, liberal policy entrepreneurship, LBJ’s political leadership, and Cold War concerns**—all within a brief period of Democratic legislative dominance.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 51,
+  "completion_tokens": 1014,
+  "total_tokens": 1065,
+  "cost": 0.000623853,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000623853,
+   "upstream_inference_prompt_cost": 1.5453e-05,
+   "upstream_inference_completions_cost": 0.0006084
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 453,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:10:51.451796+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

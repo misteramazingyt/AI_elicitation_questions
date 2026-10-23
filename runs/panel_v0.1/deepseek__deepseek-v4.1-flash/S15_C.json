@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "C",
+ "prompt": "What were the main causes of the 1948 Arab-Israeli war?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Decart",
+ "response": "The 1948 Arab–Israeli War had no single cause. It grew out of overlapping long-term national, colonial, and regional conflicts, with the UN partition vote and Israeli declaration of independence acting as immediate triggers.\n\n**Long-term causes**\n- **Competing national claims to Palestine:** The Zionist movement sought a Jewish national homeland in Palestine, while Palestinian Arabs and broader Arab nationalism sought an independent Arab Palestine. Both claimed the same territory.\n- **Contradictory British promises and the Mandate:** The 1917 Balfour Declaration promised a “Jewish national home” in Palestine, while earlier British wartime correspondence with Arab leaders seemed to promise Arab independence. Britain’s League of Nations Mandate over Palestine then incorporated the Balfour policy, fueling Arab distrust.\n- **Jewish immigration and demographic tension:** Jewish immigration, especially during the 1920s and 1930s as persecution in Europe intensified, increased the Jewish population and land purchases. Many Palestinian Arabs feared dispossession and loss of political control. This contributed to the 1936–39 Arab Revolt and British restrictions on Jewish immigration in the 1939 White Paper.\n- **Aftermath of the Holocaust:** The Holocaust and the postwar displaced-persons crisis created strong international sympathy for a Jewish state and increased pressure for Jewish refugees to enter Palestine, deepening Arab opposition.\n\n**Immediate causes**\n- **UN Partition Plan, November 1947:** UN General Assembly Resolution 181 proposed partitioning Palestine into separate Jewish and Arab states, with Jerusalem under international control. Jewish leaders largely accepted; Palestinian Arab leaders and Arab states rejected it.\n- **Civil war in Palestine:** After the partition vote, fighting broke out between Jewish and Palestinian Arab communities, with Arab volunteer forces and later regional Arab support. This civil-war phase escalated through early 1948.\n- **British withdrawal and power vacuum:** Britain ended its Mandate on May 14, 1948, leaving no effective central authority.\n- **Israeli declaration of independence:** On May 14, 1948, David Ben-Gurion declared the State of Israel.\n- **Arab state intervention:** On May 15, 1948, armies from Egypt, Transjordan, Syria, Lebanon, and Iraq entered Palestine. They cited the protection of Palestinian Arabs and rejection of partition, though they also had their own strategic and territorial interests—for example, Transjordan’s interest in the West Bank.\n- **Great-power and regional context:** Britain’s declining role, U.S. and Soviet support for partition, Cold War calculations, and arms embargoes shaped the diplomatic and military environment.\n\nIn short, the war was caused by the collision of Jewish and Arab nationalisms in Palestine, the legacy of British Mandate policies, the trauma and displacement of World War II, the UN partition decision, the collapse of British authority, and the decision by Arab states to intervene militarily after Israel declared independence.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 1623,
+  "total_tokens": 1668,
+  "cost": 0.00029619,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00029619,
+   "upstream_inference_prompt_cost": 4.05e-06,
+   "upstream_inference_completions_cost": 0.00029214
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1241,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:16:12.681555+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

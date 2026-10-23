@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "H",
+ "prompt": "How have historians interpreted the Immigration Act of 1924? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Immigration Act of 1924, also known as the Johnson-Reed Act, has been interpreted by historians in various ways, reflecting different perspectives on its significance, impact, and motivations. Here are some of the main interpretations:\n\n1. **Restrictive and racist legislation**: Many historians view the Immigration Act of 1924 as a landmark piece of legislation that marked a significant shift towards restrictionism and racism in U.S. immigration policy. The act established a quota system that favored immigrants from Northern and Western Europe, while severely limiting immigration from Southern and Eastern Europe, particularly from Italy, Poland, and Russia. (Higham, 1955; Tichenor, 2002)\n2. **Nativism and anti-immigrant sentiment**: Historians have linked the Immigration Act of 1924 to the rise of nativism and anti-immigrant sentiment in the United States during the 1920s. The act is seen as a reflection of the growing anxiety and hostility towards immigrants, particularly those from non-Anglo-Saxon backgrounds. (Higham, 1955; Kraut, 1982)\n3. **Eugenics and pseudo-scientific racism**: Some historians have highlighted the influence of eugenics and pseudo-scientific racism on the Immigration Act of 1924. The act's quota system was based on the idea of preserving the \"racial purity\" of the United States, with proponents arguing that certain immigrant groups were \"inferior\" or \"undesirable.\" (King, 2000; Spiro, 2009)\n4. **Economic and labor market factors**: Other historians have emphasized the economic and labor market factors that contributed to the passage of the Immigration Act of 1924. The act is seen as a response to concerns about the impact of immigration on the U.S. labor market, particularly in the context of post-World War I economic downturn. (Tichenor, 2002; Zolberg, 2006)\n5. **Shifting national identity**: Some historians have interpreted the Immigration Act of 1924 as a reflection of a broader shift in U.S. national identity, as the country transitioned from a relatively open and inclusive society to a more restrictive and exclusionary one. (Ngai, 2004; FitzGerald & Cook-Martín, 2014)\n\nSources:\n\n* FitzGerald, D. S., & Cook-Martín, D. (2014). Culling the Masses: The Democratic Origins of Racist Immigration Policy in the Americas. Harvard University Press.\n* Higham, J. (1955). Strangers in the Land: Patterns of American Nativism, 1860-1925. Rutgers University Press.\n* King, D. (2000). Making Americans: Immigration, Race, and the Origins of the Diverse Democracy. Harvard University Press.\n* Kraut, A. M. (1982). The Huddled Masses: The Immigrant in American Society, 1880-1921. Harlan Davidson.\n* Ngai, M. M. (2004). Impossible Subjects: Illegal Aliens and the Making of Modern America. Princeton University Press.\n* Spiro, J. P. (2009). Defending the Master Race: Conservation, Eugenics, and the Legacy of Madison Grant. University of Vermont Press.\n* Tichenor, D. J. (2002). Dividing Lines: The Politics of Immigration Control in America. Princeton University Press.\n* Zolberg, A. R. (2006). A Nation by Design: Immigration Policy in the Fashioning of America. Harvard University Press.\n\nThese sources represent a range of historical perspectives on the Immigration Act of 1924, highlighting its complex and multifaceted significance in U.S. history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 777,
+  "total_tokens": 803,
+  "cost": 0.0005118675,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005118675,
+   "upstream_inference_prompt_cost": 4.875e-06,
+   "upstream_inference_completions_cost": 0.0005069925
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:58.571544+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

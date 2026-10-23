@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Main Causes of the Immigration Act of 1924 (Johnson-Reed Act)\n\nThe Immigration Act of 1924 emerged from a combination of social, economic, and political factors in post-WWI America:\n\n## Nativism and Xenophobia\n\n- **Post-WWI isolationism**: Many Americans wanted to distance the U.S. from European affairs and foreign influence after the war\n- **Red Scare fears**: The 1919–1920 Red Scare fueled fears that immigrants brought radical ideologies like anarchism and communism (the 1920 Wall Street bombing was blamed on anarchists)\n- **Racial prejudice**: Beliefs in racial hierarchy, promoted by eugenics advocates like Harry Laughlin and Madison Grant (*The Passing of the Great Race*), influenced lawmakers directly\n\n## Economic Concerns\n\n- **Job competition**: The post-war recession (1920–1921) created fears that immigrants were taking jobs from native-born workers\n- **Labor unrest**: Strikes and union organizing were often blamed on foreign-born radicals\n\n## Religious and Cultural Bias\n\n- **Anti-Catholic and anti-Jewish sentiment**: Much of the hostility targeted Southern and Eastern Europeans (Italians, Greeks, Poles, Russian Jews), who were predominantly Catholic or Jewish\n- Earlier quota laws (1921) had already privileged Northern/Western Europeans, but the 1924 Act tightened this dramatically\n\n## Political Momentum\n\n- **Restrictionist lobbying**: Groups like the Immigration Restriction League had pushed for limits since the 1890s\n- **Success of prior legislation**: The Emergency Quota Act of 1921, literacy tests (1917), and Asiatic Barred Zone set precedents\n- **Congressional override**: President Coolidge wanted changes, but Congress passed the bill with broad bipartisan support\n\n## Key Outcomes\n\nThe act set quotas at **2% of each nationality's 1890 population** (rather than 1910, as in 1921)—deliberately choosing an earlier census to maximize Northern European quotas and severely restrict Southern/Eastern Europeans. It also **barred Asian immigrants entirely** (\"persons ineligible for citizenship\").\n\nWould you like more detail on any of these factors?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 450,
+  "total_tokens": 476,
+  "cost": 0.00017772,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00017772,
+   "upstream_inference_prompt_cost": 3.12e-06,
+   "upstream_inference_completions_cost": 0.0001746
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:38.661650+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

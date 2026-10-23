@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "D",
+ "prompt": "Describe the Immigration Act of 1924.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Immigration Act of 1924 (Johnson-Reed Act)\n\nThe Immigration Act of 1924 was a landmark U.S. federal law that dramatically reshaped American immigration policy. Signed by President Calvin Coolidge on May 26, 1924, it built upon the Emergency Quota Act of 1921.\n\n## Key Provisions\n\n**National Origins Quota System**\n- Set immigration quotas at 2% of each foreign-born nationality's population in the U.S. as recorded in the **1890 census** (down from 3% in the 1921 act)\n- By 1927, quotas were based on the 1920 census, capped at 150,000 total immigrants annually\n- The 1890 baseline was deliberately chosen because it predated major waves of Southern and Eastern European immigration\n\n**Exclusions**\n- Barred immigration from the \"Asiatic Barred Zone,\" effectively excluding most Asian immigrants (extending earlier exclusion laws like the Chinese Exclusion Act of 1882)\n- Excluded aliens ineligible for citizenship\n\n**Other Features**\n- Established the requirement of consular visas obtained abroad\n- Created the Border Patrol (1924) to enforce restrictions along U.S. borders\n- Western Hemisphere immigrants (from Canada and Latin America) were initially not subject to quotas\n\n## Motivations and Effects\n\nThe law reflected nativist sentiment, concerns about job competition, and pseudo-scientific racial theories of the era. Its effects included:\n\n- Sharp reductions in immigration from Southern and Eastern Europe (Italians, Poles, Jews, Greeks)\n- Near-total exclusion of Asian immigrants\n- Increased reliance on Mexican labor in the West, since Mexico was exempt from quotas\n- A shift toward family-based chain migration, as relatives of established citizens could enter outside quotas\n\n## Legacy\n\nThe quota system remained in effect, with modifications, until the **Immigration and Nationality Act of 1965** (Hart-Celler Act) abolished national origins quotas and replaced them with a system prioritizing skills and family reunification. The 1924 act is now widely viewed as a product of the era's racial and ethnic prejudices.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 671,
+  "total_tokens": 707,
+  "cost": 6.29593e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.29593e-05,
+   "upstream_inference_prompt_cost": 1.026e-06,
+   "upstream_inference_completions_cost": 6.19333e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 230,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:38.355859+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

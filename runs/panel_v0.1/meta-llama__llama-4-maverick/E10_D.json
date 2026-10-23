@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "D",
+ "prompt": "Describe the UK miners' strike of 1984-1985.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The UK miners' strike of 1984-1985 was a pivotal industrial dispute in British history, marked by a confrontation between the National Union of Mineworkers (NUM) and the National Coal Board (NCB), with the Conservative government of Prime Minister Margaret Thatcher playing a significant role in the background. The strike, which lasted for almost a year, was a defining moment in the history of industrial relations in the UK and had profound social, economic, and political implications.\n\n### Background\n\nThe strike was precipitated by the Conservative government's plans to restructure the coal industry, which included closing unprofitable pits. The NUM, led by Arthur Scargill, strongly opposed these plans, fearing they would lead to widespread job losses and the decimation of mining communities. Tensions had been building for some time as the government and the NCB sought to reduce the industry's capacity and workforce, arguing that many pits were uneconomic and that the industry needed to be made more competitive.\n\n### The Strike Begins\n\nThe strike officially began on March 5, 1984, after the NCB announced plans to close 20 pits, which would have resulted in the loss of around 20,000 jobs. The NUM called for a national strike in response, although the ballot for strike action was not held across all regions, leading to some criticism that the strike was not properly mandated. Despite this, the strike gained significant support across many mining communities.\n\n### Key Features of the Strike\n\n1. **Picketing and Violence**: The strike was marked by intense picketing, with miners attempting to prevent working miners from going to work and to blockade coal deliveries. This led to clashes with police, most notably at Orgreave in South Yorkshire on June 18, 1984, where a large confrontation between miners and police resulted in significant violence and numerous arrests. The policing of the strike was highly controversial, with allegations of police brutality and the use of riot control tactics.\n\n2. **Divisions within the NUM**: The strike highlighted divisions within the NUM, particularly between the left-wing leadership under Arthur Scargill and more moderate elements. Some regions, like Nottinghamshire and Derbyshire, did not fully support the strike, leading to the formation of the Union of Democratic Mineworkers (UDM) in Nottinghamshire, which represented miners who wished to continue working.\n\n3. **Government Strategy**: The Thatcher government was well-prepared for the strike, having stockpiled coal and taken steps to ensure that the country's energy needs could be met without relying heavily on coal. The government also took a hardline stance against the NUM, refusing to negotiate on the principle of pit closures.\n\n4. **Social and Community Impact**: The strike had a profound impact on mining communities, many of which were heavily dependent on the coal industry. The strike led to significant hardship for many families, with some communities organizing soup kitchens and other forms of support for striking miners.\n\n### Outcome\n\nThe strike ultimately ended in defeat for the NUM. On March 3, 1985, after nearly a year of striking, the NUM voted to return to work without securing a reversal of the pit closure plans. The strike's failure marked a significant turning point in the history of British industrial relations, demonstrating the government's resolve to confront and defeat trade union militancy. The coal industry was subsequently restructured, with many pits closed, leading to a substantial reduction in the number of miners employed.\n\nThe legacy of the strike is complex, with some viewing it as a necessary stand against the decline of traditional industries and others seeing it as a futile resistance to economic reality. The strike had lasting impacts on the communities affected and on the broader political and social landscape of the UK.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 756,
+  "total_tokens": 780,
+  "cost": 0.00049779,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00049779,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.00049329
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:03:33.649639+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

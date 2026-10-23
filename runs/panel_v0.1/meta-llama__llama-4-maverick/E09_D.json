@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "D",
+ "prompt": "Describe Britain's Winter of Discontent (1978-1979).",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Winter of Discontent was a period of severe industrial unrest in the United Kingdom that took place during the winter of 1978-1979. It was characterized by a wave of strikes by public sector workers, including those in the health, transport, and local government sectors, in response to the government's attempts to limit pay increases.\n\nThe Labour government, led by Prime Minister James Callaghan, had implemented a pay policy aimed at controlling inflation by limiting wage increases to 5% or less. However, many public sector workers felt that this limit was too low and that their wages had not kept pace with inflation. As a result, several trade unions, including those representing nurses, ambulance drivers, and grave diggers, took industrial action, leading to a series of strikes and disruptions.\n\nThe strikes had a significant impact on the country, with rubbish piling up on the streets, hospitals being disrupted, and transportation services being severely curtailed. The strikes also had a significant impact on the public, with many people being affected by the disruptions to essential services.\n\nThe Winter of Discontent was a major embarrassment for the Labour government, which was seen as being unable to control the trade unions or maintain order. The strikes and disruptions were widely reported in the media, and the government's handling of the crisis was heavily criticized.\n\nThe Winter of Discontent ultimately contributed to the downfall of the Labour government, as the Conservative Party, led by Margaret Thatcher, capitalized on the public's dissatisfaction with the Labour government's handling of the crisis. The Conservatives won the 1979 general election, and Thatcher became Prime Minister, marking the beginning of a new era of Conservative rule in Britain.\n\nThe Winter of Discontent is often seen as a turning point in British politics, marking a shift towards a more confrontational approach to industrial relations and a greater emphasis on controlling inflation. It also marked a significant change in the relationship between the government and the trade unions, with the Conservatives adopting a more adversarial approach to industrial relations.\n\nThe legacy of the Winter of Discontent continues to be felt in British politics, with many commentators still referencing the period as a cautionary tale about the dangers of industrial unrest and the importance of effective industrial relations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 447,
+  "total_tokens": 471,
+  "cost": 0.0002961675,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002961675,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.0002916675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:03:22.744004+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

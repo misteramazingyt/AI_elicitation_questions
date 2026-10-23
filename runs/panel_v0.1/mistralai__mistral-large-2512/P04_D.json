@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "D",
+ "prompt": "Describe the Black Death in fourteenth-century Europe.",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **Black Death** (1347–1351) was one of the most devastating pandemics in human history, killing an estimated **30–60% of Europe’s population** in the 14th century. Caused by the bacterium *Yersinia pestis*, it spread rapidly through **bubonic, septicemic, and pneumonic plague**, leaving profound social, economic, and cultural upheaval in its wake.\n\n### **Origins & Spread**\n- **Source:** Likely originated in **Central Asia** (possibly the **Kipchak Khanate** or **China**) and spread via **trade routes**, including the **Silk Road**.\n- **Arrival in Europe:** Reached **Sicily in 1347** via Genoese trading ships from the Black Sea (Caffa, a besieged city where Mongols allegedly catapulted infected corpses into the city).\n- **Transmission:** Fleas on **black rats** (which infested ships and urban areas) spread the disease, though **pneumonic plague** (airborne transmission) also played a role.\n\n### **Symptoms & Mortality**\n- **Bubonic Plague (most common):** Swollen, painful **buboes** (lymph nodes) in the groin, armpits, or neck; high fever; vomiting; and death within **3–5 days** (60–90% mortality rate).\n- **Septicemic Plague:** Bloodstream infection leading to **gangrene, blackened skin, and near-certain death** (almost 100% fatal).\n- **Pneumonic Plague:** Lung infection causing **coughing up blood, respiratory failure, and death within 1–2 days** (95–100% fatal if untreated).\n\n### **Social & Economic Impact**\n1. **Demographic Collapse:**\n   - **25–50 million dead** in Europe (out of ~80 million).\n   - Entire villages were wiped out; some regions (e.g., **Tuscany, Provence**) lost **70–80%** of their population.\n   - Labor shortages led to **higher wages** for peasants and the decline of **serfdom**.\n\n2. **Economic Disruption:**\n   - **Trade collapsed** as merchants avoided plague-ridden cities.\n   - **Inflation surged** due to labor scarcity and reduced agricultural output.\n   - **Feudalism weakened** as peasants demanded better conditions, leading to **peasant revolts** (e.g., **English Peasants' Revolt of 1381**).\n\n3. **Religious & Cultural Effects:**\n   - **Flagellants** (self-flagellating religious groups) emerged, believing the plague was **divine punishment**.\n   - **Persecution of minorities** (Jews, Romani, lepers) intensified, with many accused of **poisoning wells** (leading to massacres, e.g., **Strasbourg, 1349**).\n   - **Art & literature** became morbid, with themes of **death and decay** (e.g., **Danse Macabre**—the \"Dance of Death\").\n\n4. **Medical & Scientific Responses:**\n   - **No effective treatment**—doctors relied on **bloodletting, herbal remedies, and \"plague doctors\"** (with beaked masks filled with herbs).\n   - **Quarantines** (from the Italian *quaranta giorni*—\"40 days\") were introduced in **Venice (1348)** to isolate ships.\n   - **Miasma theory** (bad air) dominated, though some (like **Ibn al-Khatib** in Muslim Spain) suspected **contagion**.\n\n### **Recurrences & Long-Term Effects**\n- The plague **returned in waves** (e.g., **1360–63, 1374, 1400**) but with **lower mortality** as populations developed some immunity.\n- **Labor shortages** led to **technological innovation** (e.g., the **printing press** in the 15th century).\n- **Social mobility increased** as peasants gained bargaining power.\n- **The Church’s authority weakened** due to its inability to stop the plague, contributing to later **Reformation movements**.\n\n### **Conclusion**\nThe Black Death was a **cataclysmic event** that reshaped medieval Europe. It accelerated the **decline of feudalism**, spurred **economic and social change**, and left a lasting psychological scar, influencing art, religion, and science for centuries. Its devastation was so profound that it took **Europe over 150 years** to recover its pre-plague population levels.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 14,
+  "completion_tokens": 1017,
+  "total_tokens": 1031,
+  "cost": 0.0015325,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015325,
+   "upstream_inference_prompt_cost": 7e-06,
+   "upstream_inference_completions_cost": 0.0015255
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:14.166411+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

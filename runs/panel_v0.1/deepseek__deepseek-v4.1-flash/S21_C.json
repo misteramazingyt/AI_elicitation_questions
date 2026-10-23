@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The Immigration Act of 1924, also known as the Johnson–Reed Act, was the product of several overlapping forces:\n\n1. **Nativism and racial/ethnic prejudice**  \n   Many white Protestant Americans viewed the “new immigrants” from Southern and Eastern Europe—Italians, Poles, Russians, Jews, Greeks, and others—as culturally and racially inferior. Longstanding hostility toward Catholics, Jews, and Asians also fueled restriction.\n\n2. **Eugenics and “scientific racism”**  \n   Eugenicists and restrictionist intellectuals argued that certain nationalities were biologically inferior and would “pollute” American stock. Works like Madison Grant’s *The Passing of the Great Race* and lobbying by the Immigration Restriction League promoted this view.\n\n3. **Economic anxieties and labor competition**  \n   After World War I, the U.S. experienced a sharp recession, high unemployment, and labor unrest. Many workers and unions feared that immigrants would lower wages and take jobs. Although employers often wanted cheap immigrant labor, restrictionists in Congress prevailed.\n\n4. **Postwar Red Scare and isolationism**  \n   The Russian Revolution, labor strikes, anarchist bombings, and the Palmer Raids created fear that immigrants were radicals or Bolsheviks. At the same time, many Americans wanted to retreat from European entanglements and preserve a homogeneous “100% American” society.\n\n5. **The Dillingham Commission and earlier restriction laws**  \n   The 1911 Dillingham Commission concluded that Southern and Eastern Europeans were less assimilable and recommended restriction. The 1917 Literacy Act and the Emergency Quota Act of 1921 showed that quotas could work, setting the stage for a permanent, stricter system.\n\n6. **Political momentum and regional interests**  \n   Restrictionists like Senator Albert Johnson and Representative David Reed pushed the bill through Congress. Western states wanted Japanese exclusion, while many Eastern and Southern lawmakers wanted to reduce Jewish, Catholic, and Slavic immigration.\n\nThe result was a national-origins quota system that limited immigration to 2% of each nationality’s 1890 U.S. population, sharply cutting Southern and Eastern European immigration, excluding most Asians, and leaving Western Hemisphere immigration largely unrestricted.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 1354,
+  "total_tokens": 1398,
+  "cost": 0.000972642,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000972642,
+   "upstream_inference_prompt_cost": 4.532e-06,
+   "upstream_inference_completions_cost": 0.00096811
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 899,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:17:41.080289+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

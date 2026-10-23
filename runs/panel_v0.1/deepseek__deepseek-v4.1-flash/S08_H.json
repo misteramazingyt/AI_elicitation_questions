@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "H",
+ "prompt": "How have historians interpreted the IRS's handling of tax-exempt applications from political groups (2010-2013)? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "Historians have not produced a single, settled “historians’ interpretation” of the 2010–2013 IRS controversy. Most professional historians who have written on it treat it less as a proven partisan conspiracy than as a case study in bureaucratic discretion, vague tax law, and the long politicization of tax administration—while conservative critics and some political historians emphasize the possibility of partisan weaponization. The main interpretations cluster into three positions.\n\n1. **Institutional failure and legal ambiguity.** Tax historians and nonprofit-law scholars stress that the IRS was enforcing the vague 501(c)(4) “social welfare” standard after *Citizens United* amid a surge of applications. The Treasury Inspector General found “inappropriate criteria” such as “Tea Party,” “Patriot,” and “9/12,” but attributed the problem largely to ineffective management and poor controls rather than proving a top-down political conspiracy. Joseph Thorndike places the episode in a longer history of politicized tax administration and argues that tax exemption is itself a subsidy, making IRS discretion inherently political. Ellen Aprill similarly argues that the IRS was caught between contradictory demands to police political activity and not become a speech regulator. Sources: TIGTA, *Inappropriate Criteria Were Used to Identify Tax-Exempt Applications for Review* (May 14, 2013); Joseph J. Thorndike, “The IRS Scandal: A Brief History,” *Tax Notes* (May 20, 2013); Ellen P. Aprill, “The IRS and the Tea Party: The Perils of Political Activity,” *Tax Notes* (2013).\n\n2. **Partisan-weaponization narrative.** Conservative historians and commentators, along with Republican congressional investigators, have compared the episode to Nixon-era IRS abuses and emphasized that conservative groups were singled out for delays and intrusive questions. This interpretation draws on House Oversight Committee documents and the “BOLO” lists, but it was not substantiated as criminal intent: the Justice Department closed its investigation in 2015 without charges. Sources: House Oversight and Government Reform Committee documents/hearings; DOJ letter closing the investigation (Oct. 23, 2015); TIGTA 2013 report.\n\n3. **Bureaucratic pathology and partisan symbol.** Other political historians and scholars emphasize that the Cincinnati Exempt Organizations office used chaotic, low-level screening; later documents also included progressive and Occupy-related terms, though the IG found the conservative criteria were used earlier and more extensively. The episode became a partisan symbol larger than the underlying administrative facts. Theda Skocpol and Vanessa Williamson’s work on the Tea Party helps contextualize why the conflict became so charged. Sources: TIGTA 2013; House Oversight documents; Theda Skocpol and Vanessa Williamson, *The Tea Party and the Remaking of Republican Conservatism* (Oxford University Press, 2012).\n\nIn short, the dominant scholarly/historical reading is **not** that historians proved a criminal Obama-administration plot, nor that the episode was entirely innocuous. It is that the IRS used inappropriate screening criteria amid legal ambiguity and managerial failure, and that the controversy became a proxy fight over the politicization of tax-exempt political activity.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 57,
+  "completion_tokens": 3464,
+  "total_tokens": 3521,
+  "cost": 0.002097552,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002097552,
+   "upstream_inference_prompt_cost": 1.9152e-05,
+   "upstream_inference_completions_cost": 0.0020784
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2804,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:56:18.745835+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

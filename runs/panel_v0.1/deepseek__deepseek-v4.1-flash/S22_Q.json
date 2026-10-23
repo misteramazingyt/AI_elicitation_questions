@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration and Nationality Act of 1965?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "The Immigration and Nationality Act of 1965 (Hart–Celler Act) had far-reaching and often unintended consequences. Its main effects included:\n\n1. **Abolition of the national-origins quota system**\n   - It ended the 1920s quota system that favored Northern and Western Europeans and explicitly discriminated against Asians and others.\n   - It replaced it with a preference system emphasizing **family reunification**, **skilled labor**, and **refugees**, plus per-country numerical limits.\n\n2. **A major shift in immigration sources**\n   - Immigration shifted dramatically away from Europe toward **Asia, Latin America, the Caribbean, and Africa**.\n   - This transformed the demographic composition of the U.S. immigrant population and, over time, the broader U.S. population.\n\n3. **Family reunification became the dominant pathway**\n   - Preferences for relatives of U.S. citizens and permanent residents led to “chain migration,” where immigrants sponsor family members.\n   - This became one of the largest sources of legal immigration.\n\n4. **Rapid growth in legal immigration**\n   - Although proponents often predicted only modest increases, immigration levels rose substantially after 1965.\n   - Immediate relatives of U.S. citizens were exempt from numerical caps, which further increased admissions.\n\n5. **New limits on Western Hemisphere immigration**\n   - For the first time, the law imposed a numerical ceiling on immigration from the Western Hemisphere.\n   - Combined with growing labor demand, this contributed to a rise in **undocumented immigration**, especially from Mexico, and helped set the stage for later debates and the 1986 IRCA legalization.\n\n6. **Asian immigration surged**\n   - The act effectively ended the Asian exclusion regime and opened the door to large-scale immigration from China, India, the Philippines, Korea, Vietnam, and elsewhere.\n   - Refugee admissions after the Vietnam War further accelerated Asian immigration.\n\n7. **Changes in U.S. politics and culture**\n   - The act contributed to the U.S. becoming more ethnically and culturally diverse.\n   - It reshaped electoral constituencies, debates over multiculturalism, assimilation, and immigration policy.\n   - It also became a central reference point in later arguments over immigration restriction and reform.\n\n8. **Skill-based immigration and the “brain drain”**\n   - The preference for professionals and skilled workers attracted scientists, engineers, doctors, and other highly educated immigrants, benefiting U.S. universities and industries but also raising concerns about “brain drain” from sending countries.\n\nIn short, the 1965 Act is widely seen as a turning point: it ended explicitly racialized immigration quotas, made family ties central to U.S. immigration policy, and unintentionally helped produce the much more diverse and higher-volume immigration system of the late 20th and 21st centuries.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 781,
+  "total_tokens": 827,
+  "cost": 0.000482538,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000482538,
+   "upstream_inference_prompt_cost": 1.3938e-05,
+   "upstream_inference_completions_cost": 0.0004686
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 217,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:17:59.825734+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

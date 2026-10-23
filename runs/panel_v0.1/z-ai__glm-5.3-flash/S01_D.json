@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "D",
+ "prompt": "Describe the passage of the Civil Rights Act of 1964.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Passage of the Civil Rights Act of 1964\n\n## Background\n\nThe Civil Rights Act of 1964 emerged from the growing momentum of the civil rights movement, including the 1963 March on Washington and decades of activism against segregation and racial discrimination. President John F. Kennedy proposed the legislation in a televised address in June 1963, calling it a moral issue, but he was assassinated in November 1963 before it could pass.\n\n## Legislative Journey\n\n**Kennedy to Johnson:** After Kennedy's assassination, President Lyndon B. Johnson made passage of the bill a top priority, famously urging Congress to honor Kennedy's memory by enacting it as a tribute.\n\n**House of Representatives:** The bill passed the House in February 1964 by a vote of 290–130, with support from both parties. Judiciary Committee Chairman Emanuel Celler played a key role in moving the bill forward.\n\n**The Senate Filibuster:** The biggest obstacle came in the Senate, where Southern opponents launched the longest filibuster in Senate history—lasting 60 working days (over 80 calendar days). Led by Senators like Richard Russell of Georgia, opponents hoped to kill the bill through delay.\n\n**Cloture and Passage:** Senate Majority Leader Mike Mansfield and Minority Leader Everett Dirksen worked together, with Dirksen's Republican support proving crucial. On June 10, 1964, the Senate achieved cloture (ending debate) with a vote of 71–29—the first successful cloture vote on civil rights legislation in history. The Senate passed the bill on June 19 by a vote of 73–27.\n\n**Final Passage:** A House-Senate conference committee reconciled the versions, and the House approved the final bill on July 2, 1964. Johnson signed it into law that same day, just hours after passage.\n\n## Key Provisions\n\n- Banned discrimination in public accommodations (hotels, restaurants, theaters)\n- Prohibited employment discrimination based on race, color, religion, sex, or national origin\n- Barred discrimination in programs receiving federal funds\n- Strengthened enforcement of school desegregation\n- Created the Equal Employment Opportunity Commission (EEOC)\n\n## Significance\n\nThe Act's passage represented the most sweeping civil rights legislation since Reconstruction and marked a turning point in American history, legally ending the \"Jim Crow\" era of legalized segregation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 712,
+  "total_tokens": 752,
+  "cost": 6.68576e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.68576e-05,
+   "upstream_inference_prompt_cost": 1.14e-06,
+   "upstream_inference_completions_cost": 6.57176e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 226,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:45.843992+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

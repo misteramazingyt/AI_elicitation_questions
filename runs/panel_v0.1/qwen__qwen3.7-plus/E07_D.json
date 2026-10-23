@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "D",
+ "prompt": "Describe the 2008 financial crisis.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 2008 Financial Crisis, often referred to as the **Global Financial Crisis (GFC)**, was the most severe worldwide economic disaster since the Great Depression of the 1930s. Originating in the United States, it quickly spread across the globe, resulting in the collapse of major financial institutions, the bailout of banks by national governments, and downturns in stock markets worldwide. \n\nHere is a comprehensive breakdown of the crisis, from its root causes to its lasting legacy.\n\n---\n\n### 1. The Root Causes: A \"Perfect Storm\"\nThe crisis was not caused by a single event, but by a combination of economic policies, market behaviors, and regulatory failures over several years.\n\n*   **The Housing Bubble and Cheap Credit:** Following the dot-com bubble burst and the 9/11 attacks, the U.S. Federal Reserve lowered interest rates to stimulate the economy. This made borrowing cheap, leading to a massive surge in demand for housing. Home prices skyrocketed, creating a speculative bubble.\n*   **Subprime Mortgages:** To capitalize on the booming housing market, lenders relaxed their standards. They issued \"subprime\" mortgages to borrowers with poor credit histories, low incomes, and no verifiable assets (sometimes called NINJA loans: No Income, No Job, no Assets). Many of these were Adjustable-Rate Mortgages (ARMs), which started with low \"teaser\" rates that were scheduled to reset to much higher rates later.\n*   **Securitization and Financial Engineering:** Banks did not just hold these mortgages; they sold them to investment banks, which bundled thousands of them together into complex financial products called **Mortgage-Backed Securities (MBS)** and **Collateralized Debt Obligations (CDOs)**. These bundles were sold to global investors (pension funds, foreign banks) as safe, high-yield investments.\n*   **Failure of Credit Rating Agencies:** Agencies like Moody’s and Standard & Poor’s gave these toxic, subprime-heavy bundles their highest \"AAA\" safety ratings, misleading investors about the actual risk.\n*   **The Shadow Banking System and Deregulation:** A massive, unregulated \"shadow banking\" system grew up around these securities. Institutions bought **Credit Default Swaps (CDS)**—essentially insurance policies against the failure of these mortgage bundles. Companies like AIG sold billions in this \"insurance\" without having the capital to actually pay out if the mortgages failed. Furthermore, deregulation (such as the repeal of the Glass-Steagall Act) allowed commercial banks to take on risky investment banking behaviors.\n\n### 2. The Trigger and Collapse (2007–2008)\nThe bubble burst when the Federal Reserve began raising interest rates to combat inflation. \n*   **The Defaults:** As interest rates rose, the teaser rates on ARMs reset. Millions of subprime borrowers could not afford their new, higher monthly payments and defaulted. \n*   **The Price Crash:** As foreclosures flooded the market, housing prices plummeted. Many homeowners found themselves \"underwater,\" owing more on their mortgages than their homes were worth.\n*   **The Toxic Assets:** The MBS and CDOs held by banks worldwide suddenly became worthless. Because these complex assets were bundled and sold globally, no bank knew exactly how much toxic debt other banks held. \n*   **The Credit Freeze:** Trust evaporated. Banks stopped lending to each other, freezing the global credit markets. \n*   **The Cascading Failures:** In 2008, major financial institutions began to fail. Bear Stearns was forced into a fire sale. Fannie Mae and Freddie Mac (companies that backed half of all U.S. mortgages) were taken over by the government. In September 2008, the U.S. government allowed **Lehman Brothers** to file for bankruptcy. This sent shockwaves through the global financial system, causing a total panic.\n\n### 3. The Global Impact: The Great Recession\nThe financial crisis quickly bled into the \"real\" economy, triggering the **Great Recession**.\n*   **Economic Contraction:** Global GDP contracted sharply. Consumer spending and business investment plummeted as credit dried up and confidence vanished.\n*   **Mass Unemployment:** In the U.S. alone, nearly 9 million jobs were lost. Unemployment peaked at 10% in October 2009. Globally, tens of millions lost their jobs.\n*   **Wealth Destruction:** The stock market crashed (the Dow Jones lost over half its value). Millions of families lost their homes to foreclosure, and retirement savings were decimated.\n*   **Sovereign Debt Crisis:** In Europe, the banking crisis morphed into a sovereign debt crisis. Countries like Greece, Ireland, Portugal, and Spain, whose banks had heavily invested in toxic assets or whose economies collapsed, found they could no longer borrow money to fund their governments, threatening the existence of the Euro.\n\n### 4. The Response: Bailouts and Stimulus\nGovernments and central banks took unprecedented, massive actions to prevent a total collapse of the global financial system.\n*   **Monetary Policy:** The U.S. Federal Reserve, led by Ben Bernanke, slashed interest rates to near zero. When that wasn't enough, they initiated **Quantitative Easing (QE)**—printing trillions of dollars to buy bonds and inject liquidity into the economy. Central banks worldwide coordinated similar rate cuts.\n*   **Bank Bailouts (TARP):** The U.S. government passed the Troubled Asset Relief Program (TARP), authorizing $700 billion to buy toxic assets from banks and inject capital into failing institutions (including AIG and major automakers like GM and Chrysler) to keep them afloat.\n*   **Fiscal Stimulus:** Governments around the world passed massive stimulus packages to spur demand. In the U.S., the Obama administration passed the $787 billion American Recovery and Reinvestment Act in 2009.\n\n### 5. Aftermath and Legacy\nWhile the policies successfully prevented a second Great Depression, the recovery was slow and left deep scars.\n*   **Regulatory Overhaul:** In the U.S., the **Dodd-Frank Wall Street Reform and Consumer Protection Act** (2010) was passed. It increased regulation on banks, created the Consumer Financial Protection Bureau (CFPB), and instituted \"stress tests\" to ensure banks could survive future crises. Internationally, the **Basel III** accords required banks to hold more capital in reserve.\n*   **Economic Inequality:** The recovery was highly uneven. Because central banks kept interest rates low and bought assets, the prices of stocks and real estate soared, heavily benefiting the wealthy. Meanwhile, wage growth for the middle and working classes remained stagnant for years.\n*   **Political and Social Shifts:** The crisis and the subsequent bank bailouts (while ordinary people lost their homes) caused a massive loss of trust in government, financial institutions, and the media. This anger fueled populist political movements on both the left (e.g., Occupy Wall Street) and the right (e.g., the Tea Party), and contributed to the political polarization and anti-establishment sentiments that define much of today's global politics.\n\n### Summary\nThe 2008 Financial Crisis was a catastrophic failure of risk management, driven by greed, flawed financial engineering, and regulatory blindness. It demonstrated how deeply interconnected the modern global economy is, proving that a collapse in the U.S. housing market could bring the entire global financial system to the brink of ruin.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 2926,
+  "total_tokens": 2946,
+  "cost": 0.00375168,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00375168,
+   "upstream_inference_prompt_cost": 6.4e-06,
+   "upstream_inference_completions_cost": 0.00374528
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1340,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:21:43.210848+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

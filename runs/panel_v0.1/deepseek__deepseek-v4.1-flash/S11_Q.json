@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1969 Stonewall riots?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "The Stonewall riots (June 28–July 29, 1969, centered on the Stonewall Inn in Greenwich Village) did not start the LGBTQ rights movement by themselves, but they became its most visible catalyst. Their main consequences were:\n\n- **Immediate protest and visibility:** After the police raid and resistance, crowds returned for days of street protests and clashes. Slogans like “Gay Power” and “Gay Is Good” signaled a more assertive public politics.\n\n- **New organizations and tactics:** Within weeks, the **Gay Liberation Front (GLF)** formed in New York, followed in 1970 by the **Gay Activists Alliance (GAA)**. These groups favored confrontational direct action, “coming out” as a political act, and alliances with other radical movements—marking a shift from the older, more assimilationist “homophile” groups.\n\n- **Annual Pride marches:** The first anniversary in June 1970 produced the **Christopher Street Liberation Day** march in New York and parallel demonstrations in Los Angeles, Chicago, and San Francisco. These became the basis of modern **Pride** parades.\n\n- **National and international spread:** Stonewall-inspired gay liberation groups and protests appeared across the U.S. and in Canada, Britain, Europe, and Australia. It helped turn a local police confrontation into a transnational symbol.\n\n- **Political and legal momentum:** The riots energized campaigns against police harassment, for anti-discrimination laws, and for repeal of sodomy laws. They also contributed to a broader movement that later won major victories, such as the American Psychiatric Association’s 1973 removal of homosexuality from its list of mental disorders—though that was not a direct result of Stonewall alone.\n\n- **Cultural change:** Stonewall helped make the bar, the street, and public visibility central to LGBTQ identity and politics. It also elevated the roles of street youth, drag queens, and transgender people in the resistance, though their contributions were sometimes marginalized in later mainstream narratives.\n\n- **Backlash and debate:** The new militancy provoked hostility and sometimes intensified police and political backlash. It also created internal debates over strategy, gender, race, and respectability that shaped LGBTQ politics for decades.\n\nIn short, Stonewall transformed a localized police raid into a symbol of resistance and helped launch the modern, public, militant LGBTQ liberation movement—especially through new organizations, annual Pride, and the idea that coming out and visibility were political acts.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 1019,
+  "total_tokens": 1062,
+  "cost": 0.000624429,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000624429,
+   "upstream_inference_prompt_cost": 1.3029e-05,
+   "upstream_inference_completions_cost": 0.0006114
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 521,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:15:12.816160+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

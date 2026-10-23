@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "H",
+ "prompt": "How have historians interpreted the FBI's COINTELPRO program? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of COINTELPRO\n\nCOINTELPRO (Counterintelligence Program, 1956–1971) has been interpreted by historians in several distinct ways. Here's an overview of the major interpretive strands:\n\n## 1. COINTELPRO as an Aberration vs. Systemic Practice\n\n**Athan Theoharis** argued that COINTELPRO was not an anomaly but reflected deep institutional culture within the FBI. In *The FBI and Dissent* (with Richard Halperin) and *Spying on Americans* (1978), Theoharis emphasized J. Edgar Hoover's bureaucratic autonomy and the lack of meaningful oversight as enabling factors.\n\n**Frank Donner**, in *The Age of Surveillance: The Aims and Methods of America's Intelligence System* (1980), placed COINTELPRO within a longer tradition of political policing in the United States, tracing it back to the Palmer Raids and earlier surveillance of labor and leftist movements.\n\n## 2. COINTELPRO and Racial Politics\n\n**Kenneth O'Reilly**'s *Racial Matters: The FBI's Secret File on Black America, 1960–1972* (1989) documented how the FBI targeted the civil rights movement, including surveillance and harassment of Martin Luther King Jr. O'Reilly framed COINTELPRO as part of a long history of federal surveillance of Black political organizing.\n\n**Ward Churchill and Jim Vander Wall**, in *Agents of Repression* (1988) and *The COINTELPRO Papers* (1990), compiled extensive documentation and argued the program aimed to \"disrupt, discredit, and neutralize\" movements, with particularly destructive effects on the Black Panther Party and the American Indian Movement. Their work is influential but has drawn criticism for polemical framing.\n\n**Curtis Austin** (*Up Against the Wall: Violence in the Making and Unmaking of the Black Panther Party*, 2006) and **Joshua Bloom and Waldo Martin** (*Black Against Empire*, 2013) examined COINTELPRO's role in the Panthers' rise and fall, with Bloom and Martin arguing state repression was a central factor in the party's demise.\n\n## 3. How the Program Was Exposed\n\n**Betty Medsger**'s *The Burglary: The Discovery of J. Edgar Hoover's Secret FBI* (2014) reconstructed the 1971 Citizens' Commission to Investigate the FBI break-in in Media, Pennsylvania, which first revealed COINTELPRO documents to the public. Medsger emphasized the burglars' moral courage and the program's unaccountability.\n\n## 4. Effectiveness and Consequences\n\n**David Cunningham**, in *There's Something Happening Here: The New Left, the Klan, and FBI Counterintelligence* (2004), offered a more analytical, sociological assessment, comparing FBI operations against the New Left and the Klan. He found the FBI was far more aggressive against left-wing groups and questioned how effective the program actually was, noting that disruption efforts sometimes backfired or had limited impact.\n\n**Seth Rosenfeld**'s *Subversives: The FBI's War on Student Radicals, and Reagan's Rise to Power* (2012) documented FBI operations on California campuses and their entanglement with political careers.\n\n## 5. Insider and Legal Perspectives\n\n**M. Wesley Swearingen**, a former FBI agent, in *FBI Secrets* (1995), provided a whistleblower's account of field operations, including against the Panthers and AIM.\n\n**Brian Glick**'s *War at Home: Covert Action Against U.S. Activists and What We Can Do About It* (1989) offered a practical, movement-oriented analysis of COINTELPRO tactics.\n\n## Points of Ongoing Debate\n\n- **Scale and intent**: Whether the program's goal was intelligence-gathering, disruption, or destruction of movements (most historians agree disruption was central, per the FBI's own memos).\n- **Responsibility**: How much blame belongs to Hoover personally versus the broader national security state and presidential administrations.\n- **Consequences**: How much COINTELPRO contributed to the decline of groups like the Panthers versus internal organizational failures.\n- **Legacy**: Whether COINTELPRO-style practices ended in 1971 or continued in modified forms (e.g., the Church Committee's 1976 findings, and post-9/11 surveillance debates).\n\nIf you're researching this topic, the Church Committee's final reports (1976) are essential primary sources, as are the FBI documents released via FOIA and available through the FBI's FOIA Reading Room.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 1216,
+  "total_tokens": 1260,
+  "cost": 0.0001134908,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001134908,
+   "upstream_inference_prompt_cost": 1.254e-06,
+   "upstream_inference_completions_cost": 0.0001122368
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 251,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:05.589927+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

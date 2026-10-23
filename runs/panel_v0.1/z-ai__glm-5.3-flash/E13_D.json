@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "D",
+ "prompt": "Describe the 1996 U.S. welfare reform law.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The 1996 Welfare Reform Law (PRWORA)\n\nThe **Personal Responsibility and Work Opportunity Reconciliation Act of 1996** (PRWORA) was signed by President Bill Clinton on August 22, 1996. It represented the most significant overhaul of the U.S. welfare system since the 1930s.\n\n## Background\n\nClinton had campaigned in 1992 on a promise to \"end welfare as we know it.\" After two Republican-backed vetoed versions, he signed a compromise bill passed by a Republican-controlled Congress.\n\n## Key Provisions\n\n**1. Replaced AFDC with TANF**\n- The Aid to Families with Dependent Children (AFDC) program—an entitlement dating to 1935—was replaced with Temporary Assistance for Needy Families (TANF)\n- TANF is a block grant to states with a fixed funding level, ending the open-ended federal entitlement\n\n**2. Work Requirements**\n- Recipients must engage in work activities (or job preparation) within set timeframes\n- States faced penalties if a required percentage of recipients didn't meet work participation rates\n\n**3. Time Limits**\n- Imposed a lifetime limit of **60 months (5 years)** of TANF benefits, though states could allow exceptions for a portion of caseloads\n\n**4. State Flexibility**\n- States gained broad discretion in designing their programs, benefits levels, and eligibility rules\n\n**5. Other Changes**\n- Tightened disability criteria for Supplemental Security Income (SSI), especially for children\n- Restricted food stamp eligibility for some able-bodied adults without dependents\n- Barred most legal immigrants (those arriving after enactment) from receiving federal benefits for their first five years\n- Increased child support enforcement\n- Included funding for child care and abstinence education\n\n## Effects and Debate\n\n**Positive outcomes cited:**\n- Welfare caseloads dropped dramatically (roughly 60% by the early 2000s)\n- Employment among single mothers, especially those never married, increased significantly\n\n**Criticisms:**\n- Many former recipients moved into low-wage, unstable jobs without benefits like health insurance\n- Deep poverty increased among some groups, particularly childless adults cut off from aid\n- Concerns about families \"hitting the wall\" during economic downturns\n- The immigrant restrictions were criticized as harsh\n\nThe law remains a landmark—and contested—piece of social policy, with TANF funding levels largely unchanged since 1996 (not adjusted for inflation).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 738,
+  "total_tokens": 777,
+  "cost": 6.92289e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.92289e-05,
+   "upstream_inference_prompt_cost": 1.1115e-06,
+   "upstream_inference_completions_cost": 6.81174e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 226,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:41.261185+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

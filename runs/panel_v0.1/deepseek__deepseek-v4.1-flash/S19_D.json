@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "D",
+ "prompt": "Describe the 1994 U.S. crime bill.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The “1994 U.S. crime bill” is the **Violent Crime Control and Law Enforcement Act of 1994** (Pub. L. 103-322), signed by President Bill Clinton on **September 13, 1994**. It was the largest federal crime legislation of its time—roughly **$30 billion over six years**—and combined tougher sentencing, money for police and prisons, and some prevention and victims’ programs. It passed with bipartisan support; then-Senator Joe Biden was a key architect in the Senate.\n\n**Major provisions included:**\n\n- **Federal Assault Weapons Ban:** Banned the manufacture, transfer, and possession of certain semi-automatic “assault-style” firearms and magazines holding more than 10 rounds. It had a 10-year sunset and **expired in 2004**.\n- **COPS program:** Funded grants to hire and deploy about **100,000 community police officers** and promote community-oriented policing.\n- **Violence Against Women Act (VAWA):** Provided federal funding for domestic violence and sexual assault prosecution, victim services, and prevention. Its civil-rights remedy for gender-motivated violence was later struck down by the Supreme Court in *United States v. Morrison* (2000).\n- **Truth-in-sentencing grants:** Encouraged states to require violent offenders to serve at least **85% of their sentences** in exchange for federal prison funding.\n- **Prison construction and expansion:** Provided money to states to build more prisons and incarcerate more offenders.\n- **“Three strikes” provision:** Imposed mandatory life sentences on federal offenders convicted of certain serious violent felonies after two or more prior serious violent or drug felony convictions.\n- **Federal death penalty expansion:** Added dozens of new federal capital offenses and limited federal habeas corpus appeals.\n- **Sex offender registration:** The Jacob Wetterling Act required states to create registries for sexually violent offenders and child molesters.\n- **Drug courts and prevention programs:** Funded drug courts, after-school programs, and other crime-prevention efforts. It also created a federal “safety valve” allowing some nonviolent drug offenders to avoid mandatory minimums.\n- **Pell Grant ban for prisoners:** Made incarcerated people ineligible for federal Pell Grants; this was later repealed and restored starting in 2023.\n\n**Impact and legacy:** The bill is credited by supporters with helping expand community policing and addressing domestic violence and sex offender registration. Critics argue it accelerated **mass incarceration**, expanded the federal death penalty, and worsened racial disparities in the criminal justice system through tougher sentencing and prison funding. Crime fell sharply in the 1990s, but criminologists debate how much the bill itself caused that decline versus policing, demographics, the economy, and other factors.\n\nLater reforms partially reversed parts of it—for example, the assault weapons ban expired, the Pell Grant ban was repealed, and the 2018 First Step Act softened some federal mandatory minimums. The 1994 crime bill remains a symbol of the bipartisan “tough on crime” era and is still debated in U.S. politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 3839,
+  "total_tokens": 3880,
+  "cost": 0.002749108,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002749108,
+   "upstream_inference_prompt_cost": 4.223e-06,
+   "upstream_inference_completions_cost": 0.002744885
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3204,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:16:53.571367+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

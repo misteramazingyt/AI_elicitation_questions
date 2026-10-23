@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "D",
+ "prompt": "Describe the discovery of penicillin.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The discovery of penicillin is usually credited to **Alexander Fleming** in **1928** at **St Mary’s Hospital, London**.\n\nFleming was studying **Staphylococcus aureus**, a common bacterium. Before leaving for a holiday, he left several culture plates on his laboratory bench. When he returned, one plate had been contaminated by an airborne mold. Around the mold colony, the staphylococci had been destroyed, leaving a clear, bacteria-free halo.\n\nFleming isolated the mold and identified it as a species of **Penicillium**—later identified as *Penicillium notatum* or *Penicillium chrysogenum*. He found that a broth in which the mold had grown inhibited many Gram-positive bacteria. He named the active substance **penicillin**.\n\nIn **1929**, Fleming published his findings, suggesting penicillin might be useful as an antiseptic or antibiotic. However, he could not purify it in a stable form, and the discovery remained largely a laboratory curiosity for about a decade.\n\nThe development of penicillin into a usable drug came later, mainly through the work of **Howard Florey**, **Ernst Chain**, and **Norman Heatley** at Oxford in the late 1930s and early 1940s. They purified penicillin, tested it in animals and humans, and helped enable mass production during World War II. Fleming, Florey, and Chain shared the **1945 Nobel Prize in Physiology or Medicine**.\n\nSo, while mold had been observed to kill bacteria before, Fleming’s 1928 discovery of penicillin launched the modern era of antibiotic therapy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 1450,
+  "total_tokens": 1486,
+  "cost": 0.001040458,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001040458,
+   "upstream_inference_prompt_cost": 3.708e-06,
+   "upstream_inference_completions_cost": 0.00103675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:48.601127+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

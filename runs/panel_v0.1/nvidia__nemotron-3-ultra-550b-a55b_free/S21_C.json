@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The Immigration Act of 1924 (also known as the Johnson-Reed Act) was the culmination of decades of growing restrictionist sentiment in the United States. Its passage was driven by a convergence of **racial pseudoscience, economic anxiety, political calculation, and post-war nationalism.**\n\nHere are the main causes categorized by theme:\n\n---\n\n### 1. Eugenics and \"Scientific\" Racism (The Ideological Driver)\nThis was the intellectual engine behind the specific *national origins quota system* established in 1924.\n*   **The \"Nordic\" Superiority Theory:** Influenced by Madison Grant’s *The Passing of the Great Race* (1916) and Lothrop Stoddard’s *The Rising Tide of Color Against White World-Supremacy* (1920), lawmakers and the public embraced the pseudo-scientific idea that \"Nordic\" (Northern/Western European) peoples were biologically superior to \"Alpine,\" \"Mediterranean,\" and \"Slavic\" peoples.\n*   **Fear of \"Race Suicide\":** Elites like Theodore Roosevelt and sociologists like Edward Ross warned that the higher birth rates of \"inferior\" immigrants would overwhelm the \"old stock\" Anglo-Saxon population.\n*   **Harry Laughlin & The Eugenics Record Office:** Laughlin provided \"expert testimony\" to Congress (specifically the House Committee on Immigration and Naturalization) claiming that recent immigrants (Italians, Jews, Poles, Greeks) were genetically predisposed to feeble-mindedness, insanity, and criminality. His data was fabricated or misinterpreted, but it gave Congress a veneer of scientific legitimacy for discrimination.\n\n### 2. The Shift in Immigration Sources (\"Old\" vs. \"New\" Immigrants)\n*   **Pre-1880s (\"Old Immigration\"):** Predominantly Protestant, from Britain, Ireland, Germany, and Scandinavia. Viewed as assimilable.\n*   **1880s–1920s (\"New Immigration\"):** Predominantly Catholic and Jewish, from Southern and Eastern Europe (Italy, Russia, Poland, Austria-Hungary, Greece).\n*   **The Perception of Unassimilability:** Nativists argued these new groups lived in ethnic enclaves, refused to learn English, practiced \"alien\" religions (Catholicism/Judaism), and clung to Old World customs. The **Dillingham Commission (1911)**—a massive congressional study—provided the statistical backbone for this argument, recommending literacy tests and quotas based on national origin.\n\n### 3. Economic Anxiety and Labor Conflict\n*   **Wage Depression:** Organized labor (especially the **AFL under Samuel Gompers**) argued that the massive influx of unskilled labor flooded the market, depressed wages, and broke strikes. Immigrants were often used as strikebreakers (e.g., the 1919 Steel Strike).\n*   **\"Birds of Passage\":** Many Southern/Eastern European immigrants were young men intending to earn money and return home. Critics argued they had no stake in American society, lowered living standards to save money, and sent capital out of the country (remittances).\n*   **Post-WWI Recession:** The sharp economic downturn of 1920–1921 spiked unemployment, making the \"cheap labor\" argument politically potent.\n\n### 4. Political Radicalism and the \"Red Scare\" (1919–1920)\n*   **Association with Radicalism:** The Bolshevik Revolution (1917) and a wave of anarchist bombings (1919) in the U.S. created a panic that immigrants were importing socialism, anarchism, and communism.\n*   **The Palmer Raids:** Attorney General A. Mitchell Palmer deported thousands of suspected radicals, almost exclusively immigrants from Eastern and Southern Europe.\n*   **Security Argument:** Restrictionists successfully framed immigration not just as an economic issue, but as a **national security threat**. The 1924 Act was sold as a bulwark against Bolshevism.\n\n### 5. World War I and Hyper-Nationalism\n*   **Suspicion of \"Hyphenated Americans\":** During the war, former President Roosevelt and President Wilson attacked \"hyphenated Americans\" (German-Americans, Irish-Americans) for divided loyalties.\n*   **The \"Melting Pot\" Failure:** The war shattered the belief that immigrants would automatically assimilate. The 1924 Act was partly an attempt to freeze the demographic composition of the country to ensure cultural homogeneity and loyalty in future conflicts.\n*   **End of Open Borders Practicality:** The war physically halted transatlantic migration; when it resumed in 1920–1921, numbers surged (over 800,000 in 1921), shocking a public unused to such volume after the wartime pause.\n\n### 6. The \"Asian Exclusion\" Precedent\n*   The **Chinese Exclusion Act (1882)**, **Gentlemen’s Agreement (1907)** with Japan, and the **Asiatic Barred Zone Act (1917)** had already established the principle that race/nationality could be grounds for total exclusion.\n*   The 1924 Act simply extended this logic to Europe. The **Japanese Exclusion Clause (Section 24)** explicitly barred immigrants ineligible for citizenship (i.e., Asians), destroying US-Japan relations and humiliating Tokyo.\n\n### 7. The Legislative Mechanism: The Quota Formula\nThe specific *design* of the 1924 Act was engineered to discriminate against Southern/Eastern Europeans:\n*   **The 1890 Census Baseline:** The Act set quotas at **2% of the foreign-born population residing in the U.S. as of the 1890 Census** (lowered from 3% of the 1910 Census in the Emergency Quota Act of 1921).\n*   **Why 1890?** Because the massive wave of Southern/Eastern European immigration began *after* 1890. Using the 1890 baseline ensured tiny quotas for Italy, Poland, Russia, and Greece, while granting massive quotas to Britain, Germany, and Ireland.\n*   **Total Cap:** Reduced overall immigration from ~357,000 (1921 Act) to ~165,000 (later lowered to 150,000).\n\n### 8. Political Calculus and the \"Solid South\"\n*   **Democratic Support:** The \"Solid South\" (Democratic) strongly supported restriction to maintain white supremacy and limit the political power of urban immigrant machines (which were often Republican or independent in the North).\n*   **Republican Support:** Republicans supported it to appease their labor base and nativist wing, and to weaken the urban Democratic machines (like Tammany Hall) powered by the \"new immigrant\" vote.\n*   **Lack of Opposition:** The groups most affected (recent immigrants) could not vote in large numbers yet; their US-born children were too young to vote.\n\n---\n\n### Summary: The \"Perfect Storm\"\nThe 1924 Act passed with overwhelming bipartisan majorities (House: 323–71; Senate: 69–9) because it united disparate coalitions:\n1.  **Eugenicists** wanting racial purity.\n2.  **Unions** wanting wage protection.\n3.  **Nativists/Patriots** wanting cultural homogeneity.\n4.  **Politicians** wanting to preserve the existing electoral map.\n5.  **Isolationists** wanting to retreat from global entanglements (including migration).\n\nIt remained the foundation of U.S. immigration law until the **Immigration and Nationality Act of 1965** abolished the national origins quota system.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1742,
+  "total_tokens": 1774,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 62,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:49:14.462815+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

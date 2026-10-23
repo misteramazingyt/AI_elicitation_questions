@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2011 military intervention in Libya? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "The 2011 NATO intervention in Libya (Operation Unified Protector) has generated substantial scholarly debate, though it's worth noting that because the events are so recent, much of the analysis comes from political scientists and international relations scholars rather than historians in the traditional sense. Here are the major interpretive currents:\n\n## 1. The \"Responsibility to Protect\" (R2P) lens\n\nSome scholars initially viewed the intervention as a landmark success for humanitarian norms—proof that the international community could act decisively to prevent mass atrocities. However, this interpretation eroded quickly:\n\n- **Aidan Hehir** has argued that Libya ultimately damaged R2P's credibility, showing how authorization under Resolution 1973 could be stretched beyond humanitarian limits (\"The end of the Responsibility to Protect?\" in *International Peacekeeping*, 2012, with related work later).\n- **Alex J. Bellamy** and **Paul D. Williams** documented the intervention's evolution in *Libya and the Responsibility to Protect: The Exception and the Norm* (2011), examining whether the operation adhered to R2P principles.\n\n## 2. Mission creep and regime change\n\nA dominant interpretation holds that NATO exceeded its mandate. Resolution 1973 authorized civilian protection and a no-fly zone, but critics argue the campaign became a regime-change operation:\n\n- **Alan J. Kuperman** (\"A Model Humanitarian Intervention? Reassessing Libya's National Transitional Council,\" *International Security*, 2013) argued the intervention prolonged the civil war and worsened the humanitarian outcome.\n- Several scholars noted that France, Britain, and the U.S. shifted from \"protecting civilians\" to openly seeking Qaddafi's removal—something Russian and Chinese diplomats cited in later refusals to authorize intervention in Syria.\n\n## 3. The intervention as strategic failure\n\nThe post-intervention collapse—militia warfare, the rise of ISIS presence, migration crises, and state failure—led many to treat Libya as a cautionary tale:\n\n- **Alison Pargeter**, *Libya: The Rise and Fall of Qaddafi* (2012), and her later work analyze the country's fragmentation.\n- **Frederic Wehrey**, *The Burning Shores: Inside the Battle for the New Libya* (2018), chronicles the descent into civil war.\n- Reports like the UK House of Commons **Foreign Affairs Committee report on Libya (2016)** concluded the intervention was based on flawed intelligence and inadequate post-conflict planning—a document frequently cited by scholars across positions.\n\n## 4. Defenders of the intervention\n\nSome analysts push back against the \"failure\" narrative:\n\n- **Christopher S. Chivvis**, *Toppling Qaddafi: Libya and the Limits of Liberal Intervention* (2014), offers a nuanced account arguing the intervention achieved its immediate military objectives but suffered from unrealistic expectations about post-conflict stabilization.\n- **I. William Zartman** and others have argued that Libya's collapse stemmed more from inadequate follow-up by the international community than from the intervention itself.\n\n## 5. Geopolitical and legal interpretations\n\n- Scholars of international law debate whether Resolution 1973's implementation violated its terms, and what this means for the Security Council's future willingness to authorize force.\n- **Adekeye Adebajo** and critics of NATO from the Global South perspective have emphasized African Union marginalization and neo-colonial undertones.\n- Interpretations of Obama's own retrospective view—famously calling the lack of post-intervention planning his \"worst mistake\" (reported by Jeffrey Goldberg in *The Atlantic*, \"The Obama Doctrine,\" 2016)—have shaped the historiography.\n\n## A note on citations\n\nPlease verify these citations before using them in academic work, as I may misremember publication details, and my knowledge has a cutoff date. For the most current scholarship, I'd recommend searching databases like *International Security*, *Journal of Intervention and Statebuilding*, and *International Peacekeeping*, plus the House of Commons report, which is freely available online and serves as a primary documentary source.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 877,
+  "total_tokens": 906,
+  "cost": 0.000343756,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000343756,
+   "upstream_inference_prompt_cost": 3.48e-06,
+   "upstream_inference_completions_cost": 0.000340276
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 41,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:34.483407+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

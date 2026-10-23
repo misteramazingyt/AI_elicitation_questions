@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The abolition of the slave trade and slavery in Britain was a complex and multifaceted process that occurred over several decades. The main causes can be broadly categorized into economic, social, and ideological factors.\n\n**Economic Factors:**\n\n1. **Decline of the British West Indian sugar economy**: By the late 18th century, the British West Indian sugar economy was in decline due to factors such as soil degradation, decreased productivity, and increased competition from other European colonies. This reduced the economic importance of slavery to the British economy.\n2. **Rise of industrial capitalism**: The Industrial Revolution was transforming the British economy, and the growth of industry and trade was creating new economic opportunities that were not dependent on slave labor.\n\n**Social Factors:**\n\n1. **Growing public awareness and outrage**: The horrors of the slave trade and slavery were becoming increasingly well-known to the British public through the efforts of abolitionists, such as Thomas Clarkson and Olaudah Equiano, who exposed the brutal realities of the slave trade through their writings and public speaking.\n2. **Evangelical Christianity**: The Evangelical Revival, a Christian movement that emphasized personal conversion and social justice, played a significant role in shaping public opinion against slavery. Many Evangelicals, such as William Wilberforce, were instrumental in the abolitionist movement.\n\n**Ideological Factors:**\n\n1. **Enlightenment ideas**: The Enlightenment's emphasis on reason, individual rights, and liberty helped to shape a cultural and intellectual climate that was increasingly hostile to slavery.\n2. **Abolitionist movement**: The abolitionist movement, which emerged in the late 18th century, was a key driver of the campaign to end the slave trade and slavery. Abolitionists used a range of tactics, including petitions, public meetings, and lobbying, to pressure the government to take action.\n3. **Shift in public opinion**: As the abolitionist movement gained momentum, public opinion began to shift decisively against the slave trade and slavery. By the early 19th century, there was a growing consensus that slavery was morally reprehensible and incompatible with British values.\n\n**Key Events and Milestones:**\n\n1. **Somerset's Case (1772)**: A landmark court case that ruled that slavery was not supported by English law, marking an important step towards the eventual abolition of slavery.\n2. **Abolition of the Slave Trade Act (1807)**: The British Parliament passed legislation abolishing the slave trade, effective from May 1, 1807.\n3. **Slavery Abolition Act (1833)**: The British Parliament passed legislation abolishing slavery throughout the British Empire, effective from August 1, 1834, although it included a four-year apprenticeship period for former slaves.\n4. **Emancipation (1838)**: The apprenticeship period ended, and all slaves in the British Empire were finally freed.\n\nIn summary, the abolition of the slave trade and slavery in Britain was the result of a complex interplay between economic, social, and ideological factors, driven by the efforts of abolitionists, Evangelical Christians, and a shifting public opinion.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 645,
+  "total_tokens": 678,
+  "cost": 0.00042705,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00042705,
+   "upstream_inference_prompt_cost": 6.1875e-06,
+   "upstream_inference_completions_cost": 0.0004208625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:06:49.010766+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

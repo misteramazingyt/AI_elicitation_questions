@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "D",
+ "prompt": "Describe the Kent State shootings of 1970.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The **Kent State shootings** occurred on **May 4, 1970**, at Kent State University in Kent, Ohio, when members of the **Ohio National Guard** opened fire on student protesters, killing four and wounding nine.\n\n**Context:**  \nThe protests grew out of opposition to the **U.S. invasion of Cambodia** during the Vietnam War, which President Richard Nixon announced on April 30, 1970. Campus antiwar demonstrations intensified. On May 2, protesters burned the university’s ROTC building, and Ohio Governor James A. Rhodes sent the National Guard to campus. Tensions remained high over the next two days.\n\n**The shooting:**  \nOn May 4, students gathered on the university Commons for a noon rally. Guard members ordered the crowd to disperse and used tear gas. The Guard advanced, then retreated up a hill near Taylor Hall. At about 12:24 p.m., a group of Guardsmen turned and fired. They fired **67 rounds in about 13 seconds**. The Guard later claimed they feared for their lives because of sniper fire and rock-throwing, but investigations found no credible evidence of a sniper.\n\n**The victims:**  \nFour students were killed:\n\n- **Allison Krause**, 19  \n- **Jeffrey Glenn Miller**, 20  \n- **Sandra Lee Scheuer**, 20  \n- **William Knox Schroeder**, 19  \n\nNine other students were wounded, including one who was permanently paralyzed. Not all victims were protesters; some were simply walking to class or standing nearby.\n\n**Aftermath:**  \nThe shootings triggered a nationwide student strike, with hundreds of campuses protesting and many closing. President Nixon appointed the **Commission on Campus Unrest**—the Scranton Commission—which concluded in September 1970 that the shootings were **“unnecessary, unwarranted, and inexcusable.”** No Guardsmen were criminally convicted. In 1979, Ohio reached a civil settlement paying $675,000 to victims and families.\n\nThe event became a symbol of generational and political division during the Vietnam War era. A famous photograph by John Filo showing Mary Ann Vecchio kneeling over Jeffrey Miller’s body won a Pulitzer Prize, and Neil Young’s song **“Ohio”** memorialized the killings. Ten days later, on May 14–15, 1970, two students were killed by police at **Jackson State College** in Mississippi, further deepening national outrage.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 1907,
+  "total_tokens": 1947,
+  "cost": 0.001367625,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001367625,
+   "upstream_inference_prompt_cost": 4.12e-06,
+   "upstream_inference_completions_cost": 0.001363505
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1403,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:12:29.766326+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

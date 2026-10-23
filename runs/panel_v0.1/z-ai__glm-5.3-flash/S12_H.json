@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "H",
+ "prompt": "How have historians interpreted the rise of the Moral Majority around 1980? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of the Moral Majority's Rise\n\nThe Moral Majority, founded by Jerry Falwell in 1979, has been interpreted through several distinct scholarly lenses. Here's an overview of the major interpretive traditions:\n\n## 1. The \"Backlash\" Thesis\n\nEarly interpretations framed the New Christian Right as a reactionary response to the social upheavals of the 1960s and 1970s—feminism, gay rights, school desegregation, and the sexual revolution.\n\n- **Sara Diamond** (*Spiritual Warfare: The Politics of the Christian Right*, 1989; *Roads to Dominion*, 1995) analyzed the movement as part of a broader right-wing project to restore cultural and economic dominance.\n- **Kevin Phillips** (*Post-Conservative America*, 1982) and journalists of the era treated it as a backlash against secular liberalism.\n\n## 2. Economic and Class-Based Explanations\n\nSome scholars emphasized material interests over cultural anxiety:\n\n- **Sara Diamond** and **Matthew Moen** (\"Christian Evolution Toward the Republican Party,\" *Review of Religious Research*, 1992) noted how evangelical leaders aligned with Republican economic agendas.\n- **Thomas Edsall** (*The New Politics of Inequality*, 1984) linked evangelical mobilization to broader anti-tax, anti-regulation politics.\n\n## 3. The \"Status Anxiety\" / Secularization Thesis\n\n- **Robert Wuthnow** (*The Restructuring of American Religion*, 1988) argued the key cleavage in American religion was no longer denominational but between liberal and conservative religious camps, driven by educational and professional status changes.\n- **James Davison Hunter** (*Evangelicalism: The Coming Generation*, 1987; *Culture Wars*, 1991) placed the movement within a broader \"culture wars\" framework of orthodoxy versus progressivism.\n\n## 4. Revisionist/Grassroots Interpretations\n\nMore recent scholarship has challenged top-down or purely reactive accounts, emphasizing longer historical trajectories and local activism:\n\n- **Daniel K. Williams** (*God's Own Party: The Making of the Christian Right*, 2010) traced the Christian Right's origins to conservative evangelical politics dating back decades, including anti-communism and school prayer battles—not merely a 1970s backlash.\n- **Matthew Sutton** (*Aimee Semple McPherson and the Resurrection of Christian America*, 2007; *American Apocalypse*, 2014) connected evangelical political engagement to longer apocalyptic and cultural traditions.\n- **Neil J. Young** (*We Gather Together: The Religious Right and the Problem of Interfaith Politics*, 2016) emphasized anti-Catholic and interfaith tensions, showing the movement was more complicated than a simple evangelical-Catholic alliance.\n- **Randall Balmer** (*Thy Kingdom Come*, 2006; and his influential 2006 article \"The Real Origins of the Religious Right,\" *Politico*, 2014) controversially argued that the movement's true catalyst was defense of tax exemptions for segregated Christian schools (e.g., Bob Jones University), with abortion becoming a later rallying issue.\n- **Axel Schäfer** (*Countercultural Conservatives*, 2011) examined how evangelical engagement with 1960s pluralism shaped their politics.\n\n## 5. Political Science Approaches\n\n- **Robert C. Liebman and Robert Wuthnow**, eds. (*The New Christian Right*, 1983) offered early social-scientific assessments of mobilization.\n- **Matthew Moen** (\"The Christian Right and Congress,\" and subsequent work) analyzed institutional strategies.\n- **Michael Lienesch** (*Redeeming America*, 1993) explored the movement's millennialist and populist rhetoric.\n\n## Points of Scholarly Consensus and Debate\n\n- **Consensus**: The movement was a genuine grassroots phenomenon, not purely astroturf; it drew on pre-existing evangelical networks (churches, radio, Christian schools).\n- **Debates**: Whether it was primarily *reactive* (backlash) or *proactive* (long-term agenda); whether abortion or race/school desegregation was the true catalyst; and how much credit Falwell and national leaders deserve versus local organizers and direct-mail operatives like Richard Viguerie.\n\n## Key Primary Sources\n\n- Jerry Falwell, *Listen, America!* (1980)\n- Richard Viguerie's direct-mail literature and *New Right* papers\n- Paul Weyrich's strategy memos (archived at various conservative foundations)\n\nIf you're writing a paper, **Daniel K. Williams's *God's Own Party* (2010)** is probably the best single synthesis, and **Balmer's tax-exemption thesis** versus **Williams's broader narrative** represents the liveliest current historiographical debate.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 1032,
+  "total_tokens": 1078,
+  "cost": 9.65646e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.65646e-05,
+   "upstream_inference_prompt_cost": 1.311e-06,
+   "upstream_inference_completions_cost": 9.52536e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 32,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:17.955216+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "C",
+ "prompt": "What were the main causes of the 2003 U.S.-led invasion of Iraq?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 2003 U.S.-led invasion of Iraq was a complex event with multiple factors contributing to its occurrence. The main causes can be summarized as follows:\n\n1. **Perceived threat from Iraq's WMD programs**: The U.S. government, particularly the Bush administration, believed that Iraq possessed or was developing weapons of mass destruction (WMDs), including nuclear, chemical, and biological weapons. This perception was based on intelligence reports, some of which were later found to be inaccurate or exaggerated.\n2. **Iraq's non-compliance with UN resolutions**: Iraq had failed to comply with several United Nations Security Council resolutions, including Resolution 687 (1991) and Resolution 1441 (2002), which required Iraq to disarm and allow UN inspectors to verify its compliance. The U.S. and its allies saw Iraq's non-compliance as a threat to regional stability and international security.\n3. **Link to terrorism and Al-Qaeda**: The Bush administration claimed that Iraq had ties to terrorist organizations, including Al-Qaeda, and that Saddam Hussein's regime was supporting or harboring terrorists. Although the evidence for this link was later disputed, it was a significant factor in the decision to invade.\n4. **Regional stability and regime change**: The U.S. government sought to remove Saddam Hussein from power, citing his authoritarian and brutal rule, as well as his history of aggression against neighboring countries, including Iran and Kuwait. The goal was to promote democracy and stability in the region.\n5. **Strategic interests and oil**: Iraq's significant oil reserves and strategic location in the Middle East were also considered important factors. The U.S. government saw an opportunity to secure access to Iraq's oil resources and to establish a more stable and pro-American government in the region.\n6. **Neo-conservative ideology and influence**: The Bush administration was influenced by neo-conservative thinkers, such as Paul Wolfowitz and Richard Perle, who advocated for a more assertive and interventionist U.S. foreign policy. They saw the invasion of Iraq as an opportunity to demonstrate U.S. military power and to reshape the Middle East in a more favorable direction.\n\nThese factors, combined with a complex interplay of domestic politics, international diplomacy, and intelligence assessments, ultimately led to the decision to invade Iraq in March 2003.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 473,
+  "total_tokens": 501,
+  "cost": 0.0003138825,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003138825,
+   "upstream_inference_prompt_cost": 5.25e-06,
+   "upstream_inference_completions_cost": 0.0003086325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:23.132446+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

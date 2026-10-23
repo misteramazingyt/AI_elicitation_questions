@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "D",
+ "prompt": "Describe Britain's abolition of the slave trade and slavery (1807-1838).",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Britain's Abolition of the Slave Trade and Slavery (1807–1838)\n\n## Abolition of the Slave Trade (1807)\n\nBritain's Slave Trade Act received royal assent in March 1807, making it illegal to carry enslaved people in British ships. The act took effect on 1 May 1807. This followed decades of campaigning by abolitionists such as William Wilberforce, Thomas Clarkson, Granville Sharp, and the Quaker-led movement, supported by mass petitions and public boycotts of sugar. The 1788 Dolben Act regulating slave ship conditions and the 1796 failed abolition bill were earlier steps. The 1807 act was passed with strong support from both major parties, partly aided by shifting wartime politics and the declining influence of West Indian interests.\n\nEnforcement was imperfect: illegal slaving continued, and Britain later deployed the West Africa Squadron of the Royal Navy (from 1808) to intercept slave ships, eventually freeing tens of thousands of captives. Britain also pressed other nations to abandon the trade through treaties, though the trade persisted internationally for decades.\n\n## Abolition of Slavery Itself (1833)\n\nEnding the trade did not end slavery in the British Empire, where hundreds of thousands remained enslaved, especially in the Caribbean. The Slavery Abolition Act, passed in August 1833 under the Whig government of Lord Grey (championed by Thomas Fowell Buxton and ministers like Lord Stanley), took effect on 1 August 1834. It emancipated enslaved people throughout most of the British Empire, with exceptions for territories of the East India Company, Ceylon, and Saint Helena.\n\nKey features:\n- **Apprenticeship system**: Formerly enslaved people were required to work unpaid as \"apprentices\" for up to six years (field laborers until 1840, others until 1838), supposedly to prepare them for freedom.\n- **Compensation to slave owners**: £20 million (about 40% of the Treasury's annual budget) was paid to slave owners as compensation for their \"property.\" Enslaved people received nothing.\n\n## Full Emancipation (1838)\n\nThe apprenticeship system proved deeply unpopular and widely abused, provoking protests and unrest, notably the 1837–38 Jamaican campaign led by figures like Samuel Ringgold Ward and local Baptist ministers, and resistance across the islands. Under pressure, Parliament ended apprenticeship early: it was abolished on **1 August 1838** in the Caribbean, Mauritius, and Cape Colony, granting full free status to around 800,000 people.\n\n## Significance and Legacy\n\n- Britain positioned itself as a global anti-slavery power, using diplomacy and naval power against the Atlantic and other slave trades.\n- The compensation records (released in 2013) revealed how deeply British wealth and institutions, including elite families, were tied to slave ownership.\n- Formerly enslaved people received no reparations, and post-emancipation societies remained marked by racial and economic inequality, with plantation labor systems persisting through wage labor and indentured workers imported from India and elsewhere.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 1050,
+  "total_tokens": 1095,
+  "cost": 9.81975e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.81975e-05,
+   "upstream_inference_prompt_cost": 1.2825e-06,
+   "upstream_inference_completions_cost": 9.6915e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 411,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:20.761203+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

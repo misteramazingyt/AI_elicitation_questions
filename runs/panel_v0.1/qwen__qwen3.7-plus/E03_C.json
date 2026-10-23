@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "C",
+ "prompt": "What were the main causes of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The famine in Soviet Ukraine in 1932–1933, known in Ukraine as the **Holodomor**, was a catastrophic event that resulted in the deaths of millions of people. While a minor drought occurred in 1931 and 1932, mainstream historians universally agree that the famine was primarily man-made, resulting directly from the radical economic and social policies implemented by Joseph Stalin and the Soviet government. \n\nThe main causes of the famine include:\n\n**1. Forced Collectivization**\nIn the late 1920s, Stalin abandoned the New Economic Policy (NEP) and initiated the forced collectivization of agriculture. Independent peasant farms were consolidated into state-controlled collective farms (*kolkhozes*). This abrupt disruption of traditional farming practices, combined with peasant resistance (which included the slaughter of their own livestock rather than handing it over to the state), led to a massive drop in agricultural productivity and livestock numbers.\n\n**2. \"Dekulakization\"**\nAs part of collectivization, the Soviet state launched a campaign to eliminate the \"kulaks\" (wealthy peasants). In practice, the label was applied broadly to any successful farmer or anyone who resisted collectivization. Millions of \"kulaks\" were executed, imprisoned in the Gulag, or deported to remote regions of the Soviet Union. This removed a significant portion of the most experienced, productive, and industrious farmers from the Ukrainian countryside, severely crippling agricultural output.\n\n**3. Impossibly High Grain Procurement Quotas**\nTo fund rapid industrialization and feed growing Soviet cities, the state imposed impossibly high grain procurement quotas on Ukraine. When Ukrainian peasants could not meet these unrealistic targets due to poor harvests and disrupted farming, Soviet brigades were sent into villages to confiscate not only grain but also seeds, vegetables, and livestock. This left the rural population with absolutely no food reserves.\n\n**4. Repressive Laws and \"Blacklisting\"**\nTo enforce the quotas, the Soviet government implemented draconian measures:\n*   **The \"Law of Spikelets\" (August 1932):** This law criminalized the gleaning of leftover crops from collective fields. Anyone caught taking even a small amount of food to survive faced execution or a minimum of ten years in a forced labor camp.\n*   **Blacklisting (*Chorni doshky*):** Villages that failed to meet grain quotas were placed on \"black boards.\" These villages were completely blockaded by Soviet authorities; all trade was halted, goods were removed from local stores, and the population was trapped without food or supplies.\n\n**5. Restriction of Movement**\nNormally, during famines, peasants would flee to cities or other regions in search of food. However, in early 1933, Stalin and Vyacheslav Molotov signed a secret directive preventing peasants from leaving Ukraine and the Kuban region (an area in Russia with a large Ukrainian population). The internal passport system was tightened, and military cordons were set up around affected areas to trap the starving population.\n\n**6. Continued Grain Exports**\nEven as the famine reached its peak in 1933, the Soviet government continued to export grain abroad. The state prioritized earning foreign currency to import industrial machinery for its Five-Year Plans over feeding its own starving population. Furthermore, the Soviet government denied the existence of the famine and rejected offers of international humanitarian aid.\n\n**Historiographical Debate on Intent**\nWhile the *causes* of the famine (the policies listed above) are established historical facts, the *intent* behind them remains a subject of historical and political debate:\n*   **The Genocide View:** Many historians, the Ukrainian government, and numerous other nations and international bodies classify the Holodomor as a genocide. They argue that Stalin specifically weaponized the famine to crush the Ukrainian peasantry, which was seen as a bastion of Ukrainian national identity and resistance to Soviet rule, pointing to the specific, harsher measures applied in Ukraine compared to other regions.\n*   **The Class Crime/Policy View:** Other historians argue that while the policies were brutal and callous, the famine was not a targeted ethnic extermination. They point out that similar policies and devastating famines occurred simultaneously in other grain-producing regions of the Soviet Union, such as southern Russia and Kazakhstan (the Asharshylyk), suggesting the famine was a broader crime against the peasantry driven by ideological zeal and the ruthless pursuit of industrialization, rather than a specific attempt to eliminate Ukrainians as an ethnic group. \n\nRegardless of the debate over classification, the policies enacted by the Soviet state between 1932 and 1933 directly caused the deaths of an estimated 3.5 to 7 million Ukrainians.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 2555,
+  "total_tokens": 2588,
+  "cost": 0.00328096,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00328096,
+   "upstream_inference_prompt_cost": 1.056e-05,
+   "upstream_inference_completions_cost": 0.0032704
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1570,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:20:38.098382+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

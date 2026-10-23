@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "D",
+ "prompt": "Describe the rise of the Moral Majority around 1980.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "CoreWeave",
+ "response": "The Moral Majority was founded in 1979 by the Rev. Jerry Falwell, a prominent Baptist pastor and televangelist, along with conservative political strategists such as Paul Weyrich and Ed McAteer. It became one of the most visible organizations of the “New Christian Right” and rose rapidly to national prominence around the 1980 election.\n\nIts rise grew out of conservative evangelical discontent with the cultural and legal changes of the 1960s and 1970s. Many activists were alarmed by Supreme Court decisions banning official school prayer, the 1973 *Roe v. Wade* abortion ruling, the Equal Rights Amendment, the growth of the gay rights movement, the sexual revolution, and IRS scrutiny of Christian schools’ tax-exempt status. Falwell’s already large television audience on *The Old-Time Gospel Hour* gave the movement a national platform.\n\nThe Moral Majority was not a traditional membership organization so much as a political action and lobbying network. It used direct mail, televangelism, church networks, state chapters, voter-registration drives, and “moral report cards” on candidates. It claimed millions of members by 1980. Its agenda was broadly “pro-family” and conservative: opposition to abortion and the ERA, support for school prayer, hostility to pornography and gay rights, and strong anti-communist and pro-Israel foreign-policy positions.\n\nIn the 1980 election, the Moral Majority helped mobilize conservative white evangelicals, especially in the South and Midwest, behind Ronald Reagan and Republican Senate candidates. Reagan’s August 1980 speech to a Dallas gathering of religious conservatives—where he said, “I know you can’t endorse me, but I endorse you”—symbolized the emerging alliance between the Republican Party and the religious right. The group helped defeat several liberal Democratic senators and contributed to the Republican takeover of the Senate. It also pushed the GOP platform toward more explicitly pro-life and socially conservative positions.\n\nThe Moral Majority’s influence peaked in the early 1980s. It faced financial problems, internal disputes, and criticism that it was mixing religion and partisan politics. Falwell dissolved the organization in 1989. Its legacy was substantial: it helped make white evangelical Christians a core Republican constituency, intensified the “culture wars,” and paved the way for later groups such as Pat Robertson’s Christian Coalition.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 3058,
+  "total_tokens": 3100,
+  "cost": 0.001994,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001994,
+   "upstream_inference_prompt_cost": 6.3e-06,
+   "upstream_inference_completions_cost": 0.0019877
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2581,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:15:22.172027+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

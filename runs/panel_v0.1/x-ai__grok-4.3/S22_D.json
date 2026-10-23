@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "D",
+ "prompt": "Describe the Immigration and Nationality Act of 1965.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Immigration and Nationality Act of 1965, also known as the Hart-Celler Act, was signed into law by President Lyndon B. Johnson on October 3, 1965. It fundamentally reformed U.S. immigration policy by abolishing the national origins quota system established in the 1920s (and retained in the 1952 McCarran-Walter Act), which had heavily favored immigrants from Northern and Western Europe while severely restricting those from Asia, Southern/Eastern Europe, and elsewhere.\n\n### Key Provisions\n- **Replaced quotas with a preference system**: It introduced a seven-category preference framework prioritizing family reunification (about 74% of visas) and employment-based skills (about 20%), with smaller allocations for refugees and other categories. Immediate relatives of U.S. citizens were exempt from numerical limits.\n- **Numerical ceilings**: Set an annual limit of 170,000 immigrants from the Eastern Hemisphere (with a per-country cap of 20,000) and 120,000 from the Western Hemisphere (initially without per-country caps, though later adjusted). These replaced the earlier country-specific quotas.\n- **Labor certification**: Required employers to certify that hiring foreign workers would not adversely affect U.S. workers' wages or conditions.\n- **Other changes**: Phased out the Asia-Pacific Triangle restrictions and addressed some refugee admissions, though comprehensive refugee policy came later with the 1980 Refugee Act.\n\n### Impacts\nThe Act dramatically shifted immigration patterns. Prior to 1965, most immigrants came from Europe; afterward, inflows surged from Asia, Latin America, and Africa, leading to greater ethnic and racial diversity in the U.S. population. It also contributed to overall higher immigration levels over time, as family-based chains expanded. However, it did not eliminate all restrictions and has been amended multiple times since (e.g., by the 1990 Immigration Act).\n\nThe law is often credited with modernizing U.S. immigration toward skills and family ties rather than national origin, though critics note it underestimated the scale of chain migration. For the full text, refer to Public Law 89-236.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 203,
+  "completion_tokens": 747,
+  "total_tokens": 950,
+  "cost": 0.00198685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00198685,
+   "upstream_inference_prompt_cost": 0.00011935,
+   "upstream_inference_completions_cost": 0.0018675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 323,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:03.582444+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

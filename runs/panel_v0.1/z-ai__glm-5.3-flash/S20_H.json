@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "H",
+ "prompt": "How have historians interpreted the U.S. War on Drugs from 1971 to the 1990s? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of the U.S. War on Drugs (1971–1990s)\n\nHistorians have interpreted the War on Drugs through several major lenses. Below is an overview of the main interpretive schools, with representative sources.\n\n## 1. Race and Social Control\n\nA dominant interpretation frames the drug war as a continuation of racialized social control, linking it to earlier episodes like anti-Chinese opium laws, anti-Mexican marijuana campaigns, and post-Reconstruction Black Codes.\n\n- **Michelle Alexander**, *The New Jim Crow: Mass Incarceration in the Age of Colorblindness* (2010) — Argues the drug war created a racial caste system through mass incarceration, though Alexander is a legal scholar rather than a historian.\n- **Khalil Gibran Muhammad**, *The Condemnation of Blackness* (2010) — Traces how crime statistics became racialized in ways that shaped drug policy.\n- **Elizabeth Hinton**, *From the War on Poverty to the War on Crime* (2016) — Argues the carceral state's origins predate Nixon, beginning with liberal policymakers in the 1960s.\n\n## 2. Political Strategy and Partisan Realignment\n\nAnother school emphasizes the drug war as electoral and political strategy.\n\n- **Dan Baum**, *Smoke and Mirrors: The War on Drugs and the Politics of Failure* (1996) — A journalistic history arguing politicians of both parties escalated the drug war for electoral gain; popularized the (later disputed) claim that Nixon aide John Ehrlichman described targeting \"the antiwar left and black people.\"\n- **Julian Zelizer** and other political historians have examined how crime and drug issues fueled conservative realignment from Nixon through Reagan.\n- **Matthew Lassiter**, \"Impossible Criminals: The Suburban Imperatives of American Drug War Policy\" (*Journal of American History*, 2010) — Argues the drug war was driven by suburban political culture rather than urban \"crack\" panic alone.\n\n## 3. The Carceral State and Policy Failure\n\n- **Marc Mauer**, *Race to Incarcerate* (1999) — Documents the explosion of incarceration rates and critiques mandatory minimums and sentencing disparities (e.g., the 100:1 crack/powder cocaine ratio).\n- **Michael Tonry**, *Malign Neglect: Race, Crime, and Punishment in America* (1995) — Argues policymakers knowingly pursued policies with foreseeable racially disparate effects.\n- **David Musto**, *The American Disease: Origins of Narcotic Control* (3rd ed., 1999) — The foundational historical study of U.S. drug policy, emphasizing moral panics and cycles of prohibition.\n\n## 4. International and Imperial Dimensions\n\n- **William McAllister**, *Drug Diplomacy in the Twentieth Century* (2000) — Examines U.S. efforts to internationalize drug control.\n- **Kathleen Frydl**, *The Drug Wars in America, 1940–1973* (2013) — Frames drug control as an extension of state-building and fiscal policy.\n- **Peter Andreas**, *Border Games* (2009) — Analyzes the drug war's role in U.S.–Mexico relations and the politics of border enforcement.\n\n## 5. Reagan-Era Escalation and the Crack Era\n\n- Historians widely interpret the 1980s escalation—driven by crack cocaine, media coverage, and the Anti-Drug Abuse Acts of 1986 and 1988—as the decisive turning point. **Craig Reinarman and Harry Levine**, eds., *Crack in America* (1997), analyze the \"crack scare\" as a media-driven moral panic.\n- **Donna Murch**, *Crack in Los Angeles* (2021), situates the crack era in urban political economy and the CIA-contra controversy.\n\n## Points of Scholarly Debate\n\n1. **Intent vs. effect**: Was the drug war deliberately racist (Alexander, Baum) or did racial disparity result from facially neutral policies (Lassiter, Frydl)?\n2. **Origins**: Liberal (Hinton) vs. conservative (Zelizer) responsibility for the carceral turn.\n3. **Continuity**: Whether the drug war represents a break from or continuation of earlier drug control regimes (Musto's cyclical model vs. Hinton's longer arc).\n\n**A caveat**: I've cited these works from memory; you should verify publication details and page-specific claims before using them in academic work. For a synthetic overview, Hinton's and Frydl's books, along with review essays in the *Journal of American History*, are good starting points.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 54,
+  "completion_tokens": 1061,
+  "total_tokens": 1115,
+  "cost": 9.94693e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 9.94693e-05,
+   "upstream_inference_prompt_cost": 1.539e-06,
+   "upstream_inference_completions_cost": 9.79303e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 87,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:38.346650+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "D",
+ "prompt": "Describe the UK miners' strike of 1984-1985.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Sail Research",
+ "response": "The UK miners’ strike of 1984–85 was one of the longest and most bitter industrial disputes in British history. It pitted the National Union of Mineworkers (NUM), led by Arthur Scargill, against the National Coal Board (NCB) and Margaret Thatcher’s Conservative government.\n\n**Causes**  \nThe dispute began over pit closures. In March 1984, the NCB announced plans to close around 20 coal mines and cut about 20,000 jobs. The NUM feared this was the start of a much larger secret programme to close many more pits and destroy mining communities. The immediate trigger was the announcement of closure at Cortonwood Colliery in South Yorkshire, and miners there walked out on 6 March 1984. The strike soon spread across most coalfields.\n\n**Course of the strike**  \nThe NUM called the strike without holding a national ballot, arguing it was a defensive action against unannounced closures. This was highly controversial and contributed to deep divisions. Nottinghamshire and some other coalfields largely continued working; those miners later formed the breakaway Union of Democratic Mineworkers (UDM). The strike was strongest in Yorkshire, Scotland, Wales, Durham, Kent and other areas.\n\nFlying pickets tried to spread the strike, and mass picketing led to violent clashes with police. The most famous was the “Battle of Orgreave” on 18 June 1984, outside a coking plant in South Yorkshire, where thousands of pickets and police confronted each other. The government prepared by stockpiling coal, using oil and imported coal, and coordinating police forces nationally. Courts fined the NUM and eventually sequestrated its assets after the strike was ruled unlawful because it lacked a national ballot.\n\nMiners’ families suffered severe hardship. Support groups, especially Women Against Pit Closures, organised soup kitchens, fundraising and solidarity campaigns. The strike also attracted wider support from gay and lesbian groups, students and other unions, but it was not enough to force the government to back down.\n\n**End and aftermath**  \nBy early 1985, many miners had already returned to work, and the NUM’s funds were exhausted. On 3 March 1985, an NUM conference voted to end the strike without a negotiated settlement. The miners returned to work in defeat.\n\nThe consequences were profound. Pit closures accelerated, the NUM’s power was broken, and the UDM gained recognition. Mining communities suffered long-term unemployment, poverty and social decline. The strike is widely seen as a turning point in British industrial relations: a major defeat for the trade union movement and a victory for Thatcher’s policies of reducing union power, cutting state subsidies and restructuring the coal industry. It remains a highly symbolic and contested event in British political and social history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 4000,
+  "total_tokens": 4044,
+  "cost": 0.00100396,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00100396,
+   "upstream_inference_prompt_cost": 3.96e-06,
+   "upstream_inference_completions_cost": 0.001
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3432,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:56.507894+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

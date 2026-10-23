@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "D",
+ "prompt": "Describe the Black Death in fourteenth-century Europe.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Black Death, one of the most devastating pandemics in human history, ravaged fourteenth-century Europe, leaving an indelible mark on the social, economic, and cultural fabric of the continent. Here's a comprehensive overview of this catastrophic event:\n\n**Causes and Spread (1347-1353)**\n\nThe Black Death is believed to have originated in Central Asia, where the bubonic plague bacterium (Yersinia pestis) was transmitted to humans through the bites of infected fleas that lived on rats and other rodents. The disease spread rapidly along trade routes, reaching Europe via merchant ships that sailed from the Black Sea port of Kaffa (modern-day Feodosiya, Ukraine) to Mediterranean ports, such as Genoa, Italy.\n\nThe plague arrived in Europe in 1347, and within a few years, it had spread to almost every region, including England, France, Germany, Italy, and Scandinavia. The disease was highly contagious and spread quickly, often through direct contact with infected bodily fluids, such as blood, pus, or respiratory droplets.\n\n**Symptoms and Mortality**\n\nThe symptoms of the plague were gruesome and terrifying. Infected individuals often experienced:\n\n1. Swollen lymph nodes, or \"buboes,\" in the groin, armpits, or neck, which turned black and burst, releasing pus.\n2. Fever, chills, and weakness.\n3. Painful swelling and inflammation.\n4. Respiratory distress, including coughing and difficulty breathing.\n\nThe mortality rate was staggering, with estimates suggesting that between 30% to 60% of Europe's population perished, which translates to approximately 75 to 200 million people. The plague was particularly deadly in urban areas, where poor sanitation, overcrowding, and lack of medical care exacerbated the spread of the disease.\n\n**Social and Economic Consequences**\n\nThe Black Death had far-reaching consequences for European society and economy:\n\n1. **Demographic collapse**: The massive loss of life led to a significant decline in population, which, in turn, caused labor shortages, changes in the feudal system, and a shift in the balance of power between laborers and landowners.\n2. **Economic disruption**: The plague disrupted trade, commerce, and agriculture, leading to economic instability and inflation.\n3. **Social unrest**: The trauma and disruption caused by the plague led to increased social tension, persecution of minority groups (such as Jews), and a rise in violence and lawlessness.\n4. **Cultural and psychological impact**: The plague had a profound impact on European culture, leading to increased religiosity, a sense of mortality, and a fascination with death and the afterlife.\n\n**Long-term Consequences**\n\nThe Black Death had a lasting impact on European society, contributing to:\n\n1. **Changes in the feudal system**: The labor shortages caused by the plague led to the decline of the feudal system and the rise of a wage-based economy.\n2. **Increased social mobility**: The shortage of labor created opportunities for social mobility, as workers were able to negotiate better wages and working conditions.\n3. **Advances in medicine and public health**: The plague led to significant advances in medical knowledge, public health practices, and the development of quarantine and sanitation measures.\n\nIn conclusion, the Black Death was a catastrophic event that ravaged fourteenth-century Europe, causing widespread death, social disruption, and economic upheaval. Its impact was felt for centuries, shaping the course of European history and leaving a lasting legacy in the social, economic, and cultural fabric of the continent.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 721,
+  "total_tokens": 741,
+  "cost": 0.0004742025,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004742025,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.0004704525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:55.160871+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The 1984–1985 UK miners' strike was a pivotal moment in modern British history. Its consequences were profound, reshaping the political landscape, the economy, industrial relations, and the social fabric of mining communities. The strike ended in a decisive victory for the Conservative government of Margaret Thatcher and a catastrophic defeat for the National Union of Mineworkers (NUM).\n\nHere is a detailed breakdown of the consequences:\n\n### 1. The Collapse of the Mining Industry\n*   **Accelerated Pit Closures:** Before the strike, the National Coal Board (NCB) planned to close 20 pits (approx. 20,000 jobs). After the strike, the closure program accelerated drastically. By 1994, when the industry was privatized, only a handful of deep mines remained. The workforce shrank from **~187,000 (1984)** to **~7,000 (1994)**.\n*   **Privatization (1994):** The strike broke the NUM's power to resist the breakup of the state-owned industry. British Coal was privatized in 1994, effectively ending deep coal mining as a major national industry.\n*   **Loss of Energy Security:** The UK shifted from energy self-sufficiency (coal) to reliance on imported coal, gas, and later renewables/nuclear.\n\n### 2. Transformation of Industrial Relations & Trade Union Power\n*   **Legal Restrictions:** The government used the strike to justify further anti-union legislation.\n    *   **Trade Union Act 1984:** Made secret ballots mandatory for strikes.\n    *   **Trade Union Act 1988:** Further restricted secondary picketing and strengthened members' rights against unions.\n    *   **Employment Acts (1988, 1990):** Removed union immunities from civil liability for damages caused by unofficial strikes; made pre-strike ballots a legal requirement.\n*   **Decline in Union Density:** Union membership plummeted from **~13 million (1979)** to **~9 million (1995)**. The \"closed shop\" (mandatory union membership) was effectively outlawed.\n*   **Shift in Power:** The strike marked the end of the post-war consensus where unions were \"social partners.\" It established a new paradigm of **management prerogative**, flexible labor markets, and individual employment contracts over collective bargaining.\n\n### 3. Political Consequences\n*   **Thatcher’s Consolidation of Power:** The victory cemented Margaret Thatcher’s authority within the Conservative Party and the country. It proved the state could defeat the most powerful union, emboldening her government to pursue radical free-market reforms (Big Bang financial deregulation, council house sales, poll tax).\n*   **Crisis in the Labour Party:** The strike exposed deep divisions between the Labour leadership (Neil Kinnock), the trade union block vote, and the hard left (Arthur Scargill/NUM).\n    *   Kinnock’s refusal to fully endorse the strike (due to the lack of a national ballot) alienated the left but began the long process of \"modernizing\" Labour, culminating in **New Labour** under Blair (Clause IV revision, distancing from unions).\n*   **Decline of the \"Old Left\":** The defeat discredited the syndicalist/insurrectionary strategy of Arthur Scargill (using industrial action to bring down a government). The NUM split, leading to the formation of the breakaway **Union of Democratic Mineworkers (UDM)** in Nottinghamshire.\n\n### 4. Social & Community Devastation\n*   **Economic Deprivation:** Mining villages suffered catastrophic unemployment (often 30–50% male unemployment). The \"just transition\" promised by governments never materialized at scale. Many areas remain among the **most deprived in the UK** today (high rates of long-term sickness, disability benefits, low life expectancy).\n*   **Community Fracture:** The strike caused deep, lasting divisions—**“scabs” vs. “strikers”**—that split families, friendships, and entire villages (especially in Nottinghamshire vs. Yorkshire/South Wales). Social trust eroded; community institutions (working men's clubs, brass bands, welfare halls) collapsed due to loss of funding and membership.\n*   **Health Impacts:** Studies show long-term health consequences in former coalfields: higher rates of mental illness (depression, PTSD), respiratory diseases, and \"deaths of despair\" (suicide, substance abuse) linked to the sudden loss of identity and work.\n*   **Policing and Civil Liberties:**\n    *   **Militarization of Policing:** The strike saw the first mass deployment of riot police (PSUs), systematic roadblocks (\"stopping flying pickets\"), and intelligence gathering on citizens.\n    *   **Orgreave:** The \"Battle of Orgreave\" (June 1984) became a symbol of police brutality and state violence. The subsequent collapse of prosecutions against miners and the lack of accountability for police actions damaged trust in the justice system for decades (leading to the 2017 Orgreave Truth and Justice Campaign).\n    *   **Welfare State Weaponization:** The government changed social security rules to deny benefits to strikers' families (forcing reliance on soup kitchens and food parcels), a tactic later cited as a precedent for welfare conditionality.\n\n### 5. Cultural & Gender Shifts\n*   **Women’s Activism:** **Women Against Pit Closures (WAPC)** emerged as a powerful political force. Women ran support kitchens, spoke at rallies, picketed, and organized internationally. This politicized a generation of working-class women, many of whom entered local politics, trade unionism, or academia afterward.\n*   **Cultural Legacy:** The strike inspired a vast body of work: films (*Billy Elliot*, *Brassed Off*, *Pride*), music (The Miners' Hymns, Billy Bragg, Chumbawamba), literature, and art. It remains the defining cultural touchstone for the British industrial working class.\n\n### 6. Environmental Consequences (Unintended)\n*   **The \"Dash for Gas\":** With the NUM broken, the government privatized the electricity industry (1990). This triggered the **\"Dash for Gas\"**—a rapid switch from coal to North Sea gas for power generation.\n*   **Emissions Drop:** This accidentally caused a sharp drop in UK CO2 emissions in the 1990s, helping the UK meet early Kyoto Protocol targets, though it increased reliance on fossil gas imports.\n\n### Summary: The \"Before and After\"\n| Feature | Pre-Strike (Early 1984) | Post-Strike (Mid 1990s) |\n| :--- | :--- | :--- |\n| **Deep Mines** | ~170 | < 20 (0 today) |\n| **Miners Employed** | ~187,000 | ~7,000 (0 deep miners today) |\n| **NUM Membership** | ~180,000 | < 1,000 |\n| **Union Power** | Veto on energy/industrial policy | Marginalized; legal constraints |\n| **Coalfields** | Working communities | Deprived \"left-behind\" areas |\n\n**In short:** The strike broke the organized power of the British working class, enabled the neoliberal restructuring of the UK economy, and left a legacy of regional inequality and social trauma in the coalfields that persists 40 years later.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 1744,
+  "total_tokens": 1782,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 124,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:46:02.613733+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

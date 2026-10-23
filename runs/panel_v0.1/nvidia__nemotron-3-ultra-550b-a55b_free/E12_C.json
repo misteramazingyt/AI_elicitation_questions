@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "C",
+ "prompt": "What were the main causes of Argentina's 2001 economic crisis?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "Argentina’s 2001 economic crisis (often called the *Corralito* or the *Great Depression of Argentina*) was the result of a **decade-long accumulation of structural vulnerabilities** triggered by **external shocks** and exacerbated by **policy rigidity**. It was not caused by a single event but by the interaction of a fixed exchange rate regime, unsustainable fiscal dynamics, and a loss of market confidence.\n\nHere are the main causes, categorized by theme:\n\n---\n\n### 1. The Convertibility Plan (Currency Board) – The Straitjacket\nImplemented in 1991 by Economy Minister Domingo Cavallo to kill hyperinflation, the plan pegged the Argentine Peso 1:1 to the US Dollar and required the Central Bank to hold dollar reserves for every peso in circulation.\n\n*   **Loss of Monetary Sovereignty:** Argentina could not print money to finance deficits or act as a lender of last resort. Interest rates were dictated by the US Federal Reserve, not local conditions.\n*   **Overvaluation & Competitiveness Loss:** As the US Dollar strengthened in the late 1990s (and the Brazilian Real devalued in 1999), the Peso became severely overvalued. Argentine exports became expensive; imports became artificially cheap, destroying local industry and creating a massive **current account deficit** (financed by debt).\n*   **Inability to Devalue:** Unlike Mexico (1994) or Brazil (1999), Argentina could not devalue to absorb shocks without destroying the banking system (which held dollar-denominated deposits but peso-denominated loans) and violating the Convertibility Law.\n\n### 2. Unsustainable Fiscal Dynamics & Debt Accumulation\nDespite the \"success\" of lowering inflation, the fiscal side was never fully fixed.\n\n*   **Structural Primary Deficit:** The federal government ran persistent deficits. Tax collection was weak due to massive **tax evasion**, a narrow tax base, and a regressive system reliant on VAT. The 1990s privatizations (YPF, utilities, airlines, pensions) brought one-off revenue windfalls that masked the structural deficit but did not solve it.\n*   **Provincial Fiscal Indiscipline:** The federal revenue-sharing system (*Coparticipación*) gave provinces automatic transfers but no responsibility for collection. Provinces (especially Buenos Aires) ran large deficits, financed by borrowing from the federal government or issuing quasi-currencies (*Patacones*, *Lecops*) later in the crisis.\n*   **Rising Debt Service:** Public debt exploded from ~$60B (1991) to ~$144B (2001). By 2001, **debt service consumed ~40–50% of total government revenue**. The \"Mega-swap\" (June 2001) swapped short-term debt for long-term high-interest debt, buying time but increasing the debt burden and signaling desperation to markets.\n\n### 3. External Shocks (1998–2001)\nA series of \"perfect storm\" external events destroyed the fragile equilibrium:\n\n*   **Asian Crisis (1997) & Russian Default (1998):** Caused a \"flight to quality,\" drying up emerging market capital flows. Argentina’s risk premium (spread over US Treasuries) skyrocketed.\n*   **Brazilian Devaluation (January 1999):** Brazil, Argentina’s largest trading partner (Mercosur), devalued the Real by ~40%. Argentine goods became instantly uncompetitive in Brazil, causing a sharp recession and trade deficit.\n*   **Strong US Dollar / Rising US Rates (1999–2000):** The Fed raised rates; the Dollar rallied. Because the Peso was pegged to the Dollar, Argentine interest rates rose and the currency appreciated in real terms against the Euro and Real—exactly the wrong medicine for a recession.\n*   **Commodity Price Collapse:** Agricultural export prices (soy, wheat) fell, reducing the primary source of foreign exchange earnings.\n\n### 4. Financial Sector Fragility & \"Original Sin\"\n*   **Currency Mismatch:** Banks held **dollar deposits** but lent in **pesos** (or dollars to non-dollar earners). A devaluation would instantly bankrupt the banking system and the private sector.\n*   **Deposit Flight:** Starting in 2000, depositors (fearing devaluation and default) began moving dollars offshore. The Central Bank lost reserves, forcing a contraction of the money supply (deflation), deepening the recession.\n*   **Lack of Lender of Last Resort:** Under the Currency Board, the Central Bank could not print pesos to stop a bank run. It could only use its dollar reserves, which were finite.\n\n### 5. Political Instability & Institutional Weakness\n*   **Governance Vacuum:** President Fernando de la Rúa (elected 1999) lacked congressional majority. His VP (Carlos \"Chacho\" Álvarez) resigned in 2000 over a Senate bribery scandal, paralyzing the coalition.\n*   **Policy Inconsistency:** Three Economy Ministers in 2001 (Machinea → López Murphy → Cavallo). Cavallo’s return brought the **\"Zero Deficit Law\"** (strict spending cuts) and the **Mega-swap**, which panicked markets rather than calming them.\n*   **Social Unrest:** Unemployment hit ~20% (underemployment higher). Piquetero (picketer) roadblocks and middle-class *cacerolazos* (pot-banging protests) made governance impossible.\n\n### 6. The IMF Relationship\n*   The IMF provided large standby loans (e.g., $13.7B in 2000, $8B Aug 2001) conditional on fiscal adjustment.\n*   **Pro-cyclical Austerity:** The IMF demanded spending cuts and tax hikes *during a deep recession* (1999–2001) to meet fiscal targets. This contracted GDP further, reduced tax revenue, and made the debt-to-GDP ratio explode, creating a **debt-deflation spiral**.\n*   **Final Blow (Dec 2001):** The IMF (under pressure from US Treasury) refused to disburse the next $1.3B tranche because Argentina missed fiscal targets. This cut off the oxygen supply, forcing the default.\n\n---\n\n### The Terminal Sequence (November – December 2001)\n1.  **November 1:** Cavallo imposes the **\"Corralito\"** (freezing bank withdrawals to $250/week) to stop the bank run. This froze the payment system, destroyed trust, and enraged the middle class.\n2.  **December 19–20:** Massive protests, looting, and police repression leave ~30 dead. De la Rúa resigns (helicopter from the Pink House).\n3.  **December 23:** Interim President Adolfo Rodríguez Saá declares **sovereign default** on ~$95B in public debt (largest in history at the time).\n4.  **January 2002:** Eduardo Duhalde becomes President; Congress repeals Convertibility Law; **Peso floats and devalues** (eventually 3.5–4 pesos/dollar). **Asymmetric Pesification:** Dollar deposits converted to pesos at 1.4, dollar loans at 1.0 — a massive transfer of wealth from savers to borrowers/banks.\n\n---\n\n### Summary: The \"Original Sin\" of the Crisis\nThe crisis was fundamentally a **balance of payments crisis** caused by a **fixed exchange rate regime** that prevented adjustment, financed by **foreign debt** that became unserviceable once growth stopped and risk premiums rose. The **Currency Board** worked to kill inflation but created a rigidities that made the economy unable to absorb the external shocks of 1998–2001 without a catastrophic collapse.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1840,
+  "total_tokens": 1872,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 141,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:46:16.271905+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

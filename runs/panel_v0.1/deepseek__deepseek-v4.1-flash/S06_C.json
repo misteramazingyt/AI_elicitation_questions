@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "C",
+ "prompt": "What were the main causes of the Kent State shootings of 1970?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The Kent State shootings of May 4, 1970, had no single cause. They grew out of a combination of national political tensions, campus-specific escalation, and a breakdown in crowd control and command.\n\n**1. National context: Vietnam and Cambodia**  \nThe most important underlying cause was the Vietnam War. On April 30, 1970, President Richard Nixon announced that U.S. forces were entering Cambodia, expanding the war. This triggered a wave of antiwar protests across American campuses. At Kent State, protests began May 1 and intensified over the next few days.\n\n**2. Local escalation at Kent State**  \nKent State already had tensions over the war, the military presence on campus, and the ROTC. On May 1, a rally and downtown disturbances led to police tear gas. On May 2, the ROTC building was burned. Ohio Governor James A. Rhodes sent in the Ohio National Guard and declared a state of emergency. His harsh rhetoric—calling protesters “the worst type of people”—helped inflame the situation.\n\n**3. Militarized response and banned rallies**  \nThe Guard occupied the campus, and officials banned further rallies. On May 3 and 4, students gathered anyway. The Guard used tear gas and bayonets to disperse crowds. On May 4, a noon rally was ordered broken up; students threw rocks and taunts at Guardsmen, and the Guard advanced with tear gas.\n\n**4. The immediate shooting**  \nAfter moving students away, a group of Guardsmen retreated to Blanket Hill. Then, without a clear command to fire, several Guardsmen turned and fired 67 rounds in about 13 seconds into the crowd. Four students were killed—Allison Krause, Jeffrey Miller, Sandra Scheuer, and William Schroeder—and nine others were wounded.\n\n**5. Command and crowd-control failures**  \nInvestigations, especially the President’s Commission on Campus Unrest (Scranton Commission), found the shooting “unnecessary, unwarranted, and inexcusable.” Guardsmen claimed they feared for their lives, but the commission concluded they were not in danger of serious bodily harm. Poor training, fatigue, live ammunition, unclear leadership, and lack of a coherent crowd-control plan all contributed.\n\n**Conclusion**  \nThe main causes were the Cambodia invasion and the broader antiwar movement, the decision to send the National Guard and militarize the campus, escalating confrontations between students and Guardsmen, and a fatal failure of command and crowd control. Student rock-throwing was an immediate contributing factor, but the lethal shooting itself was widely judged to have been unjustified and avoidable.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 2375,
+  "total_tokens": 2420,
+  "cost": 0.00170276,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00170276,
+   "upstream_inference_prompt_cost": 4.635e-06,
+   "upstream_inference_completions_cost": 0.001698125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1831,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:12:37.847221+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

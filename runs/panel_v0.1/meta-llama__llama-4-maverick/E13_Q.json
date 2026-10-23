@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1996 U.S. welfare reform law?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1996 U.S. welfare reform law, officially known as the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA), had significant consequences on the welfare system and the lives of low-income individuals and families. Some of the key consequences include:\n\n1. **Decline in welfare caseloads**: The number of families receiving cash assistance under the Temporary Assistance for Needy Families (TANF) program, which replaced the Aid to Families with Dependent Children (AFDC) program, declined significantly, from around 14 million in 1996 to around 4 million in 2000.\n2. **Increased employment among low-income mothers**: Many former welfare recipients entered the workforce, with employment rates among low-income mothers increasing substantially. However, many of these jobs were low-wage and often lacked benefits.\n3. **Changes in poverty rates**: While poverty rates among children and families declined slightly in the late 1990s, they remained relatively high. Some research suggests that the welfare reform law may have contributed to a slight increase in deep poverty (i.e., income below 50% of the poverty line) among certain subgroups.\n4. **Increased hardship and material deprivation**: Some studies have found that the welfare reform law led to increased hardship and material deprivation among low-income families, particularly those who were unable to find stable employment or experienced sanctions (i.e., loss of benefits due to non-compliance with program rules).\n5. **Racial and ethnic disparities**: The welfare reform law had disproportionate impacts on certain racial and ethnic groups, with African American and Hispanic families experiencing higher rates of poverty and hardship.\n6. **State-level variation**: The law gave states significant flexibility in designing their TANF programs, leading to variation in implementation and outcomes across states. Some states were more successful in promoting employment and reducing poverty, while others struggled to achieve these goals.\n7. **Increased reliance on other safety net programs**: As cash assistance declined, many low-income families turned to other safety net programs, such as the Supplemental Nutrition Assistance Program (SNAP, formerly known as food stamps) and Medicaid, to meet their basic needs.\n8. **Long-term consequences**: Research has suggested that the welfare reform law may have had long-term consequences for children in low-income families, including increased child poverty and decreased educational attainment.\n\nOverall, the 1996 U.S. welfare reform law had far-reaching consequences for the welfare system and the lives of low-income individuals and families. While it achieved some of its intended goals, such as promoting employment among low-income mothers, it also led to increased hardship and material deprivation among certain subgroups.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 530,
+  "total_tokens": 556,
+  "cost": 0.0003507,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003507,
+   "upstream_inference_prompt_cost": 4.875e-06,
+   "upstream_inference_completions_cost": 0.000345825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:04:05.150113+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

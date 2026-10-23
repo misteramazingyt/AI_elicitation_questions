@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration Act of 1924?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **Immigration Act of 1924** (also known as the **Johnson-Reed Act**) was a landmark U.S. law that established strict **national origins quotas**, drastically reducing immigration from Southern and Eastern Europe, Asia, and other regions while favoring Northern and Western European immigrants. Its consequences were profound and long-lasting, shaping American demographics, politics, and society for decades. Here are the key effects:\n\n### **1. Drastic Reduction in Immigration**\n- The law set **annual immigration quotas** at **2% of each nationality’s U.S. population as of the 1890 census** (before the large wave of Southern and Eastern European immigration).\n- This **favored Northern and Western Europeans** (e.g., British, Germans, Scandinavians) while severely restricting **Italians, Jews, Poles, Russians, Greeks, and other Southern/Eastern Europeans**.\n- **Asian immigration was effectively banned** (extending the **Chinese Exclusion Act of 1882** to all Asians, including Japanese, Koreans, and Indians).\n- **Total immigration dropped from ~800,000 per year in the early 1920s to ~150,000 by 1925**.\n\n### **2. Racial and Ethnic Hierarchies Reinforced**\n- The law was explicitly **racist and eugenicist**, reflecting the belief in **Nordic superiority** (influenced by Madison Grant’s *The Passing of the Great Race*).\n- It **barred all immigrants ineligible for citizenship**, which under existing laws meant **Asians, Arabs, and other non-white groups** (though some exceptions were made for Filipinos, who were U.S. colonial subjects).\n- **Mexican and Latin American immigration was exempt** (since they were not subject to quotas), leading to increased labor migration from Mexico, especially during the **Bracero Program (1942–1964)**.\n\n### **3. Long-Term Demographic Shifts**\n- **European immigration declined sharply**, leading to a **more homogeneous white population** in the mid-20th century.\n- **Asian immigration was nearly eliminated** until the **1965 Immigration and Nationality Act** (Hart-Celler Act) abolished national origins quotas.\n- **Jewish immigration from Europe was severely restricted**, contributing to the **Holocaust’s devastating impact**—many Jews fleeing Nazi Germany were denied entry.\n- **The U.S. became more insular**, with immigration levels remaining low until the **1960s**.\n\n### **4. Political and Social Consequences**\n- **Strengthened nativist and anti-immigrant sentiment**, fueling groups like the **Ku Klux Klan** and **eugenics movements**.\n- **Labor unions and industrialists benefited**—unions saw fewer immigrant workers as competition, while businesses relied more on **Mexican and African American labor**.\n- **Delayed the diversification of the U.S.**, as non-European immigration remained minimal until the **1965 reforms**.\n- **Contributed to the \"Melting Pot\" myth**—since immigration was restricted, assimilation pressures on existing immigrant groups increased.\n\n### **5. International Relations & Diplomatic Fallout**\n- **Japan was deeply offended** by the **exclusion of Japanese immigrants** (violating the **Gentlemen’s Agreement of 1907**), leading to **anti-American sentiment** in Japan and contributing to **pre-WWII tensions**.\n- **Latin American countries** (especially Mexico) saw increased migration, but also **exploitation of migrant labor** without legal protections.\n\n### **6. Long-Term Legacy**\n- The **1924 Act set the framework for U.S. immigration policy until 1965**, when the **Hart-Celler Act** abolished national origins quotas.\n- **Contributed to the \"Great Pause\" in immigration**, shaping the **post-WWII economic boom** with a more stable (but less diverse) workforce.\n- **Laid the groundwork for modern debates on immigration**, including **border security, family reunification, and racial quotas**.\n- **Indirectly influenced civil rights movements**—restrictive immigration policies reinforced racial hierarchies, which later became targets of reform.\n\n### **Conclusion**\nThe **Immigration Act of 1924** was one of the most **restrictive and racially discriminatory** immigration laws in U.S. history. It **reshaped American demographics**, **reinforced white supremacy**, and **delayed the country’s diversification** for decades. Its repeal in **1965** marked a major shift toward a more **global and inclusive immigration system**, but its legacy continues to influence debates over **immigration, race, and national identity** today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 18,
+  "completion_tokens": 1011,
+  "total_tokens": 1029,
+  "cost": 0.0015255,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015255,
+   "upstream_inference_prompt_cost": 9e-06,
+   "upstream_inference_completions_cost": 0.0015165
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:40:17.858746+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

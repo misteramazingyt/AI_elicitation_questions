@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration Act of 1924?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Immigration Act of 1924, also known as the Johnson-Reed Act, had significant consequences on immigration to the United States. Some of the key consequences include:\n\n1. **Drastic reduction in immigration**: The Act established a quota system that limited immigration to 2% of the total number of people from a particular country living in the United States as of the 1890 census. This resulted in a significant reduction in immigration, particularly from Southern and Eastern Europe.\n2. **Shift in immigration demographics**: The quota system favored immigration from Northern and Western Europe, particularly from countries like the United Kingdom, Germany, and Ireland. This led to a shift in the demographics of immigration, with a greater proportion of immigrants coming from these regions.\n3. **Exclusion of certain groups**: The Act excluded immigrants from certain countries, such as Japan and China, and also prohibited immigration from countries with \"undesirable\" populations, such as those with high rates of poverty or disease.\n4. **Impact on Jewish immigration**: The Act significantly reduced Jewish immigration from Eastern Europe, which had a profound impact on Jewish communities in the United States and Europe. Many Jewish refugees fleeing persecution in Europe were unable to enter the United States due to the quota restrictions.\n5. **Restrictions on refugee admission**: The Act made it more difficult for refugees to enter the United States, as it prioritized immigration based on national origin rather than humanitarian need. This had significant consequences during World War II, when many refugees fleeing persecution in Europe were unable to find safe haven in the United States.\n6. **Long-term impact on US demographics**: The Immigration Act of 1924 had a lasting impact on the demographics of the United States, shaping the country's ethnic and cultural composition for decades to come.\n7. **Rise of anti-immigrant sentiment**: The Act reflected and reinforced anti-immigrant sentiment in the United States, which continued to shape immigration policy and public discourse for many years.\n\nThe Immigration Act of 1924 was eventually repealed and replaced by the Immigration and Nationality Act of 1965, which abolished the quota system and established a more inclusive and preference-based immigration system.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 438,
+  "total_tokens": 461,
+  "cost": 0.0002901075,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002901075,
+   "upstream_inference_prompt_cost": 4.3125e-06,
+   "upstream_inference_completions_cost": 0.000285795
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:54.724901+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

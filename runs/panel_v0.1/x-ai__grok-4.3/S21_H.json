@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "H",
+ "prompt": "How have historians interpreted the Immigration Act of 1924? Please cite sources.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**Historians have interpreted the Immigration Act of 1924 (Johnson-Reed Act) primarily as a turning point that institutionalized racial and ethnic hierarchy in U.S. immigration policy.** The law established national-origins quotas that drastically reduced inflows from Southern and Eastern Europe and Asia while favoring Northern and Western Europeans, effectively codifying eugenics-influenced ideas of “racial fitness” and cultural compatibility. Interpretations cluster around several overlapping themes.\n\n### Racial and Eugenic Dimensions\nMost scholars emphasize the Act’s roots in scientific racism and nativism. It drew on the work of eugenicists such as Madison Grant and the data of the Dillingham Commission (1911), translating pseudoscientific hierarchies into law. The 2 percent quota based on the 1890 census deliberately disadvantaged newer immigrant groups.  \n- John Higham’s *Strangers in the Land* (1955, rev. 2002) frames the law as the culmination of decades of nativist agitation that fused anti-Catholic, anti-radical, and racial anxieties.  \n- Mae M. Ngai’s *Impossible Subjects* (2004) shows how the quotas produced new legal categories of “illegal alien” and “ineligible to citizenship,” disproportionately affecting Asians and Mexicans and shaping twentieth-century racial formation.  \n- Desmond King’s *Making Americans* (2000) and Gary Gerstle’s *American Crucible* (2001) link the Act to a broader project of defining American identity in explicitly racial terms.\n\n### Labor, Class, and Political Economy\nA secondary strand stresses economic protectionism. Restrictionists argued that unrestricted immigration depressed wages and threatened organized labor. Historians such as Roger Daniels (*Guarding the Golden Door*, 2004) note that the AFL and some progressive reformers supported quotas, though they often did so in racialized language. Economic historians (e.g., Claudia Goldin’s work on wage effects) have quantified the labor-market pressures but generally agree that racial ideology supplied the decisive political momentum.\n\n### Long-Term Demographic and Cultural Consequences\nLater scholarship examines the Act’s role in remaking the U.S. population and in the mid-century redefinition of “whiteness.” Matthew Frye Jacobson’s *Whiteness of a Different Color* (1998) argues that the quotas helped consolidate a broader “Caucasian” racial category by sharply curtailing Southern and Eastern European inflows. Post-1965 scholarship (e.g., David Reimers, *Still the Golden Door*, 1992) treats the 1924 regime as the baseline against which the Hart-Celler Act’s reforms are measured.\n\n### Recent Reassessments\nTwenty-first-century work has placed the Act in transnational and comparative contexts, linking it to similar restrictionist movements in Canada, Australia, and Latin America, and to the global circulation of eugenic thought. Historians also note its role in redirecting migration flows toward the Western Hemisphere, thereby increasing undocumented Mexican migration—an unintended but durable legacy highlighted by Ngai and by Patrick Ettinger (*Imaginary Lines*, 2009).\n\n**Key cited sources**  \n- Higham, John. *Strangers in the Land*. Rutgers University Press, 2002.  \n- Ngai, Mae M. *Impossible Subjects*. Princeton University Press, 2004.  \n- Daniels, Roger. *Guarding the Golden Door*. Hill and Wang, 2004.  \n- King, Desmond. *Making Americans*. Harvard University Press, 2000.  \n- Jacobson, Matthew Frye. *Whiteness of a Different Color*. Harvard University Press, 1998.  \n- Gerstle, Gary. *American Crucible*. Princeton University Press, 2001.\n\nThese works collectively portray the 1924 Act less as a neutral administrative reform than as a deliberate racial project whose effects persisted until the 1965 amendments and continue to shape debates over immigration policy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 208,
+  "completion_tokens": 1327,
+  "total_tokens": 1535,
+  "cost": 0.0034431,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0034431,
+   "upstream_inference_prompt_cost": 0.0001256,
+   "upstream_inference_completions_cost": 0.0033175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 542,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:02.530796+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

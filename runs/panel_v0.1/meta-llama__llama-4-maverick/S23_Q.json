@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2020 George Floyd protests?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 2020 George Floyd protests, which began in May 2020, had far-reaching consequences, both in the United States and globally. Some of the key consequences include:\n\n1. **Reform efforts**: The protests led to a renewed focus on police reform and accountability, with many cities and states implementing changes such as banning chokeholds, increasing transparency, and establishing civilian review boards.\n2. **Increased awareness and activism**: The protests raised awareness about systemic racism and police brutality, inspiring a new wave of activism and advocacy for racial justice and equality.\n3. **Changes in policing practices**: Many police departments began to re-examine their practices and policies, with some adopting new approaches such as community policing and de-escalation training.\n4. **Legislative action**: The protests led to the introduction of legislation at the federal and state levels aimed at addressing police brutality and systemic racism, such as the George Floyd Justice in Policing Act.\n5. **Cultural impact**: The protests had a significant impact on popular culture, with many artists, musicians, and writers responding to the events and themes of the protests in their work.\n6. **Economic consequences**: The protests resulted in significant economic costs, including damage to property and loss of business revenue, particularly in cities with widespread protests.\n7. **Social and cultural divisions**: The protests also highlighted and exacerbated existing social and cultural divisions, with some individuals and groups responding with counter-protests and violence.\n8. **Global solidarity**: The protests sparked a global movement, with solidarity protests and demonstrations taking place in cities around the world, highlighting the global nature of systemic racism and police brutality.\n9. **Increased scrutiny of systemic racism**: The protests led to a broader examination of systemic racism in various institutions, including education, housing, and healthcare.\n10. **Long-term impact on social justice movements**: The 2020 George Floyd protests are likely to have a lasting impact on social justice movements, inspiring continued activism and advocacy for racial justice and equality.\n\nOverall, the 2020 George Floyd protests marked a significant turning point in the conversation around racial justice and police accountability, with far-reaching consequences for individuals, communities, and institutions.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 447,
+  "total_tokens": 470,
+  "cost": 0.00029598,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00029598,
+   "upstream_inference_prompt_cost": 4.3125e-06,
+   "upstream_inference_completions_cost": 0.0002916675
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:16.644485+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

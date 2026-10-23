@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "Q",
+ "prompt": "What were the consequences of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Together",
+ "response": "The U.S. “War on Drugs,” launched by President Nixon in 1971 and escalated through the Reagan, Bush, and Clinton years, had far-reaching consequences—many of them unintended. It did not eliminate drug use or the drug trade. Instead, it reshaped the U.S. criminal justice system, deepened racial and social inequalities, harmed public health, militarized policing, and destabilized parts of Latin America and the Caribbean.\n\n**1. Mass incarceration and harsher punishment**\nDrug enforcement became a central driver of the U.S. prison boom. The prison population grew from roughly 200,000 in 1970 to about 2 million by 2000. Drug arrests soared, and nonviolent drug offenders made up a large share of new prisoners. The Anti-Drug Abuse Acts of 1986 and 1988 created mandatory minimum sentences, including the notorious 100:1 crack-to-powder-cocaine disparity: 5 grams of crack triggered the same federal penalty as 500 grams of powder cocaine. This removed judicial discretion and produced long sentences, especially for low-level offenders. The 1994 crime bill and “three strikes” laws continued this punitive trend.\n\n**2. Racial and social inequality**\nAlthough drug use rates were broadly similar across racial groups, Black and Latino Americans were arrested, charged, and imprisoned at far higher rates. Crack cocaine, associated in the media with Black communities, was punished far more severely than powder cocaine, associated with whites. Felony drug convictions carried collateral consequences: loss of voting rights, barriers to public housing, student aid, welfare, and employment. Entire families and communities were destabilized, and distrust of police and courts deepened.\n\n**3. Public health harms**\nThe War on Drugs treated addiction primarily as a crime rather than a health issue. Federal bans on funding needle-exchange programs in the late 1980s contributed to HIV/AIDS and hepatitis C outbreaks among injection drug users. Treatment was underfunded relative to enforcement. The 1980s crack epidemic brought violence and panic, including the “crack baby” scare, which later proved exaggerated. Drug use did not disappear; markets adapted, and new drugs and higher-potency products often filled the gaps.\n\n**4. Militarized policing and civil liberties**\nDrug enforcement encouraged the militarization of local police. SWAT teams, no-knock raids, and military-style equipment transfers expanded, especially through programs like the 1033 program in the 1990s. Civil asset forfeiture allowed police to seize property suspected of drug involvement, sometimes without a criminal conviction. These practices eroded Fourth Amendment protections and damaged police-community relations, particularly in poor and minority neighborhoods.\n\n**5. International destabilization**\nThe U.S. pressured Latin American and Caribbean countries to eradicate coca and poppy crops and interdict drug shipments. Operations such as Operation Blast Furnace in Bolivia (1986), Operation Just Cause in Panama (1989), and the Andean Initiative (1989) expanded U.S. military and intelligence involvement. Consequences included corruption, human rights abuses, violence, and displacement. Coca production often shifted rather than disappeared—from Peru and Bolivia toward Colombia, and later Mexico. Drug cartels grew stronger and more violent, while U.S. intervention contributed to long-term instability in the region.\n\n**6. Fiscal and political costs**\nFederal drug-control spending rose from about $100 million in 1971 to more than $17 billion by the late 1990s. States spent billions more on prisons and policing. Politically, the War on Drugs created a bipartisan “tough on crime” consensus, with Democrats and Republicans competing to appear harsh on drugs. This helped normalize punitive drug policy for decades.\n\n**Overall legacy**\nBy the 1990s, the War on Drugs had failed in its stated goal of creating a drug-free society. Its main consequences were mass incarceration, racial disparities, public health crises, militarized policing, and international blowback. It also entrenched a criminal-justice approach to addiction that the U.S. is still grappling with today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 53,
+  "completion_tokens": 3308,
+  "total_tokens": 3361,
+  "cost": 0.0039855,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0039855,
+   "upstream_inference_prompt_cost": 1.59e-05,
+   "upstream_inference_completions_cost": 0.0039696
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2482,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:17:34.675388+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

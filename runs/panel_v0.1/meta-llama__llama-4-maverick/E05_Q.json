@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "Q",
+ "prompt": "What were the consequences of the famine during China's Great Leap Forward (1959-1961)?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The consequences of the famine during China's Great Leap Forward (1959-1961) were severe and far-reaching. The famine, which was caused by a combination of factors including unrealistic agricultural production targets, inefficient agricultural practices, and the diversion of labor to non-agricultural projects, resulted in one of the deadliest human-made famines in history.\n\nEstimates suggest that between 20 and 45 million people died as a direct result of the famine, with some estimates as high as 60 million. The famine had a disproportionate impact on rural areas, where food was scarce and access to alternative sources of nutrition was limited.\n\nThe consequences of the famine were not limited to the immediate loss of life. The famine also had long-term effects on the health and well-being of survivors, particularly children and the elderly. Many people suffered from malnutrition, stunted growth, and other health problems as a result of the famine.\n\nThe famine also had significant social and economic consequences. It led to a decline in agricultural production, which had a ripple effect on the entire economy. The famine also disrupted social structures and community relationships, as people were forced to migrate in search of food and other resources.\n\nThe Great Leap Forward famine also had significant political consequences. The failure of the Great Leap Forward campaign was a major embarrassment for the Chinese Communist Party, and it led to a re-evaluation of the party's policies and leadership. The famine contributed to the eventual downfall of Mao Zedong's closest allies, including Defense Minister Peng Dehuai, who had criticized Mao's policies.\n\nIn the aftermath of the famine, the Chinese government implemented a series of reforms aimed at improving agricultural production and reducing the risk of future famines. These reforms included the introduction of more realistic agricultural production targets, the promotion of agricultural diversification, and the establishment of a more effective system for distributing food and other resources.\n\nOverall, the consequences of the famine during China's Great Leap Forward were catastrophic, and they had a lasting impact on Chinese society, economy, and politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 409,
+  "total_tokens": 438,
+  "cost": 0.00027231,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00027231,
+   "upstream_inference_prompt_cost": 5.4375e-06,
+   "upstream_inference_completions_cost": 0.0002668725
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:40.126601+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

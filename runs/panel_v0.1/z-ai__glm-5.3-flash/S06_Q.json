@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Kent State shootings of 1970?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the Kent State Shootings (May 4, 1970)\n\n## Immediate Effects\n\n**Casualties and campus closure**\n- Four students were killed (Allison Krause, Jeffrey Miller, Sandra Scheuer, William Schroeder) and nine wounded when National Guardsmen fired on anti-war protesters\n- Kent State closed for the remainder of the semester\n- The incident triggered the largest student strike in U.S. history, with over 4 million students at hundreds of campuses participating\n\n**Escalation of campus unrest**\n- Ten days later, police killed two students at Jackson State College in Mississippi, a largely overlooked tragedy involving Black students\n- Hundreds of campuses shut down or saw violent protests\n- A student strike in Washington, D.C. brought over 100,000 protesters\n\n## Political Consequences\n\n- The shootings intensified opposition to the Vietnam War and deepened public distrust of government\n- Nixon administration officials were shaken; some advisors reportedly worried the country was coming apart\n- The incident became a symbol of the generational and political divide over the war\n\n## Legal Aftermath\n\n- Eight guardsmen were charged with civil rights violations in 1974, but a federal judge dismissed the case\n- A civil lawsuit ended in 1979 with a $675,000 settlement paid by the state of Ohio, which issued a statement of regret (not an apology)\n\n## Long-Term Impact\n\n- The Pulitzer Prize-winning photograph of Jeffrey Miller's body with Mary Ann Vecchio kneeling beside him became an iconic image of the era\n- The event is commemorated annually at Kent State, which established a May 4 Memorial\n- It contributed to lasting skepticism about government authority and changed how authorities handled campus protests\n- Neil Young's song \"Ohio\" (recorded by Crosby, Stills, Nash & Young) memorialized the event\n\nThe shootings remain a defining moment in the history of the anti-Vietnam War movement and American political violence.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 596,
+  "total_tokens": 638,
+  "cost": 5.62078e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.62078e-05,
+   "upstream_inference_prompt_cost": 1.197e-06,
+   "upstream_inference_completions_cost": 5.50108e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 193,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:00.552103+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

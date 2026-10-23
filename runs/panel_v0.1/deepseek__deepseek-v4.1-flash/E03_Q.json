@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "Q",
+ "prompt": "What were the consequences of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "AtlasCloud",
+ "response": "The 1932–33 famine in Soviet Ukraine—now widely known as the **Holodomor**—was one of the most catastrophic events in modern Ukrainian history. Its consequences were demographic, social, economic, political, and cultural.\n\n**Human and demographic consequences**\n- Estimates of excess deaths in Soviet Ukraine generally range from **3.5 to 5 million**, with some estimates higher. Across the wider Soviet Union, the 1932–33 famine killed several million more.\n- Deaths were concentrated in rural areas. Children, the elderly, and the poorest peasants were especially vulnerable.\n- Millions more suffered starvation, disease, and malnutrition; there were widespread reports of cannibalism and starvation-related deaths.\n- Birth rates collapsed, creating a long-term demographic deficit. Many villages lost a large share of their population.\n- Large numbers of orphaned children and displaced people moved to cities or other regions in search of food.\n\n**Social consequences**\n- Traditional village life was shattered. Families were broken apart, and community leadership—wealthier peasants, clergy, teachers, local activists—was weakened or destroyed.\n- The famine completed the destruction of the independent peasantry. Surviving peasants were forced into collective farms (*kolkhozy*) and became dependent on the state.\n- Trauma, loss, and fear shaped generations of Ukrainians and contributed to a lasting collective memory of the famine.\n\n**Economic consequences**\n- Agriculture was devastated. Livestock and draft animals were slaughtered or died, seed grain was confiscated, and fields were neglected.\n- The collective farm system was entrenched, but it remained inefficient and demoralizing. Soviet agriculture suffered from low productivity for decades.\n- The state’s grain requisitions continued even as people starved, showing that the famine was not simply a natural disaster but was made catastrophic by Stalinist policy.\n\n**Political consequences**\n- The famine helped consolidate Stalin’s control over the countryside. Resistance to collectivization was crushed.\n- The internal passport system, introduced in 1932, restricted peasant movement and tied rural workers more tightly to collective farms.\n- Ukrainian political and cultural autonomy was further reduced. In the 1930s, Soviet authorities purged much of the Ukrainian intelligentsia in what became known as the “Executed Renaissance.”\n- The Soviet regime denied the famine, censored information about it, and blamed alleged sabotage by peasants and “class enemies.”\n\n**Cultural and national consequences**\n- Ukraine lost a large part of its rural population and cultural elite. This weakened Ukrainian national life and made Soviet Russification and centralization easier.\n- The famine became a central element of Ukrainian national memory. After independence in 1991, Ukraine began official commemoration of the Holodomor.\n- In 2006, Ukraine recognized the Holodomor as a genocide against the Ukrainian people. A number of other countries have also recognized it as genocide, though the legal classification remains debated among some historians and states.\n\nIn short, the 1932–33 famine in Soviet Ukraine caused millions of deaths, destroyed the traditional Ukrainian village, entrenched Soviet control, and left deep demographic, cultural, and political wounds that still shape Ukrainian memory and identity today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 48,
+  "completion_tokens": 2319,
+  "total_tokens": 2367,
+  "cost": 0.00125874,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00125874,
+   "upstream_inference_prompt_cost": 6.48e-06,
+   "upstream_inference_completions_cost": 0.00125226
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1680,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:18.834206+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "Q",
+ "prompt": "What were the consequences of the War on Poverty and Great Society programs of the 1960s?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Relace",
+ "response": "The War on Poverty (launched by the Economic Opportunity Act of 1964) and the broader Great Society programs of the 1960s were a cluster of federal efforts to reduce poverty, expand opportunity, and improve health, education, housing, and civil rights. Their consequences were profound, mixed, and long-lasting.\n\n**1. Poverty and income security**\n- The official poverty rate fell from about **22.2% in 1959 to 12.1% in 1969**, and to roughly **11.1% by 1973**. This decline was driven by both the programs and a strong economy, low unemployment, and civil rights gains.\n- Programs such as **Food Stamps/SNAP, school lunches, Head Start, and expanded Social Security** reduced hunger and hardship.\n- Elderly poverty fell especially sharply because of **Medicare and Social Security increases**—from roughly a third of older Americans in 1959 to about 10% by the 1990s.\n- However, poverty was not eliminated. Child poverty, racial disparities, and deep poverty persisted, and progress slowed after the 1970s.\n\n**2. Health care**\n- **Medicare** provided health insurance to the elderly; **Medicaid** covered many poor, disabled, and pregnant people. Both became central to the U.S. health system.\n- They improved access to care and reduced financial catastrophe from illness, but costs grew far beyond initial projections, creating long-term fiscal debates.\n\n**3. Education and human capital**\n- **Head Start, Title I of the Elementary and Secondary Education Act, Upward Bound, Job Corps, and federal college aid** expanded educational opportunity.\n- High school graduation and college attendance rose, though achievement gaps by race and income remained.\n- Later **Pell Grants** built on this framework, helping millions attend college.\n\n**4. Civil rights and political inclusion**\n- The Great Society era included the **Civil Rights Act of 1964, Voting Rights Act of 1965, and Fair Housing Act of 1968**.\n- These dramatically increased Black voter registration, political participation, and legal protection against discrimination.\n- The **Immigration and Nationality Act of 1965** ended national-origin quotas, leading to major demographic shifts toward Asian and Latin American immigration.\n\n**5. Urban, regional, and cultural programs**\n- **Model Cities, the Appalachian Regional Commission, public housing, and community action agencies** tried to revitalize poor areas and empower local residents.\n- Some programs gave poor communities a voice and legal aid; others were fragmented, underfunded, or displaced residents through urban renewal.\n- The era also produced the **National Endowments for the Arts and Humanities, public broadcasting, and major environmental laws**.\n\n**6. Political and fiscal consequences**\n- The Great Society greatly expanded the federal government’s role in social welfare.\n- It created durable, popular programs—Medicare, Medicaid, SNAP, Head Start—but also sparked a conservative backlash over taxes, federal power, and welfare.\n- Critics argued the programs created dependency and bureaucratic waste; supporters argued they reduced suffering and expanded opportunity.\n- The backlash contributed to political realignment, “welfare queen” narratives, and later reforms such as the **1996 welfare overhaul**, which replaced AFDC with TANF.\n\n**Overall**\nThe War on Poverty and Great Society significantly reduced poverty and expanded health care, education, civil rights, and economic security. They built much of the modern American social safety net. But they did not end poverty, and their legacy is contested: they are credited with improving millions of lives and criticized for creating costly, sometimes inefficient programs and political divisions that still shape U.S. debates today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 3885,
+  "total_tokens": 3935,
+  "cost": 0.001946,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001946,
+   "upstream_inference_prompt_cost": 3.5e-06,
+   "upstream_inference_completions_cost": 0.0019425
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3128,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:10:56.108564+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

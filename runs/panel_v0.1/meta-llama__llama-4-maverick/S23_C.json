@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "C",
+ "prompt": "What were the main causes of the 2020 George Floyd protests?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 2020 George Floyd protests were a series of widespread demonstrations and protests that took place in the United States and around the world in response to the murder of George Floyd, a 46-year-old African American man, by a white police officer, Derek Chauvin, on May 25, 2020, in Minneapolis, Minnesota. The main causes of the protests were:\n\n1. **Racial injustice and police brutality**: The killing of George Floyd was seen as a symbol of the long-standing issues of racial injustice and police brutality faced by African Americans in the United States. The incident was captured on video, showing Chauvin kneeling on Floyd's neck for several minutes, leading to widespread outrage.\n2. **Lack of accountability**: The initial response by the Minneapolis Police Department and the city's government was seen as inadequate, with many feeling that the police were not taking the incident seriously enough. The subsequent firing of the four police officers involved and the charging of Chauvin with murder helped to fuel the protests, but many still felt that more needed to be done to address the underlying issues.\n3. **Systemic racism**: The protests highlighted the broader issues of systemic racism and inequality faced by African Americans in the United States, including disparities in education, employment, housing, healthcare, and the justice system.\n4. **Frustration with the status quo**: The protests were also driven by a sense of frustration and anger among many African Americans and their allies, who felt that the issues of racial injustice and police brutality had been ignored or downplayed by those in power for too long.\n5. **Social media and mobilization**: The widespread use of social media helped to mobilize people and spread information about the protests, with many using platforms like Twitter, Instagram, and Facebook to organize and coordinate demonstrations.\n\nThe protests, which took place in cities across the United States and around the world, called for a range of reforms, including:\n\n* Police reform and accountability\n* Racial justice and equality\n* An end to systemic racism and police brutality\n* Greater transparency and oversight of law enforcement agencies\n\nThe protests also led to a renewed national conversation about issues of racial justice and police brutality, and helped to galvanize a movement for change that continues to this day.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 460,
+  "total_tokens": 484,
+  "cost": 0.00030465,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00030465,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.00030015
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:11.947352+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

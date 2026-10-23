@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "D",
+ "prompt": "Describe the Immigration and Nationality Act of 1965.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Immigration and Nationality Act of 1965, also known as the Hart-Celler Act, was a landmark legislation passed by the United States Congress that significantly reformed the country's immigration policy. The Act was signed into law by President Lyndon B. Johnson on October 3, 1965.\n\nPrior to 1965, the United States had a quota-based immigration system that was established by the Immigration Act of 1924. This system gave preference to immigrants from Western and Northern Europe, particularly from countries such as the United Kingdom, Germany, and Ireland. The quotas were based on the national origins of the U.S. population in 1920, which resulted in a disproportionate number of visas being allocated to immigrants from these countries.\n\nThe Immigration and Nationality Act of 1965 abolished the national origins quota system and replaced it with a preference system that prioritized family reunification and occupational skills. The Act established a seven-category preference system that gave priority to:\n\n1. Unmarried children of U.S. citizens\n2. Spouses and unmarried children of permanent residents\n3. Members of the professions or individuals with exceptional ability\n4. Married children of U.S. citizens\n5. Siblings of U.S. citizens\n6. Skilled workers and unskilled workers in occupations with labor shortages\n7. Refugees and individuals fleeing persecution or natural disasters\n\nThe Act also established a worldwide numerical limit on immigration, which was set at 170,000 visas per year, with a maximum of 20,000 visas per country. The Act also introduced a new category of \"immediate relatives\" of U.S. citizens, which included spouses, parents, and unmarried children under the age of 21. These individuals were exempt from the numerical limits and could enter the country outside of the preference system.\n\nThe Immigration and Nationality Act of 1965 had a profound impact on the demographics of the United States. By eliminating the national origins quota system, the Act opened up immigration to individuals from non-European countries, particularly from Asia and Latin America. The Act also facilitated family reunification, allowing U.S. citizens and permanent residents to sponsor their relatives for immigration.\n\nThe consequences of the Act were far-reaching. The immigration patterns to the United States changed significantly, with a significant increase in immigration from Asia and Latin America. The Act also contributed to the growth of ethnic diversity in the United States and helped to shape the country's cultural and social landscape.\n\nOverall, the Immigration and Nationality Act of 1965 was a significant turning point in U.S. immigration policy, marking a shift away from a discriminatory quota-based system and towards a more inclusive and family-based system.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 548,
+  "total_tokens": 570,
+  "cost": 0.000361695,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000361695,
+   "upstream_inference_prompt_cost": 4.125e-06,
+   "upstream_inference_completions_cost": 0.00035757
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:59.355604+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

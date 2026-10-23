@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Supreme Court’s 2022 decision in *Dobbs v. Jackson Women’s Health Organization*, which overturned the 1973 *Roe v. Wade* and 1992 *Planned Parenthood v. Casey* decisions, was the result of a convergence of legal, institutional, and political factors. \n\nThe main causes that led to the decision can be categorized into changes in the Court's composition, the jurisprudential philosophy of the majority, strategic state-level litigation, and a long-term shift in conservative legal organizing.\n\n**1. Shift in the Court’s Composition**\nThe most immediate institutional cause of the *Dobbs* decision was a shift in the ideological balance of the Supreme Court. Between 2017 and 2020, President Donald Trump appointed three conservative justices—Neil Gorsuch, Brett Kavanaugh, and Amy Coney Barrett. They replaced Justice Antonin Scalia (who passed away), Justice Anthony Kennedy (who retired), and Justice Ruth Bader Ginsburg (who passed away). These appointments solidified a 6-3 conservative supermajority on the Court, providing the necessary votes to reconsider and ultimately overturn the constitutional right to abortion established in *Roe* and *Casey*.\n\n**2. Originalist and Textualist Jurisprudence**\nThe legal reasoning of the *Dobbs* majority, authored by Justice Samuel Alito, was deeply rooted in the judicial philosophies of originalism and textualism. These philosophies dictate that the Constitution should be interpreted based on its original public meaning at the time it was ratified. \n*   **The \"History and Tradition\" Test:** The majority applied a standard that asks whether a right is \"deeply rooted in this Nation's history and tradition\" and whether it is implicit in the concept of ordered liberty. \n*   **The 14th Amendment:** Because the right to abortion was not protected by law in the 19th century (when the 14th Amendment’s Due Process Clause was adopted), the majority concluded that the Constitution does not confer a right to abortion. Therefore, the authority to regulate or ban abortion must be returned to the \"people and their elected representatives.\"\n\n**3. Re-evaluation of Precedent (*Stare Decisis*)**\nA major legal cause of the decision was the majority's willingness to depart from the doctrine of *stare decisis*, which is the legal principle of determining points in litigation according to precedent. The *Dobbs* majority concluded that *Roe* and *Casey* were \"egregiously wrong\" from the start. The majority argued that the *Roe* Court had overstepped its judicial authority by imposing a national solution to a highly polarizing issue, effectively \"short-circuiting\" the democratic process. Because the majority viewed the original decisions as legally unsound, they determined that the principle of *stare decisis* did not compel the Court to keep the precedents in place.\n\n**4. Strategic State-Level Legislation**\nThe specific case of *Dobbs* was driven by deliberate legislative strategy at the state level. In 2018, Mississippi passed the Gestational Age Act, which banned most abortions after 15 weeks of pregnancy. This law directly conflicted with the \"viability\" standard established by *Roe* and *Casey*, which prohibited states from banning abortion before a fetus could survive outside the womb (typically around 23 to 24 weeks). \nMississippi’s law, along with similar laws passed in other states, was explicitly designed to challenge the viability framework and force the Supreme Court to either uphold the restrictions (thereby weakening *Roe*) or overturn the precedent entirely. \n\n**5. The Conservative Legal Movement**\nOn a broader historical scale, the decision was the culmination of a decades-long effort by the conservative legal movement to influence the federal judiciary. Organizations such as the Federalist Society played a significant role in identifying, vetting, and advocating for judicial nominees who adhered to originalist and textualist philosophies. This long-term strategy aimed to place judges on the federal benches who were willing to re-examine established precedents that they viewed as lacking a firm foundation in the Constitution's text and history.\n\n**Summary**\nThe *Dobbs* decision was not the result of a single event, but rather the outcome of a newly empowered conservative judicial majority applying originalist legal frameworks to a case deliberately engineered by state legislatures to challenge existing abortion precedents.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 2737,
+  "total_tokens": 2774,
+  "cost": 0.0035152,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0035152,
+   "upstream_inference_prompt_cost": 1.184e-05,
+   "upstream_inference_completions_cost": 0.00350336
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1803,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:32.732552+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

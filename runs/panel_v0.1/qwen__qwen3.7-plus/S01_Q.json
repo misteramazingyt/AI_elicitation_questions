@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "Q",
+ "prompt": "What were the consequences of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The passage of the Civil Rights Act of 1964 was a watershed moment in American history. As one of the most significant legislative achievements of the 20th century, it fundamentally altered the legal, social, economic, and political landscape of the United States. \n\nThe consequences of the Act can be categorized into several key areas:\n\n**1. Dismantling of Legal Segregation (Jim Crow)**\n*   **Public Accommodations:** Title II of the Act outlawed discrimination in public accommodations (such as hotels, motels, restaurants, and theaters) that engaged in interstate commerce. This effectively ended the legal framework of \"Jim Crow\" segregation in the South, ensuring that African Americans and other minorities could access public spaces equally.\n*   **Public Facilities:** Title III prohibited state and local governments from denying access to public facilities (such as parks, pools, and libraries) on the basis of race, color, religion, or national origin.\n\n**2. Transformation of Employment and Workplace Rights**\n*   **Creation of the EEOC:** Title VII prohibited employment discrimination by employers, labor unions, and employment agencies. To enforce this, the Act created the Equal Employment Opportunity Commission (EEOC).\n*   **Impact on Women’s Rights:** The inclusion of the word \"sex\" as a protected category (added to the bill shortly before its passage) had profound consequences for women. It provided a legal basis to challenge workplace discrimination, unequal pay, and sexual harassment, significantly advancing the modern women's rights movement.\n\n**3. Enforcement Through Federal Funding**\n*   **Desegregation of Schools and Programs:** Title VI prohibited discrimination in any program or activity receiving federal financial assistance. This gave the federal government a powerful tool to enforce desegregation, particularly in public schools and universities, by threatening to withhold federal funds from institutions that practiced discrimination.\n\n**4. Political Realignment**\n*   **Shift in Party Coalitions:** The passage of the Act triggered a massive, long-term political realignment in the United States. Many white, conservative voters in the South, who had historically voted for the Democratic Party, began shifting their allegiance to the Republican Party. Conversely, African American voters, who had previously shown some split in party loyalty, solidified their support for the Democratic Party. \n*   **The \"Southern Strategy\":** The political fallout from the Act influenced subsequent presidential campaigns, most notably Richard Nixon’s \"Southern Strategy,\" which sought to attract white Southern voters by appealing to concerns over the pace of civil rights changes and desegregation busing.\n\n**5. Catalyst for Further Civil Rights Legislation**\n*   While the 1964 Act addressed public accommodations and employment, it did not fully resolve issues regarding voting rights or housing. However, it established the legal and moral momentum necessary for subsequent landmark legislation, including the **Voting Rights Act of 1965** (which outlawed discriminatory voting practices like literacy tests) and the **Fair Housing Act of 1968** (which prohibited discrimination in the sale, rental, and financing of housing).\n\n**6. Expansion of Civil Rights Litigation**\n*   The Act led to a massive increase in civil rights litigation. Citizens and advocacy groups, such as the NAACP Legal Defense Fund, utilized the courts to enforce the new laws. This resulted in a vast body of case law that further defined the boundaries of discrimination, affirmative action, and civil rights in America.\n\n**7. Social and Cultural Shifts**\n*   Beyond the legal statutes, the Act contributed to a shift in American social norms. While it did not immediately eradicate racism or prejudice, it removed the state-sanctioned endorsement of racial hierarchy. Over time, the integration of public spaces, schools, and workplaces helped to foster a more integrated, albeit still complex, American society.\n\nIn summary, the Civil Rights Act of 1964 transformed the United States by establishing the federal government's role in protecting civil rights, dismantling institutionalized segregation, and creating legal mechanisms to combat discrimination in public life and the workplace.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 1916,
+  "total_tokens": 1945,
+  "cost": 0.00246176,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00246176,
+   "upstream_inference_prompt_cost": 9.28e-06,
+   "upstream_inference_completions_cost": 0.00245248
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1075,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:23:58.080330+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

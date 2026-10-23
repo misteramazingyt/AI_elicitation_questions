@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "Q",
+ "prompt": "What were the consequences of the Reagan tax cuts of the 1980s?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Consequences of the Reagan Tax Cuts (1980s)\n\nThe Economic Recovery Tax Act of 1981 and Tax Reform Act of 1986 significantly cut income tax rates. Their effects remain debated among economists.\n\n## Arguments Supporting Positive Effects\n\n**Economic growth**: The economy expanded strongly after the 1981–82 recession, with real GDP growth averaging around 3.5% from 1983–1989. Inflation fell dramatically from double digits in 1980 to under 5% by 1983 (though this was largely due to Federal Reserve monetary policy).\n\n**Investment and employment**: Job creation was robust through the 1980s, and the tax simplification of 1986 broadened the base while lowering rates.\n\n**Legacy of reform**: The 1986 act's structure (lower rates, fewer deductions) influenced tax policy debates for decades.\n\n## Arguments Highlighting Negative Effects\n\n**Deficits and debt**: Federal revenue as a share of GDP fell while spending rose. The deficit grew from about $79 billion in 1981 to over $150 billion by 1987–89, and the national debt roughly tripled—from about $900 billion to nearly $3 trillion. This was the largest peacetime increase in the debt-to-GDP ratio to that point.\n\n**Distributional effects**: Critics argue the cuts disproportionately benefited high earners, contributing to rising inequality. The share of income going to the top 1% began climbing in the 1980s.\n\n**Unmet revenue predictions**: Supply-side claims that cuts would \"pay for themselves\" did not materialize—revenues did grow but far less than needed to offset the rate cuts.\n\n## Important Caveats\n\n- The 1981 cuts were followed by several *tax increases* (1982, 1984, 1986), partly because of deficit concerns.\n- Defense spending increases, not just tax cuts, drove the deficits.\n- The 1986 act was designed to be roughly revenue-neutral.\n\n## Scholarly Consensus\n\nMost economists agree the cuts did not pay for themselves and contributed to deficits, but debate continues over how much they boosted long-term growth versus how much the 1980s recovery owed to monetary policy, falling oil prices, and the natural business cycle.\n\nWould you like more detail on any particular aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 474,
+  "total_tokens": 502,
+  "cost": 0.000187272,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000187272,
+   "upstream_inference_prompt_cost": 3.36e-06,
+   "upstream_inference_completions_cost": 0.000183912
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:46.429305+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

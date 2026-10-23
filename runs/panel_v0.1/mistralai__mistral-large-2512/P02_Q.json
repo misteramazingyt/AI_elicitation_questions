@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1883 eruption of Krakatoa?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **1883 eruption of Krakatoa (Krakatau)** was one of the most catastrophic volcanic events in recorded history, with devastating global consequences. Here are the key impacts:\n\n### **1. Immediate Destruction (Local Effects)**\n- **Massive Explosion**: The eruption on **August 26–27, 1883**, was heard **3,000 miles (4,800 km) away** (as far as Rodrigues Island near Mauritius) and is considered one of the loudest sounds in history.\n- **Pyroclastic Flows & Tsunamis**:\n  - The collapse of the volcano triggered **tsunamis up to 120 feet (37 meters) high**, which devastated coastal villages in **Java and Sumatra**, killing **~36,000 people**.\n  - Pyroclastic flows traveled **25 miles (40 km) across the Sunda Strait**, incinerating everything in their path.\n- **Island Destruction**: **Two-thirds of Krakatoa Island** was obliterated, leaving only a submerged caldera.\n\n### **2. Global Climatic Effects**\n- **Global Cooling (\"Year Without a Summer\")**:\n  - The eruption injected **~20 million tons of sulfur dioxide (SO₂)** into the stratosphere, forming a **global veil of sulfate aerosols** that reflected sunlight.\n  - **Global temperatures dropped by ~1.2°C (2.2°F)** for **3–5 years**, disrupting weather patterns.\n  - **Unusual atmospheric phenomena** were observed worldwide, including **vivid sunsets** (due to light scattering by aerosols) and **blue/green moons** (reported in Europe and the U.S.).\n- **Crop Failures & Famine**:\n  - Cooler temperatures and disrupted monsoons led to **poor harvests** in **India, China, and Europe**, contributing to food shortages.\n\n### **3. Long-Term Environmental & Ecological Impact**\n- **Oceanic & Marine Life Disruption**:\n  - The tsunamis and ashfall **destroyed coral reefs** and marine ecosystems in the Sunda Strait.\n  - Floating pumice rafts carried **invasive species** across the Indian and Pacific Oceans.\n- **New Volcanic Island (Anak Krakatau)**:\n  - In **1927**, a new volcanic island (**Anak Krakatau**, \"Child of Krakatoa\") emerged from the caldera and remains active today.\n\n### **4. Scientific & Cultural Legacy**\n- **Advancements in Volcanology**:\n  - The eruption was one of the first **globally documented** volcanic events, leading to better understanding of **volcanic gases, tsunamis, and climate impacts**.\n  - It inspired **early seismological studies** and the development of **tsunami warning systems**.\n- **Art & Literature**:\n  - The **blood-red sunsets** influenced artists like **Edvard Munch** (who painted *The Scream* in 1893, possibly inspired by Krakatoa’s atmospheric effects).\n  - The eruption was referenced in **Jules Verne’s *The Child of the Cavern*** and other 19th-century works.\n\n### **5. Human & Economic Costs**\n- **Mass Casualties**: **~36,000 deaths** (mostly from tsunamis).\n- **Economic Devastation**: Coastal towns in **Indonesia** were wiped out, and global trade was disrupted due to shipping hazards from floating pumice.\n- **Psychological Impact**: The sheer scale of destruction and the **eerie atmospheric effects** contributed to a sense of **global unease** in the late 19th century.\n\n### **Conclusion**\nThe **1883 Krakatoa eruption** was a **cataclysmic event** with **local, regional, and global consequences**, from **immediate destruction** to **long-term climate disruption**. It remains a **key case study** in volcanology, climate science, and disaster preparedness. The **1927 emergence of Anak Krakatau** serves as a reminder of the volcano’s ongoing threat.\n\nWould you like details on any specific aspect (e.g., tsunamis, climate effects, or Anak Krakatau’s later eruptions)?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 918,
+  "total_tokens": 938,
+  "cost": 0.001387,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001387,
+   "upstream_inference_prompt_cost": 1e-05,
+   "upstream_inference_completions_cost": 0.001377
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:41:41.542888+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

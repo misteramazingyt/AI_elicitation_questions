@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The Supreme Court's 1973 decision in *Roe v. Wade* had profound and far-reaching consequences, reshaping American law, politics, and society. Here are the key consequences:\n\n### **1. Legalization of Abortion Nationwide**\n- The ruling struck down state laws banning or severely restricting abortion, establishing a constitutional right to abortion under the **Due Process Clause of the 14th Amendment** (implied right to privacy).\n- It created a **trimester framework**:\n  - **First trimester (0–12 weeks):** States could not regulate abortion beyond requiring it be performed by a licensed physician.\n  - **Second trimester (13–24 weeks):** States could impose regulations to protect maternal health.\n  - **Third trimester (25+ weeks):** States could ban abortion except when necessary to preserve the mother’s life or health.\n\n### **2. Political Polarization & the Rise of the Pro-Life Movement**\n- *Roe* galvanized **conservative and religious groups**, leading to the formation of powerful **pro-life organizations** (e.g., National Right to Life Committee, Operation Rescue).\n- The decision became a **central issue in U.S. politics**, influencing elections, judicial appointments, and party platforms.\n- The **Republican Party** increasingly adopted anti-abortion stances, while the **Democratic Party** became more firmly pro-choice.\n\n### **3. State-Level Restrictions & Legal Challenges**\n- Despite *Roe*, many states passed **restrictive laws** (e.g., waiting periods, parental consent, mandatory counseling) that chipped away at abortion access.\n- Key Supreme Court cases modified *Roe*:\n  - ***Planned Parenthood v. Casey* (1992):** Replaced the trimester framework with the **\"undue burden\" standard**, allowing more state regulations (e.g., 24-hour waiting periods, parental consent for minors).\n  - ***Gonzales v. Carhart* (2007):** Upheld the **Partial-Birth Abortion Ban Act**, banning a specific late-term abortion procedure.\n  - ***Whole Woman’s Health v. Hellerstedt* (2016):** Struck down Texas laws imposing **unnecessary clinic regulations** (TRAP laws) that restricted access.\n\n### **4. Social & Cultural Impact**\n- **Decline in maternal mortality:** Legal abortion reduced deaths from unsafe, illegal procedures.\n- **Women’s rights & autonomy:** *Roe* was seen as a victory for **reproductive freedom**, allowing women greater control over their bodies and life choices.\n- **Backlash & stigma:** The decision fueled **anti-abortion activism**, including protests, clinic violence (e.g., bombings, murders of abortion providers), and cultural debates over morality.\n\n### **5. Judicial & Constitutional Debates**\n- *Roe* became a **lightning rod for debates over judicial activism**—critics argued the Court \"invented\" a right not explicitly in the Constitution, while supporters saw it as a necessary protection of privacy.\n- The decision **influenced later rulings** on privacy rights, including *Lawrence v. Texas* (2003, striking down sodomy laws) and *Obergefell v. Hodges* (2015, legalizing same-sex marriage).\n\n### **6. Overturning of *Roe* in *Dobbs v. Jackson* (2022)**\n- After decades of conservative judicial appointments, the Supreme Court **overturned *Roe* in *Dobbs v. Jackson Women’s Health Organization*** (June 2022).\n- The decision **returned abortion regulation to the states**, leading to:\n  - **Bans or severe restrictions** in about **20 states** (e.g., Texas, Alabama, Missouri).\n  - **Legal battles** over abortion pills (mifepristone), interstate travel for abortions, and state-level protections.\n  - **Increased demand for abortion funds** and telemedicine abortions in states where it remains legal.\n\n### **7. Ongoing Consequences (Post-*Dobbs*)**\n- **Healthcare disparities:** Women in restrictive states face **longer travel times, higher costs, and delayed care**, increasing risks for high-risk pregnancies.\n- **Political fallout:** Abortion rights became a **key issue in the 2022 midterms**, with pro-choice ballot measures passing in **Kansas, Michigan, and Ohio**.\n- **Corporate & legal responses:** Companies (e.g., Amazon, Disney) offered **travel benefits for abortion care**, and some states (e.g., California, New York) passed **shield laws** to protect providers and patients.\n- **Public opinion shifts:** Polls show **majority support for abortion rights**, with even some conservative-leaning voters opposing total bans.\n\n### **Conclusion**\n*Roe v. Wade* was a **landmark decision** that reshaped American society for nearly 50 years. Its overturning in *Dobbs* has led to a **patchwork of state laws**, deepening political divisions and raising new questions about **reproductive rights, federalism, and healthcare access**. The debate over abortion remains one of the most contentious issues in U.S. politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 1111,
+  "total_tokens": 1136,
+  "cost": 0.001679,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001679,
+   "upstream_inference_prompt_cost": 1.25e-05,
+   "upstream_inference_completions_cost": 0.0016665
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:36:18.702580+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

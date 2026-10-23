@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "H",
+ "prompt": "How have historians interpreted the discovery of penicillin? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Together",
+ "response": "Historians have largely moved away from the simple “Fleming discovered penicillin in 1928” story. They now treat the discovery as a contested, distributed, and contingent process—part serendipity, part long-term investigation, part wartime team science, and part myth-making.\n\n**1. The traditional heroic/serendipity narrative.**  \nEarly and popular accounts, often built on Alexander Fleming’s 1929 paper and the 1945 Nobel Prize, present penicillin as the classic “Eureka” moment: a stray mold spore contaminated a staphylococcus plate, Fleming noticed a zone of inhibition, and modern medicine was transformed. This interpretation emphasizes Fleming’s “prepared mind” and lone genius. See Fleming’s original paper and the Nobel citation: Alexander Fleming, “On the Antibacterial Action of Cultures of a Penicillium…,” *British Journal of Experimental Pathology* 10 (1929): 226–236; Nobel Prize in Physiology or Medicine 1945.\n\n**2. Revisionist accounts: discovery as a longer, collective process.**  \nHistorians such as Ronald Hare, David Wilson, and Gwyn Macfarlane have challenged the heroic myth. They note that antibacterial molds had been observed before Fleming—for example, Ernest Duchesne in 1897—and that Fleming’s 1929 paper was cautious, did not produce a stable therapeutic, and was largely ignored for years. Macfarlane’s *Alexander Fleming: The Man and the Myth* (1984) is especially associated with the critical reassessment of Fleming’s reputation. See Ronald Hare, *The Birth of Penicillin and the Disarming of Microbes* (1970); David Wilson, *In Search of Penicillin* (1976); Gwyn Macfarlane, *Alexander Fleming: The Man and the Myth* (1984); and Robert Gaynes, “The Discovery of Penicillin—New Insights After More Than 75 Years of Clinical Use,” *Emerging Infectious Diseases* 23, no. 5 (2017): 849–853.\n\n**3. The Oxford team and the “development” of penicillin.**  \nA major historiographical shift places the real therapeutic breakthrough with Howard Florey, Ernst Chain, Norman Heatley, and their Oxford colleagues. Their 1940 *Lancet* paper showed that penicillin could cure infections in mice, and subsequent work turned it into a usable drug. Historians argue that Fleming’s observation was necessary but not sufficient: purification, assay, animal trials, clinical trials, and mass production were decisive. See H. W. Florey et al., “Penicillin as a Chemotherapeutic Agent,” *Lancet* 236 (1940): 226–228; Eric Lax, *The Mold in Dr. Florey’s Coat* (2004); Gladys L. Hobby, *Penicillin: Meeting the Challenge* (1985); and Henry Harris, “Howard Florey and the Development of Penicillin,” *Notes and Records of the Royal Society of London* 53 (1999): 317–327. Heatley’s exclusion from the 1945 Nobel is often cited as an injustice.\n\n**4. Wartime, state, and industrial history.**  \nOther historians interpret penicillin as a product of World War II state–academic–industry networks. The U.S. scale-up involved the USDA’s Peoria laboratory and companies such as Merck, Pfizer, and Squibb. Robert Bud’s *Penicillin: Triumph and Tragedy* (2007) and Scott H. Podolsky’s *The Antibiotic Era* (2015) connect penicillin to wartime mobilization, patent and access debates, and later antibiotic resistance.\n\n**5. Cultural and symbolic interpretations.**  \nBud and others also treat penicillin as a cultural symbol: the “miracle drug,” a national triumph, and later a cautionary tale about resistance and inequitable access. The heroic Fleming story, on this view, served professional, national, and commercial interests as much as it reflected the historical record.\n\nIn short, historians now interpret penicillin’s discovery not as a single event but as a contingent, collaborative achievement: Fleming’s observation mattered, but the Oxford team, wartime production, and the myths that grew around them were equally central to the history of penicillin.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 5753,
+  "total_tokens": 5796,
+  "cost": 0.0069165,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0069165,
+   "upstream_inference_prompt_cost": 1.29e-05,
+   "upstream_inference_completions_cost": 0.0069036
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4859,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:58:33.142613+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

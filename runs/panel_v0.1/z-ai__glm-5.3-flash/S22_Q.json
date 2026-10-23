@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration and Nationality Act of 1965?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the Immigration and Nationality Act of 1965\n\nThe Immigration and Nationality Act of 1965 (also known as the Hart-Celler Act) fundamentally transformed American immigration. Here are its major consequences:\n\n## Immediate Effects\n\n**Abolished the national origins quota system**: The act eliminated the 1924 quota system that heavily favored Northern and Western Europeans and effectively barred most Asian immigration. It replaced this with a preference system based on skills and family relationships.\n\n**Created family reunification priorities**: The new system prioritized reuniting families, allowing U.S. citizens and permanent residents to sponsor relatives.\n\n## Demographic Transformation\n\n**Diversified immigration sources**: Before 1965, most immigrants came from Europe. Afterward, immigration shifted dramatically toward Asia, Latin America, and later Africa. Asian immigration, which had been severely restricted, increased enormously.\n\n**Increased immigration overall**: Foreign-born population grew from about 9.6 million in 1970 to over 40 million by recent decades.\n\n**Changed U.S. demographics**: The act laid groundwork for the dramatic increase in Hispanic and Asian American populations, contributing to projections that the U.S. will become majority-minority in coming decades.\n\n## Unintended Consequences\n\n**Chain migration**: Family-based provisions meant that one immigrant could eventually sponsor multiple relatives, creating extended migration networks that lawmakers hadn't fully anticipated.\n\n**Western Hemisphere limits**: The act imposed, for the first time, caps on immigration from the Western Hemisphere (implemented in 1968), which some scholars argue inadvertently encouraged undocumented immigration from Latin America, particularly Mexico.\n\n## Long-Term Impacts\n\n- Reshaped the labor force and economy\n- Transformed urban and suburban demographics\n- Influenced politics, culture, cuisine, and religion\n- Sparked ongoing debates about immigration policy that continue today\n\nThe act is widely considered one of the most consequential laws of the 20th century, essentially creating the modern American immigration system.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 595,
+  "total_tokens": 638,
+  "cost": 5.6144e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.6144e-05,
+   "upstream_inference_prompt_cost": 1.2255e-06,
+   "upstream_inference_completions_cost": 5.49185e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 192,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:42.922092+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

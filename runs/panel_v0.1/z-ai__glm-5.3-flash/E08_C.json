@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "C",
+ "prompt": "What were the main causes of the Great Depression?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the Great Depression\n\nThe Great Depression (1929–1939) resulted from a combination of interrelated factors:\n\n## 1. The 1929 Stock Market Crash\nThe crash of October 1929 destroyed billions in wealth and shattered confidence, though it was a trigger rather than the sole cause.\n\n## 2. Banking Failures\nThousands of banks failed, especially after 1930. With no deposit insurance, people lost their savings, and bank panics contracted the money supply dramatically.\n\n## 3. Overproduction and Underconsumption\nIndustrial and agricultural output grew rapidly in the 1920s, but wages didn't keep pace. Consumers couldn't afford to buy what was being produced, leading to falling prices and production cuts.\n\n## 4. Excessive Debt and Speculation\n- **Margin buying**: Investors purchased stocks with borrowed money, inflating a speculative bubble\n- **Household and farm debt**: Many Americans were heavily indebted during the 1920s\n\n## 5. Monetary Policy Mistakes\nThe Federal Reserve allowed the money supply to shrink by about one-third (as analyzed by Milton Friedman), turning a recession into a depression.\n\n## 6. The Gold Standard\nCountries tied to gold couldn't expand their money supplies to fight the downturn, and the standard spread deflation internationally.\n\n## 7. Protectionist Trade Policies\nThe **Smoot-Hawley Tariff (1930)** raised import duties dramatically, triggering retaliation, collapsing international trade, and worsening the global downturn.\n\n## 8. Unequal Wealth Distribution\nConcentrated wealth meant reduced consumer demand and an economy dependent on luxury spending and investment, which were volatile.\n\n## 9. International Debt Problems\nWar debts and reparations from WWI created a fragile international financial system centered on American loans, which dried up after 1929.\n\nMost economists today view the combination of **monetary contraction, banking panics, and the gold standard** as the key factors that made the downturn so severe and prolonged.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 480,
+  "total_tokens": 517,
+  "cost": 4.53585e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.53585e-05,
+   "upstream_inference_prompt_cost": 1.0545e-06,
+   "upstream_inference_completions_cost": 4.4304e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 65,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:24.438391+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

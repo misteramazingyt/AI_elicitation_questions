@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "Q",
+ "prompt": "What were the consequences of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The handling of tax-exempt applications by the Internal Revenue Service (IRS) between 2010 and 2013—often referred to as the IRS targeting controversy—resulted in significant administrative, legal, political, and regulatory consequences. \n\nThe controversy centered on the IRS using inappropriate criteria, such as searching for terms like \"Tea Party,\" \"Patriot,\" and \"9/12,\" to flag applications for 501(c)(4) tax-exempt status for extra scrutiny. While conservative-leaning groups were disproportionately flagged by the initial criteria, subsequent reviews showed that progressive and other political groups were also subjected to similar delays and extensive questioning.\n\nThe consequences of this handling unfolded across several areas:\n\n### 1. Administrative and Personnel Consequences\n* **Leadership Changes:** In May 2013, following the release of an inspector general's report, Steven Miller, the acting commissioner of the IRS, resigned at the request of the Treasury Department. Lois Lerner, the director of the IRS’s Exempt Organizations unit, was placed on administrative leave and subsequently retired.\n* **Internal Restructuring:** The IRS implemented significant internal reforms. This included overhauling the Exempt Organizations unit, establishing new guidelines for processing applications, improving employee training, and creating new oversight mechanisms to prevent the use of inappropriate criteria in the future.\n\n### 2. Investigative and Legal Consequences\n* **TIGTA Report:** In May 2013, the Treasury Inspector General for Tax Administration (TIGTA) released a report confirming that the IRS had used inappropriate criteria to identify tax-exempt applications for review, resulting in significant delays for the affected groups.\n* **Department of Justice (DOJ) Investigation:** The DOJ opened a criminal investigation in 2013 to determine if any IRS employees committed crimes, such as violating civil rights or engaging in political corruption. In 2017, the DOJ closed the investigation without filing any criminal charges. The department concluded that while the actions of the IRS were inappropriate and caused significant harm to the affected groups, there was insufficient evidence to prove beyond a reasonable doubt that any specific individual acted with intentional political bias or a corrupt motive.\n* **Congressional Investigations and Contempt Citation:** Congress held numerous hearings regarding the matter. In 2014, the Republican-controlled House of Representatives voted to hold Lois Lerner in contempt of Congress after she appeared at a hearing, made an opening statement, and then asserted her Fifth Amendment right against self-incrimination when questioned by committee members.\n\n### 3. Political and Public Fallout\n* **Partisan Division:** The controversy became a major point of partisan conflict. Republicans and conservative groups argued that the actions constituted intentional political targeting by the Obama administration to suppress conservative voices. Democrats and the administration acknowledged severe mismanagement and inappropriate criteria but disputed the conclusion that there was a coordinated, intentional political conspiracy.\n* **Erosion of Public Trust:** The controversy contributed to a decline in public confidence in the IRS. Polls following the revelations showed a significant drop in the public's trust in the agency's ability to administer the tax code fairly and impartially.\n\n### 4. Regulatory and Policy Consequences\n* **Proposed Changes to 501(c)(4) Rules:** The surge in 501(c)(4) applications—which are allowed to engage in some political activity but cannot have politics as their primary purpose—highlighted ambiguities in the tax code regarding \"dark money\" in politics. In response, the IRS proposed new rules in late 2013 to clarify what constitutes \"political campaign intervention\" for these organizations. \n* **Withdrawal of Proposed Rules:** The proposed rules faced massive pushback from both conservative and liberal groups, as well as free-speech advocates, who argued the regulations would chill political speech. In 2017, the IRS and the Treasury Department officially withdrew the proposed rules, leaving the regulation of 501(c)(4) political activity largely to the Federal Election Commission (FEC) and the courts.\n* **Increased Legislative Scrutiny:** The controversy prompted ongoing legislative efforts to reform the IRS, increase whistleblower protections, and alter how the agency is funded and overseen by Congress, though comprehensive legislative reform regarding 501(c)(4) organizations has remained largely stalled. \n\nUltimately, the handling of the applications resulted in a major reorganization of the IRS's exempt organizations division, multiple high-profile investigations, and a lasting impact on the political discourse surrounding campaign finance and government oversight.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 2449,
+  "total_tokens": 2487,
+  "cost": 0.00314688,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00314688,
+   "upstream_inference_prompt_cost": 1.216e-05,
+   "upstream_inference_completions_cost": 0.00313472
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1511,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:16.232784+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

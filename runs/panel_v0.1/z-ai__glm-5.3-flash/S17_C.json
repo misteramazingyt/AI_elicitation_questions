@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "C",
+ "prompt": "What were the main causes of the 2003 U.S.-led invasion of Iraq?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the 2003 Iraq Invasion\n\n## Stated Justifications\n\n**1. Weapons of Mass Destruction (WMD)**\nThe primary stated rationale was that Saddam Hussein possessed chemical, biological weapons and was pursuing nuclear weapons. This was based on intelligence assessments that later proved wrong—no active WMD programs were found.\n\n**2. Alleged Links to Terrorism**\nThe Bush administration claimed Iraq had connections to al-Qaeda and could provide WMD to terrorists. This was particularly tied to post-9/11 fears, though the 9/11 Commission found no collaborative operational relationship between Iraq and al-Qaeda.\n\n**3. Violation of UN Resolutions**\nIraq was cited for failing to comply with multiple UN Security Council resolutions regarding disarmament and weapons inspections dating back to the 1991 Gulf War ceasefire.\n\n## Broader Contextual Factors\n\n**4. Post-9/11 Security Environment**\nThe September 11 attacks dramatically shifted U.S. threat perceptions, creating a willingness for preemptive military action against perceived threats.\n\n**5. Regime Change Policy**\nThe Bush administration included several officials (like Paul Wolfowitz and Dick Cheney) who had advocated removing Saddam since the 1990s, and the 1998 Iraq Liberation Act had made regime change official U.S. policy.\n\n**6. Democratization Ambitions**\nSome administration officials hoped toppling Saddam would trigger democratic transformation in the Middle East.\n\n**7. Intelligence Failures**\nFaulty intelligence—exaggerated claims like the \"yellowcake uranium\" and aluminum tubes—was presented as certainty, later shown to be unreliable.\n\n## Contested Explanations\nHistorians and critics have also pointed to factors like oil interests, geopolitical influence in the region, and completing the Gulf War's unfinished business, though these remain debated.\n\nThe invasion remains controversial, particularly because the central WMD justification proved false.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 534,
+  "total_tokens": 579,
+  "cost": 5.05707e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.05707e-05,
+   "upstream_inference_prompt_cost": 1.2825e-06,
+   "upstream_inference_completions_cost": 4.92882e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 156,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:30.898719+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

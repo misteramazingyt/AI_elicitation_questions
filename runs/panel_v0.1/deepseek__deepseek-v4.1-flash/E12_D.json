@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "D",
+ "prompt": "Describe Argentina's 2001 economic crisis.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Baidu",
+ "response": "Argentina’s 2001 crisis was a compound currency, banking, sovereign-debt, and political collapse. It ended the country’s 1991 Convertibility Plan, under which the peso was pegged 1:1 to the U.S. dollar and the central bank could issue pesos only in proportion to dollar reserves. The peg had crushed hyperinflation and attracted foreign capital, but by the late 1990s the peso was overvalued. Brazil’s 1999 devaluation, a strong dollar, weak commodity prices, and global risk aversion hurt Argentine exports, while fiscal deficits, provincial overspending, high debt service, tax evasion, and reliance on foreign borrowing made the economy fragile. A deep recession began in 1998.\n\nThrough 2000–2001, Argentina relied on IMF-led bailouts and austerity, but confidence kept falling. Capital flight and bank runs intensified. In December 2001, the government imposed the **corralito**, limiting cash withdrawals to about $250 per week. Massive protests, looting, and cacerolazos (“pot-banging” demonstrations) erupted. On December 20, President Fernando de la Rúa resigned; around 39 people were killed in the unrest. On December 23, interim President Adolfo Rodríguez Saá declared default on roughly $100 billion in sovereign debt—the largest sovereign default in history at the time.\n\nIn early January 2002, President Eduardo Duhalde ended convertibility and devalued the peso. The currency was initially set at 1.4 pesos per dollar, then floated and fell to about 4 per dollar. Bank deposits in dollars were converted to pesos at 1.4, while many dollar debts were converted at 1:1—an “asymmetric pesification” that devastated savers and banks. Time deposits remained trapped in the “corralón.” Argentina went through five presidents in about two weeks.\n\nThe economic damage was severe: GDP fell 4.4% in 2001 and 10.9% in 2002; unemployment exceeded 21%; poverty rose above 50%; inflation reached roughly 40% in 2002. Many businesses failed, savings were wiped out, and the default cut Argentina off from international credit. Political legitimacy collapsed around the slogan **“¡Que se vayan todos!”** (“Throw them all out!”).\n\nRecovery began around 2003, helped by a competitive devalued peso, a commodity boom, fiscal surpluses, and import substitution. Argentina restructured its defaulted debt in 2005 and 2010 with steep haircuts, while holdout creditors litigated for years. The 2001 crisis left a lasting legacy of distrust in banks, the IMF, fixed exchange-rate regimes, and traditional political elites.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 3756,
+  "total_tokens": 3795,
+  "cost": 0.0008088831,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008088831,
+   "upstream_inference_prompt_cost": 2.0943e-06,
+   "upstream_inference_completions_cost": 0.0008067888
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3185,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:10:11.177033+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

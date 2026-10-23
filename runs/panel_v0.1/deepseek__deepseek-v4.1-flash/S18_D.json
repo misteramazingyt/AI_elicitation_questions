@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "D",
+ "prompt": "Describe the 2011 military intervention in Libya.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "CoreWeave",
+ "response": "The 2011 military intervention in Libya was a multinational air and naval campaign, authorized by the UN Security Council and led by NATO, aimed at protecting civilians during the uprising against Muammar Gaddafi’s regime.\n\n**Background.** In February 2011, inspired by the Arab Spring, protests erupted in Benghazi and other Libyan cities. Gaddafi’s forces responded with severe repression, and opposition groups formed the National Transitional Council (NTC). As regime forces advanced on Benghazi, Gaddafi threatened to show “no mercy,” raising fears of a mass atrocity.\n\n**UN authorization.** On 17 March 2011, the UN Security Council adopted Resolution 1973. It established a no-fly zone, strengthened an arms embargo, and authorized member states to take “all necessary measures” to protect civilians and civilian-populated areas, while explicitly excluding a foreign occupation force. Russia, China, Germany, India, and Brazil abstained. The resolution was invoked under the emerging “responsibility to protect” principle.\n\n**Military operations.** The intervention began on 19 March 2011 with French, British, and U.S. strikes under Operation Odyssey Dawn. U.S. Tomahawk missiles and coalition airpower halted Gaddafi’s forces near Benghazi. On 31 March, NATO assumed command as Operation Unified Protector. Its missions included enforcing the no-fly zone, enforcing the maritime arms embargo, and conducting air strikes against regime military targets such as tanks, artillery, command centers, and ammunition depots. Contributors included the U.S., UK, France, Canada, Italy, Belgium, Denmark, Norway, the Netherlands, Spain, Qatar, the UAE, and others. NATO flew roughly 26,000 sorties, including about 9,600 strike sorties. There was no large-scale foreign ground invasion, though special forces and advisers from some states reportedly assisted rebels, and Qatar and the UAE were accused of supplying arms.\n\n**Course and outcome.** NATO airpower helped rebel forces break sieges in Misrata and Ajdabiya and advance toward Tripoli, which fell in August 2011. Gaddafi was captured and killed in Sirte on 20 October 2011. The NTC declared liberation on 23 October, and NATO ended Unified Protector on 31 October.\n\n**Controversy and aftermath.** Supporters argued the intervention prevented a massacre in Benghazi. Critics, including Russia, China, the African Union, and some UN members, accused NATO of exceeding Resolution 1973 by pursuing regime change rather than only civilian protection. There were also disputes over civilian casualties and the arming of rebel groups. After Gaddafi’s fall, Libya remained deeply unstable, fragmenting into rival governments and militias, with a new civil war in 2014, the rise of ISIS, weapons proliferation, and a migration crisis. The intervention is therefore often described as militarily effective in ousting Gaddafi but highly contested in legality, conduct, and long-term consequences.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 2132,
+  "total_tokens": 2172,
+  "cost": 0.0013918,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013918,
+   "upstream_inference_prompt_cost": 6e-06,
+   "upstream_inference_completions_cost": 0.0013858
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1512,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:16:36.855212+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

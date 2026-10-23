@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "D",
+ "prompt": "Describe the discovery of penicillin.",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The discovery of penicillin is one of the most famous stories in the history of science—a blend of **serendipity, meticulous observation, and a decade of collaborative persistence** that transformed medicine.\n\nHere is the story broken down into its key phases.\n\n---\n\n### 1. The Accidental Discovery (1928): Alexander Fleming\n**Who:** Sir Alexander Fleming, a bacteriologist at St. Mary’s Hospital in London.\n**Context:** Fleming was researching *Staphylococcus aureus*, a bacterium causing boils, abscesses, and deadly sepsis. He was known for a somewhat messy lab.\n\n**The Event (September 1928):**\n*   Before leaving for a two-week vacation, Fleming stacked his culture plates (Petri dishes) on a bench to make room, leaving them uncovered.\n*   A rare cold spell in London during his absence lowered the lab temperature, favoring mold growth over bacteria.\n*   Spores of **_Penicillium notatum_** (later reclassified as *Penicillium rubens*) drifted in from a mycology lab one floor below (run by C.J. La Touche) and landed on one of the *Staphylococcus* plates.\n\n**The Observation (September 28, 1928):**\nUpon returning, Fleming noticed something odd on one plate: a large mold colony had formed, and **the staphylococci colonies immediately surrounding it were transparent/lysed (dissolved)**, while colonies further away were normal. He famously reportedly said, *\"That's funny.\"*\n\n**Fleming’s Follow-up:**\n*   He isolated the mold, grew it in broth, and filtered the \"mold juice.\"\n*   He proved the filtrate killed many Gram-positive bacteria (staph, strep, diphtheria, anthrax) but not Gram-negative (typhoid, cholera) and was non-toxic to white blood cells (leukocytes) and rabbits.\n*   He named the active agent **\"penicillin.\"**\n*   **The Critical Limitation:** Fleming was a bacteriologist, not a chemist. He could not purify the unstable compound. He used crude filtrates for topical treatments (eye infections) but concluded it was too unstable and difficult to produce for systemic (injected) use in humans. He published his findings in **1929**, and the world largely ignored it for a decade.\n\n---\n\n### 2. The \"Forgotten Decade\" (1929–1939)\nPenicillin remained a laboratory curiosity.\n*   **Instability:** It degraded rapidly in heat and during extraction.\n*   **Low Yield:** The mold produced tiny amounts.\n*   **Sulfa Drugs:** The discovery of Prontosil (the first sulfonamide) in 1932/1935 provided the first effective systemic antibacterial drugs, reducing urgency for penicillin.\n\n---\n\n### 3. The Oxford Team: Purification & Proof of Concept (1939–1941)\nAt the **Sir William Dunn School of Pathology, University of Oxford**, a multidisciplinary team took up the challenge.\n\n**Key Figures:**\n*   **Howard Florey** (Pathologist/Leader): Secured funding (Rockefeller Foundation), managed the team.\n*   **Ernst Boris Chain** (Biochemist): The driving force behind purification; read Fleming’s 1929 paper and insisted they tackle it.\n*   **Norman Heatley** (Biochemist/Engineer): The \"unsung hero.\" Invented the **counter-current extraction method** (using ether and alkali/acid shifts) to purify penicillin from the broth. He also designed the **ceramic bedpan vessels** (later \"bedpans\") to scale up mold growth surface area.\n\n**The Milestone Experiments:**\n*   **May 1940 (The Mouse Experiment):** 8 mice infected with lethal streptococci. 4 treated with penicillin survived; 4 untreated died. *This proved it worked in a living organism.*\n*   **February 1941 (First Human Trial - Albert Alexander):** A police constable with massive sepsis from a rose thorn scratch. He showed dramatic recovery within 24 hours. **Tragedy:** They ran out of penicillin (even recycling it from his urine). He relapsed and died. This proved efficacy but highlighted the desperate need for mass production.\n\n---\n\n### 4. The \"War Effort\" & Mass Production (1941–1944)\nWith the UK under Blitz bombing and resources stretched, Florey and Heatley flew to the **USA in June 1941** to enlist American pharmaceutical might.\n\n**Key Breakthroughs in the US (Peoria, Illinois - USDA Northern Regional Research Lab):**\n1.  **Deep-Tank Fermentation:** Switching from surface growth (bottles/bedpans) to **submerged culture** in massive aerated vats (thousands of liters).\n2.  **Corn Steep Liquor:** A byproduct of corn milling (wet milling) replaced expensive nutrients, boosting yield 10–20x.\n3.  **Strain Improvement (The \"Moldy Cantaloupe\"):** In 1943, a lab assistant (Mary Hunt, \"Moldy Mary\") brought in a **cantaloupe from a Peoria market** covered in a \"pretty golden mold.\" The strain *_Penicillium chrysogenum_ NRRL 1951_* produced 200x more penicillin than Fleming’s original strain. Later, **X-ray/UV mutagenesis** pushed yields even higher.\n\n**Industrial Scale-Up:**\n*   Companies: Pfizer, Merck, Squibb, Abbott, Lilly.\n*   **1942:** US production = enough for ~10 patients.\n*   **1944 (D-Day):** US production = **100 billion units/month** (enough for all Allied forces).\n*   Penicillin went from **$20 per dose (1943)** to **$0.55 per dose (1946)**.\n\n---\n\n### 5. Recognition & Legacy\n*   **1945 Nobel Prize in Physiology or Medicine:** Awarded jointly to **Fleming, Florey, and Chain**. (Heatley was notably excluded, a point of historical controversy; he was later awarded an honorary doctorate by Oxford and the first non-medic to receive the Royal Society's Copley Medal).\n*   **Fleming’s Warning:** In his Nobel lecture, Fleming famously warned: *\"The time may come when penicillin can be bought by anyone in the shops. Then there is the danger that the ignorant man may easily underdose himself and by exposing his microbes to non-lethal quantities of the drug make them resistant.\"*\n\n---\n\n### Summary: Why It Matters\n| Phase | Key Contribution |\n| :--- | :--- |\n| **Fleming (1928)** | **Discovery:** Observation of the \"zone of inhibition\"; identification of the agent. |\n| **Florey/Chain/Heatley (1940)** | **Development:** Purification, proof of in-vivo efficacy, clinical protocol. |\n| **US Industry/Peoria Lab (1942–44)** | **Production:** Deep-tank fermentation, high-yield strains, industrial scale. |\n\n**The Result:** Penicillin turned bacterial pneumonia, syphilis, gonorrhea, wound sepsis, and rheumatic fever from **often-fatal diseases into treatable conditions**. It launched the **Antibiotic Era**, fundamentally altering surgery, cancer chemotherapy, organ transplantation, and global life expectancy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 1838,
+  "total_tokens": 1861,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 196,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:50:06.500552+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

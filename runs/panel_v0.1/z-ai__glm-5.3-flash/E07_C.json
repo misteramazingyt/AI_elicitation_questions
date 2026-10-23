@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "C",
+ "prompt": "What were the main causes of the 2008 financial crisis?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the 2008 Financial Crisis\n\n## Housing Bubble and Subprime Mortgages\n- **Loose lending standards**: Banks issued mortgages to borrowers with poor credit (\"subprime\" borrowers), often with little or no down payment verification\n- **Adjustable-rate mortgages (ARMs)**: Many loans had low \"teaser\" rates that reset to much higher payments, causing widespread defaults\n- **Speculation**: Rapidly rising home prices encouraged buying as an investment, inflating a bubble\n\n## Financial Engineering and Risky Instruments\n- **Mortgage-backed securities (MBS)**: Banks bundled mortgages into securities sold to investors\n- **Collateralized debt obligations (CDOs)**: Complex products that repackaged these securities, often containing risky loans\n- **Credit default swaps (CDS)**: Insurance-like contracts (heavily sold by AIG) that spread risk throughout the system\n\n## Regulatory and Institutional Failures\n- **Deregulation**: The repeal of Glass-Steagall (1999) allowed banks to mix commercial and investment activities\n- **Weak oversight**: Regulators failed to monitor the growing shadow banking system and derivatives market\n- **Rating agency failures**: Moody's, S&P, and Fitch gave AAA ratings to securities that turned out to be very risky\n\n## Excessive Leverage and Risk-Taking\n- Banks operated with extremely high debt-to-capital ratios (sometimes 30:1 or more)\n- Short-term funding made institutions vulnerable when credit markets froze\n- Compensation structures rewarded short-term risk-taking\n\n## The Trigger\nWhen housing prices peaked in 2006–2007 and began falling, mortgage defaults surged. The value of mortgage-backed securities collapsed, banks faced massive losses, interbank lending froze (Lehman Brothers' bankruptcy in September 2008 was a critical moment), and the crisis spread globally through interconnected financial systems.\n\n## Underlying Factors\n- Global imbalances (large capital flows from countries like China into U.S. debt)\n- Prolonged low interest rates after 2001 encouraging borrowing\n- A widespread belief that housing prices never fall nationally\n\nWould you like me to go deeper into any of these areas?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 517,
+  "total_tokens": 557,
+  "cost": 4.88591e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.88591e-05,
+   "upstream_inference_prompt_cost": 1.14e-06,
+   "upstream_inference_completions_cost": 4.77191e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 68,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:20.798708+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

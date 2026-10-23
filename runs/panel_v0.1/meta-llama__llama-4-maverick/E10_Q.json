@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "Q",
+ "prompt": "What were the consequences of the UK miners' strike of 1984-1985?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The UK miners' strike of 1984-1985 had significant consequences for the mining industry, the trade union movement, and British politics. Some of the key consequences include:\n\n1. **Decline of the mining industry**: The strike ultimately failed to prevent the closure of unprofitable pits, and the industry was significantly downsized. Many mines were closed, and thousands of miners lost their jobs.\n2. **Weakening of the National Union of Mineworkers (NUM)**: The strike was a major defeat for the NUM, which had been a powerful and influential trade union. The union's membership and influence declined significantly in the aftermath of the strike.\n3. **Margaret Thatcher's government strengthened**: The strike was a test of wills between the NUM and the Conservative government, led by Margaret Thatcher. The government's victory in the strike helped to consolidate its power and reinforced its commitment to free market policies and reducing the power of trade unions.\n4. **Changes in labor laws**: The strike led to changes in labor laws, including the introduction of stricter regulations on picketing and the use of injunctions to limit industrial action. These changes made it more difficult for trade unions to take effective action in the future.\n5. **Impact on local communities**: The strike had a significant impact on local communities, particularly in mining areas. Many communities suffered economic hardship and social disruption as a result of the strike and the subsequent decline of the mining industry.\n6. **Rise of the \"scab\" issue**: The strike highlighted the issue of \"scabs\" (miners who continued to work during the strike), which became a source of tension and conflict within the mining communities.\n7. **Police powers and tactics**: The strike saw the use of large-scale policing operations, including the deployment of police from other parts of the country to mining areas. The police tactics used during the strike, including the use of baton charges and mass arrests, were widely criticized.\n8. **Long-term impact on British politics**: The strike marked a turning point in British politics, as it marked a significant shift in the balance of power between trade unions and employers. The strike also highlighted the divisions within the Labour Party, which was struggling to respond to the Conservative government's policies.\n9. **Legacy of the strike**: The strike has left a lasting legacy in British politics and culture, with many regarding it as a symbol of the struggle between the working class and the capitalist state. The strike has been commemorated in various ways, including through art, literature, and music.\n\nOverall, the UK miners' strike of 1984-1985 was a significant event that had far-reaching consequences for the mining industry, trade unions, and British politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 553,
+  "total_tokens": 581,
+  "cost": 0.0003660825,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003660825,
+   "upstream_inference_prompt_cost": 5.25e-06,
+   "upstream_inference_completions_cost": 0.0003608325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:03:38.121936+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

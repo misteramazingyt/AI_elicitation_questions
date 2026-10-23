@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "C",
+ "prompt": "What were the main causes of the 1993 Waco siege?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The 1993 Waco Siege: Background and Causes\n\nThe Waco siege (February 28 – April 19, 1993) resulted from a convergence of factors involving the Bureau of Alcohol, Tobacco, and Firearms (ATF), the Branch Davidians, and their leader David Koresh.\n\n## Immediate Triggers\n\n**Weapons investigation**: The ATF obtained search and arrest warrants alleging that the Branch Davidians' compound (Mount Carmel Center) contained illegal weapons. This included:\n- Large quantities of firearms and ammunition purchased in bulk\n- Alleged illegal conversion of semi-automatic rifles to machine guns\n- Alleged illegal grenades and explosive devices\n\n**Koresh's legal troubles**: David Koresh faced allegations of sexual abuse of minors within the group, which contributed to broader law enforcement concern.\n\n## Contributing Factors\n\n**ATF institutional pressures**: The ATF was under scrutiny following criticism related to the Ruby Ridge incident (1992). Some analysts argue the agency pursued Waco aggressively partly to bolster its public image and budget standing.\n\n**Failed raid planning**: The ATF launched a dynamic entry raid on February 28 rather than arresting Koresh when he was away from the compound or negotiating his surrender. The raid turned into a shootout, killing four ATF agents and several Branch Davidians, which escalated the situation into a 51-day standoff.\n\n**Mistrust on both sides**: Koresh had previously invited investigators to inspect weapons and claimed compliance, but deep mutual distrust and communication failures prevented peaceful resolution.\n\n**Religious dynamics**: Koresh's apocalyptic theology led followers to believe a confrontation with authorities was prophesied, complicating negotiation efforts.\n\n## Aftermath\n\nThe siege ended when the FBI launched an assault with tear gas on April 19; a fire engulfed the compound, killing about 76 people, including Koresh. The event influenced later incidents like the Oklahoma City bombing and remains a subject of debate about federal law enforcement tactics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 476,
+  "total_tokens": 517,
+  "cost": 4.51033e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.51033e-05,
+   "upstream_inference_prompt_cost": 1.1685e-06,
+   "upstream_inference_completions_cost": 4.39348e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 84,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:57.748295+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

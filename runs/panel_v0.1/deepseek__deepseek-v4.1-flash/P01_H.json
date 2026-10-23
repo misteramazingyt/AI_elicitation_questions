@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "H",
+ "prompt": "How have historians interpreted the invention of the movable-type printing press in Europe? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "Historians have not agreed on a single interpretation of the European movable-type printing press. The debate runs from older “print revolution” narratives that treat Gutenberg’s invention as a world-historical rupture to revisionist accounts that stress continuity, contingency, social construction, and the co-evolution of print with politics, religion, commerce, and reading practices.\n\n**1. The “print revolution” / technological-determinist interpretation.**  \nThe classic mid- to late-twentieth-century view sees movable type as an agent of sweeping change. Elizabeth Eisenstein argued that print created “fixity,” standardization, and cumulative knowledge, enabling the Renaissance, Reformation, and Scientific Revolution. Marshall McLuhan similarly claimed that typography reshaped cognition, individualism, and nationalism.  \n- Elizabeth L. Eisenstein, *The Printing Press as an Agent of Change*, 2 vols. (1979); abridged as *The Printing Revolution in Early Modern Europe* (1983).  \n- Marshall McLuhan, *The Gutenberg Galaxy* (1962).\n\n**2. The Annales / book-history interpretation: continuity and long-term structures.**  \nLucien Febvre and Henri-Jean Martin treated printing as part of a longer history of the book, paper, commerce, and manuscript culture rather than a sudden break. Roger Chartier emphasized that print’s effects depended on reading practices, institutions, and the “order of books.”  \n- Lucien Febvre and Henri-Jean Martin, *The Coming of the Book* (French orig. 1958; English trans. 1976).  \n- Roger Chartier, *The Order of Books* (1994).  \n- Robert Darnton, “What Is the History of Books?,” *Daedalus* 111 (1982): 65–83.\n\n**3. Revisionist / social-constructionist interpretation.**  \nAdrian Johns argued that the supposed virtues of print—reliability, fixity, authorship—were not automatic consequences of the technology. They had to be constructed through institutions, conventions, censorship, piracy disputes, and credibility practices. David McKitterick showed that early printed books remained fluid: corrections, variant copies, and manuscript annotations were common.  \n- Adrian Johns, *The Nature of the Book: Print and Knowledge in the Making* (1998).  \n- Adrian Johns, “How to Acknowledge a Revolution,” *American Historical Review* 107 (2002): 106–125.  \n- David McKitterick, *Print, Manuscript and the Search for Order, 1450–1830* (2003).\n\n**4. Reformation and political history.**  \nMost historians now see print as crucial to the Reformation but not sufficient to explain it. Andrew Pettegree, Mark Edwards, and Jean-François Gilmont stress that Luther’s success depended on pamphlets, vernacular print, oral networks, political alliances, and visual culture; Catholic polemic also used print effectively.  \n- Andrew Pettegree, *The Book in the Renaissance* (2010) and *Brand Luther* (2015).  \n- Mark U. Edwards Jr., *Printing, Propaganda, and Martin Luther* (1994).  \n- Jean-François Gilmont, ed., *The Reformation and the Book* (1998).\n\n**5. Economic and social-science interpretations.**  \nQuantitative work has tried to measure print’s effects. Jeremiah Dittmar found that cities adopting printing grew faster and were more likely to become Protestant, linking print to human capital and institutional change. Benedict Anderson argued that “print capitalism” helped create imagined national communities.  \n- Jeremiah E. Dittmar, “Information Technology and Economic Change: The Impact of the Printing Press,” *Quarterly Journal of Economics* 126 (2011): 1133–1172.  \n- Benedict Anderson, *Imagined Communities*, rev. ed. (2006).\n\n**6. Global and comparative interpretation.**  \nHistorians of technology and East Asia note that movable type existed in China (Bi Sheng, c. 1040) and Korea (metal type, *Jikji*, 1377) before Gutenberg. The European invention was less “first movable type” than a specific system—metal type, press, oil-based ink, paper, and an alphabetic market—that spread rapidly in Europe.  \n- Thomas Francis Carter, *The Invention of Printing in China and Its Spread Westward*, rev. ed. (1955).  \n- Cynthia Brokaw and Kai-wing Chow, eds., *Printing and Book Culture in Late Imperial China* (2005).  \n- Stephan Füssel, *Gutenberg and the Impact of Printing* (2005).\n\n**Conclusion.**  \nHistorians increasingly treat the “invention” as a process, not a single moment, and its impact as contingent rather than automatic. Eisenstein’s “print revolution” remains influential, but Johns, McKitterick, Chartier, and Pettegree have qualified it by showing that print’s effects depended on social trust, commercial networks, religious politics, reading practices, and institutional regulation. The dominant scholarly view today is that movable type was transformative—but not monocausal, and not uniformly “revolutionary” in its immediate effects.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 49,
+  "completion_tokens": 4525,
+  "total_tokens": 4574,
+  "cost": 0.003240422,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003240422,
+   "upstream_inference_prompt_cost": 5.047e-06,
+   "upstream_inference_completions_cost": 0.003235375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3446,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:58:05.983238+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

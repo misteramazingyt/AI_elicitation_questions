@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "D",
+ "prompt": "Describe the 1996 U.S. welfare reform law.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Decart",
+ "response": "The 1996 U.S. welfare reform law is formally the **Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA)**. President Bill Clinton signed it on **August 22, 1996**, after it was passed by a Republican-controlled Congress. It is often described as “ending welfare as we know it.”\n\nIts central change was to abolish **Aid to Families with Dependent Children (AFDC)**, the New Deal-era open-ended federal cash-assistance entitlement, and replace it with **Temporary Assistance for Needy Families (TANF)**.\n\nKey features:\n\n- **Block grants to states:** TANF gave states fixed annual federal grants—about $16.5 billion—and broad discretion to design their own welfare programs. States had to meet maintenance-of-effort spending requirements.\n- **End of individual entitlement:** Poor families no longer had an automatic federal right to cash aid.\n- **Work requirements:** Recipients generally had to engage in work or work-related activities within two years, and federal law set work participation rates for states. States could impose stricter rules.\n- **Time limits:** Federally funded cash assistance was limited to a **five-year lifetime limit**, though states could set shorter limits and exempt up to 20% of their caseload for hardship.\n- **State flexibility:** States could set benefit levels, eligibility rules, sanctions, family caps, and diversion programs.\n- **Child support enforcement:** The law strengthened paternity establishment, wage withholding, a national new-hire registry, and penalties such as driver’s license revocation for nonpayment.\n- **Teen parents:** Minor parents generally had to live with an adult or in a supervised setting and stay in school to receive benefits.\n- **Immigrant restrictions:** Many legal immigrants were barred from federal means-tested benefits for five years, and SSI and food stamp eligibility was sharply restricted, with exemptions for refugees, veterans, and some others.\n- **Food stamps and SSI changes:** The law cut food stamp spending, imposed time limits on able-bodied adults without dependents, and tightened SSI childhood disability eligibility.\n\nThe law’s stated goals were to reduce dependency, promote work, encourage marriage and two-parent families, and prevent out-of-wedlock pregnancies.\n\nEffects were significant: welfare caseloads fell sharply, and employment among single mothers rose. Child poverty also fell in the late 1990s, though researchers debate how much was due to welfare reform versus a strong economy, the Earned Income Tax Credit, and minimum-wage increases. Critics argue the law increased hardship and deep poverty for families unable to work, while supporters say it reduced long-term welfare dependence and increased work.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 3139,
+  "total_tokens": 3181,
+  "cost": 0.0005688,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005688,
+   "upstream_inference_prompt_cost": 3.78e-06,
+   "upstream_inference_completions_cost": 0.00056502
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2895,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:10:37.791415+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

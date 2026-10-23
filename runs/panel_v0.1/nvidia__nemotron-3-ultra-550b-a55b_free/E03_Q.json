@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "Q",
+ "prompt": "What were the consequences of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The famine of 1932–1933 in Soviet Ukraine, known as the **Holodomor** (from Ukrainian *holod* \"hunger\" and *moryty* \"to exterminate\"), had catastrophic and far-reaching consequences across demographic, social, political, economic, and cultural spheres. While the Soviet regime suppressed information about it for decades, the opening of archives after 1991 has allowed historians to document its scale and impact definitively.\n\nHere are the primary consequences categorized by domain:\n\n### 1. Demographic Consequences (The Human Cost)\n*   **Mass Mortality:** Estimates of the death toll vary, but the consensus among demographers and historians places the number of **excess deaths between 3.5 and 5 million people** within the Ukrainian SSR (some estimates including the Kuban region and Ukrainian populations in the North Caucasus go higher, up to 7–10 million total).\n*   **Depopulation of Villages:** The rural population, the backbone of Ukrainian national identity, was decimated. Entire villages ceased to exist or lost 20–50% of their inhabitants.\n*   **Demographic Distortion:** The famine created a \"missing generation.\" Birth rates plummeted during 1932–1934. The population pyramid shows a distinct gap for those born in the early 1930s.\n*   **Long-term Population Deficit:** Combined with the losses of WWI, the Civil War, and WWII, Ukraine’s population growth was permanently stunted. It took decades for the republic to recover its pre-1930 population trajectory.\n\n### 2. Social and Psychological Trauma\n*   **Breakdown of Social Norms:** Extreme starvation led to the collapse of moral and legal codes. Documented phenomena included widespread theft of food, abandonment of children, and **cannibalism** (over 2,500 people were convicted of cannibalism in 1932–33 alone).\n*   **Orphan Crisis:** Hundreds of thousands of children were orphaned or abandoned. Many died in the streets or in overcrowded, under-resourced orphanages; others became homeless street children (*bezprizornye*), forming feral gangs for survival.\n*   **Collective Trauma:** The experience created a deep, intergenerational psychological scar. Survivors often suffered from \"survivor's guilt,\" hoarding behaviors, and a profound distrust of state authority. The trauma was transmitted silently within families due to the Soviet taboo on discussing the famine.\n\n### 3. Political Consequences: Destruction of Ukrainian Autonomy\n*   **End of *Korenizatsiia* (Indigenization):** The famine coincided with (and facilitated) Stalin’s reversal of the 1920s policy of *korenizatsiia*, which had promoted Ukrainian language, culture, and leadership. The famine broke the resistance of the Ukrainian peasantry—the social base of the national movement.\n*   **Purge of Ukrainian Elites:** In the immediate aftermath (1933–1938), the Soviet regime launched a massive purge of the Ukrainian Communist Party, intelligentsia, writers, artists, and clergy. Figures like Mykola Skrypnyk (Commissar of Education) were driven to suicide; thousands of others were executed or sent to the Gulag.\n*   **Centralization of Power:** The famine solidified Moscow’s total control over Ukraine. It demonstrated that the center could enforce lethal grain requisition quotas regardless of local party opposition or human cost, eliminating any remaining semblance of federalism.\n\n### 4. Economic and Agricultural Transformation\n*   **Completion of Forced Collectivization:** The famine was the instrument that broke the \"kulak\" resistance and forced the remaining peasantry into collective farms (*kolkhozes*). By 1934, collectivization in Ukraine was essentially 100% complete.\n*   **Destruction of Private Agriculture:** The traditional Ukrainian model of independent, smallholder farming was eradicated. Peasants became state employees on collective farms, bound to the land by the internal passport system (introduced in 1932), effectively creating a neo-serfdom.\n*   **Long-term Agricultural Inefficiency:** The trauma, loss of skilled farmers, destruction of livestock (eaten during the famine), and the inherent inefficiencies of the collective farm system plagued Soviet Ukrainian agriculture for decades, contributing to chronic food shortages in the USSR.\n\n### 5. Demographic Engineering (Russification)\n*   **Population Replacement:** To repopulate the devastated villages and work the collective farms, the Soviet regime organized the mass migration of **Russian and Belarusian peasants** into Ukraine (particularly the eastern and southern steppe regions).\n*   **Ethnic Shift:** This significantly altered the ethnic composition of southern and eastern Ukraine (the Donbas, Zaporizhzhia, Kherson regions), increasing the Russian-speaking population and diluting the Ukrainian demographic majority in key industrial and agricultural zones. This shift has had lasting geopolitical implications into the 21st century.\n\n### 6. Cultural Consequences\n*   **Loss of Oral Tradition and Folklore:** The death of millions of village elders and tradition-bearers severed the transmission of Ukrainian folk culture, songs, rituals, and dialects.\n*   **Destruction of the Church:** The Ukrainian Autocephalous Orthodox Church (UAOC), a major pillar of national identity, was effectively liquidated during this period; its hierarchy was arrested or executed, and churches were closed or destroyed.\n*   **\"Executed Renaissance\":** The famine marked the physical end of the generation of Ukrainian writers, poets, and artists (the \"Executed Renaissance\") who had flourished in the 1920s. Those who survived the famine were largely purged in the Great Terror of 1937–38.\n\n### 7. Historical Memory and International Recognition\n*   **Decades of Silence and Denial:** The Soviet Union categorically denied the famine occurred until the late 1980s (Gorbachev era). The 1937 Census, which showed a massive population deficit, was destroyed, and its organizers executed. Western journalists (notably Walter Duranty of the *New York Times*) echoed Soviet denials, while others (Gareth Jones, Malcolm Muggeridge) were marginalized for reporting the truth.\n*   **Genocide Recognition:** Since Ukrainian independence (1991), the Holodomor has been central to national identity. As of 2024, **over 30 countries** (including the USA, Canada, Poland, Germany, the Vatican, and the European Parliament) have officially recognized the Holodomor as a **genocide** against the Ukrainian people. Russia continues to deny the genocide classification, framing it as a shared Soviet tragedy caused by drought and policy errors.\n*   **Legal and Academic Impact:** The Holodomor is a foundational case study in genocide studies, famine studies, and the politics of memory. It established legal precedents regarding \"famine as a weapon\" and the destruction of a national group through the imposition of conditions of life calculated to bring about its physical destruction (Article II(c) of the UN Genocide Convention).\n\n### Summary\nThe Holodomor was not merely a humanitarian disaster; it was a **turning point in Ukrainian history**. It physically eliminated the nationally conscious peasantry, enabled the total Russification of the eastern regions, crushed the Ukrainian cultural renaissance, and entrenched a totalitarian system that lasted until 1991. Its legacy remains a core component of modern Ukrainian national consciousness and its relationship with Russia.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 1702,
+  "total_tokens": 1740,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 97,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:45:06.667249+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

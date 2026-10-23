@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of Roe v. Wade (1973)\n\n## Immediate Legal Effects\n- **Struck down state abortion bans** in most states, legalizing abortion nationwide during the first trimester\n- **Invalidated restrictive laws** in states like Texas and Georgia that had banned or severely limited abortion\n- Established a framework based on trimesters, with states gaining more regulatory power later in pregnancy\n\n## Public Health Impacts\n- **Deaths from illegal abortions dropped dramatically** as the procedure became safer and performed by licensed medical professionals\n- Abortion-related maternal mortality declined significantly\n- Abortion rates rose in the 1970s, then gradually declined over subsequent decades\n\n## Political Consequences\n- **Galvanized the anti-abortion movement**, leading to organizations like the Moral Majority and the modern pro-life movement\n- Abortion became a defining issue in American politics, reshaping party alignments—social conservatives increasingly aligned with the Republican Party\n- **Annual March for Life** demonstrations began in 1974\n- Judicial appointments became a major political battleground, with candidates' views on Roe scrutinized\n\n## Ongoing Legal Battles\n- States passed **restrictive regulations** (waiting periods, parental consent, informed consent laws) that courts upheld in cases like *Planned Parenthood v. Casey* (1992)\n- Decades of litigation over the constitutionality of various state restrictions\n- **Funding restrictions**: the Hyde Amendment (1976) barred federal Medicaid funding for most abortions\n\n## Social and Cultural Effects\n- Deepened polarization around abortion, religion, and gender roles in American society\n- Influenced debates about privacy, bodily autonomy, and federalism\n- The decision remained contested for nearly 50 years until it was **overturned by Dobbs v. Jackson Women's Health Organization in June 2022**, returning abortion regulation to the states\n\nWould you like more detail on any of these areas?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 628,
+  "total_tokens": 675,
+  "cost": 5.93039e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.93039e-05,
+   "upstream_inference_prompt_cost": 1.3395e-06,
+   "upstream_inference_completions_cost": 5.79644e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 238,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:09.369076+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

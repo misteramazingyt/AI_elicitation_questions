@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "Q",
+ "prompt": "What were the consequences of the Great Depression?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **Great Depression (1929–1939)** was the most severe economic downturn of the 20th century, with devastating consequences that reshaped economies, societies, and governments worldwide. Here are the key consequences:\n\n### **1. Economic Consequences**\n- **Mass Unemployment**:\n  - In the U.S., unemployment peaked at **25%** (1933), with over **15 million** jobless.\n  - In Germany, unemployment reached **30%** by 1932.\n  - Many workers faced long-term joblessness, leading to poverty and homelessness.\n\n- **Bank Failures & Financial Collapse**:\n  - Over **9,000 banks** failed in the U.S. (1930–1933), wiping out savings.\n  - The **stock market crash (1929)** destroyed wealth, with the Dow Jones losing **90% of its value** by 1932.\n  - Global trade collapsed as countries imposed **protectionist tariffs** (e.g., the **Smoot-Hawley Tariff, 1930**), worsening the depression.\n\n- **Deflation & Falling Prices**:\n  - Prices for agricultural and industrial goods **plummeted**, making debts harder to repay.\n  - Farmers faced **foreclosures** as crop prices fell by **60%**.\n\n- **Global Economic Contraction**:\n  - World GDP **fell by 15%** (1929–1932).\n  - Countries like **Germany, Austria, and Latin America** suffered severe economic crises, leading to political instability.\n\n### **2. Social Consequences**\n- **Poverty & Homelessness**:\n  - **Shantytowns (\"Hoovervilles\")** sprung up across the U.S. as people lost homes.\n  - **Soup kitchens and breadlines** became common as families struggled to afford food.\n  - **Malnutrition and disease** increased, especially among children.\n\n- **Migration & Displacement**:\n  - **Dust Bowl (1930s)** forced **2.5 million** people (mostly from Oklahoma, Texas, and Arkansas) to migrate westward, many to California.\n  - **European immigrants** faced hostility as jobs became scarce.\n\n- **Family & Psychological Impact**:\n  - **Marriage and birth rates declined** due to economic uncertainty.\n  - **Suicide rates rose** (e.g., in the U.S., suicides increased by **30%** in 1932).\n  - **Mental health crises** became more common as people lost hope.\n\n### **3. Political Consequences**\n- **Rise of Authoritarian Regimes**:\n  - **Germany**: Economic despair helped **Adolf Hitler** and the **Nazi Party** rise to power (1933), leading to WWII.\n  - **Italy & Japan**: Fascist and militarist governments gained strength, contributing to global conflict.\n  - **Spain**: The **Spanish Civil War (1936–1939)** was partly fueled by economic hardship.\n\n- **New Deal & Government Intervention (U.S.)**:\n  - **Franklin D. Roosevelt (FDR)** introduced the **New Deal (1933–1939)**, expanding government role in the economy:\n    - **Social Security (1935)** – Old-age pensions and unemployment insurance.\n    - **Works Progress Administration (WPA)** – Created **8.5 million jobs** in public works.\n    - **Securities and Exchange Commission (SEC)** – Regulated the stock market.\n    - **Federal Deposit Insurance Corporation (FDIC)** – Protected bank deposits.\n  - **Labor rights improved** (e.g., **Wagner Act, 1935**, legalized unions).\n\n- **Shift in Economic Policy**:\n  - **Keynesian economics** (government spending to stimulate demand) gained influence.\n  - **Welfare states** expanded in Europe (e.g., **Beveridge Report, 1942**, in the UK).\n\n### **4. Long-Term Effects**\n- **World War II & Economic Recovery**:\n  - The depression only fully ended with **WWII (1939–1945)**, which created massive industrial demand.\n  - The war **lifted the U.S. out of depression** (unemployment fell to **1.9%** by 1943).\n\n- **Global Economic Institutions**:\n  - **Bretton Woods System (1944)** created the **IMF and World Bank** to prevent future depressions.\n  - **General Agreement on Tariffs and Trade (GATT, 1947)** reduced trade barriers.\n\n- **Lasting Government Role in Economy**:\n  - Governments took a more active role in **regulating markets, providing social safety nets, and managing recessions**.\n  - **Central banks (e.g., Federal Reserve)** gained more power to stabilize economies.\n\n### **5. Cultural & Intellectual Impact**\n- **Literature & Art**:\n  - **John Steinbeck’s *The Grapes of Wrath* (1939)** depicted Dust Bowl migrants.\n  - **Dorothea Lange’s photography** (e.g., *Migrant Mother*) captured the human cost.\n  - **Film & music** (e.g., *Gone with the Wind*, blues, and folk songs) reflected hardship.\n\n- **Distrust of Capitalism & Banks**:\n  - Many blamed **unregulated capitalism** for the crisis, leading to **socialist and communist movements**.\n  - **Banking reforms** (e.g., **Glass-Steagall Act, 1933**) separated commercial and investment banking.\n\n### **Conclusion**\nThe Great Depression was a **global catastrophe** that reshaped economies, politics, and societies. It led to **mass suffering, political extremism, and war**, but also **government intervention, welfare states, and economic reforms** that prevented another depression of the same scale. Its lessons influenced **20th-century economic policy**, including responses to later crises like the **2008 Financial Crisis**.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 12,
+  "completion_tokens": 1312,
+  "total_tokens": 1324,
+  "cost": 0.001974,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001974,
+   "upstream_inference_prompt_cost": 6e-06,
+   "upstream_inference_completions_cost": 0.001968
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:30:23.247017+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

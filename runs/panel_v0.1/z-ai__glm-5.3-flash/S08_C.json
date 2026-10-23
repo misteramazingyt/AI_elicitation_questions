@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "C",
+ "prompt": "What were the main causes of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "The IRS targeting controversy (2010–2013) involved heightened scrutiny of tax-exempt applications from groups, particularly Tea Party and other conservative organizations, though some liberal-leaning groups were also flagged. The main contributing factors included:\n\n**1. Surge in applications after *Citizens United* (2010)**\nThe Supreme Court decision led to a dramatic increase in 501(c)(4) applications from politically active groups. The IRS Exempt Organizations unit in Cincinnati was overwhelmed, which prompted a search for faster screening methods.\n\n**2. Flawed keyword-based screening**\nStaffers used keywords and phrases like \"Tea Party,\" \"Patriots,\" and \"9/12 Project\" to flag applications for additional review. The intent—per Treasury Inspector General (TIGTA) reports—was to centralize cases for consistency, but the criteria improperly focused on political names rather than actual activities, and initially targeted only right-leaning terms.\n\n**3. Management and communication failures**\nLow-level decisions were made in the Cincinnati office without adequate oversight. Senior IRS leadership testified they were unaware of the practice, though later investigations raised questions about what and when they knew.\n\n**4. Ambiguous legal standards**\nThe rules governing 501(c)(4) \"social welfare\" organizations and permissible political activity were vague, giving IRS staff wide discretion and inconsistent guidance.\n\n**Aftermath:** A 2013 TIGTA report found the inappropriate criteria, leading to the resignation of Acting Commissioner Steven Miller, Lois Lerner's retirement, apologies from the IRS, and later the 2017 DOJ settlement with conservative groups and the IRS's formal apology (2017).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 352,
+  "total_tokens": 389,
+  "cost": 0.000141016,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000141016,
+   "upstream_inference_prompt_cost": 4.44e-06,
+   "upstream_inference_completions_cost": 0.000136576
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 20,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:06.226195+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

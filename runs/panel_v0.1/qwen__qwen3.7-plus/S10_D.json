@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "In *Dobbs v. Jackson Women's Health Organization*, decided on June 24, 2022, the U.S. Supreme Court ruled that the U.S. Constitution does not confer a right to abortion. The decision upheld a Mississippi law that banned most abortions after 15 weeks of pregnancy and explicitly overturned the Court’s landmark precedents in *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992).\n\nHere is a breakdown of the decision, the legal reasoning, and its immediate impact:\n\n**The Majority Opinion**\nJustice Samuel Alito wrote the majority opinion, which was joined by Justices Clarence Thomas, Neil Gorsuch, Brett Kavanaugh, and Amy Coney Barrett. The majority argued that the right to abortion is not explicitly mentioned in the Constitution, nor is it implicitly protected under the Due Process Clause of the Fourteenth Amendment. \n\nApplying the Court's historical test for unenumerated rights, the majority concluded that the right to abortion is not \"deeply rooted in this Nation's history and tradition.\" Because the Constitution is silent on the issue, the majority ruled that the authority to regulate or prohibit abortion is not a federal constitutional matter, but rather a power that must be returned to the people and their elected representatives at the state level.\n\n**Concurrence and Dissent**\n*   **Concurrence:** Chief Justice John Roberts agreed with the majority's judgment to uphold the specific 15-week Mississippi law, arguing it provided a \"reasonable opportunity\" for a woman to choose an abortion. However, he argued in a separate concurring opinion that the Court did not need to overturn *Roe* and *Casey* entirely to uphold the Mississippi statute.\n*   **Dissent:** Justices Stephen Breyer, Sonia Sotomayor, and Elena Kagan issued a joint dissenting opinion. They argued that the majority's decision stripped women of the right to bodily autonomy and equal citizenship. The dissent heavily criticized the majority for overturning long-standing precedent, arguing that the principle of *stare decisis* (respect for prior decisions) should have been maintained, and warned that the decision would have profound negative consequences for women's health, lives, and freedoms.\n\n**Immediate Impact and Aftermath**\nThe primary legal effect of *Dobbs* was the shift of abortion regulation from a federal constitutional framework to a state-by-state legislative process. \n\n*   **Restrictions and Bans:** At the time of the decision, 13 states had \"trigger laws\" designed to ban or severely restrict abortion almost immediately upon the overturning of *Roe v. Wade*. Several other states quickly enacted new, strict abortion bans or restrictions.\n*   **Protection and Expansion:** Conversely, many states, particularly in the Northeast, West Coast, and Midwest, had already passed laws protecting the right to abortion. Following the *Dobbs* decision, several of these states took additional legislative or constitutional steps to enshrine and expand abortion access, and some became destinations for individuals seeking the procedure from states where it was banned. \n\nUltimately, *Dobbs* resulted in a highly fragmented legal landscape in the United States, where the legality, availability, and restrictions surrounding abortion are determined entirely by individual state laws.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 2212,
+  "total_tokens": 2244,
+  "cost": 0.0028416,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0028416,
+   "upstream_inference_prompt_cost": 1.024e-05,
+   "upstream_inference_completions_cost": 0.00283136
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1529,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:26.896007+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

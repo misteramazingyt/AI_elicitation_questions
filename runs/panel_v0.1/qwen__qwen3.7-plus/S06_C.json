@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "C",
+ "prompt": "What were the main causes of the Kent State shootings of 1970?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Kent State shootings of May 4, 1970, in which the Ohio National Guard fired into a crowd of students, killing four and wounding nine, were the result of a convergence of national political tensions and specific local events. \n\nThe main causes can be divided into the immediate national trigger, the broader underlying context, and the specific local escalation at Kent State University.\n\n### 1. The Immediate Trigger: The Cambodian Incursion\nThe direct catalyst for the protests at Kent State—and across the United States—was President Richard Nixon’s announcement on April 30, 1970, that U.S. and South Vietnamese forces were invading neutral Cambodia. \n* **Shattered Expectations:** Many Americans and students believed that Nixon’s policy of \"Vietnamization\" (gradually withdrawing U.S. troops and shifting the combat burden to South Vietnam) meant the war was winding down. The invasion of Cambodia shattered this hope, signaling a significant expansion of the conflict.\n* **National Outrage:** The announcement sparked immediate and massive outrage, leading to the first nationwide student strike in U.S. history, with hundreds of colleges shutting down.\n\n### 2. Broader Underlying Causes: The Vietnam War and the Draft\nThe Cambodian incursion ignited protests because it occurred against the backdrop of years of escalating conflict in Southeast Asia.\n* **The Military Draft:** The Selective Service System meant that college students faced the very real possibility of being drafted into combat. This created a profound sense of existential anxiety and urgency among the student population.\n* **Deepening Cultural Divide:** By 1970, the country was deeply polarized over the war. The anti-war movement had grown significantly, and clashes between student protesters, university administrations, and law enforcement had become increasingly common on college campuses.\n\n### 3. Local Escalation: Events at Kent State (May 1–3)\nWhile the national mood set the stage, a series of specific events on the Kent State campus over the weekend of May 1–3 created a highly volatile local environment.\n* **May 1:** Students held an initial rally on the campus commons to protest the Cambodian invasion. The protest was largely peaceful but tense.\n* **May 2:** Protests moved into the streets of Kent, Ohio. That night, the campus Reserve Officers' Training Corps (ROTC) building was set on fire. (The exact identity of the arsonists remains historically debated, but the destruction of the building prompted a severe response). Local law enforcement and the Kent Fire Department were called in, and the crowd grew hostile, forcing them to retreat.\n* **May 3:** Ohio Governor James Rhodes called in the Ohio National Guard to restore order. That afternoon, Rhodes held a highly aggressive press conference on campus, calling the protesters \"un-American,\" referring to them as a \"revolutionary group,\" and vowing to \"eradicate the problem.\" This rhetoric significantly escalated the tension. The Guard imposed a curfew, but students gathered on the campus commons again that evening, leading to tear gas being deployed.\n\n### 4. The Presence and Mindset of the National Guard\nThe final cause of the tragedy was the specific situation and mindset of the Ohio National Guard on the morning of May 4.\n* **Poor Training and Exhaustion:** The National Guard troops were primarily trained for military combat, not for civilian riot control. They were exhausted, stressed, and unfamiliar with the campus layout.\n* **The Confrontation on May 4:** Despite a ban on gatherings, a crowd of students assembled on the commons. Some were active protesters, but many were simply bystanders or curious onlookers. The Guard attempted to disperse the crowd using tear gas, but the wind and the campus terrain made it ineffective. \n* **The Shooting:** As the Guard advanced, some students threw rocks and shouted at the soldiers. The Guardsmen retreated up a hill known as Blanket Hill. Feeling cornered, threatened, and highly stressed, 28 Guardsmen turned and fired their M1 Garand rifles into the crowd for about 13 seconds. \n\n### Summary\nThe Kent State shootings were not caused by a single event, but by a \"perfect storm\" of factors. The national anxiety over the Vietnam War and the draft provided the fuel; Nixon’s invasion of Cambodia provided the spark; Governor Rhodes' aggressive rhetoric and the burning of the ROTC building escalated the local tension; and the presence of an untrained, highly stressed National Guard force in a chaotic environment resulted in the tragic use of lethal force.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 2331,
+  "total_tokens": 2358,
+  "cost": 0.00299232,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00299232,
+   "upstream_inference_prompt_cost": 8.64e-06,
+   "upstream_inference_completions_cost": 0.00298368
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1385,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:24:51.947440+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

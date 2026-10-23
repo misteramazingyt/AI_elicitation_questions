@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "H",
+ "prompt": "How have historians interpreted the IRS's handling of tax-exempt applications from political groups (2010-2013)? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historians and Analysts on the IRS Tax-Exempt Controversy (2010–2013)\n\nThe controversy—often called the \"IRS targeting scandal\"—concerns the IRS's use of criteria like \"Tea Party,\" \"Patriots,\" and \"9/12 Project\" to flag applications for 501(c)(4) tax-exempt status for extra scrutiny. Interpretations have evolved considerably, and scholars remain divided. Here's a broad map of the interpretive landscape:\n\n## 1. The \"Mismanagement/Bureaucratic Incompetence\" Interpretation\n\nMany scholars and investigators concluded the episode reflected bureaucratic dysfunction rather than political conspiracy:\n\n- **The Treasury Inspector General for Tax Administration (TIGTA) report (May 2013, J. Russell George)** found \"inappropriate criteria\" were used to identify applications, but did not find evidence of White House direction or political motivation.\n- **Historians of the IRS** such as **W. Elliot Brownlee** (co-editor of *The IRS in the Courtroom and in American History* and work on federal taxation history) have placed the episode in a longer pattern of an under-resourced agency struggling with ambiguous mandates—particularly the vague statutory definition of \"social welfare\" organizations under 501(c)(4).\n- **Sunil Ackerman and colleagues** and later academic work emphasized that liberal-leaning groups (e.g., Emerge America, progressive groups with \"Progress\" or \"ACORN\" in their names) were also flagged, suggesting sloppy keyword screening rather than ideological targeting.\n\n## 2. The \"Political Targeting/Abuse of Power\" Interpretation\n\nConservative scholars and commentators have read the episode as evidence of weaponized bureaucracy:\n\n- **Kimberley Strassel** (*The Intimidation Game: How the Left Is Silencing Free Speech*, 2016) argued the IRS actions were part of a broader campaign to suppress conservative political organizing.\n- **Jay Sekulow** and the American Center for Law and Justice documented delays their client groups experienced, framing it as constitutional infringement on speech and association.\n- Some legal scholars (e.g., **John Baker**, commentary in law reviews) argued the episode showed the danger of granting discretionary power over political speech to an administrative agency.\n\n## 3. The \"Structural/Statutory Problem\" Interpretation\n\nA third line emphasizes that the scandal exposed deeper flaws in campaign finance law:\n\n- **Ellen Aprill** (Loyola Law School) and **Miriam Galston** argued the real problem was the ambiguous \"social welfare\" standard and the IRS's impossible position after *Citizens United* (2010), when 501(c)(4) applications surged.\n- **Zephyr Teachout** (*Corruption in America*, 2014) treated the episode as part of a broader story about how law polices political corruption and association.\n- The **House Ways and Means Committee** and **Senate Permanent Subcommittee on Investigations** (Carl Levin, 2013–14) reports documented both conservative and progressive groups being scrutinized and recommended clarifying regulations.\n\n## 4. The \"False Scandal/Manufactured Outrage\" Interpretation\n\nLater scholarship and journalism pushed back on the scandal framing:\n\n- **David Cay Johnston** and journalists at *The New York Times* (e.g., 2017 reporting) noted that under the Obama administration, IRS scrutiny of right-leaning groups was not unusual historically, and that similar scrutiny occurred under other administrations.\n- **Alexis de Tocqueville-style institutionalist analyses** (e.g., work by political scientists like **Daniel Carpenter** on bureaucratic autonomy) suggest the IRS, like other agencies, exercises substantial discretion that periodically generates political firestorms regardless of intent.\n- The **ACLU** (2013) and **ProPublica** reporting documented that progressive groups were also delayed, supporting the \"both sides scrutinized\" reading.\n\n## 5. Institutional Consequences\n\nHistorians note the episode's aftermath: the resignation of IRS Commissioner Steven Miller, the Lois Lerner contempt proceedings (later dropped), the 2015 *INS v. CIC* settlement compensating conservative groups, and the long-term chilling effect on the IRS's capacity to regulate political organizations—what some scholars call a \"demonstration effect\" discouraging enforcement.\n\n## Key Primary Sources\n\n- TIGTA, *Inappropriate Criteria Were Used to Identify Tax-Exempt Applications* (2013-10-041, May 2013)\n- Senate PSI, *IRS's Handling of 501(c)(4) Applications* (2014)\n- House Committee on Oversight and Government Reform reports (2013–2016)\n- Court decisions: *True the Vote v. IRS*; *Lin v. Koskinen*; the 2017 settlements\n\n## Bottom Line\n\nThere is no single consensus. The dominant scholarly reading today treats the episode as a genuine failure of administration—real, non-trivial, and harmful to affected groups—but one that lacked evidence of White House orchestration, while conservative scholars maintain it was deliberate ideological targeting. The disagreement often tracks broader debates about bureaucratic power, campaign finance law, and the politicization of the administrative state.\n\nIf you'd like, I can go deeper into any one of these interpretive schools or specific primary documents.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 54,
+  "completion_tokens": 1409,
+  "total_tokens": 1463,
+  "cost": 0.0001315897,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001315897,
+   "upstream_inference_prompt_cost": 1.539e-06,
+   "upstream_inference_completions_cost": 0.0001300507
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 316,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:07.493915+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

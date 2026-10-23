@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "Q",
+ "prompt": "What were the consequences of the Great Depression?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Wafer",
+ "response": "The Great Depression (1929–c. 1939) had far-reaching economic, social, political, and international consequences.\n\n**Economic**\n- Mass unemployment: about 25% in the U.S. and over 30% in Germany at its worst.\n- Widespread bank failures, business bankruptcies, foreclosures, and homelessness.\n- Sharp deflation and falling prices, wages, and profits.\n- Collapse of world trade—by some measures it fell by roughly two-thirds—as countries raised tariffs and restricted imports.\n- Decline in industrial production and investment worldwide.\n\n**Social**\n- Severe poverty, hunger, malnutrition, and homelessness; shantytowns known as “Hoovervilles” appeared in the U.S.\n- Large-scale migration, including the Dust Bowl migration from the Great Plains.\n- Delayed marriage and lower birth rates; strained families and communities.\n- Erosion of faith in laissez-faire capitalism and in traditional political elites.\n\n**Political**\n- In the U.S., the New Deal greatly expanded the federal government’s role in the economy. It created institutions and programs such as Social Security, the FDIC, the SEC, and labor protections.\n- In Germany, economic misery helped destabilize the Weimar Republic and contributed to the rise of Adolf Hitler and the Nazi Party.\n- Across Europe, Latin America, and Asia, the crisis strengthened authoritarian, fascist, and radical movements and weakened democracies.\n- Governments increasingly intervened in economies through public works, price supports, and industrial planning.\n\n**International**\n- Economic nationalism increased: high tariffs, competitive currency devaluations, and the collapse of the gold standard.\n- International cooperation weakened, damaging the League of Nations and global economic stability.\n- Reparations and war-debt disputes worsened tensions, especially between Germany and the Allies.\n- The Depression helped create conditions that contributed to the outbreak of World War II.\n\n**Long-term legacy**\n- The modern welfare state and greater government regulation of markets.\n- Keynesian economics and the idea that governments should fight recessions through spending and monetary policy.\n- Post–World War II institutions such as the IMF, World Bank, and GATT, designed to prevent another global economic collapse.\n- Stronger labor movements and expanded workers’ rights in many countries.\n\nIn short, the Great Depression reshaped capitalism, democracy, and international relations, and its effects were felt long after the 1930s.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 1410,
+  "total_tokens": 1449,
+  "cost": 0.00092391,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00092391,
+   "upstream_inference_prompt_cost": 7.41e-06,
+   "upstream_inference_completions_cost": 0.0009165
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 789,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:48.290761+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

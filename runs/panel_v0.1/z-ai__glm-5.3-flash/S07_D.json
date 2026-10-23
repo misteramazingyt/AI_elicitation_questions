@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "D",
+ "prompt": "Describe the FBI's COINTELPRO program.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# COINTELPRO: The FBI's Counterintelligence Program\n\nCOINTELPRO (Counter Intelligence Program) was a series of covert and often illegal FBI projects conducted from 1956 to 1971, aimed at surveilling, infiltrating, discrediting, and disrupting domestic political organizations.\n\n## Origins\n\nThe program was initiated by FBI Director J. Edgar Hoover in 1956, initially targeting the Communist Party USA. Hoover believed existing law enforcement was insufficient to combat what he saw as subversive threats, so the FBI adopted extralegal tactics.\n\n## Targets\n\nOver time, the program expanded to target a wide range of groups and individuals:\n\n- **Civil rights movement** — including Martin Luther King Jr., whom the FBI surveilled intensively and attempted to discredit\n- **Black nationalist groups** — most notoriously the Black Panther Party and Malcolm X\n- **Anti-war activists** — including groups like the Students for a Democratic Society\n- **New Left organizations**\n- **Puerto Rican independence groups**\n- **The Ku Klux Klan** (one of the few targets that drew broad public approval)\n- **American Indian Movement**\n\n## Tactics\n\nCOINTELPRO employed a range of methods:\n\n- **Infiltration** of organizations by informants and agents\n- **Psychological warfare** — sending anonymous threatening letters, spreading rumors, and fabricating evidence\n- **Harassment** through IRS audits, selective law enforcement, and legal harassment\n- **Fabricating evidence** and using media manipulation to discredit targets\n- **Encouraging violence and internal conflict** within groups, sometimes by exploiting existing rivalries\n- **Wiretapping and surveillance**, often without warrants\n\n## Notable Examples\n\n- The FBI sent an anonymous letter to Martin Luther King Jr. in 1964, along with recordings, suggesting he commit suicide\n- The program contributed to internal divisions in the Black Panther Party, and FBI involvement has been linked to deadly confrontations, such as the 1969 killing of Illinois Panther leader Fred Hampton in a police raid\n\n## Exposure and End\n\nIn March 1971, activists calling themselves the Citizens' Commission to Investigate the FBI broke into an FBI field office in Media, Pennsylvania, and stole documents revealing the program, which they sent to newspapers. Public and congressional outrage followed.\n\nCOINTELPRO was formally terminated in 1971, and the Church Committee (1975–76) investigated and condemned the program's abuses. Its legacy led to reforms, including stricter FBI guidelines and oversight, though debates about domestic surveillance continue today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 591,
+  "total_tokens": 628,
+  "cost": 5.56038e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.56038e-05,
+   "upstream_inference_prompt_cost": 1.0545e-06,
+   "upstream_inference_completions_cost": 5.45493e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 65,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:01.523016+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

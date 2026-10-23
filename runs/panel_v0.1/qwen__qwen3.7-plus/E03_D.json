@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "D",
+ "prompt": "Describe the famine in Soviet Ukraine in 1932-1933.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The famine in Soviet Ukraine in 1932–1933, known in Ukraine as the **Holodomor** (derived from the Ukrainian words for \"hunger\" and \"plague/death,\" meaning \"death by hunger\" or \"to kill by starvation\"), was a catastrophic, man-made famine that resulted in the deaths of millions of Ukrainians. \n\nIt is widely recognized by Ukraine and dozens of other countries as an act of genocide orchestrated by Joseph Stalin and the Soviet leadership to crush Ukrainian nationalism and force the peasantry into submission.\n\nHere is a detailed overview of the causes, mechanisms, impact, and legacy of the Holodomor.\n\n### 1. Causes and Context\nThe Holodomor was not the result of natural disaster or crop failure, but rather the direct outcome of radical Soviet economic and political policies:\n*   **Forced Collectivization:** Stalin sought to rapidly industrialize the Soviet Union by extracting agricultural surplus from the countryside. He forced independent peasants to surrender their land, livestock, and tools to state-controlled collective farms (*kolkhozes*). \n*   **Dekulakization:** The state launched a campaign to eliminate the *kulaks* (ostensibly wealthy, prosperous peasants). In reality, any peasant who resisted collectivization was labeled a kulak. Millions were executed, imprisoned in the Gulag, or deported to remote regions of the USSR. This removed the most experienced and productive farmers from the land.\n*   **Unrealistic Grain Quotas:** Moscow imposed impossibly high grain procurement quotas on Ukraine. When the disrupted agricultural system failed to meet these quotas, the state demanded the grain anyway, leaving the peasants with nothing to eat.\n*   **Suppression of Ukrainian Nationalism:** Stalin viewed the fiercely independent Ukrainian peasantry as the backbone of Ukrainian national identity and a potential threat to Soviet unity. Breaking the peasantry was seen as a way to break the Ukrainian national movement.\n\n### 2. Mechanisms of the Famine\nThe Soviet state actively engineered and exacerbated the starvation through a series of draconian policies:\n*   **The \"Law of Spikelets\" (August 1932):** A decree stated that anyone caught taking even a handful of grain or any state property could be shot or sentenced to 10 years in a labor camp. \n*   **Confiscation of All Food:** When villages failed to meet grain quotas, state brigades were sent in to confiscate not just grain, but *all* edible items, including potatoes, beans, beets, and livestock. They searched homes, dug up floors, and tore apart stoves to find hidden food.\n*   **Blacklisting (*Chorni doshky*):** Villages that failed to meet quotas were placed on \"black boards.\" These villages were completely blockaded by military and secret police; all trade was halted, and all goods were removed from local stores.\n*   **Restriction of Movement:** To prevent starving peasants from fleeing to Russia or the cities in search of food, the Soviet government introduced an internal passport system. Furthermore, military cordons were set up around Ukrainian villages and at the borders of the Ukrainian Soviet Socialist Republic to physically trap the dying population.\n\n### 3. Human Toll and Impact\nThe physical and psychological devastation was unprecedented in European history.\n*   **Death Toll:** Demographic estimates vary, but it is generally accepted that between **3.5 million and 5 million** ethnic Ukrainians died directly from starvation and related diseases. When accounting for the massive drop in birth rates, the total demographic loss is estimated at up to 7 million.\n*   **Conditions:** The starvation was agonizing. People resorted to eating tree bark, leaves, grass, and leather. In the most desperate stages, widespread cannibalism occurred. The social fabric of the villages collapsed as people were too weak to bury the dead, and in some cases, parents abandoned their children or resorted to violence over scraps of food.\n*   **Cultural Destruction:** The famine specifically targeted the Ukrainian village, which was the repository of Ukrainian language, culture, and traditions. The physical destruction of the peasantry dealt a severe, lasting blow to Ukrainian cultural identity.\n\n### 4. Soviet Denial and International Response\n*   **Soviet Cover-up:** The Soviet government strictly denied the existence of the famine. Foreign journalists were barred from entering the affected regions. Stalin refused offers of international humanitarian aid, continuing to export grain to the West to fund industrialization.\n*   **Western Complicity:** Some prominent Western journalists, most notably Walter Duranty of *The New York Times*, actively parroted Soviet propaganda, denying the famine and even winning a Pulitzer Prize for his reporting (which the Pulitzer board later acknowledged was flawed). Conversely, journalists like Gareth Jones risked their lives to smuggle reports of the starvation to the West, but were largely ignored or discredited at the time.\n\n### 5. Legacy and the Genocide Debate\nThe Holodomor remained a heavily suppressed topic in the USSR until its collapse in 1991. Today, it is a central element of modern Ukrainian national identity and historical memory.\n\n*   **Recognition as Genocide:** Ukraine and over 30 other countries, along with the European Parliament, officially recognize the Holodomor as a genocide. Raphael Lemkin, the Polish-Jewish lawyer who coined the term \"genocide\" in 1944, specifically cited the Holodomor as a prime example of the destruction of a national group.\n*   **Historiographical Debate:** While the genocidal nature of the Holodomor is widely accepted in Ukraine and by many international scholars, some Western historians debate the strict legal application of the term. Some argue that the famine was part of a broader, class-based Soviet tragedy that also devastated ethnic Russians in the Volga region and the Kazakhs in Kazakhstan (the *Asharshylyk*). However, even among these scholars, there is a consensus that the policies applied specifically to Ukraine—such as the closing of its borders and the targeted destruction of its cultural elite alongside the peasantry—give the Holodomor a distinctly genocidal character.\n\n### Conclusion\nThe Holodomor stands as one of the most devastating atrocities of the 20th century. It was a deliberate weaponization of hunger used by a totalitarian regime to subjugate a population, reshape an economy, and crush a national identity, leaving scars on the Ukrainian people that resonate to this day.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 2953,
+  "total_tokens": 2981,
+  "cost": 0.0037888,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0037888,
+   "upstream_inference_prompt_cost": 8.96e-06,
+   "upstream_inference_completions_cost": 0.00377984
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1608,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:20:36.080953+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

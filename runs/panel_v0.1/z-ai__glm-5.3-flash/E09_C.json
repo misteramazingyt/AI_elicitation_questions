@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Winter of Discontent (1978–1979): Main Causes\n\nThe Winter of Discontent refers to the wave of strikes that hit Britain from late 1978 to early 199, paralysing the country and contributing to the fall of the Callaghan Labour government. Its causes were complex and interconnected:\n\n## 1. Incomes Policy Breakdown\n- The Labour government had relied on **wage restraint policies** since 1974 to control inflation, culminating in the \"Social Contract\" with trade unions.\n- The 1974–75 pay policy capped rises at around 5%, but by 1978 **inflation was running at roughly 8–10%**, meaning workers faced real-terms pay cuts.\n- In September 1978, unions **rejected the proposed 5% pay norm** at the TUC conference, effectively ending the incomes policy and triggering a wave of pay claims.\n\n## 2. Inflation and Economic Stagnation\n- Britain was suffering from **stagflation**—high inflation combined with weak growth—worsened by the 1970s oil crises.\n- Workers felt their living standards were being eroded, making wage demands more militant and widespread.\n\n## 3. Trade Union Power and Structure\n- Union membership was at its peak (over 13 million), and **shop-floor militancy** was strong.\n- The **closed shop** and weak strike-ballot rules meant unofficial (\"wildcat\") strikes could spread rapidly without central union leadership approval.\n- Union leaders often couldn't control local activists even when they supported the government.\n\n## 4. Public Sector Grievances\n- The government's pay policy hit **public sector workers** especially hard, as their wages were directly controlled.\n- Low-paid groups—**lorry drivers, hospital workers, ambulance staff, refuse collectors, and gravediggers**—saw their relative pay fall behind, prompting strikes in these visible, essential services.\n\n## 5. Political Weakness of the Government\n- James Callaghan's government had **lost its parliamentary majority** by 1978 and depended on Liberal Pact support and nationalist parties, making it reluctant to confront unions.\n- The government appeared **hesitant and indecisive** during the strikes, refusing to use emergency powers or declare a state of emergency, which damaged public confidence.\n\n## 6. Media Amplification\n- Intense media coverage—famous images of **uncollected rubbish in Leicester Square and bodies unburied in Liverpool**—created a perception of national breakdown, amplifying the crisis's political impact.\n\n## Consequences\nThe crisis contributed to the **Conservative victory under Margaret Thatcher** in May 1979 (helped by the \"Labour isn't working\" campaign) and led to the 1980s legal curbs on union power. The phrase itself, borrowed from Shakespeare's *Richard III*, was coined by *The Sun* newspaper.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 49,
+  "completion_tokens": 859,
+  "total_tokens": 908,
+  "cost": 8.06822e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.06822e-05,
+   "upstream_inference_prompt_cost": 1.3965e-06,
+   "upstream_inference_completions_cost": 7.92857e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 249,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:27.912742+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

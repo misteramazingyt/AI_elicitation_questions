@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "Q",
+ "prompt": "What were the consequences of the invention of the movable-type printing press in Europe?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The European movable-type printing press, developed by Johannes Gutenberg around 1440–1450, helped shift Europe from a manuscript culture to a print culture. Its consequences were broad and long-lasting, though they unfolded gradually and unevenly.\n\n**1. Rapid, cheaper dissemination of texts**  \nPrinting mechanized reproduction, making books far cheaper and more plentiful. By 1500, tens of thousands of editions and millions of copies had been printed. Ideas could circulate across Europe in months rather than years.\n\n**2. Renaissance and humanist learning**  \nClassical Greek and Latin texts, humanist works, maps, medical texts, and scientific diagrams could be reproduced accurately and widely. This supported the Renaissance, textual criticism, and the recovery of ancient knowledge.\n\n**3. The Reformation and religious upheaval**  \nPrint was central to the Protestant Reformation. Luther’s writings and vernacular Bibles spread rapidly, encouraging individual reading and interpretation of scripture. In response, the Catholic Church expanded censorship, including the *Index of Forbidden Books*. Print helped create lasting religious divisions and conflicts.\n\n**4. Scientific Revolution**  \nPrint allowed scientific findings, diagrams, tables, and data to be standardized and shared. It enabled correction, accumulation, and priority claims, and later made scientific journals possible. This accelerated the Scientific Revolution.\n\n**5. Literacy, education, and vernacular languages**  \nDemand for reading materials encouraged literacy and schooling. Printed vernacular Bibles, pamphlets, and literature helped standardize national languages and strengthen cultural identities.\n\n**6. Politics, propaganda, and public opinion**  \nPamphlets, newsbooks, and broadsides created early forms of public opinion and political debate. Governments used print for propaganda and administration, but also tried to control it through licensing and censorship. Print culture contributed to revolutions and nationalist movements.\n\n**7. Economic and legal changes**  \nA printing and publishing industry emerged, along with paper mills, book fairs, and professional printers. It also raised questions about authorship, privileges, and copyright.\n\n**8. Challenges to authority—and new forms of control**  \nPrint undermined monopolies on knowledge held by elites and clergy, but it also spread propaganda, stereotypes, and persecution manuals. It was a tool of liberation and of domination.\n\n**Caveats:** Movable type existed earlier in East Asia, and Europe’s transformation depended on paper, metal type, oil-based ink, and the screw press. Effects were not immediate: literacy remained limited, censorship was strong, and oral culture persisted.\n\nOverall, the printing press was one of the most transformative communication technologies in European history. It accelerated the Renaissance, Reformation, Scientific Revolution, and the rise of public opinion, while also creating new battles over censorship, authority, and information.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 1298,
+  "total_tokens": 1344,
+  "cost": 0.000932808,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000932808,
+   "upstream_inference_prompt_cost": 4.738e-06,
+   "upstream_inference_completions_cost": 0.00092807
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 739,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:29.464743+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

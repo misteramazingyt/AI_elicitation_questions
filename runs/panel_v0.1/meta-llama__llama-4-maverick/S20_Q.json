@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "Q",
+ "prompt": "What were the consequences of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The U.S. War on Drugs, launched in 1971 by President Richard Nixon and continued through the 1990s, had far-reaching consequences, both domestically and internationally. Some of the key consequences include:\n\n**Domestic Consequences:**\n\n1. **Mass Incarceration**: The War on Drugs led to a significant increase in the number of people incarcerated for non-violent drug offenses. Between 1980 and 1997, the number of people incarcerated for drug offenses increased from 40,900 to 453,300, a more than 1,000% increase.\n2. **Racial Disparities**: The War on Drugs disproportionately affected communities of color, particularly African Americans. Despite similar rates of drug use, African Americans were more likely to be arrested, charged, and incarcerated for drug offenses.\n3. **Increased Police Militarization**: The War on Drugs led to the militarization of police departments, with the use of SWAT teams and paramilitary tactics becoming more common.\n4. **Civil Liberties Erosion**: The War on Drugs led to the erosion of civil liberties, including the use of asset forfeiture, no-knock warrants, and increased surveillance.\n\n**International Consequences:**\n\n1. **Latin American Instability**: The War on Drugs contributed to instability in Latin America, particularly in countries such as Colombia, Mexico, and Peru, where the U.S. supported anti-narcotics efforts that often involved human rights abuses and corruption.\n2. **Corruption and Narcoterrorism**: The War on Drugs fueled corruption and narcoterrorism in many countries, as corrupt officials and organized crime groups profited from the illicit drug trade.\n3. **Human Rights Abuses**: U.S.-supported anti-narcotics efforts in countries such as Colombia and Peru were often associated with human rights abuses, including extrajudicial killings and forced displacement.\n4. **Failed Crop Eradication Efforts**: The U.S. invested heavily in crop eradication efforts, such as spraying herbicides on coca crops in Colombia. However, these efforts often failed to reduce coca production and had negative environmental and health consequences.\n\n**Economic Consequences:**\n\n1. **Increased Spending**: The War on Drugs led to a significant increase in government spending on anti-narcotics efforts, with estimates suggesting that the U.S. spent over $1 trillion on the War on Drugs between 1971 and 2010.\n2. **Economic Impact on Communities**: The War on Drugs had a devastating impact on communities, particularly those affected by the crack epidemic of the 1980s. The loss of economic opportunities, coupled with the trauma of mass incarceration, contributed to long-term economic instability.\n\n**Public Health Consequences:**\n\n1. **Increased HIV/AIDS Transmission**: The War on Drugs led to increased HIV/AIDS transmission among people who inject drugs, as the criminalization of drug use discouraged harm reduction practices, such as needle exchange programs.\n2. **Lack of Treatment and Harm Reduction**: The War on Drugs prioritized punishment over treatment and harm reduction, leading to a lack of access to evidence-based treatment and harm reduction services.\n\n**Legacy of the War on Drugs:**\n\nThe War on Drugs has been widely criticized for its failure to reduce drug use and its negative consequences. In recent years, there has been a growing movement towards reforming drug policy, including the decriminalization of certain substances, increased investment in harm reduction and treatment, and a focus on addressing the root causes of addiction.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 712,
+  "total_tokens": 745,
+  "cost": 0.0004707675,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004707675,
+   "upstream_inference_prompt_cost": 6.1875e-06,
+   "upstream_inference_completions_cost": 0.00046458
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:47.527994+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

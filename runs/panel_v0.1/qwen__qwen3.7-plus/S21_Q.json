@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration Act of 1924?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Immigration Act of 1924, also known as the Johnson-Reed Act, was a landmark piece of United States federal legislation that fundamentally reshaped American immigration policy. Its primary mechanism was the establishment of a national origins quota system, which limited the number of immigrants allowed entry based on their country of birth. \n\nThe consequences of the Act were profound, affecting the demographic, social, and diplomatic landscape of the United States for decades. The major consequences include:\n\n**1. Drastic Reduction in Overall Immigration**\nThe Act severely restricted the total number of immigrants allowed into the U.S. It set the annual quota at 2% of the total number of people of each nationality residing in the U.S. as of the 1890 census. By using the 1890 census rather than a more recent one, the law intentionally favored the existing demographic makeup of the U.S., which at that time was heavily skewed toward Northern and Western Europeans. Overall immigration to the U.S. dropped significantly compared to the decades prior.\n\n**2. Shift in the Ethnic Makeup of Immigrants**\nBecause the quotas were based on the 1890 census—before the massive waves of immigration from Southern and Eastern Europe—the Act heavily favored immigrants from Great Britain, Ireland, and Germany. Conversely, it severely restricted immigration from Italy, Greece, Poland, Russia, and other Southern and Eastern European nations. This successfully achieved the primary goal of its nativist and eugenicist proponents: to maintain the racial and ethnic homogeneity of the United States as defined by the white, Protestant, Northern European establishment of the era.\n\n**3. Complete Exclusion of Asian Immigrants**\nThe Act built upon previous exclusionary laws (like the Chinese Exclusion Act of 1882) by completely barring immigration from Asia. It declared all \"aliens ineligible for citizenship\" (a legal designation applied specifically to Asians at the time) as inadmissible. \n*   **Diplomatic Fallout:** This caused significant diplomatic friction, particularly with Japan. The U.S. and Japan had previously agreed to the \"Gentlemen's Agreement\" of 1907, which limited Japanese labor immigration but allowed family reunification. The 1924 Act abrogated this agreement, causing deep resentment in Japan and straining U.S.-Japanese relations in the lead-up to World War II.\n\n**4. Exemption for the Western Hemisphere and the Rise of the Border Patrol**\nThe quotas established by the 1924 Act did not apply to countries in the Western Hemisphere (the Americas). \n*   **Labor Shifts:** Because European and Asian immigration was restricted, U.S. industries (particularly agriculture and mining in the Southwest) increasingly turned to Mexico and other Latin American countries for labor. This led to a significant increase in Mexican immigration to the U.S. during the 1920s.\n*   **Creation of the Border Patrol:** To manage and restrict this newly scrutinized flow of migration across the U.S.-Mexico border, the Act also provided the funding and authorization to create the U.S. Border Patrol, officially established in 1924.\n\n**5. Humanitarian Consequences in the 1930s**\nOne of the most tragic consequences of the 1924 Act occurred in the 1930s and early 1940s. As millions of people, particularly European Jews, fled Nazi persecution and the Holocaust, the strict national origins quotas prevented them from seeking refuge in the United States. The quotas for Germany and Eastern European countries were already filled, and the U.S. government strictly enforced the 1924 limits, resulting in the denial of visas to hundreds of thousands of refugees.\n\n**6. Long-Term Legislative Legacy**\nThe national origins quota system established by the 1924 Act remained the foundation of U.S. immigration policy for over 40 years. It was not until the civil rights movement highlighted the discriminatory nature of the quota system that it was finally dismantled. The Immigration and Nationality Act of 1965 (the Hart-Celler Act) abolished the national origins quotas, shifting the focus of U.S. immigration policy toward family reunification and skilled labor, which subsequently led to a massive demographic shift in the U.S., increasing immigration from Asia, Africa, and Latin America.\n\nIn summary, the Immigration Act of 1924 successfully achieved its immediate goal of restricting Southern and Eastern European and Asian immigration, altering the demographic trajectory of the United States for four decades, while simultaneously creating new migration patterns from the Western Hemisphere and leaving a lasting legacy on U.S. border enforcement and refugee policy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 2176,
+  "total_tokens": 2201,
+  "cost": 0.00279328,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00279328,
+   "upstream_inference_prompt_cost": 8e-06,
+   "upstream_inference_completions_cost": 0.00278528
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1203,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:41.451626+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

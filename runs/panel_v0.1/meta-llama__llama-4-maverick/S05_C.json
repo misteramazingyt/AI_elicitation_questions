@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "C",
+ "prompt": "What were the main causes of the 1993 Waco siege?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1993 Waco siege, also known as the Branch Davidian siege, was a 51-day standoff between the Branch Davidians, a Christian sect led by David Koresh, and the United States federal government. The main causes of the siege were:\n\n1. **Allegations of child abuse and polygamy**: The Bureau of Alcohol, Tobacco, and Firearms (ATF) had received tips that the Branch Davidians were engaging in child abuse and polygamy. The ATF launched an investigation, which led to a raid on the Mount Carmel Center, the sect's compound near Waco, Texas.\n2. **Suspected firearms violations**: The ATF also suspected that the Branch Davidians were stockpiling firearms and explosives, and that Koresh was converting semi-automatic firearms to fully automatic ones, which is a federal crime.\n3. **Koresh's messianic claims and apocalyptic beliefs**: Koresh believed he was a messiah figure and that the apocalypse was near. He had attracted a large following and had stockpiled food, water, and other supplies in preparation for the end times. The government saw this as a potential threat to public safety.\n4. **Tensions between the Branch Davidians and the surrounding community**: The Branch Davidians were a reclusive and isolated group, and their presence in the area had caused tensions with local residents. Some neighbors had complained about the group's activities and the perceived threat they posed.\n\nOn February 28, 1993, the ATF attempted to serve a search warrant on the Mount Carmel Center, but the raid went awry, resulting in a shootout that left four ATF agents and six Branch Davidians dead. The FBI then took over the operation, and a 51-day siege ensued, ending on April 19, 1993, when the compound was raided by the FBI, resulting in a fire that killed 76 people, including Koresh.\n\nThe Waco siege was a complex and multifaceted event, and the causes were not solely the result of one factor. The incident remains a subject of controversy and debate, with some arguing that the government's actions were excessive and others believing that the Branch Davidians posed a legitimate threat to public safety.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 460,
+  "total_tokens": 484,
+  "cost": 0.00030465,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00030465,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.00030015
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:05:22.397286+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

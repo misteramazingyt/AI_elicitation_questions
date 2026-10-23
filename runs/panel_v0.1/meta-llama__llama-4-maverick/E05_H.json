@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "H",
+ "prompt": "How have historians interpreted the famine during China's Great Leap Forward (1959-1961)? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "Parasail",
+ "response": "The Great Leap Forward famine, which occurred from 1959 to 1961, is one of the most significant and tragic events in modern Chinese history. Historians have interpreted the famine in various ways, with some focusing on the role of Mao Zedong and the Chinese Communist Party (CCP), while others have examined the impact of economic and environmental factors. Here are some of the different interpretations:\n\n1. **Mao's responsibility**: Many historians attribute the famine to Mao's radical policies and leadership style. Frank Dikötter, in his book \"Mao's Great Famine\" (2010), argues that Mao's \"utopian\" and \"totalitarian\" policies led to the famine, and that he was aware of the suffering but chose to ignore it (Dikötter, 2010). Similarly, Jasper Becker, in \"Hungry Ghosts: Mao's Secret Famine\" (1996), contends that Mao's policies, such as the forced collectivization of agriculture and the backyard steel production campaign, were responsible for the famine (Becker, 1996).\n2. **Economic and environmental factors**: Some historians have highlighted the role of economic and environmental factors in contributing to the famine. For example, Yang Dali, in \"Calamity and Reform in China: State, Rural Society, and Institutional Change since the Great Leap Famine\" (1996), argues that the famine was exacerbated by natural disasters, such as droughts and floods, as well as the economic disruption caused by the Great Leap Forward policies (Yang, 1996). Cormac Ó Gráda, in \"Famine: A Short History\" (2009), also notes that the famine was worsened by China's poor agricultural infrastructure and the lack of effective famine relief measures (Ó Gráda, 2009).\n3. **Demographic and statistical debates**: Historians have also debated the demographic impact of the famine, with estimates of excess deaths ranging from 15 million to 45 million. According to Cao Shuji's research, the famine resulted in around 32.5 million excess deaths (Cao, 2005). However, other scholars, such as Anthony Garnaut, have questioned the accuracy of these estimates, arguing that they are based on incomplete or biased data (Garnaut, 2013).\n4. **Regional variations**: Some historians have examined the regional variations in the impact of the famine. For example, Ralph Thaxton, in \"Catastrophe and Contention in Rural China: Mao's Great Leap Forward Famine and the Origins of Righteous Resistance in Da Fo Village\" (2008), studied the experiences of a single village in Henan province, highlighting the local factors that contributed to the famine and the subsequent resistance to the CCP (Thaxton, 2008).\n\nThese different interpretations reflect the complexity of the Great Leap Forward famine and the ongoing debates among historians. While there is a consensus that the famine was a tragic and avoidable disaster, the relative importance of different factors and the scale of the tragedy remain subjects of discussion.\n\nReferences:\n\nBecker, J. (1996). Hungry Ghosts: Mao's Secret Famine. Henry Holt and Company.\n\nCao, S. (2005). The deaths of China's population and its contributing factors during 1959-1961. Chinese Journal of Population Science, 1, 1-13.\n\nDikötter, F. (2010). Mao's Great Famine: The History of China's Most Devastating Catastrophe, 1958-62. Walker & Company.\n\nGarnaut, A. (2013). Hard facts and half-truths: The new archival history of China's Great Famine. China Information, 27(2), 223-246.\n\nÓ Gráda, C. (2009). Famine: A Short History. Princeton University Press.\n\nThaxton, R. (2008). Catastrophe and Contention in Rural China: Mao's Great Leap Forward Famine and the Origins of Righteous Resistance in Da Fo Village. Cambridge University Press.\n\nYang, D. (1996). Calamity and Reform in China: State, Rural Society, and Institutional Change since the Great Leap Famine. Stanford University Press.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 871,
+  "total_tokens": 903,
+  "cost": 0.0008822,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0008822,
+   "upstream_inference_prompt_cost": 1.12e-05,
+   "upstream_inference_completions_cost": 0.000871
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:42.270696+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

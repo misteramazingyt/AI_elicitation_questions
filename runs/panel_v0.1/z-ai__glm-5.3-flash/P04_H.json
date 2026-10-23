@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "H",
+ "prompt": "How have historians interpreted the Black Death in fourteenth-century Europe? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Historiography of the Black Death\n\nThe Black Death (1347–1351) has been one of the most intensively studied catastrophes in medieval historiography, and interpretations have shifted considerably over time.\n\n## Major Interpretive Traditions\n\n**1. The \"Turning Point\" Thesis**\n\nEarly modern and modern historians often treated the plague as a decisive rupture. **Johan Huizinga** (*The Autumn of the Middle Ages*, 1919) portrayed the late fourteenth century as an age of morbid sensitivity and cultural decline, with the plague as a psychological catalyst. **Henri Pirenne** and others saw it as accelerating the feudal crisis.\n\n**2. Economic-Demographic Explanations**\n\n**Michael Postan** (\"Some Economic Evidence of Declining Population in the Later Middle Ages,\" *Economic History Review*, 1950) argued the plague hit an economy already weakened by overpopulation and Malthusian pressures — the plague was a crisis of a pre-existing downturn rather than its cause. This was contested by **H. L. Hilton** and Marxist historians (e.g., **Rodney Hilton**, *The Decline of Serfdom in Medieval England*, 1969), who emphasized class struggle and seigneurial crisis. **Barbara Tuchman's** popular *A Distant Mirror* (1978) dramatized the calamity's effects for a mass audience.\n\n**3. Revisionism and Population Recovery**\n\n**David Herlihy** (*The Black Death and the Transformation of the West*, 1997) offered a provocative revision: the plague, by relieving Malthusian pressure, ultimately enabled modernization, higher wages, and social mobility. **John Hatcher** (*Plague, Population and the English Economy*, 1977) and later **Mark Bailey** (*The Decline of Serfdom in Late Medieval England*, 2014) refined demographic and economic analyses using manorial records.\n\n**4. Social and Cultural Historians**\n\n- **Philip Ziegler** (*The Black Death*, 1969) provided a classic narrative synthesis.\n- **Norman Cantor** (*In the Wake of the Plague*, 2001) emphasized biological and social transformation, though criticized for errors.\n- **Samuel Cohn, Jr.** (*The Black Death Transformed: Disease and Culture in Early Renaissance Europe*, 2002) argued contemporaries recognized the plague as a new, distinct disease, challenging assumptions about medieval misunderstanding.\n- **John Aberth** (*From the Brink of the Apocalypse*, 2000) examined mentalities — apocalypticism, scapegoating (including pogroms against Jews), and artistic responses.\n\n**5. Regional Differentiation**\n\nRecent scholarship stresses uneven impacts. **Ole Benedictow** (*The Black Death, 1346–1353: The Complete History*, 2004) estimated mortality as high as 60% across Europe. By contrast, work by **Shona Kelly Wray**, **Guido Alfani** (*Plague in Seventeenth-Century Europe*, and work with economic historians on Italy), and others highlights regional variation and the persistence of recurrent plague waves after 1350.\n\n**6. The Microbiological Debate**\n\nSince 2010, DNA analysis (e.g., **Haensch et al.** in *PLoS Pathogens*, 2010; **Bos et al.** in *Nature*, 2011) confirmed *Yersinia pestis* as the pathogen, ending debate that involved scholars like **Graham Twigg** (1984) who had questioned the plague-bacillus theory. The question of transmission — rats and fleas vs. human ectoparasites — remains contested (see **Samuel Cohn**, \"Epidemiology of the Black Death,\" *Journal of Interdisciplinary History*, 2017, versus Benedictow).\n\n## Broad Trends in Interpretation\n\n- Early views: catastrophe → collapse and cultural pessimism.\n- Mid-20th century: plague as symptom of deeper structural crisis.\n- Later 20th century: plague as paradoxical engine of transformation (wages, women's status, religious diversification).\n- Current: emphasis on regional diversity, recurring epidemics, environmental context (notably **Bruce Campbell**, *The Great Transition*, 2016, linking climate change, disease, and economic restructuring).\n\n## Key Sources\n\n- Herlihy, David. *The Black Death and the Transformation of the West*. Harvard UP, 1997.\n- Benedictow, Ole J. *The Black Death, 1346–1353*. Boydell, 2004.\n- Cohn, Samuel K., Jr. *The Black Death Transformed*. Arnold, 2002.\n- Aberth, John. *From the Brink of the Apocalypse*. Routledge, 2000.\n- Bailey, Mark. *The Decline of Serfdom in Late Medieval England*. Boydell, 2014.\n- Campbell, Bruce. *The Great Transition*. Cambridge UP, 2016.\n- Bos, K., et al. \"A Draft Genome of *Yersinia pestis* from Victims of the Black Death.\" *Nature* 478 (2011).\n\nIf you'd like, I can go deeper into any single strand — the economic debate, cultural responses, or the microbiological controversy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 1112,
+  "total_tokens": 1141,
+  "cost": 0.000434936,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000434936,
+   "upstream_inference_prompt_cost": 3.48e-06,
+   "upstream_inference_completions_cost": 0.000431456
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:59.367573+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

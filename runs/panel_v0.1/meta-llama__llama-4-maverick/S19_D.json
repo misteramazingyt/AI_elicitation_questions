@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "D",
+ "prompt": "Describe the 1994 U.S. crime bill.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1994 U.S. crime bill, officially known as the Violent Crime Control and Law Enforcement Act, was a comprehensive federal legislation signed into law by President Bill Clinton on September 13, 1994. The bill was a response to rising crime rates in the United States during the late 1980s and early 1990s. It was a bipartisan effort, with significant support from both Democrats and Republicans.\n\nKey provisions of the 1994 crime bill include:\n\n1. **Funding for law enforcement**: The bill provided $9.7 billion in funding for state and local law enforcement agencies to hire more police officers. This was part of the \"100,000 Cops\" initiative, aimed at putting more police on the streets.\n\n2. **Community policing**: It promoted community policing strategies, which focus on building relationships between law enforcement and the communities they serve.\n\n3. **Crime prevention programs**: The bill included funding for various crime prevention programs, such as those aimed at reducing violence against women and programs for at-risk youth.\n\n4. **Prison construction and sentencing reforms**: The bill allocated funds for the construction of new prisons and included provisions that led to an increase in the federal prison population. It also included \"truth-in-sentencing\" provisions, which required violent offenders to serve at least 85% of their sentences.\n\n5. **Three-strikes law**: The bill included a federal \"three-strikes\" provision, mandating life imprisonment for individuals convicted of a violent felony after two or more prior convictions for serious violent felonies or serious drug offenses.\n\n6. **Ban on assault weapons**: One of the most controversial aspects of the bill was the Public Safety and Recreational Firearms Use Protection Act, commonly known as the assault weapons ban. This provision banned the manufacture, transfer, and possession of certain semi-automatic firearms classified as \"assault weapons,\" as well as large-capacity ammunition magazines. The ban was in effect from 1994 to 2004, when it sunset due to a provision in the law that required its renewal.\n\n7. **Violence Against Women Act (VAWA)**: The bill included the Violence Against Women Act, which provided funding for programs to combat violence against women, including those related to domestic violence, stalking, and sexual assault. It also provided new protections and remedies for victims of such crimes.\n\nThe 1994 crime bill was a significant piece of legislation that had far-reaching impacts on crime policy in the United States. While it was praised for its efforts to reduce crime and improve public safety, it has also been criticized for its role in contributing to mass incarceration, particularly affecting minority communities, and for certain provisions like the assault weapons ban, which was seen as infringing on gun rights by some. The law's legacy continues to be debated, with some arguing it was effective in reducing certain types of crime, while others point to its unintended consequences.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 594,
+  "total_tokens": 615,
+  "cost": 0.0003915225,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003915225,
+   "upstream_inference_prompt_cost": 3.9375e-06,
+   "upstream_inference_completions_cost": 0.000387585
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:35.187476+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

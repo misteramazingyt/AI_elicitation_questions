@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "H",
+ "prompt": "How have historians interpreted the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "Historians have not produced a single verdict on *Dobbs v. Jackson Women’s Health Organization*, 597 U.S. 215 (2022). Most scholarly and public-facing historical interpretations cluster around several overlapping claims:\n\n1. **As the culmination of a long conservative legal-political project.** Many historians treat *Dobbs* less as a sudden rupture than as the payoff of decades of movement-building around the Federalist Society, originalism, and the Republican Party’s anti-abortion coalition. See Mary Ziegler, *Dollars for Life: The Anti-Abortion Movement and the Fall of the Republican Establishment* (2022), and *Abortion and the Law in America: Roe v. Wade to the Present* (2020); Steven M. Teles, *The Rise of the Conservative Legal Movement* (2008).\n\n2. **As a contested exercise in “history-and-tradition” originalism.** Legal historians have sharply debated the majority’s claim that abortion was not deeply rooted in American history. Many emphasize that abortion was common and often lightly regulated before the 19th-century wave of criminalization tied to medical professionalization. See Leslie J. Reagan, *When Abortion Was a Crime: Women, Medicine, and Law in the United States, 1867–1973* (1997). The competing historians’ amicus briefs in *Dobbs* itself illustrate how historians split over how to read abortion’s legal and social history.\n\n3. **As a continuation of racialized and class-stratified reproductive governance.** Women’s and reproductive-justice historians stress that *Dobbs* intensifies long-standing patterns of coerced reproduction and unequal access, especially for Black, Indigenous, poor, incarcerated, and immigrant women. See Dorothy Roberts, *Killing the Black Body* (1997); Loretta J. Ross and Rickie Solinger, *Reproductive Justice: An Introduction* (2017); Rickie Solinger, *Reproductive Politics: What Everyone Needs to Know* (2013).\n\n4. **As a public-health and medical-history problem.** Historians of medicine compare *Dobbs* to the pre-*Roe* era of unsafe abortion and maternal mortality, while noting that medication abortion and telemedicine make the post-*Dobbs* landscape different from the pre-1973 one. See Reagan, *When Abortion Was a Crime*; Johanna Schoen, *Abortion after Roe* (2015).\n\n5. **As a democracy and social-movement story.** Political historians emphasize the decision’s countermajoritarian character—given broad public support for abortion rights—and its likely effects on mobilization, federalism, and partisan realignment. See Ziegler, *After Roe: The Lost History of the Abortion Debate* (2015); Linda Greenhouse and Reva B. Siegel, “Before (and After) *Roe v. Wade*: New Questions About Backlash,” *Yale Law Journal* 120 (2011).\n\nIn short, historians tend to interpret *Dobbs* as both a **continuity**—the product of a long anti-abortion legal movement—and a **rupture**—a decision that remade constitutional doctrine and reproductive governance in ways whose historical consequences are still unfolding.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 57,
+  "completion_tokens": 3535,
+  "total_tokens": 3592,
+  "cost": 0.002138271,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002138271,
+   "upstream_inference_prompt_cost": 1.7271e-05,
+   "upstream_inference_completions_cost": 0.002121
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2853,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:14:44.438324+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "Q",
+ "prompt": "What were the consequences of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Consequences of Britain's Winter of Discontent (1978–79)\n\nThe Winter of Discontent—a wave of public-sector strikes from late 1978 through early 1979—had profound and lasting effects on British politics and society.\n\n## Political Consequences\n\n**Fall of the Labour government**: The strikes devastated Labour's authority. James Callaghan's government lost a confidence vote by a single vote in March 1979, forcing the general election.\n\n**Thatcher's victory**: Margaret Thatcher won the May 1979 election decisively. The strikes became a powerful symbol of Labour's alleged weakness before the unions, immortalized in the Conservative campaign phrase \"Labour isn't working\" and the image of \"the winter of discontent.\"\n\n**End of the postwar consensus**: The events undermined the corporatist model of government–union cooperation that had characterized postwar Britain.\n\n## Economic and Industrial Relations Consequences\n\n**Trade union legislation**: The Thatcher governments passed a series of Employment Acts (1980, 1982, 1984) that sharply curtailed union powers—restricting closed shops, secondary picketing, and strikes—culminating in the defeat of the 1984–85 miners' strike.\n\n**Anti-strike sentiment**: Public hostility toward unions deepened significantly; union membership fell dramatically over the following decades.\n\n**Economic policy shift**: The crisis reinforced the shift toward monetarism, tighter public spending, and inflation control over full employment commitments.\n\n## Social and Cultural Consequences\n\n**Lasting imagery**: The strikes produced iconic images—unburied bodies in Liverpool, rats in Leicester square, rubbish piling in the streets—that shaped public perception for decades.\n\n**Electoral realignment**: Many working-class voters shifted toward the Conservatives, contributing to Thatcher's three successive election victories.\n\nIn short, the Winter of Discontent was a turning point that ended the postwar settlement, brought Thatcherism to power, and transformed Britain's industrial relations landscape for a generation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 407,
+  "total_tokens": 439,
+  "cost": 0.000161756,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000161756,
+   "upstream_inference_prompt_cost": 3.84e-06,
+   "upstream_inference_completions_cost": 0.000157916
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:28.551520+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

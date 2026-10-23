@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "C",
+ "prompt": "What were the main causes of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Civil Rights Act of 1964 was a landmark legislation that outlawed segregation and discrimination based on race, color, religion, sex, or national origin. The main causes of its passage can be attributed to a combination of factors, including:\n\n1. **The Civil Rights Movement**: The movement, led by figures such as Martin Luther King Jr., Rosa Parks, and Malcolm X, gained momentum in the 1950s and 1960s, with protests, boycotts, and demonstrations drawing national attention to the injustices faced by African Americans.\n2. **Racial violence and brutality**: The brutal suppression of civil rights protests, such as the Birmingham Campaign in 1963, and the murder of civil rights workers, like Medgar Evers in 1963, shocked the nation and galvanized public opinion against segregation.\n3. **The Kennedy Administration**: President John F. Kennedy's administration, particularly his brother Robert Kennedy, the Attorney General, supported the Civil Rights Movement and pushed for legislation to address the issue.\n4. **The Birmingham Campaign and the Children's Crusade**: The violent response to the Birmingham Campaign, including the use of fire hoses and police dogs against protesters, including children, was televised nationally, sparking widespread outrage and sympathy for the civil rights cause.\n5. **The March on Washington**: The massive March on Washington for Jobs and Freedom in August 1963, where Martin Luther King Jr. delivered his iconic \"I Have a Dream\" speech, further mobilized public opinion and put pressure on lawmakers to act.\n6. **President Kennedy's assassination and Lyndon B. Johnson's leadership**: After Kennedy's assassination, Lyndon B. Johnson, who became President, used his legislative skills and influence to push the Civil Rights Act through Congress, framing it as a tribute to Kennedy's legacy.\n7. **Bipartisan support**: The bill gained support from both Democrats and Republicans, including Senate Minority Leader Everett Dirksen, who played a crucial role in securing Republican votes.\n8. **The filibuster and cloture**: The bill faced a 72-day filibuster in the Senate, but ultimately, a bipartisan coalition invoked cloture, limiting further debate and paving the way for a vote.\n9. **Public opinion and media coverage**: Widespread media coverage of civil rights abuses and the movement's activities helped shift public opinion in favor of the legislation, making it more difficult for lawmakers to oppose it.\n\nThese factors combined to create a perfect storm that ultimately led to the passage of the Civil Rights Act of 1964, a significant milestone in the struggle for racial equality in the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 537,
+  "total_tokens": 565,
+  "cost": 0.0003556425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003556425,
+   "upstream_inference_prompt_cost": 5.25e-06,
+   "upstream_inference_completions_cost": 0.0003503925
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:04:26.498022+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "D",
+ "prompt": "Describe the Republican Party's \"Southern strategy\".",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "The **“Southern strategy”** refers to the Republican Party’s post-1960s effort to win white Southern voters who were alienated from the national Democratic Party by civil rights legislation, desegregation, and the broader social changes of the era.\n\nKey elements:\n\n- **Background:** In the mid-20th century, the “Solid South” was overwhelmingly Democratic. After Democrats under Lyndon Johnson pushed through the **Civil Rights Act of 1964** and **Voting Rights Act of 1965**, many white Southerners began shifting toward the GOP. Barry Goldwater’s 1964 presidential campaign—especially his opposition to the Civil Rights Act—was an early sign of this realignment.\n\n- **Nixon’s approach:** Richard Nixon’s 1968 and 1972 campaigns are usually seen as the classic Southern strategy. Nixon and his advisers sought to appeal to white Southern voters—and white ethnic working-class voters elsewhere—through themes such as **“states’ rights,” “law and order,”** opposition to **court-ordered busing**, criticism of welfare and affirmative action, and defense of “traditional values.” These themes often functioned as coded language for racial grievances without explicitly endorsing segregation.\n\n- **Later development:** The strategy continued in various forms through the 1970s and 1980s, including Ronald Reagan’s 1980 campaign, which opened in Philadelphia, Mississippi—the site of the 1964 murders of three civil rights workers—and emphasized states’ rights and welfare criticism. Republican strategists such as Lee Atwater later described how abstract language about taxes, busing, and states’ rights could appeal to racial anxieties while maintaining plausible deniability.\n\n- **Effect:** The Southern strategy helped accelerate the **realignment of the South from Democratic to Republican**, first in presidential elections and later in congressional and state elections. It also contributed to the national GOP’s increasingly strong base among white Southern voters and to the Democratic Party’s growing reliance on African American voters and urban/coastal constituencies.\n\n- **Controversy:** Supporters and some historians emphasize that Republican appeals also included economic conservatism, anti-Washington sentiment, and cultural traditionalism, and that Southern realignment had multiple causes. Critics and many historians argue that the Southern strategy deliberately exploited racial backlash and coded racial appeals, making race a central factor in the GOP’s Southern gains.\n\nIn short, the Southern strategy was the GOP’s effort to convert white Southern discontent over civil rights and social change into Republican electoral strength, using “states’ rights,” “law and order,” and anti-Washington themes that often carried racial subtext.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 633,
+  "total_tokens": 672,
+  "cost": 0.000391617,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000391617,
+   "upstream_inference_prompt_cost": 1.1817e-05,
+   "upstream_inference_completions_cost": 0.0003798
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 96,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:11:14.963063+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

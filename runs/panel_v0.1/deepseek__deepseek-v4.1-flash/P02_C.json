@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "C",
+ "prompt": "What were the main causes of the 1883 eruption of Krakatoa?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "CoreWeave",
+ "response": "The 1883 eruption of Krakatoa was ultimately caused by the tectonic setting of the Sunda Strait, where the **Indo-Australian Plate subducts beneath the Eurasian/Sunda Plate**. This subduction generated magma that fed the Krakatoa volcanic system.\n\nThe main causes can be summarized as:\n\n1. **Subduction-related magma generation**  \n   Water-rich fluids released from the subducting oceanic plate caused melting in the overlying mantle. This produced gas-rich, andesitic-to-dacitic magma that rose beneath Krakatoa.\n\n2. **Pressure buildup in a shallow magma chamber**  \n   Magma accumulated in a reservoir beneath the volcano. As more magma and volatiles entered, pressure inside the chamber increased.\n\n3. **Volatile exsolution**  \n   As magma rose and decompressed, dissolved gases such as water vapor, carbon dioxide, and sulfur dioxide formed bubbles. This greatly increased pressure, making an explosive eruption more likely.\n\n4. **Possible magma recharge/mixing**  \n   Evidence suggests hotter, more mafic magma may have injected into a cooler, more silicic magma chamber. This can trigger rapid gas release, crystallization, and overpressure. The exact immediate trigger remains debated.\n\n5. **Structural failure and caldera collapse**  \n   When pressure exceeded the strength of the overlying rock, the volcano ruptured catastrophically. The eruption emptied much of the magma chamber, causing the collapse of the volcano and formation of the Krakatoa caldera. Seawater entering the system may also have caused phreatomagmatic explosions.\n\nIn short, the **ultimate cause** was subduction-zone volcanism, while the **immediate cause** was extreme pressure from gas-rich magma in a shallow chamber, likely triggered by new magma input and leading to a catastrophic caldera-forming eruption.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 1488,
+  "total_tokens": 1534,
+  "cost": 0.0009741,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0009741,
+   "upstream_inference_prompt_cost": 6.9e-06,
+   "upstream_inference_completions_cost": 0.0009672
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1118,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:45.672488+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

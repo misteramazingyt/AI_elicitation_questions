@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "D",
+ "prompt": "Describe the 1996 U.S. welfare reform law.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1996 U.S. welfare reform law, officially known as the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA), was signed into law by President Bill Clinton on August 22, 1996. This legislation marked a significant shift in the U.S. welfare system by introducing substantial changes to how welfare was administered and the conditions under which it was provided.\n\n### Key Provisions\n\n1. **End of AFDC and Introduction of TANF**: One of the most significant changes was the abolition of the Aid to Families with Dependent Children (AFDC) program, which had been the cornerstone of cash assistance to low-income families since the 1930s. AFDC was replaced by the Temporary Assistance for Needy Families (TANF) block grant program. TANF gave states much greater flexibility in designing their welfare programs but also imposed stricter work requirements and time limits on recipients.\n\n2. **Work Requirements and Time Limits**: TANF introduced a work requirement for most recipients after two years of receiving assistance, and it mandated that states have a certain percentage of their TANF caseload engaged in work or work-related activities. Additionally, it imposed a five-year lifetime limit on receiving federally funded TANF cash assistance, although states were allowed to use their own funds to continue assistance beyond this limit.\n\n3. **Block Grants to States**: The law converted many federal welfare programs into block grants to the states, giving states more flexibility in how they spent welfare funds. This change was intended to encourage states to innovate and tailor their welfare programs to local needs.\n\n4. **Changes in Eligibility and Benefits**: The law also made significant changes to eligibility for other welfare programs, such as food stamps and Supplemental Security Income (SSI), particularly affecting legal immigrants. Initially, it restricted eligibility for these programs for certain non-citizens.\n\n5. **Child Support Enforcement**: The law included provisions aimed at strengthening child support enforcement, such as requiring states to adopt certain procedures for establishing paternity and enforcing child support orders.\n\n6. **Teen Pregnancy Prevention and Family Formation**: The legislation included funding for programs aimed at reducing teen pregnancy and promoting family formation and marriage.\n\n### Impact and Legacy\n\nThe 1996 welfare reform law had a significant impact on the U.S. welfare system. The number of families receiving cash assistance declined dramatically in the years following its enactment, partly due to the strong economy of the late 1990s and partly due to the law's provisions. The law's emphasis on work and personal responsibility reflected a broader societal shift towards expecting welfare recipients to be employed or actively seeking employment.\n\nCritics of the law argued that it led to increased hardship for the most vulnerable populations, particularly those who were unable to work due to disabilities or lack of job opportunities. Supporters, however, pointed to the decline in welfare rolls and an increase in employment among former recipients as evidence of its success.\n\nThe law has undergone several reauthorizations and adjustments since its enactment, with ongoing debates about its effectiveness and the appropriate balance between providing support to those in need and encouraging self-sufficiency through work.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 627,
+  "total_tokens": 649,
+  "cost": 0.0004132425,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004132425,
+   "upstream_inference_prompt_cost": 4.125e-06,
+   "upstream_inference_completions_cost": 0.0004091175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:04:01.496195+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

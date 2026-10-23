@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "D",
+ "prompt": "Describe the 1883 eruption of Krakatoa.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1883 eruption of Krakatoa is one of the most significant and well-documented volcanic events in recorded history. Krakatoa is a volcanic island located in the Sunda Strait between the Indonesian islands of Java and Sumatra. The eruption occurred on August 27, 1883, and was a cataclysmic event that had far-reaching effects on the environment, global climate, and human populations.\n\n**Pre-eruption activity**\n\nIn the months leading up to the main eruption, Krakatoa had been showing signs of increased volcanic activity. On May 20, 1883, the volcano began to erupt, producing a series of small explosions and emitting ash and steam. The activity intensified over the next few months, with larger explosions occurring on June 16 and July 19.\n\n**The main eruption**\n\nOn August 27, 1883, at around 10:02 AM local time, Krakatoa erupted in a massive explosion that is considered one of the loudest sounds in recorded history. The blast was so powerful that it was heard over 3,000 miles (4,800 km) away, and it is reported to have been heard as far away as Perth, Australia, and the island of Rodrigues in the western Indian Ocean.\n\nThe eruption was a Plinian eruption, characterized by a massive release of hot ash, gas, and rock that shot into the atmosphere at speeds of up to 100 mph (160 km/h). The explosion was so powerful that it blew the top off the volcano, reducing its height from 9,000 feet (2,700 meters) to just 700 feet (213 meters).\n\n**Tsunamis and pyroclastic flows**\n\nThe eruption triggered a massive tsunami that affected the surrounding coastal areas. The tsunami waves were reported to be as high as 130 feet (40 meters) in some areas, causing widespread destruction and loss of life. The tsunami was responsible for the deaths of over 36,000 people, mostly in the coastal towns and villages of Java and Sumatra.\n\nIn addition to the tsunami, the eruption also produced massive pyroclastic flows, which are hot, fast-moving clouds of ash, gas, and rock that can be deadly to anyone in their path. These flows were responsible for the destruction of several nearby islands and the loss of many lives.\n\n**Global effects**\n\nThe 1883 eruption of Krakatoa had significant global effects. The massive release of ash and sulfur dioxide into the atmosphere affected global climate patterns, causing a cooling effect that lasted for several years. The eruption is believed to have contributed to the \"Year Without a Summer\" in 1884, when global temperatures were significantly lower than average.\n\nThe eruption also had a significant impact on the global atmosphere, causing a spectacular display of twilight glows and sunsets that were observed in many parts of the world. The ash and aerosols from the eruption circled the globe, causing unusual optical effects and affecting the Earth's atmospheric circulation patterns.\n\n**Legacy**\n\nThe 1883 eruption of Krakatoa is still studied by volcanologists and scientists today, and it remains one of the most significant volcanic events in recorded history. The eruption has been the subject of numerous scientific studies, and it has helped to advance our understanding of volcanic eruptions and their effects on the environment and human populations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 675,
+  "total_tokens": 696,
+  "cost": 0.000444375,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000444375,
+   "upstream_inference_prompt_cost": 3.9375e-06,
+   "upstream_inference_completions_cost": 0.0004404375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:40.283653+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "H",
+ "prompt": "How have historians interpreted the Great Depression? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "Historians and economic historians have offered several overlapping—and often competing—interpretations of the Great Depression. The debate centers on three questions: what caused it, why it lasted so long, and what the New Deal did or did not accomplish. No single interpretation has won; most scholars now treat it as multi-causal.\n\n**1. Progressive/New Deal orthodoxy.** Older histories often blamed the Depression on weaknesses in 1920s capitalism: speculation, overproduction, maldistribution of income, and weak banking. They portrayed the New Deal as a pragmatic, necessary response that saved capitalism and democracy. See William E. Leuchtenburg, *Franklin D. Roosevelt and the New Deal, 1932–1940* (1963), and Arthur M. Schlesinger Jr., *The Age of Roosevelt* (1957–60).\n\n**2. Monetarist interpretation.** Milton Friedman and Anna Schwartz argued that the Federal Reserve turned a recession into the Great Depression by allowing the money supply to collapse and by failing to stop bank failures. Ben Bernanke later extended this by showing that the banking crisis raised the cost of credit intermediation, deepening and prolonging the slump. See Milton Friedman and Anna Jacobson Schwartz, *A Monetary History of the United States, 1867–1960* (1963); Ben S. Bernanke, “Nonmonetary Effects of the Financial Crisis in the Propagation of the Great Depression,” *American Economic Review* 73 (1983): 257–76. Peter Temin challenged the monetarist view, arguing that money was more a consequence than an initial cause. See Peter Temin, *Did Monetary Forces Cause the Great Depression?* (1976).\n\n**3. Keynesian/demand-side interpretations.** Keynesian historians emphasize insufficient aggregate demand and the need for fiscal stimulus. Alvin Hansen’s “stagnation thesis” argued that the mature American economy suffered from weak investment opportunities. Later, Christina Romer showed that the stock-market crash created uncertainty that depressed consumer durables spending, and that recovery after 1933 was aided by monetary expansion and fiscal policy—not merely by World War II. See Alvin H. Hansen, *Full Recovery or Stagnation?* (1938); Christina D. Romer, “The Great Crash and the Onset of the Great Depression,” *Quarterly Journal of Economics* 105 (1990): 597–624; Christina D. Romer, “What Ended the Great Depression?” *Journal of Economic History* 52 (1992): 757–84. E. Cary Brown famously argued that 1930s fiscal policy was not very stimulative. See E. Cary Brown, “Fiscal Policy in the Thirties: A Reappraisal,” *American Economic Review* 46 (1956): 857–79.\n\n**4. International and gold-standard explanations.** Charles Kindleberger stressed the absence of an international lender of last resort and the collapse of world trade. Barry Eichengreen argued that the interwar gold standard transmitted deflationary shocks and prevented recovery; countries that left gold sooner recovered earlier. See Charles P. Kindleberger, *The World in Depression, 1929–1939* (1973); Barry Eichengreen, *Golden Fetters: The Gold Standard and the Great Depression, 1919–1939* (1992).\n\n**5. Marxist and radical interpretations.** Radical historians see the Depression as a crisis of capitalism rooted in monopoly, underconsumption, and class conflict. The New Deal, in this view, stabilized capitalism rather than transforming it. See Paul A. Baran and Paul M. Sweezy, *Monopoly Capital* (1966); Howard Zinn, *A People’s History of the United States* (1980); Barton J. Bernstein, “The New Deal: The Conservative Achievements of Liberal Reform,” in *Towards a New Past* (1968).\n\n**6. New Deal historiography.** Leuchtenburg and Schlesinger praised the New Deal as reformist and democratic. New Left historians countered that it was conservative: it saved capitalism, failed to redistribute wealth, and often excluded African Americans, women, and immigrants. See Barton Bernstein, above; Robert S. McElvaine, *The Great Depression: America, 1929–1941* (1984). Alan Brinkley argues that New Deal liberalism shifted from structural reform to a Keynesian “compensatory” state. See Alan Brinkley, *The End of Reform* (1995). David M. Kennedy’s *Freedom from Fear* (1999) stresses political constraints. On race and gender, see Harvard Sitkoff, *A New Deal for Blacks* (1978), and Linda Gordon, *Pitied But Not Entitled* (1994).\n\n**7. Recovery and the 1930s economy.** Robert Higgs argues that New Deal policies created “regime uncertainty” and slowed recovery, with World War II finally ending the Depression. See Robert Higgs, *Crisis and Leviathan* (1987). Michael A. Bernstein emphasizes structural economic change and delayed recovery. See Michael A. Bernstein, *The Great Depression: Delayed Recovery and Economic Change in America, 1929–1939* (1987). Alexander Field argues that the 1930s were also a period of significant technological progress. See Alexander J. Field, *A Great Leap Forward* (2011).\n\nIn short, historians have moved from blaming speculation and Hoover-era inaction to emphasizing monetary failure, international gold-standard rigidity, weak demand, structural change, and the New Deal’s limited and contested legacy. Most now see the Depression as the product of multiple national and international causes, and its historiography remains deeply debated.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 5068,
+  "total_tokens": 5110,
+  "cost": 0.003627946,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003627946,
+   "upstream_inference_prompt_cost": 4.326e-06,
+   "upstream_inference_completions_cost": 0.00362362
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3889,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:52:59.624109+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

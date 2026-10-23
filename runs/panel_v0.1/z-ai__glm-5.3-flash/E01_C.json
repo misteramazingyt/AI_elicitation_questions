@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "C",
+ "prompt": "What were the main causes of the New Deal (1933-1939)?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the New Deal\n\nThe New Deal emerged primarily as a response to the **Great Depression**, which began with the stock market crash of October 1929. Here are the key causes:\n\n## 1. The Great Depression's Devastating Impact\n- Unemployment soared to roughly 25% by 1933 (about 13 million Americans)\n- Industrial production fell nearly in half\n- Thousands of banks failed, wiping out people's savings\n- Widespread homelessness, hunger, and \"Hoovervilles\" (shantytowns)\n\n## 2. Banking and Financial Collapse\n- Over 9,000 banks failed between 1930 and 1933\n- No federal deposit insurance meant people lost everything\n- Credit dried up, deepening the economic crisis\n\n## 3. Perceived Failures of Hoover's Policies\n- President Herbert Hoover was seen as too passive and committed to \"rugged individualism\" and limited government intervention\n- Programs like the Reconstruction Finance Corporation were viewed as too little, too late\n- The Bonus Army incident (1932), where veterans were forcibly dispersed, damaged Hoover's reputation further\n\n## 4. Political Shift\n- The 1932 election brought Franklin D. Roosevelt to power with a landslide, driven by public demand for bold action\n- Roosevelt promised a \"new deal for the forgotten man\"\n\n## 5. Underlying Economic Weaknesses\n- Overproduction and underconsumption in the 1920s\n- Wealth inequality and weak purchasing power\n- Agricultural distress (farmers had struggled throughout the 1920s)\n- Unregulated speculation and risky stock market practices\n\n## 6. Progressive-Era Precedents\n- Earlier Progressive movement ideas about government regulation and social reform provided intellectual foundations\n- Some state-level experiments (like those in New York under Roosevelt as governor) offered models\n\nIn essence, the New Deal was caused by the urgent need to relieve suffering, recover the economy, and reform the systems that had allowed the Depression to happen.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 924,
+  "total_tokens": 970,
+  "cost": 8.65962e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.65962e-05,
+   "upstream_inference_prompt_cost": 1.311e-06,
+   "upstream_inference_completions_cost": 8.52852e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 503,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:31.814746+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

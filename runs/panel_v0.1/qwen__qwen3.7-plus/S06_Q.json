@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Kent State shootings of 1970?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Kent State shootings, which occurred on May 4, 1970, when the Ohio National Guard fired into a crowd of unarmed college students protesting the Vietnam War and the U.S. invasion of Cambodia, had profound and wide-ranging consequences. The event, which left four students dead and nine wounded, became a defining moment in American history. \n\nThe consequences of the shootings can be categorized into several areas:\n\n**Immediate Campus and Social Impact**\n*   **Unprecedented Student Strikes:** In the immediate aftermath,",
+ "finish_reason": "error",
+ "usage": {
+  "prompt_tokens": 16,
+  "completion_tokens": 1450,
+  "total_tokens": 1466,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00186112,
+   "upstream_inference_prompt_cost": 5.12e-06,
+   "upstream_inference_completions_cost": 0.001856
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1317,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:24:52.942061+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

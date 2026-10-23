@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "C",
+ "prompt": "What were the main causes of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The controversy surrounding the Internal Revenue Service’s (IRS) handling of tax-exempt applications between 2010 and 2013—specifically regarding 501(c)(4) \"social welfare\" organizations—was the subject of extensive investigations by the Treasury Inspector General for Tax Administration (TIGTA) and the Department of Justice (DOJ). \n\nAccording to these official investigations, the IRS's problematic handling of these applications was not the result of a single event, but rather a combination of legal ambiguity, administrative failures, and management breakdowns. The main causes identified include:\n\n**1. A Surge in Applications and Legal Ambiguity**\nThe primary catalyst for the situation was the 2010 Supreme Court *Citizens United* decision, which led to a massive surge in applications for 501(c)(4) tax-exempt status. These organizations are allowed to engage in some political activity, provided it is not their \"primary purpose.\" However, the legal definition of what constitutes a \"primary purpose\" of political activity was highly ambiguous. The IRS and the Treasury Department failed to issue clear, updated regulations or guidance to define these rules, leaving frontline agents without a clear legal framework to evaluate the novel and complex applications they were receiving.\n\n**2. Inappropriate Screening Criteria**\nBecause of the lack of clear guidance and the overwhelming volume of applications, the IRS office in Cincinnati, which processed tax-exempt applications, developed \"Be on the Lookout\" (BOLO) lists to flag cases for additional scrutiny. \n* The TIGTA report found that the Cincinnati office initially used inappropriate, overly broad criteria to identify cases, specifically searching for applications containing terms like \"Tea Party\" or \"Patriots.\" \n* As scrutiny increased, the criteria were eventually expanded to include terms associated with liberal or progressive groups, such as \"Progressive\" and \"Occupy.\" \n* Investigators concluded that using these broad, keyword-based criteria to single out organizations for extra scrutiny was inappropriate and resulted in significant delays and the unnecessary requesting of sensitive information, such as donor lists.\n\n**3. Management and Communication Failures**\nA major cause of the prolonged mishandling was a severe breakdown in communication and management between the local Cincinnati office and the IRS national headquarters in Washington, D.C. \n* The Cincinnati office recognized the complexity of the cases and the lack of clear guidance but failed to properly escalate the issue to national leadership. \n* Conversely, national leadership failed to recognize the severity of the backlog and the inappropriate criteria being used, failing to provide the necessary directives, training, or resources to the local offices. \n\n**4. Resource Constraints and Inexperience**\nThe IRS Exempt Organizations unit was understaffed and under-resourced relative to the sudden influx of 501(c)(4) applications following 2010. The agents handling these cases were often dealing with novel legal questions regarding campaign finance and political activity without adequate training or specialized expertise, leading to inconsistent and sometimes inappropriate requests for information from the applicants.\n\n**5. Findings on Partisan Intent**\nBecause the initial BOLO lists disproportionately targeted conservative-leaning groups, the controversy sparked widespread allegations of political bias and partisan targeting. However, when the Department of Justice concluded its investigation in 2015, it declined to file criminal charges. The DOJ investigation concluded that the actions of the IRS employees were the result of \"incompetence,\" \"bureaucratic mismanagement,\" and \"poor judgment\" rather than a coordinated political conspiracy or intentional partisan targeting. \n\n**Summary**\nUltimately, official investigations determined that the IRS's handling of the applications was caused by a systemic administrative failure. The agency was overwhelmed by a sudden influx of complex applications following a major Supreme Court decision, lacked clear legal standards to evaluate them, and suffered from severe mismanagement and poor communication between its local and national offices, which resulted in the inappropriate use of screening criteria.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 2630,
+  "total_tokens": 2669,
+  "cost": 0.00337888,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00337888,
+   "upstream_inference_prompt_cost": 1.248e-05,
+   "upstream_inference_completions_cost": 0.0033664
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1821,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:16.012084+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

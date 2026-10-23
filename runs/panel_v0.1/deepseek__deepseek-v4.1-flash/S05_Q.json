@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1993 Waco siege?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Fireworks",
+ "response": "The 1993 Waco siege—the 51-day standoff between federal agents and the Branch Davidians near Waco, Texas—had immediate, legal, political, and long-term consequences.\n\n**Immediate human toll**\n- On February 28, 1993, the initial ATF raid led to a gunfight that killed **4 ATF agents** and **6 Branch Davidians**.\n- On April 19, 1993, the FBI’s final tear-gas assault was followed by a fire that destroyed the Mount Carmel compound. **76 Branch Davidians died**, including **25 children**; David Koresh was among the dead. In total, about **82 Branch Davidians** and **4 federal agents** died.\n- Only a small number of Branch Davidians survived the fire.\n\n**Legal and investigative aftermath**\n- Surviving Branch Davidians were prosecuted. In 1994, 11 were tried; several were convicted of voluntary manslaughter or weapons charges, while others were acquitted.\n- The Treasury Department’s 1993 report sharply criticized the ATF for poor planning, inadequate training, and failure to heed warnings before the raid.\n- The Justice Department also investigated the FBI’s handling of the standoff and criticized aspects of the operation.\n- The 1999–2000 Danforth investigation concluded that FBI agents did not fire shots and did not start the fire; it blamed the Branch Davidians for the fire. However, the government’s use of tear gas and tactical decisions remained controversial, and some survivors and independent experts disputed the official findings.\n- No senior federal officials were criminally charged.\n\n**Policy and law-enforcement changes**\n- The siege led to congressional hearings in 1995 on Waco and Ruby Ridge.\n- The ATF and FBI faced intense scrutiny and changed some procedures related to crisis negotiation, tactical planning, interagency coordination, and use of force.\n- The event became a major case study in debates over federal law enforcement tactics and the limits of government power.\n\n**Political and social consequences**\n- Waco became a rallying symbol for anti-government and militia/Patriot movements, which grew significantly in the 1990s.\n- Timothy McVeigh cited Waco—along with Ruby Ridge—as a motivation for the **Oklahoma City bombing on April 19, 1995**, the second anniversary of the Waco fire. That attack killed 168 people.\n- The siege deepened distrust of the federal government among some Americans and fueled conspiracy theories and extremist rhetoric.\n- It also intensified public debate over religious freedom, media coverage of standoffs, and the militarization of federal law enforcement.\n\n**Long-term legacy**\n- The Branch Davidian community at Mount Carmel was effectively destroyed, though survivors and splinter groups continued.\n- Wrongful-death lawsuits against the government were largely unsuccessful.\n- “Waco” remains shorthand in American political culture for perceived government overreach, and the events continue to be cited in debates over federal power, gun policy, and domestic extremism.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 4284,
+  "total_tokens": 4327,
+  "cost": 0.00360759,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00360759,
+   "upstream_inference_prompt_cost": 9.03e-06,
+   "upstream_inference_completions_cost": 0.00359856
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3666,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:55:41.946208+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

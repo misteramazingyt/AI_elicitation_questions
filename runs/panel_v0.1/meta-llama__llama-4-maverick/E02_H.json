@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "H",
+ "prompt": "How have historians interpreted the Reagan tax cuts of the 1980s? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "Parasail",
+ "response": "The Reagan tax cuts of the 1980s, also known as the Economic Recovery Tax Act (ERTA) of 1981 and the Tax Reform Act (TRA) of 1986, have been the subject of much debate and interpretation among historians and economists. Here are some of the different perspectives:\n\n**Supply-Side Economics and the \"Reagan Revolution\"**: Some historians, such as Martin Anderson (1988) and Bruce Bartlett (1981), have argued that the Reagan tax cuts were a key component of the \"Reagan Revolution,\" a shift towards supply-side economics that emphasized the importance of tax cuts, deregulation, and monetary policy in promoting economic growth. According to this view, the tax cuts helped to stimulate economic growth, increase government revenue, and reduce the size of government. (Anderson, 1988; Bartlett, 1981)\n\n**Critiques of Supply-Side Economics**: Other historians, such as Herbert Stein (1984) and Joseph Stiglitz (2003), have been more critical of the supply-side economics underlying the Reagan tax cuts. They argue that the tax cuts were largely a windfall for the wealthy, and that they contributed to a significant increase in income inequality. Stein, a former chairman of the Council of Economic Advisers, has argued that the tax cuts were based on \"dubious\" economic theory and that they did not lead to the promised economic growth. (Stein, 1984; Stiglitz, 2003)\n\n**The \"Starve the Beast\" Hypothesis**: Some historians, such as Bruce Bartlett (2007) and Amity Shlaes (2007), have argued that the Reagan tax cuts were part of a broader strategy to \"starve the beast,\" or reduce government spending by reducing government revenue. According to this view, the tax cuts were intended to limit the government's ability to spend and thereby reduce the size of government. (Bartlett, 2007; Shlaes, 2007)\n\n**The Impact on Government Revenue**: Historians have also debated the impact of the Reagan tax cuts on government revenue. Some, such as W. Elliot Brownlee (2004), have argued that the tax cuts led to a significant decline in government revenue, which contributed to a large budget deficit. Others, such as Gary Robbins (1988), have argued that the tax cuts actually increased government revenue in the long run by stimulating economic growth. (Brownlee, 2004; Robbins, 1988)\n\n**The Legacy of the Reagan Tax Cuts**: More recent historians, such as Monica Prasad (2012) and Julian Zelizer (2015), have examined the long-term legacy of the Reagan tax cuts. They argue that the tax cuts helped to shape the modern conservative movement and contributed to a shift towards a more regressive tax system. (Prasad, 2012; Zelizer, 2015)\n\nSources:\n\n* Anderson, M. (1988). Revolution. San Diego: Harcourt Brace Jovanovich.\n* Bartlett, B. (1981). Reaganomics: Supply-Side Economics in Action. Westport, CT: Arlington House.\n* Bartlett, B. (2007). \"Starve the Beast: A Recipe for Disaster.\" The Economists' Voice, 4(2), 1-5.\n* Brownlee, W. E. (2004). Federal Taxation in America: A Short History. New York: Cambridge University Press.\n* Prasad, M. (2012). The Land of Too Much: American Abundance and the Paradox of Poverty. Cambridge, MA: Harvard University Press.\n* Robbins, G. (1988). \"Reaganomics and the U.S. Economy.\" Journal of Economic Perspectives, 2(1), 137-146.\n* Shlaes, A. (2007). The Forgotten Man: A New History of the Great Depression. New York: HarperCollins.\n* Stein, H. (1984). Presidential Economics: The Making of Economic Policy from Roosevelt to Reagan and Beyond. New York: Simon & Schuster.\n* Stiglitz, J. (2003). The Roaring Nineties: A New History of the World's Most Prosperous Decade. New York: W.W. Norton & Company.\n* Zelizer, J. (2015). \"How the Reagan Tax Cuts Shaped Modern Conservatism.\" The American Prospect, 26(4), 34-41.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 909,
+  "total_tokens": 938,
+  "cost": 0.00091915,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00091915,
+   "upstream_inference_prompt_cost": 1.015e-05,
+   "upstream_inference_completions_cost": 0.000909
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:33.578779+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

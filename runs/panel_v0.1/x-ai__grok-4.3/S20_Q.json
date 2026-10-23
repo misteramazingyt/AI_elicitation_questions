@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "Q",
+ "prompt": "What were the consequences of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The U.S. War on Drugs, initiated by President Nixon in 1971 and expanded through the Reagan, Bush, and Clinton administrations into the 1990s, produced wide-ranging effects on incarceration, society, public health, and foreign policy.\n\n## Domestic Incarceration and Criminal Justice\nFederal and state prison populations surged from roughly 300,000 in 1970 to over 1.5 million by the late 1990s, with drug offenses accounting for a large share of the growth.  \nMandatory minimum sentences and the 1986 Anti-Drug Abuse Act created stark disparities, such as the 100-to-1 sentencing ratio between crack and powder cocaine that disproportionately affected Black defendants.  \nAsset forfeiture laws expanded police powers, leading to thousands of seizures often without convictions and contributing to the militarization of local law enforcement through programs like the Byrne Justice Assistance Grants.\n\n## Social and Demographic Effects\nBlack and Latino communities experienced elevated arrest and imprisonment rates for drug possession and distribution, even as national surveys showed similar drug use rates across racial groups.  \nFamily structures faced disruption from long sentences, with hundreds of thousands of children entering foster care or living with relatives due to parental incarceration.  \nUrban neighborhoods saw increased surveillance and policing focused on street-level drug activity, which some analyses link to higher rates of community distrust toward law enforcement.\n\n## Public Health and Drug Use Patterns\nOverall drug use declined from peaks in the late 1970s for some substances like marijuana and cocaine, though heroin and later methamphetamine use persisted or shifted.  \nNeedle-sharing policies tied to enforcement priorities contributed to higher HIV transmission rates among injection drug users until harm-reduction measures gained limited traction in the 1990s.  \nTreatment funding remained secondary to enforcement budgets, limiting access to rehabilitation programs despite evidence that treatment reduced recidivism more effectively than incarceration in multiple studies.\n\n## International and Economic Consequences\nU.S. pressure on Latin American countries fueled the rise of powerful cartels in Colombia and Mexico, with eradication efforts often displacing production rather than eliminating supply.  \nBillions of dollars in annual federal spending produced limited reductions in drug availability or purity-adjusted prices, as market dynamics adapted through new trafficking routes.  \nForeign aid and military assistance programs tied to drug control sometimes supported authoritarian regimes and contributed to human rights concerns in recipient nations.\n\n## Policy and Legal Shifts\nCivil liberties concerns grew around no-knock warrants, wiretaps, and school drug testing, with several Supreme Court cases expanding government authority in drug-related searches.  \nState-level responses began to diverge by the mid-1990s, including early medical marijuana laws in California that signaled emerging resistance to federal prohibition.  \n\nThese outcomes reflect a mix of intended enforcement gains and documented unintended costs across multiple domains.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 215,
+  "completion_tokens": 996,
+  "total_tokens": 1211,
+  "cost": 0.00262435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00262435,
+   "upstream_inference_prompt_cost": 0.00013435,
+   "upstream_inference_completions_cost": 0.00249
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 448,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:00.500873+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

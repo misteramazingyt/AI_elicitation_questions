@@ -1,0 +1,43 @@
+{
+ "item": "E06",
+ "template": "H",
+ "prompt": "How have historians interpreted the Bengal famine of 1943? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Historiography of the Bengal Famine of 1943\n\nThe Bengal famine of 1943, which killed an estimated 2–3 million people, has been interpreted through several distinct historiographical lenses. Here are the major interpretations:\n\n## 1. Wartime Disruption and Natural Causes (Early Accounts)\n\nContemporary and early accounts emphasized supply shortages caused by the Japanese occupation of Burma (a major rice source) in 1942, wartime hoarding, and a cyclone in Bengal that destroyed crops. The **Famine Inquiry Commission (1945)**, appointed by the British government, largely attributed the famine to these factors while minimizing policy failures—a conclusion many later scholars criticized as self-exculpatory.\n\n## 2. Amartya Sen's Entitlement Theory\n\nThe most influential modern interpretation came from economist **Amartya Sen** in *Poverty and Famines* (1981). Sen argued there was no significant decline in food availability (the FAD—\"food availability decline\" thesis fails); rather, the famine resulted from \"entitlement failure.\" Rural laborers, fishermen, and other groups lost purchasing power due to:\n- **Demand-pull inflation**: Military spending and \"boat denial\" policies under the \"denial policy\" reduced rural incomes\n- **Profound distress** among rice-growing rural populations\n- Speculation, hoarding, and panic buying by those who could still afford food\n\nSen famously noted that \"famine is the characteristic of some people not having enough to eat. It is not the characteristic of there being not enough to eat.\"\n\n## 3. Churchill's War Cabinet and Deliberate Policy\n\nA more polemical but influential interpretation holds that British policy—particularly under Churchill's War Cabinet—bore direct responsibility:\n\n- **Madhusree Mukerjee**, *Churchill's Secret War* (2010), argues that Churchill's refusal to ship grain to Bengal despite available supplies, driven by wartime priorities and racial indifference, turned a crisis into a catastrophe.\n- **Cormac Ó Gráda** (*Eating People Is Wrong*, 2015; and \"Markets and Famines\" articles) offered a more nuanced view, agreeing that policy failures mattered but questioning the strength of Sen's claim that markets functioned normally—arguing markets actually failed through \"ineffective demand\" dynamics.\n\n## 4. Colonialism and Structural Exploitation\n\n- **Mike Davis**, *Late Victorian Holocausts* (2001), situates the famine within a longer history of famines produced by colonial political economy and the laissez-faire ideology that prevented relief.\n- **Janam Mukherjee**, *Hungry Bengal* (2015), emphasizes the militarization of Bengal, the scorched-earth \"denial policy\" in coastal districts, and the social chaos that shaped both the famine and its aftermath, including the Calcutta killings of 1946.\n\n## 5. Gendered and Regional Analyses\n\n- **Bina Agarwal** and others analyzed differential mortality—women, especially widows and abandoned wives, suffered disproportionately.\n- Studies of orphan records (e.g., by researchers using Mahatma Gandhi's and later Indian government data) documented the skewed survival patterns.\n\n## Summary\n\nBroadly, the historiography has shifted from **natural disaster narratives** (Famine Inquiry Commission) → **economic entitlement analysis** (Sen) → **political and moral indictment of imperial policy** (Mukerjee, Davis, Mukherjee), with ongoing debate (Ó Gráda, Tauger) about market behavior and the role of the 1942–43 crop failure. Craig Hickmore / David Arnold and others have noted that most scholars now agree the famine was fundamentally **man-made**, even while disputing the precise causal weight of each factor.\n\n## Key Sources\n\n- Sen, Amartya. *Poverty and Famines: An Essay on Entitlement and Deprivation*. Oxford: Clarendon Press, 1981.\n- Mukerjee, Madhusree. *Churchill's Secret War: The British Empire and the Ravages of Colonial Bengal*. Basic Books, 2010.\n- Mukherjee, Janam. *Hungry Bengal: War, Famine and the End of Empire*. Hurst, 2015.\n- Davis, Mike. *Late Victorian Holocausts*. Verso, 2001.\n- Ó Gráda, Cormac. *Eating People Is Wrong, and Other Essays on Famine*. Princeton UP, 2015.\n- Famine Inquiry Commission. *Report on Bengal*. New Delhi, 1945.\n- Tauger, Mark. \"Entitlement, Shortage and the 1943 Bengal Famine.\" *Journal of Peasant Studies* 31, no. 2 (2003).\n- Greenough, Paul. *Prosperity and Misery in Modern Bengal: The Famine of 1943–44*. Princeton UP, 1982.\n\nOne caveat: please verify page numbers and details against the original sources, as I may occasionally misremember specifics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 1052,
+  "total_tokens": 1081,
+  "cost": 0.000411656,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000411656,
+   "upstream_inference_prompt_cost": 3.48e-06,
+   "upstream_inference_completions_cost": 0.000408176
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:14.963454+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

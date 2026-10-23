@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "D",
+ "prompt": "Describe the War on Poverty and Great Society programs of the 1960s.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Decart",
+ "response": "The **War on Poverty** was a set of federal antipoverty programs launched by President **Lyndon B. Johnson** in **1964**, as part of his broader **Great Society** agenda. In his January 1964 State of the Union address, LBJ called for an “unconditional war on poverty.” The centerpiece was the **Economic Opportunity Act of 1964**, which created the **Office of Economic Opportunity (OEO)** to coordinate many antipoverty efforts.\n\nKey War on Poverty programs included:\n\n- **Job Corps** – vocational and educational training for disadvantaged youth.\n- **VISTA (Volunteers in Service to America)** – a domestic version of the Peace Corps.\n- **Community Action Programs (CAPs)** – local antipoverty agencies that required “maximum feasible participation” by the poor.\n- **Head Start** – early childhood education for low-income children.\n- **Upward Bound** – college preparation for low-income high school students.\n- **Legal Services** – legal aid for poor Americans.\n- **Neighborhood Youth Corps**, work-study programs, and foster grandparent programs.\n- **Food Stamp Act of 1964** – expanded federal food assistance.\n- **Appalachian Regional Development Act of 1965** – targeted aid to poor Appalachian communities.\n\nThe **Great Society** was the larger reform program LBJ outlined in 1964 and pushed through Congress mainly between **1964 and 1966**. Its goals were to reduce poverty and racial injustice and to improve education, health care, housing, urban life, the environment, and cultural life. Major Great Society laws and agencies included:\n\n- **Civil Rights Act of 1964** and **Voting Rights Act of 1965** – landmark civil rights laws.\n- **Medicare and Medicaid (1965)** – health insurance for the elderly and poor.\n- **Elementary and Secondary Education Act of 1965** – federal aid to schools, especially through Title I for low-income students.\n- **Higher Education Act of 1965** – student loans, scholarships, and support for colleges.\n- **Department of Housing and Urban Development (1965)** and **Model Cities (1966)** – federal urban and housing programs.\n- **Immigration and Nationality Act of 1965** – ended discriminatory national-origins quotas.\n- **Public Broadcasting Act of 1967** – created the Corporation for Public Broadcasting, PBS, and NPR.\n- **National Endowments for the Arts and Humanities (1965)**.\n- **Environmental and conservation laws**, including the Wilderness Act and clean air/water measures.\n- **Department of Transportation (1966)**.\n\n**Results and legacy:** The poverty rate fell from roughly **19% in 1964 to about 11% by 1973**, though some of that decline was due to economic growth. Elderly poverty dropped sharply because of Medicare and expanded Social Security. Programs like **Head Start, Medicare, Medicaid, federal student aid, and legal services** became lasting parts of American government. However, the Vietnam War, inflation, and political opposition limited funding and momentum. Critics on the left argued the programs were underfunded; critics on the right called them costly and inefficient. The Great Society represented the largest expansion of U.S. social policy since the New Deal and helped reshape American politics, contributing to both liberal achievements and a later conservative backlash.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 1839,
+  "total_tokens": 1885,
+  "cost": 0.00033516,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00033516,
+   "upstream_inference_prompt_cost": 4.14e-06,
+   "upstream_inference_completions_cost": 0.00033102
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1331,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:10:49.933140+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

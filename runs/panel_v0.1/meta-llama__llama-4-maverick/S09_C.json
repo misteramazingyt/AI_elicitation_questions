@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The main causes of the Supreme Court's 1973 decision in Roe v. Wade (410 U.S. 113) were a combination of social, cultural, and legal factors that converged to challenge the existing laws restricting access to abortion in the United States. Here are some of the key factors that led to the landmark decision:\n\n1. **Changing social attitudes and women's rights movement**: The 1960s and 1970s saw a significant shift in social attitudes towards women's rights, reproductive freedom, and personal autonomy. The women's liberation movement, which emerged during this period, played a crucial role in challenging traditional norms and advocating for greater control over women's bodies.\n2. **Growing demand for access to safe and legal abortion**: As the women's rights movement gained momentum, more women began to demand access to safe and legal abortion services. The existing laws, which prohibited or severely restricted abortion, led to a significant number of clandestine and often unsafe abortions, resulting in health risks and even death.\n3. **Medical and health concerns**: The American Medical Association (AMA) and other medical organizations began to speak out against the restrictive abortion laws, citing the health risks associated with illegal abortions and the need for safe and regulated abortion services.\n4. **Constitutional challenges and litigation**: In the late 1960s and early 1970s, a series of court cases challenged the constitutionality of state laws restricting abortion. These cases, including Roe v. Wade, were brought by lawyers and activists who argued that the laws infringed upon a woman's right to privacy, liberty, and equal protection under the law.\n5. **Influence of Griswold v. Connecticut (1965)**: The Supreme Court's decision in Griswold v. Connecticut (381 U.S. 479), which struck down a state law prohibiting the use of contraceptives, established a precedent for the Court's later decision in Roe. Griswold recognized a constitutional right to marital privacy, which laid the groundwork for the Roe decision's expansion of that right to include a woman's decision to have an abortion.\n6. **Shifting judicial landscape**: The Supreme Court's composition changed in the late 1960s and early 1970s, with the appointment of more liberal justices, including William Brennan, Thurgood Marshall, and Harry Blackmun. This shift in the Court's ideological balance created a more favorable environment for the Roe decision.\n7. **Roe v. Wade litigation**: The specific case of Roe v. Wade was brought by Sarah Weddington and Linda Coffee on behalf of \"Jane Roe\" (Norma McCorvey), a pregnant woman who challenged the constitutionality of Texas's abortion law. The case was heard by a three-judge panel in the U.S. District Court for the Northern District of Texas, which ruled in favor of Roe. The state of Texas appealed, and the case ultimately reached the Supreme Court.\n\nIn a 7-2 decision, the Supreme Court held that a woman's right to choose an abortion fell within the scope of the Fourteenth Amendment's protection of individual liberty and privacy. The Court established a trimester framework for regulating abortion, which has since been modified and challenged in subsequent cases. The Roe v. Wade decision has had a lasting impact on the debate over abortion rights in the United States, shaping the ongoing conversation about reproductive freedom, women's health, and constitutional law.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 693,
+  "total_tokens": 723,
+  "cost": 0.0004578075,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004578075,
+   "upstream_inference_prompt_cost": 5.625e-06,
+   "upstream_inference_completions_cost": 0.0004521825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:06:00.913940+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

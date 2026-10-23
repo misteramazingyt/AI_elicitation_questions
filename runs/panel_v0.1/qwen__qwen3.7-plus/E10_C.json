@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "C",
+ "prompt": "What were the main causes of the UK miners' strike of 1984-1985?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The UK miners’ strike of 1984–1985 was one of the most significant and bitter industrial disputes in British history. The conflict between the National Union of Mineworkers (NUM), led by Arthur Scargill, and the Conservative government of Prime Minister Margaret Thatcher, alongside the National Coal Board (NCB) led by Ian MacGregor, was driven by a complex mix of immediate triggers, long-term economic shifts, and deep ideological clashes.\n\nThe main causes of the strike can be categorized into immediate, economic, political, and strategic factors.\n\n### 1. The Immediate Cause: Pit Closures\nThe direct catalyst for the strike was the NCB’s announcement in March 1984 that it intended to close 20 \"uneconomic\" coal pits, which would result in the loss of approximately 20,000 jobs. The first pit targeted for closure was Cortonwood in South Yorkshire. \n\nArthur Scargill and the NUM viewed this as the beginning of a massive, accelerated rundown of the coal industry. In response to the announcements, Scargill called for a national strike to force the government and the NCB to abandon the closure program. (It is a notable historical detail that Scargill called the strike without holding a national ballot of the union membership, a decision that caused internal division and affected the strike's legitimacy in the eyes of some miners and the public).\n\n### 2. Economic Factors and the State of the Industry\nThe underlying economic reality of the UK’s energy sector had changed significantly since the mid-20th century.\n* **The NCB/Government Perspective:** The NCB argued that many deep-coal mines were highly unprofitable, required heavy state subsidies to remain open, and were losing money for the taxpayer. They argued that the UK needed to transition away from expensive, inefficient coal.\n* **The NUM Perspective:** The union argued that the coal industry was being deliberately run down. They contended that with proper investment, modernization, and rationalization, the pits could be made profitable. The NUM also pointed out that the UK still had vast coal reserves and that the closures would devastate the local economies of mining communities in Yorkshire, Scotland, Wales, and the North East.\n* **Energy Mix Shifts:** The UK was increasingly relying on North Sea oil and natural gas, as well as nuclear power, which reduced the country's absolute reliance on coal for energy.\n\n### 3. Political and Ideological Clash\nThe strike was not just an industrial dispute over wages or pit closures; it was a profound political battle over the future direction of the UK economy and the power of trade unions.\n* **Government Strategy:** Margaret Thatcher’s government was committed to free-market economics, privatization, and reducing the power of trade unions, which they viewed as a barrier to economic modernization. The government was also highly motivated by the memory of 1974, when a miners' strike had forced the Conservative government of Edward Heath to implement a three-day work week and ultimately call an election, which Heath lost. Thatcher was determined not to let the unions defeat the government again.\n* **Union Strategy:** The NUM and the broader trade union movement viewed the Conservative government's policies as an attack on the working class and the industrial heartlands of the North and Wales. For the miners, the strike was a fight for the survival of their communities, their livelihoods, and the broader principle of trade unionism.\n\n### 4. Strategic Preparations and the Balance of Power\nUnlike the strikes of the 1970s, the 1984 strike occurred in a context where the government had spent years preparing for a confrontation with the NUM.\n* **The Ridley Plan:** In the late 1970s, the Conservative opposition had developed a strategy (often referred to as the Ridley Plan) to defeat a potential miners' strike. By 1984, the government had implemented many of its elements.\n* **Coal Stockpiles and Alternative Energy:** The government and the NCB had built up massive stockpiles of coal. Furthermore, many power stations had been converted to burn oil or operate on a dual-fuel (coal/oil) basis, meaning the electricity supply could be maintained even if coal deliveries stopped.\n* **Non-Union Transport:** The government had arranged for non-unionized road hauliers to transport coal, bypassing the transport unions that had previously supported the miners.\n\nBecause the government was economically and logistically prepared to withstand a long strike, they felt confident in allowing the NCB to announce the pit closures, knowing the NUM would likely strike. The NUM, conversely, believed that a mass strike and aggressive picketing could force the government to back down, as had happened in 1972 and 1974.\n\n### Summary\nThe 1984–1985 miners' strike was caused by the NCB's decision to close unprofitable pits, which the NUM viewed as an existential threat to mining communities. However, the dispute escalated into a defining national conflict because it represented a collision between the Thatcher government's determination to break the power of the trade unions and implement free-market reforms, and the NUM's determination to protect the coal industry and the traditional power of the labor movement.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 2665,
+  "total_tokens": 2698,
+  "cost": 0.00342176,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00342176,
+   "upstream_inference_prompt_cost": 1.056e-05,
+   "upstream_inference_completions_cost": 0.0034112
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1562,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:22:32.116231+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

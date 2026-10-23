@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "D",
+ "prompt": "Describe the passage of the Civil Rights Act of 1964.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Civil Rights Act of 1964 was a landmark legislation in the United States that outlawed discrimination based on race, color, religion, sex, or national origin. The passage of the act was a significant milestone in the civil rights movement, and it was the result of a long and contentious process. Here's a brief overview of the passage of the Civil Rights Act of 1964:\n\n**Background and Introduction (1963)**: The civil rights movement had been gaining momentum in the early 1960s, with protests, boycotts, and demonstrations taking place across the country. In response to the growing pressure, President John F. Kennedy introduced a civil rights bill to Congress in June 1963. The bill aimed to address issues such as voting rights, public accommodations, and employment discrimination.\n\n**House of Representatives (1963-1964)**: The bill was referred to the House Judiciary Committee, which held hearings and markup sessions. The committee reported out a stronger bill than the one introduced by Kennedy, and it was passed by the House on February 10, 1964, with a vote of 290-130.\n\n**Senate (1964)**: The bill then moved to the Senate, where it faced significant opposition from Southern Democrats. The bill was filibustered by Senators from Southern states, led by Senator Richard Russell of Georgia, who argued that the bill was an attack on states' rights and would lead to social chaos. The filibuster lasted for 72 days, making it one of the longest in Senate history.\n\n**Cloture and Passage (1964)**: On June 10, 1964, a bipartisan group of Senators, led by Senator Hubert Humphrey (D-MN) and Senator Everett Dirksen (R-IL), successfully invoked cloture, which limited further debate and allowed the bill to come to a vote. The Senate passed the bill on June 19, 1964, with a vote of 73-27.\n\n**Conference Committee and Final Passage (1964)**: The House and Senate versions of the bill were not identical, so a conference committee was formed to iron out the differences. The committee reported out a compromise bill, which was passed by both the House (289-126) and the Senate (73-27) on July 2, 1964.\n\n**Signing into Law (1964)**: President Lyndon B. Johnson, who had taken office after Kennedy's assassination, signed the Civil Rights Act into law on July 2, 1964, at the White House. The signing ceremony was attended by civil rights leaders, including Martin Luther King Jr.\n\nThe Civil Rights Act of 1964 was a major achievement for the civil rights movement, and it paved the way for further legislation, including the Voting Rights Act of 1965. The act prohibited discrimination in public accommodations, employment, and education, and it authorized the federal government to investigate and prosecute cases of discrimination. The passage of the Civil Rights Act marked a significant shift in the nation's approach to issues of racial equality and social justice.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 631,
+  "total_tokens": 654,
+  "cost": 0.00041604,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00041604,
+   "upstream_inference_prompt_cost": 4.3125e-06,
+   "upstream_inference_completions_cost": 0.0004117275
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:04:25.370739+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

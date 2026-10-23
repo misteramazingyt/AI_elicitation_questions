@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2008 financial crisis? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "Historians have not produced a single consensus interpretation of the 2008 crisis. Early accounts were dominated by economists, journalists, and participants; historians later situated the crisis in longer histories of financialization, neoliberalism, housing policy, racial inequality, and global dollar politics. The main interpretive strands are:\n\n1. **Culmination of financialization and neoliberalism.** Historians of capitalism often treat 2008 as the endpoint of a decades-long shift from productive industry to finance. Greta Krippner’s *Capitalizing on Crisis* (2011) argues that financialization was a political response to postwar fiscal and legitimacy problems, not simply a market accident. David Harvey’s *The Enigma of Capital* (2010) reads the crisis as a capitalist crisis of overaccumulation and neoliberal restructuring. Louis Hyman’s *Borrow* (2012) traces the crisis to a much longer American culture and politics of debt. Judith Stein’s *Pivotal Decade* (2010) links the shift from factories to finance to the 1970s.\n\n2. **Regulatory and state failure.** The official **Financial Crisis Inquiry Commission**, *The Financial Crisis Inquiry Report* (2011), concluded that the crisis was avoidable and caused by widespread failures in regulation, corporate governance, reckless lending, and systemic risk management. Historians such as Adam Tooze in *Crashed* (2018) emphasize that state rescues and policy choices—not just private greed—shaped the crisis and its aftermath.\n\n3. **A global, not merely American, crisis.** Tooze’s *Crashed* is the leading historical reinterpretation: it treats 2008 as a transatlantic and global crisis of dollar funding, European banks, sovereign debt, and political legitimacy. This challenges US-centric “subprime mortgage” narratives and emphasizes contingency and policy choice.\n\n4. **Housing, credit, and racial capitalism.** Keeanga-Yamahtta Taylor’s *Race for Profit* (2019) shows how federal housing policy and predatory inclusion shaped Black homeownership and vulnerability. Destin Jenkins’s *The Bonds of Inequality* (2021) situates municipal debt and racial inequality in longer histories of American finance. These works interpret the crisis as racialized and distributional, not just technical.\n\n5. **Recurring financial crisis and global imbalances.** Economists Carmen Reinhart and Kenneth Rogoff, in *This Time Is Different* (2009), place 2008 in centuries of financial crises. Ben Bernanke’s “global saving glut” argument (2005) emphasized international capital flows. Historians use but also critique such structural accounts, stressing institutions and politics.\n\n6. **Ideology and culture.** Historians and social scientists have examined how beliefs in efficient markets, homeownership, and deregulation made the crisis possible. Krippner and Tooze both stress ideological and political legitimation, while Harvey stresses neoliberal class power.\n\nIn short, historians tend to reject monocausal “greed” stories. They interpret 2008 as the product of long-run financialization, regulatory and political choices, global dollar and credit structures, housing and racial inequality, and ideological shifts—with continuing debate over which factor was primary.\n\n**Key sources:** Tooze, *Crashed* (2018); Krippner, *Capitalizing on Crisis* (2011); Harvey, *The Enigma of Capital* (2010); Hyman, *Borrow* (2012); Stein, *Pivotal Decade* (2010); Taylor, *Race for Profit* (2019); Jenkins, *The Bonds of Inequality* (2021); Financial Crisis Inquiry Commission, *The Financial Crisis Inquiry Report* (2011); Reinhart and Rogoff, *This Time Is Different* (2009); Bernanke, “The Global Saving Glut and the U.S. Current Account Deficit” (2005).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 2616,
+  "total_tokens": 2661,
+  "cost": 0.00158472,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00158472,
+   "upstream_inference_prompt_cost": 1.512e-05,
+   "upstream_inference_completions_cost": 0.0015696
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1806,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:52:44.005690+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

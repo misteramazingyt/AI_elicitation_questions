@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Winter of Discontent was a period of severe industrial unrest in the United Kingdom that occurred during the winter of 1978-1979. The main causes of this crisis were a combination of economic, social, and political factors.\n\n1. **High inflation and stagnant wages**: The UK was experiencing high inflation rates, which eroded the purchasing power of workers. The Labour government, led by James Callaghan, had implemented a incomes policy to control inflation, which limited wage increases. Many workers felt that their wages were not keeping pace with inflation, leading to widespread discontent.\n\n2. **Trade union militancy**: The trade unions, which had traditionally been allied with the Labour Party, became increasingly militant as they sought to protect their members' interests. Union leaders, such as Jack Jones of the Transport and General Workers' Union, pushed for higher wage settlements and better working conditions.\n\n3. **Government-imposed wage restraint**: The Callaghan government's incomes policy, which limited wage increases to 5% or less, was seen as too restrictive by many workers. The government's attempts to enforce this policy led to a buildup of pent-up wage demands, which were eventually released during the winter of 1978-1979.\n\n4. **Public sector disputes**: The public sector, including workers in healthcare, local government, and transportation, were particularly affected by the government's wage restraint policy. These workers felt that their wages had fallen behind those in the private sector, leading to a series of strikes and disputes.\n\n5. **Lack of effective government response**: The Callaghan government's response to the growing industrial unrest was seen as inadequate. The government's attempts to negotiate with the trade unions were unsuccessful, and its efforts to enforce the incomes policy were met with resistance.\n\nThe combination of these factors created a perfect storm that led to the Winter of Discontent. The crisis was marked by a series of strikes, including a lorry drivers' strike, a public sector strike, and a grave diggers' strike, which caused widespread disruption to essential services. The Winter of Discontent ultimately contributed to the downfall of the Callaghan government and the election of Margaret Thatcher's Conservative government in 1979.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 441,
+  "total_tokens": 470,
+  "cost": 0.00029319,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00029319,
+   "upstream_inference_prompt_cost": 5.4375e-06,
+   "upstream_inference_completions_cost": 0.0002877525
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:03:24.870405+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "D",
+ "prompt": "Describe the 1883 eruption of Krakatoa.",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **1883 eruption of Krakatoa** (Indonesian: *Krakatau*) was one of the most catastrophic volcanic events in recorded history. It occurred between **August 26 and 27, 1883**, on the small volcanic island of **Krakatoa** in the Sunda Strait between Java and Sumatra in Indonesia. The eruption was so powerful that it destroyed most of the island, generated massive tsunamis, and had global climatic effects.\n\n### **Key Events of the Eruption:**\n1. **Initial Activity (May–August 1883):**\n   - The eruption began with minor explosions in **May 1883**, followed by increasing seismic activity.\n   - By **August 26**, the volcano entered a **cataclysmic phase**, with a series of massive explosions heard thousands of kilometers away.\n\n2. **The Climactic Eruption (August 27, 1883):**\n   - At **10:02 AM local time**, Krakatoa unleashed its **most powerful explosion**, estimated to be **13,000 times the force of the Hiroshima atomic bomb**.\n   - The sound was heard as far as **4,800 km (3,000 miles) away** in places like **Rodrigues Island (near Mauritius)** and **Australia**.\n   - The explosion created a **caldera collapse**, causing the island to sink into the sea.\n\n3. **Tsunamis & Destruction:**\n   - The eruption triggered **tsunamis up to 46 meters (150 feet) high**, devastating coastal villages in **Java and Sumatra**.\n   - Over **36,000 people died**, mostly from drowning.\n   - The waves were recorded as far away as **South Africa and the English Channel**.\n\n4. **Global Climatic Effects:**\n   - The eruption ejected **20 cubic kilometers of ash and sulfur dioxide** into the atmosphere, blocking sunlight.\n   - Global temperatures dropped by **1.2°C (2.2°F)** for several years, leading to **unusual weather patterns** (e.g., vivid sunsets, failed harvests).\n   - The **1883–1884 winter** was one of the coldest in the 19th century.\n\n5. **Aftermath & New Volcanic Activity:**\n   - The original Krakatoa island was **obliterated**, leaving only a submerged caldera.\n   - In **1927**, a new volcanic island, **Anak Krakatau (\"Child of Krakatoa\")**, emerged and remains active today.\n\n### **Scientific & Cultural Impact:**\n- The eruption was one of the first **globally documented natural disasters** due to improved communication (telegraph).\n- It inspired **artistic works**, including Edvard Munch’s *The Scream* (1893), which may have been influenced by the eerie red skies.\n- The event helped advance **volcanology and seismology**, leading to better understanding of **pyroclastic flows and tsunamis**.\n\n### **Conclusion:**\nThe **1883 Krakatoa eruption** was a **VEI-6** (Volcanic Explosivity Index) event, one of the most violent in history. Its **destructive power, global reach, and long-term climatic effects** made it a defining moment in geology and disaster studies. Today, **Anak Krakatau** continues to grow and erupt, serving as a reminder of the Earth’s volatile nature.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 17,
+  "completion_tokens": 750,
+  "total_tokens": 767,
+  "cost": 0.0011335,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0011335,
+   "upstream_inference_prompt_cost": 8.5e-06,
+   "upstream_inference_completions_cost": 0.001125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:41:40.120291+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The \"Winter of Discontent\" refers to the winter of 1978–1979 in the United Kingdom, a period characterized by widespread and highly disruptive strikes, particularly within the public sector. The strikes involved truck drivers, refuse collectors, hospital staff, and gravediggers, leading to severe disruptions in daily life. \n\nThe causes of the Winter of Discontent were complex, stemming from a combination of immediate government policies, broader macroeconomic struggles, and deteriorating relations between the state and trade unions.\n\nHere are the main causes:\n\n### 1. The Government’s 5% Pay Cap (The Immediate Trigger)\nThe most direct cause of the strikes was the Labour government’s incomes policy. To combat inflation, Prime Minister James Callaghan’s government introduced \"Phase 4\" of its pay policy, which imposed a strict limit on wage increases, capping them at 5%. \n* For many workers, particularly in the public sector, a 5% cap was viewed as an unacceptable real-terms pay cut, as the cost of living was rising much faster. \n* The situation escalated when Ford Motor Company (in the private sector) agreed to a 17% pay increase for its workers. This broke the government's pay norm and emboldened public sector workers to demand similar increases, but the government refused to abandon the 5% limit for the public sector, leading to mass walkouts.\n\n### 2. High Inflation and Economic Stagnation\nThe UK economy in the late 1970s was suffering from \"stagflation\"—a combination of high inflation and stagnant economic growth. \n* Inflation had peaked at over 20% in 1975 following the 1973 global oil crisis. While it had come down to around 8% by late 1978, the cumulative effect of years of high inflation had severely eroded workers' purchasing power.\n* Workers felt that their living standards were being squeezed and that striking was the only way to protect their real wages against the rising cost of goods and services.\n\n### 3. Breakdown of the \"Social Contract\"\nWhen the Labour Party returned to power in 1974, it operated under an informal agreement with the Trades Union Congress (TUC) known as the \"Social Contract.\" \n* Under this agreement, trade unions agreed to moderate their wage demands to help the government control inflation. In return, the government promised to implement pro-worker policies, such as expanding social welfare and introducing price controls.\n* By 1978, this relationship had broken down. The TUC felt the government was not delivering on its social promises, while the government felt it had to enforce strict wage controls to satisfy international financial markets and maintain the economic stability secured after a massive bailout by the International Monetary Fund (IMF) in 1976. The loss of mutual trust meant the TUC could no longer guarantee union compliance with government economic policies.\n\n### 4. Public Sector Grievances and \"Comparability\"\nMany of the strikes were driven by specific grievances within the public sector regarding \"comparability.\" \n* Public sector workers (such as nurses, teachers, and local government employees) felt that their pay had fallen significantly behind that of workers in the private sector, as well as behind other public sector groups.\n* Workers were striking not just for more money, but to restore historical pay relativities—ensuring that the traditional pay gaps between different grades and professions were maintained.\n\n### 5. Trade Union Structure and Decentralization\nThe structure of British trade unions at the time made centralized pay agreements difficult to enforce. \n* While the TUC leadership might negotiate with the government, local union branches and \"shop stewards\" (workplace union representatives) held significant power. \n* If local workers felt a negotiated settlement was inadequate, they could—and did—vote to strike independently. This decentralized structure meant that even when the government and union leaders reached tentative agreements, they were frequently rejected by the rank-and-file membership, leading to prolonged and sometimes \"wildcat\" (unofficial) strikes.\n\n### 6. Political Vulnerability of the Callaghan Government\nPrime Minister James Callaghan’s government was politically weakened. Following by-election losses, Labour had lost its parliamentary majority and was relying on a fragile coalition of minor parties and independents to govern. \n* This political vulnerability made it difficult for Callaghan to project authority or easily force a resolution to the strikes. \n* Furthermore, the government was caught in a political trap: if it conceded to the unions and abandoned the 5% cap, it risked triggering a wage-price spiral and losing the confidence of financial markets; if it held firm, it faced endless strikes that would paralyze the country.\n\n### Summary\nThe Winter of Discontent was ultimately the result of a collision between a government determined to curb inflation through strict wage controls and a workforce determined to protect its living standards amid high inflation. The breakdown of the cooperative \"Social Contract\" between Labour and the unions, combined with the decentralized power of local shop stewards, turned economic frustration into widespread industrial action. \n\nThe resulting images of uncollected trash, unburied dead, and stranded travelers severely damaged public confidence in both the trade unions and the Labour government, directly contributing to Labour's defeat in the May 1979 general election and the subsequent election of Margaret Thatcher’s Conservative government.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 2623,
+  "total_tokens": 2656,
+  "cost": 0.003368,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003368,
+   "upstream_inference_prompt_cost": 1.056e-05,
+   "upstream_inference_completions_cost": 0.00335744
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1504,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:22:22.792569+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

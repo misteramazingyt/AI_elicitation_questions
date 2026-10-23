@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "Q",
+ "prompt": "What were the consequences of the discovery of penicillin?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The discovery of penicillin—first observed by Alexander Fleming in 1928 and developed into a usable drug by Howard Florey, Ernst Chain, and Norman Heatley in the late 1930s–early 1940s—had enormous consequences. It effectively began the antibiotic era.\n\n**1. Medical revolution**\n- Made previously deadly bacterial infections treatable: pneumonia, sepsis, meningitis, syphilis, gonorrhea, diphtheria, anthrax, and infected wounds.\n- Turned many once-fatal conditions into routine cures.\n- Enabled modern medicine: surgery, cesarean sections, joint replacements, cancer chemotherapy, organ transplants, and intensive care all depend on controlling infection.\n- Was ineffective against viruses, so it did not cure viral diseases like influenza or the common cold.\n\n**2. Public health and demography**\n- Contributed to a sharp decline in infectious-disease deaths in the 20th century.\n- Helped increase life expectancy and population growth, especially when combined with vaccines, sanitation, and better nutrition.\n- Changed the leading causes of death in developed countries from infectious diseases toward chronic diseases such as heart disease and cancer.\n\n**3. Scientific and industrial impact**\n- Launched the search for other antibiotics, including streptomycin, tetracyclines, and cephalosporins.\n- Advanced understanding of bacterial cell walls, drug resistance, and pharmacology.\n- Created the modern antibiotic industry, including deep fermentation and mass-production techniques.\n- Showed the power of government–academic–industry collaboration, especially during World War II.\n\n**4. Military consequences**\n- Reduced deaths from infected wounds and disease during World War II and later conflicts.\n- Made battlefield medicine and recovery far more effective.\n- Was also used to treat venereal diseases among troops, improving military readiness.\n\n**5. Negative and ongoing consequences**\n- Antibiotic resistance: overuse and misuse of penicillin and other antibiotics drove the evolution of resistant bacteria, such as MRSA and penicillin-resistant gonorrhea.\n- Allergies and side effects: penicillin allergy is common, and antibiotics can disrupt the microbiome and cause problems like *C. difficile* infection.\n- Overprescription and agricultural use have worsened resistance.\n- Unequal access: antibiotics remain unavailable to many people in low-income settings, even though they are essential medicines.\n\nIn short, penicillin transformed medicine, saved hundreds of millions of lives, and made modern high-tech medicine possible—but it also created the ongoing challenge of antibiotic resistance.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 1464,
+  "total_tokens": 1504,
+  "cost": 0.00105088,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00105088,
+   "upstream_inference_prompt_cost": 4.12e-06,
+   "upstream_inference_completions_cost": 0.00104676
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 969,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:55.970737+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

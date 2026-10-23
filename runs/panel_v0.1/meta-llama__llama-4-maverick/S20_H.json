@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "H",
+ "prompt": "How have historians interpreted the U.S. War on Drugs from 1971 to the 1990s? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "Historians have offered various interpretations of the U.S. War on Drugs from 1971 to the 1990s, a period marked by significant escalation in anti-drug policies and enforcement. Here are some of the key perspectives:\n\n1. **Racism and Social Control**: Many historians argue that the War on Drugs was motivated by racist and classist attitudes, targeting communities of color and low-income neighborhoods. According to Dan Berger, author of \"Captive Nation: Black Prison Movements from the 1960s to the 1980s,\" the War on Drugs was a \"racially coded\" campaign that \"disproportionately targeted African Americans and Latinos\" (Berger, 2014, p. 123). Elizabeth Hinton, in \"From the War on Poverty to the War on Crime: The Making of Mass Incarceration in America,\" also highlights how the War on Drugs was part of a broader shift in social policy, from addressing poverty to criminalizing and policing marginalized communities (Hinton, 2016, p. 10).\n2. **Failed Policy and Unintended Consequences**: Historians have also critiqued the War on Drugs for its ineffectiveness and unintended consequences. As Alfred W. McCoy notes in \"The Politics of Heroin: CIA Complicity in the Global Drug Trade,\" the War on Drugs has \"failed to reduce the supply of illicit drugs\" and has instead \"spawned a vast, corrupt, and often violent global trade\" (McCoy, 2003, p. xiii). Similarly, historian and sociologist Craig Reinarman argues that the War on Drugs has \"created a vast and lucrative black market\" and \"fueled the growth of organized crime\" (Reinarman, 2009, p. 74).\n3. **Politics and Partisanship**: Some historians see the War on Drugs as a product of partisan politics and electoral strategy. According to Katherine Beckett, author of \"Making Crime Pay: Law and Order in Contemporary American Politics,\" the War on Drugs was a key component of the Republican Party's \"law and order\" agenda, which aimed to capitalize on public anxiety about crime and disorder (Beckett, 1997, p. 45). Historian and journalist, Michael Massing, also notes that the War on Drugs was used as a \"wedge issue\" to attract white working-class voters to the Republican Party (Massing, 1998, p. 64).\n4. **International and Geopolitical Factors**: Historians have also examined the War on Drugs in the context of international relations and geopolitics. For example, Peter Dale Scott, in \"American War Machine: Deep Politics, the CIA Global Drug Connection, and the Road to Afghanistan,\" argues that the CIA's involvement in the global drug trade has contributed to the failure of the War on Drugs (Scott, 2010, p. 15). Historian and scholar, William O. Walker III, has also explored the role of international factors, such as the Cold War and U.S. foreign policy, in shaping the War on Drugs (Walker, 1999, p. 12).\n\nThese interpretations are not mutually exclusive, and many historians see the War on Drugs as a complex and multifaceted phenomenon that reflects a combination of these factors.\n\nSources:\n\n* Berger, D. (2014). Captive Nation: Black Prison Movements from the 1960s to the 1980s. University of North Carolina Press.\n* Beckett, K. (1997). Making Crime Pay: Law and Order in Contemporary American Politics. Oxford University Press.\n* Hinton, E. (2016). From the War on Poverty to the War on Crime: The Making of Mass Incarceration in America. Harvard University Press.\n* Massing, M. (1998). The Fix. Simon & Schuster.\n* McCoy, A. W. (2003). The Politics of Heroin: CIA Complicity in the Global Drug Trade. Lawrence Hill Books.\n* Reinarman, C. (2009). \"The Crack Attack: Politics and Media in America's Latest Drug Scare.\" In J. Best (Ed.), Images of Issues: Typifying Contemporary Social Problems (pp. 73-96). Aldine de Gruyter.\n* Scott, P. D. (2010). American War Machine: Deep Politics, the CIA Global Drug Connection, and the Road to Afghanistan. Rowman & Littlefield.\n* Walker, W. O. (1999). \"Drug Control and the Issue of Culture in American Foreign Relations.\" Diplomatic History, 23(1), 1-24.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 962,
+  "total_tokens": 998,
+  "cost": 0.000634455,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000634455,
+   "upstream_inference_prompt_cost": 6.75e-06,
+   "upstream_inference_completions_cost": 0.000627705
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:48.417831+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

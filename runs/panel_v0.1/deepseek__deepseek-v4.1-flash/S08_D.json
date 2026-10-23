@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "D",
+ "prompt": "Describe the IRS's handling of tax-exempt applications from political groups (2010-2013).",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "Between 2010 and 2013, the IRS’s Exempt Organizations division used inappropriate screening criteria and centralized review procedures for tax-exempt applications—primarily 501(c)(4) “social welfare” applications—from groups associated with political activity. According to the Treasury Inspector General for Tax Administration (TIGTA) and IRS statements, the IRS:\n\n- Developed “Be on the Lookout” (BOLO) lists that flagged applications containing terms such as “Tea Party,” “Patriot,” “9/12 Project,” “Constitution,” “Educate,” and language about “limiting/expanding government” or “social economic reform.”\n- Routed flagged applications to a specialized unit, often in Cincinnati, for extra review.\n- Delayed processing for many months or years and sent some applicants lengthy questionnaires requesting details about donors, members, political activities, speeches, literature, and social-media activity. Some of those information requests were later deemed unnecessary or inappropriate.\n- Applied the criteria inconsistently and without adequate management controls, according to TIGTA.\n\nThe controversy became public in May 2013 when IRS officials acknowledged the inappropriate criteria, and TIGTA issued a report finding that the IRS had used inappropriate criteria that identified Tea Party and other conservative groups for review, delayed applications, and requested unnecessary information. The IRS said it replaced the criteria and revised its process. Later investigations, including a DOJ criminal probe, closed without charges; congressional investigations criticized IRS mismanagement, while the question of political motivation remained contested. The episode led to reforms and renewed scrutiny of IRS handling of 501(c)(4) political activity.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 1621,
+  "total_tokens": 1671,
+  "cost": 0.00098775,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00098775,
+   "upstream_inference_prompt_cost": 1.515e-05,
+   "upstream_inference_completions_cost": 0.0009726
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1288,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:13:45.977143+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

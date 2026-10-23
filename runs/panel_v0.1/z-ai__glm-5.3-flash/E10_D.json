@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "D",
+ "prompt": "Describe the UK miners' strike of 1984-1985.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The UK Miners' Strike of 1984–1985\n\nThe UK miners' strike was one of the most significant industrial disputes in British history, lasting from March 1984 to March 1985.\n\n## Background\n\nThe National Union of Mineworkers (NUM), led by Arthur Scargill, opposed the National Coal Board's (NCB) plan, announced by chairman Ian MacGregor, to close 20 pits with the loss of around 20,000 jobs. The Conservative government under Margaret Thatcher had been preparing for a confrontation with the unions, having learned from the defeats of the 1970s and stockpiling coal and ensuring alternative power supplies in advance.\n\n## The Strike\n\n- The strike began in March 1984 after closures were announced, starting in Yorkshire and Scotland, and spread without a national ballot—a point that made the strike legally dubious and controversial even among miners.\n- Around 140,000–180,000 miners took part, though miners in Nottinghamshire and parts of the Midlands largely continued working, forming breakaway groups that later became the Union of Democratic Mineworkers.\n- Violence flared at picket lines, most notoriously at the \"Battle of Orgreave\" in June 1984, where mounted police charged mass pickets.\n- The government used the police extensively, and courts sequestered NUM funds after the union was fined for contempt (the strike had been declared illegal because no national ballot was held).\n- Mining communities endured severe hardship for a year, relying on food parcels, charity, and women's support groups. The BBC and media coverage was heavily criticized by strikers as biased.\n\n## The End\n\nThe strike ended on 3 March 1985 when a special NUM conference voted to return to work without a settlement on pit closures. Delegates voted 98 to 91 to resume work.\n\n## Consequences\n\n- The defeat marked a turning point in British industrial relations—the power of trade unions, especially the NUM, was decisively broken.\n- Pit closures accelerated through the late 1980s and 1990s; the coal industry was privatized in 1994, and deep mining in Britain was largely wound down.\n- Former mining communities suffered long-term economic and social decline, with effects still visible decades later.\n- The strike remains politically contested, with ongoing debates about police conduct, media coverage, and the government's strategy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 617,
+  "total_tokens": 658,
+  "cost": 5.81176e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.81176e-05,
+   "upstream_inference_prompt_cost": 1.1685e-06,
+   "upstream_inference_completions_cost": 5.69491e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 127,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:30.012776+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "D",
+ "prompt": "Describe the passage of the Civil Rights Act of 1964.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The passage of the Civil Rights Act of 1964 was one of the most grueling and significant legislative battles in American history. It required immense political capital, bipartisan cooperation, and the sustained pressure of the civil rights movement to overcome fierce opposition, particularly in the Senate. \n\nHere is a chronological description of how the landmark legislation was passed.\n\n### Origins and the Kennedy Administration (1963)\nThe push for comprehensive civil rights legislation gained national urgency in the spring of 1963 amid widespread televised images of police brutality against peaceful protesters in Birmingham, Alabama. On June 11, 1963, President John F. Kennedy delivered a landmark televised address to the nation, declaring civil rights a \"moral issue\" and promising to send comprehensive legislation to Congress. \n\nHe introduced the bill in June, but it faced immediate hostility from Southern Democrats. The momentum for the bill was bolstered by the March on Washington in August 1963, where Martin Luther King Jr. delivered his \"I Have a Dream\" speech. However, the legislative process was stalled in the House when Kennedy was assassinated on November 22, 1963.\n\n### Lyndon B. Johnson Takes the Helm (Late 1963 – Early 1964)\nVice President Lyndon B. Johnson assumed the presidency and immediately made the Civil Rights Act his top legislative priority. Leveraging his unparalleled knowledge of Congress and his formidable political skills, Johnson used the memory of the slain president to build momentum, urging lawmakers, \"Let us continue.\" He worked closely with civil rights leaders and key members of Congress to keep the bill moving.\n\n### Passage in the House of Representatives (Early 1964)\nThe bill’s journey in the House was managed by a crucial bipartisan alliance between Representative Emanuel Celler (D-NY), chair of the Judiciary Committee, and Representative William McCulloch (R-OH), the ranking Republican member. Their cooperation ensured the bill would not die in committee.\n\nThe bill faced two major hurdles in the House:\n1. **The \"Poison Pill\":** Representative Howard Smith (D-VA), a staunch segregationist, attempted to kill the bill by adding an amendment banning employment discrimination on the basis of *sex*. He hoped this would alienate liberal allies and derail the legislation. Ironically, the amendment passed, and \"sex\" became a permanent and vital part of Title VII of the Act.\n2. **The Rules Committee:** Smith, who also chaired the House Rules Committee, tried to block the bill from reaching the House floor. In response, civil rights leaders and House leadership utilized a rare \"discharge petition\" to bypass the committee and force the bill to the floor.\n\nOn February 10, 1964, the House passed the bill by a vote of 290 to 130, with strong bipartisan support (152 Democrats and 138 Republicans voting in favor).\n\n### The Senate Battle and the Filibuster (Spring – Summer 1964)\nThe true crucible for the Civil Rights Act was the Senate. Southern Democratic senators, led by Richard Russell (GA), Strom Thurmond (SC), and Robert Byrd (WV), launched a massive filibuster to kill the bill. They spoke for 60 consecutive days—the longest filibuster in U.S. history at the time—reading from the Constitution, the Declaration of Independence, and phone books to stall the proceedings.\n\nTo break the filibuster, the bill's proponents needed to invoke **cloture**, which required a two-thirds majority (67 votes) at the time. This meant they needed the support of a significant number of Republicans. \n\nThe key to securing these votes was Senate Minority Leader Everett Dirksen (R-IL). After weeks of negotiations with the bill's floor managers, Hubert Humphrey (D-MN) and Mike Mansfield (D-MT), Dirksen agreed to support a slightly modified version of the bill. On June 10, 1964, Dirksen delivered a passionate speech on the Senate floor, quoting Victor Hugo: *\"Stronger than all the armies is an idea whose time has come.\"* \n\nFollowing his speech, the Senate voted 71 to 29 to invoke cloture, marking the first time in history the Senate had successfully clotured a civil rights bill. \n\n### Final Passage (June – July 1964)\nFollowing the end of the filibuster, the Senate debated the bill for a few more days before passing it on June 19, 1964, by a vote of 73 to 27. \n\nBecause the Senate had made minor amendments to the House version, the bill technically needed to go back to the House, or to a Conference Committee. Fearing that a Conference Committee would allow Southern lawmakers to reopen debate and water down the bill, House leaders opted to have the House simply vote to accept the Senate's version without changes. On July 2, 1964, the House approved the Senate version by a vote of 289 to 126.\n\n### Enactment and Legacy\nOn the evening of July 2, 1964, President Johnson signed the Civil Rights Act into law in a televised ceremony at the White House. He was surrounded by civil rights leaders, including Martin Luther King Jr. and Rosa Parks, as well as members of his cabinet and Congress. According to historical accounts, Johnson reportedly remarked to an aide shortly after the signing, \"I think we just delivered the South to the Republican Party for a generation.\"\n\n**The Impact:**\nThe Civil Rights Act of 1964 fundamentally transformed American society. Its most vital provisions included:\n* **Title II:** Outlawed discrimination in public accommodations (hotels, restaurants, theaters), effectively ending legal Jim Crow segregation.\n* **Title VII:** Prohibited employment discrimination by employers and labor unions on the basis of race, color, religion, sex, or national origin, and created the Equal Employment Opportunity Commission (EEOC) to enforce it.\n* **Title VI:** Prohibited discrimination in programs receiving federal financial assistance.\n\nThe passage of the Act was a triumph of bipartisan legislative maneuvering, executive leadership, and the relentless grassroots activism of the civil rights movement, permanently altering the legal and social landscape of the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 2950,
+  "total_tokens": 2975,
+  "cost": 0.003784,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003784,
+   "upstream_inference_prompt_cost": 8e-06,
+   "upstream_inference_completions_cost": 0.003776
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1618,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:23:50.191061+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

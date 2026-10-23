@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "Q",
+ "prompt": "What were the consequences of the famine during China's Great Leap Forward (1959-1961)?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Great Leap Forward (1958-1962) was a significant period in China's history aimed at rapidly transforming the country from an agrarian economy into a socialist society through rapid industrialization and collectivization. However, this period also saw one of the most severe famines in human history, with profound and far-reaching consequences.\n\n### Human Cost\nThe most immediate and devastating consequence was the enormous loss of life. Estimates of the death toll vary widely, but most scholars agree that between 15 million and 45 million people died as a result of starvation, related diseases, and other factors during the famine years of 1959-1961. This makes it one of the deadliest famines in recorded history.\n\n### Economic Impact\nThe famine had a severe impact on China's economy:\n- **Agricultural Decline**: Agricultural production plummeted due to poor planning, forced collectivization, and the diversion of labor to industrial projects. Grain output fell dramatically, leading to widespread food shortages.\n- **Industrial Setbacks**: The focus on rapid industrialization, particularly in steel production, often came at the expense of agricultural needs. Many of the industrial projects were inefficient and did not produce the expected results, leading to a waste of resources and labor.\n- **Economic Stagnation**: The overall economy suffered, with GDP growth rates turning negative. The country faced significant challenges in recovering from the economic downturn.\n\n### Social and Political Consequences\nThe famine had profound social and political effects:\n- **Social Unrest**: The extreme hardship led to widespread social unrest, including protests and resistance against local officials. In some areas, there were instances of cannibalism and other desperate measures to survive.\n- **Political Repercussions**: The failure of the Great Leap Forward led to a reevaluation of policies within the Chinese Communist Party (CCP). Mao Zedong, the primary architect of the campaign, faced criticism and was forced to step back from day-to-day governance. Liu Shaoqi and Deng Xiaoping took over the management of the economy and implemented more pragmatic policies.\n- **Cultural Impact**: The trauma of the famine left deep scars on Chinese society. It influenced literature, art, and public memory, and continues to be a sensitive topic in China.\n\n### Policy Adjustments\nIn response to the crisis, the Chinese government made several policy adjustments:\n- **Restoration of Agriculture**: Efforts were made to restore agricultural production, including the relaxation of some collectivization measures and the encouragement of private plots.\n- **Economic Reforms**: More pragmatic economic policies were introduced, focusing on stabilizing the economy and improving living standards.\n- **International Aid**: China sought and received international aid, although the scale of assistance was limited compared to the magnitude of the crisis.\n\n### Long-Term Effects\nThe Great Leap Forward and the subsequent famine had long-lasting effects on China:\n- **Policy Lessons**: The experience led to a more cautious approach to economic planning and a greater emphasis on practical, evidence-based policies.\n- **Demographic Changes**: The famine had a significant impact on population demographics, with a notable decrease in birth rates and an increase in mortality rates during the famine years.\n- **Historical Reflection**: The event has been the subject of extensive historical research and reflection, contributing to a deeper understanding of the complexities of economic and social development.\n\nIn summary, the famine during the Great Leap Forward had catastrophic consequences for China, affecting millions of lives, the economy, and the political landscape. The lessons learned from this period have shaped subsequent policies and continue to influence China's development trajectory.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 34,
+  "completion_tokens": 1142,
+  "total_tokens": 1176,
+  "cost": 0.00147264,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00147264,
+   "upstream_inference_prompt_cost": 1.088e-05,
+   "upstream_inference_completions_cost": 0.00146176
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 392,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:21:26.246615+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

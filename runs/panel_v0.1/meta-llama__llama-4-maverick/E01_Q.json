@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "Q",
+ "prompt": "What were the consequences of the New Deal (1933-1939)?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The New Deal, implemented by President Franklin D. Roosevelt during 1933-1939, had significant consequences on the United States' economy, politics, and society. The consequences can be broadly categorized into short-term and long-term effects.\n\n**Short-term consequences (1933-1939):**\n\n1. **Relief and Recovery**: The New Deal provided immediate relief to those affected by the Great Depression, such as the unemployed, farmers, and the elderly. Programs like the Civilian Conservation Corps (CCC), Works Progress Administration (WPA), and Federal Emergency Relief Administration (FERA) helped alleviate suffering.\n2. **Economic Stimulation**: The New Deal's infrastructure projects, such as road construction and public building projects, helped stimulate economic growth.\n3. **Reform of Financial Systems**: The Glass-Steagall Act (1933) and the Securities Exchange Act (1934) reformed the banking and securities industries, respectively, to prevent future financial crises.\n4. **Increased Government Intervention**: The New Deal marked a significant shift towards greater government intervention in the economy, with the establishment of new agencies and programs.\n\n**Long-term consequences (1940s-1960s and beyond):**\n\n1. **Establishment of the Welfare State**: The New Deal laid the foundation for the modern welfare state in the United States, with programs like Social Security (1935) providing a safety net for citizens.\n2. **Keynesian Economics**: The New Deal's emphasis on government spending and deficit financing helped popularize Keynesian economics, which became a dominant economic theory in the post-World War II period.\n3. **Regulatory Framework**: The New Deal's regulatory reforms, such as the creation of the Securities and Exchange Commission (SEC), helped establish a framework for regulating industries and protecting consumers.\n4. **Shift in Political Landscape**: The New Deal realigned the Democratic Party, making it a more liberal and interventionist party, and created a new coalition of supporters, including labor unions, farmers, and urban voters.\n5. **Increased Federal Power**: The New Deal marked a significant expansion of federal power, with the national government taking on a more prominent role in economic and social policy.\n\n**Criticisms and Controversies:**\n\n1. **Constitutional Challenges**: Some New Deal programs were challenged in court, with the Supreme Court initially striking down several key measures, such as the National Industrial Recovery Act (NIRA).\n2. **Inefficiencies and Corruption**: Some New Deal programs were criticized for inefficiencies and corruption, such as the WPA's alleged waste and mismanagement.\n3. **Racial and Social Inequalities**: The New Deal was criticized for perpetuating racial and social inequalities, as some programs, such as Social Security, initially excluded certain groups, like domestic workers and agricultural laborers.\n\nOverall, the New Deal had a profound impact on American society, politics, and economy, shaping the course of the country for decades to come. While it had its limitations and controversies, the New Deal remains a significant and influential period in American history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 619,
+  "total_tokens": 644,
+  "cost": 0.000408585,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000408585,
+   "upstream_inference_prompt_cost": 4.6875e-06,
+   "upstream_inference_completions_cost": 0.0004038975
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:28.865871+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

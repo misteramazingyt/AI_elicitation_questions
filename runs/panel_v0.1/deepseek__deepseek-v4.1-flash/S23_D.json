@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "D",
+ "prompt": "Describe the 2020 George Floyd protests.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "CoreWeave",
+ "response": "The 2020 George Floyd protests were a massive wave of demonstrations against police brutality, racial injustice, and systemic racism. They began in Minneapolis on May 26, 2020, after video circulated of George Floyd, a 46-year-old Black man, dying while white Minneapolis police officer Derek Chauvin knelt on his neck for about nine minutes during an arrest the previous day. Floyd’s death—along with other high-profile killings of Black Americans such as Breonna Taylor and Ahmaud Arbery—ignited a broader Black Lives Matter movement.\n\nThe protests quickly spread across all 50 U.S. states, Washington, D.C., and internationally. At their height, they took place in hundreds of cities and involved millions of people; some estimates suggest 15–26 million Americans participated, making it possibly the largest protest movement in U.S. history. Demonstrators demanded police accountability, an end to racial violence and inequality, and, in some cases, defunding or abolishing police departments. Common slogans included “I can’t breathe,” “No justice, no peace,” “Black Lives Matter,” and “Defund the Police.”\n\nMost demonstrations were peaceful, but some involved looting, arson, vandalism, and violent clashes with police, particularly in cities such as Minneapolis, Portland, Seattle, Chicago, New York, and Kenosha. Many cities imposed curfews, and National Guard troops were deployed in numerous states. Federal law enforcement was also sent to Portland and Washington, D.C. There were documented cases of police using tear gas, rubber bullets, and physical force against peaceful protesters and journalists. On June 1, federal officers cleared Lafayette Square before President Trump’s photo op at a church, an action that drew widespread criticism.\n\nThe protests had major cultural and political effects. Confederate and colonial monuments were toppled or removed in the U.S. and abroad. Sports leagues, corporations, and institutions issued statements and adopted reforms. Some cities cut police budgets or shifted funds to social services, and several states passed policing reforms. The federal George Floyd Justice in Policing Act passed the House but stalled in the Senate. In April 2021, Derek Chauvin was convicted of murder; other officers involved were also later convicted.\n\nThe movement also produced backlash and counterprotests, and it became deeply polarized, with debates over violence, policing, and “law and order.” Occurring during the COVID-19 pandemic, the protests raised additional public-health concerns. Overall, the 2020 George Floyd protests were a diverse, decentralized, and historically significant movement that reshaped national conversations about race, policing, and justice.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 2099,
+  "total_tokens": 2138,
+  "cost": 0.0013702,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0013702,
+   "upstream_inference_prompt_cost": 5.85e-06,
+   "upstream_inference_completions_cost": 0.00136435
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1565,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:01.075786+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

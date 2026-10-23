@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "C",
+ "prompt": "What were the main causes of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Relace",
+ "response": "The U.S. “War on Drugs” was not caused by one thing. It was a political and policy project built from overlapping factors: law-and-order politics, racial and cultural backlash, real drug epidemics, media panics, bureaucratic interests, and Cold War foreign policy. It began with Nixon’s 1971 declaration of drug abuse as “public enemy number one” and escalated through the Reagan, Bush, and Clinton years.\n\n**1. Law-and-order politics and backlash to the 1960s**\nNixon’s 1968 campaign appealed to a “silent majority” alarmed by urban riots, antiwar protests, rising crime, and the counterculture. “Law and order” became a way to win white working-class and suburban voters, especially in the South and Midwest. Drugs—marijuana, heroin, LSD—were easily linked to hippies, student radicals, and racial minorities. Nixon’s 1971 special message to Congress and the creation of the DEA in 1973 turned that rhetoric into federal machinery.\n\n**2. Racialized social control**\nScholars widely agree that drug enforcement disproportionately targeted Black and Latino communities. Heroin was associated with Black urban neighborhoods; marijuana with white hippies and antiwar activists. A frequently cited 1994 interview with Nixon aide John Ehrlichman claimed the administration used drug laws to disrupt antiwar and Black communities. The quote’s exact provenance is debated, but the policy outcomes—stop-and-frisk, mandatory minimums, and mass incarceration—fell heavily along racial lines. The War on Drugs became a tool of social control amid civil rights gains and white backlash.\n\n**3. Real drug epidemics and public health fears**\nThere were genuine crises. Heroin addiction rose in the late 1960s and 1970s, including among U.S. soldiers in Vietnam. In the 1980s, cocaine and then crack cocaine spread through cities, bringing addiction and violence. These were real problems, but the federal response was overwhelmingly punitive rather than treatment-focused. The 1986 Anti-Drug Abuse Act, for example, created harsh mandatory minimums and a 100:1 sentencing disparity between crack and powder cocaine.\n\n**4. Media and moral panic**\nMedia coverage of crack, drug cartels, and “crack babies” created a moral panic in the 1980s. Sensational stories often exaggerated the threat and racialized it. Politicians competed to appear tough on drugs, especially in election years. This helped pass the 1986 and 1988 Anti-Drug Abuse Acts and created the Office of National Drug Control Policy—the “drug czar.”\n\n**5. Bureaucratic and institutional interests**\nThe DEA, FBI, Customs, military, and local police gained budgets, powers, and prestige from the drug war. Asset forfeiture laws in the 1980s let agencies seize property tied to drug offenses, creating financial incentives. Prisons expanded, and later private prisons profited. Once created, these institutions had strong reasons to keep the war going.\n\n**6. Cold War and foreign policy**\nDrug control became part of Cold War containment. Nixon pressured Turkey, Mexico, and Southeast Asian countries to crack down on heroin production. In the 1980s, the Reagan and Bush administrations linked drugs to communism in Central America and the Andes, militarizing interdiction. The 1989 Andean Strategy and later Plan Colombia continued this logic. The drug war was often an extension of U.S. geopolitical influence.\n\n**7. Economic restructuring and urban crisis**\nDeindustrialization in the 1970s and 1980s destroyed jobs in many inner cities. The drug economy became one of the few available sources of income for some poor and working-class people. Instead of addressing those economic roots, policymakers criminalized the drug trade. The War on Drugs became a response to urban crisis—but one that punished poor communities rather than rebuilding them.\n\n**8. Bipartisan escalation in the 1980s and 1990s**\nReagan’s “Just Say No” campaign, zero tolerance, and mandatory minimums were continued and expanded by Bush and Clinton. The 1994 Violent Crime Control and Law Enforcement Act added three-strikes laws, federal death penalties for drug kingpins, and more funding for police and prisons. By the 1990s, the War on Drugs was a bipartisan consensus.\n\nIn short, the main causes were a mix of **political strategy, racial backlash, real addiction crises, media-driven panic, institutional self-interest, and Cold War geopolitics**. The result was a policy regime that criminalized drug use and targeted marginalized communities, often with limited success in reducing addiction.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 54,
+  "completion_tokens": 3431,
+  "total_tokens": 3485,
+  "cost": 0.00171928,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00171928,
+   "upstream_inference_prompt_cost": 3.78e-06,
+   "upstream_inference_completions_cost": 0.0017155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2474,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:17:33.780771+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

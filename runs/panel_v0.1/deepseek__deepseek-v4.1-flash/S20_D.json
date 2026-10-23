@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "D",
+ "prompt": "Describe the U.S. War on Drugs from 1971 to the 1990s.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Fireworks",
+ "response": "The U.S. “War on Drugs” was not a single law or program but a broad, bipartisan policy framework that used criminal justice, military, and foreign policy tools to suppress illegal drug use, production, and trafficking. From 1971 through the 1990s, it expanded dramatically and helped drive mass incarceration, racial disparities, and U.S. intervention in Latin America.\n\n**1971–1980: Origins and early federalization**  \nIn 1971, President Richard Nixon declared drug abuse “public enemy number one” and launched a federal anti-drug offensive. The 1970 Controlled Substances Act had already created the legal schedule system for drugs; in 1973 Nixon created the Drug Enforcement Administration (DEA) to consolidate federal enforcement. Early efforts mixed treatment and prevention—such as methadone programs and the Special Action Office for Drug Abuse Prevention—with tougher enforcement, including no-knock raids and mandatory minimums in some states. New York’s 1973 Rockefeller drug laws became a model for harsh sentencing. Under Presidents Ford and Carter, federal rhetoric softened somewhat, and Carter supported marijuana decriminalization, but cocaine use rose and the enforcement apparatus continued to grow.\n\n**1981–1988: The Reagan escalation**  \nPresident Ronald Reagan turned the War on Drugs into a central domestic and foreign policy theme. His administration expanded DEA and FBI drug enforcement, increased interdiction by the Coast Guard and military, and pressured foreign governments to eradicate drug crops. First Lady Nancy Reagan’s “Just Say No” campaign and the D.A.R.E. program promoted prevention in schools. The mid-1980s crack cocaine epidemic, amplified by media panic, produced a wave of punitive legislation. The 1986 Anti-Drug Abuse Act created mandatory minimum sentences and the notorious 100:1 sentencing disparity between crack and powder cocaine: five grams of crack triggered the same five-year federal minimum as 500 grams of powder. The 1988 Anti-Drug Abuse Act created the Office of National Drug Control Policy—the “drug czar”—and expanded civil penalties, public housing evictions, and the federal death penalty for drug kingpins.\n\n**1989–1990s: Bush, Clinton, and continuation**  \nPresident George H. W. Bush intensified the war in 1989 with a new National Drug Control Strategy, the Andean Initiative, and greater military involvement in Colombia, Peru, and Bolivia. That year, the U.S. invaded Panama in Operation Just Cause, partly to capture Gen. Manuel Noriega on drug-trafficking charges. In the 1990s, President Bill Clinton largely continued the punitive approach. The 1994 Violent Crime Control and Law Enforcement Act expanded the death penalty, funded “three strikes” laws, and added 100,000 police officers, while also funding drug courts and prevention. Internationally, the U.S. backed aggressive eradication and interdiction, culminating in Plan Colombia at the end of the decade. At the same time, California’s 1996 medical marijuana initiative signaled growing state-level resistance.\n\n**Consequences**  \nBy the late 1990s, the War on Drugs had helped quadruple the U.S. prison population, with drug offenses a major driver of federal and state incarceration. African Americans and Latinos were disproportionately arrested and imprisoned for drug crimes despite similar rates of drug use across racial groups. The policies militarized policing, eroded civil liberties, destabilized parts of Latin America, and did little to reduce drug availability or prices. The War on Drugs thus became a defining—and highly contested—feature of late-20th-century American governance.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 49,
+  "completion_tokens": 2478,
+  "total_tokens": 2527,
+  "cost": 0.00209181,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00209181,
+   "upstream_inference_prompt_cost": 1.029e-05,
+   "upstream_inference_completions_cost": 0.00208152
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1740,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:17:20.226339+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Wafer",
+ "response": "The Winter of Discontent (1978–79) was the product of a weak economy, the collapse of Labour’s incomes policy, and a wave of sectional public-sector strikes. Its main causes were:\n\n**1. Economic crisis and falling living standards**  \nBritain in the 1970s suffered “stagflation”: high inflation, low growth, rising unemployment and balance-of-payments problems. The 1973 oil shock and the 1976 IMF bailout forced public spending cuts. Although inflation had fallen from its 1975 peak, prices were still rising fast, and many workers felt their real wages were being eroded. Wage militancy was therefore a response to years of economic squeeze.\n\n**2. The breakdown of the Social Contract and incomes policy**  \nThe Labour government under James Callaghan relied on a voluntary incomes policy agreed with the TUC. Earlier phases had restrained pay, but by 1978 the government insisted on a 5% pay limit. Many unions saw this as unfair after years of wage restraint, especially as some private-sector workers were winning much larger settlements. The policy lacked credibility and could not be enforced.\n\n**3. The Ford strike and the collapse of the 5% norm**  \nIn late 1978, Ford workers won a pay rise of around 17%, far above the 5% limit. This broke the government’s pay norm and encouraged other groups to demand comparable increases. It was a key immediate trigger for the wider strike wave.\n\n**4. Public-sector militancy and comparability disputes**  \nStrikes spread among lorry drivers, train drivers, refuse collectors, gravediggers, hospital ancillary staff, ambulance workers and school caretakers. Many public-sector unions argued that their members had fallen behind in pay and deserved comparability with other workers. Because these services were highly visible, the strikes had a disproportionate political impact.\n\n**5. Weak government and divided union movement**  \nCallaghan’s government had no Commons majority after the Lib–Lab pact ended in 1978, and it was politically vulnerable. It tried to impose sanctions on employers and councils that breached the 5% limit, which further alienated unions. At the same time, the TUC could not control powerful individual unions or rank-and-file militancy. Bargaining was fragmented, so settlements leapfrogged one another.\n\n**6. Media and political amplification**  \nSevere winter weather made conditions worse, but the “Winter of Discontent” label was also shaped by intense media coverage and Conservative opposition. The Sun’s “Crisis? What crisis?” headline, though not Callaghan’s actual words, symbolised the government’s apparent complacency. This helped turn industrial disputes into a broader political crisis.\n\nIn short, the main causes were **economic stagnation and inflation, the failure of Labour’s pay policy, the Ford settlement that destroyed the 5% norm, public-sector pay militancy, and a weak minority government unable to control either unions or events**. The crisis helped pave the way for Margaret Thatcher’s Conservative election victory in May 1979.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 49,
+  "completion_tokens": 1853,
+  "total_tokens": 1902,
+  "cost": 0.00121376,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00121376,
+   "upstream_inference_prompt_cost": 9.31e-06,
+   "upstream_inference_completions_cost": 0.00120445
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1094,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:53.633569+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "C",
+ "prompt": "What were the main causes of the FBI's COINTELPRO program?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Fireworks",
+ "response": "COINTELPRO—the FBI’s “Counter Intelligence Program,” active from 1956 to 1971—did not have a single cause. It grew out of a mix of Cold War anti-communism, J. Edgar Hoover’s ideology, institutional incentives, legal limits on prosecution, and the social upheavals of the 1960s.\n\nThe main causes were:\n\n1. **Cold War anti-communism**  \n   After World War II, the FBI treated the Communist Party USA as a Soviet-controlled threat. The early COINTELPRO, launched in 1956, was aimed at disrupting and neutralizing the CPUSA. The 1956 crises in the communist world—Khrushchev’s secret speech and the Soviet invasion of Hungary—created internal turmoil in the party, and Hoover’s FBI sought to exploit and deepen those divisions.\n\n2. **J. Edgar Hoover’s worldview and leadership**  \n   Hoover was fiercely anti-communist, conservative, and suspicious of political dissent. He viewed civil rights activism, Black Power, the antiwar movement, and student radicalism as dangerous, often assuming they were communist-inspired or manipulated. His personal animus, especially toward Martin Luther King Jr., helped drive COINTELPRO’s expansion into civil rights and Black activist groups.\n\n3. **Legal constraints and the turn to covert disruption**  \n   The FBI could not simply prosecute every radical group or individual. Court decisions such as *Yates v. United States* (1957) narrowed the use of the Smith Act against communist advocacy. Rather than rely only on prosecution, the FBI increasingly used covert action: informants, wiretaps, forged letters, leaks, and dirty tricks to disrupt organizations from within.\n\n4. **The social conflicts of the 1960s**  \n   The civil rights movement, urban uprisings, Black Power, the antiwar movement, and the New Left convinced the FBI that domestic order was under threat. COINTELPRO expanded to target “White Hate Groups” in 1964, “Black Nationalist Hate Groups” in 1967, and the New Left in 1968. The FBI framed these as national security threats, but the targets were often political and social movements.\n\n5. **Lack of oversight and institutional self-protection**  \n   The FBI operated under broad national-security claims with little effective congressional or executive oversight. COINTELPRO was secret, decentralized enough to be deniable, and justified as necessary to protect the Bureau’s reputation and the nation. This secrecy allowed the program to continue and expand until it was exposed in 1971 and investigated by the Church Committee in 1975.\n\nIn short, the FBI’s stated rationale was national security and counter-subversion. But the deeper causes were Cold War anti-communism, Hoover’s political beliefs, bureaucratic self-interest, legal limits on prosecution, and elite fear of the era’s racial and political upheavals.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 3176,
+  "total_tokens": 3221,
+  "cost": 0.00267729,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00267729,
+   "upstream_inference_prompt_cost": 9.45e-06,
+   "upstream_inference_completions_cost": 0.00266784
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2568,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:13:22.069325+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

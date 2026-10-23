@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "D",
+ "prompt": "Describe the 1969 Stonewall riots.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1969 Stonewall riots, also known as the Stonewall uprising or Stonewall rebellion, were a series of spontaneous demonstrations by members of the LGBTQ+ community in response to a police raid on the Stonewall Inn, a gay bar in New York City's Greenwich Village. The riots took place on June 28-29, 1969, and are widely considered a pivotal moment in the modern LGBTQ+ rights movement.\n\nThe Stonewall Inn, located at 53 Christopher Street, was a popular gathering place for gay men, lesbians, and trans individuals. The bar was known for its welcoming atmosphere and was a rare safe space for LGBTQ+ people in a time when they faced widespread persecution and harassment.\n\nOn the night of June 28, 1969, police officers from the New York City Police Department (NYPD) raided the Stonewall Inn, citing alleged liquor law violations. However, the raid was also motivated by the NYPD's long-standing harassment and persecution of LGBTQ+ individuals. The police arrested 13 people, including employees and patrons, and began to load them into paddy wagons.\n\nAs the police attempted to disperse the crowd outside the bar, tensions escalated. Patrons and onlookers, many of whom were LGBTQ+ individuals, began to resist the police, throwing coins, bottles, and other objects. The situation quickly spiralled out of control, with protesters chanting slogans, such as \"Gay power!\" and \"We shall overcome!\"\n\nThe riots continued into the early hours of June 29, with protesters clashing with police in the streets surrounding the Stonewall Inn. The demonstrations were marked by a sense of defiance and resistance, as LGBTQ+ individuals stood up to the authorities and demanded an end to the persecution and harassment they had faced for so long.\n\nThe Stonewall riots were a turning point in the LGBTQ+ rights movement, marking a shift from a more subdued, assimilationist approach to a more militant and activist-oriented one. The riots galvanized a new generation of LGBTQ+ activists, who began to organize and mobilize around issues such as gay liberation, equality, and visibility.\n\nIn the years following the Stonewall riots, LGBTQ+ activism and organizing gained momentum, with the formation of groups such as the Gay Liberation Front and the Gay Activists Alliance. The riots also inspired the creation of annual Pride marches and events, which have become a staple of LGBTQ+ culture and activism around the world.\n\nThe Stonewall riots are now widely recognized as a landmark moment in the struggle for LGBTQ+ rights, and their legacy continues to be celebrated and honored today. In 2016, the Stonewall Inn was designated as a National Historic Landmark by the US National Park Service, and in 2019, the 50th anniversary of the riots was commemorated with a range of events and celebrations around the world.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 595,
+  "total_tokens": 615,
+  "cost": 0.0003919875,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003919875,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.0003882375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:06:13.961505+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

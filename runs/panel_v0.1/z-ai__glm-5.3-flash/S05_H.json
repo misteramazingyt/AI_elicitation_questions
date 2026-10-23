@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1993 Waco siege? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of the 1993 Waco Siege\n\nThe Waco siege (February 28 – April 19, 1993), which ended in a fire that killed over 70 members of the Branch Davidians including David Koresh, has been interpreted through several distinct lenses. Here's an overview of the major interpretive strands:\n\n## 1. Government Accountability Critiques\n\nMany scholars and journalists have focused on the federal government's handling of the standoff, particularly the FBI's final assault:\n\n- **Dick J. Reavis**, *The Ashes of Waco: An Investigation* (Simon & Schuster, 1998) — a journalist's account arguing that federal agencies mishandled the siege and that the fire's origin remained inadequately explained.\n- **Dan Gifford** directed the documentary *Waco: The Rules of Engagement* (1997), which argued the government used excessive force and possibly incendiary devices, and which prompted congressional hearings.\n- The **Danforth Report** (2000), authored by former Senator John C. Danforth after an independent investigation, concluded the government did not fire shots at the compound and that the Davidians themselves started the fire — a conclusion critics like Gifford and some survivors rejected.\n\n## 2. Religious Studies Scholarship\n\nReligion scholars have emphasized that the government fundamentally misunderstood the Branch Davidians' theology, which contributed to the tragic outcome:\n\n- **James D. Tabor and Eugene V. Gallagher**, *Why Waco? Cults and the Battle for Religious Freedom in America* (University of California Press, 1995) — perhaps the most influential academic treatment. They argued that the FBI's \"cult\" framing led negotiators to misread Koresh's apocalyptic beliefs and that better religious literacy could have produced a peaceful resolution.\n- **Stuart A. Wright** edited *Armageddon in Waco: Critical Perspectives on the Branch Davidian Conflict* (University of Chicago Press, 1995), collecting essays from sociologists of religion criticizing the government's demonization of the group.\n\n## 3. Survivor and Participant Accounts\n\n- **David Thibodeau** (with Leon Whiteson), *A Place Called Waco: A Survivor's Story* (PublicAffairs, 1999) — a survivor's account portraying the Davidians sympathetically and disputing official narratives about the fire.\n- **Clive Doyle** with Catherine Wessinger and Matthew Wittmer, *A Journey to Waco: Autobiography of a Branch Davidian* (Rowman & Littlefield, 2012).\n\n## 4. Broader Cultural and Political Interpretations\n\n- Scholars have examined Waco's role in fueling the 1990s militia movement and anti-government sentiment, culminating in the 1995 Oklahoma City bombing, which was explicitly timed to the siege's second anniversary.\n- **Catherine Wessinger** (ed.), *Millennialism, Persecution, and Violence: The Branch Davidian Case* (Syracuse University Press, 2000) — explores how \"persecution consciousness\" shaped the group's behavior.\n- More recently, the 2018 Paramount miniseries *Waco* renewed popular interest, though historians noted it took some dramatic liberties.\n\n## Points of Ongoing Debate\n\n- Whether the FBI's use of CS gas and the demolition of walls contributed to the fire's lethality\n- Whether incendiary flashes detected in infrared footage were gunfire (the Danforth Report said no; critics disagreed)\n- Whether Koresh's promised written exegesis of the Seven Seals was a genuine negotiating opportunity that the government abandoned\n\n**A note on citations:** I've listed these works from memory, so I'd recommend verifying publication details (publishers, dates, subtitles) before citing them in formal work. The Danforth Report is available through the U.S. Department of Justice archives, and congressional hearing transcripts from 1993 and 1995 are available through the Government Publishing Office.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 1116,
+  "total_tokens": 1159,
+  "cost": 0.0001042323,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001042323,
+   "upstream_inference_prompt_cost": 1.2255e-06,
+   "upstream_inference_completions_cost": 0.0001030068
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 293,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:58.946035+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

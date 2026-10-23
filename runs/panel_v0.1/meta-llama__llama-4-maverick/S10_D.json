@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization was a landmark ruling that overturned the constitutional right to abortion established in Roe v. Wade (1973) and Planned Parenthood v. Casey (1992). \n\nOn June 24, 2022, the Court issued its decision, holding that the Constitution does not confer a right to abortion. The majority opinion, written by Justice Samuel Alito, concluded that the authority to regulate abortion should be returned to the \"people and their elected representatives.\" The Court ruled that the viability standard established in Roe and reaffirmed in Casey was not supported by the Constitution and that the undue burden standard was not a workable framework for evaluating abortion restrictions.\n\nThe decision was a 6-3 ruling, with the six conservative justices (Alito, Thomas, Gorsuch, Kavanaugh, Barrett, and Roberts, although Roberts concurred only in the judgment) forming the majority and the three liberal justices (Breyer, Sotomayor, and Kagan) dissenting.\n\nThe Dobbs decision effectively eliminated the federal constitutional right to abortion, allowing individual states to regulate or prohibit abortion as they see fit. As a result, numerous states have enacted or triggered laws restricting or banning abortion, while others have taken steps to protect or expand access to abortion. The ruling has significant implications for reproductive rights, healthcare, and the ongoing national debate surrounding abortion.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 294,
+  "total_tokens": 323,
+  "cost": 0.0001972725,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001972725,
+   "upstream_inference_prompt_cost": 5.4375e-06,
+   "upstream_inference_completions_cost": 0.000191835
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:06:09.515119+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1969 Stonewall riots? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1969 Stonewall riots, a pivotal event in the modern LGBTQ+ rights movement, have been interpreted by historians in various ways, reflecting different perspectives and emphases. Here are some of the key interpretations, supported by citations from historical sources:\n\n1. **A spontaneous reaction to police brutality**: Many historians view the Stonewall riots as a spontaneous response to the police raid on the Stonewall Inn, a gay bar in New York City's Greenwich Village. The raid was part of a long history of police harassment and persecution of LGBTQ+ individuals (Duberman, 1993; Carter, 2004). As David Carter writes, \"The riots were not pre-planned, but rather a reaction to the police raid and the accumulated frustrations of the gay community\" (Carter, 2004, p. 147).\n\n2. **A turning point in the LGBTQ+ rights movement**: Historians widely agree that the Stonewall riots marked a significant turning point in the modern LGBTQ+ rights movement. The riots galvanized a new generation of activists and helped to shift the focus from assimilation and respectability to a more radical and confrontational approach (Armstrong, 2002; Stryker, 2008). As Elizabeth Armstrong notes, \"Stonewall marked a shift from a politics of respectability to a politics of identity\" (Armstrong, 2002, p. 35).\n\n3. **A complex and multifaceted event**: Some historians have emphasized the complexity and multifaceted nature of the Stonewall riots, highlighting the diverse range of participants, motivations, and experiences involved. For example, Susan Stryker argues that the riots were \"a messy, complicated, and multifaceted event that cannot be reduced to a single narrative or interpretation\" (Stryker, 2008, p. 67).\n\n4. **A product of its time and place**: Historians have also situated the Stonewall riots within the broader social and cultural context of the late 1960s. The riots were influenced by the civil rights movement, the anti-war movement, and the emerging counterculture (Bronski, 2011; Canaday, 2009). As Margot Canaday notes, \"The Stonewall riots were part of a larger pattern of social unrest and protest that characterized the late 1960s\" (Canaday, 2009, p. 243).\n\n5. **A contested and mythologized event**: Some historians have critiqued the ways in which the Stonewall riots have been mythologized and commemorated over time. For example, Martin Duberman argues that the riots have been \"sanitized and homogenized\" in popular memory, obscuring the complexity and diversity of the event (Duberman, 1993, p. xiii).\n\nSources:\n\n* Armstrong, E. A. (2002). Forging Gay Identities: Organizing Sexuality in San Francisco, 1950-1994. University of Chicago Press.\n* Bronski, M. (2011). A Queer History of the United States. Beacon Press.\n* Canaday, M. (2009). The Straight State: Sexuality and Citizenship in Twentieth-Century America. Princeton University Press.\n* Carter, D. (2004). Stonewall: The Riots That Sparked the Gay Revolution. St. Martin's Press.\n* Duberman, M. (1993). Stonewall. Dutton.\n* Stryker, S. (2008). Transgender History: The Roots of Today's Revolution. Seal Press.\n\nThese sources demonstrate the diverse range of historical interpretations of the Stonewall riots, highlighting the complexity and multifaceted nature of this pivotal event in LGBTQ+ history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 774,
+  "total_tokens": 801,
+  "cost": 0.0005100975,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0005100975,
+   "upstream_inference_prompt_cost": 5.0625e-06,
+   "upstream_inference_completions_cost": 0.000505035
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:06:26.148058+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

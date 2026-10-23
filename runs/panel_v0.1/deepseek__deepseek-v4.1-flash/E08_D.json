@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "D",
+ "prompt": "Describe the Great Depression.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Relace",
+ "response": "The Great Depression was the most severe and prolonged economic downturn of the modern industrial era. It began in the United States after the Wall Street stock market crash of October 1929—especially “Black Tuesday,” October 29—but quickly became a worldwide crisis. It lasted through the 1930s and, in many countries, only ended with the economic mobilization for World War II.\n\n**Causes**  \nHistorians generally see it as the result of several interacting factors: speculative stock-market investing and buying on margin; weak and poorly regulated banks; falling consumer demand; overproduction in industry and agriculture; deep inequality that limited mass purchasing power; and mistaken government policies. The Federal Reserve tightened credit, bank failures multiplied, and the gold standard spread deflation. The U.S. Smoot-Hawley Tariff of 1930 and retaliatory tariffs abroad caused international trade to collapse.\n\n**Effects**  \nIn the United States, industrial production fell by roughly 30%, prices dropped sharply, and unemployment rose from about 3% in 1929 to nearly 25% by 1933. Banks failed by the thousands, wiping out savings. Millions lost homes and farms to foreclosure. Bread lines, soup kitchens, shantytowns called “Hoovervilles,” and mass migration—such as the Dust Bowl exodus—became symbols of the era. Globally, the depression hit Germany especially hard, with unemployment near 30%, helping destabilize the Weimar Republic and aiding the rise of the Nazis. Britain, France, Latin America, and much of the world suffered from falling trade, commodity prices, and investment.\n\n**Responses**  \nPresident Herbert Hoover’s response was limited by his belief in voluntary cooperation and balanced budgets. Franklin D. Roosevelt’s New Deal, beginning in 1933, expanded federal action: a bank holiday, deposit insurance, securities regulation, public works programs, agricultural support, labor rights, and the Social Security Act. The New Deal did not fully end the Depression, but it permanently changed the role of government in the economy and society. Economist John Maynard Keynes argued that governments needed to spend aggressively to stimulate demand, an idea that gained influence.\n\n**End and legacy**  \nFull recovery came only with the massive military spending of World War II. The Depression’s legacy included stronger financial regulation, the modern welfare state, central banking reforms, and international institutions such as the Bretton Woods system. It also left deep cultural memories of insecurity and helped shape twentieth-century politics, economics, and social policy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 35,
+  "completion_tokens": 1299,
+  "total_tokens": 1334,
+  "cost": 0.00065195,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00065195,
+   "upstream_inference_prompt_cost": 2.45e-06,
+   "upstream_inference_completions_cost": 0.0006495
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 784,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:42.665895+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "C",
+ "prompt": "What were the main causes of the Kent State shootings of 1970?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Kent State shootings, also known as the Kent State massacre, occurred on May 4, 1970, at Kent State University in Ohio, United States. The main causes of the shootings were a combination of factors related to the anti-war movement, student protests, and the response of the Ohio National Guard.\n\nHere are the key events and circumstances that led to the shootings:\n\n1. **Vietnam War and anti-war protests**: The United States was involved in the Vietnam War, which was highly unpopular among many Americans, particularly young people. Student protests against the war were common on college campuses, including Kent State University.\n2. **Expansion of the war into Cambodia**: On April 30, 1970, President Richard Nixon announced that the United States would invade Cambodia, a neutral country, to target North Vietnamese supply lines. This decision sparked widespread outrage and protests across the country.\n3. **Student protests at Kent State**: On May 1, 1970, a rally was held on the Kent State campus to protest the Cambodian invasion. The protest was peaceful, but it was followed by a series of demonstrations and rallies over the next few days, some of which became violent.\n4. **Rioting and property damage**: On May 2, a group of protesters burned down the university's Army Reserve Officers' Training Corps (ROTC) building, sparking a strong reaction from local authorities.\n5. **Deployment of the Ohio National Guard**: In response to the rioting and property damage, Ohio Governor James A. Rhodes deployed the Ohio National Guard to Kent State University on May 3. The Guard was tasked with maintaining order and restoring calm on campus.\n6. **Tensions between students and the National Guard**: Over the next few days, tensions between students and the National Guard escalated. The Guard was equipped with riot gear, and students were increasingly frustrated and angry about the Guard's presence.\n7. **The May 4 protest**: On May 4, a group of students gathered on the Kent State commons, a large open area on campus. The National Guard attempted to disperse the crowd using tear gas, but the protesters refused to leave. The situation became increasingly volatile.\n8. **The shootings**: At around 12:24 pm on May 4, a group of National Guardsmen fired their rifles into the crowd, killing four students (Allison Krause, Jeffrey Glen Miller, Sandra Lee Scheuer, and William Knox Schroeder) and wounding nine others.\n\nThe Kent State shootings were a traumatic event that shocked the nation and galvanized the anti-war movement. The incident was widely condemned, and it led to a re-evaluation of the use of force by law enforcement and military personnel in responding to civil protests.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 564,
+  "total_tokens": 590,
+  "cost": 0.000372885,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000372885,
+   "upstream_inference_prompt_cost": 4.875e-06,
+   "upstream_inference_completions_cost": 0.00036801
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:05:29.729217+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

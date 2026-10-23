@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "C",
+ "prompt": "What were the main causes of the 2020 George Floyd protests?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the 2020 George Floyd Protests\n\nThe protests that erupted in late May 2020 stemmed from several interconnected factors:\n\n## Immediate Trigger\n- **George Floyd's death**: On May 25, 2020, Floyd died after Minneapolis police officer Derek Chauvin knelt on his neck for over nine minutes during an arrest. Video of the incident, filmed by a bystander, spread rapidly online and showed Floyd repeatedly saying \"I can't breathe.\"\n\n## Underlying Causes\n\n**Long history of police violence against Black Americans**\n- The deaths of other Black Americans in preceding years, including Michael Brown, Eric Garner, Tamir Rice, Freddie Gray, Philando Castile, and Breonna Taylor (killed by police in March 2020), had already fueled frustration\n- Many cases ended without officers facing charges or convictions\n\n**Racial inequality and systemic issues**\n- Broader grievances about racial disparities in policing, criminal justice, wealth, health, and housing\n- The protests grew into a larger movement addressing systemic racism\n\n**Timing and context**\n- **The COVID-19 pandemic**: Lockdowns meant millions were home, watching the video, and pandemic disparities disproportionately affected Black communities\n- **Economic hardship**: Widespread job losses added to public frustration\n- **Political climate**: Tensions with the Trump administration, which took a \"law and order\" stance toward the protests\n\n**Social media amplification**\n- The video's viral spread mobilized people quickly, and social media helped organize demonstrations across the U.S. and internationally\n\nThe protests became among the largest in U.S. history, with estimates of 15–26 million participants, and led to widespread discussions of police reform, including the \"defund the police\" debate.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 663,
+  "total_tokens": 704,
+  "cost": 6.23634e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.23634e-05,
+   "upstream_inference_prompt_cost": 1.1685e-06,
+   "upstream_inference_completions_cost": 6.11949e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 302,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:44.384670+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

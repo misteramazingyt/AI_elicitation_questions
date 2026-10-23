@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "D",
+ "prompt": "Describe the IRS's handling of tax-exempt applications from political groups (2010-2013).",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The handling of tax-exempt applications by the Internal Revenue Service (IRS) between 2010 and 2013 is commonly referred to as the IRS targeting controversy. It involved the inappropriate scrutiny, delay, and burdening of certain organizations applying for tax-exempt status, specifically under section 501(c)(4) of the tax code, which covers \"social welfare\" organizations. \n\nHere is a detailed breakdown of the events, the IRS's handling of the applications, and the subsequent investigations.\n\n### Background and Context\nFollowing the Supreme Court’s 2010 *Citizens United* decision and the subsequent 2010 midterm elections, there was a massive surge in applications for 501(c)(4) tax-exempt status. These organizations are allowed to engage in some political activity, provided it is not their \"primary purpose.\" \n\nThe IRS Exempt Organizations (EO) unit was overwhelmed by the volume of applications. Furthermore, there was a lack of clear, updated guidance from the Treasury Department and the IRS on how to distinguish between permissible social welfare activities and prohibited political campaign intervention for 501(c)(4) groups.\n\n### The IRS's Handling of Applications\nTo manage the backlog and determine which groups were primarily political (and thus should be classified as 501(c)(3) or 527 organizations rather than 501(c)(4)), the IRS implemented several practices that were later deemed highly inappropriate:\n\n*   **Inappropriate Criteria (BOLO Lists):** The IRS used \"Be On the Lookout\" (BOLO) lists to flag applications for secondary, detailed review. The criteria used to flag these applications were based on names or themes rather than actual activities. \n*   **Disproportionate Targeting of Conservative Groups:** The BOLO lists specifically targeted groups with keywords in their names such as \"Tea Party,\" \"Patriots,\" and \"9/12.\" As a result, conservative and Republican-leaning groups were disproportionately subjected to intense scrutiny.\n*   **Scrutiny of Progressive Groups:** While conservative groups made up the vast majority of the targeted applications, the Treasury Inspector General for Tax Administration (TIGTA) later confirmed that some progressive and liberal groups were also flagged and subjected to extra scrutiny based on keywords related to Occupy Wall Street, ACORN, and progressive policy issues.\n*   **Intrusive Questionnaires and Delays:** Flagged organizations were subjected to extensive delays (often lasting years) and were asked highly intrusive questionnaires. The IRS demanded sensitive information, including donor lists, internal communications, and details about the personal beliefs and activities of their members, which went far beyond standard application requirements.\n\n### Discovery and Immediate Fallout (2013)\nThe controversy became public in May 2013 following the release of a report by TIGTA. The report confirmed that the IRS had used inappropriate criteria to target conservative groups and criticized the agency's management for failing to stop the practice when it was first identified in 2010.\n\nThe immediate fallout included:\n*   **Resignations:** Acting IRS Commissioner Steven Miller resigned.\n*   **Congressional Hearings:** Lois Lerner, the director of the IRS Exempt Organizations division, initially testified before Congress, stating she had just discovered the targeting. However, it was later revealed she had known about the issues for years. She subsequently invoked her Fifth Amendment right against self-incrimination before Congress and was later fired/forced into retirement.\n*   **Presidential Condemnation:** President Barack Obama publicly condemned the actions, calling them \"outrageous\" and \"unacceptable,\" and directed the Treasury Department to investigate and reform the agency.\n\n### Investigations and Conclusions\nMultiple investigations were launched to determine the extent of the misconduct and whether any laws were broken:\n\n*   **TIGTA and Congressional Investigations:** These investigations thoroughly documented the mismanagement, the use of inappropriate criteria, and the severe delays. They concluded that the actions were the result of severe administrative mismanagement, a lack of training, and poor leadership, rather than a coordinated, top-down political conspiracy.\n*   **Department of Justice (DOJ) and FBI Investigations:** The DOJ opened a criminal investigation in 2013 to determine if any IRS employees willfully violated the law (such as unauthorized disclosure of taxpayer information or civil rights violations). In 2017, the DOJ closed the investigation without filing any criminal charges. The DOJ stated that while the IRS's actions were inappropriate and caused significant harm, investigators could not identify a specific individual who willfully committed a crime beyond a reasonable doubt.\n*   **Whistleblower Claims:** Several IRS employees who blew the whistle on the practices filed complaints. Some were awarded settlements or reinstated, while others faced retaliation claims that were litigated in federal court.\n\n### Legacy and Reforms\nThe controversy led to significant structural and procedural changes within the IRS. The agency overhauled its Exempt Organizations unit, implemented new training, and established stricter guidelines for handling 501(c)(4) applications. In 2013, the IRS and Treasury Department also proposed new regulations to clarify the definition of \"social welfare\" and political activity for 501(c)(4) groups, though these rules faced heavy pushback and were eventually withdrawn and revised in subsequent years. \n\nUltimately, the 2010–2013 handling of tax-exempt applications is recorded as a major administrative failure by the IRS, characterized by the use of inappropriate, politically skewed criteria that resulted in the unequal and burdensome treatment of applicants across the political spectrum, though predominantly impacting conservative organizations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 34,
+  "completion_tokens": 2764,
+  "total_tokens": 2798,
+  "cost": 0.0035488,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0035488,
+   "upstream_inference_prompt_cost": 1.088e-05,
+   "upstream_inference_completions_cost": 0.00353792
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1591,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:15.479075+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

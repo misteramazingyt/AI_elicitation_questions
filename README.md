@@ -22,7 +22,7 @@ Run `python3 scripts/validate_questions.py` (requires PyYAML).
 
 ## First panel run
 
-[`runs/panel_v0.1/`](runs/panel_v0.1/SUMMARY.md) holds every candidate prompt answered by 10 inexpensive flagship-family models (OpenAI, Anthropic, Google, xAI, Meta, DeepSeek, Alibaba, Mistral, Zhipu, NVIDIA) via OpenRouter: 168 prompts per model at temperature 0. These are unscored raw generations.
+[`runs/panel_v0.1/`](runs/panel_v0.1/SUMMARY.md) holds every candidate prompt answered by 10 inexpensive flagship-family models (OpenAI, Anthropic, Google, xAI, Meta, DeepSeek, Alibaba, Mistral, Zhipu, NVIDIA) via OpenRouter: 168 prompts per model at temperature 0, 1,680 responses in all, for about $3 of API spend. These are raw, unscored generations.
 
 | File | Contents |
 |---|---|

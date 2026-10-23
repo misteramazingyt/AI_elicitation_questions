@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "Q",
+ "prompt": "What were the consequences of Soviet espionage in the United States in the 1940s, including the Rosenberg case?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "Soviet espionage in the United States during the 1940s had major strategic, political, legal, and cultural consequences. It helped confirm American fears of communist subversion, contributed to the early Soviet atomic bomb, fueled the Cold War arms race, and led to a domestic security crackdown. The Rosenberg case became the most dramatic symbol of that era.\n\n**Strategic and nuclear consequences**\n- Soviet spy networks—including the Rosenberg ring, the Perlo and Ware groups, and atomic spies such as Klaus Fuchs, Theodore Hall, and David Greenglass—passed military, industrial, and atomic information to Moscow.\n- This espionage did not by itself give the USSR the atomic bomb, but it helped Soviet scientists and intelligence learn about the Manhattan Project, including implosion-design concepts. Combined with Soviet research and postwar German expertise, it likely accelerated the Soviet atomic program.\n- The USSR tested its first atomic bomb in August 1949, ending the U.S. nuclear monopoly earlier than many American officials had expected.\n- The result was a nuclear arms race: Truman ordered work on the hydrogen bomb in 1950, NSC-68 called for a massive military buildup, and U.S. strategy shifted toward deterrence and containment.\n\n**Political and domestic consequences**\n- Revelations of espionage intensified the Second Red Scare. They gave credibility to claims that communists had infiltrated government, labor unions, and cultural institutions.\n- The federal government expanded loyalty and security programs: Executive Order 9835 in 1947 created a federal loyalty program, security clearances were tightened, and the FBI’s role in domestic intelligence grew.\n- Congressional committees such as HUAC investigated alleged subversion. The Smith Act prosecutions, the McCarran Internal Security Act, blacklists, loyalty oaths, and McCarthyism all reflected and amplified the fear of communist espionage.\n- Civil liberties suffered. Suspected communists and leftists faced surveillance, job loss, deportation threats, and guilt by association. The espionage cases became justification for a permanent national-security state.\n\n**The Rosenberg case**\n- Julius and Ethel Rosenberg were arrested in 1950 and tried in 1951 under the Espionage Act for conspiracy to commit espionage—not treason. Julius was clearly involved in passing secrets; Ethel’s role was much weaker and rested heavily on testimony from her brother, David Greenglass.\n- Both were convicted and executed on June 19, 1953. Morton Sobell was also convicted and served years in prison.\n- The case had powerful consequences:\n  - It demonstrated the severity of the U.S. response to atomic espionage and was meant to deter others.\n  - It became an international cause célèbre. Protests erupted in Europe and elsewhere; many saw the Rosenbergs as martyrs or victims of Cold War hysteria.\n  - It damaged the image of the United States abroad and gave Soviet propaganda a useful symbol.\n  - It deepened anti-communist sentiment at home and strengthened support for the FBI and hard-line security policies.\n  - Later Venona decrypts confirmed Julius Rosenberg’s espionage but did not establish Ethel’s direct involvement in passing secrets, intensifying debate over her conviction and execution.\n\n**Long-term legacy**\nAfter the Cold War, released Soviet archives and Venona decrypts confirmed that Soviet espionage in the 1940s was real and extensive. At the same time, they showed that some accusations were exaggerated and that the domestic response often went far beyond the actual threat. Historians still debate how much atomic espionage shortened the Soviet bomb timeline, but most agree it was a significant aid.\n\nIn short, Soviet espionage in the 1940s helped end the U.S. nuclear monopoly, accelerated the arms race, and triggered a sweeping domestic security crackdown. The Rosenberg case became its most controversial and enduring symbol—representing both genuine atomic espionage and the excesses of Cold War fear.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 54,
+  "completion_tokens": 3317,
+  "total_tokens": 3371,
+  "cost": 0.002377217,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002377217,
+   "upstream_inference_prompt_cost": 5.562e-06,
+   "upstream_inference_completions_cost": 0.002371655
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2518,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:11:57.447396+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

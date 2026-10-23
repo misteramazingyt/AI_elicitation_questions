@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Kent State shootings of 1970?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **Kent State shootings** on **May 4, 1970**, when Ohio National Guard troops fired on unarmed student protesters at **Kent State University**, killing four and wounding nine, had profound and far-reaching consequences in the U.S. and beyond. Here are the key impacts:\n\n### **1. Immediate National Outrage & Protests**\n- The shootings triggered **massive protests** across the U.S., with **hundreds of colleges and universities** shutting down as **4 million students** went on strike.\n- **Over 500 campuses** were closed or disrupted, marking the **largest student protest in U.S. history** at the time.\n- **New York City** saw a **hard hat riot** (May 8, 1970), where construction workers attacked anti-war protesters, reflecting deep societal divisions.\n\n### **2. Deepened Anti-War Movement & Public Opinion Shift**\n- The shootings **intensified opposition to the Vietnam War**, turning many moderates against the Nixon administration.\n- A **Gallup poll** showed that **58% of Americans** blamed the students for the violence, but the event **galvanized the anti-war movement**, making it harder for the government to justify the war.\n- **Nixon’s approval ratings dropped**, and his administration faced **increased scrutiny** over its handling of dissent.\n\n### **3. Legal & Political Fallout**\n- **No guardsmen were convicted**—a federal grand jury indicted eight, but charges were dismissed due to lack of evidence.\n- The **Scranton Commission** (President’s Commission on Campus Unrest) concluded that the shootings were **unnecessary and unjustified**, criticizing the National Guard’s actions.\n- The event **fueled distrust in government**, contributing to the **Watergate scandal** and broader disillusionment with authority.\n\n### **4. Cultural & Artistic Impact**\n- **Neil Young’s song *\"Ohio\"*** (written by Crosby, Stills, Nash & Young) became an **anthem of protest**, immortalizing the tragedy.\n- The shootings inspired **films, books, and artworks**, including the documentary *\"Kent State\"* (1981) and the novel *\"The Kent State Cover-Up\"* (1971).\n- The event became a **symbol of government overreach** and the dangers of militarized policing.\n\n### **5. Changes in Campus Protest Policies**\n- Universities **tightened security measures**, fearing further violence.\n- Some schools **banned protests** or imposed stricter rules, while others **increased dialogue** between students and administrators.\n- The shootings **accelerated the decline of the student protest movement** as activists shifted tactics (e.g., underground resistance, legal challenges).\n\n### **6. Long-Term Effects on the National Guard & Military**\n- The National Guard **reformed training** to avoid similar incidents, though critics argued changes were insufficient.\n- The shootings **damaged the Guard’s reputation**, leading to calls for **demilitarization of domestic policing**.\n- The event **influenced later debates** on **military use against civilians** (e.g., Waco, Ruby Ridge, and modern protests like Ferguson and BLM).\n\n### **7. International Repercussions**\n- The shootings **shocked the world**, reinforcing global perceptions of the U.S. as **repressive and violent**.\n- **Anti-American sentiment grew**, particularly in Europe and among leftist movements.\n- The event was **cited in later protests** (e.g., Tiananmen Square, 1989) as a warning about state violence.\n\n### **8. Legacy in American Memory**\n- **Kent State remains a symbol** of **state violence against dissent**, often invoked in debates over **free speech, police brutality, and war protests**.\n- The **May 4 Memorial** at Kent State and annual vigils keep the memory alive.\n- The shootings are **taught in U.S. history classes** as a turning point in the **Vietnam War era** and the **crisis of American democracy**.\n\n### **Conclusion**\nThe Kent State shootings **deepened the nation’s divisions**, **accelerated the end of the Vietnam War**, and **reshaped public trust in government**. They remain one of the most **traumatic and defining moments** of the 1960s-70s protest era, illustrating the **high cost of political dissent** in America.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 944,
+  "total_tokens": 964,
+  "cost": 0.001426,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001426,
+   "upstream_inference_prompt_cost": 1e-05,
+   "upstream_inference_completions_cost": 0.001416
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T22:04:36.634512+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

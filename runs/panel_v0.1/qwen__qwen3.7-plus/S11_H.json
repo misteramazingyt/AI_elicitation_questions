@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1969 Stonewall riots? Please cite sources.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The historical interpretation of the 1969 Stonewall riots has undergone significant evolution. What began as a foundational \"origin myth\" for the modern LGBTQ+ rights movement has been re-examined by historians to reveal a much more complex, intersectional, and globally contextualized event. \n\nHistoriography regarding Stonewall can be divided into several distinct phases and thematic interpretations, ranging from the dismantling of the \"spontaneous birth\" myth to the centering of marginalized voices and critiques of modern commodification.\n\nHere is an overview of how historians have interpreted the Stonewall riots, along with key sources.\n\n---\n\n### 1. Dismantling the \"Spontaneous Birth\" Myth and the *Longue Durée*\nIn the immediate aftermath of Stonewall, early gay liberationists framed the riots as the absolute \"birth\" of the gay rights movement, creating a binary of \"Before Stonewall\" (darkness/oppression) and \"After Stonewall\" (light/liberation). \n\nHowever, later historians dismantled this \"Stonewall myth,\" arguing that it erased decades of prior activism and queer social life. \n*   **John D’Emilio** famously critiqued this narrative, arguing that the homophile movement of the 1950s and 60s (such as the Mattachine Society and the Daughters of Bilitis) laid the crucial groundwork for Stonewall. He argued that viewing Stonewall as a sudden, spontaneous explosion ignores the *longue durée* of queer organizing.\n*   **George Chauncey**, in his seminal work on pre-WWII New York, further undermined the idea that queer people lacked a culture or political consciousness prior to the late 1960s, showing that Stonewall was a culmination of decades of evolving queer social networks, not a sudden awakening.\n\n### 2. Contextualizing Stonewall within 1960s Radicalism\nHistorians have interpreted Stonewall not as an isolated \"gay\" event, but as a direct product of the broader radical social movements of the 1960s. \n*   **Martin Duberman**, in his definitive narrative history *Stonewall*, emphasizes that the rioters were deeply influenced by the counterculture, the anti-Vietnam War movement, Black Power, and the youth rebellion of the late 1960s. Duberman highlights how the specific demographic of the Stonewall Inn—homeless queer youth, drag queens, and sex workers—was uniquely primed to resist police brutality because they were already living on the margins of a society radicalized by the era's broader civil rights struggles.\n*   **Eric Cervini**, in *The Deviant’s War*, while focusing on the pre-Stonewall homophile movement,",
+ "finish_reason": "error",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 3522,
+  "total_tokens": 3542,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00451456,
+   "upstream_inference_prompt_cost": 6.4e-06,
+   "upstream_inference_completions_cost": 0.00450816
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2875,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:55.651392+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

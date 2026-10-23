@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2003 U.S.-led invasion of Iraq?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "The 2003 U.S.-led invasion of Iraq had far-reaching and often devastating consequences:\n\n- **Regime change:** Saddam Hussein’s Ba’athist regime was quickly overthrown and Saddam later executed. No stockpiles of weapons of mass destruction—the main public justification—were found.\n- **Human cost:** Estimates of Iraqi deaths vary widely, from over 100,000 civilian deaths in some counts to several hundred thousand excess deaths in others. Hundreds of thousands more were wounded, and millions were displaced internally or became refugees.\n- **Sectarian violence and civil war:** The invasion upset Iraq’s Sunni-dominated order, empowered Shia parties, and fueled a Sunni insurgency and Shia militias. This culminated in severe sectarian civil war in 2006–2007.\n- **State collapse and institutional weakness:** De-Ba’athification and disbanding the army removed many experienced officials and soldiers, worsening security and governance. Corruption and weak institutions persisted.\n- **Rise of jihadist groups:** Al-Qaeda in Iraq emerged and was later a precursor to ISIS, which seized large parts of Iraq in 2014. The war helped create conditions for ISIS’s rise.\n- **Regional instability:** The war increased Iran’s influence in Iraq, strained U.S. relations with allies, and contributed to regional sectarian tensions. It also affected neighboring Syria and the broader Middle East.\n- **Kurdish autonomy:** Iraqi Kurdistan gained greater de facto autonomy and economic development, though Kurdish–Baghdad tensions over oil, territory, and independence persisted.\n- **Economic costs:** The U.S. spent trillions of dollars on the war and reconstruction; Iraq’s economy and infrastructure were badly damaged, though oil production later recovered.\n- **U.S. credibility and politics:** The war damaged U.S. credibility abroad, sparked debates about intelligence failures and international law, and became a major factor in U.S. domestic politics and anti-war sentiment.\n- **Long-term political legacy:** Iraq adopted a sectarian power-sharing system that reduced open civil war but produced chronic instability, protests, corruption, and militia influence.\n- **Veterans and society:** The U.S. and coalition militaries suffered thousands killed and many more wounded, with lasting effects on veterans and their families.\n\nOverall, the invasion removed a brutal dictatorship but produced a prolonged, costly, and destabilizing aftermath that reshaped Iraq, the Middle East, and U.S. foreign policy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 584,
+  "total_tokens": 631,
+  "cost": 0.000364641,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000364641,
+   "upstream_inference_prompt_cost": 1.4241e-05,
+   "upstream_inference_completions_cost": 0.0003504
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 86,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:16:31.205932+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "C",
+ "prompt": "What were the main causes of the 1996 U.S. welfare reform law?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the 1996 Welfare Reform Law (PRWORA)\n\nThe Personal Responsibility and Work Opportunity Reconciliation Act of 1996 resulted from several converging factors:\n\n## Political Factors\n\n- **1994 Republican Revolution**: The \"Contract with America\" and GOP control of Congress made welfare reform a top priority\n- **Clinton's 1992 campaign promise**: He pledged to \"end welfare as we know it,\" creating pressure to act\n- **1996 election politics**: Clinton faced pressure to fulfill his promise and move toward the political center after the 1994 losses\n- **Two prior vetoes**: Clinton had vetoed earlier Republican versions, making a compromise politically necessary\n\n## Policy Concerns\n\n- **Perceived welfare dependency**: Critics argued AFDC (Aid to Families with Dependent Children) created cycles of dependency across generations\n- **Rising caseloads**: Welfare rolls had grown substantially since the 1960s–70s\n- **Work disincentives**: The existing system was seen as discouraging employment and two-parent families\n- **Fiscal concerns**: States and the federal government wanted to control costs, leading to the block grant structure (TANF)\n\n## Intellectual and Ideological Shifts\n\n- **Rise of \"welfare-to-work\" thinking**: Ideas from scholars like Charles Murray (*Losing Ground*, 1984) and David Ellwood influenced debate\n- **State experimentation**: Waivers granted to states in the early 1990s (e.g., Wisconsin's work programs) provided models\n- **Public opinion**: Polls consistently showed strong public support for work requirements and time limits\n\n## Social Context\n\n- Concerns about out-of-wedlock births and single-parent households, which had risen dramatically since the 1960s\n- Frustration that previous reforms (like the 1988 Family Support Act) hadn't reduced caseloads\n\nThe result replaced AFDC with TANF, imposing work requirements, a five-year lifetime limit, and giving states block grants with broad flexibility.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 511,
+  "total_tokens": 555,
+  "cost": 4.84193e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.84193e-05,
+   "upstream_inference_prompt_cost": 1.254e-06,
+   "upstream_inference_completions_cost": 4.71653e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 93,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:42.121451+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

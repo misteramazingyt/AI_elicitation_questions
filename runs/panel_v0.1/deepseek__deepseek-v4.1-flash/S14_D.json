@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "D",
+ "prompt": "Describe Britain's abolition of the slave trade and slavery (1807-1838).",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Together",
+ "response": "Britain’s abolition of the slave trade and slavery between 1807 and 1838 was a gradual, contested process. It moved from banning the transatlantic slave trade to emancipating enslaved people in most British colonies, but it was shaped by compromise, compensation for slave owners, and continuing forced labour.\n\n**1807: Abolition of the slave trade**  \nAfter decades of campaigning by abolitionists such as William Wilberforce, Thomas Clarkson, Granville Sharp, Olaudah Equiano, and Quaker networks, Parliament passed the **Slave Trade Act 1807**. It made it illegal for British subjects and British ships to participate in the transatlantic slave trade. The Royal Navy’s West Africa Squadron was later used to intercept slave ships, and Britain pressured other nations to end their own slave trades.\n\nHowever, the 1807 Act did **not** free enslaved people already held in British colonies. Slavery itself remained legal. The Act only stopped the British trade in newly enslaved Africans.\n\n**After 1807: Campaign for emancipation**  \nAbolitionists shifted their focus to ending slavery itself. The **Anti-Slavery Society**, founded in 1823, pushed for gradual emancipation. Colonial reforms known as “amelioration” tried to improve conditions, but they largely failed. Meanwhile, enslaved people resisted through everyday resistance, escape, and major revolts such as the **Demerara rebellion (1823)** and the **Jamaican Baptist War (1831–32)**. The Baptist War especially frightened planters and helped push Parliament toward abolition.\n\n**1833: Slavery Abolition Act**  \nThe **Slavery Abolition Act 1833** abolished slavery in most British colonies. It received royal assent in August 1833 and took effect on **1 August 1834**. It applied to colonies such as Jamaica, Barbados, Trinidad, and Mauritius, but excluded territories held by the East India Company, Ceylon, and St Helena, where slavery continued longer.\n\nTwo features were crucial:\n\n- **Compensation for slave owners:** The British government paid about **£20 million** to slave owners as compensation for the loss of their “property.” Enslaved people received no compensation.\n- **Apprenticeship system:** Instead of immediate freedom, most formerly enslaved people became “apprentices.” They were required to work unpaid for their former owners for around 40–45 hours a week. Field workers, or “praedial” apprentices, were bound for six years; other apprentices for four years. Antigua and Bermuda chose immediate emancipation without apprenticeship.\n\n**1838: End of apprenticeship and full emancipation**  \nThe apprenticeship system was widely resisted and criticised as slavery under another name. Campaigners such as Joseph Sturge and the Agency Committee pressed for its abolition. It was ended early on **1 August 1838**, when apprentices in most British West Indian colonies became fully free.\n\nEven so, 1838 did not mean complete abolition across the entire British Empire. Slavery was abolished in India in 1843, Ceylon in 1844, and St Helena in 1839. Legal freedom also did not bring economic independence or political equality; former enslaved people often lacked land, education, and rights, while planters retained much power.\n\nIn short, Britain abolished its slave trade in 1807, abolished slavery in most colonies in 1833–34, and ended the apprenticeship system in 1838. It was a landmark humanitarian and political achievement, but it was also a compromised process that compensated owners rather than the enslaved.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 3029,
+  "total_tokens": 3076,
+  "cost": 0.0036489,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0036489,
+   "upstream_inference_prompt_cost": 1.41e-05,
+   "upstream_inference_completions_cost": 0.0036348
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2301,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:15:55.338879+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

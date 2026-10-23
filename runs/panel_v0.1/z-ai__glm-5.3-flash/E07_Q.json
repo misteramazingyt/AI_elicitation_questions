@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2008 financial crisis?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the 2008 Financial Crisis\n\n## Economic Impact\n\n**Global Recession**\n- The worst economic downturn since the Great Depression\n- Global GDP contracted; world trade fell sharply in 2009\n- U.S. unemployment peaked at 10% (October 2009), with millions losing jobs\n\n**Housing Market Collapse**\n- Millions of foreclosures—roughly 10 million Americans lost homes\n- Home values plummeted, wiping out trillions in household wealth\n- Construction and related industries were devastated\n\n**Financial Sector Damage**\n- Lehman Brothers collapsed (September 2008); Bear Stearns was sold\n- Major banks required government bailouts (TARP, ~$700 billion authorized)\n- Credit markets froze, making loans scarce for businesses and consumers\n\n## Government and Policy Responses\n\n- **Bailouts and stimulus**: TARP in the U.S., stimulus packages (e.g., the $787 billion American Recovery and Reinvestment Act)\n- **Monetary policy**: The Federal Reserve cut interest rates to near zero and launched quantitative easing\n- **Regulatory reform**: The Dodd-Frank Act (2010) created the Consumer Financial Protection Bureau and imposed stricter bank regulations\n- **International coordination**: G20 summits, IMF assistance to struggling countries\n\n## Social and Political Consequences\n\n- **Household wealth loss**: Median family wealth dropped significantly, hitting minority households especially hard\n- **Rise of populist movements**: Economic discontent fueled movements like Occupy Wall Street and contributed to political polarization, Brexit, and populist surges in Europe and the U.S.\n- **Erosion of trust** in banks, government, and expert institutions\n\n## Long-Term Effects\n\n- **Slow recovery**: Job markets took nearly a decade to fully recover in the U.S.\n- **Low interest rate era**: Prolonged near-zero rates changed global finance and investment patterns\n- **Increased inequality**: Asset recovery benefited wealthier households disproportionately\n- **Stricter banking standards**: Higher capital requirements, stress tests, and \"too big to fail\" reforms\n- **Lasting scars**: Some workers never returned to the labor force; a generation faced delayed wealth accumulation\n\nWould you like me to go deeper into any particular aspect—such as the causes, specific policy responses, or effects on a particular country or region?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 641,
+  "total_tokens": 680,
+  "cost": 6.02758e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.02758e-05,
+   "upstream_inference_prompt_cost": 1.1115e-06,
+   "upstream_inference_completions_cost": 5.91643e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 163,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:20.984176+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

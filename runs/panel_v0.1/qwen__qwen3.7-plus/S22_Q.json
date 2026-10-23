@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration and Nationality Act of 1965?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Immigration and Nationality Act of 1965, also known as the Hart-Celler Act, is widely considered one of the most consequential pieces of legislation in modern American history. Signed into law by President Lyndon B. Johnson, it abolished the National Origins Formula, which had been in place since the 1920s and heavily favored immigrants from Northern and Western Europe. \n\nWhile the primary intent of the law was to eliminate discriminatory quotas and align immigration policy with the civil rights ethos of the era, its actual consequences profoundly reshaped the United States. The major consequences of the Act include:\n\n**1. A Dramatic Demographic Shift**\nThe most significant consequence of the Act was a complete transformation of the racial and ethnic makeup of the U.S. immigrant population. Prior to 1965, the vast majority of immigrants came from Europe. Following the Act, the source regions shifted dramatically. By the late 20th and early 21st centuries, the majority of immigrants to the U.S. were arriving from Asia and Latin America, rather than Europe. This shift fundamentally altered the demographic trajectory of the United States, contributing to the country's increasing racial and ethnic diversity.\n\n**2. An Increase in Overall Immigration Volume**\nDuring the legislative debates, proponents of the Act, including Senator Ted Kennedy and Senator Everett Dirksen, assured the public that the law would not significantly alter the demographic mix or drastically increase immigration numbers. However, the actual volume of immigration far exceeded these projections. The annual cap was initially set at 290,000, but because the law exempted immediate family members of U.S. citizens from this cap, the total number of immigrants admitted grew significantly in the subsequent decades. \n\n**3. The Primacy of Family Reunification**\nThe Act established a new preference system that prioritized family reunification and the admission of skilled workers. The \"family preference\" categories quickly became the primary engine of legal immigration. This created a phenomenon often referred to by sociologists and policymakers as \"chain migration\" (or family-based migration), where one immigrant naturalizes and subsequently sponsors their extended family members, who in turn sponsor their own relatives. \n\n**4. Changes to Western Hemisphere Migration**\nPrior to 1965, there were no numerical limits on immigration from the Western Hemisphere (the Americas). While the 1965 Act did not initially place a strict numerical cap on the Western Hemisphere, it ended the era of unrestricted immigration from the region and established a preference system. In 1976, an amendment was passed applying the same numerical cap to the Western Hemisphere as the rest of the world. This restriction, combined with the end of the Bracero program and increased economic disparities, contributed to a rise in undocumented immigration from Mexico and Central America, as the legal pathways for migration were severely limited compared to the demand.\n\n**5. Economic and Labor Market Impacts**\nThe influx of immigrants from new regions provided a massive expansion of the U.S. labor force. Immigrants arriving after 1965 filled diverse economic roles, ranging from highly skilled professionals in medicine, engineering, and technology (facilitated by the employment-based preference categories) to essential labor in agriculture, construction, and service industries. This demographic shift helped offset the aging of the native-born workforce and contributed to the growth of the U.S. economy, though it also sparked ongoing economic debates regarding the impact on the wages of native-born workers without high school diplomas.\n\n**6. Cultural and Social Transformation**\nThe demographic shifts resulting from the Act led to the revitalization and growth of various ethnic enclaves and communities across the country. It contributed to the multicultural fabric of modern American society, influencing everything from the culinary landscape and popular culture to local politics and religious demographics (such as the significant growth of Hindu, Muslim, and Buddhist populations in the U.S.).\n\n**Summary**\nUltimately, the Immigration and Nationality Act of 1965 achieved its goal of removing explicitly racist and discriminatory quotas from U.S. law. However, its unintended consequence was the creation of a new immigration system that inadvertently triggered a massive demographic transformation, shifting the origins of U.S. immigrants from Europe to Asia and Latin America, and establishing family reunification as the cornerstone of American immigration policy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 2274,
+  "total_tokens": 2302,
+  "cost": 0.00291968,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00291968,
+   "upstream_inference_prompt_cost": 8.96e-06,
+   "upstream_inference_completions_cost": 0.00291072
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1385,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:48.089812+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "Q",
+ "prompt": "What were the consequences of the FBI's COINTELPRO program?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of COINTELPRO\n\nCOINTELPRO (Counter Intelligence Program) was a series of covert FBI operations running from 1956 to 1971, aimed at surveilling, infiltrating, and disrupting domestic political organizations. Its consequences were significant and long-lasting:\n\n## Direct Impacts on Targeted Groups\n\n**Civil rights movement**: The FBI targeted Martin Luther King Jr. extensively, including attempted blackmail, wiretaps, and efforts to discredit him. These operations contributed to a climate of surveillance and intimidation around civil rights activism.\n\n**Black Panther Party**: The program is widely credited with severely weakening the organization through infiltration, internal conflict instigation, and legal harassment. The 1969 killing of Illinois Black Panther leader Fred Hampton during an FBI-supported police raid became one of the most notorious incidents.\n\n**Other targets**: The program also targeted the Nation of Islam, anti-war groups, socialist and communist organizations, Puerto Rican independence movements, and the American Indian Movement.\n\n## Human Costs\n\n- Individuals were harassed, fired from jobs, and had reputations destroyed through leaked information and smear campaigns\n- Infiltration and provocation contributed to violence between groups and paranoia within organizations\n- Some wrongful convictions occurred based on FBI misconduct\n\n## Institutional Consequences\n\n**Public exposure (1971)**: The Citizens' Commission to Investigate the FBI broke into an FBI office in Media, Pennsylvania, and stole documents revealing the program, which were leaked to the press.\n\n**Church Committee (1975–76)**: Congressional investigations documented widespread abuses, calling the program's tactics \"indisputably degrading to a free society.\"\n\n**Reforms**: The revelations led to:\n- Attorney General guidelines restricting FBI domestic intelligence operations\n- FISA (1978), requiring judicial oversight for surveillance\n- Greater congressional oversight of intelligence agencies\n\n## Long-Term Legacy\n\nCOINTELPRO shaped ongoing debates about the balance between national security and civil liberties, fueled deep distrust of law enforcement in some communities, and became a reference point in discussions about government surveillance that continue today. Some historians also connect the program's legacy to later controversies involving FBI monitoring of political and religious groups.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 570,
+  "total_tokens": 611,
+  "cost": 5.37795e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.37795e-05,
+   "upstream_inference_prompt_cost": 1.1685e-06,
+   "upstream_inference_completions_cost": 5.2611e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 130,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:02.551268+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

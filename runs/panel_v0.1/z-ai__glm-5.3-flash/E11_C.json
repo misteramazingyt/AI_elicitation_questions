@@ -1,0 +1,43 @@
+{
+ "item": "E11",
+ "template": "C",
+ "prompt": "What were the main causes of Venezuela's economic crisis since 2013?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of Venezuela's Economic Crisis (2013–present)\n\n## 1. Oil Dependence and Price Collapse\n- Venezuela derived ~95% of export revenue from oil\n- When oil prices crashed in 2014 (from over $100 to under $30 per barrel), government revenue collapsed\n- Decades of failure to diversify the economy left it extremely vulnerable\n\n## 2. Economic Mismanagement\n- **Price and currency controls** (implemented 2003) created massive distortions, shortages, and a thriving black market\n- **Multiple exchange rates** enabled corruption and arbitrage schemes\n- **Excessive money printing** to cover deficits fueled hyperinflation (reaching over 1,000,000% by 2018)\n- Nationalizations and expropriations discouraged private investment and reduced production\n\n## 3. Destruction of Domestic Production\n- Price controls made many goods unprofitable to produce\n- Expropriated companies (agriculture, manufacturing, oil services) were mismanaged and output plummeted\n- Imports became the primary source of goods—until foreign currency ran out\n\n## 4. PDVSA (State Oil Company) Decline\n- Corruption, underinvestment, and politicization gutted the oil industry\n- Firing thousands of skilled workers after the 2002–03 strike depleted expertise\n- Production fell from ~3 million barrels/day (late 1990s) to under 1 million by 2020\n- Oil was used as collateral for loans (especially to China and Russia), limiting export flexibility\n\n## 5. Corruption and Governance Failures\n- Massive embezzlement scandals (e.g., the Odebrecht case, currency fraud schemes)\n- Weakening of independent institutions\n- Sanctions from the US and others (2017 onward) worsened access to financing and markets, though the crisis predated them\n\n## 6. Debt and Loss of Market Access\n- Heavy borrowing during the oil boom left Venezuela unable to service debts\n- Default in 2017 cut off international credit\n- Loss of access to dollars made imports impossible to sustain\n\n## Consequences\nGDP shrank by roughly 75% (one of the deepest peacetime collapses ever recorded), over 7 million people emigrated, and widespread poverty, malnutrition, and shortages resulted.\n\nThe crisis is generally attributed primarily to domestic policy failures, with falling oil prices acting as the trigger that exposed structural weaknesses.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 576,
+  "total_tokens": 618,
+  "cost": 5.43618e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.43618e-05,
+   "upstream_inference_prompt_cost": 1.197e-06,
+   "upstream_inference_completions_cost": 5.31648e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 72,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:33.230908+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

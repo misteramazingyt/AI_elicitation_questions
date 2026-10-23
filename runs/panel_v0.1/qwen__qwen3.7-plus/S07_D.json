@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "D",
+ "prompt": "Describe the FBI's COINTELPRO program.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "**COINTELPRO** (an acronym for **Counter Intelligence Program**) was a series of covert, and often illegal, projects conducted by the United States Federal Bureau of Investigation (FBI) between 1956 and 1971. Directed by FBI Director J. Edgar Hoover, the program's stated goal was to \"expose, disrupt, misdirect, discredit, or otherwise neutralize\" the activities and leadership of various domestic political organizations and individuals.\n\nHere is a detailed overview of the program, its targets, its tactics, and its eventual exposure.\n\n### Primary Targets\nWhile COINTELPRO initially focused on the Communist Party USA (CPUSA) in 1956, it was eventually expanded to target a wide array of domestic groups. The primary targets included:\n*   **Communist and Socialist Organizations:** The CPUSA and the Socialist Workers Party (SWP).\n*   **Black Nationalist and Civil Rights Groups:** The Black Panther Party, the Nation of Islam, the Southern Christian Leadership Conference (SCLC) led by Martin Luther King Jr., and the Student Nonviolent Coordinating Committee (SNCC).\n*   **The New Left and Anti-War Activists:** Groups opposing the Vietnam War, such as the Students for a Democratic Society (SDS) and the Weather Underground.\n*   **White Supremacist Groups:** The Ku Klux Klan (targeted primarily in the 1960s to disrupt their violent activities).\n*   **Native American Activists:** The American Indian Movement (AIM).\n\n### Tactics and Methods\nThe FBI employed a wide range of covert, psychological, and often illegal tactics to achieve its goals. These included:\n*   **Surveillance:** Extensive wiretapping, bugging of rooms, opening of mail, and physical surveillance of targeted individuals and organizations.\n*   **Infiltration:** Placing undercover FBI agents and paid informants within target organizations to gather intelligence, sow distrust, and influence the group's direction.\n*   **Psychological Warfare and Disruption:** Forging documents to create internal strife, spreading false rumors, and sending anonymous letters to employers, landlords, or spouses to ruin reputations and cause personal distress. \n*   **Harassment and Intimidation:** Using the IRS to initiate frivolous tax audits, orchestrating false arrests, and repeatedly interrogating targets to disrupt their daily lives and organizational work.\n*   **Inciting Violence:** In some cases, the FBI attempted to provoke violence between rival factions. A notorious example is the anonymous \"suicide letter\" sent to Martin Luther King Jr. in 1964, which included wiretap recordings of his extramarital affairs and suggested he kill himself. \n*   **Facilitating Police Action:** The FBI provided intelligence to local law enforcement that contributed to violent confrontations. Most notably, FBI informants provided the Chicago Police with detailed floor plans and security information regarding Black Panther leader Fred Hampton's apartment, leading to a raid in which Hampton was killed in his sleep in 1969.\n\n### Exposure and Public Reaction\nCOINTELPRO remained highly secret until **March 1971**, when a group of anti-war activists calling themselves the Citizens' Commission to Investigate the FBI burglarized an FBI field office in Media, Pennsylvania. The activists stole hundreds of confidential documents and mailed them to various newspapers, most notably *The Washington Post*. \n\nWhen the press began publishing the contents of the files, the existence and scope of COINTELPRO were revealed to the public. The revelation sparked massive public outrage, as it became clear that the FBI had been systematically violating the First and Fourth Amendment rights of American citizens, spying on lawful political dissent, and using illegal tactics to suppress political movements.\n\n### Aftermath and Legacy\nThe exposure of COINTELPRO led to significant institutional and legal reforms:\n*   **The Church Committee (1975):** The U.S. Senate established the United States Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities (commonly known as the Church Committee). The committee held extensive hearings that detailed the abuses of the FBI, CIA, and NSA, bringing the full scope of COINTELPRO to light.\n*   **FBI Reforms:** In response to the findings, the Department of Justice issued new guidelines (the Attorney General's Guidelines) that strictly limited the FBI's ability to conduct surveillance on domestic political groups unless there was evidence of criminal activity or a threat to national security.\n*   **Legislative Action:** The investigations contributed to the passage of the Foreign Intelligence Surveillance Act (FISA) of 1978, which established a legal framework and a special court for authorizing electronic surveillance and wiretaps for foreign intelligence purposes.\n\nToday, COINTELPRO is widely viewed by historians, legal scholars, and the public as a dark chapter in American history, representing a severe overreach of federal law enforcement power and a violation of civil liberties.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 2228,
+  "total_tokens": 2248,
+  "cost": 0.00285824,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00285824,
+   "upstream_inference_prompt_cost": 6.4e-06,
+   "upstream_inference_completions_cost": 0.00285184
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1196,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:24:57.461283+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

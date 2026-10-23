@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration and Nationality Act of 1965?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Immigration and Nationality Act of 1965, also known as the Hart-Celler Act, was a landmark legislation that abolished the national origins quota system and revolutionized immigration policy in the United States. The main causes of this act can be attributed to a combination of factors, including:\n\n1. **Civil Rights Movement and Social Change**: The Civil Rights Movement of the 1950s and 1960s highlighted the need to address discriminatory policies, including those related to immigration. The national origins quota system, established in the 1920s, was seen as discriminatory and in conflict with the values of equality and justice.\n2. **Changing Demographics and Global Politics**: The post-World War II era saw significant changes in global demographics, with many countries gaining independence and experiencing economic growth. The United States needed to adapt its immigration policies to reflect these changes and to respond to the needs of its allies and the global community.\n3. **Economic Factors**: The U.S. economy was experiencing significant growth, and there was a growing need for skilled and unskilled labor. The national origins quota system was seen as limiting the ability of the United States to attract the talent and workers it needed.\n4. **Lobbying by Ethnic Groups**: Various ethnic groups, such as the Italian-American, Greek-American, and Asian-American communities, lobbied for changes to the immigration system, which they saw as discriminatory and unfair. They argued that the national origins quota system favored immigrants from Northern and Western Europe, while limiting opportunities for immigrants from other parts of the world.\n5. **Presidential Leadership**: President John F. Kennedy and later President Lyndon B. Johnson played a crucial role in advocating for immigration reform. Kennedy's book, \"A Nation of Immigrants\" (1958), highlighted the need for a more inclusive and equitable immigration policy. Johnson signed the Immigration and Nationality Act into law in 1965.\n6. **Congressional Support**: Members of Congress, such as Representative Emanuel Celler and Senator Philip Hart, championed the legislation, arguing that it would help to eliminate discriminatory practices and promote a more inclusive and diverse society.\n\nThese factors combined to create a momentum for change, which ultimately led to the passage of the Immigration and Nationality Act of 1965. The act abolished the national origins quota system, established a preference system that prioritized family reunification and occupational skills, and paved the way for a more diverse and inclusive immigration policy in the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 506,
+  "total_tokens": 533,
+  "cost": 0.0003352275,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003352275,
+   "upstream_inference_prompt_cost": 5.0625e-06,
+   "upstream_inference_completions_cost": 0.000330165
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:07.338389+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

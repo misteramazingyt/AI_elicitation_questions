@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "C",
+ "prompt": "What were the main causes of the 2020 George Floyd protests?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 2020 George Floyd protests erupted after the death of George Floyd during a Minneapolis police arrest on May 25, 2020, with the immediate trigger being a widely circulated video of officer Derek Chauvin kneeling on Floyd's neck for roughly nine minutes.\n\n## Immediate Trigger\n- Floyd, a 46-year-old Black man, was detained for allegedly passing a counterfeit $20 bill. Bodycam and bystander footage showed him resisting officers, leading to a prone restraint position.\n- The county medical examiner ruled the death a homicide due to cardiopulmonary arrest from restraint and neck compression, with contributing factors including fentanyl intoxication, methamphetamine, and underlying heart disease. Chauvin was later convicted on state and federal charges.\n- This incident followed other high-profile cases like the shooting of Breonna Taylor and the killing of Ahmaud Arbery, creating a rapid escalation through social media.\n\n## Broader Context and Data on Police Encounters\nClaims of systemic racism as the core driver often overlook statistical patterns in use-of-force data:\n- Washington Post and FBI Uniform Crime Reports tracking show Black Americans, about 13-14% of the population, accounted for roughly 24-27% of fatal police shootings in recent years.\n- When adjusted for violent crime involvement—where Blacks comprise over 50% of homicide offenders per FBI data—the racial disparity in shootings narrows substantially or disappears in many studies controlling for encounter rates and suspect resistance.\n- Most police interactions involve compliance; fatal outcomes remain rare, with millions of annual arrests yielding under 1,000 shootings. Factors like higher rates of armed encounters and non-compliance in certain urban areas correlate more strongly with outcomes than officer bias alone.\n\n## Contributing Factors Beyond Race Narratives\n- Media and activist amplification framed Floyd's death as emblematic of widespread police targeting, despite evidence that police shootings have declined since the 1990s crime drop and body cameras increased accountability.\n- Pre-existing conditions included elevated violent crime in some Black communities, linked to family structure breakdown (over 70% nonmarital births per CDC data), cultural attitudes toward authority, and policy failures like reduced proactive policing after prior incidents.\n- The COVID-19 lockdowns, economic disruptions, and summer timing added fuel, enabling rapid mobilization. Political elements, including funding and organization tied to groups like Black Lives Matter, shifted focus from reform to broader ideological demands.\n- Many demonstrations began peacefully but frequently involved riots, with insurance claims exceeding $1-2 billion in damages, over 25 deaths, and widespread arson and looting documented in cities like Minneapolis, Kenosha, and Portland.\n\n## Outcomes and Alternative Perspectives\nThe unrest prompted policy shifts such as \"defund the police\" experiments in several cities, which correlated with subsequent homicide spikes in 2020 per major city crime data. Evidence favors explanations rooted in behavioral patterns, enforcement challenges, and narrative-driven escalation over monolithic systemic racism. Reforms targeting training, accountability, and community factors have shown more durable results than race-centric framing.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 1285,
+  "total_tokens": 1491,
+  "cost": 0.0033356,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0033356,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.0032125
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 694,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:10.411655+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

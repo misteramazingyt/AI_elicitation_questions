@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "D",
+ "prompt": "Describe the passage of the Civil Rights Act of 1964.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Wafer",
+ "response": "The Civil Rights Act of 1964 was passed after a long, intense legislative struggle shaped by the civil rights movement, the Kennedy assassination, and Lyndon B. Johnson’s political pressure.\n\nPresident John F. Kennedy proposed the bill on June 11, 1963, after protests in Birmingham and growing national pressure. It was introduced in the House as H.R. 7152. The House Judiciary Committee, chaired by Emanuel Celler, strengthened the bill, but it stalled in the Rules Committee under segregationist Howard W. Smith. After Kennedy’s assassination, President Johnson made civil rights a top priority. A discharge petition and public pressure forced the bill out of committee, and the House passed it on February 10, 1964, by a vote of 290–130. During House debate, an amendment by Howard Smith added “sex” to Title VII’s ban on employment discrimination.\n\nIn the Senate, Southern Democrats led by Richard Russell and James Eastland opposed the bill and threatened a filibuster. Senate leaders Mike Mansfield and Hubert Humphrey bypassed the Judiciary Committee, which Eastland chaired, and brought the bill directly to the floor. Debate began on March 30, 1964, and Southern senators filibustered for more than two months. To break it, supporters needed 67 votes for cloture. Republican Senate leader Everett Dirksen became crucial: he helped negotiate compromise amendments and persuaded enough Republicans to support ending debate. On June 10, 1964, the Senate invoked cloture by 71–29—the first successful cloture vote on a civil rights bill. The Senate then passed the bill on June 19, 1964, by 73–27.\n\nThe House accepted the Senate’s amendments on July 2, 1964, by 289–126. President Johnson signed the Civil Rights Act of 1964 into law that same day, with Martin Luther King Jr. and other civil rights leaders present. The act outlawed segregation in public accommodations, banned discrimination in employment and federally funded programs, and strengthened voting rights protections. Its passage was a landmark victory that laid the foundation for later laws such as the Voting Rights Act of 1965 and the Fair Housing Act of 1968.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 2932,
+  "total_tokens": 2975,
+  "cost": 0.00191397,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00191397,
+   "upstream_inference_prompt_cost": 8.17e-06,
+   "upstream_inference_completions_cost": 0.0019058
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2398,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:11:01.555794+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes Behind Dobbs v. Jackson Women's Health Organization (2022)\n\nThe decision overturning *Roe v. Wade* resulted from several converging factors:\n\n## Legal and Doctrinal Factors\n\n**Longstanding legal criticism of Roe**\n- Even liberal legal scholars (like John Hart Ely and Ruth Bader Ginsburg) had criticized *Roe*'s reasoning as poorly grounded in the Constitution\n- Critics argued the trimester framework was arbitrary and that *Roe* had prematurely ended a democratic debate that was still evolving state by state\n\n**Case strategy by Mississippi**\n- Mississippi deliberately passed a law banning most abortions after 15 weeks, directly contradicting *Roe*'s viability line (~24 weeks), specifically to create a vehicle for challenging precedent\n\n**The Casey framework's instability**\n- *Planned Parenthood v. Casey* (1992) preserved *Roe* but replaced the trimester framework with an \"undue burden\" test, which critics said was unworkable and inconsistent in application\n\n## Political and Institutional Factors\n\n**Decades of conservative legal movement organizing**\n- The Federalist Society and allied groups systematically shaped judicial nominations\n- Presidents Trump appointed three justices (Gorsuch, Kavanaugh, Barrett), creating a 6-3 conservative majority that anti-abortion groups had long worked toward\n\n**Strategic litigation pipeline**\n- Organizations like Alliance Defending Justice and Americans United for Life spent decades cultivating test cases and building a record of state restrictions\n\n**Shifting public and political landscape**\n- Growing state-level restrictions (hundreds of laws passed in the 2010s) created multiple opportunities for the Court to revisit abortion precedent\n\n## Ideological Factors\n\n- The originalist/textualist judicial philosophy held by the majority holds that unenumerated rights must be \"deeply rooted in history and tradition\"—a standard the majority concluded abortion did not meet\n- Justice Alito's majority opinion framed *Roe* as an error that had inflamed democratic politics and distorted constitutional doctrine\n\nWould you like me to go deeper into any of these areas?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 52,
+  "completion_tokens": 698,
+  "total_tokens": 750,
+  "cost": 6.59074e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.59074e-05,
+   "upstream_inference_prompt_cost": 1.482e-06,
+   "upstream_inference_completions_cost": 6.44254e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 276,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:11.039454+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

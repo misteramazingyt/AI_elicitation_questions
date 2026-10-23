@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "D",
+ "prompt": "Describe the 2003 U.S.-led invasion of Iraq.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The 2003 U.S.-led invasion of Iraq**, officially known as Operation Iraqi Freedom, began on March 20, 2003, and marked the start of the Iraq War.\n\n## Background and Justifications\nThe United States, under President George W. Bush, assembled a coalition that included the United Kingdom, Australia, Poland, and smaller contingents from other nations. The primary stated reasons were:\n- Iraq's alleged possession of weapons of mass destruction (WMDs).\n- Suspected links between Saddam Hussein's regime and terrorist groups, particularly after the September 11 attacks.\n- Saddam's history of human rights abuses and defiance of UN resolutions from the 1991 Gulf War.\n\nUN weapons inspectors had returned to Iraq in late 2002 but found no active WMD programs by early 2003. The U.S. proceeded without a new UN Security Council authorization for force.\n\n## Military Campaign\nThe invasion opened with a massive aerial bombardment dubbed \"shock and awe,\" targeting Iraqi command centers, air defenses, and leadership sites. Ground forces advanced rapidly from Kuwait:\n- U.S. and British troops pushed toward Baghdad.\n- Iraqi regular army units largely collapsed or surrendered.\n- Special operations forces secured key infrastructure in the north and west.\n\nBaghdad fell on April 9, 2003, with the toppling of Saddam's statue in Firdos Square becoming a symbolic image. Major combat operations were declared over by President Bush on May 1, 2003 (\"Mission Accomplished\").\n\n## Immediate Aftermath\n- Saddam Hussein was captured in December 2003 and later executed in 2006 after a trial by the Iraqi government.\n- No stockpiles of WMDs were found, leading to significant international criticism of the intelligence and justifications used.\n- The invasion triggered widespread looting, the disbanding of the Iraqi army, and the rise of an insurgency involving former regime elements, Sunni militants, and later foreign fighters.\n- Casualties in the initial phase were relatively low for coalition forces (under 200 killed), but Iraqi military and civilian deaths numbered in the thousands.\n\nThe operation transitioned into a prolonged occupation and counterinsurgency effort that lasted until the U.S. withdrawal in 2011, with later re-engagement against ISIS. The war remains controversial for its strategic outcomes, costs, and the destabilization of the region.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 205,
+  "completion_tokens": 852,
+  "total_tokens": 1057,
+  "cost": 0.00225185,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00225185,
+   "upstream_inference_prompt_cost": 0.00012185,
+   "upstream_inference_completions_cost": 0.00213
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 380,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:43.918428+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

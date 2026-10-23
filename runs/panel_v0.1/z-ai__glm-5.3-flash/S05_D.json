@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "D",
+ "prompt": "Describe the 1993 Waco siege.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Waco Siege (1993)\n\nThe Waco siege was a 51-day standoff between federal law enforcement and the Branch Davidians, a religious group led by David Koresh, at their compound (Mount Carmel Center) near Waco, Texas.\n\n## Background\n\nThe Branch Davidians were a sect that split from the Seventh-day Adventist Church. David Koresh took leadership in the late 1980s and taught that he was the final prophet. In early 1993, the Bureau of Alcohol, Tobacco, and Firearms (ATF) began investigating the group for alleged weapons violations, including stockpiling firearms and explosives.\n\n## Key Events\n\n**February 28, 1993** — The ATF attempted to serve search and arrest warrants at the compound. A gunfight erupted, killing four ATF agents and several Branch Davidians. The raid's failure led to a prolonged standoff.\n\n**The Siege** — The FBI took over the operation, surrounding the compound with armored vehicles and personnel. Negotiations occurred over the following weeks, with some members, including children, leaving the compound. Critics later argued authorities used increasingly aggressive tactics, including sleep deprivation via loud noises and flashing lights.\n\n**April 19, 1993** — The FBI launched an assault using tanks to insert tear gas into the buildings. A fire broke out and spread rapidly through the compound. Seventy-six people died, including Koresh and 25 children. Controversy persists over whether the fire was set by occupants or accidentally ignited by the tear gas insertion.\n\n## Aftermath\n\n- The tragedy deeply influenced American anti-government movements; Timothy McVeigh cited Waco as motivation for the 1995 Oklahoma City bombing, timed to the siege's second anniversary.\n- Congressional hearings and investigations followed, criticizing both the ATF's initial raid and the FBI's final assault.\n- The events remain a touchstone in debates about federal power, religious freedom, and law enforcement tactics, and were revisited in the 2018 documentary series *Waco* and related media.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 480,
+  "total_tokens": 516,
+  "cost": 4.533e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.533e-05,
+   "upstream_inference_prompt_cost": 1.026e-06,
+   "upstream_inference_completions_cost": 4.4304e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 65,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:57.486043+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

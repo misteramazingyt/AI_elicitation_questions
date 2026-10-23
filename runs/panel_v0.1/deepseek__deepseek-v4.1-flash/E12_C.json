@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "C",
+ "prompt": "What were the main causes of Argentina's 2001 economic crisis?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Decart",
+ "response": "Argentina’s 2001 crisis was not caused by one factor but by the interaction of a rigid exchange-rate system, mounting debt, external shocks, and political failure.\n\n**1. The convertibility regime and an overvalued peso**  \nFrom 1991, Argentina pegged the peso 1:1 to the U.S. dollar under the Convertibility Plan. It initially crushed hyperinflation, but over time the peso became overvalued. When the dollar strengthened in the late 1990s and Brazil—Argentina’s main trading partner—devalued in 1999, Argentine exports became uncompetitive. The fixed peg also prevented the central bank from printing money or devaluing to adjust.\n\n**2. Fiscal deficits and unsustainable debt**  \nNational and provincial governments ran persistent deficits, financed increasingly by foreign-currency debt. Tax evasion, a narrow tax base, and rigid provincial spending made fiscal adjustment difficult. As debt grew and was largely dollar-denominated, Argentina became highly vulnerable to higher interest rates and loss of creditor confidence. By 2001, rolling over the debt required ever-larger borrowing at punitive rates.\n\n**3. External shocks and capital flight**  \nThe Asian crisis (1997), Russian default (1998), Brazilian devaluation (1999), falling commodity prices, the U.S. slowdown, and the 9/11 shock all hurt Argentina. Global capital flows to emerging markets reversed. Argentina lost access to international credit, and capital flight drained bank deposits and central-bank reserves.\n\n**4. Structural and institutional weaknesses**  \nThe economy suffered from low productivity growth, a rigid labor market, a large informal sector, and dependence on volatile foreign capital. The banking system was fragile, with many dollar-denominated deposits and loans. Politically, weak governments could not deliver credible fiscal reform; provincial governors and Congress resisted cuts, and corruption undermined confidence.\n\n**5. IMF programs and loss of confidence**  \nThe IMF repeatedly lent to Argentina in 2000–2001, but the programs required austerity that deepened recession and often missed targets. In November 2001, the IMF withheld a crucial disbursement, triggering a run on banks. The government imposed the *corralito*, limiting withdrawals, which further destroyed confidence.\n\n**Immediate triggers**  \nBank runs, capital flight, the deposit freeze, social unrest, and the resignation of President Fernando de la Rúa in December 2001 led to default on roughly $100 billion in sovereign debt. In early 2002, Argentina abandoned the peg, devalued the peso, and “pesified” many dollar debts.\n\nIn short, the 2001 crisis was the result of an unsustainable fixed exchange rate, chronic fiscal and debt problems, severe external shocks, and political inability to reform—all of which combined to make the convertibility system collapse.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 2102,
+  "total_tokens": 2146,
+  "cost": 0.00038232,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00038232,
+   "upstream_inference_prompt_cost": 3.96e-06,
+   "upstream_inference_completions_cost": 0.00037836
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1746,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:10:11.904552+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

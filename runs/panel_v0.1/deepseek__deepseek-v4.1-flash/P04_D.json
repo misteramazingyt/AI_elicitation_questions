@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "D",
+ "prompt": "Describe the Black Death in fourteenth-century Europe.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The Black Death was the most devastating pandemic in fourteenth-century Europe. It was part of the wider Second Plague Pandemic and reached Europe in **1347**, probably carried by Genoese trading ships from Caffa in the Crimea to **Messina, Sicily**. From there it spread rapidly along trade routes, shipping lanes, and roads, reaching Italy, France, Iberia, England, Germany, Scandinavia, and Russia by **1351**. It recurred in later outbreaks for centuries.\n\nThe disease was caused by the bacterium **Yersinia pestis**. It appeared in three main forms:\n\n- **Bubonic plague:** the most common form, marked by painful swollen lymph nodes called *buboes*, fever, headache, and vomiting. It was usually spread by fleas living on rats and other rodents.\n- **Pneumonic plague:** infected the lungs and spread person-to-person through coughing, with bloody sputum and very high mortality.\n- **Septicemic plague:** infected the bloodstream, often causing dark patches on the skin and rapid death.\n\nMortality was catastrophic. Estimates vary, but roughly **25–50 million people died in Europe**, perhaps **30–60% of the population**. Some regions lost more than half their inhabitants. Cities and crowded areas were especially hard hit.\n\nResponses were varied and often desperate. Authorities imposed isolation, quarantine—Venice established a **40-day (*quarantena*) waiting period** for ships—and sometimes closed gates or markets. Many people turned to religious processions, pilgrimages, and the **flagellant movement**, while others fled to the countryside. Jewish communities were frequently scapegoated and violently persecuted, accused of poisoning wells, despite papal attempts to protect them.\n\nThe social and economic consequences were profound. Labor shortages raised wages and gave peasants and workers more bargaining power. Land was abandoned, rents fell, and the feudal system weakened in many areas. Peasant revolts and urban uprisings increased, while some survivors enjoyed better living standards. Culturally, the plague deepened themes of death and mortality in art and literature, seen in *memento mori* and *danse macabre* imagery.\n\nIn short, the Black Death was a demographic, religious, social, and economic catastrophe that reshaped fourteenth-century Europe and helped bring about major changes in labor, society, and public health.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 1000,
+  "total_tokens": 1039,
+  "cost": 0.000719017,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000719017,
+   "upstream_inference_prompt_cost": 4.017e-06,
+   "upstream_inference_completions_cost": 0.000715
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 520,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:58.610146+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

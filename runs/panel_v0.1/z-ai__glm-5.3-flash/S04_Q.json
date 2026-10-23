@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "Q",
+ "prompt": "What were the consequences of Soviet espionage in the United States in the 1940s, including the Rosenberg case?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of Soviet Espionage in the United States (1940s)\n\n## The Espionage Itself\n\nSoviet espionage during the 1940s was extensive, aided by WWII alliance goodwill and ideological sympathy among some Americans. Key achievements included:\n\n- **Atomic secrets**: Klaus Fuchs, Theodore Hall, and others passed significant atomic bomb information to the USSR, likely accelerating Soviet nuclear development by years (first Soviet test: 1949)\n- **Government infiltration**: Networks like the Perlo group and Alger Hiss's alleged activities reached into the State Department, Treasury, and OSS\n- **Venona decrypts**: The U.S. secretly decrypted Soviet cables (1943–1980), eventually identifying hundreds of espionage contacts\n\n## The Rosenberg Case\n\nJulius and Ethel Rosenberg were convicted in 1951 of conspiracy to commit espionage for passing atomic secrets (via Ethel's brother David Greenglass) and executed in June 1953—the only American civilians executed for espionage during the Cold War.\n\n**Consequences and controversies:**\n- Julius Rosenberg's guilt is now well-established via Venona; Ethel's direct involvement remains more debated, and many historians view her conviction and execution as excessive\n- The case became a global cause célèbre, fueling anti-American sentiment abroad and deepening domestic polarization\n- It exemplified the era's atmosphere of fear, where evidence standards and prosecutorial conduct (notably by Roy Cohn) remain criticized\n\n## Broader Consequences\n\n1. **The Red Scare / McCarthyism**: Espionage revelations fueled Senator Joseph McCarthy's crusade, loyalty oaths, blacklists, and ruined careers across government, Hollywood, and academia\n2. **Hiss case (1948–50)**: Convicted of perjury; became a defining trauma for American elites and a formative issue for young anti-communists like Richard Nixon\n3. **Institutional changes**: Creation of stricter security clearance systems, expansion of the FBI's domestic surveillance, and the 1950 McCarran Internal Security Act\n4. **Diplomatic damage**: Deepened mutual distrust, hardened Cold War positions, and complicated U.S.-Soviet relations\n5. **Chilling effects**: Legitimate dissent and progressive politics became suspect, suppressing civil liberties and left-wing movements for a generation\n\n## Historical Assessment\n\nHistorians today generally agree that real Soviet espionage existed and was significant—especially regarding atomic secrets—but that the domestic anti-communist reaction was often disproportionate, sweeping in many innocent people and damaging democratic norms. The tension between genuine security threats and civil liberties overreach remains the central legacy of this period.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 51,
+  "completion_tokens": 576,
+  "total_tokens": 627,
+  "cost": 5.46183e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.46183e-05,
+   "upstream_inference_prompt_cost": 1.4535e-06,
+   "upstream_inference_completions_cost": 5.31648e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 33,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:56.132239+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

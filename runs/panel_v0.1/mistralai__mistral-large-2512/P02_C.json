@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "C",
+ "prompt": "What were the main causes of the 1883 eruption of Krakatoa?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **1883 eruption of Krakatoa (Krakatau)** was one of the most catastrophic volcanic events in recorded history, with global climatic and environmental effects. The main causes of the eruption were rooted in **tectonic activity, magma composition, and the volcano's structural instability**. Here are the key factors:\n\n### **1. Tectonic Setting & Subduction Zone**\n   - Krakatoa is located in the **Sunda Strait**, between the islands of **Java and Sumatra**, in **Indonesia**.\n   - The region lies on the **Pacific Ring of Fire**, where the **Indo-Australian Plate** is **subducting** beneath the **Eurasian Plate**.\n   - This subduction generates **intense volcanic activity** as the descending plate melts, forming **magma** that rises to the surface.\n\n### **2. Magma Composition & Volcanic Explosivity**\n   - The magma at Krakatoa was **highly viscous (andesitic to rhyolitic)**, meaning it was **rich in silica** and trapped **volatiles (water vapor, CO₂, sulfur gases)**.\n   - As magma rose, **pressure built up** due to the **thick, sticky nature** of the lava, preventing gases from escaping easily.\n   - When the pressure became too great, the **explosive release of gases** shattered the magma into **pyroclastic fragments**, leading to a **cataclysmic eruption**.\n\n### **3. Caldera Collapse & Structural Weakness**\n   - Before 1883, Krakatoa was a **large stratovolcano** with a **caldera** (a collapsed volcanic crater).\n   - The **1883 eruption was so powerful** that it **destroyed most of the island**, leaving only a **submerged caldera**.\n   - The **collapse of the magma chamber** (a process called **caldera formation**) contributed to the **violent explosions** and **tsunamis** that followed.\n\n### **4. Phreatomagmatic Explosions (Water-Magma Interaction)**\n   - The eruption was **phreatomagmatic**, meaning **seawater infiltrated the magma chamber**, causing **steam explosions**.\n   - The **rapid vaporization of water** increased the **explosive power**, leading to **massive blasts** that were heard **thousands of kilometers away** (as far as Australia and Mauritius).\n   - These explosions also **fragmented the magma** into **fine ash**, which was ejected **80 km (50 miles) into the atmosphere**.\n\n### **5. Pre-Eruption Activity (1883)**\n   - The eruption was **preceded by months of increasing seismic activity** and **smaller eruptions** (starting in **May 1883**).\n   - By **August 26–27, 1883**, the volcano entered its **paroxysmal phase**, with **four massive explosions** (the **loudest sound in recorded history**).\n   - The **final explosion** (at **10:02 AM on August 27**) was so powerful that it **destroyed two-thirds of the island** and generated **tsunamis up to 46 meters (150 feet) high**.\n\n### **6. Global Climatic Effects**\n   - The eruption **ejected ~20 km³ (4.8 cubic miles) of material** into the atmosphere, including **sulfur dioxide (SO₂)**, which formed **sulfuric acid aerosols**.\n   - These aerosols **blocked sunlight**, causing **global cooling** (temperatures dropped by **1.2°C (2.2°F)** for several years).\n   - The **ash and aerosols** created **vivid sunsets** worldwide (immortalized in paintings like Edvard Munch’s *The Scream*).\n\n### **Conclusion**\nThe **1883 Krakatoa eruption** was caused by a **combination of tectonic subduction, viscous magma, caldera collapse, phreatomagmatic explosions, and structural failure**. Its **unprecedented explosivity** (VEI-6) made it one of the **deadliest and most influential volcanic events in history**, with **long-lasting global effects**.\n\nWould you like more details on any specific aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 917,
+  "total_tokens": 938,
+  "cost": 0.001386,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001386,
+   "upstream_inference_prompt_cost": 1.05e-05,
+   "upstream_inference_completions_cost": 0.0013755
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:41:40.159847+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

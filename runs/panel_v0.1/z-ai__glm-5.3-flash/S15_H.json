@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1948 Arab-Israeli war? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Historiography of the 1948 Arab-Israeli War\n\nThe 1948 war (called the War of Independence by Israelis and al-Nakba, \"the catastrophe,\" by Palestinians) has been one of the most intensely debated topics in modern Middle Eastern historiography. Interpretations have shifted significantly over time, roughly in three phases.\n\n## 1. The \"Old\" Historiography (1948–late 1970s)\n\nEarly accounts, written largely before Israeli state archives opened, tended to mirror the narratives of the participants. Israeli and much Western scholarship portrayed the war as a struggle of a small, poorly armed Jewish community (the Yishuv) against the overwhelming armies of five Arab states—an existential \"few against many\" conflict. Arab historiography often emphasized Zionist conspiracies and British duplicity while downplaying Arab military and political failures.\n\n- **Key works:** Jon Kimche, *Seven Fallen Pillars* (1950); later, popularized treatments like Larry Collins and Dominique Lapierre, *O Jerusalem!* (1972).\n\n## 2. The \"New Historians\" (late 1980s onward)\n\nWhen Israel opened portions of its state archives in the late 1970s and 1980s, a group of Israeli scholars—often called the \"New Historians\"—used newly available documents to challenge the traditional narrative. Key figures and claims:\n\n- **Benny Morris** (*The Birth of the Palestinian Refugee Problem, 1947–1949*, 1987; revised 2004) argued that the Palestinian exodus resulted from a mix of expulsion by Israeli forces, fear of battle, and deliberate Zionist policy at key moments—not purely from Arab leaders' orders to flee, as the old narrative claimed. He stopped short, however, of arguing there was a master plan for ethnic cleansing.\n- **Avi Shlaim** (*Collusion Across the Jordan*, 1988) argued that King Abdullah I of Jordan had a tacit understanding (\"collusion\") with the Jewish Agency to partition Palestine between them, undermining the claim of unified Arab aggression.\n- **Ilan Pappé** (e.g., *The Ethnic Cleansing of Palestine*, 2006) went further than Morris, arguing expulsions were systematic and planned.\n- **Simha Flapan** (*The Birth of Israel: Myths and Realities*, 1987) challenged several traditional claims, including the \"few against many\" thesis.\n\nNew Historians also drew on **Arab and Palestinian sources**, notably **Walid Khalidi**'s archival work (\"Plan Dalet: Master Plan for the Conquest of Palestine,\" *Journal of Palestine Studies*, 1988) and earlier studies like his *Before Their Diaspora* (1984).\n\n## 3. Counter-Revisions and Debates (1990s–present)\n\nIsraeli scholars challenged aspects of the New Historians' work:\n\n- **Anita Shapira**, **Efraim Karsh** (*Fabricating Israeli History*, 1997), and **Yoav Gelber** (*Palestine 1948*, 2001) accused the New Historians of selective or distorted use of documents. Karsh argued Arab leaders' statements showed intent to destroy the Jewish state, and that Abdallah's contacts with the Zionists were pragmatic rather than collusive.\n- **Eugene Rogan** (*The Arabs: A History*, 2009) and **Avi Raz** (*The Bride and the Dowry*, 2012) contributed nuanced post-revisionist accounts.\n- **Ilan Pappé vs. Benny Morris** remains the sharpest internal divide: Morris emphasizes contingency and war-driven flight; Pappé emphasizes deliberate policy.\n\n## Key Points of Ongoing Contention\n\n1. **Refugees:** Cause and proportion of expulsion vs. flight (Morris vs. Pappé; Masalha, *Expulsion of the Palestinians*, 1992, argued for systematic transfer thinking).\n2. **Military balance:** Scholars like **Muslih** and later **Historians** question the \"few against many\" myth; the Yishuv was better organized and, by some counts, eventually fielded comparable or superior numbers (~100,000+ mobilized by war's end).\n3. **Jordanian–Zionist relations:** extent of Abdullah's \"collusion\" (Shlaim vs. Karsh/Gelber; Mary Wilson, *King Abdullah, Britain and the Making of Jordan*, 1987).\n4. **Plan Dalet:** military plan for securing territory vs. blueprint for expulsion.\n\n## Suggested Reading\n\n- Benny Morris, *1948: A History of the First Arab-Israeli War* (Yale, 2008) — the most comprehensive single-volume synthesis.\n- Avi Shlaim, *The Iron Wall* (2000).\n- Neil Caplan, *The Israel-Palestine Conflict: Contested Histories* (Wiley-Blackwell, 2010) — a balanced historiographical survey.\n- Eugene Rogan & Avi Shlaim, eds., *The War for Palestine* (Cambridge, 2nd ed. 2007) — includes Arab-side perspectives.\n\n**A caveat:** My citations are from memory and generally reliable for the major works, but you should verify page numbers and details before using them in academic work.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 1141,
+  "total_tokens": 1171,
+  "cost": 0.000446308,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000446308,
+   "upstream_inference_prompt_cost": 3.6e-06,
+   "upstream_inference_completions_cost": 0.000442708
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 26,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:25.824163+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -3,7 +3,8 @@
 Usage: OPENROUTER_API_KEY=... python3 scripts/run_panel.py runs/panel_v0.1.yaml [--models id ...] [--workers N]
 
 Each response is saved to runs/<panel>/<model-slug>/<item>_<template>.json. Existing
-successful responses are skipped, so the script can be re-run to resume or fill gaps.
+complete responses are skipped, so the script can be re-run to resume or fill gaps;
+responses cut off at max_tokens are asked again.
 """
 import argparse
 import concurrent.futures as cf
@@ -66,7 +67,7 @@ def call(cfg, model, prompt, key):
 
 def run_one(cfg, out_dir, model, item, code, prompt, key):
     path = out_dir / f"{item}_{code}.json"
-    if path.exists():
+    if path.exists() and json.loads(path.read_text())["finish_reason"] != "length":
         return "skip", path
     started = datetime.now(timezone.utc).isoformat()
     data = call(cfg, model, prompt, key)

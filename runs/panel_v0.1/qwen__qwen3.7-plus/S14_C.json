@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The abolition of the transatlantic slave trade in 1807 and the subsequent abolition of slavery itself in 1833 (with full emancipation achieved in 1838) remains one of the most significant social reforms in British history. \n\nHistorians have long debated the primary drivers of this change. Early 20th-century historians emphasized moral and religious crusades, while mid-century historians focused on economic shifts. Modern historical consensus suggests that abolition was not the result of a single cause, but rather a complex convergence of **moral, economic, political, and social factors**, heavily influenced by the agency of the enslaved people themselves.\n\nHere are the main causes of Britain’s abolition of the slave trade and slavery:\n\n### 1. Moral, Religious, and Intellectual Factors\nThe moral crusade against slavery was highly visible and politically vital. \n* **Religious Revivalism:** The late 18th century saw the rise of Evangelicalism within the Church of England and the growth of Nonconformist denominations like the Quakers (Society of Friends) and Methodists. Evangelicals viewed slavery as a profound moral sin against God. Groups like the **Clapham Sect** (a group of Evangelical Anglicans, including William Wilberforce) used their political and social influence to campaign against the trade.\n* **Enlightenment Ideals:** The Enlightenment promoted ideas of natural rights, liberty, and equality. Thinkers like John Locke and Jean-Jacques Rousseau laid the intellectual groundwork that made the concept of owning another human being increasingly difficult to justify philosophically.\n* **Black Abolitionists:** The movement was not solely driven by white Britons. Formerly enslaved individuals like **Olaudah Equiano**, Ottobah Cugoano, and Mary Prince wrote powerful autobiographies and spoke publicly, providing undeniable first-hand testimony of the brutality of the trade and slavery, which shattered pro-slavery propaganda.\n\n### 2. Grassroots Mobilization and Public Opinion\nThe abolition movement was one of the world’s first modern, mass grassroots political campaigns.\n* **Public Campaigns:** Abolitionists like **Thomas Clarkson** traveled the country gathering evidence of the horrors of the Middle Passage (such as the infamous diagram of the slave ship *Brookes*). \n* **Petitions and Boycotts:** Hundreds of thousands of Britons signed abolition petitions. In the 1790s and again in the 1820s, massive consumer boycotts of slave-grown Caribbean sugar were organized, particularly by women, who were the primary household purchasers. \n* **Political Pressure:** This widespread public opposition made it politically costly for Members of Parliament to support the slave trade or slavery, forcing the issue onto the national agenda.\n\n### 3. Economic Factors (The \"Decline Thesis\" vs. Capitalist Shift)\nThe economic causes of abolition are heavily associated with the Trinidadian historian **Eric Williams**, who argued in his 1944 book *Capitalism and Slavery* that the British West Indian slave economy was in decline, and Britain abolished slavery because it was no longer profitable.\n* **Shift to Industrial Capitalism:** Williams argued that the Industrial Revolution changed the nature of British wealth. Britain no longer needed a mercantilist monopoly on Caribbean sugar; instead, it needed free trade, new global markets, and a domestic workforce of wage-earning consumers. \n* **Modern Nuance:** Later historians (like Seymour Drescher) challenged Williams, pointing out that the Caribbean slave economy was actually still highly profitable in 1807. However, even critics of Williams agree that the *structure* of the British economy was changing. The rise of industrial capitalism fostered an ideology of \"free labor\" and \"free trade,\" which made the monopolistic, coercive system of slavery seem economically archaic to a new class of industrialists.\n\n### 4. Slave Resistance and Agency\nEnslaved people were not passive victims waiting for British benevolence; their resistance made the system increasingly untenable and expensive to maintain.\n* **The Haitian Revolution (1791–1804):** The successful slave revolt in the French colony of Saint-Domingue terrified British planters and politicians. It proved that slavery could only be maintained through massive, expensive military force, and it showed that enslaved people would violently overthrow the system if given the chance.\n* **Rebellions in British Colonies:** Major uprisings in Barbados (1816), Demerara (1823), and most importantly, the **Baptist War in Jamaica (1831–1832)** led by Sam Sharpe, were turning points. The Jamaican rebellion required thousands of British troops to suppress and caused massive economic damage. It convinced the British government that slavery in the Caribbean was a volatile, ungovernable system that required immediate legislative intervention.\n\n### 5. Political and Legal Shifts\nChanges within the British political and legal systems also paved the way for abolition.\n* **Legal Precedents:** Lord Mansfield’s ruling in the **Somerset Case (1772)** declared that slavery was so odious it could not be supported by common law in England. While it did not abolish slavery in the colonies, it established a legal tone that freedom was the default state in Britain.\n* **The Decline of the \"West India Interest\":** For decades, a powerful lobby of slave-owning MPs and merchants (the West India Interest) blocked abolition. However, their political power waned as the Caribbean's relative economic importance to Britain decreased.\n* **The Great Reform Act (1832):** This act expanded the electorate and redistributed parliamentary seats, diluting the power of the \"rotten boroughs\" that had historically been controlled by pro-slavery planters. The newly elected, more reform-minded Parliament of 1833 was much more sympathetic to the Anti-Slavery Society, allowing the Slavery Abolition Act to pass.\n\n### Summary\nThe abolition of the slave trade in **1807** was primarily driven by a highly organized moral and religious crusade, Enlightenment ideals, and grassroots public pressure, combined with a shifting economic ideology toward free trade. \n\nThe abolition of slavery itself in **1833** (fully realized in **1838** after a transitional \"apprenticeship\" period) required a heavier push. It was achieved because the moral crusade had matured into a mass political movement, the economic utility of the Caribbean colonies had diminished relative to industrial Britain, and, crucially, relentless and violent resistance by the enslaved themselves made the continuation of the system politically and financially impossible for the British Empire to sustain.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 36,
+  "completion_tokens": 2841,
+  "total_tokens": 2877,
+  "cost": 0.003648,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003648,
+   "upstream_inference_prompt_cost": 1.152e-05,
+   "upstream_inference_completions_cost": 0.00363648
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1444,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:26:21.631669+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "C",
+ "prompt": "What were the main causes of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the U.S. War on Drugs (1971–1990s)\n\n## Political and Social Factors\n\n**Nixon's Declaration (1971)**\n- President Nixon formally declared the \"War on Drugs,\" framing drug abuse as \"public enemy number one\"\n- Rising heroin use among Vietnam War veterans created public concern\n- The counterculture movement and widespread recreational drug use alarmed conservative politicians\n\n**Political Strategy**\n- Nixon's \"Southern Strategy\" sought to appeal to white Southern voters\n- Later, aide John Ehrlichman famously claimed the drug war was partly intended to disrupt Black communities and anti-war activists (though this account is debated)\n- Politicians found being \"tough on crime\" electorally advantageous\n\n## Social Concerns\n\n- Urban crime rates rose sharply in the 1960s–70s, and drugs were blamed\n- The crack cocaine epidemic of the 1980s intensified public fear\n- Media coverage sensationalized drug-related violence and \"crack babies\"\n\n## Institutional and International Factors\n\n- **Reagan era (1980s):** First Lady Nancy Reagan's \"Just Say No\" campaign; increased funding for interdiction and law enforcement\n- **Cold War politics:** Drug interdiction became tied to foreign policy in Latin America (e.g., operations in Colombia, Mexico)\n- **Law enforcement interests:** Growing budgets and influence for the DEA (created 1973) and local police departments\n- **Mandatory minimum sentencing** (e.g., Anti-Drug Abuse Acts of 1986 and 1988) institutionalized punitive approaches\n\n## Racial and Economic Dimensions\n\n- Crack (associated with Black communities) received far harsher penalties than powder cocaine (associated with white users)—the 100:1 sentencing disparity\n- Drug enforcement disproportionately targeted minority and low-income urban neighborhoods\n\n## Ideological Factors\n\n- The \"tough on crime\" consensus spanned both parties by the 1990s (Clinton's 1994 crime bill continued the trend)\n- Belief in deterrence: that harsh punishment would reduce drug use\n\nWould you like me to expand on any particular aspect, such as the racial disparities or the international dimension?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 52,
+  "completion_tokens": 696,
+  "total_tokens": 748,
+  "cost": 6.57228e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.57228e-05,
+   "upstream_inference_prompt_cost": 1.482e-06,
+   "upstream_inference_completions_cost": 6.42408e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 244,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:37.655888+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

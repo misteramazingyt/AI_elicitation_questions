@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "C",
+ "prompt": "What were the main causes of the 2020 George Floyd protests?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The 2020 George Floyd protests were a series of demonstrations and civil unrest that began in Minneapolis, Minnesota, on May 26, 2020, and quickly spread across the United States and globally. Historians, sociologists, and journalists generally categorize the causes into an **immediate catalyst** and **deep-seated structural factors**.\n\n### 1. The Immediate Catalyst: The Murder of George Floyd\n*   **The Incident:** On May 25, 2020, George Floyd, a 46-year-old Black man, was arrested by Minneapolis police officers for allegedly using a counterfeit $20 bill.\n*   **The Video:** During the arrest, Officer Derek Chauvin knelt on Floyd’s neck for over 9 minutes while Floyd was handcuffed and lying face down on the pavement. Floyd repeatedly stated, \"I can't breathe,\" and eventually lost consciousness. He was pronounced dead at a hospital.\n*   **Viral Spread:** A bystander’s video of the incident was posted to social media (Facebook) and went viral within hours. The graphic nature of the footage—showing a seemingly non-resisting man dying while pleading for his life—galvanized immediate outrage, distinct from many previous incidents where video evidence was absent, grainy, or contested.\n\n### 2. Accumulation of Recent High-Profile Killings\nFloyd’s death did not occur in a vacuum; it followed a cluster of other highly publicized deaths of Black Americans in early 2020, creating a \"tipping point\" effect:\n*   **Ahmaud Arbery (February 2020):** A 25-year-old Black man chased and shot by white residents in Georgia while jogging. Arrests were not made until May, after video leaked.\n*   **Breonna Taylor (March 2020):** A 26-year-old Black woman shot and killed by Louisville police executing a \"no-knock\" warrant during a botched raid on her apartment.\n*   **Tony McDade (May 2020):** A Black transgender man shot by police in Tallahassee, Florida, days before Floyd’s death.\n*   **Context:** These cases highlighted that police violence and racial vigilantism were ongoing, nationwide issues affecting Black men, women, and LGBTQ+ individuals.\n\n### 3. Systemic Racism and Police Brutality\nProtesters and scholars emphasized that the demonstrations were about **patterns**, not just isolated incidents.\n*   **Disproportionate Force:** Data consistently shows Black Americans are killed by police at a rate disproportionate to their percentage of the population (roughly 2.5 to 3 times higher than white Americans).\n*   **Lack of Accountability:** A central grievance was the perceived impunity for officers involved in killings. Qualified immunity, police union contracts, and prosecutorial reluctance to charge officers were cited as structural barriers to justice.\n*   **Historical Continuity:** Activists drew direct lines from slave patrols and Jim Crow enforcement to modern policing tactics, arguing the system was functioning as designed to control Black bodies.\n\n### 4. The COVID-19 Pandemic Context\nThe pandemic created a unique \"pressure cooker\" environment that amplified the response:\n*   **Disparate Health Impacts:** Black and Latino communities suffered significantly higher infection, hospitalization, and death rates from COVID-19 due to systemic inequities in healthcare, housing, and frontline employment. This underscored the \"pre-existing condition\" of structural racism.\n*   **Economic Precarity:** By May 2020, unemployment had skyrocketed (peaking at 14.8% in April), disproportionately affecting low-wage workers and people of color. Many protesters had lost jobs or were essential workers facing hazardous conditions, lowering the opportunity cost of protesting.\n*   **Social Isolation & Pent-Up Energy:** Months of lockdowns left people isolated, anxious, and glued to screens. The Floyd video provided a focal point for collective grief and rage that had been building during quarantine.\n*   **Contradiction in Enforcement:** Images of police aggressively enforcing social distancing in communities of color, contrasted with leniency toward largely white anti-lockdown protesters (some armed) at state capitols weeks prior, fueled perceptions of a double standard.\n\n### 5. Political Rhetoric and Polarization\n*   **Trump Administration Rhetoric:** President Donald Trump’s rhetoric—often viewed as inflammatory or dismissive of racial justice concerns (e.g., \"when the looting starts, the shooting starts,\" defense of Confederate monuments, criticism of NFL kneeling protests)—was seen by many as emboldening white nationalism and antagonizing movements for racial equality.\n*   **Partisan Divide:** The protests became a flashpoint in the 2020 election cycle, hardening partisan lines regarding \"law and order\" versus \"racial justice.\"\n\n### 6. The Role of Social Media and Decentralized Organization\n*   **Documentation & Witnessing:** Smartphones allowed real-time documentation of police responses to protests (tear gas, rubber bullets, vehicle rammings), which often radicalized viewers and drew more people into the streets.\n*   **Leaderless Mobilization:** Unlike the Civil Rights Movement of the 1960s, the 2020 protests were largely decentralized, organized via social media (Twitter, Instagram, TikTok) by local collectives, Black Lives Matter chapters, and unaffiliated individuals, allowing for rapid, massive scale across thousands of towns and cities, including predominantly white suburbs and rural areas.\n\n### Summary\nWhile the **murder of George Floyd** was the spark, the **fuel** was centuries of systemic racism, a recent string of unpunished killings, and the **accelerant** of a global pandemic that exposed and exacerbated racial and economic inequalities. The protests represented a demand not just for the prosecution of four officers, but for a fundamental reimagining of public safety and racial equity in the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1313,
+  "total_tokens": 1345,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 51,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:49:32.745965+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

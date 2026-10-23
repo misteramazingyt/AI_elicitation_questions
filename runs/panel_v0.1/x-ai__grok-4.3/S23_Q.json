@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2020 George Floyd protests?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The 2020 protests and associated riots following George Floyd's death produced measurable economic losses, sharp rises in violent crime, and policy experiments that largely reversed amid public backlash.\n\n## Economic Damage\nInsurance industry data placed total insured losses from arson, looting, and vandalism at roughly $1-2 billion, marking the costliest civil unrest in modern U.S. history.  \nMinority-owned businesses in affected cities suffered disproportionate destruction, with many never reopening.  \nProperty damage extended to police precincts, courthouses, and retail corridors in Minneapolis, Kenosha, Portland, and other urban centers.\n\n## Crime and Public Safety Effects\nHomicide rates jumped approximately 30 percent nationally in 2020 according to CDC and FBI preliminary figures, with larger spikes in cities that curtailed policing.  \nCriminologists documented a \"George Floyd effect\" in which officers reduced proactive enforcement, correlating with sustained increases in shootings and carjackings through 2022.  \nRoughly two dozen deaths occurred amid the unrest, including bystanders and business owners caught in arson or clashes.\n\n## Policy and Institutional Shifts\nSeveral major cities cut police budgets under \"defund\" pressure, only to restore or increase funding later after crime surges prompted resident complaints and mayoral reversals.  \nRecruitment and retention crises hit police departments, with resignations and early retirements rising sharply and response times lengthening.  \nFederal and state legislative efforts, such as the George Floyd Justice in Policing Act, stalled, while some states enacted qualified immunity reforms or use-of-force restrictions that courts later narrowed.\n\n## Political and Cultural Outcomes\nThe events intensified partisan divides, with polling showing sustained drops in public confidence toward institutions including policing and media coverage of the unrest.  \nCorporate and institutional responses included widespread diversity initiatives and symbolic gestures that faced later scrutiny for limited measurable impact on outcomes like employment or education gaps.  \nLonger-term data from affected neighborhoods indicated persistent business flight and population shifts away from high-disorder zones.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 205,
+  "completion_tokens": 1121,
+  "total_tokens": 1326,
+  "cost": 0.00292435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00292435,
+   "upstream_inference_prompt_cost": 0.00012185,
+   "upstream_inference_completions_cost": 0.0028025
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 728,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:10.883174+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

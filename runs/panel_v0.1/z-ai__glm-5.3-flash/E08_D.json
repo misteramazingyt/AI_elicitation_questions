@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "D",
+ "prompt": "Describe the Great Depression.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Great Depression (1929–1939)\n\nThe Great Depression was the most severe economic crisis in modern history, affecting nearly every country in the world.\n\n## Causes\n\n- **Stock market crash**: On October 29, 1929 (\"Black Tuesday\"), U.S. stock prices collapsed, wiping out billions in wealth\n- **Bank failures**: Thousands of banks failed, destroying people's savings\n- **Overproduction and underconsumption**: Factories produced more than consumers could afford to buy\n- **Excessive debt**: Many Americans and farmers were heavily indebted during the 1920s\n- **Poor policy responses**: Central banks and governments initially failed to act decisively\n- **Trade collapse**: Protectionist tariffs (like the Smoot-Hawley Tariff of 1930) reduced international trade\n\n## Key Effects\n\n- **Mass unemployment**: U.S. unemployment reached about 25% (roughly 13–15 million people)\n- **Widespread poverty**: Breadlines, soup kitchens, and shantytowns (\"Hoovervilles\") became common\n- **Banking crisis**: Roughly 9,000 U.S. banks failed\n- **Global spread**: The depression devastated Germany, contributed to political instability, and deepened economic hardship worldwide\n- **Dust Bowl**: Severe drought and poor farming practices devastated the American Great Plains, displacing farmers\n\n## Government Response\n\n- **Herbert Hoover**: Initially favored limited government intervention; his response was widely seen as inadequate\n- **Franklin D. Roosevelt**: Elected in 1932, launched the **New Deal**—programs like Social Security, the Works Progress Administration (WPA), the Civilian Conservation Corps (CCC), and banking reforms\n- **World War II**: Massive military spending and mobilization ultimately ended the depression in the early 1940s\n\n## Lasting Impact\n\nThe Depression transformed economics and politics: it led to stronger financial regulation (e.g., deposit insurance), the rise of Keynesian economics, expanded social safety nets, and reshaped the role of government in the economy. It also contributed to the rise of extremism in Europe, setting the stage for World War II.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 623,
+  "total_tokens": 655,
+  "cost": 5.84149e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.84149e-05,
+   "upstream_inference_prompt_cost": 9.12e-07,
+   "upstream_inference_completions_cost": 5.75029e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 172,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:24.356732+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

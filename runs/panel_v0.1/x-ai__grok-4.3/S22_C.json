@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration and Nationality Act of 1965?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Immigration and Nationality Act of 1965 (Hart-Celler Act) was driven primarily by the civil rights movement's push against racial and ethnic discrimination. The national origins quota system, established in 1924, heavily favored immigrants from Northern and Western Europe while severely restricting those from Asia, Africa, and Southern/Eastern Europe. This was increasingly viewed as incompatible with the era's emphasis on equality, as highlighted by the Civil Rights Act of 1964 and Voting Rights Act of 1965.\n\nKey contributing factors included:\n\n- **Cold War image concerns**: Discriminatory quotas embarrassed the U.S. internationally, undermining its claims of democratic superiority over the Soviet Union. Reform helped project a more inclusive global stance.\n- **Political leadership and advocacy**: President John F. Kennedy advocated for change in his 1964 book *A Nation of Immigrants*; after his assassination, Lyndon B. Johnson prioritized it. Sponsors like Rep. Emanuel Celler and Sen. Philip Hart, along with ethnic organizations, churches, and labor groups, built bipartisan support.\n- **Humanitarian and demographic pressures**: Post-WWII refugee issues, family reunification demands, and a desire for skilled workers influenced the shift toward preference categories based on family ties and skills rather than national origin.\n\nThe law abolished quotas, imposed hemispheric caps (later a worldwide limit), and emphasized family reunification, fundamentally reshaping U.S. immigration patterns. It passed with broad congressional support despite some concerns over potential increases in immigration volume.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 208,
+  "completion_tokens": 693,
+  "total_tokens": 901,
+  "cost": 0.0018581,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0018581,
+   "upstream_inference_prompt_cost": 0.0001256,
+   "upstream_inference_completions_cost": 0.0017325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 396,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:04.834455+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "Q",
+ "prompt": "What were the consequences of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "Britain’s abolition of the slave trade (1807) and then of slavery itself (1833, with emancipation completed in most colonies by 1838) had far-reaching but very uneven consequences. They were not simply a moral triumph: they reshaped Caribbean economies, British politics and finance, African trade, and racial and labour relations across the empire.\n\n**1. For enslaved and freed people**\n- Legal freedom came in 1834 in most British colonies, but was initially qualified by the **“apprenticeship” system**, which kept many ex-slaves working unpaid or partly paid for their former owners until **1838**. Resistance and protest forced its early end.\n- Freedpeople generally received **no compensation**. Slave owners received **£20 million**—a huge sum, roughly 40% of government expenditure at the time—funded by a loan that British taxpayers serviced into the 21st century.\n- Emancipation did not bring economic independence. In many colonies ex-slaves were landless or had limited access to land, and racial hierarchies persisted. Freedpeople often withdrew from plantation labour where they could, creating free villages and peasant economies, but poverty and inequality remained.\n\n**2. In the Caribbean and plantation colonies**\n- Planters faced labour shortages and tried to replace enslaved labour with **indentured workers** from India, China, Africa and elsewhere—especially after 1838. Indian indenture to the Caribbean became a major system.\n- The British Caribbean sugar economy declined relative to **Brazil and Cuba**, where slavery continued, and later suffered from free-trade reforms such as the 1846 Sugar Duties Act. Some islands declined sharply; others developed peasant agriculture and internal markets.\n- The planter class lost some political and economic power, while merchant and financial interests in Britain gained. Compensation strengthened many slave-owning families and institutions financially.\n\n**3. In Britain**\n- Abolition became central to British national and imperial identity as a “moral” cause, even as Britain expanded imperial power elsewhere.\n- The 1807 act did not ruin British ports such as Liverpool; trade shifted toward other commodities and imperial commerce.\n- Abolitionism strengthened organized politics and reform movements, but the compensation settlement showed how powerfully slave-owning interests were protected.\n- Britain spent heavily on **Royal Navy anti-slavery patrols**, especially the West Africa Squadron, and on diplomatic pressure against other slave-trading powers.\n\n**4. International and imperial effects**\n- Britain pressed other states—through the Congress of Vienna, bilateral treaties and naval action—to suppress the Atlantic slave trade. This contributed to the eventual decline of the trade, but illegal smuggling continued, and slavery expanded in Cuba and Brazil before their later abolitions.\n- Suppression became a justification for deeper British intervention in West Africa, including Sierra Leone, the Gold Coast and later Lagos. Anti-slavery rhetoric thus coexisted with and sometimes facilitated colonial expansion.\n- In Africa, the ending of Atlantic demand was uneven. Some economies shifted to “legitimate commerce” such as palm oil and groundnuts, but slave trading and slavery persisted in other forms, and suppression could be violent and disruptive.\n\n**5. Overall**\nThe period 1807–1838 ended British participation in the Atlantic slave trade and legally abolished slavery in most British colonies, but it did **not** produce equality or economic justice. Its main consequences were: freedom without compensation for the enslaved; massive compensation for owners; coercive apprenticeship and then indentured labour; Caribbean economic restructuring and decline in some colonies; a strengthened British abolitionist identity; and a more interventionist imperial role in Africa and the Atlantic world.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 51,
+  "completion_tokens": 1467,
+  "total_tokens": 1518,
+  "cost": 0.000895653,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000895653,
+   "upstream_inference_prompt_cost": 1.5453e-05,
+   "upstream_inference_completions_cost": 0.0008802
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1465,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:15:59.704580+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

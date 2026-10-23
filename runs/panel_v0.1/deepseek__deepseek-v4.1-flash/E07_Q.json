@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2008 financial crisis?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Cohere",
+ "response": "The 2008 financial crisis—triggered by the collapse of the U.S. housing bubble and the ensuing global credit freeze—had consequences that reshaped economies, politics, and finance for years.\n\n**Financial and monetary**\n- Major institutions failed or were rescued: Lehman Brothers collapsed, Bear Stearns and Merrill Lynch were absorbed, AIG was bailed out, and many banks failed or merged.\n- Governments launched huge bailouts, notably the U.S. TARP, and central banks cut rates to near zero and used quantitative easing (QE), greatly expanding their balance sheets.\n- “Too big to fail” became a central problem: large banks were seen as protected, while smaller firms and households bore much of the pain.\n- Credit conditions tightened sharply, and shadow banking and derivatives markets came under new scrutiny.\n\n**Economic and fiscal**\n- The crisis caused the Great Recession (2007–2009), the deepest global downturn since the 1930s. Global trade collapsed, and unemployment surged—U.S. unemployment peaked at about 10%, while eurozone unemployment later exceeded 12%.\n- Millions lost homes to foreclosure, and household wealth fell sharply. Recovery was slow, with long-term unemployment, weak wage growth, and lower labor-force participation in many countries.\n- Government deficits and debt rose because of bailouts, stimulus spending, and falling tax revenues.\n- In Europe, the crisis morphed into a sovereign debt crisis, especially in Greece, Ireland, Portugal, Spain, and Cyprus. Austerity policies followed, causing deep recessions and a “lost decade” in Greece.\n\n**Social and distributional**\n- Inequality widened in many countries, as asset owners recovered faster than wage earners and the unemployed.\n- Poverty, food insecurity, homelessness, and mental-health problems increased.\n- Young people faced “scarring” effects: delayed careers, lower starting wages, and delayed family formation.\n- Protest movements emerged, including Occupy Wall Street, the Tea Party, and anti-austerity protests in Europe.\n\n**Political and institutional**\n- Public trust in banks, governments, and elites fell sharply.\n- Populist and anti-establishment movements gained strength across Europe and the U.S. The crisis helped fuel Brexit, the election of Donald Trump, the rise of far-right and far-left parties, and anti-austerity movements such as Syriza in Greece and Podemos in Spain.\n- Centrist political consensus was weakened, and debates over austerity versus stimulus, immigration, and globalization intensified.\n\n**Regulatory and global**\n- The U.S. passed Dodd-Frank, created the Consumer Financial Protection Bureau, and imposed the Volcker Rule. Internationally, Basel III raised bank capital and liquidity requirements, and stress tests became common.\n- The G20 became a major forum for economic coordination, and the IMF and Financial Stability Board gained prominence.\n- China launched a massive stimulus, helping drive a commodity boom and global recovery, but also contributing to later debt and overcapacity problems.\n- Emerging markets experienced volatility, and global imbalances and dollar dominance remained central issues.\n\n**Long-term legacy**\n- The crisis left a legacy of low interest rates, QE, slow productivity growth, and debates over “secular stagnation.”\n- Asset prices—especially housing and stocks—rose in later years, worsening affordability in many cities.\n- Central banks became more powerful and politically contested.\n- While regulation was strengthened, concerns about shadow banking, too-big-to-fail, and financial fragility persisted.\n\nIn short, the 2008 crisis caused the worst global downturn since the 1930s, triggered sovereign debt crises and austerity, widened inequality, and fueled a populist political backlash. It also led to major regulatory reforms and unconventional monetary policy whose effects are still felt today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 2602,
+  "total_tokens": 2644,
+  "cost": 0.003135,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003135,
+   "upstream_inference_prompt_cost": 1.26e-05,
+   "upstream_inference_completions_cost": 0.0031224
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1841,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:40.513016+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

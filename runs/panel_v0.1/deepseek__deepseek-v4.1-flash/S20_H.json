@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "H",
+ "prompt": "How have historians interpreted the U.S. War on Drugs from 1971 to the 1990s? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Relace",
+ "response": "Historians generally reject the idea that the U.S. “War on Drugs” from 1971 to the 1990s was a single, coherent policy. Instead, they interpret it through several overlapping lenses: as a longer cycle of narcotics control, as racialized political strategy and carceral state-building, as a bipartisan law-and-order project, as a global/imperial project, and as a media-driven moral panic. The relative weight of these factors remains debated.\n\n**1. A longer cycle of prohibition and medicalization.**  \nDavid Musto’s *The American Disease* argues that U.S. drug policy has oscillated between tolerance/medicalization and criminalization, with race and class shaping which drugs are feared. David Courtwright’s *Dark Paradise* shows how opiate addiction was redefined from a medical problem into a criminal one, especially as it became associated with racial minorities. From this view, Nixon’s 1971 declaration was not a radical break but an escalation of earlier Progressive-era and Anslinger-era prohibition. See Musto, *The American Disease*, 3rd ed. (Oxford, 1999); Courtwright, *Dark Paradise* (Harvard, 1982/2001); H. Wayne Morgan, *Drugs in America* (Syracuse, 1981).\n\n**2. Racialized political strategy and social control.**  \nMany historians argue the drug war was used to criminalize Black communities and antiwar radicals. The most cited evidence is Dan Baum’s 2016 *Harper’s* article quoting Nixon aide John Ehrlichman saying the campaign associated hippies with marijuana and Black people with heroin to disrupt those communities. The quote is widely cited but debated because it appeared after Ehrlichman’s death. Michelle Alexander’s *The New Jim Crow* calls the drug war a new racial caste system. Elizabeth Hinton’s *From the War on Poverty to the War on Crime* shows how federal crime-control funding and drug enforcement criminalized Black youth and the urban poor. Heather Ann Thompson’s “Why Mass Incarceration Matters” argues mass incarceration, driven partly by the drug war, must be central to postwar U.S. history. See Baum, “Legalize It All,” *Harper’s*, April 2016; Alexander, *The New Jim Crow* (New Press, 2010); Hinton, *From the War on Poverty to the War on Crime* (Harvard, 2016); Thompson, *Journal of American History* 97, no. 3 (2010): 703–734; Loïc Wacquant, *Punishing the Poor* (Duke, 2009).\n\n**3. Bipartisan carceral liberalism and state-building.**  \nA related interpretation stresses that the drug war was not only a conservative backlash. Kathleen Frydl’s *The Drug Wars in America, 1940–1973* argues the drug war began earlier, tied to federal taxation, regulation, and federalism, with Nixon’s 1971 message as a culmination. Naomi Murakawa’s *The First Civil Right* argues liberals helped build prison America through civil-rights-era crime control. Katherine Beckett’s *Making Crime Pay* and Vesla Weaver’s “Frontlash” show how politicians used crime and drugs to win votes, and how civil rights advances produced punitive backlash across both parties. See Frydl, *The Drug Wars in America* (Cambridge, 2013); Murakawa, *The First Civil Right* (Oxford, 2014); Beckett, *Making Crime Pay* (Oxford, 1997); Weaver, *Studies in American Political Development* 21, no. 2 (2007): 230–265; Matthew Lassiter, *The Silent Majority* (Princeton, 2006).\n\n**4. Foreign policy, empire, and globalization.**  \nDiplomatic historians interpret the drug war abroad as an extension of Cold War anti-communism, hemispheric policing, and later neoliberal globalization. William O. Walker III’s *Drug Control in the Americas* and his *Diplomatic History* article argue U.S. drug control in Latin America was shaped by cultural assumptions and imperial power. Paul Gootenberg’s *Andean Cocaine* treats cocaine as a global commodity whose prohibition was shaped by U.S. hegemony. Alfred McCoy’s *The Politics of Heroin* and Peter Dale Scott and Jonathan Marshall’s *Cocaine Politics* show how Cold War alliances and CIA operations sometimes coexisted with drug trafficking. See Walker, *Drug Control in the Americas* (New Mexico, 1981); Walker, *Diplomatic History* 12, no. 4 (1988): 365–382; Gootenberg, *Andean Cocaine* (North Carolina, 2008); McCoy, *The Politics of Heroin* (Lawrence Hill, 1991/2003); Scott and Marshall, *Cocaine Politics* (California, 1991); Ethan Nadelmann, *Cops Across Borders* (Penn State, 1993).\n\n**5. Media, crack, and cultural panic.**  \nHistorians of the 1980s crack epidemic emphasize media racialization and moral panic. Jimmie Reeves and Richard Campbell’s *Cracked Coverage* shows how television news amplified a racialized crack scare. Craig Reinarman and Harry Levine’s *Crack in America* argues the policy response was disproportionate to the epidemiological evidence. David Farber’s *Crack* places crack in the context of Reagan-era inequality and street capitalism. See Reeves and Campbell, *Cracked Coverage* (Duke, 1994); Reinarman and Levine, eds., *Crack in America* (California, 1997); Farber, *Crack* (Cambridge, 2019); Donna Murch, “Crack in the System,” in David Farber, ed., *The War on Drugs: A History* (NYU, 2021).\n\n**Overall.**  \nThe historiographical trend since the 1990s has moved from “failed policy” accounts—Michael Massing’s *The Fix* and Dan Baum’s *Smoke and Mirrors*—toward analyses of racialized state-building, bipartisan carceral governance, and global prohibition. Most historians now see the 1971–1990s drug war as bipartisan, racialized, carceral, and international in scope, though they debate whether its primary driver was racism, electoral politics, bureaucratic state-building, or Cold War geopolitics. For a recent synthesis, see David Farber, ed., *The War on Drugs: A History* (NYU Press, 2021).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 56,
+  "completion_tokens": 9953,
+  "total_tokens": 10009,
+  "cost": 0.00498042,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00498042,
+   "upstream_inference_prompt_cost": 3.92e-06,
+   "upstream_inference_completions_cost": 0.0049765
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 8561,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:57:29.400747+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "Q",
+ "prompt": "What were the consequences of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Cohere",
+ "response": "The Civil Rights Act of 1964 was a landmark turning point. Its consequences were legal, social, economic, and political.\n\n**1. Legal desegregation and anti-discrimination**\n- It banned discrimination based on race, color, religion, sex, or national origin in public accommodations such as hotels, restaurants, and theaters.\n- It prohibited discrimination in employment under **Title VII** and created the **Equal Employment Opportunity Commission (EEOC)**.\n- It barred discrimination in federally funded programs under **Title VI**, giving the federal government power to withhold funds from segregated schools, hospitals, and universities.\n- It did not fully guarantee voting rights; that came mainly with the **Voting Rights Act of 1965**.\n\n**2. Enforcement and legal expansion**\n- The Supreme Court upheld the law in cases like **Heart of Atlanta Motel v. United States** and **Katzenbach v. McClung**, using the Commerce Clause to justify federal authority over segregation.\n- Later cases such as **Griggs v. Duke Power (1971)** established the doctrine of “disparate impact,” which became a basis for affirmative action and broader anti-discrimination enforcement.\n- Title VII’s ban on sex discrimination—added almost as a last-minute amendment—became a major tool for the women’s rights movement.\n\n**3. Social and economic change**\n- Legal segregation in public places largely ended in the South.\n- Black voter registration and political participation increased, especially after the Voting Rights Act.\n- Educational and employment opportunities expanded for African Americans, women, and other minorities.\n- However, de facto segregation, housing discrimination, economic inequality, and racial tension persisted. White flight, private segregation academies, and resistance to busing followed in many areas.\n\n**4. Political realignment**\n- The law helped accelerate the shift of white Southern voters away from the Democratic Party toward the Republican Party.\n- Barry Goldwater’s opposition to the Act in 1964 and Nixon’s “Southern strategy” deepened this realignment.\n- Civil rights became closely associated with the Democratic Party and expanded federal power, while a conservative backlash grew.\n\n**5. Foundation for later laws**\n- It paved the way for the **Voting Rights Act of 1965**, the **Fair Housing Act of 1968**, the **Age Discrimination in Employment Act of 1967**, the **Rehabilitation Act of 1973**, and the **Americans with Disabilities Act of 1990**.\n- Title VII was later interpreted to cover sexual harassment, pregnancy discrimination, and, in **Bostock v. Clayton County (2020)**, discrimination based on sexual orientation or gender identity.\n\nOverall, the Civil Rights Act of 1964 did not end racism or inequality, but it ended legal Jim Crow in public accommodations and employment, expanded federal enforcement of civil rights, transformed American politics, and created the legal framework for later anti-discrimination laws.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 2707,
+  "total_tokens": 2754,
+  "cost": 0.0032625,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0032625,
+   "upstream_inference_prompt_cost": 1.41e-05,
+   "upstream_inference_completions_cost": 0.0032484
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2112,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:11:12.736571+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

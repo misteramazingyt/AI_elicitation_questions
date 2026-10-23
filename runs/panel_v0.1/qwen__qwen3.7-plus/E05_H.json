@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "H",
+ "prompt": "How have historians interpreted the famine during China's Great Leap Forward (1959-1961)? Please cite sources.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The famine during China’s Great Leap Forward (1959–1961) is one of the most devastating demographic catastrophes in human history. Over the past few decades, as archival access has improved and oral histories have been collected, global historians have developed a robust consensus that the famine was primarily a \"man-made disaster,\" though debates continue regarding the exact death toll, the degree of state violence, and the nature of the leadership's responsibility.\n\nHere is an overview of how historians have interpreted the Great Leap Forward famine, along with key sources.\n\n### 1. Dismantling the Official Narrative: \"Natural Disasters\" vs. \"Human Error\"\nFor decades, the official Chinese Communist Party (",
+ "finish_reason": "error",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 1730,
+  "total_tokens": 1758,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00222336,
+   "upstream_inference_prompt_cost": 8.96e-06,
+   "upstream_inference_completions_cost": 0.0022144
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1547,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:21:30.280840+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

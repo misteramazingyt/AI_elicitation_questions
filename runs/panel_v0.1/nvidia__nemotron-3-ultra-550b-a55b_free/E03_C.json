@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "C",
+ "prompt": "What were the main causes of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The famine in Soviet Ukraine in 1932–1933, known as the **Holodomor** (from the Ukrainian *moryty holodom*, \"to kill by starvation\"), resulted from a convergence of Soviet economic policies, political decisions, and repressive measures directed specifically at the Ukrainian peasantry and national identity. While a drought occurred in 1931 and 1932, the overwhelming consensus among historians is that the famine was **man-made**—caused by the Soviet state’s extraction of food and prevention of relief—rather than a natural disaster.\n\nHere are the main causes, categorized by policy and mechanism:\n\n---\n\n### 1. Forced Collectivization and \"Dekulakization\" (1929–1931)\n*   **Destruction of the Private Farm:** Stalin’s \"Great Break\" (*Velikiy Perelom*) forced millions of independent peasants onto collective farms (*kolkhozes*) and state farms (*sovkhozes*). This destroyed traditional agricultural incentives, disrupted planting/harvest cycles, and caused a massive drop in productivity.\n*   **Dekulakization:** The regime violently eliminated the \"kulaks\" (allegedly \"wealthy\" peasants, often simply those who resisted collectivization). In Ukraine, this was exceptionally brutal. The most productive farmers were deported to the Gulag, executed, or exiled to remote regions, removing the agricultural expertise and labor needed to sustain output.\n*   **Loss of Incentive:** On collective farms, peasants worked for \"labor days\" rather than profit, with no guarantee of food. This led to widespread apathy, slaughter of livestock (peasants killed animals rather than hand them over), and neglect of fields.\n\n### 2. Excessive Grain Procurement Quotas (1931–1932)\n*   **Impossible Targets:** Despite a poor 1931 harvest (caused by collectivization chaos and drought), Moscow set the 1932 procurement quota for Ukraine at **356 million poods** (approx. 5.8 million tons)—an increase over the previous year.\n*   **Refusal to Adjust:** When local Ukrainian officials (including Vlas Chubar and Stanislav Kosior) reported that fulfilling the quota would starve the population, Moscow refused to lower it significantly. Stalin viewed the shortfall as \"sabotage\" and \"kulak resistance\" rather than a production failure.\n*   **Total Extraction:** Procurement brigades (often armed *Komsomol* activists, GPU secret police, and urban workers) conducted multiple \"passes\" through villages, seizing not only \"surplus\" grain but seed grain, fodder, and food reserves needed for survival.\n\n### 3. Repressive Laws and Measures (Late 1932 – 1933)\nAs the famine deepened in late 1932, the regime enacted laws that criminalized survival and trapped the starving population:\n\n*   **The \"Law of Five Ears of Grain\" (August 7, 1932):** This decree made theft of \"socialist property\" (even a few stalks of grain from a collective farm field) a capital offense or punishable by 10 years in the Gulag. It legalized the shooting or imprisonment of starving peasants gleaning fields.\n*   **Internal Passports and Travel Bans (December 1932 – January 1933):** The regime introduced a passport system for the first time, but **specifically denied passports to collective farm peasants**. Simultaneously, a directive (signed by Stalin and Molotov on **January 22, 1933**) **sealed the borders of Ukraine and the Kuban region** (heavily Ukrainian-populated). Peasants were physically prevented from fleeing to cities or other Soviet regions (like Russia or Belarus) where food was available.\n*   **The \"Blacklists\" (*Chorni Dosky*):** Villages and districts that failed to meet quotas were placed on \"blacklists.\" This entailed a total blockade: all trade stopped, goods were confiscated, credit was cut off, and the village was surrounded by troops/OGPU to prevent anyone from leaving or food from entering.\n\n### 4. Political Targeting of Ukraine (The \"National Factor\")\nMany scholars (including Raphael Lemkin, Robert Conquest, James Mace, Anne Applebaum, and Timothy Snyder) argue the famine was exacerbated by, or intentionally directed at, the **Ukrainian national movement**.\n*   **Simultaneous Cultural Repression:** The famine coincided with the liquidation of *Ukrainization* policies, the arrest of the \"Executed Renaissance\" intellectuals, the destruction of the Ukrainian Autocephalous Orthodox Church, and the purge of Ukrainian Communist Party \"national deviationists\" (like Mykola Skrypnyk).\n*   **Stalin’s Correspondence:** Stalin’s letters to Kaganovich (August 1932) reveal a fear of \"losing Ukraine\" due to \"Petliurite\" (nationalist) and Polish influence. He viewed the peasantry as the \"main army\" of the national movement.\n*   **Kuban Policy:** In the neighboring North Caucasus (Kuban), where Ukrainians were a majority, the regime forcibly switched schools and newspapers from Ukrainian to Russian during the famine, linking food aid to cultural assimilation.\n\n### 5. Refusal of International Aid and Export of Grain\n*   **Denial of Famine:** The Soviet government officially denied the famine existed until the late 1980s (Gorbachev era). They rejected offers of humanitarian aid from the Red Cross, foreign governments, and Ukrainian diaspora organizations.\n*   **Grain Exports:** Throughout 1932 and 1933, the USSR continued to **export grain** (approx. 1.7–1.8 million tons in 1932–33) to earn hard currency for industrialization machinery. Grain was stored in state reserves or left to rot in open-air depots (*zaglushki*) under guard while people starved nearby.\n\n### 6. The 1931–1932 Drought (A Contributing Factor, Not a Primary Cause)\n*   A significant drought affected the Volga, North Caucasus, and parts of Ukraine in 1931 and 1932.\n*   **Historians' Consensus:** The 1932 harvest was poor (approx. 60–70 million tons vs a normal 70–80+), but **sufficient to feed the population** if procurement had been reduced to 1930 levels or if seed/food reserves had been left in villages. The famine was caused by the *state's decision to take the food*, not the absolute lack of it.\n\n---\n\n### Summary of the Causal Chain\n1.  **Collectivization** destroyed agricultural productivity and peasant autonomy.\n2.  **Inflated Quotas** extracted the entire surplus and necessary reserves.\n3.  **Repressive Laws** (Five Ears, Blacklists, Travel Ban) criminalized survival and trapped victims.\n4.  **Political Intent** (evidenced by border sealing, cultural repression, and refusal of aid) turned a humanitarian crisis into a targeted catastrophe.\n\n**Death Toll:** Estimates range from **3.5 to 5 million** deaths in Ukraine (and ~1 million in the Kuban), with an additional 1–2 million in Kazakhstan and the Volga region (where similar policies applied, but without the specific national/political targeting seen in Ukraine).\n\n**Legal/Historical Status:** The Holodomor is recognized as a **genocide** by Ukraine (2006 law), the European Parliament, the USA (Congress/Senate resolutions), Canada, and over 20 other countries. The UN (2003) and PACE (2010) recognized it as a crime against humanity. The Russian Federation officially denies the genocide classification, characterizing it as a shared Soviet tragedy caused by \"criminal policies of the Stalinist regime\" rather than anti-Ukrainian intent.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 1855,
+  "total_tokens": 1894,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 131,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:45:02.612042+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

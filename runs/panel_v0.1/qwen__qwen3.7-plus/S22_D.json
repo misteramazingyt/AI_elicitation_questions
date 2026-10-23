@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "D",
+ "prompt": "Describe the Immigration and Nationality Act of 1965.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Immigration and Nationality Act of 1965, also widely known as the **Hart-Celler Act** (named after its primary sponsors, Senator Philip Hart and Representative Emanuel Celler), was a landmark piece of United States federal legislation. It fundamentally overhauled the U.S. immigration system, abolishing the discriminatory national origins quota system that had been in place since the 1920s and establishing the foundation for modern U.S. immigration policy.\n\nHere is a detailed description of the act, its context, provisions, and historical impact.\n\n### Historical Context\nPrior to 1965, U.S. immigration policy was governed by the Immigration Act of 1924 (the Johnson-Reed Act). That law established a \"National Origins Formula,\" a quota system designed to maintain the existing ethnic composition of the United States. It heavily favored immigrants from Northern and Western Europe while severely restricting or entirely banning immigration from Asia, Africa, and Southern and Eastern Europe. \n\nBy the 1960s, this system was widely criticized. The Civil Rights Movement had highlighted the injustice of explicit racial and ethnic discrimination in U.S. law. Furthermore, during the Cold War, the U.S. faced international embarrassment; its discriminatory immigration policies contradicted its global messaging about freedom, equality, and democracy, providing propaganda material for the Soviet Union.\n\n### Key Provisions of the Act\nThe 1965 Act shifted the basis of U.S. immigration policy from national origin to family reunification and skilled labor. Its main provisions included:\n\n*   **Abolition of the National Origins Quota:** The act eliminated the race- and nationality-based quota system. It established that no person could receive preferential treatment or be discriminated against in the issuance of an immigrant visa because of their race, sex, nationality, or place of birth.\n*   **The Preference System:** Immigration visas were allocated based on a seven-category preference system. The primary focus was on **family reunification** (prioritizing spouses, children, parents, and siblings of U.S. citizens and lawful permanent residents) and **occupational skills** (prioritizing professionals, scientists, and artists of exceptional ability).\n*   **Hemisphere Caps:** The act placed a ceiling of 170,000 visas per year for the Eastern Hemisphere, with a per-country limit of 20,000. Initially, the Western Hemisphere was not subject to a numerical cap or per-country limits, though a cap of 120,000 was applied to it in 1976.\n*   **Labor Certification:** It introduced a requirement that immigrants seeking employment-based visas obtain a labor certification, ensuring that their entry would not adversely affect the wages and working conditions of U.S. workers.\n\n### Impact and Demographic Shifts\nThe most profound legacy of the Hart-Celler Act was its dramatic alteration of the demographic landscape of the United States. \n\nBefore 1965, the vast majority of immigrants to the U.S. came from Europe. After the act's passage, the source regions of immigrants shifted drastically. Because the new system did not restrict immigration based on national origin, there was a massive increase in immigration from **Asia** (particularly the Philippines, India, China, and Korea), **Latin America** (particularly Mexico, El Salvador, and other Central and South American nations), and **Africa**. \n\nOver the following decades, the U.S. became significantly more racially and ethnically diverse, transitioning into a \"majority-minority\" trajectory that continues to shape the country's cultural, economic, and political landscape.\n\n### Unintended Consequences\nWhen debating the bill, its sponsors and supporters, including Senator Ted Kennedy, explicitly assured the public that the act would not alter the demographic balance of the United States. They projected that European immigration would remain dominant. This prediction proved entirely incorrect due to several unintended consequences:\n\n1.  **Exponential Family Reunification:** Lawmakers underestimated the power of the family reunification preference. Once a small number of immigrants from a specific country (such as India or the Philippines) established themselves in the U.S., they sponsored their relatives. Those relatives then sponsored their own relatives, creating a \"chain\" effect that led to massive, unforeseen spikes in immigration from specific non-European nations.\n2.  **Western Hemisphere Immigration:** Because the Western Hemisphere initially had no cap, and because the per-country limit of 20,000 applied equally to highly populated nations like Mexico and small nations like Iceland, legal immigration avenues for Latin Americans became heavily backlogged. This restriction on legal pathways is cited by historians and demographers as a contributing factor to the rise in unauthorized immigration from Latin America in the subsequent decades.\n\n### Legacy\nThe Immigration and Nationality Act of 1965 remains the bedrock of the modern U.S. legal immigration system. While the specific numerical caps and preference categories have been amended by subsequent legislation (such as the Immigration Act of 1990), the core philosophy established in 1965—prioritizing family ties and occupational skills while prohibiting discrimination based on national origin—remains in effect today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 2589,
+  "total_tokens": 2613,
+  "cost": 0.0033216,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0033216,
+   "upstream_inference_prompt_cost": 7.68e-06,
+   "upstream_inference_completions_cost": 0.00331392
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1510,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:46.305122+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

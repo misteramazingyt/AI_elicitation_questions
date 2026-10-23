@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "D",
+ "prompt": "Describe the invention of the movable-type printing press in Europe.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**Johannes Gutenberg** is credited with inventing the movable-type printing press in Europe around **1440** in Mainz, Germany. While movable type had been developed earlier in China (Bi Sheng, c. 1040, using ceramic type) and Korea (metal type by the 13th century), Gutenberg’s version was the first practical, scalable system in the West and combined several key innovations that made mass production feasible.\n\n### Key Elements of Gutenberg’s Invention\n- **Movable metal type**: He cast individual letters from a lead-tin-antimony alloy using a hand mold, allowing type to be reused and rearranged. This was far more durable and precise than earlier wooden or ceramic types.\n- **Oil-based ink**: Unlike water-based inks used in East Asia, Gutenberg developed a viscous, oil-based ink that adhered well to metal type and paper or vellum.\n- **Printing press**: He adapted a wooden screw press (similar to those used for wine or olive oil) to apply even pressure, enabling consistent impressions on large sheets.\n- **Paper and workflow**: He used high-quality rag paper and created an integrated production system that included type-setting, inking, pressing, and drying.\n\n### The Gutenberg Bible\nHis most famous work, the **42-line Bible** (c. 1455), demonstrated the technology’s power: roughly 180 copies were printed, a feat impossible with hand-copied manuscripts. This project also involved early financial and technical challenges, including a lawsuit with his investor Johann Fust that led to Gutenberg losing control of the press.\n\n### Impact\nWithin decades, printing spread rapidly across Europe (Venice, Paris, London, etc.), dramatically lowering the cost of books. This fueled the Renaissance, the Protestant Reformation (via rapid dissemination of texts like Luther’s pamphlets), and the Scientific Revolution by enabling wider access to knowledge.\n\nIn short, while not the absolute first movable-type system globally, Gutenberg’s European invention created the first economically viable method of printing that transformed communication and society.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 204,
+  "completion_tokens": 675,
+  "total_tokens": 879,
+  "cost": 0.0018081,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0018081,
+   "upstream_inference_prompt_cost": 0.0001206,
+   "upstream_inference_completions_cost": 0.0016875
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 273,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:14.978940+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

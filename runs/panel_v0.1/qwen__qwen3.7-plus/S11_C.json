@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "C",
+ "prompt": "What were the main causes of the 1969 Stonewall riots?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 1969 Stonewall riots (or uprising) were not the result of a single isolated incident, but rather the culmination of decades of systemic oppression, police harassment, and a shifting social climate. \n\nWhile the immediate cause was a police raid on the Stonewall Inn in Greenwich Village, New York, on June 28, 1969, the underlying causes can be broken down into several key categories:\n\n### 1. Systemic Legal and Medical Oppression\nIn the 1960s, homosexuality was heavily criminalized and pathologized in the United States.\n* **Criminalization:** Consensual same-sex sexual acts were illegal in every state except Illinois. In New York, there were also strict \"masquerade laws\" that made it illegal to wear fewer than three articles of clothing that corresponded to one's assigned sex at birth, effectively criminalizing drag queens and transgender people.\n* **Medical Pathologization:** The American Psychiatric Association classified homosexuality as a \"sociopathic personality disorder.\" This justified horrific \"treatments,\" including electroshock therapy, aversion therapy, and lobotomies.\n* **Civil Vulnerability:** There were no legal protections against discrimination. LGBTQ+ individuals could be legally fired from their jobs, evicted from their homes, and denied custody of their children simply for being suspected of homosexuality.\n\n### 2. Police Harassment and the Mafia’s Control of Gay Bars\nBecause of the intense social stigma and legal risks, gay people had very few places to socialize. \n* **Mafia Control:** \"Respectable\" business owners avoided running gay bars due to the threat of police raids and loss of liquor licenses. Consequently, the Mafia took over the gay bar scene. Bars like the Stonewall Inn were often dirty, overpriced, lacked basic amenities (like running water), and were used to water down liquor and extort patrons.\n* **Routine Raids:** Police routinely raided gay bars. The standard procedure was to line patrons up, check their IDs, and arrest those without proper identification or those violating the \"three-article clothing\" law. Usually, patrons complied quietly to avoid public exposure and arrest. The anger at Stonewall was fueled by years of this relentless, humiliating harassment.\n* **Police Corruption:** The Mafia frequently paid off the NYPD's Sixth Precise to allow the bars to operate, meaning raids were often used as a tool for extortion or to assert dominance rather than genuine law enforcement.\n\n### 3. The Demographics of the Patrons\nThe Stonewall Inn was unique because it welcomed a wide cross-section of the LGBTQ+ community, particularly those who were marginalized even within the gay community. \n* The patrons included drag queens, transgender women, butch lesbians, gay men, sex workers, and homeless youth. \n* Many of these individuals, particularly trans women of color (such as Marsha P. Johnson and Sylvia Rivera) and street youth, had already been pushed to the margins of society. They had the least to lose by fighting back and were highly resistant to the \"respectability politics\" advocated by earlier, more assimilationist gay rights groups (like the Mattachine Society), which urged LGBTQ+ people to dress and act conventionally to gain societal acceptance.\n\n### 4. The Explosive Social Climate of the 1960s\nThe riots did not happen in a vacuum; they occurred during a decade of massive social upheaval.\n* The **Civil Rights Movement**, the **Black Power movement**, the **anti-Vietnam War protests**, and **second-wave feminism** had created a culture of rebellion. \n* Young people were actively challenging authority, the draft, and traditional social norms. Greenwich Village was a hub for this counterculture. The spirit of the 1960s taught marginalized people that they could organize, protest, and physically push back against an oppressive state.\n\n### 5. The Immediate Trigger: The Raid on June 28, 1969\nThe specific events of that night transformed a routine raid into a multi-day uprising due to several factors:\n* **Unusual Aggression:** The raid, led by Deputy Inspector Seymour Pine, was unusually aggressive. Police were physically rough, used heavy slurs, and dragged patrons out into the street.\n* **The Crowd Gathered:** Unlike previous raids where patrons scattered, a crowd of former patrons and neighborhood locals gathered outside the bar. As the police loaded arrested individuals into paddy wagons, the crowd grew increasingly hostile, taunting the police.\n* **The Spark of Resistance:** The tension broke when a butch lesbian (often identified by historians as Stormé DeLarverie) was being forced into a police wagon. She fought back against the officers and yelled to the crowd, *\"Why don't you guys do something?\"* \n* **Escalation:** The crowd began throwing pennies at the police, mocking the officers for being \"paid off\" by the Mafia. This quickly escalated into throwing bottles, bricks, and cobblestones. The police barricaded themselves inside the bar, and the riot began.\n\n### Summary\nThe Stonewall riots were caused by the boiling over of decades of systemic abuse, criminalization, and police brutality. However, it was the specific intersection of the 1960s counterculture, the fierce resilience of the most marginalized members of the LGBTQ+ community, and the unusually aggressive nature of that specific police raid that turned a standard harassment tactic into the catalyst for the modern gay liberation movement.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 2734,
+  "total_tokens": 2761,
+  "cost": 0.00350816,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00350816,
+   "upstream_inference_prompt_cost": 8.64e-06,
+   "upstream_inference_completions_cost": 0.00349952
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1584,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:42.814507+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "Q",
+ "prompt": "What were the consequences of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Consequences of Britain's Abolition of the Slave Trade and Slavery (1807–1838)\n\n## Immediate Effects on the Trade\n\n- **Decline in British involvement**: After the Slave Trade Act of 1807, British ships were legally barred from trading in enslaved people, though illegal trading continued for years.\n- **Suppression efforts**: The Royal Navy's West Africa Squadron patrolled the Atlantic, intercepting slave ships (capturing over 1,600 vessels and freeing roughly 150,000 Africans over several decades). Britain also pressed other nations through treaties to abolish the trade.\n\n## Abolition of Slavery Itself (1833–1838)\n\n- The **Slavery Abolition Act 1833** ended slavery in most British colonies, taking effect in 1834, with \"apprenticeships\" for former slaves until 1838 (when full freedom came after protests).\n- **Compensation**: The British government paid £20 million (about 40% of its annual budget) to slave owners—not to the enslaved—in one of history's largest bailouts.\n\n## Consequences for Enslaved People and Colonies\n\n- **In the Caribbean**: Approximately 800,000 people were freed, but they received no land, compensation, or resources. Plantation economies struggled; many freed people left estates to become subsistence farmers.\n- **Ongoing inequality**: Rigid racial hierarchies, economic hardship, and limited political rights persisted well after emancipation.\n- **Apprenticeship abuses** led to unrest, notably in Jamaica, prompting the early end of the system in 1838.\n\n## Economic and Political Consequences\n\n- **Caribbean sugar colonies declined** in relative importance as the British economy shifted toward industry and free trade; the 1840s sugar duties reductions further hurt planters.\n- **Sugar replaced by alternatives**: Britain increasingly sourced sugar from free-labor producers (e.g., in Brazil and Cuba—ironically still slave-based economies).\n- **Colonial labor systems emerged**: Indentured laborers from India and China were brought to Caribbean and Indian Ocean colonies, creating new forms of coerced migration.\n- **Shift in imperial focus**: Britain turned toward Africa (later \"legitimate commerce\" in palm oil, etc.), and abolition became a rationale for imperial expansion.\n\n## Global and Ideological Consequences\n\n- **Humanitarian momentum**: Britain made abolition a cornerstone of foreign policy, pressuring other powers (successfully on the trade by mid-century; slavery itself persisted in the Americas—Brazil abolished slavery only in 1888).\n- **Anti-slavery movement**: Britain's actions energized transnational abolitionism and established the moral campaigning model later used against other practices.\n- **Underground railroad and slavery in the Americas**: British abolition of slavery across the Caribbean contrasted with the expansion of slavery in the United States, Cuba, and Brazil, making those regions the primary destinations for the trade.\n- **Unintended consequences of trade abolition**: The ban raised prices, temporarily incentivizing illegal trading and in some regions pushing more enslaved people into existing economies.\n\nIn short, Britain's abolition was a landmark moral and political achievement that freed hundreds of thousands, but it also compensated slaveholders rather than the enslaved, disrupted colonial economies without empowering freedpeople, and coincided with the growth of new coercive labor systems worldwide.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 33,
+  "completion_tokens": 684,
+  "total_tokens": 717,
+  "cost": 0.000269352,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000269352,
+   "upstream_inference_prompt_cost": 3.96e-06,
+   "upstream_inference_completions_cost": 0.000265392
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:21.375272+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

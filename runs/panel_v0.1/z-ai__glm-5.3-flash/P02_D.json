@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "D",
+ "prompt": "Describe the 1883 eruption of Krakatoa.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The 1883 Eruption of Krakatoa\n\nKrakatoa was a volcanic island in the Sunda Strait between Java and Sumatra, Indonesia. Its 1883 eruption was one of the most catastrophic volcanic events in recorded history.\n\n## The Eruption\n\nAfter months of increasing seismic activity, Krakatoa erupted violently on **August 26–27, 1883**. The climactic explosions on August 27 destroyed most of the island, obliterating the mountain and leaving a collapsed caldera beneath the sea.\n\n## Devastating Effects\n\n- **Tsunamis**: The explosions generated massive waves, some reaching 30+ meters (100 feet) high, which struck coastal villages on Java and Sumatra, killing tens of thousands of people.\n- **Death toll**: Approximately **36,000 people** died, mostly from the tsunamis.\n- **Sound**: The explosion was the loudest sound in recorded history—heard nearly 5,000 km (3,000 miles) away in Rodrigues Island near Mauritius. The pressure wave circled the globe multiple times.\n- **Global climate effects**: Enormous amounts of ash and sulfur dioxide were injected into the atmosphere, causing striking sunsets worldwide (famously linked by some to the sky in Edvard Munch's *The Scream*) and lowering global temperatures by around 0.4°C the following year.\n- **Barometric waves**: Instruments worldwide recorded pressure oscillations from the blast.\n\n## Aftermath\n\nThe eruption was among the first major natural disasters studied through modern global communication, with telegraph reports spreading news rapidly. In 1927, a new volcanic island, **Anak Krakatoa** (\"Child of Krakatoa\"), emerged from the caldera and continues to grow and erupt today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 783,
+  "total_tokens": 821,
+  "cost": 7.33539e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.33539e-05,
+   "upstream_inference_prompt_cost": 1.083e-06,
+   "upstream_inference_completions_cost": 7.22709e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 413,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:52.562911+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

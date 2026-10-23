@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "C",
+ "prompt": "What were the main causes of the Black Death in fourteenth-century Europe?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Causes of the Black Death (1347–1351)\n\n## Immediate Biological Cause\n\nThe Black Death was caused by the bacterium *Yersinia pestis*, transmitted primarily through fleas that infested black rats (*Rattus rattus*). The disease manifested in three forms:\n\n- **Bubonic plague** – the most common form, spread by flea bites, causing swollen lymph nodes (buboes)\n- **Pneumonic plague** – a lung infection spread person-to-person through coughing, nearly always fatal\n- **Septicemic plague** – blood infection, the rarest and deadliest form\n\n## Contributing Factors\n\n### Trade Networks\nThe plague likely traveled along the Silk Road from Central Asia, reaching the Crimean port of Caffa by 1346. Genoese merchant ships then carried it to Mediterranean ports, and from there it spread along trade routes throughout Europe. Dense commercial connections meant the disease moved with remarkable speed.\n\n### Climate Change\nThe onset of the **Little Ice Age** in the early 14th century brought cooler, wetter weather. The catastrophic rains and floods of 1315–1317 caused the Great Famine, weakening populations through malnutrition and making them more vulnerable to disease.\n\n### Urban Conditions\n- Overcrowded cities with poor sanitation\n- Waste in streets attracting rats\n- Close quarters in homes and markets facilitating transmission\n\n### Weakened Populations\nDecades of famine, malnutrition, and prior epidemics had compromised immune systems across Europe. The Great Famine of 1315–1317 alone killed hundreds of thousands.\n\n### Lack of Medical Knowledge\nMedieval medicine had no understanding of germ theory. Common remedies—herbal treatments, prayer, avoiding \"bad air\" (miasma)—were ineffective, and quarantine measures came only late in the outbreak.\n\n## Consequences\nThe pandemic killed an estimated 30–60% of Europe's population—roughly 25–50 million people—reshaping the economy, labor systems, and social order for generations.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 710,
+  "total_tokens": 752,
+  "cost": 6.673e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.673e-05,
+   "upstream_inference_prompt_cost": 1.197e-06,
+   "upstream_inference_completions_cost": 6.5533e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 290,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:58.012445+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

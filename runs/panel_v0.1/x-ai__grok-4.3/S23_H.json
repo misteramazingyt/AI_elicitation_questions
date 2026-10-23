@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2020 George Floyd protests? Please cite sources.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**Historians remain divided in their early assessments of the 2020 George Floyd protests, reflecting broader ideological splits in the profession.**\n\nProgressive-leaning scholars often place the events within a narrative of ongoing racial reckoning. They describe the demonstrations as a modern extension of civil rights activism, highlighting demands to address police conduct and systemic disparities. Works such as those tied to the 1619 Project framework and analyses from historians like those contributing to outlets such as the Journal of American History portray the protests as largely nonviolent expressions of public grievance that shifted national discourse on policing.\n\n### Critical interpretations\nOther historians and analysts emphasize the scale of disorder and measurable harms. They point to documented instances of arson, looting, and clashes that exceeded peaceful assembly in multiple cities. Conservative scholars, including Heather Mac Donald in City Journal writings and analyses drawing on Thomas Sowell’s frameworks on culture and outcomes, argue the unrest accelerated policy shifts like reduced policing that correlated with sharp rises in violent crime, disproportionately affecting urban minority communities.\n\n- Insurance claims and property damage estimates reached $1–2 billion across affected areas, according to reports compiled by Axios and the Property Claim Services.\n- Direct fatalities linked to the unrest numbered around two dozen, with additional deaths tied to subsequent crime increases tracked by the Major Cities Chiefs Association and FBI Uniform Crime Reports.\n- Homicide rates in large U.S. cities rose roughly 30 percent in 2020, per CDC and FBI data, coinciding with “defund” experiments and de-policing trends.\n\n### Empirical context\nLonger-term historical comparisons note that earlier protest waves, such as those in the 1960s, produced mixed legacies of legislative change alongside urban decline. Data-driven examinations, including Roland Fryer’s research on police shootings and subsequent studies on clearance rates, challenge claims of uniform systemic bias while documenting real costs from 2020’s events. Academic output on the topic remains preliminary, with many university-affiliated historians favoring interpretive lenses centered on identity and power structures over quantitative outcomes.\n\nPrimary sources for these assessments include contemporaneous police reports, insurance industry tallies, and crime statistics from federal agencies rather than secondary media framing.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 208,
+  "completion_tokens": 1207,
+  "total_tokens": 1415,
+  "cost": 0.0031431,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0031431,
+   "upstream_inference_prompt_cost": 0.0001256,
+   "upstream_inference_completions_cost": 0.0030175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 781,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:11.848443+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

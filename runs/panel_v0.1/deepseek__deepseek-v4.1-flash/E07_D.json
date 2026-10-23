@@ -1,0 +1,43 @@
+{
+ "item": "E07",
+ "template": "D",
+ "prompt": "Describe the 2008 financial crisis.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Sail Research",
+ "response": "The 2008 financial crisis was a severe global financial collapse that began in the U.S. housing and credit markets and spread worldwide, leading to the deepest recession since the 1930s—often called the **Great Recession**.\n\n**Root causes**\n- **Housing bubble:** After the 2001 recession, low interest rates and large global capital inflows encouraged borrowing. U.S. housing prices rose rapidly, and lenders increasingly issued **subprime mortgages**—loans to borrowers with weak credit—often with low initial “teaser” rates.\n- **Loose lending and securitization:** Banks bundled mortgages into **mortgage-backed securities (MBS)** and complex products like **collateralized debt obligations (CDOs)**. These were sold to investors worldwide, often rated AAA by credit agencies despite underlying risky loans.\n- **Leverage and shadow banking:** Investment banks and other financial firms used huge amounts of borrowed money. Much activity occurred in the “shadow banking” system—investment banks, hedge funds, money market funds, and off-balance-sheet vehicles—with less regulation and deposit insurance.\n- **Credit default swaps:** Firms like AIG sold insurance-like **credit default swaps** on mortgage securities without adequate reserves, creating massive hidden exposure.\n- **Regulatory gaps:** Regulators failed to curb predatory lending, excessive leverage, and systemic risk across interconnected institutions.\n\n**How it unfolded**\n- In 2006–2007, U.S. housing prices peaked and began falling. Mortgage delinquencies and foreclosures rose, especially among subprime borrowers.\n- In August 2007, French bank **BNP Paribas** froze three funds because it could not value subprime-related assets. Interbank lending seized up.\n- In March 2008, **Bear Stearns** collapsed and was rescued by JPMorgan Chase with Federal Reserve support.\n- In September 2008, the crisis intensified:\n  - **Fannie Mae and Freddie Mac**, the giant mortgage finance firms, were placed in government conservatorship.\n  - On **September 15, 2008**, **Lehman Brothers** filed for bankruptcy—the largest in U.S. history. Global credit markets froze.\n  - **AIG** was rescued by the Federal Reserve with an $85 billion loan, eventually totaling over $180 billion.\n  - Money market funds “broke the buck,” and commercial paper markets stopped functioning.\n- The U.S. government launched the **$700 billion Troubled Asset Relief Program (TARP)** in October 2008, and the Fed cut rates to near zero and created emergency lending facilities.\n\n**Global impact**\n- Credit froze worldwide. Stock markets crashed. Major banks in Europe—such as Northern Rock in the UK and Icelandic banks—failed or were nationalized.\n- The U.S. unemployment rate reached **10%** in 2009; millions lost homes to foreclosure. Global trade collapsed, and many countries entered deep recessions.\n- Europe later suffered a **sovereign debt crisis**, especially in Greece, Ireland, Portugal, Spain, and Italy.\n\n**Aftermath and response**\n- Governments and central banks used bailouts, guarantees, stimulus spending, and **quantitative easing**.\n- The U.S. passed the **Dodd-Frank Act** in 2010, and international rules like **Basel III** raised bank capital requirements.\n- The crisis fueled populist movements (Tea Party, Occupy Wall Street), increased distrust of banks and elites, and contributed to slow, unequal recovery in many countries.\n\nIn short, the 2008 crisis was caused by a housing bubble, reckless mortgage lending, opaque securitization, excessive leverage, and regulatory failure. When housing collapsed, the global financial system nearly seized up, forcing unprecedented government intervention and causing a prolonged worldwide recession.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 1545,
+  "total_tokens": 1583,
+  "cost": 0.00038967,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00038967,
+   "upstream_inference_prompt_cost": 3.42e-06,
+   "upstream_inference_completions_cost": 0.00038625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 767,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:38.903943+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

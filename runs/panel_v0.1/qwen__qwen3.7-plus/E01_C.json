@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "C",
+ "prompt": "What were the main causes of the New Deal (1933-1939)?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The New Deal, a series of programs, public work projects, financial reforms, and regulations enacted by President Franklin D. Roosevelt between 1933 and 1939, was primarily caused by the catastrophic economic and social collapse of the **Great Depression**. \n\nHowever, the specific causes that led to the creation of the New Deal can be broken down into immediate economic crises, underlying structural flaws in the 1920s economy, and the political and social climate of the early 1930s.\n\nHere are the main causes of the New Deal:\n\n### 1. The Immediate Economic Collapse\nThe most direct cause of the New Deal was the sheer scale of the economic devastation that occurred after the Stock Market Crash of 1929. By the time FDR took office in 1933, the U.S. economy was in a state of total paralysis:\n*   **Massive Unemployment:** Unemployment reached roughly 25% (and higher in some industrial areas). Millions of Americans were out of work, leading to widespread poverty and hunger.\n*   **Banking System Collapse:** Thousands of banks failed between 1929 and 1933. Because deposits were not insured, millions of people lost their life savings. By March 1933, a \"bank holiday\" was declared as banks across the country ran out of cash and were forced to close.\n*   **Deflation and Industrial Collapse:** Prices for goods and wages plummeted. Industrial production was cut in half, and businesses went bankrupt at record rates, creating a vicious cycle of reduced production and further job losses.\n*   **Agricultural Disaster:** Farm prices collapsed by nearly 60%, leaving farmers unable to pay their mortgages. This was compounded by the ecological disaster of the **Dust Bowl** in the Great Plains, which destroyed crops and forced mass migrations.\n\n### 2. Structural Flaws of the 1920s Economy\nHistorians and economists note that the Great Depression was made worse by underlying weaknesses in the U.S. economy during the \"Roaring Twenties,\" which the New Deal was designed to correct:\n*   **Wealth Inequality and Underconsumption:** During the 1920s, the majority of wealth was concentrated at the top. The working and middle classes did not earn enough to sustain the high levels of industrial and agricultural production, leading to a glut of unsold goods.\n*   **Lack of Financial Regulation:** The stock market was largely unregulated, allowing for rampant speculation, the use of dangerous margin buying (buying stocks with borrowed money), and insider trading. \n*   **Overproduction in Agriculture:** Advances in farming technology led to overproduction, which drove down crop prices even before the Depression hit, severely weakening the rural economy.\n\n### 3. The Failure of Herbert Hoover’s Policies\nThe philosophical and political approach of President Herbert Hoover heavily influenced the demand for the New Deal. \n*   **Laissez-Faire and Voluntarism:** Hoover believed in \"rugged individualism\" and limited government intervention. He relied on voluntary cooperation from businesses to maintain wages and prices, and he believed direct federal relief to the unemployed should be handled by local governments and private charities.\n*   **Perceived Inadequacy:** As the Depression deepened, Hoover’s policies were widely perceived by the public as inadequate and too slow. His reluctance to use the federal government to directly stimulate the economy or provide direct relief created a political vacuum that FDR’s New Deal filled.\n\n### 4. Social Unrest and the Threat of Radicalism\nThe human suffering caused by the Depression created a volatile social environment that demanded immediate government action.\n*   **Desperation and Protests:** The emergence of \"Hoovervilles\" (shantytowns), hunger marches, and violent clashes between police and protesters (such as the Bonus Army incident in 1932) showed that the social fabric was tearing.\n*   **Fear of Extremism:** As capitalism appeared to be failing, there was a genuine fear among the political establishment that desperate citizens might turn to radical political ideologies, such as communism, socialism, or fascism, which were gaining traction globally. The New Deal was seen by many as a way to save American capitalism by reforming it and providing a social safety net.\n\n### 5. The Political Mandate of the 1932 Election\nFinally, the New Deal was caused by a decisive shift in the American political landscape.\n*   **FDR’s Campaign:** During the 1932 presidential election, Franklin D. Roosevelt promised a \"New Deal for the American people.\" While the exact details of the programs were not fully fleshed out during the campaign, his willingness to experiment with federal intervention contrasted sharply with Hoover's status quo.\n*   **Democratic Coalition:** Roosevelt won a landslide victory, and the Democratic Party gained massive majorities in both the House and the Senate. This gave FDR the political capital and legislative backing required to pass an unprecedented volume of sweeping reforms during his famous \"First Hundred Days\" in office.\n\n### Summary\nThe New Deal was caused by the urgent need to address the **immediate humanitarian and economic crisis** of the Great Depression, correct the **unregulated structural flaws** of the 1920s economy, and respond to the **political and social demands** of a populace that had lost faith in the previous administration's hands-off approach. Ultimately, it represented a fundamental shift in the relationship between the U.S. government and its economy, establishing the federal government as a primary actor in economic management and social welfare.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 2451,
+  "total_tokens": 2481,
+  "cost": 0.00314688,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00314688,
+   "upstream_inference_prompt_cost": 9.6e-06,
+   "upstream_inference_completions_cost": 0.00313728
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1278,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:19:15.416571+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

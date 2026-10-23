@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "C",
+ "prompt": "What were the main causes of the Republican Party's \"Southern strategy\"?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Relace",
+ "response": "The Republican Party’s “Southern strategy” was not a single plan but a long-term electoral effort, especially from the 1960s onward, to win white Southern voters away from the Democratic Party and break the “Solid South.” Its main causes were a mix of racial backlash, party realignment, economic conservatism, and Republican electoral ambition.\n\n**1. The national Democratic Party’s embrace of civil rights.**  \nThe decisive catalyst was the Democratic Party’s shift on civil rights. Truman’s 1948 civil rights program and military desegregation sparked the Dixiecrat revolt. Later, *Brown v. Board of Education* (1954), federal intervention at Little Rock (1957), the Civil Rights Act of 1964, and the Voting Rights Act of 1965 convinced many white Southerners that the national Democratic Party no longer represented them. Since Democratic presidents and northern Democrats championed these laws, the GOP could present itself as the party of Southern white resistance or “states’ rights.”\n\n**2. White Southern backlash to desegregation and federal power.**  \nMany white Southerners opposed federally enforced desegregation, busing, affirmative action, and what they saw as federal intrusion into local life. This backlash was often expressed through the language of “states’ rights,” “law and order,” and opposition to “big government,” but racial grievance was central. The GOP appealed to these voters by opposing busing, criticizing federal desegregation enforcement, and promising to protect local traditions and order.\n\n**3. Republican electoral incentives and the Goldwater breakthrough.**  \nAfter the New Deal, the South was overwhelmingly Democratic. Republicans needed new electoral votes, and the growing Sun Belt made the South increasingly attractive. Barry Goldwater’s 1964 presidential campaign—especially his vote against the Civil Rights Act and his states’ rights rhetoric—won several Deep South states. This showed Republicans that a Southern strategy could work. Strom Thurmond’s 1964 switch from Democrat to Republican symbolized the emerging realignment.\n\n**4. Nixon’s “Southern strategy” in 1968 and 1972.**  \nRichard Nixon and his advisers turned the Goldwater breakthrough into a broader strategy. Nixon appealed to the “silent majority” and “law and order,” opposed forced busing, slowed federal desegregation efforts, and courted Southern conservatives. This helped him win Southern and border states and made the GOP competitive across the South.\n\n**5. Economic, suburban, and cultural conservatism.**  \nThe strategy also rested on more than race. The postwar South saw rapid suburbanization, defense-industry growth, low taxes, anti-union “right-to-work” laws, and business conservatism. Later, evangelical and religious conservatives became a major Republican constituency, especially around issues like abortion, school prayer, and cultural change. These economic and cultural appeals overlapped with racial backlash but also had independent force.\n\nIn short, the Southern strategy was caused by the national Democratic Party’s civil rights turn, white Southern backlash to desegregation and federal intervention, Republican electoral ambition, Nixon’s deliberate courtship of Southern whites, and the South’s growing conservative suburban and religious culture. Racial backlash was the most important catalyst, but it worked alongside states’ rights, economic conservatism, and cultural grievance.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 2196,
+  "total_tokens": 2240,
+  "cost": 0.00110108,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00110108,
+   "upstream_inference_prompt_cost": 3.08e-06,
+   "upstream_inference_completions_cost": 0.001098
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1526,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:11:19.008225+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

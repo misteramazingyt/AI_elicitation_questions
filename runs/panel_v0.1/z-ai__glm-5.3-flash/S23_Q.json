@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2020 George Floyd protests?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the 2020 George Floyd Protests\n\nThe protests following George Floyd's murder in May 2020 were among the largest protest movements in U.S. history, with estimates of 15–26 million participants. Their consequences were wide-ranging:\n\n## Policy and Policing Changes\n\n- **Police reform legislation**: Many states and cities passed reforms, including bans on chokeholds, limits on no-knock warrants (e.g., \"Breonna's Law\"), and duty-to-intervene requirements.\n- **Federal action**: The George Floyd Justice in Policing Act passed the House but stalled in the Senate. President Biden issued executive orders on federal policing standards.\n- **Department of Justice investigations**: Pattern-or-practice investigations into several police departments (Minneapolis, Louisville, and others).\n- **Local restructuring**: Some cities cut police budgets or redirected funds to social services, though \"defund the police\" produced mixed and often modest actual changes. Minneapolis voters rejected a measure to replace their police department.\n\n## Convictions and Legal Outcomes\n\n- Derek Chauvin was convicted of murder in 2021 and sentenced to over 22 years; the other three officers involved were also convicted.\n- George Floyd's family received a $27 million settlement from Minneapolis.\n\n## Cultural and Corporate Shifts\n\n- **Corporate responses**: Companies pledged billions toward racial equity initiatives and diversity programs, though many later scaled these back.\n- **Symbolic changes**: Removal or renaming of Confederate monuments and other contested symbols accelerated; Juneteenth became a federal holiday.\n- **Racial justice discourse**: Terms like \"systemic racism\" entered mainstream conversation, though this also sparked political backlash.\n\n## Backlash and Political Consequences\n\n- **Criticism of protests**: Some protests involved property damage and violence; polls showed declining public support as unrest continued.\n- **Crime and policing politics**: Rising homicide rates in 2020–2021 became a major political issue, with Republicans campaigning on \"law and order\" themes.\n- **Legislative counter-movement**: Many states passed laws increasing protections for police and restricting protest rights.\n- **Educational conflicts**: Intensified fights over how race is taught, contributing to restrictions on critical race theory in schools.\n\n## Long-Term Uncertainty\n\nThe movement's durability has been debated—some reforms persisted, while others were reversed or faded amid changing political winds and later Supreme Court decisions limiting federal oversight tools.\n\nWould you like more detail on any particular aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 791,
+  "total_tokens": 831,
+  "cost": 7.41493e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.41493e-05,
+   "upstream_inference_prompt_cost": 1.14e-06,
+   "upstream_inference_completions_cost": 7.30093e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 290,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:45.141405+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

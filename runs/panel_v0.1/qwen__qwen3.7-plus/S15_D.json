@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "D",
+ "prompt": "Describe the 1948 Arab-Israeli war.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 1948 Arab-Israeli War was the first major military conflict in the Arab-Israeli conflict. It is known in Israel as the **War of Independence** and in the Arab world, particularly among Palestinians, as the **Nakba** (Arabic for \"Catastrophe\"). \n\nThe war occurred in two main phases: a civil war between Jewish and Arab communities in Mandatory Palestine, followed by an interstate war between the newly declared State of Israel and neighboring Arab states.\n\nHere is an overview of the background, phases, and outcomes of the conflict.\n\n### Background and Causes\nFollowing World War II, tensions between the Jewish and Arab populations in the British Mandate of Palestine escalated dramatically. The British, exhausted by the war and facing insurgencies from both Jewish underground groups and Arab militants, announced their intention to terminate the Mandate.\n\nOn November 29, 1947, the United Nations General Assembly passed **Resolution 181**, which recommended partitioning Palestine into independent Arab and Jewish states, with Jerusalem placed under a special international regime (*corpus separatum*). \n*   **Jewish Leadership:** Accepted the partition plan.\n*   **Arab Leadership:** Both the Palestinian Arab Higher Committee and the Arab League rejected the plan, arguing that it violated the rights of the Arab majority, which constituted roughly two-thirds of the population and owned the majority of the land.\n\n### Phase 1: The Civil War (November 1947 – May 1948)\nFollowing the UN vote, law and order in Palestine broke down, sparking a civil war. \n*   **Combatants:** The fighting was primarily between Jewish militias (the Haganah, and the more radical Irgun and Lehi) and Palestinian Arab irregulars, alongside the Arab Liberation Army (a volunteer force from neighboring Arab states).\n*   **Dynamics:** Initially, Arab forces had the upper hand, successfully disrupting Jewish supply lines and besieging Jewish neighborhoods in Jerusalem. By the spring of 1948, Jewish forces had mobilized, reorganized, and launched a series of offensives (such as Operation Nachshon) to break the sieges, secure the borders of the proposed Jewish state, and connect isolated settlements. \n*   **Displacement:** During this phase, the first wave of Palestinian refugees began to flee or were expelled from their villages due to military assaults, psychological warfare, and the collapse of local Arab leadership.\n\n### Phase 2: The Interstate War (May 1948 – 1949)\nOn May 14, 1948, the day before the British Mandate officially expired, David Ben-Gurion, the head of the Jewish Agency, declared the establishment of the State of Israel. The United States and the Soviet Union immediately granted *de facto* recognition.\n\n*   **The Invasion:** On May 15, the armies of Egypt, Transjordan (now Jordan), Syria, Lebanon, and Iraq invaded the former Mandate territory. \n*   **Arab Strategy:** The Arab states lacked a unified command and had differing strategic objectives. Transjordan’s King Abdullah primarily sought to secure the West Bank and East Jerusalem, while Egypt focused on the southern coastal plain. Iraq sent a large force but was largely contained in the north.\n*   **Israeli Strategy:** The newly formed Israel Defense Forces (IDF), which unified the various Jewish militias, fought to secure the state's existence, expand its territory beyond the UN partition lines, and keep the Arab armies divided. Despite being initially outgunned, Israel successfully defended key areas and secured vital arms shipments (notably from Czechoslovakia).\n\nThe war was punctuated by two UN-brokered truces. During the second truce in the summer of 1948, Israel massively expanded its military through conscription and re-equipment. When fighting resumed, Israeli forces launched successful counter-offensives, capturing the Lower Galilee, the Negev desert, and securing the coastal plain.\n\n### Outcomes and Territorial Changes\nThe active fighting ended with a series of armistice agreements signed in 1949 between Israel and the individual Arab states (Egypt, Lebanon, Transjordan, and Syria). Iraq refused to sign an armistice but withdrew its troops.\n\nThe war resulted in a new geopolitical map:\n*   **Israel:** Controlled approximately 78% of Mandatory Palestine, significantly more than the 56% allocated by the UN partition plan. This included the vital coastal plain, the Galilee, and the Negev. West Jerusalem was also under Israeli control.\n*   **Transjordan:** Annexed the West Bank and East Jerusalem (including the Old City and its holy sites). The country subsequently changed its name to the Hashemite Kingdom of Jordan.\n*   **Egypt:** Occupied and administered the Gaza Strip.\n*   **Palestinian State:** No independent Palestinian Arab state was established.\n\n### Human Cost and Demographic Impact\nThe war had profound and lasting demographic consequences for both populations.\n\n*   **The Palestinian Refugee Crisis (The Nakba):** An estimated 700,000 Palestinians fled or were expelled from their homes during the conflict. The causes of this exodus remain a subject of intense historical debate, involving a combination of direct military expulsions, fear of massacres (such as the Deir Yassin massacre), psychological warfare, and the collapse of Palestinian society. The refugees ended up in the West Bank, Gaza, and neighboring Arab countries (Lebanon, Syria, Jordan), where many remain stateless today. The UN established UNRWA to assist them.\n*   **Casualties:** Approximately 6,000 Israelis (about 1% of the Jewish population at the time) were killed, including roughly 2,000 civilians. Arab military and civilian casualties are estimated to be between 10,000 and 15,000, though exact figures are difficult to verify.\n*   **Jewish Refugees from Arab Lands:** In the aftermath of the 1948 war and the subsequent establishment of Israel, rising antisemitism and state-sponsored persecution in the Arab and Muslim world led to the exodus of roughly 850,000 Jews from Middle Eastern and North African countries over the following decades. Many of these Mizrahi and Sephardi Jews immigrated to Israel.\n\n### Legacy\nThe 1948 war resolved the immediate struggle over the establishment of a Jewish state, but it left the underlying conflict unresolved. The displacement of the Palestinians created a lasting refugee crisis, the lack of a Palestinian state became a central grievance, and the new borders (the \"Green Line\") became the basis for all subsequent territorial disputes in the region.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 3268,
+  "total_tokens": 3290,
+  "cost": 0.00419008,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00419008,
+   "upstream_inference_prompt_cost": 7.04e-06,
+   "upstream_inference_completions_cost": 0.00418304
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1852,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:26:27.332968+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

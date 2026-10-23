@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "H",
+ "prompt": "How have historians interpreted the Black Death in fourteenth-century Europe? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "Historians’ interpretations of the Black Death have shifted repeatedly: from a Europe-centered story of bubonic plague and catastrophe, to debates over what pathogen was involved, how many people died, and whether the plague was a decisive turning point or merely accelerated changes already underway. Recent work stresses global connections, environmental context, and regional variation.\n\n**1. Cause and epidemiology.** Earlier twentieth-century accounts, such as Philip Ziegler’s *The Black Death* (1969), treated the pandemic as bubonic plague caused by *Yersinia pestis*, spread by rats and fleas. Ole Benedictow (*The Black Death 1346–1353*, 2004) remains the leading advocate of this model and argues for very high mortality—perhaps 50–60% of Europe’s population. But Samuel Cohn (*The Black Death Transformed*, 2002) challenged the rat–flea model, noting that the fourteenth-century disease spread and killed in ways unlike modern bubonic plague, and questioned high mortality estimates. Ancient DNA has since confirmed that *Y. pestis* was present in Black Death victims (Bos et al. 2011; Spyrou et al. 2016, 2019), settling the pathogen question, though transmission mechanisms, mortality rates, and the role of rats versus human ectoparasites remain debated.\n\n**2. Mortality and demography.** Historians disagree sharply about death rates. Benedictow (2004) argues for catastrophic mortality across Europe, while John Hatcher (*Plague, Population, and the English Economy, 1348–1530*, 1977) and Cohn (2002) caution that local records are uneven and that mortality varied greatly by region, age, and social group. Bruce Campbell (*The Great Transition*, 2016) situates the plague within a wider fourteenth-century crisis involving climate deterioration, famine, and epidemic disease. The result is a consensus that the Black Death was devastating but not uniformly so.\n\n**3. Economic and social consequences.** Older Malthusian interpretations, associated with M. M. Postan (*The Medieval Economy and Society*, 1972), saw the plague as intensifying a pre-existing crisis of overpopulation and falling agricultural productivity. David Herlihy (*The Black Death and the Transformation of the West*, 1997) argued instead that the demographic shock broke Malthusian constraints, raised wages and per-capita income, and stimulated capitalism, labor-saving technology, and secularization. Robert Brenner (“Agrarian Class Structure and Economic Development in Pre-Industrial Europe,” 1976) insisted that class relations and institutions determined outcomes: similar demographic shocks produced divergent results, such as peasant gains in western Europe and intensified serfdom in eastern Europe. Christopher Dyer (*An Age of Transition?*, 2005) and Campbell (2016) emphasize regional complexity, consumer demand, and the uneven decline of serfdom.\n\n**4. Cultural and religious responses.** Historians have examined how contemporaries interpreted the plague as divine punishment, leading to flagellant movements, renewed piety, and persecution of Jews. Rosemary Horrox’s sourcebook *The Black Death* (1994) and John Aberth’s *The Black Death: The Great Mortality of 1348–1350* (2005) show the range of apocalyptic, medical, and religious responses. Samuel Cohn (“The Black Death and the Burning of Jews,” 2007) argues that anti-Jewish violence was real but not universal; local authorities sometimes protected Jewish communities. Art historians note the rise of *danse macabre*, memento mori, and plague saints such as Sebastian and Roch.\n\n**5. Global and environmental turns.** Recent scholarship, especially Monica Green (“Taking ‘Pandemic’ Seriously,” 2014; “The Four Black Deaths,” 2020), urges historians to see the Black Death as part of a wider Afro-Eurasian “Second Plague Pandemic,” not simply a European event. William McNeill’s *Plagues and Peoples* (1976) helped pioneer this global disease-history approach. Campbell (2016) integrates climate, famine, and plague into a single late-medieval “great transition.”\n\nIn short, historians now generally accept *Y. pestis* as the pathogen, but they continue to debate mortality, transmission, and consequences. The Black Death is best understood not as a single uniform catastrophe but as a series of regional disasters whose social and economic effects were mediated by class, institutions, environment, and prior crises.\n\n**Sources cited**\n\n- Aberth, John. *The Black Death: The Great Mortality of 1348–1350*. Bedford/St. Martin’s, 2005.  \n- Benedictow, Ole J. *The Black Death 1346–1353: The Complete History*. Boydell, 2004.  \n- Bos, Kirsten I., et al. “A Draft Genome of Yersinia pestis from Victims of the Black Death.” *Nature* 478 (2011): 506–510.  \n- Brenner, Robert. “Agrarian Class Structure and Economic Development in Pre-Industrial Europe.” *Past & Present* 70 (1976): 30–75.  \n- Campbell, Bruce M. S. *The Great Transition: Climate, Disease and Society in the Late-Medieval World*. Cambridge University Press, 2016.  \n- Cohn, Samuel K. *The Black Death Transformed: Disease and Culture in Early Renaissance Europe*. Arnold, 2002.  \n- Cohn, Samuel K. “The Black Death and the Burning of Jews.” *Past & Present* 196 (2007): 3–36.  \n- Dyer, Christopher. *An Age of Transition? Economy and Society in England in the Later Middle Ages*. Oxford University Press, 2005.  \n- Green, Monica H. “Taking ‘Pandemic’ Seriously: Making the Black Death Global.” *The Medieval Globe* 1 (2014): 27–61.  \n- Green, Monica H. “The Four Black Deaths.” *American Historical Review* 125, no. 5 (2020): 1601–1631.  \n- Hatcher, John. *Plague, Population, and the English Economy, 1348–1530*. Macmillan, 1977.  \n- Herlihy, David. *The Black Death and the Transformation of the West*. Harvard University Press, 1997.  \n- Horrox, Rosemary, ed. *The Black Death*. Manchester University Press, 1994.  \n- McNeill, William H. *Plagues and Peoples*. Anchor, 1976.  \n- Postan, M. M. *The Medieval Economy and Society*. Penguin, 1972.  \n- Spyrou, Maria A., et al. “Historical Y. pestis Genomes Reveal the European Black Death as the Source of Ancient and Modern Plague Pandemics.” *Cell Host & Microbe* 19, no. 6 (2016): 874–881.  \n- Spyrou, Maria A., et al. “Phylogeography of the Second Plague Pandemic Revealed through Analysis of Historical Yersinia pestis Genomes.” *Nature Communications* 10 (2019): 4470.  \n- Ziegler, Philip. *The Black Death*. Collins, 1969.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 5261,
+  "total_tokens": 5307,
+  "cost": 0.003766353,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.003766353,
+   "upstream_inference_prompt_cost": 4.738e-06,
+   "upstream_inference_completions_cost": 0.003761615
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3729,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:58:44.134232+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

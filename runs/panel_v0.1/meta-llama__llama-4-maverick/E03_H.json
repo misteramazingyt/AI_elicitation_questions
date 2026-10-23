@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "H",
+ "prompt": "How have historians interpreted the famine in Soviet Ukraine in 1932-1933? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "Parasail",
+ "response": "The famine in Soviet Ukraine in 1932-1933, known as the Holodomor, has been the subject of extensive historical research and debate. Historians have offered various interpretations of the famine, its causes, and its consequences. Here are some of the main perspectives:\n\n1. **Genocide interpretation**: Many historians, particularly those from Ukraine and some Western scholars, consider the Holodomor to be a genocide perpetrated by the Soviet government, led by Joseph Stalin, against the Ukrainian people. They argue that the famine was deliberately caused by the Soviet authorities to crush Ukrainian nationalism, collectivize agriculture, and exploit Ukraine's resources. (Sources: Conquest, 1986; Subtelny, 2000; Kulchytskyi, 2008)\n2. **Policy failure interpretation**: Some historians view the Holodomor as a tragic consequence of Stalin's agricultural policies, particularly the forced collectivization and grain requisitioning. They argue that the Soviet government's policies were misguided and led to the famine, but do not necessarily see it as a deliberate act of genocide. (Sources: Davies and Wheatcroft, 2004; Tauger, 2001)\n3. **Economic and environmental factors interpretation**: A few historians emphasize the role of economic and environmental factors, such as crop failures, livestock losses, and the impact of industrialization on agriculture, in contributing to the famine. They argue that the famine was not solely the result of Soviet policies, but rather a complex interplay of factors. (Sources: Tauger, 1991; Markevich and Sokolov, 2005)\n4. **Regional variation interpretation**: Some historians highlight the regional variations in the impact of the famine, arguing that the severity of the famine differed across Ukraine and that local factors, such as agricultural practices and demographic characteristics, played a significant role. (Sources: Henningsen, 2013; Nataliia Levchuk et al., 2018)\n\nThese interpretations are not mutually exclusive, and many historians combine elements from multiple perspectives. The debate continues, reflecting the complexity of the historical event and the ongoing discussion about its causes and consequences.\n\nSources:\n\n* Conquest, R. (1986). The Harvest of Sorrow: Soviet Collectivization and the Terror-Famine. Oxford University Press.\n* Subtelny, O. (2000). Ukraine: A History. University of Toronto Press.\n* Kulchytskyi, S. (2008). Holodomor: Velika katastrofa ukraïns'koho narodu 1932-1933 rr. (Holodomor: The Great Catastrophe of the Ukrainian People 1932-1933). Instytut istoriï Ukraïny NAN Ukraïny.\n* Davies, R. W., & Wheatcroft, S. G. (2004). The Years of Hunger: Soviet Agriculture, 1931-1933. Palgrave Macmillan.\n* Tauger, M. B. (2001). Natural Disaster and Human Actions in the Soviet Famine of 1931-1933. The Carl Beck Papers in Russian and East European Studies, 1506.\n* Tauger, M. B. (1991). The 1932 Harvest and the Famine of 1933. Slavic Review, 50(1), 70-89.\n* Markevich, A., & Sokolov, A. (2005). \"Magnitka bliz Sadovogo koltsa\": Stimuly k rabote na moskovskikh i magnitogorskikh zavodakh, 1930-e gody (\"Magnitka near the Garden Ring\": Incentives to Work at Moscow and Magnitogorsk Plants, 1930s). Ekonomicheskaya istoriya: Obozrenie, 10, 136-156.\n* Henningsen, L. (2013). The famine in Ukraine 1932-1933: a study of selected parishes. Journal of Ukrainian Studies, 38(1-2), 127-154.\n* Levchuk, N., et al. (2018). Regional variations in the demographic impact of the Holodomor. Journal of Genocide Research, 20(2), 177-196.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 31,
+  "completion_tokens": 876,
+  "total_tokens": 907,
+  "cost": 0.00088685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00088685,
+   "upstream_inference_prompt_cost": 1.085e-05,
+   "upstream_inference_completions_cost": 0.000876
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:35.462412+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "Q",
+ "prompt": "What were the consequences of Argentina's 2001 economic crisis?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 2001 economic crisis in Argentina had severe and far-reaching consequences, both domestically and internationally. Some of the key consequences include:\n\n1. **Massive economic contraction**: Argentina's economy shrank by over 15% in 2002, leading to widespread poverty and unemployment. The crisis resulted in a significant decline in GDP, industrial production, and trade.\n2. **Default on foreign debt**: Argentina defaulted on its $100 billion foreign debt, the largest sovereign debt default in history at the time. This led to a loss of credibility in international financial markets and made it difficult for the country to access credit in the future.\n3. **Currency devaluation**: The government abandoned the currency peg (one-to-one parity with the US dollar) and allowed the peso to float, resulting in a significant devaluation. The peso lost over 70% of its value against the US dollar, leading to high inflation and reduced purchasing power for citizens.\n4. **Social unrest and protests**: The crisis led to widespread social unrest, with protests, lootings, and riots across the country. The \"cacerolazo\" (pot-banging) protests became a symbol of the crisis, as citizens expressed their frustration and anger with the government.\n5. **Government instability**: The crisis led to a change in government, with President Fernando de la Rúa resigning in December 2001. The subsequent governments, led by Eduardo Duhalde and Néstor Kirchner, implemented various policies to stabilize the economy and manage the crisis.\n6. **Banking system crisis**: The crisis led to a freeze on bank deposits (known as the \"corralito\"), which restricted access to savings and further exacerbated the economic contraction. Many banks faced significant losses, and some were eventually closed or restructured.\n7. **Increased poverty and inequality**: The crisis led to a significant increase in poverty and inequality, with many citizens losing their savings, jobs, and livelihoods. The poverty rate rose from around 30% in 2000 to over 50% in 2002.\n8. **Long-term impact on economic growth**: The crisis had a lasting impact on Argentina's economic growth, with the country experiencing a slow and uneven recovery. The crisis also led to a re-evaluation of the country's economic model and a shift towards more protectionist and interventionist policies.\n9. **International implications**: The crisis had international implications, as it raised concerns about the stability of emerging markets and the risks associated with investing in countries with high levels of debt and economic volatility.\n\nOverall, the 2001 economic crisis in Argentina was a severe and multifaceted event that had significant consequences for the country's economy, politics, and society. While the country has made progress in recovering from the crisis, the legacy of the crisis continues to shape Argentina's economic and political landscape.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 577,
+  "total_tokens": 600,
+  "cost": 0.000380805,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000380805,
+   "upstream_inference_prompt_cost": 4.3125e-06,
+   "upstream_inference_completions_cost": 0.0003764925
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:04:00.435031+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

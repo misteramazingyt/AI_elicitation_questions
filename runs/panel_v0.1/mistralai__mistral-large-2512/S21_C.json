@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **Immigration Act of 1924** (also known as the **Johnson-Reed Act**) was a landmark U.S. law that established strict **national-origin quotas**, drastically reducing immigration from Southern and Eastern Europe, Asia, and other regions while favoring Northern and Western Europeans. The law had several key causes:\n\n### **1. Nativism & Racial Anxieties**\n   - **Fear of \"Inferior\" Races**: Many Americans, influenced by **eugenics** and **scientific racism**, believed that immigrants from Southern and Eastern Europe (Italians, Jews, Slavs, Greeks) were racially inferior to Anglo-Saxons and Nordics.\n   - **Anti-Asian Sentiment**: The law **completely banned immigration from Asia** (extending the **Chinese Exclusion Act of 1882**), reflecting deep-seated racism against Chinese, Japanese, and other Asian groups.\n   - **KKK & White Supremacy**: The resurgence of the **Ku Klux Klan** in the 1920s, which promoted white Protestant supremacy, helped push for restrictive immigration policies.\n\n### **2. Post-World War I Isolationism & Xenophobia**\n   - **Red Scare (1919–1920)**: The fear of **communism and anarchism** (linked to Eastern European immigrants) led to a crackdown on radicalism, reinforcing the idea that immigrants were a threat to American stability.\n   - **Isolationist Sentiment**: After World War I, many Americans wanted to **avoid foreign entanglements** and believed that restricting immigration would protect American culture and jobs.\n\n### **3. Labor Competition & Economic Concerns**\n   - **Fear of Cheap Labor**: Native-born workers and labor unions (like the **American Federation of Labor**) argued that immigrants **depressed wages** and took jobs from Americans.\n   - **Urban Overcrowding**: Rapid immigration in the late 19th and early 20th centuries led to **overcrowded cities**, poor living conditions, and social tensions, fueling calls for restrictions.\n\n### **4. Political Pressure from Restrictionist Groups**\n   - **Immigration Restriction League (IRL)**: Founded in 1894, this group lobbied for **literacy tests** and **quota systems** to limit \"undesirable\" immigrants.\n   - **Congressional Support**: Key figures like **Senator William P. Dillingham** (author of the **Dillingham Commission Report**, 1911) and **Congressman Albert Johnson** (co-sponsor of the 1924 Act) pushed for strict immigration controls based on racial and national-origin criteria.\n\n### **5. The Emergency Quota Act of 1921 (Temporary Precedent)**\n   - The **Emergency Quota Act of 1921** (a temporary measure) had already set **quotas based on 3% of each nationality’s U.S. population in 1910**, favoring Northern and Western Europeans.\n   - The **1924 Act made these restrictions permanent** and **tightened them further** by using the **1890 census** (when fewer Southern and Eastern Europeans had arrived) to calculate quotas.\n\n### **6. Fear of Cultural Change**\n   - Many **Protestant Americans** (especially in rural areas) saw Catholic and Jewish immigrants as a threat to **Anglo-Saxon Protestant dominance**.\n   - The rise of **urban, industrial America** (with its immigrant-heavy cities) clashed with the **rural, traditionalist values** of many native-born Americans.\n\n### **Key Provisions of the 1924 Act**\n   - **National Origins Quota System**: Limited annual immigration to **2% of each nationality’s U.S. population as of 1890** (before mass Southern/Eastern European immigration).\n   - **Asian Exclusion**: Banned all immigration from **Asia** (including Japan, despite the **Gentlemen’s Agreement of 1907**).\n   - **No Quotas for the Western Hemisphere**: Latin American immigration (especially from Mexico) was **not restricted**, as agricultural and business interests lobbied to maintain cheap labor.\n   - **Literacy Test & Visa Requirements**: Strengthened screening to keep out \"undesirables.\"\n\n### **Consequences of the Act**\n   - **Drastic Reduction in Immigration**: Immigration from Southern and Eastern Europe **fell by over 80%**.\n   - **Long-Term Demographic Impact**: The U.S. became more **white and Protestant** for decades, shaping the country’s racial and ethnic composition until the **Immigration and Nationality Act of 1965** (which abolished the quota system).\n   - **Japanese-American Relations**: The ban on Japanese immigration **deeply offended Japan**, contributing to tensions that later played a role in **World War II**.\n\n### **Conclusion**\nThe **Immigration Act of 1924** was driven by **racism, nativism, economic fears, and isolationism**, reflecting a broader backlash against the diversity brought by mass immigration in the late 19th and early 20th centuries. It remained in effect until **1965**, when the **Hart-Celler Act** finally dismantled the national-origin quota system.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 1137,
+  "total_tokens": 1156,
+  "cost": 0.001715,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001715,
+   "upstream_inference_prompt_cost": 9.5e-06,
+   "upstream_inference_completions_cost": 0.0017055
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T22:08:30.123834+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

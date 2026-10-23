@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "Q",
+ "prompt": "What were the consequences of the Great Depression?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Great Depression, which lasted from 1929 to the late 1930s, had far-reaching and profound consequences on the global economy, politics, and society. Some of the significant consequences include:\n\n**Economic Consequences:**\n\n1. **Massive Unemployment**: Unemployment rates soared, with some countries experiencing rates as high as 25% (USA) or even 33% (Australia).\n2. **Poverty and Homelessness**: Millions of people lost their homes, and poverty became widespread.\n3. **Business Failures**: Many businesses, including banks, went bankrupt, leading to a loss of savings and investments.\n4. **Global Trade Collapse**: International trade declined sharply, exacerbating the economic downturn.\n\n**Social Consequences:**\n\n1. **Changes in Family Structure**: The Depression led to changes in family dynamics, with more women entering the workforce and families becoming more resourceful.\n2. **Increased Migration**: People moved to other countries or regions in search of work, leading to significant migration patterns.\n3. **Rise of Shantytowns**: Shantytowns, known as Hoovervilles in the USA, sprang up in many cities, housing those who had lost their homes.\n4. **Mental Health Impacts**: The Depression had a significant impact on mental health, with increased rates of depression, anxiety, and other mental health issues.\n\n**Political Consequences:**\n\n1. **Rise of Fascist and Nationalist Movements**: The economic crisis contributed to the rise of fascist and nationalist movements in countries like Germany, Italy, and Japan.\n2. **New Deal Policies**: In the USA, President Franklin D. Roosevelt's New Deal policies aimed to alleviate the suffering of those affected by the Depression and reform the financial system.\n3. **Increased Government Intervention**: The Depression led to a shift towards more government intervention in the economy, with many countries adopting Keynesian economic policies.\n4. **Global Realignments**: The Depression contributed to a reorientation of global politics, with the rise of the USA as a global economic power and the decline of the British Empire.\n\n**Long-term Consequences:**\n\n1. **Reform of Financial Systems**: The Depression led to significant reforms in financial systems, including the establishment of the Securities and Exchange Commission (SEC) in the USA.\n2. **Establishment of Social Safety Nets**: Many countries established or expanded social safety nets, such as unemployment insurance and old-age pensions, to mitigate the impact of future economic downturns.\n3. **Bretton Woods System**: The Depression contributed to the establishment of the Bretton Woods system, which aimed to promote international economic stability and cooperation.\n4. **Lessons for Future Economic Crises**: The Great Depression provided valuable lessons for policymakers and economists, shaping responses to future economic crises.\n\nThe consequences of the Great Depression were far-reaching and profound, shaping the course of global history and informing responses to future economic crises.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 591,
+  "total_tokens": 610,
+  "cost": 0.00038919,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00038919,
+   "upstream_inference_prompt_cost": 3.5625e-06,
+   "upstream_inference_completions_cost": 0.0003856275
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:03:19.008748+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

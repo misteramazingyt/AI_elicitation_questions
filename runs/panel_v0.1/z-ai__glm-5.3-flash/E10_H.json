@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "H",
+ "prompt": "How have historians interpreted the UK miners' strike of 1984-1985? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of the UK Miners' Strike, 1984–85\n\nThe year-long strike against pit closures, led by the National Union of Mineworkers (NUM) under Arthur Scargill, remains one of the most contested events in modern British history. Interpretations have evolved considerably since 1985.\n\n## Major Interpretive Traditions\n\n### 1. The \"Defeat of the Working Class\" Thesis\nEarly left-wing and labour historians framed the strike as a pivotal defeat for the British labour movement. Eric Hobsbawm's influential (and controversial) 1981 essay \"The Forward March of Labour Halted?\" — written before the strike but often retrospectively applied — argued that the traditional working class was in structural decline. Huw Beynon's edited collection *Digging Deeper: Issues in the Miners' Strike* (1985) presented the strike as a heroic but doomed defense of industrial communities against state power.\n\n### 2. The \"Prepared State\" Thesis\nA highly influential interpretation holds that the Thatcher government deliberately planned for the confrontation. Seumas Milne's *The Enemy Within: The Secret War Against the Miners* (1994) documented the role of the security services, media manipulation, and the secret government coordinating body (MISC 101). Milne argued the strike was met with a coordinated campaign of disinformation, including the fabrication of the \"chequebook journalism\" scandal around NUM negotiator Peter Heathfield. Francis Beckett and David Hencke's *Marching to the Firing Line* (2009) and later *The Great Strike* (2016) supported the view that the government had stockpiled coal and planned pit closures in advance, contradicting Thatcher's claims that the NCB's closure program was not pre-determined.\n\n### 3. Revisionist / Political Economy Accounts\nAndrew Glyn and John Newsam, and later academic analyses, emphasized economic structural factors: the shift to gas, oil, and imported coal, and the government's determination to break the power of the NUM, which had toppled the Heath government in 1974. Jim Phillips (*Collieries, Communities and the Miners' Strike in Scotland, 1984–85*, 2012) examined regional variations and the strike's aftermath in Scotland.\n\n### 4. Social and Cultural History\nFrom the 1990s onward, historians shifted toward community-level and oral history approaches:\n- **Jonathan Winterton and Ruth Winterton**, *Coal, Crisis and Conflict: The 1984–85 Miners' Strike in Yorkshire* (1989) — detailed analysis of strike dynamics in Yorkshire, including the role of women.\n- **Jean Spence and Carol Stephenson** — numerous articles on gender and the strike in Durham and Northumberland, highlighting women's support groups as transformative for gender politics in mining communities.\n- **David Howell**, *The Politics of the NUM* (1989) — examined the union's internal politics and the split that produced the breakaway Union of Democratic Mineworkers (UDM).\n- **Nick Jones**, *Strike! The Miners' Battle for Jobs and Justice* (1996) and *South Wales: The Strike and After* — journalist accounts emphasizing grassroots militancy.\n\n### 5. Memory and Legacy Studies\nMore recent scholarship focuses on how the strike is remembered:\n- **Kate Morris** and community-based projects (e.g., the \"Miners' Strike 1984: The Archives\" project) have documented oral testimonies.\n- **Diarmait Mac Giolla Chríost** and others have examined the strike's cultural representation in film (*Brassed Off*, *Billy Elliot*, *Pride*).\n- **Gruffudd, Phillips, and others** have explored the strike's legacy in Welsh and Scottish national identity and its role in fueling devolution sentiment.\n\n## Key Points of Contention\n\n1. **Ballot legitimacy**: Whether Scargill's refusal to hold a national ballot was a fatal tactical error or a principled stand against an unworkable piece-by-piece ballot (defended by Scargill and by some sympathetic historians).\n2. **Government foreknowledge**: Whether the closure list of 20 pits leaked in October 1983 proved premeditation (the government denied it; documents released later, including the 2014 release of Cabinet papers, showed the NCB chairman Ian MacGregor did have a plan to close around 20 pits, vindicating Scargill's central claim).\n3. **Policing**: The Battle of Orgreave (June 1984) and the mass policing of strike areas remain central; Orgreave Truth and Justice Campaign continues to press for an inquiry. The Hillsborough Independent Panel's exposure of police fabrication in 2012 lent credibility to claims about police conduct during the strike.\n4. **Outcome**: Whether the strike's defeat was inevitable given economic conditions, or contingent on tactical choices (the failure to spread the strike to power workers, the timing relative to coal stocks).\n\n## Key Sources\n\n- Milne, S., *The Enemy Within: The Secret War Against the Miners* (Verso, 1994)\n- Beynon, H. (ed.), *Digging Deeper: Issues in the Miners' Strike* (Verso, 1985)\n- Winterton, J. & R., *Coal, Crisis and Conflict* (Manchester UP, 1989)\n- Howell, D., *The Politics of the NUM: A Lancashire View* (Manchester UP, 1989)\n- Beckett, F. & Hencke, D., *Marching to the Firing Line: The Miners' Strike and the Thatcher Government* (Constable, 2009); *The Great Strike* (Biteback, 2016)\n- Phillips, J., *Collieries, Communities and the Miners' Strike in Scotland* (Manchester UP, 2012)\n- Goodman, G., *The Miners' Strike* (Penguin, 1985) — contemporary account\n- Cabinet papers released at the National Archives (2014) covering 1983–84\n- Spence, J. & Stephenson, C., \" 'Side by Side with Our Men?' Women, Activism and the Miners' Strike,\" *International Labour and Working-Class History* (2007)\n\n**A caveat**: I've cited these works from memory, so you should verify publication details and page references before using them in academic work. The 2014 National Archives release is the most significant primary source addition in recent years, as it largely confirmed that the government and NCB had planned substantial closures before the strike began.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 48,
+  "completion_tokens": 1859,
+  "total_tokens": 1907,
+  "cost": 0.0001729537,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001729537,
+   "upstream_inference_prompt_cost": 1.368e-06,
+   "upstream_inference_completions_cost": 0.0001715857
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 478,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:31.564293+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

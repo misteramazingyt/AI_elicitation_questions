@@ -1,0 +1,43 @@
+{
+ "item": "S08",
+ "template": "C",
+ "prompt": "What were the main causes of the IRS's handling of tax-exempt applications from political groups (2010-2013)?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The IRS's handling of tax-exempt applications from political groups between 2010 and 2013 was a complex issue with multiple causes. The main factors contributing to the controversy include:\n\n1. **Inconsistent and inadequate guidance**: The IRS lacked clear and comprehensive guidance on the criteria for determining whether an organization's primary purpose was political advocacy or education, leading to inconsistent application processing.\n2. **BOLO (Be On the LookOut) lists**: The IRS created BOLO lists to flag applications from organizations with names or descriptions that suggested they might be involved in political activities. These lists were not properly managed, and some applications were inappropriately delayed or scrutinized.\n3. **Insufficient training and resources**: IRS employees handling tax-exempt applications received inadequate training on the complex issues surrounding political advocacy and education. The IRS also faced resource constraints, including staffing shortages and outdated technology.\n4. **Partisan and ideological biases**: Allegations of partisan and ideological biases within the IRS contributed to the controversy. Some critics argued that the agency was targeting conservative or Tea Party groups, while others claimed that the IRS was being overly lenient with liberal or progressive organizations.\n5. **Lack of clear criteria for \"501(c)(4)\" status**: The IRS struggled to apply the criteria for tax-exempt status under Section 501(c)(4) of the Internal Revenue Code, which allows social welfare organizations to operate with some level of political activity. The agency's guidance on this issue was unclear, leading to inconsistent decision-making.\n6. **Increased scrutiny of conservative groups**: The IRS disproportionately scrutinized applications from conservative or Tea Party groups, often requesting additional information or delaying processing. This led to allegations of targeting and politicization.\n7. **Cincinnati IRS office's role**: The Cincinnati IRS office, responsible for processing many of the tax-exempt applications, was criticized for its handling of these cases. The office's actions, including the use of BOLO lists, contributed to the delays and scrutiny.\n\nThe Treasury Inspector General for Tax Administration (TIGTA) and the IRS's own internal reviews identified these factors as contributing to the controversy. The IRS has since taken steps to address these issues, including improving guidance, training, and procedures for handling tax-exempt applications.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 35,
+  "completion_tokens": 456,
+  "total_tokens": 491,
+  "cost": 0.0003041025,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003041025,
+   "upstream_inference_prompt_cost": 6.5625e-06,
+   "upstream_inference_completions_cost": 0.00029754
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:05:53.488249+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

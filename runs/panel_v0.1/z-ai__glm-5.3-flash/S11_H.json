@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "H",
+ "prompt": "How have historians interpreted the 1969 Stonewall riots? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of the Stonewall Riots\n\nThe Stonewall riots (June 28 – July 3, 1969) have been interpreted in several distinct ways as scholarship on LGBTQ history has evolved. Below is an overview of major interpretive trends, with representative sources.\n\n## 1. The \"Birth of the Gay Liberation Movement\" Narrative\n\nEarly accounts—often written by participants and journalists—framed Stonewall as the spontaneous birth of gay liberation. This narrative emphasized the riots as a rupture with the earlier, more cautious \"homophile\" movement.\n\n- **Martin Duberman, *Stonewall* (1993)** — A participant-centered narrative that popularized the \"birth\" framing while also complicating it by showing pre-existing activist networks.\n- **Donn Teal, *The Gay Militants* (1971)** — An early, sympathetic account linking Stonewall directly to the founding of the Gay Liberation Front.\n\n## 2. Revisionist Interpretations: Continuity Rather than Rupture\n\nHistorians since the 1990s have challenged the \"spontaneous birth\" story, arguing that organized gay and lesbian activism predated Stonewall by decades, and that the riots' significance was partly constructed retrospectively.\n\n- **John D'Emilio, *Sexual Politics, Sexual Communities* (1983)** — Documented the robust homophile movement (e.g., the Mattachine Society, Daughters of Bilitis) from the 1950s onward, undermining the idea that activism began at Stonewall.\n- **Dudley Clendinen and Adam Nagourney, *Out for Good* (1999)** — Traced the movement's institutional development, showing Stonewall as one catalyst among several.\n- **Barry Adam, *The Rise of a Gay and Lesbian Movement* (1987)** — Situated Stonewall within broader theories of social movement emergence.\n\n## 3. Stonewall as Contested Memory and Commemoration\n\nA third strand examines how Stonewall became a *myth* or founding story, and why it—rather than earlier events—was commemorated.\n\n- **Elizabeth Armstrong, *Forging Gay Identities* (2002)** — Argued that Stonewall's commemoration served organizational needs of 1970s activist groups; the anniversary marches (later Pride parades) institutionalized the event's significance.\n- **Jeffrey Escoffier** and other scholars have noted that the \"Stonewall myth\" served to unify a diverse movement under a single origin story.\n- **Katherine Ott, in *Stonewall 25* (1994, eds. Duberman and Ti-Grace Atkinson et al.)** — Explored how anniversary celebrations shaped collective memory.\n\n## 4. Race, Gender, and Class in the Riots\n\nMore recent scholarship foregrounds the roles of drag queens, transgender women, people of color, and working-class patrons—figures often marginalized in earlier accounts.\n\n- **Martin Duberman's *Stonewall*** was notable for centering figures like Sylvia Rivera and Marsha P. Johnson.\n- **Leslie Feinberg, *Transgender Warriors* (1996)** — Claimed Stonewall as a transgender-led uprising, a framing that has been influential though debated.\n- **Cristan Williams** and historians such as **Susan Stryker (*Transgender History*, 2008)** have examined the evidence around Johnson's and Rivera's roles, noting contested and sometimes exaggerated claims in popular memory.\n- **Historians including David Carter (*Stonewall: The Riots That Sparked the Gay Revolution*, 2004)** — Carter's archival work identified Stormé DeLarverie and Windy the barmaid as possible catalysts of the first night's resistance, and emphasized the role of the Mattachine \"Sip-In\" (1966) as precedent.\n\n## 5. Structural and Comparative Interpretations\n\nSome historians downplay Stonewall's causal importance entirely, attributing the movement's growth to broader structural forces.\n\n- **Armstrong and Crage, \"Movements and Memory: The Making of the Stonewall Myth,\" *American Sociological Review* (2006)** — A landmark article arguing that Stonewall became commemorable because it met specific conditions (a \"commemorable\" event accessible to activists with resources to memorialize it), not because it was uniquely transformative. They note earlier raids (e.g., the Black Cat protest in Los Angeles, 1967) did not become founding myths.\n- **Marc Stein** has similarly argued in various essays that Stonewall's prominence reflects East Coast bias and commemorative politics rather than unique causal significance.\n\n## Summary\n\nInterpretations have moved through three broad phases: (1) celebratory \"birth of liberation\" accounts (1970s–80s); (2) revisionist work emphasizing continuity with the homophile era and structural causes (1980s–2000s); and (3) memory studies and intersectional analyses examining race, gender, and the construction of the Stonewall myth (1990s–present). Most current historians hold a middle position: Stonewall was neither the beginning of LGBTQ activism nor an insignificant event, but a catalytic moment whose outsized symbolic importance was actively constructed through commemoration.\n\n**Note:** I've cited these works from memory; I'd recommend verifying publication details and page numbers before using them in academic work, as I may have made errors in dates or titles.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 1369,
+  "total_tokens": 1413,
+  "cost": 0.0001276127,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001276127,
+   "upstream_inference_prompt_cost": 1.254e-06,
+   "upstream_inference_completions_cost": 0.0001263587
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 223,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:14.534268+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

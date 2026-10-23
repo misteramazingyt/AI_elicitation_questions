@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "D",
+ "prompt": "Describe Britain's Winter of Discontent (1978-1979).",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Britain's Winter of Discontent (1978–1979)\n\nThe \"Winter of Discontent\" refers to the period from late 1978 to early 1979 when widespread strikes by trade unions brought Britain to a near standstill, fatally damaging the Labour government of James Callaghan.\n\n## Background\n\nBritain in the 1970s suffered from \"stagflation\"—high inflation combined with economic stagnation. The Labour government had relied on a voluntary incomes policy, negotiating pay restraint with unions to control inflation. By 1978, workers' real wages had been squeezed for years, and unions were increasingly unwilling to accept further limits. Callaghan's government delayed an election it might have won in 1978, then lost its narrow parliamentary majority, weakening its position.\n\n## The Strikes\n\nWhen the pay policy effectively collapsed, unions launched waves of strikes demanding higher wages:\n\n- **Ford workers** struck for months and won a large pay increase, encouraging others.\n- **Lorry drivers** blockaded fuel depots, causing petrol shortages.\n- **Oil tanker drivers** disrupted fuel supplies.\n- **NHS workers** — including ambulance drivers, hospital cleaners, and ancillary staff — went on strike, leading to hospitals accepting only emergency cases and even picketing stopping non-urgent treatment.\n- **Gravediggers in Liverpool and Manchester** refused to bury the dead, forcing councils to store bodies (some reports mentioned temporary interments).\n- **Refuse collectors** left garbage piling up in the streets — most famously in Leicester Square, London.\n- **Civil servants, teachers, and railway workers** also took action.\n\nThe tabloid press, particularly *The Sun*, coined the phrase \"Winter of Discontent\" (borrowed from Shakespeare's *Richard III*) and ran dramatic coverage of the chaos.\n\n## Political Consequences\n\nIn January 1979, Callaghan returned from a summit in Guadeloupe and famously told reporters: **\"Crisis? What crisis?\"** — a remark that stuck to him and seemed to epitomize government complacency.\n\nThe government's failure to control the unions led to the defeat of its devolution referendums for Scotland and Wales, and the subsequent loss of a vote of confidence in March 1979 — the first such defeat for a government since 1924.\n\n## The Aftermath\n\nMargaret Thatcher's Conservatives won the May 1979 general election decisively, campaigning on the slogan \"Labour Isn't Working.\" The Winter of Discontent became a defining symbol of the perceived power of \"union barons\" and government weakness, helping legitimize Thatcher's subsequent program: trade union reform (via laws restricting picketing and strikes), privatization, and a shift away from corporatism. Its legacy shaped British politics for decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 955,
+  "total_tokens": 999,
+  "cost": 8.94005e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.94005e-05,
+   "upstream_inference_prompt_cost": 1.254e-06,
+   "upstream_inference_completions_cost": 8.81465e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 382,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:27.577209+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

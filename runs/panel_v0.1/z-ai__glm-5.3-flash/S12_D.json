@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "D",
+ "prompt": "Describe the rise of the Moral Majority around 1980.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Rise of the Moral Majority\n\nThe Moral Majority emerged in 1979 as one of the most influential religious-political organizations in modern American history, founded by Baptist minister **Jerry Falwell** in Lynchburg, Virginia.\n\n## Background and Context\n\nSeveral factors converged to create the conditions for its rise:\n\n- **Cultural backlash**: Many conservative Christians felt alienated by the social changes of the 1960s and 1970s—the sexual revolution, feminism, the counterculture, and court decisions on school prayer (*Engel v. Vitale*, 1962) and abortion (*Roe v. Wade*, 1973).\n- **Earlier organizing efforts**: Groups like Christian Voice (1978) and activists such as Paul Weyrich, Richard Viguerie, and Beverly LaHaye had already begun mobilizing evangelicals politically. Weyrich is often credited with urging Falwell to form the organization.\n- **Perceived moral decline**: Issues like the Equal Rights Amendment, gay rights, pornography, and secularism in public schools galvanized conservative religious voters.\n\n## Key Features\n\n- **Name and branding**: The name \"Moral Majority\" suggested that conservative Christians represented a silent majority of Americans—a phrase echoing Nixon's \"silent majority.\"\n- **Coalition building**: Though rooted in evangelical and fundamentalist churches, it reached out to Catholics, Mormons, and other religious conservatives.\n- **Media savvy**: Falwell used television, direct mail, and mass rallies to spread his message. His \"Old-Time Gospel Hour\" broadcast reached millions.\n- **Voter registration drives**: The organization registered millions of new voters, particularly in churches.\n\n## Political Impact\n\nThe Moral Majority became a crucial part of the **New Right** coalition that helped elect **Ronald Reagan in 1980**. Evangelicals, who had largely stayed out of politics or even supported Carter in 1976, swung heavily toward Reagan. The organization claimed millions of members and donors at its peak.\n\n## Decline\n\nBy the late 1980s, the organization faded—dissolving in 1989—due to internal divisions, overextension, scandals (including the PTL Club and Jim Bakker controversies that embarrassed the movement), and Falwell's own financial and health troubles. Its legacy, however, endured through the broader religious right, which remained a powerful force in Republican politics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 587,
+  "total_tokens": 626,
+  "cost": 5.52916e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.52916e-05,
+   "upstream_inference_prompt_cost": 1.1115e-06,
+   "upstream_inference_completions_cost": 5.41801e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 99,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:15.870607+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

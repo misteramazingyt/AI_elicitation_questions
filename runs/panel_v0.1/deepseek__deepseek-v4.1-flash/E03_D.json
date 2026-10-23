@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "D",
+ "prompt": "Describe the famine in Soviet Ukraine in 1932-1933.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Wafer",
+ "response": "The 1932–1933 famine in Soviet Ukraine—known as the **Holodomor** (Ukrainian for “extermination by hunger”)—was a catastrophic, largely man-made famine in the Ukrainian SSR during Stalin’s forced collectivization and rapid industrialization drive.\n\n**Main causes**\n- **Forced collectivization:** Private farms were abolished, and peasants were forced into collective farms. Many resisted; the state responded with repression.\n- **Dekulakization:** So-called “kulaks” (wealthier or resistant peasants) were deported, executed, or stripped of property. In practice, the label was often applied to anyone who opposed collectivization.\n- **Unrealistic grain quotas:** Moscow demanded huge grain procurements. Requisition brigades searched peasant homes and confiscated grain, food, and sometimes seed grain, leaving families with nothing.\n- **Punitive laws:** The August 1932 “Law of Spikelets” made stealing even a few ears of grain punishable by death or long imprisonment. This criminalized survival.\n- **Blacklists and blockades:** Villages that failed quotas were blacklisted—cut off from supplies and trade. Peasants were prevented from fleeing famine areas by internal passport restrictions and military/OGPU blockades.\n- **Denial and exports:** The Soviet government denied the famine, refused foreign aid, and continued exporting grain abroad.\n\n**Course of the famine**\nThe worst period was late 1932 through spring 1933. Starvation spread across rural Ukraine, especially in central, southern, and eastern regions. People ate grass, bark, leaves, pets, and rodents; documented cases of cannibalism occurred. Disease, especially typhus, and exposure killed many already weakened by hunger. Cities were better supplied than villages, deepening the rural catastrophe.\n\n**Death toll**\nEstimates vary, but scholars generally place excess deaths in Soviet Ukraine at about **3.5–5 million**, with some estimates higher. The broader Soviet famine of 1932–33 killed roughly **5–7 million** people across Ukraine, the North Caucasus, the Volga region, Kazakhstan, and other areas. Millions more suffered, and birth rates collapsed.\n\n**Aftermath and recognition**\nThe famine was concealed for decades. From the late 1980s, opened archives confirmed its scale. In 2006, Ukraine’s parliament recognized the Holodomor as a **genocide of the Ukrainian people**. Many countries and parliaments have recognized it as genocide or a crime against humanity, while Russia rejects the genocide label. Historians continue to debate Stalin’s intent—whether the famine was specifically aimed at Ukrainians or was a broader policy-driven catastrophe with especially severe national consequences. Most agree it was preventable, man-made, and caused primarily by Soviet requisition and collectivization policies, with drought playing only a secondary role.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 2313,
+  "total_tokens": 2357,
+  "cost": 0.00151181,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00151181,
+   "upstream_inference_prompt_cost": 8.36e-06,
+   "upstream_inference_completions_cost": 0.00150345
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1604,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:17.879512+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

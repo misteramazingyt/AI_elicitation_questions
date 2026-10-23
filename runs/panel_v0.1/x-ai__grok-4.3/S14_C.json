@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "C",
+ "prompt": "What were the main causes of Britain's abolition of the slave trade and slavery (1807-1838)?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "Britain's abolition of the slave trade (1807) and slavery itself (1833 Act, effective 1834–1838 after an apprenticeship period) resulted from a combination of moral, religious, political, economic, and practical pressures rather than any single cause. Historians generally view the process as driven primarily by sustained humanitarian activism, enabled by shifting economic conditions and slave resistance, despite the profitability of Caribbean plantations.\n\n### Religious and Moral Campaigns\nThe most direct driver was organized evangelical and Quaker activism. From the 1780s, figures like William Wilberforce, Thomas Clarkson, and the Clapham Sect framed slavery as a moral and Christian sin incompatible with British values. They drew on Enlightenment ideas of natural rights and liberty while emphasizing biblical arguments against human bondage. This produced the first mass civil-society movement in Britain: petitions signed by hundreds of thousands, public meetings, and consumer boycotts of slave-grown sugar. Parliament received over 500 petitions in 1792 alone. These efforts kept the issue on the political agenda for decades.\n\n### Public Opinion and Political Pressure\nAbolitionists built broad coalitions that included middle-class reformers, Dissenters, and women (who organized separate campaigns). The movement benefited from graphic publicity about the Middle Passage (e.g., the Zong massacre of 1781) and parliamentary inquiries that documented atrocities. By the 1820s–1830s, renewed campaigns after the failure of gradualist approaches produced even larger petition drives. Political timing mattered: the 1807 ban passed amid the Napoleonic Wars partly because it allowed Britain to use its navy to interdict French and Spanish trade while claiming moral superiority. The 1833 Act followed the 1832 Reform Act, which expanded the electorate and weakened the West India lobby in Parliament.\n\n### Economic Factors\nEconomic motives were secondary but facilitative. Eric Williams's 1944 thesis argued that declining profitability of sugar plantations made abolition economically rational; later scholarship has largely qualified this, showing the trade remained lucrative into the early 19th century. More persuasive is the argument that Britain's industrializing economy favored free labor, wage markets, and expanded consumer demand over mercantilist plantation systems. After 1807, British naval enforcement and diplomatic pressure on other powers also aligned with emerging free-trade ideology. Compensation paid to slave owners (£20 million, roughly 40% of government expenditure) further illustrates that abolition occurred despite, not because of, planter interests.\n\n### Slave Resistance and Practical Costs\nRebellions raised the costs and risks of maintaining slavery. The Haitian Revolution (1791–1804) demonstrated the potential for large-scale upheaval and inspired fear among British planters. Major uprisings in British colonies—Demerara (1823) and the Baptist War in Jamaica (1831–32)—killed hundreds and required expensive military suppression. These events convinced many MPs that slavery was becoming ungovernable and that compensated emancipation was cheaper than endless repression.\n\n### International and Strategic Context\nBritain's naval supremacy after 1805 allowed enforcement of the 1807 ban at sea (the West Africa Squadron). Abolition also served geopolitical aims by weakening rival empires. Once enacted, the policy gained momentum through treaties and naval patrols, reinforcing domestic commitment.\n\nIn short, religious-humanitarian mobilization supplied the sustained political pressure, while economic transition, slave revolts, and wartime opportunity lowered the barriers to action. The result was a rare case in which moral arguments overcame entrenched economic interests within a parliamentary system.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 213,
+  "completion_tokens": 1258,
+  "total_tokens": 1471,
+  "cost": 0.00327685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00327685,
+   "upstream_inference_prompt_cost": 0.00013185,
+   "upstream_inference_completions_cost": 0.003145
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 560,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:33.198921+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

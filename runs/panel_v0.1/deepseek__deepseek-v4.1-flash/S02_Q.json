@@ -1,0 +1,43 @@
+{
+ "item": "S02",
+ "template": "Q",
+ "prompt": "What were the consequences of the Republican Party's \"Southern strategy\"?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Sail Research",
+ "response": "The “Southern strategy” was the Republican Party’s post-1964 effort to court white Southern voters who were alienated by the Democratic Party’s support for civil rights. It was less a single secret plan than a broad electoral appeal built around “states’ rights,” “law and order,” opposition to busing and welfare, tax cuts, and cultural conservatism—often using racially coded language. Its consequences reshaped American politics in several lasting ways.\n\n**1. It realigned the South from Democratic to Republican.**  \nFor nearly a century after Reconstruction, the “Solid South” voted Democratic. The Southern strategy helped break that. Barry Goldwater’s 1964 opposition to the Civil Rights Act won him Deep South states; Nixon’s 1968 and 1972 campaigns built on white backlash; Reagan cemented the trend in 1980. By 1994, Republicans had taken Congress, and by the 2000s the South was the GOP’s strongest regional base. White Southerners became a core Republican constituency, while Black Southerners became overwhelmingly Democratic.\n\n**2. It racialized party identification.**  \nThe strategy helped make race one of the strongest predictors of party affiliation. Civil rights, busing, welfare, crime, and later affirmative action and voting rights became increasingly partisan issues. Coded appeals—“law and order,” “welfare queens,” “states’ rights”—allowed politicians to signal racial grievance without explicitly using racist language. This contributed to racially polarized voting and made it harder for either party to build broad biracial coalitions in the South.\n\n**3. It shifted national policy to the right.**  \nThe Southern strategy helped elect Republicans who opposed or slowed civil rights enforcement, busing, and affirmative action. It also strengthened conservative positions on welfare, crime, taxes, and federal power. Later policies such as welfare reform, tough-on-crime laws, and voting restrictions were influenced by the coalition the strategy helped create. The effects were not only racial: it also boosted Sun Belt conservatism, deregulation, and tax-cutting politics.\n\n**4. It transformed both parties.**  \nThe GOP became more white, Southern, evangelical, rural and suburban, and ideologically conservative. The Democratic Party became more urban, coastal, racially diverse, and liberal. This “sorting” increased polarization: the parties no longer overlapped as much regionally or ideologically. The South’s shift also gave the GOP a powerful Electoral College advantage for decades, even as Democrats maintained strength in the Northeast, Midwest, and West Coast.\n\n**5. It created long-term political and moral costs.**  \nThe strategy helped Republicans win elections, but it also tied the party to white grievance and resistance to civil rights. That made outreach to Black, Latino, and other minority voters more difficult. It also contributed to debates over Confederate symbols, voting rights, policing, and racial inequality that still shape American politics. In the long run, reliance on an aging white Southern base created demographic challenges as the country became more diverse.\n\n**6. It had limits and was not the only cause.**  \nThe South’s realignment was also driven by economic growth, suburbanization, evangelical Christianity, abortion, gun rights, and migration. Some Southern Democrats survived into the 1990s and 2000s. And not every white Southern Republican was motivated by race. Still, the Southern strategy was a major accelerant of the region’s partisan shift and of the racial polarization that followed.\n\nIn short, the Southern strategy helped the Republican Party dominate the South and national politics for a generation, but it also deepened racial polarization, reshaped both parties, and left a contested legacy that continues to influence American elections and policy today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 3060,
+  "total_tokens": 3103,
+  "cost": 0.00076887,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00076887,
+   "upstream_inference_prompt_cost": 3.87e-06,
+   "upstream_inference_completions_cost": 0.000765
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2311,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:11:21.461999+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

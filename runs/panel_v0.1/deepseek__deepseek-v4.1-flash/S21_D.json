@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "D",
+ "prompt": "Describe the Immigration Act of 1924.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "DigitalOcean",
+ "response": "The **Immigration Act of 1924**, also known as the **Johnson–Reed Act**, was a landmark U.S. law enacted on **May 26, 1924**. It created the **national origins quota system**, sharply limiting immigration and especially targeting Southern and Eastern Europeans and Asians. Its goal was to preserve what many lawmakers called the “Nordic” or Northern/Western European character of the United States.\n\n**Key provisions:**\n\n- **National origins quotas:** Annual immigration from any country was limited to **2% of the number of foreign-born people of that nationality living in the U.S. in 1890**. Because fewer Southern and Eastern Europeans were in the U.S. in 1890, quotas for Italians, Poles, Russians, Jews, Greeks, and others were very low. The total annual quota was about **165,000**.\n- **Asian exclusion:** The law barred admission of **“aliens ineligible for citizenship.”** Since U.S. naturalization law then excluded Asians, this effectively banned Japanese and other Asian immigration, reinforcing the earlier Chinese Exclusion Act.\n- **Western Hemisphere exemption:** Countries in the Western Hemisphere—including Mexico, Canada, and Latin American nations—were **not** subject to quotas. As a result, Mexican immigration to the U.S. increased, especially for agricultural and railroad labor.\n- **Consular visa system:** Prospective immigrants generally had to obtain a visa from a U.S. consul abroad before entering the United States. The same period also saw the creation of the **U.S. Border Patrol** to help enforce immigration restrictions.\n- **Non-quota categories:** Certain people, such as wives and minor children of U.S. citizens, some professionals, ministers, and students, could enter outside the quotas.\n\n**Effects and legacy:**  \nThe 1924 Act drastically reduced overall immigration, cut Southern and Eastern European immigration, and virtually ended Asian immigration. It reflected the influence of nativism, racism, and eugenics in U.S. policy. The quota system was modified by the **1952 McCarran–Walter Act** and finally abolished by the **1965 Immigration and Nationality Act**, which replaced national origins quotas with a preference system emphasizing family reunification and skilled labor.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 2907,
+  "total_tokens": 2946,
+  "cost": 0.001925055,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001925055,
+   "upstream_inference_prompt_cost": 6.435e-06,
+   "upstream_inference_completions_cost": 0.00191862
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2449,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:17:37.937421+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

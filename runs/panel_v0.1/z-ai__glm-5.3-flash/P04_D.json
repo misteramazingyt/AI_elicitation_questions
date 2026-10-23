@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "D",
+ "prompt": "Describe the Black Death in fourteenth-century Europe.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Black Death in Fourteenth-Century Europe\n\nThe Black Death was the most devastating pandemic in recorded history, striking Europe between 1347 and 1351.\n\n## Origins and Spread\n\nThe plague likely originated in Central Asia and traveled along trade routes, reaching Crimea by 1346. From there, Genoese merchants carried it to Sicily in 1347, and it spread rapidly through Mediterranean ports and across the continent, reaching almost all of Europe by 1351.\n\n## The Disease\n\nThe plague was caused by the bacterium *Yersinia pestis*, transmitted primarily by fleas living on rats (though human-to-human transmission also occurred). It appeared in three forms:\n\n- **Bubonic plague**: The most common form, causing painful swollen lymph nodes called buboes, fever, and death within days\n- **Pneumonic plague**: An airborne infection of the lungs, nearly always fatal and highly contagious\n- **Septicemic plague**: A blood infection, almost universally fatal\n\n## Mortality\n\nEstimates suggest the plague killed **30–60% of Europe's population**—roughly 25 to 50 million people. Some regions lost over half their inhabitants. Entire villages were abandoned, and cities like Florence and Paris suffered enormous losses.\n\n## Social and Economic Consequences\n\n- **Labor shortage**: The dramatic population decline gave surviving peasants and workers increased bargaining power, contributing to the erosion of serfdom and higher wages\n- **Economic disruption**: Trade collapsed temporarily, and land values fell\n- **Religious responses**: Some people turned to intense piety; others joined flagellant movements, while pogroms against Jewish communities—blamed for the plague—occurred in many areas\n- **Psychological impact**: The sheer scale of death profoundly affected art, literature, and attitudes toward mortality\n\n## Legacy\n\nThe Black Death transformed European society, accelerating changes in the economy, weakening feudal structures, and shaking confidence in the Church and traditional authorities. Recurring outbreaks continued for centuries, but none matched the catastrophic initial pandemic.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 37,
+  "completion_tokens": 716,
+  "total_tokens": 753,
+  "cost": 6.71413e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.71413e-05,
+   "upstream_inference_prompt_cost": 1.0545e-06,
+   "upstream_inference_completions_cost": 6.60868e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 295,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:57.893376+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

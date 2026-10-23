@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "C",
+ "prompt": "What were the main causes of the UK miners' strike of 1984-1985?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Decart",
+ "response": "The 1984–85 UK miners’ strike was not caused by one single issue. It grew out of a combination of long-term economic decline in coal, the Thatcher government’s political and economic strategy, and the industrial stance of the National Union of Mineworkers (NUM).\n\n**Main causes:**\n\n1. **Pit closures and job losses**  \n   The immediate trigger was the National Coal Board’s announcement in March 1984 that around 20 pits would close, with about 20,000 job losses. The NUM, led by Arthur Scargill, opposed closures without a national plan to protect jobs and mining communities. The closure of Cortonwood Colliery in Yorkshire helped spark the strike.\n\n2. **Long-term decline of the coal industry**  \n   British coal had been shrinking for decades because of competition from oil, gas, cheaper imported coal, and the high cost of many deep mines. By the 1980s many pits were unprofitable and heavily subsidised. The NCB and government argued closures were economically necessary; the NUM argued that pits were being closed for political and market-driven reasons, not just economics.\n\n3. **Thatcherite economic policy**  \n   Margaret Thatcher’s government favoured free markets, reduced state subsidies, privatisation, and weaker trade unions. Coal was seen as a costly nationalised industry. Closing uneconomic pits fitted the government’s aim of shrinking the public sector and making industry more “efficient.”\n\n4. **The government’s desire to confront and weaken union power**  \n   The miners had helped bring down Edward Heath’s government in 1974, and the NUM was seen as one of the most powerful unions in Britain. The Thatcher government prepared for a possible confrontation: building coal stockpiles, making power stations able to burn oil, and coordinating police planning. Many historians see the strike as a deliberate test of strength between the government and the NUM.\n\n5. **NUM militancy and Arthur Scargill’s leadership**  \n   Scargill was a left-wing, militant leader who rejected pit closures and wanted a national energy policy protecting coal jobs. His decision to call a national strike without a national ballot was highly controversial and weakened support in some coalfields, especially Nottinghamshire, where many miners opposed the strike.\n\n6. **Regional and union divisions**  \n   Coalfields had different economic prospects and traditions. Some areas, such as Nottinghamshire, Leicestershire, and South Derbyshire, were more profitable and less willing to strike. These divisions made the NUM’s position harder and contributed to the strike’s eventual failure.\n\nIn short, the strike was caused by the NCB’s pit-closure programme, the Thatcher government’s determination to reduce subsidies and union power, and the NUM’s decision to resist closures through mass industrial action. The immediate issue was jobs and pit closures; the deeper conflict was over the future of coal, trade union power, and the direction of the British economy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 49,
+  "completion_tokens": 1476,
+  "total_tokens": 1525,
+  "cost": 0.00027009,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00027009,
+   "upstream_inference_prompt_cost": 4.41e-06,
+   "upstream_inference_completions_cost": 0.00026568
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 958,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:57.884711+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

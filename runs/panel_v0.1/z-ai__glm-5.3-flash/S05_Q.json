@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1993 Waco siege?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the 1993 Waco Siege\n\nThe Waco siege, a 51-day standoff between federal authorities and the Branch Davidians led by David Koresh, had significant and lasting consequences:\n\n## Immediate Consequences\n\n- **Deaths**: The final assault on April 19, 1993, ended when a fire consumed the compound, killing 76 people, including David Koresh and 25 children. Six people had died earlier during the initial February 28 raid.\n- **Investigations**: Congressional hearings and a Justice Department review examined the government's handling of the siege, criticizing decisions like the use of tear gas and the FBI's final assault plan.\n\n## Political Consequences\n\n- **Resignations**: Attorney General Janet Reno accepted responsibility, and several officials faced criticism. Some ATF and FBI officials were reassigned or resigned.\n- **Legal outcomes**: Branch Davidians were tried in 1994; some were convicted of weapons charges, though no one was convicted of murder. Civil lawsuits against the government were largely unsuccessful, though a 1999 court ruling briefly found the government liable before being overturned.\n\n## Broader Impact\n\n- **Fueling extremist movements**: The siege became a rallying point for anti-government militias and contributed to the growth of the militia movement in the mid-1990s.\n- **Oklahoma City bombing**: Timothy McVeigh explicitly cited Waco as a motivation for the 1995 bombing of the Murrah Federal Building, which killed 168 people.\n- **Reforms**: The incident prompted changes in how federal agencies handle standoffs, emphasizing negotiation and de-escalation.\n- **Cultural legacy**: Waco remains a touchstone in American political discourse, referenced in debates about government overreach and gun rights, and it continues to influence extremist rhetoric today.\n\nWould you like more detail on any particular aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 604,
+  "total_tokens": 644,
+  "cost": 5.68892e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.68892e-05,
+   "upstream_inference_prompt_cost": 1.14e-06,
+   "upstream_inference_completions_cost": 5.57492e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 227,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:58.742599+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Venice",
+ "response": "On June 24, 2022, the Supreme Court decided **Dobbs v. Jackson Women’s Health Organization**, a case involving Mississippi’s Gestational Age Act, which generally banned abortion after **15 weeks of pregnancy**, with exceptions for medical emergencies and severe fetal abnormalities.\n\n**Holding.** The Court upheld Mississippi’s law and overruled **Roe v. Wade** (1973) and **Planned Parenthood v. Casey** (1992). In the majority opinion by Justice Alito, joined by Justices Thomas, Gorsuch, Kavanaugh, and Barrett, the Court held that the **Constitution does not confer a right to abortion**. It concluded that the Due Process Clause of the Fourteenth Amendment does not protect abortion because the right is not deeply rooted in the nation’s history and tradition and is not essential to ordered liberty. The Court also rejected Casey’s “viability” line and undue-burden framework as constitutional tests. It said authority to regulate abortion must be returned to the people and their elected representatives—primarily the states.\n\n**Voting and opinions.** The judgment upholding the Mississippi law was 6–3, but the specific decision to overrule Roe and Casey was supported by five justices. Chief Justice Roberts concurred in the judgment, agreeing to uphold the 15-week law but not to overrule Roe and Casey. Justices Breyer, Sotomayor, and Kagan dissented, arguing that Roe and Casey should be retained and that the Constitution protects reproductive liberty. Justice Thomas filed a concurrence urging reconsideration of other substantive due process precedents, and Justice Kavanaugh also filed a concurrence.\n\n**Reasoning.** The majority applied stare decisis factors and found them outweighed by what it called Roe’s and Casey’s errors. It described Roe as “egregiously wrong from the start,” said Casey compounded the error, and concluded that the decisions had damaged democratic processes and created legal uncertainty. It acknowledged reliance interests but held they did not justify retaining the decisions, especially given states’ interests in protecting prenatal life and maternal health. The Court emphasized that it was not deciding whether abortion should be legal or illegal as a policy matter, but who should decide.\n\n**Impact.** Dobbs did not itself ban abortion nationwide. It removed federal constitutional protection for abortion and allowed states to prohibit or regulate it, producing a patchwork of state laws—some near-total bans, some gestational limits, and some protections. It is widely regarded as one of the most consequential constitutional decisions in modern U.S. history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 51,
+  "completion_tokens": 3291,
+  "total_tokens": 3342,
+  "cost": 0.0039645,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0039645,
+   "upstream_inference_prompt_cost": 1.53e-05,
+   "upstream_inference_completions_cost": 0.0039492
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2763,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:56:21.565535+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

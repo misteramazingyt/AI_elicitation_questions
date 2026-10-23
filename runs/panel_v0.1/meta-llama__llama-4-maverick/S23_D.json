@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "D",
+ "prompt": "Describe the 2020 George Floyd protests.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 2020 George Floyd protests were a series of protests and demonstrations that took place in the United States and around the world in response to the murder of George Floyd, a 46-year-old African American man, by a Minneapolis police officer on May 25, 2020. The protests began in Minneapolis and quickly spread to other cities across the United States and globally, becoming one of the largest social movements in American history.\n\n**Background**\n\nOn May 25, 2020, George Floyd was arrested by Minneapolis police officers for allegedly using a counterfeit $20 bill at a convenience store. During the arrest, one of the officers, Derek Chauvin, knelt on Floyd's neck for approximately nine minutes, despite Floyd's repeated pleas for air and warnings from bystanders that he was in distress. Floyd eventually became unresponsive and was pronounced dead at a local hospital.\n\nA bystander's video of the incident, which showed Chauvin kneeling on Floyd's neck, was widely shared on social media, sparking outrage and protests in Minneapolis and beyond.\n\n**Protests and Demonstrations**\n\nThe protests began in Minneapolis on May 26, 2020, with a small gathering outside the police station where Chauvin was employed. The protests quickly grew in size and intensity, with demonstrators marching through the city, calling for justice for Floyd and an end to police brutality.\n\nAs the protests spread to other cities, they took on various forms, including:\n\n1. **Peaceful marches and rallies**: Many protests were peaceful, with demonstrators marching through cities, holding signs, and chanting slogans such as \"Black Lives Matter\" and \"Justice for George Floyd.\"\n2. **Civil unrest and property damage**: Some protests turned violent, with demonstrators clashing with police, breaking windows, looting stores, and setting fires.\n3. **Sit-ins and die-ins**: Some protesters staged sit-ins and die-ins, where they would sit or lie down in the street, often with their hands behind their backs, to symbolize Floyd's death.\n4. **Online activism**: The protests also took place online, with many people using social media to share information, mobilize others, and express their outrage and solidarity.\n\n**Key Events and Milestones**\n\n1. **Minneapolis City Hall protest**: On May 26, 2020, protesters gathered outside Minneapolis City Hall, where they demanded that the police department take action against the officers involved in Floyd's death.\n2. **Third Precinct police station fire**: On May 28, 2020, protesters set fire to the Third Precinct police station in Minneapolis, which was subsequently abandoned by police.\n3. **National Guard deployment**: On May 28, 2020, Minnesota Governor Tim Walz deployed the National Guard to Minneapolis to help restore order.\n4. **Protests spread globally**: By May 30, 2020, protests had spread to over 100 cities in the United States and to cities around the world, including London, Paris, and Sydney.\n\n**Outcomes and Legacy**\n\nThe 2020 George Floyd protests had significant outcomes and a lasting legacy:\n\n1. **Charges against the officers**: The four officers involved in Floyd's death were charged with various crimes, including murder and manslaughter. Derek Chauvin was subsequently convicted of murder and manslaughter.\n2. **Police reform**: The protests led to calls for police reform, including the implementation of body cameras, de-escalation training, and community-led policing initiatives.\n3. **Racial justice movement**: The protests helped to galvanize the racial justice movement, with many people becoming more aware of the systemic racism and inequality that exists in the United States.\n4. **Cultural impact**: The protests had a significant cultural impact, with many artists, musicians, and writers responding to the events through their work.\n\nOverall, the 2020 George Floyd protests were a pivotal moment in American history, highlighting the ongoing struggles of racial inequality and police brutality, and sparking a national conversation about justice, equality, and human rights.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 19,
+  "completion_tokens": 827,
+  "total_tokens": 846,
+  "cost": 0.00054318,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00054318,
+   "upstream_inference_prompt_cost": 3.5625e-06,
+   "upstream_inference_completions_cost": 0.0005396175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:11.776702+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

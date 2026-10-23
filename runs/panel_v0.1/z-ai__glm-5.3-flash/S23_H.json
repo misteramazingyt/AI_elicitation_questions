@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2020 George Floyd protests? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "Historians have been analyzing the 2020 George Floyd protests in real time, which is unusual—it takes years for rigorous historical scholarship to develop. Here's how historians have generally interpreted the events, with appropriate caveats about sourcing:\n\n## Key Interpretive Themes\n\n**1. Comparison to the civil rights era and 1968**\nMany historians framed the protests as the largest civil rights mobilization since the 1960s. Scholars like Keisha N. Blain (University of Pittsburgh, then co-editor of *The Washington Post*'s \"Made by History\" section) wrote extensively in 2020 comparing the protests to earlier Black freedom struggles, arguing they reflected continuity in movements against racialized state violence. Douglas Blackmon and others drew parallels to 1968, while noting the racial diversity of 2020's crowds was historically distinctive.\n\n**2. The unprecedented scale and demographics**\nPolling analysis cited by historians suggested the George Floyd protests may have been the largest protest movement in U.S. history in terms of total participation (estimates of 15–26 million people). Historians such as Heather Cox Richardson emphasized the unusual breadth of participation across race, geography (including small towns), and political affiliation.\n\n**3. Long-term structural roots**\nHistorians like Elizabeth Hinton (*From the War on Poverty to the War on Crime*, Harvard University Press, 2016) contextualized the protests within a longer history of policing, mass incarceration, and urban rebellions dating back decades—arguing the uprisings were predictable consequences of policy choices since the 1960s. Hannah-Jones's *1619 Project* work (published as a book in 2021) framed the moment within the longue durée of slavery's legacy.\n\n**4. Debates over the role of property destruction**\nA recurring controversy involved how to characterize riots and property damage. Historians including Elizabeth Hinton (in a May 2020 *Boston Review* essay, \"The Police Killings That Shocked America... and Led to 150 Years of Rebellions\") argued violence against property has historically accompanied and sometimes catalyzed reform. Others, like historians critical of that framing, emphasized nonviolent protest traditions. This debate echoed the 1960s dispute over the Kerner Commission's findings.\n\n**5. Movement institutionalization and backlash**\nHistorians of social movements (drawing on scholarship like Frances Fox Piven's work) examined whether 2020's protests would produce durable policy change, noting the subsequent backlash—anti-protest legislation, \"critical race theory\" controversies—as part of a familiar historical cycle of racial progress followed by reaction.\n\n## Important Caveats on Sources\n\n- Much of the citable material is **journalistic essays by historians** (in *The Washington Post*, *The Atlantic*, *The New York Times*, *Dissent*, *Boston Review*) rather than peer-reviewed historical monographs.\n- Comprehensive scholarly treatments are still emerging. Relevant academic venues include the *Journal of American History* and *The Sixties*, which began publishing retrospective analyses around 2021–2023.\n- I cannot verify exact article titles or dates with full confidence, so I'd encourage checking the authors' publication archives directly. I may misremember details of specific citations, so please verify before citing them formally.\n\nWould you like me to go deeper on any one interpretive thread?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 28,
+  "completion_tokens": 741,
+  "total_tokens": 769,
+  "cost": 0.000290868,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000290868,
+   "upstream_inference_prompt_cost": 3.36e-06,
+   "upstream_inference_completions_cost": 0.000287508
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 62,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:45.645714+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

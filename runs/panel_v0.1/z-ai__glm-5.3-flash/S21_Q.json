@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "Q",
+ "prompt": "What were the consequences of the Immigration Act of 1924?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the Immigration Act of 1924 (Johnson-Reed Act)\n\nThe Immigration Act of 1924 had far-reaching and lasting effects on American society and demographics:\n\n## Immediate Effects\n\n**Drastic reduction in immigration**: The act established national origin quotas limiting immigration to 2% of each nationality's population in the 1890 census (later changed to the 1920 census). This cut annual immigration from about 1 million to roughly 165,000.\n\n**Discriminatory targeting**: The quotas heavily favored Northern and Western Europeans while severely restricting Southern and Eastern Europeans (Italians, Jews, Poles, Greeks) and virtually excluding Asians.\n\n**Complete Asian exclusion**: The act barred all immigration from Asia, building on earlier exclusion laws targeting Chinese and Japanese immigrants. This deeply offended Japan, which had hoped for more diplomatic treatment.\n\n## Long-Term Consequences\n\n**Demographic transformation**: Immigration slowed dramatically through the 1960s. For the first time, more people migrated out of the U.S. than entered during the 1930s.\n\n**Rise of illegal immigration**: Restriction on Western Hemisphere immigration came later, but the act eventually contributed to unauthorized immigration from Mexico, especially as labor demands persisted.\n\n**Impact on refugees**: During the 1930s, the strict quotas limited Jewish refugees fleeing Nazi Germany from entering the U.S., with tragic consequences.\n\n**Ethnic community effects**: Existing immigrant communities grew more insular, and ethnic enclaves persisted longer due to reduced new arrivals.\n\n**Labor market effects**: Industries that relied on immigrant labor had to recruit domestically or from Mexico and the Caribbean.\n\n## Reversal\n\nThe national origins system remained in place until the **Immigration and Nationality Act of 1965** (Hart-Celler Act), which abolished national origin quotas and prioritized skills and family reunification, fundamentally reshaping American immigration again.\n\nThe act is now widely viewed as a landmark of nativist policy, reflecting the xenophobia of the era, including eugenics-influenced ideas about racial hierarchy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 519,
+  "total_tokens": 559,
+  "cost": 4.90437e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.90437e-05,
+   "upstream_inference_prompt_cost": 1.14e-06,
+   "upstream_inference_completions_cost": 4.79037e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 98,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:38.694459+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

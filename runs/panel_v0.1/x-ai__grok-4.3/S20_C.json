@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "C",
+ "prompt": "What were the main causes of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "**The U.S. War on Drugs, formally declared by President Richard Nixon in 1971, was driven by a mix of political strategy, social anxieties, rising drug use, crime concerns, and policy choices that persisted through the Reagan, Bush, and Clinton eras into the 1990s.**\n\n### Political Motivations\nNixon’s administration explicitly linked the initiative to targeting political opponents. A 1994 interview with Nixon aide John Ehrlichman revealed the strategy: by associating marijuana with anti-war “hippies” and heroin with Black communities, heavy criminalization could disrupt those groups without directly attacking their political activities. This aligned with broader efforts to appeal to “silent majority” voters concerned about 1960s social upheaval, counterculture, and civil rights movements. The policy shifted focus from public health approaches (e.g., earlier treatment emphasis) to law enforcement.\n\n### Rising Drug Use and Public Fear\nDrug consumption surged in the 1960s–1970s amid cultural changes:\n- Marijuana and psychedelics spread among youth and counterculture.\n- Heroin use rose in urban areas, linked to returning Vietnam veterans and inner-city communities.\nMedia coverage amplified moral panic over addiction, overdoses, and associated crime. Official rhetoric framed drugs as an existential threat to American society, justifying expanded federal powers (e.g., creation of the DEA in 1973).\n\n### Crime, Urban Decay, and Social Control\nPolicymakers tied drugs to violent crime, family breakdown, and urban riots. High-profile incidents and statistics on property crime fueled “tough-on-crime” platforms. This resonated with suburban and working-class voters worried about disorder. Later, under Reagan, the 1980s crack cocaine epidemic—concentrated in Black and Latino neighborhoods—intensified this narrative, leading to the 1986 Anti-Drug Abuse Act with mandatory minimum sentences (e.g., 100:1 crack vs. powder cocaine disparity).\n\n### International and Foreign Policy Factors\nThe campaign extended abroad to disrupt supply:\n- Targeting opium in Southeast Asia, marijuana in Mexico, and later cocaine from Colombia and the Andes.\n- Geopolitical goals overlapped with Cold War efforts (e.g., alliances with anti-communist groups sometimes involved in trafficking).\n- Domestic enforcement paired with foreign aid, military involvement, and interdiction.\n\n### Electoral and Institutional Continuity\nSubsequent administrations sustained and escalated the policy for political gain:\n- Reagan and Bush emphasized “Just Say No” and zero-tolerance, expanding prison populations dramatically.\n- Bipartisan consensus emerged; Democrats under Clinton supported three-strikes laws and continued funding to avoid appearing “soft on crime.”\n- Institutional incentives included growth in law enforcement budgets, asset forfeiture, and the emerging prison-industrial complex.\n\nBy the 1990s, the focus remained on supply-side interdiction and harsh penalties despite evidence that demand-side factors and socioeconomic issues drove much of the problem. Critics note the approach disproportionately affected minority communities, with incarceration rates skyrocketing while overall drug use patterns showed mixed results.\n\nThese causes reflect documented policy statements, legislative records, and historical analyses rather than a single factor. The policy evolved from Nixon’s declaration through waves of legislation and enforcement priorities.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 216,
+  "completion_tokens": 1132,
+  "total_tokens": 1348,
+  "cost": 0.0029656,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0029656,
+   "upstream_inference_prompt_cost": 0.0001356,
+   "upstream_inference_completions_cost": 0.00283
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 495,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:57.752402+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

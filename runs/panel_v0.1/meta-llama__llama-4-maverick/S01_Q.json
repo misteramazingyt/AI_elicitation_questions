@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "Q",
+ "prompt": "What were the consequences of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The passage of the Civil Rights Act of 1964 had significant and far-reaching consequences for the United States. Some of the key consequences include:\n\n1. **End of segregation in public facilities**: The Act prohibited segregation in public facilities such as restaurants, hotels, and restrooms, allowing African Americans to access these facilities on an equal basis with whites.\n2. **Desegregation of schools**: Although the Act did not directly address school desegregation, it laid the groundwork for further desegregation efforts, including the Elementary and Secondary Education Act of 1965, which provided federal funding to schools that desegregated.\n3. **Increased employment opportunities**: The Act prohibited employment discrimination based on race, color, national origin, sex, or religion, opening up new job opportunities for African Americans and other minority groups.\n4. **Empowerment of the federal government**: The Act gave the federal government new authority to enforce civil rights laws, including the power to investigate and prosecute cases of discrimination.\n5. **Social and cultural changes**: The Act helped to shift public opinion and cultural attitudes, contributing to a growing acceptance of civil rights and social justice.\n6. **Increased participation in politics**: The Act's provisions, particularly the ban on literacy tests and other voter suppression tactics, helped to increase African American voter registration and participation in politics.\n7. **Inspiration for further civil rights legislation**: The passage of the Civil Rights Act of 1964 helped to galvanize support for further civil rights legislation, including the Voting Rights Act of 1965 and the Fair Housing Act of 1968.\n8. **Resistance and backlash**: The Act also faced significant resistance and backlash, particularly from white Southerners who opposed the changes it brought. This resistance contributed to the rise of the \"Southern Strategy\" and the growing polarization of American politics.\n9. **Long-term impact on American society**: The Civil Rights Act of 1964 has had a lasting impact on American society, helping to create a more inclusive and equitable society, and paving the way for further progress on issues such as women's rights, LGBTQ+ rights, and disability rights.\n\nSome specific statistics and examples that illustrate the consequences of the Civil Rights Act of 1964 include:\n\n* Between 1964 and 1966, the number of African American students attending desegregated schools in the South increased from 2.3% to 16.1%.\n* By 1970, the number of African American registered voters in the South had increased by 50%, from 1.4 million to 2.1 million.\n* Between 1964 and 1970, the number of African Americans employed in professional and managerial positions increased by 50%.\n* A 2014 study found that the Civil Rights Act of 1964 was associated with a significant reduction in racial disparities in health outcomes, including infant mortality and life expectancy.\n\nOverall, the Civil Rights Act of 1964 was a landmark piece of legislation that helped to advance the cause of civil rights and social justice in the United States, and its consequences continue to be felt today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 629,
+  "total_tokens": 656,
+  "cost": 0.000415485,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000415485,
+   "upstream_inference_prompt_cost": 5.0625e-06,
+   "upstream_inference_completions_cost": 0.0004104225
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:04:29.740831+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

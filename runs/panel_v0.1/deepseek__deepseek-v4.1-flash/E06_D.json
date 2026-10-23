@@ -1,0 +1,43 @@
+{
+ "item": "E06",
+ "template": "D",
+ "prompt": "Describe the Bengal famine of 1943.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Wafer",
+ "response": "The Bengal famine of 1943 was a catastrophic famine in Bengal Province, British India—today’s Bangladesh and West Bengal, India—during World War II. It killed an estimated 2–3 million people, with some estimates ranging from 1.5 to 4 million. The dead were mostly rural poor: landless labourers, fishermen, artisans, and their families.\n\n**Causes and context.** The famine had no single cause. Japan’s conquest of Burma in 1942 cut off an important source of rice imports. The British colonial government’s “denial policy” removed or destroyed boats and rice stocks in coastal Bengal to hinder a possible Japanese invasion, damaging livelihoods and food access. A cyclone in October 1942 and local crop problems added pressure. Wartime inflation, the Allied military buildup around Calcutta, hoarding, and speculation drove rice prices far beyond what poor rural people could pay. The colonial administration prioritised Calcutta and military needs, and relief was slow, inadequate, and hampered by censorship.\n\n**What happened.** As rice prices soared, millions could not afford food. People sold land, belongings, and even children; many migrated to cities such as Calcutta, where thousands died in the streets. Starvation was compounded by diseases such as cholera, malaria, dysentery, and smallpox. Conditions began to ease only in late 1943 and 1944, after better harvests, some food imports, and expanded relief under Viceroy Wavell.\n\n**Interpretation.** The official Famine Inquiry Commission stressed food shortage, but the economist Amartya Sen and later historians argued that the famine was largely an “entitlement” crisis: people lacked the income and access to food, rather than there being a simple absolute lack of food. British wartime policies, market failures, and colonial indifference are widely seen as major contributors. The disaster became a powerful indictment of British rule in India and shaped later studies of famine and public policy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 2308,
+  "total_tokens": 2347,
+  "cost": 0.00150761,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00150761,
+   "upstream_inference_prompt_cost": 7.41e-06,
+   "upstream_inference_completions_cost": 0.0015002
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1817,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:30.093242+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

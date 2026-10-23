@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "D",
+ "prompt": "Describe the Reagan tax cuts of the 1980s.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Sail Research",
+ "response": "The “Reagan tax cuts” usually refer to two major pieces of legislation in the 1980s, plus some smaller tax changes: the **Economic Recovery Tax Act of 1981 (ERTA)** and the **Tax Reform Act of 1986 (TRA)**. They were central to “Reaganomics” and supply-side economics, which argued that lower marginal tax rates would spur work, saving, investment, and economic growth.\n\n**1. Economic Recovery Tax Act of 1981**\n- Cut individual income tax rates by roughly **25% across the board**, phased in over three years.\n- Reduced the **top marginal individual income tax rate from 70% to 50%**.\n- **Indexed tax brackets to inflation** beginning in 1985, ending “bracket creep,” where inflation pushed people into higher tax brackets.\n- Cut the top **capital gains tax rate to 20%**.\n- Created the **Accelerated Cost Recovery System (ACRS)** for business depreciation and expanded investment incentives.\n- Expanded IRAs and reduced estate and gift taxes.\n\n**2. Partial reversals in 1982 and 1984**\nConcern about growing deficits led to the **Tax Equity and Fiscal Responsibility Act of 1982** and the **Deficit Reduction Act of 1984**, which scaled back some business tax breaks and increased certain taxes. The 1983 Social Security amendments also raised payroll taxes.\n\n**3. Tax Reform Act of 1986**\nThis was a bipartisan, broadly revenue-neutral overhaul rather than a simple cut.\n- Lowered the **top individual rate to 28%** from 50%.\n- Reduced the **corporate rate from 46% to 34%**.\n- Collapsed individual brackets to two main rates, **15% and 28%**, with a 33% “bubble” phaseout.\n- Broadened the tax base by eliminating many deductions, shelters, and loopholes.\n- Repealed the investment tax credit and taxed capital gains as ordinary income.\n\n**Economic and political effects**\n- The 1981 cuts were followed by a severe recession in 1981–82, then a long expansion with falling unemployment and inflation.\n- Federal deficits and debt rose sharply, because tax cuts were combined with higher defense spending and no equivalent cuts in domestic spending. Gross federal debt roughly tripled during the 1980s.\n- Tax revenues rose in nominal terms, but not enough to prevent large deficits; federal receipts remained around 17–18% of GDP.\n- The cuts were regressive in percentage terms: high earners received the largest reductions, and after-tax inequality widened.\n- Their legacy includes lower marginal rates, inflation-indexed brackets, and a broader tax base, though debate continues over how much they spurred growth versus increasing deficits.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 2354,
+  "total_tokens": 2396,
+  "cost": 0.00059228,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00059228,
+   "upstream_inference_prompt_cost": 3.78e-06,
+   "upstream_inference_completions_cost": 0.0005885
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1781,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:15.024110+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

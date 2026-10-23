@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "C",
+ "prompt": "What were the main causes of the 1969 Stonewall riots?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1969 Stonewall riots, a pivotal event in the modern LGBTQ+ rights movement, were sparked by a police raid on the Stonewall Inn, a gay bar in New York City's Greenwich Village. The main causes of the riots were a combination of factors, including:\n\n1. **Police harassment and brutality**: The New York City Police Department (NYPD) had a history of harassing and raiding gay bars, and the Stonewall Inn was no exception. The police would often arrest patrons, extort money from bar owners, and use violence to intimidate and control the LGBTQ+ community.\n2. **Lack of LGBTQ+ rights and representation**: In the 1960s, LGBTQ+ individuals faced widespread discrimination, persecution, and marginalization. They were denied basic rights, such as the right to gather in public, and were often subject to arrest and prosecution for their sexual orientation or gender identity.\n3. **Rise of the LGBTQ+ community**: The 1960s saw a growing LGBTQ+ community in New York City, with many bars, clubs, and social spaces emerging in the Greenwich Village area. The Stonewall Inn was a popular gathering place for LGBTQ+ individuals, particularly those who were marginalized or excluded from mainstream society.\n4. **Tensions between the police and the LGBTQ+ community**: The NYPD's aggressive policing tactics and corruption had created a deep-seated mistrust between the police and the LGBTQ+ community. The community felt that the police were targeting them unfairly and that their rights were being ignored.\n5. **The specific incident that sparked the riots**: On June 28, 1969, the NYPD raided the Stonewall Inn, arresting several employees and patrons. The police used excessive force, and the raid was particularly aggressive, with officers beating and harassing patrons. The community responded with resistance, and a riot broke out outside the bar.\n\nThe Stonewall riots were a spontaneous, collective response to the police raid and the broader systemic injustices faced by the LGBTQ+ community. The riots marked a turning point in the modern LGBTQ+ rights movement, galvanizing activism, organizing, and advocacy efforts that continue to this day.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 449,
+  "total_tokens": 474,
+  "cost": 0.00029766,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00029766,
+   "upstream_inference_prompt_cost": 4.6875e-06,
+   "upstream_inference_completions_cost": 0.0002929725
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:06:19.472461+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

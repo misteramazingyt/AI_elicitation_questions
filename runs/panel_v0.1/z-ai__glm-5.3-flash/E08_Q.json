@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "Q",
+ "prompt": "What were the consequences of the Great Depression?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Consequences of the Great Depression\n\nThe Great Depression (1929–1939) had far-reaching effects across economic, political, and social spheres.\n\n## Economic Consequences\n\n- **Mass unemployment**: U.S. unemployment reached about 25% (roughly 12–15 million people) by 1933\n- **Bank failures**: Thousands of banks collapsed, wiping out savings of millions of depositors\n- **Global trade collapse**: World trade fell dramatically, worsened by protectionist policies like the U.S. Smoot-Hawley Tariff (1930)\n- **Deflation**: Prices and wages fell sharply, deepening economic hardship\n- **Widespread poverty**: Homelessness increased; shantytowns called \"Hoovervilles\" appeared in many cities\n\n## Political Consequences\n\n- **The New Deal**: Franklin D. Roosevelt's administration dramatically expanded government's role in the economy through programs like Social Security, the WPA, and banking reforms\n- **Rise of extremism abroad**: Economic desperation fueled the rise of Adolf Hitler in Germany and contributed to militarism in Japan—factors leading to World War II\n- **Weakening of democracies**: Political instability spread across Europe, contributing to authoritarianism in several countries\n- **Political realignment in the U.S.**: The Democratic Party dominated national politics for decades\n\n## Social Consequences\n\n- **Family hardship**: Marriage and birth rates declined; \"Okies\" and others migrated westward seeking work\n- **Dust Bowl**: Environmental disaster in the Great Plains displaced hundreds of thousands of farmers\n- **Psychological toll**: Lasting effects on a generation's attitudes toward saving, spending, and risk\n\n## Long-Term Effects\n\n- **Increased government regulation**: Securities laws (SEC), deposit insurance (FDIC), and labor protections\n- **Keynesian economics**: Shift toward government intervention in managing economies\n- **Bretton Woods system**: Post-WWII institutions like the IMF and World Bank were designed partly to prevent another depression\n\nWould you like me to expand on any of these areas?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 431,
+  "total_tokens": 452,
+  "cost": 0.000169748,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000169748,
+   "upstream_inference_prompt_cost": 2.52e-06,
+   "upstream_inference_completions_cost": 0.000167228
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:25.052918+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

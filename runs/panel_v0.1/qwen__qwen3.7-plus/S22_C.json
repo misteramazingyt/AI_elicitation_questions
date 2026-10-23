@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration and Nationality Act of 1965?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Immigration and Nationality Act of 1965, also known as the Hart-Celler Act, fundamentally transformed the demographic landscape of the United States. It abolished the National Origins Formula, a quota system established in the 1920s that heavily favored immigrants from Northern and Western Europe while severely restricting those from Southern and Eastern Europe, Asia, and Africa. \n\nThe passage of this landmark legislation was driven by a convergence of domestic social movements, international geopolitical pressures, and shifting political ideologies. The main causes include:\n\n**1. The Civil Rights Movement and Domestic Equality**\nThe most significant catalyst for the 1965 Act was the broader Civil Rights Movement. During the 1950s and 1960s, the United States was actively dismantling institutionalized racial segregation and discrimination at home. Civil rights leaders, lawmakers, and the public increasingly pointed out the hypocrisy of fighting for racial equality domestically while maintaining explicitly racist immigration laws. The national origins quota system was widely recognized as being rooted in the eugenics and nativism of the 1920s, making it politically and morally untenable in the context of the 1960s civil rights era.\n\n**2. Cold War Geopolitics and Foreign Policy**\nDuring the Cold War, the United States was engaged in a global ideological struggle against the Soviet Union, competing for the allegiance of newly independent nations in Asia, Africa, and Latin America. U.S. diplomats and policymakers realized that the country’s discriminatory immigration laws were a massive propaganda liability. Soviet propagandists frequently highlighted U.S. immigration quotas to argue that America was a hypocritical, racist nation. To improve its global image and foster alliances with non-European nations, the U.S. needed an immigration policy that appeared fair and non-discriminatory.\n\n**3. The Flaws of the National Origins Quota System**\nThe quota system, established by the Immigration Act of 1924 (Johnson-Reed Act), was increasingly viewed as unworkable and unjust. It was designed to preserve the \"racial composition\" of the U.S. as it existed in 1890. By the 1960s, this system resulted in massive backlogs for certain countries and left entire regions of the world with virtually zero immigration quotas. Even the McCarran-Walter Act of 1952, which had ended the outright exclusion of Asian immigrants, retained the discriminatory national origins quotas, leading to continued bipartisan criticism.\n\n**4. Political Leadership and Legislative Momentum**\nThe legislative push was heavily driven by key political figures and the legacy of President John F. Kennedy. \n* **JFK’s Advocacy:** In 1963, President Kennedy made immigration reform a key part of his platform, arguing that the quota system was contrary to American ideals. Though he was assassinated before it passed, his advocacy laid the groundwork.\n* **LBJ’s Push:** President Lyndon B. Johnson championed the bill as part of his broader \"Great Society\" agenda. \n* **Bipartisan Sponsors:** The bill was shepherded through Congress by Representative Emanuel Celler (D-NY) in the House, and Senators Philip Hart (D-MI) and Edward Kennedy (D-MA) in the Senate. They built a bipartisan coalition that argued for a system based on merit and family ties rather than national origin.\n\n**5. A Shift Toward Family Reunification and Skills**\nLawmakers needed a new framework to replace the quotas. The consensus was to prioritize **family reunification** and, to a lesser extent, **needed occupational skills**. The 1965 Act established a preference system that gave priority to the relatives of U.S. citizens and permanent residents, as well as immigrants with specific professional skills. The architects of the bill believed this system would maintain the existing demographic makeup of the U.S. while simply removing the discriminatory barriers. \n\n**Historical Irony and Unintended Consequences**\nIt is a notable historical fact that the primary architects of the 1965 Act did not anticipate the massive demographic shifts it would cause. During the debates, supporters like Senator Edward Kennedy and Attorney General Robert Kennedy assured skeptics that the bill would not flood the U.S. with new immigrants or drastically alter the country's ethnic mix. They expected the majority of immigrants to continue coming from Europe. \n\nHowever, because the new system prioritized family reunification, it created a \"chain migration\" effect. Once immigrants from Asia, Africa, and Latin America established themselves in the U.S., they sponsored their relatives, leading to a dramatic and unforeseen shift in immigration patterns. Consequently, the Act is widely considered the most important piece of legislation in shaping modern, multicultural America.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 2110,
+  "total_tokens": 2139,
+  "cost": 0.00271008,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00271008,
+   "upstream_inference_prompt_cost": 9.28e-06,
+   "upstream_inference_completions_cost": 0.0027008
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1125,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:47.227416+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

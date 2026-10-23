@@ -1,0 +1,43 @@
+{
+ "item": "S21",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration Act of 1924?",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The Immigration Act of 1924 (Johnson-Reed Act) was driven by several interconnected factors in the early 20th century United States:\n\n- **Nativist and xenophobic sentiment**: Post-World War I fears of cultural dilution, combined with the 1917 Bolshevik Revolution, fueled concerns that immigrants—especially from Southern and Eastern Europe—would import radical political ideas, crime, or un-American values. Groups like the Ku Klux Klan and organizations such as the Immigration Restriction League amplified these views.\n\n- **Economic pressures and labor competition**: Unions (notably the American Federation of Labor) and some business interests argued that unrestricted immigration depressed wages and took jobs from native-born workers amid postwar economic adjustment and rising unemployment.\n\n- **Eugenics and racial pseudoscience**: Influential works like Madison Grant’s *The Passing of the Great Race* (1916) promoted the idea that “Nordic” or Northern European stock was superior and at risk of being overwhelmed. This aligned with broader eugenics movements and congressional testimony emphasizing “racial” differences in assimilability.\n\n- **Precedent from earlier laws and data manipulation**: The act built directly on the temporary Emergency Quota Act of 1921. It used the 1890 census (rather than later ones) to set national-origin quotas at 2% of each group’s U.S. population, deliberately favoring earlier Northern/Western European immigrants while sharply curtailing those from Italy, Poland, Russia, and Asia. Asian immigration was effectively banned, extending the Chinese Exclusion Act era.\n\n- **Political consensus**: Broad public support, reflected in polls and lobbying, allowed restrictionist legislators like Sen. David Reed and Rep. Albert Johnson to pass the bill with large majorities. It reflected a desire to “freeze” the ethnic composition of the U.S. population as it had existed decades earlier.\n\nThe law remained in effect, with modifications, until the 1965 Immigration and Nationality Act.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 206,
+  "completion_tokens": 865,
+  "total_tokens": 1071,
+  "cost": 0.0022856,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0022856,
+   "upstream_inference_prompt_cost": 0.0001231,
+   "upstream_inference_completions_cost": 0.0021625
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 476,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:02:01.539479+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

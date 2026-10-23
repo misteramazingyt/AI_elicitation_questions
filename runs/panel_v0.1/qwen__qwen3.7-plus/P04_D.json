@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "D",
+ "prompt": "Describe the Black Death in fourteenth-century Europe.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Black Death was one of the most devastating pandemics in human history, fundamentally altering the demographic, social, economic, and cultural landscape of Europe. Peaking between **1347 and 1351**, it marked a definitive watershed moment, effectively bringing the High Middle Ages to a close and setting the stage for the early modern period.\n\nHere is a comprehensive description of the Black Death in fourteenth-century Europe:\n\n### Origins and Transmission\nThe pandemic was caused by the bacterium ***Yersinia pestis***. It originated in the arid steppes of Central Asia. The disease traveled westward along the Silk Road, facilitated by the vast trade networks of the Mongol Empire. \n\nA pivotal moment in its transmission to Europe occurred in 1346 at the Genoese trading port of **Caffa** in the Crimea. The Mongol Golden Horde, suffering from the plague while besieging the city, catapulted infected corpses over the walls to infect the defenders. Fleeing Genoese merchants subsequently carried the disease by ship to Sicily in 1347. \n\nThe primary vectors of the disease were **fleas** (specifically *Xenopsylla cheopis*) that lived on the backs of black rats, which thrived in the unsanitary, crowded conditions of medieval European cities and on merchant ships.\n\n### The Disease and Symptoms\nThe Black Death manifested in three primary forms:\n1. **Bubonic Plague:** The most common form, characterized by the swelling of lymph nodes (buboes) in the groin, armpits, or neck. \n2. **Pneumonic Plague:** An airborne variant that infected the lungs. It was highly contagious and almost universally fatal.\n3. **Septicemic Plague:** An infection of the bloodstream, causing tissue to turn black and die (necrosis), particularly in the fingers, toes, and nose.\n\nSymptoms included sudden high fever, chills, vomiting, severe muscle aches, and the aforementioned buboes. Because medieval medicine lacked an understanding of bacteria, treatments were entirely ineffective. Physicians relied on the \"miasma theory\" (bad air), prescribing aromatic herbs, bloodletting, or lancing the buboes.\n\n### Demographic Devastation\nThe mortality rate was apocalyptic. It is estimated that the Black Death killed **30% to 50% of Europe’s total population**, amounting to roughly 25 to 50 million people. In some densely populated urban centers, such as Florence, Venice, and Paris, the death toll reached up to 60%. \n\nThe disease moved with terrifying speed. It did not just kill the elderly or the sick; it struck down the young and healthy with equal ferocity. Entire villages were wiped out, and cities were left so depopulated that wolves and wild animals wandered through the empty streets.\n\n### Social and Cultural Reactions\nThe sheer scale of the tragedy caused profound psychological and cultural shock:\n* **Religious Crisis and Extremism:** Many viewed the plague as divine punishment for humanity's sins. This led to the rise of the **Flagellant movement**, where groups of men marched from town to town, whipping themselves in public penance to appease God. The Church’s inability to stop the plague also led to a crisis of faith and a decline in the prestige of the clergy.\n* **Scapegoating and Persecution:** In their desperation, Europeans looked for scapegoats. **Jewish communities** were falsely accused of poisoning wells and springs to kill Christians. This resulted in horrific massacres, particularly in the Rhineland, forcing many surviving Jews to flee to Eastern Europe, notably Poland.\n* **Art and Literature:** The omnipresence of death heavily influenced European culture. The ***Danse Macabre* (Dance of Death)** became a popular artistic motif, depicting skeletons leading people of all social classes to the grave, emphasizing the equality of death. Giovanni Boccaccio’s *The Decameron* famously captured the despair and moral breakdown of Florence during the plague.\n\n### Economic and Structural Transformation\nParadoxically, the massive loss of life led to significant economic and social improvements for the surviving lower classes:\n* **Labor Shortages and the End of Serfdom:** With up to half the workforce dead, labor became incredibly scarce. Surviving peasants and laborers found themselves in high demand. They could demand higher wages and better working conditions. This severely undermined the **feudal system** and serfdom, as lords were forced to pay workers in cash rather than relying on bound peasant labor.\n* **Peasant Revolts:** The nobility attempted to resist these changes. In England, the government passed the *Statute of Labourers* (1351) to freeze wages at pre-plague levels. This economic oppression, combined with the new awareness of their own leverage, sparked massive uprisings, such as the **Jacquerie in France (1358)** and the **Peasants' Revolt in England (1381)**.\n* **Agricultural Shifts:** Because labor was expensive, many landowners abandoned labor-intensive crop farming (like wheat) and shifted to pastoral farming, particularly raising sheep for the highly profitable wool trade, which required far fewer workers.\n* **Empowerment of Women:** The severe labor shortage temporarily opened up economic opportunities for women. They were admitted into guilds and took over trades and businesses previously restricted to men, though many of these gains were rolled back in the following centuries.\n\n### Legacy\nThe Black Death was a trauma of unimaginable proportions, but it was also a powerful catalyst for change. By breaking the rigid structures of feudalism, increasing the wealth and bargaining power of the lower classes, and shaking the absolute authority of the Church, it cleared the ground for the **Renaissance**. The shift in mindset—from a purely otherworldly focus to a greater appreciation for human life and the material world—helped birth the humanism that would define the early modern era.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 2560,
+  "total_tokens": 2580,
+  "cost": 0.0032832,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0032832,
+   "upstream_inference_prompt_cost": 6.4e-06,
+   "upstream_inference_completions_cost": 0.0032768
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1299,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:28:50.582713+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

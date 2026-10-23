@@ -1,0 +1,43 @@
+{
+ "item": "S17",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2003 U.S.-led invasion of Iraq? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Together",
+ "response": "Historians have not reached a single verdict on the 2003 U.S.-led invasion of Iraq. The historiography is fragmented, and much of the most influential work has been written by historically minded political scientists, journalists, and former officials as well as academic historians. Still, several broad interpretive clusters stand out.\n\n**1. Neoconservative and liberal-interventionist defenses**  \nSome early accounts defended the war as a necessary response to Saddam Hussein’s tyranny, alleged WMD programs, and the post-9/11 security environment. Historians such as Bernard Lewis and Fouad Ajami, and polemicists like Christopher Hitchens, framed it as a chance to democratize Iraq and reshape the Middle East. See Bernard Lewis, *The Crisis of Islam* (2003); Fouad Ajami, *The Foreigner’s Gift* (2006); Christopher Hitchens, *A Long Short War* (2003). These works are now often treated as primary sources in the debate rather than as settled historiography.\n\n**2. Realist and strategic-failure interpretations**  \nA dominant later view treats the invasion as a strategic blunder that damaged U.S. interests, overstretched the military, empowered Iran, and destabilized the region. Andrew Bacevich’s *America’s War for the Greater Middle East* (2016) is a major synthesis. John Mearsheimer and Stephen Walt, *The Israel Lobby and U.S. Foreign Policy* (2007), and Stephen Walt, *The Hell of Good Intentions* (2018), argue that elite ideology and special-interest politics, not vital national interests, drove the war.\n\n**3. Liberal-internationalist and legal critiques**  \nMany scholars focus on the war’s legality under the UN Charter and just-war criteria, and on the failure to secure broad international legitimacy. See Phil Shiner and Andrew Williams, eds., *The Iraq War and International Law* (2008). Thomas Ricks’s *Fiasco* (2006) and Michael Gordon and Bernard Trainor’s *Cobra II* (2006) are influential journalistic-military histories that emphasize the gap between initial victory and the disastrous occupation.\n\n**4. Critical, imperial, and oil-centered accounts**  \nA critical school interprets the invasion as an expression of U.S. empire, hegemony, and resource control. Noam Chomsky, *Hegemony or Survival* (2003); Tariq Ali, *Bush in Babylon* (2003); Rashid Khalidi, *Resurrecting Empire* (2004); and David Harvey, *The New Imperialism* (2003) are representative. These works often stress oil, Israel, and long-term Western intervention in the Middle East.\n\n**5. Bureaucratic-politics and intelligence-failure explanations**  \nAnother major strand examines how flawed intelligence, groupthink, and bureaucratic maneuvering produced the war. Robert Jervis, *Why Intelligence Fails* (2010), is a key scholarly treatment. Bob Woodward’s *Plan of Attack* (2004), George Packer’s *The Assassins’ Gate* (2005), and the official *Report of the Commission on the Intelligence Capabilities of the United States Regarding Weapons of Mass Destruction* (2005) and the UK’s *Chilcot Report* (2016) are central sources.\n\n**6. Cultural and constructivist approaches**  \nHistorians of culture and identity examine how Orientalist tropes, civilizational discourse, and the memory of 9/11 shaped the case for war. See Edward Said, *From Oslo to Iraq and the Road Map* (2004); Melani McAlister, *Epic Encounters* (2005); and Douglas Little, *American Orientalism* (2008).\n\n**7. Consequences and long-term legacies**  \nA growing literature assesses the war’s aftermath: sectarian civil war, the rise of ISIS, refugee crises, and regional disorder. See Ali Allawi, *The Occupation of Iraq* (2007); Fawaz Gerges, *ISIS: A History* (2016); and Rick Fawn and Raymond Hinnebusch, eds., *The Iraq War: Causes and Consequences* (2006).\n\nOverall, the historiographical trend since roughly 2010 has moved toward viewing the invasion as a war of choice, justified by flawed intelligence and neoconservative ideology, and as a case study in the limits of U.S. power. Some historians still argue that removing Saddam was morally defensible even if the occupation was botched. The debate now centers less on whether WMD existed and more on why the United States chose war, how ideology and bureaucracy shaped that choice, and what the war’s long-term consequences have been.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 5407,
+  "total_tokens": 5457,
+  "cost": 0.0065034,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0065034,
+   "upstream_inference_prompt_cost": 1.5e-05,
+   "upstream_inference_completions_cost": 0.0064884
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 4410,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:56:55.486773+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

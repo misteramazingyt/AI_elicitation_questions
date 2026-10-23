@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "H",
+ "prompt": "How have historians interpreted the New Deal (1933-1939)? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# Historiographical Interpretations of the New Deal\n\nThe New Deal has generated one of the richest historiographical debates in American history. Below is an overview of the major schools of interpretation, with representative sources.\n\n## 1. Early Liberal/Progressive Interpretation (\"New Deal Order\")\n\nEarly historians, many shaped by Progressive-era thinking, largely celebrated the New Deal as a democratic achievement that saved capitalism and empowered ordinary Americans.\n\n- **Arthur M. Schlesinger Jr., *The Age of Roosevelt* (3 vols., 1957–1960)** — Portrayed FDR as a heroic figure whose pragmatic experimentation restored national confidence and reformed capitalism.\n- **William E. Leuchtenburg, *Franklin D. Roosevelt and the New Deal, 1932–1940* (1963)** — A classic sympathetic account arguing the New Deal brought profound social reforms and preserved democracy in an era of fascist and communist alternatives.\n- **Carl Degler, *Out of Our Past* (1959)** — Argued the New Deal was a genuine revolution, or a \"third American revolution,\" in the relationship between government and economy.\n\n## 2. The \"New Left\" Critique (1960s–1970s)\n\nHistorians writing during the 1960s and 1970s attacked the New Deal from the *left*, arguing it was conservative at its core—pro-business, insufficiently redistributive, and compromised on race.\n\n- **Barton Bernstein, \"The New Deal: The Conservative Achievements of Liberal Reform,\" in *Towards a New Past* (1968)** — Argued the New Deal merely preserved the existing capitalist order and failed to fundamentally redistribute wealth or power.\n- **Howard Zinn, ed., *New Deal Thought* (1966)** — Criticized the New Deal for accommodating corporate interests.\n- **Paul Conkin, *The New Deal* (1967)** — Called it \"half a revolution,\" noting its failures and internal contradictions.\n\n## 3. Business/Interest-Group or \"Corporate\" Interpretation\n\n- **James Weinstein, *The Corporate Ideal in the Liberal State* (1968)** — Framed New Deal reforms as business-led efforts to stabilize capitalism.\n- **Colin Gordon, *New Deals: Business, Labor, and Politics in America, 1920–1935* (1994)** — Argued business interests shaped New Deal policy from the outset.\n\n## 4. State-Building / Institutional Approaches\n\nPolitical scientists and historians in the 1980s–1990s shifted focus to state capacity and institutional development.\n\n- **Theda Skocpol, *Protecting Soldiers and Mothers* (1992)** and \"Redefining the New Deal\" — Situated the New Deal in the long-term development of American social policy.\n- **Stephen Skowronek, *Building a New American State* (1982)** — Placed the New Deal in the broader transformation of American governance.\n- **Ira Katznelson, *Fear Itself: The New Deal and the Origins of Our Time* (2013)** — Emphasized the role of Southern Democrats and the atmosphere of crisis, showing how their influence shaped (and limited) the New Deal, especially on race.\n\n## 5. Race, Gender, and Social History\n\nNewer scholarship highlighted who was excluded and how ordinary people experienced the New Deal.\n\n- **Jill Quadagno, *The Color of Welfare* (1994)** — Showed how New Deal programs institutionalized racial discrimination (e.g., excluding domestic and agricultural workers, disproportionately Black).\n- **Landon Storrs, *The Second Red Scare and the Unmaking of the New Deal* (2013)** — Traced how anticommunism undermined New Deal reforms.\n- **Susan Ware, *Beyond Suffrage* (1981)** — Documented women's role in shaping New Deal policy.\n- **Jacqueline Jones and others** — Examined the uneven benefits across race, class, and gender lines.\n\n## 6. Conservative and Revisionist Economic Interpretations\n\n- **Jim Powell, *FDR's Folly* (2003)** — A polemic arguing New Deal policies prolonged the Depression.\n- **Amity Shlaes, *The Forgotten Man* (2007)** — Popular conservative revision arguing government intervention hampered recovery.\n- More measured economic work, e.g., **Peter Temin** and **Barry Eichengreen** on monetary policy, and **Price Fishback** on relief programs, complicates claims on both sides.\n\n## 7. Political Culture and \"Political Development\" Syntheses\n\n- **David M. Kennedy, *Freedom from Fear* (1999)** — Pulitzer-winning synthesis emphasizing the psychological and cultural dimensions of the Depression and New Deal.\n- **Alan Brinkley, *The End of Reform* (1995)** — Argued the New Deal shifted from planning and reform (1933–35) to a more limited, consumer-oriented liberalism by 1937–45.\n- **Steve Fraser and Gary Gerstle, eds., *The Rise and Fall of the New Deal Order* (1989)** — Framed the New Deal as the foundation of a durable mid-century political order that lasted until the 1970s.\n- **Ira Katznelson, *When Affirmative Action Was White* (2005)** — Connected New Deal policy to later racial inequalities.\n- **Eric Rauchway, *The Great Depression and the New Deal* (2008)** — A balanced overview emphasizing the New Deal's substantive achievements.\n\n## Summary of the Debate\n\n| School | Core claim |\n|---|---|\n| Liberal/celebratory | Saved capitalism and democracy; humanitarian achievement |\n| New Left | Conservative; saved capitalism without reforming power structures |\n| Institutional | Built the modern American state |\n| Race/gender | Exclusionary and discriminatory in practice |\n| Conservative economic | Prolonged the Depression; overextended government |\n\nHistorians today generally reject both the pure celebration and the pure condemnation, instead emphasizing the New Deal's contingency, its dependence on political coalitions (especially the South), and its deeply uneven effects.\n\n**Note:** I've cited these works from memory; please verify publication details before using them in formal work, and consult a database like JSTOR or a bibliography such as the *Oxford Bibliographies* entry on the New Deal for fuller coverage.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 32,
+  "completion_tokens": 1334,
+  "total_tokens": 1366,
+  "cost": 0.000521432,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000521432,
+   "upstream_inference_prompt_cost": 3.84e-06,
+   "upstream_inference_completions_cost": 0.000517592
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:37.776959+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

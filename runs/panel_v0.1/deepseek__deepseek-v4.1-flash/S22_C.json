@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration and Nationality Act of 1965?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Wafer",
+ "response": "The Immigration and Nationality Act of 1965—also known as the Hart–Celler Act—was not caused by a single factor. It emerged from a combination of civil rights pressures, Cold War politics, economic needs, and political leadership.\n\n**Main causes:**\n\n1. **The civil rights movement and postwar racial ideology**  \n   The 1920s national origins quota system openly favored Northern and Western Europeans and restricted Southern and Eastern Europeans, Asians, and others. After World War II and the Nazi genocide, such explicitly racial and ethnic discrimination became harder to defend. The civil rights movement of the 1950s–60s made the quota system look like an embarrassing relic of racial hierarchy.\n\n2. **Cold War foreign policy concerns**  \n   U.S. immigration policy was a propaganda liability. The Soviet Union and other critics pointed to American racism and exclusionary quotas to undermine U.S. claims of democracy and equality, especially among newly independent nations in Asia and Africa. Reform was seen as a way to improve the U.S. image abroad and compete for influence in the decolonized world.\n\n3. **Political leadership and coalition politics**  \n   President John F. Kennedy proposed ending the national origins quotas, and after his assassination, President Lyndon B. Johnson made immigration reform part of his Great Society agenda. Liberal Democrats, moderate Republicans, ethnic and religious organizations, civil rights groups, and labor and civic associations formed a coalition strong enough to pass the bill. The 1964 Democratic landslide also gave reformists a more favorable Congress.\n\n4. **Economic and refugee pressures**  \n   Postwar prosperity, labor demands, and Cold War refugee crises—such as Hungarian and Cuban refugees—created pressure for a more flexible immigration system. The act replaced country quotas with a preference system emphasizing family reunification and needed skills, which supporters argued better matched U.S. economic and humanitarian interests.\n\n5. **Momentum from earlier critiques of the McCarran–Walter Act**  \n   The 1952 McCarran–Walter Act had preserved the national origins quota system despite criticism from Presidents Truman and Eisenhower and from many religious, ethnic, and civil rights groups. By the 1960s, the quota system was widely seen as outdated, discriminatory, and inconsistent with America’s Cold War and civil rights rhetoric.\n\n**In short:** the 1965 act was driven mainly by the civil rights movement, Cold War image concerns, presidential leadership, ethnic and religious lobbying, and economic/refugee pressures. Many supporters expected it to remove discrimination without dramatically changing immigration levels; instead, it reshaped U.S. immigration by opening the door to large-scale immigration from Asia, Latin America, and other regions.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 1501,
+  "total_tokens": 1548,
+  "cost": 0.00098458,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00098458,
+   "upstream_inference_prompt_cost": 8.93e-06,
+   "upstream_inference_completions_cost": 0.00097565
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 792,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:17:55.201547+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

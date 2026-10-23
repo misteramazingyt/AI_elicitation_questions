@@ -1,0 +1,43 @@
+{
+ "item": "E03",
+ "template": "Q",
+ "prompt": "What were the consequences of the famine in Soviet Ukraine in 1932-1933?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "The famine of 1932–1933 in Soviet Ukraine, known as the **Holodomor** (\"death by hunger\"), had devastating and far-reaching consequences:\n\n## Human Toll\n\n- **Mass deaths**: Estimates of famine deaths in Ukraine range from roughly 3.5 to 5 million people, with some estimates higher. Deaths peaked in spring and summer 1933.\n- **Widespread starvation**: People resorted to eating pets, rodents, bark, and in extreme cases, cannibalism was documented by authorities.\n- **Demographic collapse**: Birth rates plummeted, and the population did not recover to pre-famine levels for decades.\n\n## Political and Social Consequences\n\n- **Destruction of rural society**: The traditional Ukrainian peasantry—village life, family structures, and social norms—was shattered. Orphaned children and depopulated villages were common.\n- **Suppression of Ukrainian identity**: The famine coincided with the end of the policy of \"Ukrainization.\" Intellectuals, writers, and clergy were persecuted in parallel purges, and Ukrainian cultural autonomy was sharply curtailed.\n- **Consolidation of Stalinist control**: The famine broke peasant resistance to forced collectivization. Collective farms (kolkhozes) became entrenched, and grain requisition quotas continued even as people starved.\n- **Passport system and movement restrictions**: Peasants were effectively tied to collective farms, unable to flee to cities or abroad for food.\n\n## Long-Term Effects\n\n- **Demographic imbalance**: Ukraine's population was disproportionately rural and Ukrainian-speaking before the famine; its aftermath contributed to long-term shifts in the ethnic and linguistic composition of Ukraine and bordering regions.\n- **Intergenerational trauma**: Survivors' accounts and family memories shaped Ukrainian national consciousness for generations.\n- **Historical and political legacy**: The Holodomor became a central issue in Ukrainian national memory. Ukraine and many other countries recognize it as a genocide; Russia disputes this characterization, making it a continuing point of political contention.\n\n## Causes (context)\n\nThe famine resulted from Stalin's forced collectivization, exorbitant grain procurement quotas, confiscation of food and seed supplies, blacklisting of villages that failed to meet quotas, and the denial of foreign aid—combined with the regime's refusal to acknowledge the crisis. Historians debate the extent to which it was deliberately targeted at Ukrainians as an ethnic group versus a broader Soviet policy whose effects fell hardest on Ukraine, Kazakhstan, and other grain-growing regions.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 699,
+  "total_tokens": 746,
+  "cost": 6.58572e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.58572e-05,
+   "upstream_inference_prompt_cost": 1.3395e-06,
+   "upstream_inference_completions_cost": 6.45177e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 183,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:49.901476+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

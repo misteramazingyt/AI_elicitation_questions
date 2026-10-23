@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1996 U.S. welfare reform law?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the 1996 Welfare Reform Law (PRWORA)\n\nThe Personal Responsibility and Work Opportunity Reconciliation Act, signed by President Clinton, replaced AFDC (Aid to Families with Dependent Children) with TANF (Temporary Assistance for Needy Families). Its effects have been widely studied and debated.\n\n## Positive Outcomes\n\n- **Caseloads dropped dramatically** — welfare rolls fell by more than half (from ~12.3 million recipients in 1996 to under 5 million by the early 2000s)\n- **Employment increased** among single mothers, especially those with low education levels\n- **Child poverty declined** during the strong economy of the late 1990s\n- **State flexibility** allowed some innovative program designs\n\n## Negative Consequences\n\n- **Deep poverty increased** — the number of households in extreme poverty (below half the poverty line) rose, particularly among families disconnected from both work and welfare\n- **Many families lost benefits without gaining employment** — roughly 40% of those who left welfare were not employed at any given time\n- **TANF's block grant structure eroded over time** — the fixed federal funding (about $16.5 billion/year) lost value to inflation, and states used growing shares for non-cash assistance\n- **Reduced responsiveness to recessions** — unlike AFDC, TANF caseloads didn't rise much during downturns (notably after 2008), leaving many families without support\n- **Racial disparities** — some evidence suggests stricter implementation in states with larger Black populations\n\n## Other Effects\n\n- **Immigrant restrictions** — the law barred most legal immigrants from benefits, later partially restored\n- **Food stamp participation fell** beyond what employment changes alone would predict\n- **Mixed evidence on family outcomes** — the law's goals of promoting marriage and reducing out-of-wedlock births showed limited results\n\n## Overall Assessment\n\nMost researchers agree the law's success was heavily dependent on the booming 1990s economy. Its long-term weaknesses—fixed funding, weakened safety net function, and poor performance during recessions—became more apparent over time, prompting ongoing debates about reforming TANF.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 582,
+  "total_tokens": 625,
+  "cost": 5.49441e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.49441e-05,
+   "upstream_inference_prompt_cost": 1.2255e-06,
+   "upstream_inference_completions_cost": 5.37186e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 126,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:42.471900+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

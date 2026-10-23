@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "Q",
+ "prompt": "What were the consequences of the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "On June 24, 2022, *Dobbs v. Jackson Women’s Health Organization* upheld Mississippi’s 15-week abortion ban and overruled *Roe v. Wade* (1973) and *Planned Parenthood v. Casey* (1992). The Court held that the Constitution does not confer a federal right to abortion and returned authority to regulate abortion to the states. The consequences have been broad and ongoing:\n\n- **A state-by-state patchwork:** Abortion legality now varies dramatically by state. Several states had “trigger laws” or pre-*Roe* bans that took effect, producing near-total bans in roughly a dozen states. Other states moved to protect or expand abortion access, sometimes by codifying *Roe*-like protections or passing constitutional amendments.\n\n- **Reduced access in ban states:** Clinics closed or stopped offering abortions in states with bans. People in those states often had to travel to neighboring states such as Illinois, Kansas, Colorado, or New Mexico, leading to longer waits, higher costs, and logistical burdens like childcare, lodging, and time off work. Telemedicine and medication abortion became more important, though access remained legally contested.\n\n- **Legal and interstate conflicts:** Courts and legislatures fought over exceptions for life and health, emergency abortion care under federal law, mailing abortion pills, telemedicine, and whether states could punish people who help others travel for abortions. “Shield laws” in some states sought to protect providers and patients from out-of-state investigations. Major litigation also continued over mifepristone and emergency-room obligations.\n\n- **Health and social effects:** Research has linked abortion bans and restrictions to increased births in some ban states and, in at least one state, higher infant mortality. Studies on denied abortion have found economic hardship and health risks for people forced to carry unwanted pregnancies. Effects fell unevenly, with low-income people and people of color facing the largest barriers.\n\n- **Political mobilization:** *Dobbs* energized abortion-rights supporters and became a major electoral issue. Abortion-rights ballot measures won in several states, including Kansas, Michigan, Vermont, California, Ohio, and later others. Democrats used the issue in the 2022 midterms and beyond, while anti-abortion advocates pursued further restrictions.\n\n- **Broader legal ripple effects:** The decision revived debates over substantive due process and privacy. Justice Clarence Thomas’s concurrence suggested reconsidering cases like *Griswold* (contraception), *Lawrence* (same-sex intimacy), and *Obergefell* (same-sex marriage), though the majority said *Dobbs* was limited to abortion. It also intensified conflicts over fetal personhood, contraception, and IVF.\n\nIn short, *Dobbs* did not ban abortion nationwide; it replaced a federal constitutional right with a fragmented state-by-state system. The result has been shifting legal battles, unequal access, increased travel and telehealth, and significant political and public-health consequences that continue to unfold.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 54,
+  "completion_tokens": 3660,
+  "total_tokens": 3714,
+  "cost": 0.002622462,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002622462,
+   "upstream_inference_prompt_cost": 5.562e-06,
+   "upstream_inference_completions_cost": 0.0026169
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3046,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:56:33.209583+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

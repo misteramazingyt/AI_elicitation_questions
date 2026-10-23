@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "D",
+ "prompt": "Describe the Immigration and Nationality Act of 1965.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Decart",
+ "response": "The **Immigration and Nationality Act of 1965**, also known as the **Hart–Celler Act**, was a landmark U.S. law signed by President Lyndon B. Johnson on October 3, 1965. It amended the Immigration and Nationality Act of 1952 and largely dismantled the **national origins quota system** established in 1924, which had favored immigrants from Northern and Western Europe and sharply restricted Southern and Eastern Europeans, Asians, and others.\n\n**Key provisions:**\n- **Abolished national-origin quotas** and the Asia-Pacific Triangle restrictions, ending formal racial and national discrimination in immigration admissions.\n- **Eastern Hemisphere:** Set an annual ceiling of **170,000** visas, with a **20,000 per-country cap**, and created seven preference categories. These prioritized:\n  - Unmarried adult children of U.S. citizens\n  - Spouses and unmarried children of permanent residents\n  - Professionals, scientists, and artists of exceptional ability\n  - Married children of U.S. citizens\n  - Siblings of U.S. citizens\n  - Skilled and unskilled workers in short supply\n  - Refugees\n- **Immediate relatives** of U.S. citizens—spouses, minor children, and parents—were exempt from numerical limits.\n- **Western Hemisphere:** Initially set a **120,000** annual ceiling with no per-country caps, though later laws added per-country limits.\n- Required **labor certification** for some employment-based immigrants to protect U.S. workers.\n- Took full effect on **July 1, 1968**.\n\n**Impact and legacy:**\nThe law was intended to end discriminatory quotas and was expected to produce only modest demographic change. Instead, it dramatically reshaped U.S. immigration. Immigration from **Asia, Latin America, and the Caribbean** surged, while European immigration declined proportionally. **Family reunification** became the dominant pathway, and the law’s per-country caps created long backlogs for high-demand countries such as Mexico, India, China, and the Philippines.\n\nIt also imposed the first numerical limits on Western Hemisphere immigration, which contributed to a rise in unauthorized migration, especially from Mexico. Overall, the 1965 Act is considered a turning point that made modern U.S. immigration more diverse, even though it maintained numerical restrictions and did not create open borders.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 42,
+  "completion_tokens": 2595,
+  "total_tokens": 2637,
+  "cost": 0.00047088,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00047088,
+   "upstream_inference_prompt_cost": 3.78e-06,
+   "upstream_inference_completions_cost": 0.0004671
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2462,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:17:50.439005+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

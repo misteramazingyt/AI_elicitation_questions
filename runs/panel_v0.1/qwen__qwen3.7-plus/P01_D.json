@@ -1,0 +1,43 @@
+{
+ "item": "P01",
+ "template": "D",
+ "prompt": "Describe the invention of the movable-type printing press in Europe.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The invention of the movable-type printing press in Europe is widely considered one of the most important events of the second millennium. It fundamentally altered the course of human history by democratizing knowledge, accelerating the spread of ideas, and catalyzing the Renaissance, the Reformation, and the Scientific Revolution. \n\nWhile the conceptual idea of movable type originated in East Asia, the specific mechanical, chemical, and metallurgical **system** that made printing viable for Europe was developed by **Johannes Gutenberg** around **1440** in Mainz, in the Holy Roman Empire (modern-day Germany).\n\nHere is a detailed description of the invention, its components, and its impact.\n\n---\n\n### 1. Historical Context and Precursors\nBefore Gutenberg, books in Europe were copied by hand by monks (manuscripts) or produced using **woodblock printing**, where an entire page of text and images was carved into a single block of wood. Woodblock printing was slow, and the blocks wore out quickly. \n\nIt is important to note that **movable type was not entirely new to the world**. In the 11th century, a Chinese artisan named Bi Sheng invented movable type using baked clay, and by the 13th century, Koreans were using metal movable type. However, these systems did not lead to a printing revolution in Asia due to the thousands of characters required for the Chinese and Korean writing systems, which made typesetting incredibly labor-intensive. \n\nEurope, with its alphabetic languages requiring only a few dozen letters, was perfectly suited for movable type. Gutenberg’s genius was not necessarily in the *idea* of movable type, but in creating a **complete, mechanized system** to make it commercially and practically viable.\n\n### 2. Gutenberg’s System: The Core Inventions\nGutenberg’s printing press was actually a combination of several distinct technological breakthroughs:\n\n*   **The Hand Mold and Metal Type:** This was Gutenberg’s most crucial innovation. He developed a system using a **punch** (a steel rod with a letter carved in reverse at the end), a **matrix** (a copper block struck by the punch to create a mold), and a **hand mold** (an adjustable, handheld casting device). By pouring a specific alloy of lead, tin, and antimony (which melted at a low temperature but cooled quickly and resisted wear) into the hand mold, Gutenberg could rapidly cast thousands of identical, durable metal letters.\n*   **Oil-Based Ink:** The water-based inks used for woodblock printing and manuscripts would simply smear off metal type. Gutenberg experimented and developed an oil-based ink made from linseed oil and soot (lampblack). This ink adhered perfectly to the metal type and transferred cleanly to paper or vellum.\n*   **The Printing Press:** To apply even pressure across the page, Gutenberg adapted the **screw press**, which was already used in Europe for pressing wine grapes and olives. He modified it by creating a movable, flat wooden platen that held the paper. The type was inked, the paper was placed over it, and the heavy screw mechanism was turned to press the paper firmly against the type.\n\n### 3. The Gutenberg Bible\nTo prove the viability of his invention, Gutenberg chose to print the Bible. Between 1452 and 1455, his workshop produced the **Gutenberg Bible** (also known as the 42-line Bible). \n\nAround 180 copies were printed on paper and vellum. The quality was astonishing; the text was incredibly uniform, and the blackness of the ink was rich and deep. To make the books appealing to wealthy buyers, Gutenberg left space for rubricators (illuminators) to hand-draw the colorful initials and decorations, making the printed books look like traditional, expensive manuscripts. \n\n### 4. The Spread of the Technology\nDespite the success of the Bible, Gutenberg was a better inventor than a businessman. He had borrowed heavily from a wealthy lawyer named **Johann Fust** to fund his research. In 1455, Fust sued Gutenberg for repayment, won, and seized Gutenberg’s workshop. \n\nHowever, this business failure inadvertently sparked a revolution. Fust, along with Gutenberg’s former assistant **Peter Schoeffer**, continued the printing business. More importantly, the \"secret\" of the printing press leaked out. Skilled workers from Mainz fled to other cities, taking the technology with them. \n\nBy 1470, printing presses were established in Italy, France, and the Netherlands. In Venice, **Aldus Manutius** introduced italic type and the *octavo* format (small, portable books), making literature accessible to a wider audience. By the year 1500, printing presses had spread to over 250 cities across Europe, and an estimated **20 million volumes** had been printed.\n\n### 5. Historical Impact\nThe invention of the movable-type printing press triggered a cascade of historical transformations:\n\n*   **The Democratization of Knowledge:** The cost of books plummeted. What once took a scribe a year to copy could be printed in the hundreds in a few weeks. Knowledge was no longer the exclusive domain of the clergy and the ultra-rich.\n*   **The Protestant Reformation:** Martin Luther’s *95 Theses* (1517) were rapidly printed and distributed across Germany and Europe. The press allowed reformers to bypass the Catholic Church's monopoly on information, and the printing of the Bible in vernacular languages allowed everyday people to read scripture for themselves.\n*   **The Scientific Revolution:** Scientists could now publish their findings, data, and complex anatomical or astronomical diagrams with perfect accuracy. This allowed scholars across Europe to build upon each other's work rather than working in isolated silos.\n*   **Standardization of Languages:** Before the press, spelling and grammar varied wildly from town to town. Printers, wanting to sell to the widest possible audience, standardized spelling and grammar, which helped forge national identities and standardized modern European languages.\n*   **The Rise of the Middle Class:** The printing industry created a massive new economic sector, employing typesetters, pressmen, bookbinders, and booksellers. It also fueled a rising demand for literacy, eventually leading to the creation of newspapers and the modern public sphere.\n\n### Summary\nJohannes Gutenberg’s movable-type printing press was a masterful synthesis of metallurgy, chemistry, and mechanical engineering. By transforming the book from a rare, hand-crafted luxury into a mass-produced commodity, Gutenberg effectively initiated the first Information Age, laying the technological foundation for the modern world.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 2752,
+  "total_tokens": 2774,
+  "cost": 0.0035296,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0035296,
+   "upstream_inference_prompt_cost": 7.04e-06,
+   "upstream_inference_completions_cost": 0.00352256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1374,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:28:24.800568+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

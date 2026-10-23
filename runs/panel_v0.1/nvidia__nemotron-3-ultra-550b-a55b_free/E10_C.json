@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "C",
+ "prompt": "What were the main causes of the UK miners' strike of 1984-1985?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The UK miners' strike of 1984–1985 was a defining moment in British industrial relations. It was not caused by a single issue but by a convergence of long-term structural economic changes, deliberate government strategy, and deep-seated cultural and political antagonisms.\n\nHere are the main causes, categorized for clarity:\n\n### 1. Economic Structural Change & The \"Plan for Coal\" (1974)\n*   **Uncompetitive Pits:** By the early 1980s, many British deep mines were geologically exhausted, difficult to mechanize, and high-cost compared to open-cast mines abroad (Australia, USA, South Africa, Poland) or the emerging North Sea gas sector.\n*   **The 1974 Legacy:** The 1974 \"Plan for Coal\" (agreed under a Labour government) had committed the National Coal Board (NCB) to maintaining capacity and opening new mines (like Selby) to replace oil after the 1973 oil crisis. By 1984, the oil price had collapsed, North Sea gas was abundant, and the economic rationale for high-cost deep mining had vanished.\n*   **Subsidy Burden:** The industry required massive state subsidies (approx. £1.3 billion/year in the early 80s). The Thatcher government viewed this as an unsustainable drain on the public purse and a distortion of the free market.\n\n### 2. Thatcher Government Strategy & Ideology (The Ridley Plan)\n*   **Political Revenge/Strategy:** The Conservative Party, and Margaret Thatcher personally, viewed the National Union of Mineworkers (NUM) as the \"enemy within\" after the NUM brought down the Heath government in 1974. Defeating the NUM was seen as essential to breaking the power of the trade union movement generally.\n*   **The Ridley Report (1977):** Nicholas Ridley (later a Cabinet minister) wrote a confidential report for the Thatcher opposition team outlining a strategy to defeat a major strike. Key tenets included:\n    *   Stockpiling coal and oil at power stations.\n    *   Recruiting non-union lorry drivers to move coal.\n    *   Cutting off state benefits to strikers' families to increase pressure.\n    *   Using police to enforce the law and allow \"free movement of labour\" (breaking picket lines).\n*   **Appointment of Ian MacGregor:** In 1983, the government appointed Ian MacGregor (who had slimmed down British Steel) as NCB Chairman with a mandate to reduce the workforce and close \"uneconomic\" pits.\n\n### 3. The Immediate Trigger: The Closure Programme (March 1984)\n*   **Cortonwood Announcement:** On **March 1, 1984**, the NCB announced the closure of Cortonwood Colliery in Yorkshire, implying the loss of 20,000 jobs nationally (later revealed in the \"MacGregor Plan\" leaks to be a hit list of ~75 pits and 70,000+ jobs over 3 years).\n*   **Lack of Consultation:** The NUM argued this violated the \"Plan for Coal\" agreement which required exhaustive geological review and consultation before closures. The government/NCB argued they only needed to consult on *procedures*, not the *principle* of closure.\n*   **Regional Disparity:** The closures targeted specific regions (Yorkshire, Scotland, South Wales, Kent) while others (Nottinghamshire, Midlands) had newer, more productive pits. This created a structural divide in the union's response.\n\n### 4. Union Leadership, Tactics, and Internal Democracy\n*   **Arthur Scargill’s Leadership:** NUM President Arthur Scargill was a Marxist who viewed the strike as a political battle to bring down the government, not just an industrial dispute over pits. He famously refused to hold a **national ballot** before calling the strike.\n*   **The \"Area Incentive\" Ballot Avoidance:** Scargill relied on a 1981 delegate conference resolution allowing him to call official action based on area ballots. He argued a national ballot would be rigged by the government/media and that the closure programme *was* the ballot.\n*   **The Nottinghamshire Split:** Because no national ballot was held, the moderate majority in Nottinghamshire (and other Midlands areas) refused to strike, viewing the action as unconstitutional. This led to the formation of the breakaway **Union of Democratic Mineworkers (UDM)** later in the dispute, fatally undermining solidarity.\n*   **Flying Pickets:** The reliance on \"flying pickets\" (mobile pickets sent to working pits) to enforce the strike led to violent confrontations (e.g., Orgreave) and alienated public opinion and the Labour Party leadership (Neil Kinnock).\n\n### 5. Legal Framework & State Power\n*   **Anti-Union Legislation:** The Employment Acts of 1980 and 1982, and the Trade Union Act 1984, restricted picketing, made secondary action illegal, mandated secret ballots for leadership/strikes, and allowed courts to sequester union assets.\n*   **Sequestration of NUM Funds:** In September 1984, the High Court ordered the sequestration of NUM assets (£5m+) for contempt of court (refusing to obey an injunction against the strike). This crippled the union's ability to pay strike pay and legal fees.\n*   **Policing:** The government deployed a highly coordinated, national police operation (using mutual aid) to keep pits open and protect working miners. The \"Battle of Orgreave\" (June 1984) symbolized the militarization of policing.\n\n### 6. Energy Market Context\n*   **Stockpiling:** Following the Ridley Plan, the Central Electricity Generating Board (CEGB) had built massive coal stocks (approx. 58 million tonnes by March 1984) and converted power stations to burn heavy fuel oil.\n*   **No Winter Crisis:** The strike began in **Spring (March)**, not Winter. This gave the government months of low electricity demand to withstand the stoppage without blackouts (unlike 1972/1974).\n\n### Summary\nThe strike was caused by a **collision between a declining industry requiring contraction and a union leadership committed to preventing any pit closures on principle.** The government had prepared meticulously (stocks, laws, police, leadership) to force that contraction and break the union's power; the union leadership chose a confrontation it was structurally unprepared to win (no national ballot, spring start, divided membership), leading to a year of bitter conflict that ended in total defeat for the NUM.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 1492,
+  "total_tokens": 1531,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 53,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:46:00.596106+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

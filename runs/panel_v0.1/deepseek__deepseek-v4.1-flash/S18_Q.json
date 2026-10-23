@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "Q",
+ "prompt": "What were the consequences of the 2011 military intervention in Libya?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The 2011 NATO-led intervention in Libya—authorized by UN Security Council Resolution 1973 to protect civilians—achieved its immediate goal of preventing a likely massacre in Benghazi and helped overthrow Muammar Gaddafi. But its longer-term consequences were largely destabilizing for Libya, the Sahel, and Europe.\n\n**1. Collapse of the Gaddafi regime and political fragmentation**  \nGaddafi was captured and killed in October 2011. The National Transitional Council took power, but it failed to build a monopoly on force or inclusive institutions. Hundreds of armed militias refused to disarm. Elections in 2012 produced a weak General National Congress, and by 2014 Libya had split into rival governments and parliaments—one in Tripoli, one in Tobruk—backed by different militias and foreign patrons. This led to a prolonged civil war.\n\n**2. Security vacuum, militias, and extremism**  \nThe post-intervention security vacuum allowed jihadist and extremist groups to grow. Ansar al-Sharia and later an Islamic State affiliate seized territory, including Sirte in 2015. Weapons from Gaddafi’s arsenals spread across Libya and beyond. The 2012 attack in Benghazi that killed U.S. Ambassador Christopher Stevens became a symbol of the deteriorating security situation.\n\n**3. Humanitarian and human rights crisis**  \nThousands were killed and hundreds of thousands displaced during and after the intervention. Migrants and refugees became especially vulnerable: Libya became a major transit route to Europe, and reports documented detention, torture, extortion, and slave markets. Armed groups committed extrajudicial killings, abductions, and abuses with widespread impunity.\n\n**4. Economic collapse**  \nOil production—Libya’s economic lifeline—was repeatedly disrupted by blockades, militia fighting, and political disputes. This caused fiscal crises, currency problems, inflation, electricity shortages, and a sharp decline in living standards. State institutions and services fragmented.\n\n**5. Regional spillover**  \nThe intervention had major effects beyond Libya. Tuareg fighters and weapons flowed into Mali, contributing to the 2012 Tuareg rebellion and the broader Mali crisis. Instability spread across the Sahel, affecting Niger, Chad, and beyond. Libya also became a proxy conflict involving Turkey, Qatar, Egypt, the UAE, Russia, France, and others. Russian mercenaries and Turkish forces became entrenched.\n\n**6. Migration and European politics**  \nLibya became the main departure point for migrants and refugees crossing the Mediterranean. Thousands died at sea. The EU increasingly relied on Libyan coast guards and militias to stop migration, raising serious human rights concerns and fueling European political debates over migration.\n\n**7. International consequences**  \nThe intervention badly damaged the principle of “Responsibility to Protect” (R2P). Russia and China criticized NATO for exceeding the UN mandate and pursuing regime change. The episode contributed to UN Security Council paralysis over later conflicts, including Syria. It also deepened Western intervention fatigue.\n\n**Overall**, the intervention succeeded in toppling Gaddafi and preventing an immediate massacre, but it did not produce a stable, democratic Libya. Instead, it helped open a decade of civil war, state collapse, regional instability, and humanitarian suffering. Local factors—Gaddafi’s legacy, weak institutions, and rival factions—were also crucial, but the 2011 intervention was a major catalyst for Libya’s post-2011 trajectory.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 2081,
+  "total_tokens": 2125,
+  "cost": 0.001492447,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001492447,
+   "upstream_inference_prompt_cost": 4.532e-06,
+   "upstream_inference_completions_cost": 0.001487915
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1371,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:16:48.098819+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Bengal famine of 1943?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the Bengal Famine of 1943\n\nThe Bengal famine of 1943, which killed an estimated 2–3 million people, had far-reaching consequences:\n\n## Human and Demographic Impact\n- **Mass mortality**: Between 1.5 and 3 million deaths, primarily from starvation and the epidemics (cholera, malaria, dysentery) that followed\n- **Mass displacement**: Hundreds of thousands of rural families abandoned villages and migrated to Calcutta and other cities in search of food\n- **Orphans and abandoned children**: Thousands of children were left destitute; orphanages were overwhelmed\n- **Social breakdown**: Increased prostitution, abandonment of elderly family members, and sale of children occurred in desperate communities\n\n## Economic Consequences\n- **Rural impoverishment**: Millions of small farmers sold their land, cattle, and tools to buy food, creating a landless labor class\n- **Debt bondage**: Peasants fell into deep debt to moneylenders and landlords\n- **Agricultural disruption**: Loss of draft animals and laborers reduced agricultural productivity for years afterward\n\n## Political Consequences\n- **Erosion of British legitimacy**: The famine severely damaged the credibility of British rule in India. The colonial government's failure to act—despite having ships available—was widely condemned\n- **Rise of nationalism**: The famine fueled anti-colonial sentiment and strengthened the Indian National Congress and independence movement\n- **Quit India Movement context**: It occurred alongside the 1942 Quit India movement, deepening resentment of British administration\n- **Partition tensions**: Communal tensions over food and resources worsened Hindu-Muslim relations in the region\n\n## Intellectual and Policy Legacy\n- **Amartya Sen's work**: Economist Amartya Sen, who witnessed the famine as a child, later used it to develop his influential \"entitlement failure\" theory, showing that famine resulted from distribution failures and policy choices rather than absolute food shortage\n- **Madhusree Mukerjee's research**: Later scholarship (e.g., *Churchill's Secret War*) documented how wartime policies—boat denial, grain diversion, and prioritizing military supplies—worsened the crisis\n- **Food policy reforms**: The famine influenced post-independence India's food security policies, including the Public Distribution System and buffer stock policies\n\n## Long-term Effects\n- The famine remained a defining trauma in Bengali memory, referenced in literature and film (notably Satyajit Ray's *Ashani Sanket*, 1973)\n- It became a key case study in famine economics and disaster prevention worldwide\n\nThe famine is now widely regarded as a man-made disaster, resulting from a combination of wartime inflation, hoarding, British policy decisions, and administrative failure rather than simple crop failure.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 739,
+  "total_tokens": 780,
+  "cost": 6.93782e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.93782e-05,
+   "upstream_inference_prompt_cost": 1.1685e-06,
+   "upstream_inference_completions_cost": 6.82097e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 162,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:14.461236+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

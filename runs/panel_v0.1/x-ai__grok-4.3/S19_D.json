@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "D",
+ "prompt": "Describe the 1994 U.S. crime bill.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The **Violent Crime Control and Law Enforcement Act of 1994** (Public Law 103-322), commonly known as the **1994 Crime Bill**, was signed into law by President Bill Clinton on September 13, 1994. At the time, it was the largest and most comprehensive federal crime legislation in U.S. history, authorizing roughly $30 billion over six years.\n\n### Background and Sponsors\nIt was introduced in response to high violent crime rates in the late 1980s and early 1990s. The bill was primarily sponsored by then-Senator Joe Biden (D-DE) and had broad bipartisan support, passing the Senate 95–4 and the House 235–195 before being signed.\n\n### Major Provisions\nThe law contained dozens of sections. Its most notable components included:\n\n- **Federal Assault Weapons Ban**: Prohibited the manufacture and sale of 19 specific semi-automatic firearms (including the AR-15) and large-capacity magazines holding more than 10 rounds. The ban had a 10-year sunset clause and expired in 2004.\n- **\"Three Strikes\" Provision**: Required life imprisonment for individuals convicted of three serious violent felonies or drug offenses at the federal level.\n- **Expansion of the Death Penalty**: Added dozens of new federal capital offenses, including certain drug-related crimes, carjackings resulting in death, and drive-by shootings.\n- **Police Hiring and COPS Program**: Authorized funding for 100,000 additional police officers through the Community Oriented Policing Services (COPS) initiative.\n- **Violence Against Women Act (VAWA)**: Created new federal crimes for domestic violence and stalking, established the Office on Violence Against Women, and provided funding for victim services and shelters.\n- **Prison Funding and \"Truth in Sentencing\"**: Provided grants to states to build more prisons and encouraged states to require inmates to serve at least 85% of their sentences.\n- **Other Measures**: Increased penalties for various crimes, funded crime prevention programs, expanded the federal prison system, and included provisions on gang violence, drug trafficking, and juvenile justice.\n\n### Context and Legacy\nThe bill was passed during a period when both major parties supported tough-on-crime policies. Crime rates (especially homicide) began declining sharply in the mid-1990s, though experts continue to debate how much of that drop can be attributed to the legislation versus other factors like economic growth, changes in policing, and the end of the crack epidemic.\n\nThe law remains controversial today, with critics arguing it contributed to mass incarceration and disproportionately affected minority communities, while supporters credit it with helping reduce crime and advancing protections for women. The assault weapons ban and certain sentencing provisions have been focal points in later policy debates.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 203,
+  "completion_tokens": 887,
+  "total_tokens": 1090,
+  "cost": 0.00233685,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00233685,
+   "upstream_inference_prompt_cost": 0.00011935,
+   "upstream_inference_completions_cost": 0.0022175
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 338,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:53.081385+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

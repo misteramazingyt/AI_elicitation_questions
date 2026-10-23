@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "C",
+ "prompt": "What were the main causes of the 1996 U.S. welfare reform law?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 1996 U.S. welfare reform law, officially named the **Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA)**, fundamentally changed the American social safety net. It replaced the open-ended entitlement program Aid to Families with Dependent Children (AFDC) with Temporary Assistance for Needy Families (TANF), which introduced work requirements, time limits, and block grants to the states. \n\nThe passage of this landmark legislation was driven by a convergence of political, ideological, economic, and structural factors during the 1990s.\n\n### 1. Political Drivers\n* **Bill Clinton’s \"New Democrat\" Platform:** During his 1992 presidential campaign, Bill Clinton promised to \"end welfare as we know it.\" As a \"New Democrat,\" Clinton sought to modernize the Democratic Party by moving away from traditional Great Society liberalism toward a more centrist \"Third Way\" approach. He believed the party needed to appeal to moderate and conservative voters by addressing public concerns about the welfare system.\n* **The 1994 Republican Revolution:** In the 1994 midterm elections, Republicans, led by Newt Gingrich, took control of both houses of Congress. Their \"Contract with America\" included strict welfare reform provisions. The Republican majority pushed for deep cuts to welfare, stringent work requirements, and restrictions on benefits for immigrants. PRWORA was ultimately the result of a negotiated compromise between Clinton’s centrist vision and the more conservative demands of the Republican Congress.\n\n### 2. Ideological and Social Shifts\n* **The Narrative of \"Welfare Dependency\":** Throughout the 1980s and 1990s, a bipartisan consensus grew around the idea that the existing welfare system created a \"culture of dependency.\" Critics across the political spectrum argued that AFDC discouraged work, trapped people in poverty, and created intergenerational reliance on government assistance. \n* **Focus on \"Personal Responsibility\" and Family Structure:** The law’s very name highlighted the ideological shift toward \"personal responsibility.\" Policymakers were highly concerned about the rising rate of out-of-wedlock births and the increase in single-parent households. Reformers argued that the existing system inadvertently penalized marriage and sought to use the new law to promote two-parent families and require able-bodied recipients to work or prepare for work.\n\n### 3. Economic and Fiscal Factors\n* **Deficit Reduction:** In the early 1990s, reducing the federal budget deficit was a primary focus of Washington. Welfare reform was viewed as a mechanism to curb federal spending. By capping federal welfare funding and shifting some of the financial burden to the states, the law was designed to reduce long-term federal liabilities.\n* **The 1990s Economic Boom:** The mid-1990s saw a period of strong economic growth, low inflation, and a declining unemployment rate. This robust economy made the \"work-first\" approach of the reform seem highly feasible to policymakers, as there was a perceived abundance of entry-level jobs available for welfare recipients.\n\n### 4. Structural and Administrative Dissatisfaction\n* **Flaws in the AFDC System:** The existing AFDC program was an open-ended entitlement, meaning the federal government had to match state spending regardless of economic conditions. Critics argued it lacked incentives for recipients to find work and was overly bureaucratic. \n* **Desire for \"Devolution\" (States' Rights):** A major structural cause of the reform was the desire to shift power from the federal government to the states. By replacing AFDC with TANF, the federal government provided states with fixed \"block grants.\" This \"devolution\" gave states much greater flexibility to design their own welfare programs, experiment with different work initiatives, and tailor assistance to local economic conditions, free from many federal mandates.\n\n### Summary\nThe 1996 welfare reform was not the result of a single event, but rather the culmination of a decade-long shift in American political thought. It was driven by a centrist Democratic president seeking to redefine his party's approach to poverty, a conservative Congress demanding fiscal restraint and stricter social policies, and a broad bipartisan belief that the existing welfare structure fostered dependency rather than self-sufficiency.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 29,
+  "completion_tokens": 2289,
+  "total_tokens": 2318,
+  "cost": 0.0029392,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0029392,
+   "upstream_inference_prompt_cost": 9.28e-06,
+   "upstream_inference_completions_cost": 0.00292992
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1419,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:23:24.419164+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

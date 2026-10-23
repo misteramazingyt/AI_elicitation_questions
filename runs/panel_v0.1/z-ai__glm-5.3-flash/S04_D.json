@@ -1,0 +1,43 @@
+{
+ "item": "S04",
+ "template": "D",
+ "prompt": "Describe Soviet espionage in the United States in the 1940s, including the Rosenberg case.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Soviet Espionage in the United States in the 1940s\n\n## Background and Context\n\nSoviet espionage in the U.S. intensified dramatically during World War II, when the USSR was an American ally. The Soviet intelligence services—the NKVD (later MGB) and the GRU (military intelligence)—operated networks that recruited American agents, often motivated by ideology rather than money. Many recruits were members of the Communist Party USA or fellow travelers who believed in Soviet ideals, especially during the war against Nazi Germany.\n\n## Major Espionage Activities\n\n### Atomic Espionage\nThe most significant Soviet intelligence coup was penetrating the Manhattan Project:\n\n- **Klaus Fuchs**, a German-born physicist at Los Alamos, passed detailed information about the atomic bomb design, dramatically accelerating Soviet nuclear development (the USSR tested its first bomb in 1949).\n- **Theodore Hall**, a young Harvard physicist, also passed atomic secrets.\n- **David Greenglass**, a machinist at Los Alamos, provided sketches and data.\n- The \"Perseus\" and other unidentified sources may have contributed as well.\n\n### Government Penetration\n- **Alger Hiss**, a State Department official, was accused by Whittaker Chambers in 1948 of passing documents in the 1930s. He was convicted of perjury in 1950.\n- **Harry Dexter White**, a senior Treasury Department official, was identified by Soviet defectors as a source.\n- Networks run by figures like **Julius Rosenberg** collected industrial and military technology.\n\n### Key Sources of Evidence\n- **Venona**: A secret U.S. program decrypting Soviet cables (started 1943, declassified 1995) that eventually confirmed extensive Soviet spying and identified many agents.\n- **Defectors**: Whittaker Chambers, Elizabeth Bentley, and Igor Gouzenko (in Canada) exposed networks in the late 1940s.\n\n## The Rosenberg Case\n\n**Julius and Ethel Rosenberg** were arrested in 1950 after Ethel's brother, David Greenglass, implicated them. Julius, an engineer, had run a spy ring passing defense information—including radar, proximity fuzes, and atomic data (via Greenglass's sketches of the implosion lens design).\n\n- They were tried in 1951, convicted of conspiracy to commit espionage, and sentenced to death.\n- Despite international appeals and protests, they were executed on **June 19, 1953**, at Sing Sing prison.\n- Ethel's execution was particularly controversial, as her direct role was minimal; Greenglass later admitted he had lied about her typing of documents to protect his own wife.\n- Venona decryptions later confirmed Julius's guilt as a recruiter and courier, while evidence against Ethel remained weaker.\n\n## Impact\n\nThe espionage revelations fueled Cold War paranoia, legitimized anti-communist investigations (though often overextended by McCarthyism), and shaped American politics for decades. The case remains a subject of debate over the fairness of the trial and the death sentence, particularly for Ethel Rosenberg.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 47,
+  "completion_tokens": 789,
+  "total_tokens": 836,
+  "cost": 7.41642e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 7.41642e-05,
+   "upstream_inference_prompt_cost": 1.3395e-06,
+   "upstream_inference_completions_cost": 7.28247e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 156,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:53.869247+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

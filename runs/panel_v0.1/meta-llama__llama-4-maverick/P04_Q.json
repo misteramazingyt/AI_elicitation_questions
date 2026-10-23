@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "Q",
+ "prompt": "What were the consequences of the Black Death in fourteenth-century Europe?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Black Death, which occurred in the 14th century (1346-1353), was one of the most devastating pandemics in human history, causing widespread death, social, economic, and cultural disruption across Europe. The consequences of the Black Death were far-reaching and multifaceted, affecting various aspects of European society. Here are some of the significant consequences:\n\n**Demographic Consequences:**\n\n1. **Massive population decline**: The Black Death is estimated to have killed between 75 million and 200 million people, approximately 30-60% of Europe's population. This led to a significant decline in population, which took centuries to recover from.\n2. **Changes in population distribution**: The plague disproportionately affected urban areas, leading to a shift in population distribution, with many people moving from cities to rural areas.\n\n**Economic Consequences:**\n\n1. **Labor shortages and changes in the feudal system**: The massive population decline led to a shortage of labor, which gave peasants and laborers more bargaining power. This contributed to the decline of the feudal system, as lords were forced to offer better wages and conditions to retain workers.\n2. **Inflation and economic instability**: The sudden loss of labor and the resulting changes in the economy led to inflation, as wages increased and the value of money decreased.\n3. **Increased social mobility**: With the shortage of labor, people were able to move more freely between occupations and social classes, leading to increased social mobility.\n\n**Social and Cultural Consequences:**\n\n1. **Changes in social attitudes and behavior**: The trauma caused by the plague led to increased pessimism, fatalism, and a sense of mortality, influencing art, literature, and culture.\n2. **Persecution of minority groups**: The plague led to increased persecution of minority groups, such as Jews, who were blamed for the outbreak of the disease.\n3. **Increased religiosity and mysticism**: The plague led to a surge in religiosity, with many people turning to the Church for comfort and explanation. This also led to the rise of mysticism and flagellant movements.\n4. **Cultural and artistic changes**: The plague influenced the development of art, literature, and music, with themes of mortality, suffering, and the transience of life becoming more prevalent.\n\n**Long-term Consequences:**\n\n1. **Changes in the structure of society**: The plague contributed to the decline of the feudal system and the rise of a more modern, capitalist economy.\n2. **Advances in medicine and public health**: The plague led to increased investment in medicine and public health, with the development of new medical practices, quarantine laws, and sanitation systems.\n3. **Shifts in the balance of power**: The plague had significant impacts on the balance of power in Europe, with some cities and regions experiencing more significant population declines than others, leading to changes in the distribution of wealth and power.\n\nIn summary, the Black Death had far-reaching consequences for European society, economy, and culture, shaping the course of history for centuries to come.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 24,
+  "completion_tokens": 619,
+  "total_tokens": 643,
+  "cost": 0.0004083975,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004083975,
+   "upstream_inference_prompt_cost": 4.5e-06,
+   "upstream_inference_completions_cost": 0.0004038975
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:05.808105+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "D",
+ "prompt": "Describe the U.S. War on Drugs from 1971 to the 1990s.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "The U.S. War on Drugs refers to a series of federal policies and enforcement efforts aimed at reducing the production, distribution, and use of illegal drugs, beginning with President Richard Nixon's public declaration in June 1971 that drug abuse was \"public enemy number one.\" This marked a shift toward treating drug issues primarily as a criminal justice matter rather than a public health one, building on earlier laws like the 1970 Controlled Substances Act, which established drug schedules and penalties.\n\n### 1970s: Foundations and Initial Escalation\n- Nixon's administration created the Drug Enforcement Administration (DEA) in 1973 to coordinate federal efforts. Funding for drug control agencies increased significantly, with emphasis on heroin and marijuana.\n- Policies included international cooperation (e.g., crop eradication in Turkey and Mexico) and domestic enforcement. The era saw the first major mandatory minimum sentences for drug offenses.\n- Early focus was on supply interdiction, but critics note it coincided with political targeting of anti-war and Black communities, as later acknowledged by Nixon aide John Ehrlichman in interviews.\n\n### 1980s: Intensification Under Reagan\n- President Ronald Reagan dramatically expanded the effort in the 1980s, declaring drugs a national security threat. Federal drug control spending rose from about $1 billion in 1980 to over $5 billion by 1989.\n- Key legislation included the Anti-Drug Abuse Acts of 1986 and 1988, which introduced harsh mandatory minimum sentences (e.g., 5 years for 5 grams of crack cocaine versus 500 grams of powder cocaine), asset forfeiture laws, and the \"zero tolerance\" approach.\n- The crack cocaine epidemic in urban areas drove media and political focus, leading to militarized policing, DARE programs in schools, and Nancy Reagan's \"Just Say No\" campaign. Incarceration rates surged, with drug offenders comprising a growing share of federal prisoners.\n- International dimensions included support for operations in Colombia and Bolivia, and domestic measures like random drug testing for federal employees.\n\n### 1990s: Continuation and Peak Incarceration\n- Under President George H.W. Bush, the effort continued with the 1989 National Drug Control Strategy, emphasizing interdiction and treatment alongside enforcement. The 1990s saw further laws like the 1994 Violent Crime Control and Law Enforcement Act (under President Bill Clinton), which included \"three strikes\" provisions and expanded the death penalty for certain drug-related crimes.\n- Crack vs. powder cocaine sentencing disparities persisted, contributing to racial imbalances in prisons (Black Americans were disproportionately affected). By the mid-1990s, the U.S. prison population exceeded 1 million, with drug offenses driving much of the growth.\n- Public health responses remained secondary, though needle exchange programs emerged in some cities amid the HIV/AIDS crisis linked to injection drug use. The era also featured cultural elements like hip-hop critiques of the policies and rising skepticism about effectiveness as drug use rates fluctuated but violence from trafficking persisted.\n\nOverall, the period from 1971 to the 1990s saw federal drug arrests multiply, with Black and Hispanic communities facing higher enforcement rates relative to usage patterns. Annual drug control budgets grew into the tens of billions when including state and local efforts. While proponents argued it reduced certain drug supplies, critics highlighted limited impact on availability or addiction rates, alongside high social costs like family disruption and eroded trust in law enforcement. By the late 1990s, some states began exploring alternatives like drug courts.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 211,
+  "completion_tokens": 1094,
+  "total_tokens": 1305,
+  "cost": 0.00286435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00286435,
+   "upstream_inference_prompt_cost": 0.00012935,
+   "upstream_inference_completions_cost": 0.002735
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 392,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:56.355255+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

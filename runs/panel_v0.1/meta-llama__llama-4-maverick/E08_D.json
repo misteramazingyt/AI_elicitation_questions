@@ -1,0 +1,43 @@
+{
+ "item": "E08",
+ "template": "D",
+ "prompt": "Describe the Great Depression.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Great Depression was a severe and prolonged economic downturn that lasted from 1929 to the late 1930s. It was a global phenomenon that affected many countries, but its impact was most pronounced in the United States. Here's a comprehensive overview of the Great Depression:\n\n**Causes:**\n\n1. **Stock Market Crash of 1929:** The stock market crash on October 29, 1929, also known as Black Tuesday, is often considered the trigger that set off the Great Depression. The crash led to a massive loss of wealth for investors, which in turn reduced consumer spending and investment.\n2. **Overproduction and Underconsumption:** In the 1920s, there was a surge in industrial production, leading to a surplus of goods. However, many Americans were unable to afford these goods, leading to underconsumption and a buildup of inventory.\n3. **Credit Crisis:** Many Americans had bought stocks on margin (using borrowed money), and when the stock market crashed, they were unable to pay back their loans. This led to a credit crisis, as banks and other lenders faced huge losses.\n4. **Banking System:** The banking system at the time was fragile and lacked effective regulation. Many banks had invested heavily in the stock market and had loaned money to speculators. When the stock market crashed, these banks found themselves with large amounts of worthless stocks and unpaid loans.\n\n**Characteristics:**\n\n1. **Unemployment:** Unemployment soared, with some estimates suggesting that up to 25% of the US workforce was unemployed at the height of the Depression.\n2. **Poverty:** Millions of Americans were forced into poverty, with many families unable to afford basic necessities like food, housing, and healthcare.\n3. **Business Failures:** Thousands of businesses failed, including banks, factories, and small enterprises.\n4. **Homelessness:** Homelessness became a major issue, with many people forced to live in shantytowns, known as Hoovervilles.\n5. **Decline in International Trade:** The Great Depression led to a sharp decline in international trade, as countries turned to protectionism and tariffs to protect their domestic industries.\n\n**Effects:**\n\n1. **Social Impact:** The Great Depression had a profound impact on American society, leading to increased poverty, inequality, and social unrest.\n2. **Psychological Impact:** The Depression had a lasting psychological impact on those who lived through it, with many people experiencing anxiety, fear, and a loss of confidence in the economic system.\n3. **Government Response:** The Great Depression led to a significant expansion of government intervention in the economy, with the introduction of programs like the New Deal in the United States.\n\n**Recovery:**\n\n1. **New Deal Programs:** The New Deal programs introduced by President Franklin D. Roosevelt in the 1930s helped to stimulate economic recovery, providing jobs, infrastructure, and social welfare programs.\n2. **Monetary Policy:** The Federal Reserve, the US central bank, implemented expansionary monetary policies, including lowering interest rates and increasing the money supply.\n3. **World War II:** The onset of World War II provided a massive stimulus to the economy, as governments increased spending on military production and mobilization.\n\nThe Great Depression was a traumatic event that had far-reaching consequences for the global economy and society. It led to significant changes in economic policy, including the establishment of the welfare state and the development of Keynesian economics.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 15,
+  "completion_tokens": 696,
+  "total_tokens": 711,
+  "cost": 0.0004569525,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0004569525,
+   "upstream_inference_prompt_cost": 2.8125e-06,
+   "upstream_inference_completions_cost": 0.00045414
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:03:14.307907+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

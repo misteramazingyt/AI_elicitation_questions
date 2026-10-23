@@ -1,0 +1,43 @@
+{
+ "item": "S20",
+ "template": "C",
+ "prompt": "What were the main causes of the U.S. War on Drugs from 1971 to the 1990s?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The U.S. \"War on Drugs,\" officially initiated by President Richard Nixon in 1971 and heavily escalated through the 1980s and 1990s, was not the result of a single event. Rather, it was driven by a complex intersection of social upheaval, political strategy, public health crises, media influence, and geopolitical concerns. \n\nHere are the main causes and driving forces behind the War on Drugs from 1971 to the 1990s:\n\n### 1. Social and Cultural Backlash (Late 1960s–Early 1970s)\nThe origins of the War on Drugs are deeply tied to the social turbulence of the 1960s. The counterculture movement, the anti-Vietnam War protests, and the Civil Rights Movement challenged the traditional social order. \n* **Association with Dissent:** Drug use, particularly marijuana and psychedelics, became heavily associated with the anti-war left and the counterculture. \n* **\"Law and Order\" Politics:** In response to urban riots, rising crime rates, and social unrest, politicians capitalized on the public’s desire for stability. Targeting the substances associated with these dissenting and marginalized groups became a way to reassert social control. (Years later, Nixon aide John Ehrlichman admitted to a journalist that the administration had linked blacks to heroin and the anti-war left to marijuana to disrupt those communities, highlighting the political utility of drug criminalization).\n\n### 2. Bipartisan Political Strategy\nThroughout the 1970s, 1980s, and 1990s, being \"tough on crime\" and \"tough on drugs\" became a highly effective, bipartisan electoral strategy.\n* **Electoral Appeal:** Politicians from both major parties found that advocating for harsh drug penalties appealed to voters concerned about crime and social decay. \n* **Legislative Escalation:** This political climate led to a bidding war in Congress. It culminated in landmark legislation, such as the **Anti-Drug Abuse Act of 1986** (which established mandatory minimum sentences) and the **Violent Crime Control and Law Enforcement Act of 1994** (signed by President Bill Clinton), which further expanded the penal system and funded more prisons and police.\n\n### 3. Public Health Crises and the \"Crack Epidemic\" (1980s)\nWhile heroin was a primary concern in the 1970s (exacerbated by returning Vietnam veterans), the 1980s saw the emergence of crack cocaine, which fundamentally altered the trajectory of the drug war.\n* **Media and Moral Panic:** The media heavily covered the emergence of crack cocaine in urban centers. Sensationalized reporting regarding \"crack babies\" and the drug's highly addictive nature created a widespread moral panic.\n* **Public Demand for Action:** The visible devastation of inner-city communities by crack created immense public pressure on lawmakers to take aggressive action. This resulted in the creation of vast sentencing disparities between crack and powder cocaine offenses, which disproportionately impacted Black communities.\n\n### 4. Geopolitical and National Security Concerns\nDuring the 1980s and 1990s, the War on Drugs became intertwined with U.S. foreign policy and national security.\n* **Funding Insurgencies:** The U.S. government recognized that drug trafficking was funding hostile foreign entities. For example, the CIA and the Reagan administration were involved in the Iran-Contra affair, where it was alleged that profits from cocaine trafficking were used to fund the Contra rebels in Nicaragua. \n* **Transnational Cartels:** The rise of powerful, violent drug cartels in Colombia (such as the Medellín and Cali cartels) and later in Mexico, threatened the stability of allied governments in Latin America. The U.S. began to view drug trafficking not just as a domestic criminal issue, but as a transnational threat requiring military and intelligence intervention.\n\n### 5. Institutionalization and Bureaucratic Momentum\nOnce initiated, the War on Drugs created its own institutional momentum, leading to the expansion of the criminal justice system.\n* **Creation of the DEA:** Nixon created the Drug Enforcement Administration (DEA) in 1973 to consolidate federal drug efforts. The agency's existence required a continuous justification for its budget and operations.\n* **Militarization of Police:** The 1980s saw the passing of laws like the Military Cooperation with Civilian Law Enforcement Agencies Act (1981) and the National Defense Authorization Act of 1990, which allowed the transfer of military equipment to local police departments for drug enforcement. \n* **The Prison-Industrial Complex:** As drug arrests surged, the prison population exploded. This created a massive infrastructure of prisons, private prison companies, and correctional officer unions, all of which developed a vested economic and political interest in maintaining high incarceration rates.\n\n### 6. Shifting Views on Addiction\nDuring this era, the prevailing political and cultural view of addiction shifted away from a medical or public health paradigm toward a moral and criminal one. \n* **Criminalization over Treatment:** While Nixon initially proposed a dual approach of reducing drug demand (treatment) and supply (enforcement), the political and financial focus heavily skewed toward law enforcement, interdiction, and incarceration. Addiction was largely framed as a choice and a moral failing rather than a disease, justifying punitive measures over medical interventions.\n\n### Summary\nThe War on Drugs from 1971 to the 1990s was caused by a confluence of factors: a political desire to project \"law and order\" in response to 1960s social upheaval; the genuine public health and social crises caused by highly addictive drugs like crack cocaine; the integration of drug trafficking into global geopolitics; and the creation of a massive law enforcement and penal infrastructure that sustained and expanded the policy over three decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 2972,
+  "total_tokens": 3010,
+  "cost": 0.00381632,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00381632,
+   "upstream_inference_prompt_cost": 1.216e-05,
+   "upstream_inference_completions_cost": 0.00380416
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1723,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:27:27.553544+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

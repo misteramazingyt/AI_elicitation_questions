@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "D",
+ "prompt": "Describe the FBI's COINTELPRO program.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "**COINTELPRO**—short for **Counter Intelligence Program**—was a series of covert FBI operations aimed at surveilling, infiltrating, disrupting, and discrediting domestic political groups. It ran from **1956 to 1971**, largely under FBI Director **J. Edgar Hoover**.\n\n### Origins and targets\nIt began in 1956 against the **Communist Party USA**, but expanded during the 1960s to include:\n- Civil rights and Black liberation groups, such as the **Southern Christian Leadership Conference**, **SNCC**, and the **Black Panther Party**\n- The **Socialist Workers Party** and other leftist organizations\n- Anti–Vietnam War and New Left groups, such as **Students for a Democratic Society**\n- White supremacist groups like the **Ku Klux Klan** and American Nazi Party\n- Puerto Rican independence, Native American, and other activist movements\n\nMany targets were engaged in lawful protest and political activity. The FBI’s stated rationale was protecting national security and preventing subversion or racial violence, but the program’s scope went far beyond investigating crimes.\n\n### Methods\nCOINTELPRO used both legal and illegal tactics, including:\n- Informants and undercover agents\n- Wiretaps, bugs, and physical surveillance\n- Mail interception and burglaries\n- Forged letters, anonymous tips, and disinformation\n- Leaking false or damaging information to media, employers, and families\n- IRS audits, job harassment, and false arrests\n- Agent provocateurs and efforts to incite rivalries or violence between groups\n\nA notorious example was the FBI’s campaign against **Martin Luther King Jr.**, which included wiretapping, surveillance, and an anonymous letter intended to push him toward suicide. Another was the FBI’s role in the 1969 police raid that killed **Black Panther leader Fred Hampton**; an FBI informant had provided detailed information about his apartment.\n\n### Exposure and aftermath\nCOINTELPRO remained secret until **1971**, when the **Citizens’ Commission to Investigate the FBI** burglarized an FBI field office in **Media, Pennsylvania**, and leaked stolen documents to the press. The revelations led Hoover to formally end the program that year.\n\nThe **Senate Church Committee** investigated in 1975–76 and documented widespread abuses of civil liberties. The scandal led to reforms, including Justice Department guidelines on FBI domestic investigations and, later, the **Foreign Intelligence Surveillance Act of 1978**.\n\n### Legacy\nCOINTELPRO is widely regarded as one of the most serious examples of domestic political repression in modern U.S. history. It violated First Amendment rights, privacy, and due process, and it damaged or destroyed many lives and organizations. While the FBI sometimes targeted genuinely violent extremists, the program’s methods and broad targeting of lawful dissent made it deeply controversial and a lasting symbol of government overreach.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 2073,
+  "total_tokens": 2113,
+  "cost": 0.001486315,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001486315,
+   "upstream_inference_prompt_cost": 4.12e-06,
+   "upstream_inference_completions_cost": 0.001482195
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1478,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:13:08.923477+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

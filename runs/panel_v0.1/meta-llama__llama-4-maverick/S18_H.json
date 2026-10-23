@@ -1,0 +1,43 @@
+{
+ "item": "S18",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2011 military intervention in Libya? Please cite sources.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 2011 military intervention in Libya has been a subject of extensive historical analysis and debate. Historians and scholars have offered various interpretations of the intervention, its motivations, and its consequences. Here are some of the key perspectives:\n\n1. **Humanitarian Intervention vs. Regime Change**: One of the primary debates surrounding the Libyan intervention is whether it was a genuine humanitarian intervention or an operation aimed at regime change. Some historians argue that the intervention, authorized by UN Security Council Resolution 1973, was initially justified on humanitarian grounds to protect civilians from Gaddafi's forces but eventually morphed into a regime change operation (Kuperman, 2013; Chivvis, 2014). Alan Kuperman, for instance, contends that the intervention went beyond its original mandate, leading to unintended consequences (Kuperman, 2013).\n\n2. **Effectiveness and Outcomes**: Historians have also assessed the effectiveness of the intervention and its long-term outcomes. Christopher S. Chivvis, in his book \"Toppling Qaddafi: Libya and the Limits of Liberal Intervention,\" provides a detailed analysis of the intervention, concluding that while it achieved its immediate goal of overthrowing Gaddafi, it failed to establish a stable, democratic government in its aftermath (Chivvis, 2014). Dirk Vandewalle, in \"Libya's Revolution in Perspective: 1969-2013,\" offers a similar critique, highlighting the chaos and instability that followed the intervention (Vandewalle, 2013).\n\n3. **International Relations and Diplomacy**: The Libyan intervention has also been analyzed within the context of international relations and diplomacy. Some scholars have examined the role of international organizations, such as NATO, and the dynamics among various countries involved in the intervention. For example, Adrian Johnson and Saqeb Mueen's edited volume, \"Short War, Long Shadow: The Political and Military Legacies of the 2011 Libya Campaign,\" includes analyses from various contributors on the international dimensions of the intervention (Johnson & Mueen, 2012).\n\n4. **Responsibility to Protect (R2P)**: The Libyan intervention is often cited as a key example in discussions about the Responsibility to Protect (R2P) doctrine, which holds that states have a responsibility to protect their populations from atrocities and that the international community can intervene if they fail to do so. Historians and scholars have debated whether the Libyan intervention was a successful application of R2P or if it was misused as a pretext for regime change, potentially undermining the doctrine's legitimacy (Bellamy & Williams, 2011; Hehir, 2013).\n\n5. **Consequences for Regional Stability**: The intervention's impact on regional stability in North Africa and the Sahel has also been a subject of historical analysis. Some scholars argue that the power vacuum created by Gaddafi's overthrow contributed to regional instability, including the proliferation of weapons and the rise of various militant groups (Wehrey, 2018).\n\nSources:\n- Bellamy, A. J., & Williams, P. D. (2011). \"The new politics of protection? Côte d'Ivoire, Libya and the responsibility to protect.\" International Affairs, 87(4), 825-850.\n- Chivvis, C. S. (2014). \"Toppling Qaddafi: Libya and the Limits of Liberal Intervention.\" Cambridge University Press.\n- Hehir, A. (2013). \"The Permanence of Inconsistency: Libya, the Security Council, and the Responsibility to Protect.\" International Security, 38(1), 137-159.\n- Johnson, A., & Mueen, S. (Eds.). (2012). \"Short War, Long Shadow: The Political and Military Legacies of the 2011 Libya Campaign.\" Royal United Services Institute (RUSI).\n- Kuperman, A. J. (2013). \"Lessons from Libya: How Not to Intervene.\" Harvard Kennedy School, Belfer Center for Science and International Affairs.\n- Vandewalle, D. (2013). \"Libya's Revolution in Perspective: 1969-2013.\" In \"The Libyan Revolution and Its Aftermath.\" Oxford University Press.\n- Wehrey, F. (2018). \"The Burning Shores: Inside the Battle for the New Libya.\" Farrar, Straus and Giroux.\n\nThese sources provide a range of perspectives on the 2011 Libyan intervention, reflecting the complexity and multifaceted nature of the event and its aftermath.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 941,
+  "total_tokens": 968,
+  "cost": 0.000619065,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000619065,
+   "upstream_inference_prompt_cost": 5.0625e-06,
+   "upstream_inference_completions_cost": 0.0006140025
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:07:35.078145+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

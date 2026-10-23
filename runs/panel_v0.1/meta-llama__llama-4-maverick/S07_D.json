@@ -1,0 +1,43 @@
+{
+ "item": "S07",
+ "template": "D",
+ "prompt": "Describe the FBI's COINTELPRO program.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The FBI's COINTELPRO (Counter Intelligence Program) was a secret domestic counterinsurgency program operated by the Federal Bureau of Investigation (FBI) in the United States from 1956 to 1971. The program's primary goal was to neutralize and disrupt the activities of various organizations and individuals deemed subversive or a threat to national security.\n\nCOINTELPRO was initially created to target the Communist Party USA (CPUSA) and other left-wing organizations. However, over time, its scope expanded to include a wide range of groups, including:\n\n1. Civil rights organizations, such as the Southern Christian Leadership Conference (SCLC) and the Student Nonviolent Coordinating Committee (SNCC), as well as prominent civil rights leaders like Martin Luther King Jr.\n2. Anti-war and anti-Vietnam War groups, such as the Students for a Democratic Society (SDS) and the New Left.\n3. Black nationalist and Black Power groups, such as the Black Panther Party (BPP) and the Nation of Islam.\n4. Ku Klux Klan and other white supremacist organizations.\n\nCOINTELPRO's tactics were often aggressive and included:\n\n1. Infiltration: FBI agents and informants infiltrated targeted organizations to gather intelligence and sow discord.\n2. Surveillance: The FBI conducted extensive surveillance on targeted individuals and organizations, including wiretapping, bugging, and monitoring their activities.\n3. Disinformation: The FBI spread false information and propaganda to discredit and undermine targeted groups.\n4. Sabotage: The FBI engaged in sabotage and disruption of targeted organizations' activities, such as canceling events or stealing equipment.\n5. Harassment: The FBI used various forms of harassment, including sending anonymous letters and making threatening phone calls, to intimidate and disrupt the lives of targeted individuals.\n6. Violence: In some cases, COINTELPRO operations involved violence, such as the FBI's role in the COINTELPRO-inspired police raids on Black Panther Party offices.\n\nThe COINTELPRO program was shrouded in secrecy, and its existence was not publicly acknowledged until 1971, when a group of anti-war activists broke into an FBI office in Media, Pennsylvania, and stole files that revealed the program's existence. The subsequent media coverage and Congressional investigations led to the program's exposure and eventual shutdown.\n\nIn 1975, the Church Committee, a Senate committee led by Frank Church, conducted a comprehensive investigation into COINTELPRO and other FBI domestic intelligence activities. The committee's report concluded that COINTELPRO had been a \"sophisticated vigilante operation\" that had violated the civil liberties of many Americans.\n\nThe legacy of COINTELPRO continues to be felt today, with many arguing that the program's tactics and ideology have influenced subsequent law enforcement and intelligence agency practices, particularly in the context of the War on Terror and the surveillance state.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 593,
+  "total_tokens": 613,
+  "cost": 0.0003906825,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003906825,
+   "upstream_inference_prompt_cost": 3.75e-06,
+   "upstream_inference_completions_cost": 0.0003869325
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:05:44.746809+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

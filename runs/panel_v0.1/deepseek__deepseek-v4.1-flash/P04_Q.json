@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "Q",
+ "prompt": "What were the consequences of the Black Death in fourteenth-century Europe?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Relace",
+ "response": "The Black Death (1347–1351) was one of the most catastrophic events in European history, killing perhaps one-third to one-half of the population, with wide regional variation. Its consequences were demographic, economic, social, religious, cultural, and political—and they varied sharply by region and class.\n\n**Demographic and economic consequences**\n- Massive population loss led to severe **labor shortages**. Peasants and artisans could demand higher wages and better conditions.\n- Land became more abundant and rents fell; some villages and farmland were abandoned.\n- Lords and governments tried to freeze wages and reimpose labor obligations, e.g. England’s **Statute of Labourers (1351)**. These efforts often failed and fueled resentment.\n- In Western Europe, the manorial system and **serfdom declined** as peasants gained mobility and bargaining power. In Eastern Europe, by contrast, nobles later strengthened serfdom to control labor for grain exports.\n- Per capita wealth and consumption may have risen for survivors, though inflation and disruption caused hardship in many areas.\n\n**Social consequences**\n- Increased social mobility: survivors could move to towns, take up new trades, or acquire land.\n- Peasant and urban revolts erupted, such as the **Jacquerie (1358)** in France and the **English Peasants’ Revolt (1381)**, often sparked by tax burdens and attempts to enforce old obligations.\n- Women sometimes found new economic opportunities, especially as widows managing property or working in trades, though patriarchal restrictions persisted.\n- Anti-Jewish violence intensified; Jews were falsely accused of poisoning wells, leading to pogroms and expulsions in parts of Europe.\n\n**Religious and cultural consequences**\n- The Church lost prestige: prayers and processions had failed to stop the plague, and many clergy died.\n- Lay piety, mysticism, and anti-clericalism grew. Flagellant movements appeared, seeking divine forgiveness through public penance.\n- Art and literature became more preoccupied with death and mortality: **memento mori**, the **danse macabre**, and works like Boccaccio’s *Decameron*.\n- Medical authorities were challenged, and some cities adopted early public-health measures such as isolation, quarantine, and sanitation boards.\n\n**Political consequences**\n- Governments expanded their reach through plague regulations, taxation, and labor laws.\n- Feudal nobles were often weakened economically, while central monarchies and urban elites gained power in some regions.\n- The crisis contributed to instability, but it did not single-handedly end the Middle Ages; rather, it accelerated existing trends toward commercialization, state centralization, and the decline of serfdom in Western Europe.\n\nIn short, the Black Death caused immense suffering, but it also reshaped European society: it weakened traditional feudal bonds in the West, strengthened the state and urban economies in some places, intensified religious anxiety and persecution, and left a lasting cultural obsession with death and human fragility.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 1489,
+  "total_tokens": 1532,
+  "cost": 0.00074751,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00074751,
+   "upstream_inference_prompt_cost": 3.01e-06,
+   "upstream_inference_completions_cost": 0.0007445
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 887,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:19:07.941404+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

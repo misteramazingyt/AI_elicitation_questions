@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "Q",
+ "prompt": "What were the consequences of the Kent State shootings of 1970?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "DeepInfra",
+ "response": " and inexcusable\" and criticized campus unrest and authorities. \n4. Legal aftermath: Ohio grand jury indicted 25 students/faculty on riot charges, no guardsmen; 1974 federal grand jury indicted eight guardsmen on civil rights charges; all acquitted in 1975. 1979 civil settlement: Ohio paid $675,000 to victims/families, no admission of guilt. No one criminally punished.\n5. Cultural/institutional legacy: \"Ohio\" by CSNY; Kent State became symbol of government violence against dissent; annual commemoration, May 4 Memorial (1990), Visitors Center (2013). Contributed to distrust of government and youth activism, including momentum for 18-year-old vote (26th Amendment, 1971). \n6. Changed campus protest policing? Maybe mention prompted debates over use of National Guard on campuses and campus unrest commissions. \n\nNeed maybe mention \"The event also led to the closure of Kent State for six weeks and a period of martial law? Actually Kent State closed. The National Guard occupied campus? The university closed for six weeks. \n- \"The university closed and remained closed for six weeks; classes resumed in summer.\" \n- \"The Ohio National Guard withdrew.\" \n- \"The campus was placed under? Not martial law? The Guard occupied.\" \n- \"The shootings led to the creation of the Kent State May 4 Memorial.\" \n- \"The event also led to the phrase 'Kent State' as shorthand for the shooting of student protesters.\" \n\nShould we mention \"The 26th Amendment\" as consequence? It was already passed by Congress March 1971 and ratified July 1971. The connection is indirect. We can say \"helped strengthen the broader movement\" not direct. \n- \"It also contributed to the passage of the 26th Amendment\" maybe too strong. Better: \"It became part of the broader youth-activism climate that helped advance the 26th Amendment.\" \n- \"It also led to the President's Commission on Campus Unrest.\" \n- \"It led to the National Guard's use of force policies being scrutinized.\" \n- \"It led to the Kent State shootings being taught in history.\" \n\nNeed final with maybe 6 bullets. Desired oververbosity 5. We can include a short intro and conclusion. Ensure no unsupported. \n\nLet's final. \nThe Kent State shootings on May 4, 1970—when Ohio National Guard troops fired on antiwar protesters, killing four students and wounding nine—had wide-ranging consequences:\n\n- **Nationwide student strike:** The shootings triggered the May 1970 student strike, often called the largest student protest in U.S. history. Hundreds of campuses shut down or held strikes, and protests spread across the country.\n- **Escalation of campus unrest:** Two weeks later, police killed two students at Jackson State University in Mississippi. The events deepened fears of violent repression against student dissent.\n- **Political polarization:** Kent State intensified the generational and political divide over the Vietnam War. It galvanized the antiwar movement but also produced a backlash, including “hardhat” counterprotests and support for Nixon’s “silent majority.”\n- **Official investigations:** President Nixon’s Commission on Campus Unrest—the Scranton Commission—concluded in September 1970 that the shootings were “unnecessary, unwarranted, and inexcusable,” while also criticizing campus violence and unrest.\n- **Legal aftermath:** A state grand jury indicted 25 students and faculty on riot-related charges, but no Guardsmen were indicted. In 1974, a federal grand jury indicted eight Guardsmen on civil rights charges; all were acquitted in 1975. In 1979, Ohio settled a civil suit for $675,000 to victims and families, without admitting guilt.\n- **Cultural and symbolic legacy:** Kent State became a symbol of government violence against dissent. Crosby, Stills, Nash & Young’s song “Ohio” helped memorialize it. The university later built the May 4 Memorial (1990) and a visitors center (2013), and the shootings remain a touchstone in debates over protest, policing, and free speech.\n\nIn short, Kent State did not end the Vietnam War or the Cambodia incursion, but it dramatically expanded antiwar protest, deepened public distrust of government, and left a lasting legal and cultural legacy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 3314,
+  "total_tokens": 3358,
+  "cost": 0.00139804,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00139804,
+   "upstream_inference_prompt_cost": 6.16e-06,
+   "upstream_inference_completions_cost": 0.00139188
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2400,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:12:52.437152+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E14",
+ "template": "D",
+ "prompt": "Describe the War on Poverty and Great Society programs of the 1960s.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The War on Poverty and Great Society Programs\n\n## Background\n\nIn his January 1964 State of the Union address, President Lyndon B. Johnson declared an \"unconditional war on poverty in America.\" This effort was part of his broader **Great Society** vision—a set of domestic programs aimed at eliminating poverty and racial injustice while improving quality of life for all Americans. Johnson's initiatives built on the legacy of Franklin Roosevelt's New Deal and were propelled by the strong economic growth of the postwar era and Democratic majorities in Congress following JFK's assassination.\n\n## The War on Poverty\n\nThe centerpiece was the **Economic Opportunity Act of 1964**, which created the **Office of Economic Opportunity (OEO)**, headed by Sargent Shriver. Key programs included:\n\n- **Community Action Programs (CAP)** – Local organizations, ideally with \"maximum feasible participation\" of the poor themselves, designed anti-poverty initiatives tailored to their communities\n- **Job Corps** – Residential vocational training for disadvantaged youth\n- **VISTA (Volunteers in Service to America)** – A domestic Peace Corps sending volunteers to poor communities\n- **Head Start** – Early childhood education for low-income children\n- **Legal Services Corporation** (later) – Free legal aid for the poor\n- **Upward Bound** – College preparation for disadvantaged students\n\n## Major Great Society Legislation\n\n**Health Care (1965):**\n- **Medicare** – Health insurance for Americans 65 and older\n- **Medicaid** – Health coverage for low-income individuals, jointly funded with states\n\n**Education:**\n- **Elementary and Secondary Education Act (1965)** – Federal aid to schools, with Title I funding for disadvantaged students\n- **Higher Education Act (1965)** – Federal scholarships, low-interest loans, and work-study programs\n\n**Housing and Urban Development:**\n- **Housing and Urban Development Act (1965)** and the creation of the **Department of Housing and Urban Development (1965)**, with Robert C. Weaver as the first Black cabinet secretary\n- **Model Cities program** – Comprehensive urban redevelopment\n- **Fair Housing Act (1968)** – Prohibited housing discrimination (passed after MLK's assassination)\n\n**Other Initiatives:**\n- **Food Stamp Act (1964)** – Permanent food assistance program\n- **National Endowments for the Arts and Humanities (1965)** – Federal support for culture\n- **Public Broadcasting Act (1967)** – Created PBS and NPR\n- **Immigration and Nationality Act (1965)** – Abolished national-origin quotas\n- **Highway Beautification Act (1965)** – Lady Bird Johnson's pet project\n- New environmental and consumer safety standards\n\n## Impact and Legacy\n\n**Achievements:**\n- The poverty rate fell dramatically, from about 19% in 1964 to roughly 12% by 1969\n- Medicare and Medicaid transformed health care for the elderly and poor\n- Federal aid dramatically expanded access to education\n- Established the modern social safety net\n\n**Criticisms and Limitations:**\n- Rising costs of the Vietnam War competed for funding, and Johnson sacrificed some programs to avoid raising taxes\n- Critics on the right argued programs created dependency and were inefficient\n- Critics on the left argued the programs were underfunded and too modest\n- Community Action Programs generated local political controversy\n- Racial inequality and urban unrest persisted, despite the programs' aims\n\n## Historical Assessment\n\nThe Great Society remains one of the most ambitious reform efforts in American history. While it didn't \"end\" poverty as Johnson hoped, it permanently reshaped the federal government's role in health care, education, and social welfare. Many of its programs—Medicare, Medicaid, Head Start, food stamps—remain central pillars of American social policy today.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 1165,
+  "total_tokens": 1208,
+  "cost": 0.000108755,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000108755,
+   "upstream_inference_prompt_cost": 1.2255e-06,
+   "upstream_inference_completions_cost": 0.0001075295
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 383,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:42.727142+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "C",
+ "prompt": "What were the main causes of the Supreme Court's 1973 decision in Roe v. Wade?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Baidu",
+ "response": "Roe v. Wade (1973) was not the result of a single cause. It came from a convergence of legal, social, medical, and political factors:\n\n**1. The rise of constitutional privacy doctrine**  \nThe most immediate legal foundation was the Supreme Court’s earlier privacy decisions. *Griswold v. Connecticut* (1965) struck down a ban on contraception for married couples, finding a right to marital privacy. *Eisenstadt v. Baird* (1972) extended that privacy reasoning to unmarried people. These cases gave the Court a framework to treat abortion as part of a protected zone of private decision-making under the Due Process Clause of the Fourteenth Amendment.\n\n**2. State abortion-law reform and legal uncertainty**  \nDuring the 1960s and early 1970s, many states reformed their abortion laws, often following the American Law Institute’s Model Penal Code, which allowed abortion in cases of rape, incest, fetal deformity, or threats to the woman’s health. A few states—such as New York, Hawaii, Alaska, and Washington—went further and broadly legalized or repealed restrictions. But laws remained inconsistent, and lower courts were divided, creating pressure for a national constitutional ruling.\n\n**3. The women’s rights and reproductive-freedom movement**  \nSecond-wave feminism made reproductive autonomy a central demand. Groups such as the National Organization for Women and women’s-liberation activists argued that women could not be equal citizens without control over their own bodies and reproductive lives. This movement helped shift public debate and supported legal challenges to restrictive abortion statutes.\n\n**4. Public-health and medical concerns**  \nAdvocates pointed to the dangers of illegal abortion. Before Roe, many women sought unsafe, clandestine abortions, and hospitals treated serious infections and injuries. The medical profession also shifted: the American Medical Association endorsed therapeutic abortion in 1967, and many doctors wanted clearer legal authority to practice without fear of prosecution. These concerns strengthened arguments that restrictive laws harmed women’s health.\n\n**5. Strategic litigation: Roe and Doe**  \nThe specific cases came from legal challenges to Texas and Georgia abortion laws. *Roe* challenged a Texas law that allowed abortion only to save the woman’s life. *Doe v. Bolton* challenged a Georgia law with broader but still restrictive provisions. Attorneys including Sarah Weddington and Linda Coffee brought *Roe* to the Supreme Court, giving the justices a direct opportunity to decide whether such laws violated the Constitution.\n\n**6. The Court’s composition and timing**  \nThe Burger Court heard the cases. Justice Harry Blackmun wrote the majority opinion, which was supported by seven justices; Byron White and William Rehnquist dissented. Blackmun did extensive medical and historical research, and the Court was willing to expand individual rights in the tradition of the Warren Court. The 7–2 ruling also reflected a desire to resolve a growing national conflict rather than leave abortion law to a patchwork of state rules.\n\nIn short, *Roe* grew out of earlier privacy precedents, state-level reform and conflict, feminist activism, public-health concerns, medical shifts, targeted litigation, and the particular outlook of the Supreme Court in 1973. The decision held that the constitutional right to privacy was broad enough to include the decision to terminate a pregnancy, while still allowing some state regulation later in pregnancy.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 50,
+  "completion_tokens": 3333,
+  "total_tokens": 3383,
+  "cost": 0.0007186134,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0007186134,
+   "upstream_inference_prompt_cost": 2.685e-06,
+   "upstream_inference_completions_cost": 0.0007159284
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2643,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:14:12.238791+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

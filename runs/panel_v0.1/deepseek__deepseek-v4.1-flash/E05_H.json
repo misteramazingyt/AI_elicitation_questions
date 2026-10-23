@@ -1,0 +1,43 @@
+{
+ "item": "E05",
+ "template": "H",
+ "prompt": "How have historians interpreted the famine during China's Great Leap Forward (1959-1961)? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Wafer",
+ "response": "Historians generally agree that the Great Leap Forward famine (usually dated 1959–1961, within the broader 1958–1962 Great Leap) was one of the deadliest famines in history. But they differ sharply over causes, responsibility, death toll, and how much weight to give natural disasters versus state policy.\n\n**1. The official Chinese interpretation: “three years of natural disasters.”**  \nThe Chinese Communist Party’s 1981 *Resolution on Certain Questions in the History of Our Party since the Founding of the PRC* acknowledged “mistakes” but framed the crisis mainly as “three years of natural disasters” compounded by Soviet revisionism and withdrawal of aid. Many historians regard this as an incomplete, politically constrained narrative. See CCP Central Committee, *Resolution on Certain Questions in the History of Our Party since the Founding of the PRC* (1981).\n\n**2. The “man-made catastrophe” school.**  \nFrank Dikötter, Yang Jisheng, and Jasper Becker argue that Maoist policies were the primary cause: forced collectivization, communal dining, backyard steel furnaces, diversion of labor from agriculture, elimination of private plots, excessive grain procurement, and suppression of bad news. Dikötter argues Mao knew much of what was happening and bears central responsibility. Yang Jisheng calls it the “Great Leap Famine” and uses local gazetteers, archives, and interviews to show mass starvation and local terror. Becker describes a “secret famine” hidden by propaganda.  \n- Frank Dikötter, *Mao’s Great Famine: The History of China’s Most Devastating Catastrophe, 1958–1962* (2010).  \n- Yang Jisheng, *Tombstone: The Great Chinese Famine, 1958–1962* (2012).  \n- Jasper Becker, *Hungry Ghosts: Mao’s Secret Famine* (1996).\n\n**3. Structural and political-economy interpretations.**  \nRoderick MacFarquhar, Thomas Bernstein, and Basil Ashton et al. place more emphasis on the interaction of policy, state grain extraction, and weather. Bernstein argues that the famine was driven by Stalinist-style grain extraction and state control over peasants. Ashton et al. estimated roughly 30 million excess deaths and concluded that policy was the main cause, with weather playing a secondary role. MacFarquhar offers a more nuanced account: Mao’s utopian policies, bad weather, and the Soviet aid cutoff combined, but policy errors were decisive.  \n- Thomas P. Bernstein, “Stalinism, Famine, and Chinese Peasants: Grain Extraction and the Great Leap Forward,” *Theory and Society* 13 (1984): 339–377.  \n- Basil Ashton, Kenneth Hill, Alan Piazza, and Robin Zeitz, “Famine in China, 1958–61,” *Population and Development Review* 10 (1984): 613–645.  \n- Roderick MacFarquhar, *The Origins of the Cultural Revolution, Vol. 3: The Coming of the Cataclysm, 1961–1966* (1997).\n\n**4. Demographic and local studies.**  \nJudith Banister, Peng Xizhe, and Ansley Coale used demographic data to estimate excess mortality and show that the famine was not uniform. Peng estimated about 23 million excess deaths; Banister estimated around 30 million; Yang Jisheng estimated about 36 million; Dikötter suggested at least 45 million. Local studies show the worst suffering in provinces such as Anhui, Henan, Sichuan, and Shandong, often where grain procurement was most aggressive and local cadres exaggerated harvests.  \n- Judith Banister, *China’s Changing Population* (1987).  \n- Peng Xizhe, “Demographic Consequences of the Great Leap Forward in China’s Provinces,” *Population and Development Review* 13 (1987): 639–670.  \n- Ansley J. Coale, *Rapid Population Change in China, 1952–1982* (1984).\n\n**5. Revisionist and quantitative debates.**  \nSome scholars emphasize adverse weather, floods, droughts, and pests, or argue that local implementation varied so much that central intent is hard to pin down. But most historians outside China now reject the official “natural disaster” explanation as sufficient. James Kai-sing Kung and Justin Yifu Lin, for example, argue that procurement policy and communal dining were central causes.  \n- James Kai-sing Kung and Justin Yifu Lin, “The Causes of China’s Great Leap Famine, 1959–1961,” *Economic Development and Cultural Change* 52 (2003): 51–73.\n\n**Overall historiographical trend:**  \nThe field has moved from the official narrative of natural disasters toward a consensus that the famine was largely policy-induced, though historians debate Mao’s personal knowledge and intent, the relative weight of weather, and the exact death toll. The debate remains politically sensitive in China, where Yang Jisheng’s *Tombstone* and similar works are banned or restricted.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 53,
+  "completion_tokens": 3688,
+  "total_tokens": 3741,
+  "cost": 0.00240727,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00240727,
+   "upstream_inference_prompt_cost": 1.007e-05,
+   "upstream_inference_completions_cost": 0.0023972
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2535,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:30.000227+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

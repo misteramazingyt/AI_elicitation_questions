@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "C",
+ "prompt": "What were the main causes of the Black Death in fourteenth-century Europe?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Black Death, one of the most devastating pandemics in human history, occurred in fourteenth-century Europe, resulting in the deaths of an estimated 75 to 200 million people, approximately 30-60% of Europe's population. The main cause of the Black Death is attributed to the bubonic plague, caused by the bacterium Yersinia pestis. Here are the key factors that contributed to its spread:\n\n1. **The Bacterium Yersinia pestis**: The primary cause of the Black Death was the bubonic plague bacterium, Yersinia pestis. This bacterium was transmitted to humans through the bites of infected fleas that lived on rats and other rodents.\n\n2. **Trade and Commerce**: The extensive trade networks across Europe, including the Silk Road, facilitated the movement of goods, people, and, inadvertently, the plague bacterium. Merchants, traders, and travelers carried infected fleas and rodents on ships and caravans, spreading the disease to new areas.\n\n3. **Urbanization and Poor Sanitation**: The rapid growth of cities in Europe during the 13th and 14th centuries created ideal conditions for the spread of the disease. Overcrowding, poor waste management, and lack of sanitation allowed rodent populations to thrive, increasing the likelihood of human contact with infected fleas.\n\n4. **Malnutrition and Weakened Immune Systems**: A series of crop failures and famines in the early 14th century had weakened the immune systems of the European population, making them more susceptible to illness.\n\n5. **Climate Change**: Some research suggests that climate change may have played a role in the emergence of the plague. Changes in climate may have affected the populations of rodents and fleas, potentially increasing the likelihood of transmission to humans.\n\n6. **Lack of Medical Understanding and Hygiene**: At the time, there was a limited understanding of the disease and its transmission. Medical practices were often based on superstition and unproven theories, and hygiene practices were inadequate, further facilitating the spread of the disease.\n\nThe combination of these factors created a perfect storm that allowed the bubonic plague to spread rapidly across Europe, resulting in one of the most significant demographic and social crises in European history.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 448,
+  "total_tokens": 473,
+  "cost": 0.0002970075,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0002970075,
+   "upstream_inference_prompt_cost": 4.6875e-06,
+   "upstream_inference_completions_cost": 0.00029232
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:08:59.353107+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

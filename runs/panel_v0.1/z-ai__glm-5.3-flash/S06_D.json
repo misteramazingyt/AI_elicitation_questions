@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "D",
+ "prompt": "Describe the Kent State shootings of 1970.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Kent State Shootings (May 4, 1970)\n\nThe Kent State shootings occurred on May 4, 1970, at Kent State University in Kent, Ohio, when National Guardsmen fired on student protesters, killing four and wounding nine.\n\n## Background\n\nThe shootings took place amid escalating national tension over the Vietnam War. On April 30, 1970, President Nixon announced the expansion of the war into Cambodia, sparking protests on campuses across the country. At Kent State, protests had been building for several days, including a demonstration on May 1 and incidents of property damage downtown, leading the mayor to declare a state of emergency and request the Ohio National Guard.\n\n## The Events of May 4\n\nOn the day of the shootings, thousands of students gathered on campus, many protesting the presence of the Guard on their campus. Around noon, Guardsmen attempted to disperse the crowd with tear gas. At approximately 12:24 p.m., for reasons still debated today, 28 Guardsmen fired between 61 and 67 rounds over about 13 seconds toward the crowd.\n\n## The Victims\n\nFour students were killed:\n- **Jeffrey Miller** (20)\n- **Allison Krause** (19)\n- **William Schroeder** (19)\n- **Sandra Scheuer** (20)\n\nNine others were wounded. Notably, two of those killed and one of the wounded were not participating in the protest—they were simply walking across campus. The closest victim was about 60 feet from the shooters; most were much farther away, some over 200 feet.\n\n## Aftermath\n\n- The shootings triggered a nationwide student strike involving millions of students, closing hundreds of campuses.\n- Ten days later, two students were killed at Jackson State University in Mississippi in a similar incident that received less attention.\n- A famous photograph of 14-year-old runaway Mary Ann Vecchio kneeling over Jeffrey Miller's body won the Pulitzer Prize and became an iconic image of the era.\n- The song \"Ohio\" by Crosby, Stills, Nash & Young memorialized the event.\n- Multiple investigations followed. A 1974 criminal trial against eight Guardsmen was dismissed, and a civil lawsuit in 1979 resulted in a $675,000 settlement paid by the state, which included a statement of regret but no admission of wrongdoing.\n\nThe shootings remain one of the most significant and controversial events of the Vietnam War era, symbolizing the deep divisions in American society at the time.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 38,
+  "completion_tokens": 650,
+  "total_tokens": 688,
+  "cost": 6.1078e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.1078e-05,
+   "upstream_inference_prompt_cost": 1.083e-06,
+   "upstream_inference_completions_cost": 5.9995e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 138,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:59.736700+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

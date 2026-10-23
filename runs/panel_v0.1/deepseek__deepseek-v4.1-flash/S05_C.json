@@ -1,0 +1,43 @@
+{
+ "item": "S05",
+ "template": "C",
+ "prompt": "What were the main causes of the 1993 Waco siege?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "InferenceNet",
+ "response": "The 1993 Waco siege—the 51-day standoff between federal agents and the Branch Davidians near Waco, Texas—had no single cause. It grew out of a mix of immediate legal triggers, the group’s internal dynamics, and escalating law-enforcement decisions.\n\n**Main immediate triggers**\n- **Federal firearms investigation:** The Bureau of Alcohol, Tobacco and Firearms (ATF) investigated the Branch Davidians for suspected illegal possession and manufacture of firearms, including conversion of semi-automatic rifles to automatic fire, unregistered machine guns, grenades, and explosives. This led to search and arrest warrants for David Koresh and others.\n- **Child abuse and sexual misconduct allegations:** Koresh was accused of polygamy, sexual relations with minors, and physical abuse. These allegations increased public and official pressure, though the federal warrants were primarily firearms-related.\n- **Koresh’s refusal to submit:** Koresh did not surrender or allow a peaceful search. The group was heavily armed and prepared for confrontation, which made a negotiated entry unlikely.\n\n**Underlying causes**\n- **Koresh’s apocalyptic theology and control:** Koresh claimed a special prophetic role, including being the “Lamb” of Revelation and the opener of the Seven Seals. His followers believed they were living in the end times and might have to fight a final battle. This made surrender to secular authorities spiritually unacceptable to many inside.\n- **Weapons stockpiling and communal isolation:** The Branch Davidians had accumulated weapons, ammunition, and supplies at Mount Carmel. Their isolated, heavily armed communal life made federal authorities view them as a dangerous armed sect.\n- **Law-enforcement pressure and context:** The ATF was under criticism after the Ruby Ridge incident and wanted to demonstrate effectiveness against armed groups. Media leaks and loss of surprise contributed to the Feb. 28, 1993 raid turning into a shootout, killing four ATF agents and six Davidians.\n- **Escalation and failed negotiations:** After the initial raid, the FBI took over a siege. Negotiations repeatedly stalled; Koresh promised surrender and then reneged. The FBI’s decision to use tear gas and armored vehicles on April 19, 1993, preceded a fire that destroyed the compound and killed 76 people, including many children.\n\n**Bottom line**\nThe siege was caused by the interaction of suspected federal firearms violations, child-abuse allegations, David Koresh’s apocalyptic and authoritarian leadership, the Branch Davidians’ armed preparation, and aggressive federal enforcement that escalated into a fatal standoff. Official investigations, including the Treasury Department report and the Danforth report, disputed key details—especially responsibility for the final fire—so the exact apportioning of blame remains controversial.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 2184,
+  "total_tokens": 2228,
+  "cost": 0.001566092,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001566092,
+   "upstream_inference_prompt_cost": 4.532e-06,
+   "upstream_inference_completions_cost": 0.00156156
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1617,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:12:02.520945+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E12",
+ "template": "H",
+ "prompt": "How have historians interpreted Argentina's 2001 economic crisis? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Decart",
+ "response": "Historians’ interpretations of Argentina’s 2001 crisis are plural and overlapping. Most now reject a single cause and instead debate the relative weight of long-term structural fragility, the contradictions of the convertibility regime, IMF and domestic policy errors, and the political/social crisis of representation. The main approaches can be grouped as follows.\n\n**1. Orthodox/IMF-centered policy-failure accounts.**  \nThis view stresses unsustainable fiscal deficits, provincial overspending, inflexible labor markets, external shocks, and political weakness. Michael Mussa, a former IMF chief economist, argues that the convertibility regime was ultimately doomed and that Argentine policymakers delayed necessary adjustment; the IMF is criticized mainly for supporting Argentina too long. The IMF’s own Independent Evaluation Office similarly faults both Argentine fiscal policy and IMF misdiagnosis/excessive financing. Paul Blustein’s journalistic history emphasizes how Wall Street and the IMF enabled unsustainable borrowing while Argentine elites failed to correct course.  \nSources: Michael Mussa, *Argentina and the Fund: From Triumph to Tragedy* (2002); IMF Independent Evaluation Office, *The IMF and Argentina, 1991–2001* (2004); Paul Blustein, *And the Money Kept Rolling In (and Out)* (2005).\n\n**2. Structuralist and neoliberal-critique accounts.**  \nHistorians and political economists in this tradition see 2001 as the exhaustion of the neoliberal model imposed from the 1970s and consolidated in the 1990s. They emphasize deindustrialization, financialization, foreign-debt dependence, privatizations, regressive income distribution, and the convertibility regime as a straitjacket that transferred income and made the economy vulnerable. Some, like Cibils, Weisbrot, and Kar, argue that IMF austerity and debt dynamics—not simple fiscal profligacy—caused the collapse. Stiglitz places the crisis within a broader critique of the Washington Consensus.  \nSources: Eduardo Basualdo, *Estudios de historia económica argentina* (2006); Maristella Svampa, *La sociedad excluyente* (2005); Mario Rapoport, *Historia económica, política y social de la Argentina* (2000); Mark Weisbrot, Alan Cibils, and Debayani Kar, *Argentina’s Crisis: Causes and Consequences* (2002); Joseph E. Stiglitz, *Globalization and Its Discontents* (2002).\n\n**3. Institutional and political-economy interpretations.**  \nThese accounts focus on Argentina’s long-run “stop-go” cycle, fiscal federalism, weak parties, coalitional instability, and the inability to build credible macroeconomic institutions. The crisis is treated not only as economic but as a crisis of the state and of democratic representation. Economic historians such as Gerchunoff and Llach trace the roots to a century of unstable macroeconomic policy, while Levitsky and Murillo emphasize the collapse of political legitimacy and party-system fragmentation.  \nSources: Pablo Gerchunoff and Lucas Llach, *El ciclo de la ilusión y el desencanto* (1998); Steven Levitsky and María Victoria Murillo, “Argentina: From Crisis to Recovery,” *Journal of Democracy* 14, no. 4 (2003): 152–166; Luis Alberto Romero, *A History of Argentina in the Twentieth Century* (2002).\n\n**4. Social history “from below.”**  \nThis literature interprets 2001 as a crisis of social exclusion and representation that produced new forms of popular politics: piqueteros, cacerolazos, neighborhood assemblies, and recovered factories. Svampa argues that neoliberalism created an “exclusionary society,” while Sitrin documents horizontalist practices and grassroots democracy. Here the crisis is not only an economic collapse but a rupture in citizenship and collective action.  \nSources: Maristella Svampa, *La sociedad excluyente* (2005); Marina Sitrin, *Horizontalism: Voices of Popular Power in Argentina* (2006).\n\n**5. Cultural and discursive approaches.**  \nSome historians and cultural critics examine how the crisis was narrated, remembered, and represented. Joanna Page, for example, reads contemporary Argentine cinema as a site for negotiating neoliberalism, crisis, and national decline. These approaches treat 2001 as a cultural rupture as much as an economic one.  \nSource: Joanna Page, *Crisis and Capitalism in Contemporary Argentine Cinema* (2009).\n\n**Overall.** The historiographical consensus is that the 2001 crisis was multicausal: long-term structural fragility, the contradictions of convertibility, external shocks, IMF and domestic policy failures, and a legitimacy crisis of the political system. The main disagreements concern weighting: Was the primary culprit domestic fiscal profligacy, the neoliberal model and IMF conditionality, or institutional and political breakdown? Most recent work leans toward combining these factors rather than choosing one.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 8407,
+  "total_tokens": 8453,
+  "cost": 0.0015174,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0015174,
+   "upstream_inference_prompt_cost": 4.14e-06,
+   "upstream_inference_completions_cost": 0.00151326
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 7765,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:53:38.078134+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 16000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

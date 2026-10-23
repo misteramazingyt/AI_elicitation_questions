@@ -1,0 +1,43 @@
+{
+ "item": "S01",
+ "template": "C",
+ "prompt": "What were the main causes of the passage of the Civil Rights Act of 1964?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the Civil Rights Act of 1964\n\n## The Civil Rights Movement\n- **Grassroots activism**: The Montgomery Bus Boycott (1955-56), sit-ins (starting 1960), and Freedom Rides (1961) created sustained pressure for federal action.\n- **Birmingham Campaign (1963)**: The violent police response—fire hoses and attack dogs against peaceful protesters, broadcast nationally—shocked American public opinion and created urgency.\n- **March on Washington (August 1963)**: Over 250,000 people gathered, where Martin Luther King Jr. delivered his \"I Have a Dream\" speech, building momentum for legislation.\n\n## Presidential and Political Leadership\n- **John F. Kennedy**: His June 1963 civil rights address called civil rights \"a moral issue\" and proposed the bill that became the Act. His assassination in November 1963 gave the legislation emotional momentum.\n- **Lyndon B. Johnson**: Used his legislative skill and Kennedy's memory as leverage to push the bill through Congress, making its passage a priority of his Great Society agenda.\n\n## Congressional Strategy\n- **Lyndon Johnson and civil rights leaders** built a bipartisan coalition, and Senate moderates like Everett Dirksen (Republican minority leader) helped break the **60-day filibuster** led by Southern Democrats—the longest in Senate history.\n\n## Broader Context\n- **Cold War pressures**: Segregation damaged America's image abroad, undermining U.S. claims to lead the \"free world\" against communism.\n- **Media coverage**: Television brought images of Southern violence into living rooms nationwide, shifting public opinion.\n- **Economic arguments**: Business leaders increasingly recognized segregation's costs.\n- **Earlier groundwork**: Court victories like *Brown v. Board of Education* (1954) and prior civil rights legislation (1957, 1960) established precedent and federal involvement.\n\nThe Act outlawed discrimination based on race, color, religion, sex, or national origin, ending segregation in public accommodations and banning employment discrimination.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 730,
+  "total_tokens": 775,
+  "cost": 6.86615e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.86615e-05,
+   "upstream_inference_prompt_cost": 1.2825e-06,
+   "upstream_inference_completions_cost": 6.7379e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 317,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:46.252408+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "P02",
+ "template": "D",
+ "prompt": "Describe the 1883 eruption of Krakatoa.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Relace",
+ "response": "The 1883 eruption of Krakatoa (Indonesian: **Krakatau**) was one of the most catastrophic volcanic eruptions in recorded history. It occurred in the **Sunda Strait** between Java and Sumatra, then part of the Dutch East Indies, and is rated **VEI 6** on the Volcanic Explosivity Index.\n\nAfter months of precursor activity beginning on **20 May 1883**, the eruption climaxed on **26–27 August 1883**. On 26 August, increasingly violent explosions sent ash high into the atmosphere. The next morning, **27 August**, four colossal explosions occurred, the largest at about **10:02 a.m. local time**. These tore apart much of the island of Krakatoa and caused the caldera to collapse.\n\nThe eruption produced an ash column estimated to have reached about **80 km (50 mi)** high. Ash fell over an area of hundreds of thousands of square kilometres, and nearby regions were plunged into darkness. The collapse generated **pyroclastic flows** that swept across the Sunda Strait and triggered **tsunamis up to about 40 m (130 ft)** high. These waves devastated coastal towns and villages in Java and Sumatra. At least **36,000 people** were killed, most by the tsunamis rather than by lava or ash.\n\nThe eruption was heard thousands of kilometres away—reportedly as far as **Rodrigues Island, about 4,800 km (3,000 mi)** away—and is often called the loudest sound in recorded history. Barometers worldwide recorded pressure waves from the explosion circling the globe multiple times. Stratospheric sulfate aerosols caused global temperatures to fall by roughly **0.5°C (0.9°F)** for a year and produced vivid sunsets, blue or green suns, and “Bishop’s rings.”\n\nThe eruption destroyed most of Krakatoa, leaving the remnants of **Rakata, Sertung, and Panjang**. In 1927, a new volcanic cone, **Anak Krakatau** (“Child of Krakatoa”), began to emerge in the caldera.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 2909,
+  "total_tokens": 2950,
+  "cost": 0.00145737,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00145737,
+   "upstream_inference_prompt_cost": 2.87e-06,
+   "upstream_inference_completions_cost": 0.0014545
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2470,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:43.677052+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

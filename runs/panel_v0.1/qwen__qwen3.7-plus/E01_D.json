@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "D",
+ "prompt": "Describe the New Deal (1933-1939).",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The New Deal was a sweeping series of economic programs, public works projects, and financial reforms enacted by President Franklin D. Roosevelt (FDR) in the United States between 1933 and 1939. It was the federal government’s primary response to the **Great Depression**, the worst economic crisis in the nation's history. \n\nThe New Deal fundamentally transformed the relationship between the American government and its citizens, shifting the U.S. away from *laissez-faire* capitalism toward a regulated economy with a federal social safety net.\n\nHere is a comprehensive breakdown of the New Deal.\n\n---\n\n### **The Core Philosophy: The \"Three Rs\"**\nFDR’s New Deal was guided by three primary objectives:\n1. **Relief:** Immediate assistance for the unemployed, the poor, and those facing foreclosure.\n2. **Recovery:** Temporary programs to restart the flow of consumer demand and help the economy bounce back to pre-Depression levels.\n3. **Reform:** Permanent changes to the financial and economic systems to prevent a repeat of the Depression.\n\n---\n\n### **Phase 1: The First New Deal (1933–1934)**\nFDR took office in March 1933 with the banking system on the verge of total collapse. His first 100 days in Congress were marked by unprecedented legislative action, focusing primarily on **Recovery** and **Relief**.\n\n* **Banking and Finance:** The **Emergency Banking Act** stabilized the banks, and the **Glass-Steagall Act** separated commercial and investment banking while creating the **FDIC** (Federal Deposit Insurance Corporation) to insure bank deposits, restoring public trust.\n* **Agriculture:** The **Agricultural Adjustment Act (AAA)** paid farmers to reduce crop production and livestock. By artificially creating scarcity, the AAA raised crop prices and stabilized the agricultural economy.\n* **Industry:** The **National Recovery Administration (NRA)** worked with businesses and labor to create \"codes of fair competition,\" establishing minimum wages, maximum hours, and abolishing child labor.\n* **Regional Development:** The **Tennessee Valley Authority (TVA)** built dams in the impoverished Tennessee Valley to control flooding, generate cheap hydroelectric power, and modernize the region.\n* **Direct Relief and Jobs:** The **Civilian Conservation Corps (CCC)** employed young men in environmental conservation projects, while the **Federal Emergency Relief Administration (FERA)** provided direct cash grants to states for relief.\n\n---\n\n### **Phase 2: The Second New Deal (1935–1939)**\nBy 1935, the economy had stabilized but millions were still unemployed. Facing pressure from populist critics who felt the First New Deal was too conservative, FDR launched the \"Second New Deal,\" which shifted focus toward **Reform**, labor rights, and long-term social welfare.\n\n* **Massive Job Creation:** The **Works Progress Administration (WPA)** became the largest employer in the country. It built roads, bridges, schools, and parks. Uniquely, it also included \"Federal Project Number One,\" which employed artists, writers, musicians, and actors.\n* **Labor Rights:** The **Wagner Act (National Labor Relations Act)** guaranteed workers the right to unionize and bargain collectively, and created the National Labor Relations Board to enforce these rights. This led to a massive surge in union membership.\n* **The Social Safety Net:** The **Social Security Act of 1935** was the crowning achievement of the New Deal. It established a system of old-age pensions, unemployment insurance, and aid for dependent children and the disabled. \n* **Taxation:** The **Wealth Tax Act** raised taxes on the richest Americans and large corporations, aiming to redistribute wealth and fund New Deal programs.\n\n---\n\n### **Opposition and Challenges**\nThe New Deal faced fierce opposition from multiple fronts:\n* **The Supreme Court:** The conservative-leaning Court struck down key First New Deal programs, notably the NRA and the AAA, ruling they overstepped federal power. In response, FDR proposed a controversial (and ultimately failed) \"court-packing\" plan to add more justices, though the Court eventually began upholding New Deal legislation.\n* **Political Critics:** Populists like Senator Huey Long (who proposed a \"Share Our Wealth\" program), Father Charles Coughlin (a radio priest who turned against FDR), and Dr. Francis Townsend (who advocated for massive pensions for the elderly) argued the New Deal did not go far enough.\n* **Business Leaders:** Many conservatives and corporate leaders viewed the New Deal as a step toward socialism, arguing that heavy regulation and pro-union policies stifled free enterprise.\n\n---\n\n### **Social Impact and Limitations**\nWhile the New Deal provided a lifeline to millions, its benefits were not distributed equally:\n* **African Americans:** Black Americans benefited greatly from New Deal relief programs, and FDR’s \"Black Cabinet\" advised him on minority issues. However, many programs were discriminatory. The AAA often displaced Black sharecroppers, and the Social Security Act initially excluded agricultural and domestic workers, a category that included a majority of Black workers in the South. Furthermore, the Federal Housing Administration (FHA) institutionalized \"redlining,\" denying mortgages to Black neighborhoods.\n* **Women:** The New Deal employed women through the WPA and appointed **Frances Perkins** as Secretary of Labor (the first female cabinet member). However, WPA jobs for women often paid less than those for men, and some programs explicitly favored male breadwinners.\n* **Native Americans:** Under Commissioner John Collier, the **Indian Reorganization Act of 1934** reversed the assimilationist policies of the past, returning some lands to tribes and encouraging tribal self-government and cultural preservation.\n\n---\n\n### **Did the New Deal End the Depression?**\n**No.** While the New Deal mitigated the worst effects of the Great Depression, provided relief to millions, and reformed the financial system, it did not restore full employment. In 1937, FDR attempted to balance the budget by cutting spending, which triggered the \"Roosevelt Recession,\" causing unemployment to spike again. It was the massive industrial mobilization and government spending required for **World War II** that finally ended the Great Depression.\n\n---\n\n### **Legacy and Historical Significance**\nThe New Deal left an indelible mark on the United States:\n1. **The Modern Welfare State:** It established the principle that the federal government has a responsibility to ensure the economic well-being of its citizens (e.g., Social Security, unemployment insurance, minimum wage).\n2. **The Regulatory State:** It created agencies like the SEC (Securities and Exchange Commission) and the FDIC, establishing permanent federal oversight of the stock market and banking industry.\n3. **Political Realignment:** It forged the **\"New Deal Coalition\"**—an alliance of labor unions, urban workers, ethnic minorities, the South, and intellectuals. This coalition made the Democratic Party the dominant political force in the U.S. for the next several decades.\n4. **Infrastructure:** The physical legacy of the New Deal is still visible today in the dams, bridges, schools, post offices, and national parks built by the CCC, WPA, and TVA.\n\nIn summary, the New Deal (1933-1939) did not cure the Great Depression, but it saved American capitalism from potential collapse, redefined the purpose of the federal government, and created a social and economic framework that shaped the rest of the 20th century.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 25,
+  "completion_tokens": 3134,
+  "total_tokens": 3159,
+  "cost": 0.00401952,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00401952,
+   "upstream_inference_prompt_cost": 8e-06,
+   "upstream_inference_completions_cost": 0.00401152
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1543,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:19:10.382080+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

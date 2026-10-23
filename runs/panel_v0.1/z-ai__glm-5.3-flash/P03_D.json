@@ -1,0 +1,43 @@
+{
+ "item": "P03",
+ "template": "D",
+ "prompt": "Describe the discovery of penicillin.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "InferenceNet",
+ "response": "# The Discovery of Penicillin\n\n## The Famous Accident (1928)\n\nPenicillin was discovered by **Alexander Fleming**, a Scottish bacteriologist working at St. Mary's Hospital in London. In September 1928, Fleming returned from vacation to find that he had left a petri dish of *Staphylococcus* bacteria uncovered near a window. He noticed that mold had contaminated the dish—but remarkably, the bacteria surrounding the mold had been destroyed.\n\nThe mold was identified as ***Penicillium notatum*** (later reclassified as *P. chrysogenum*). Fleming realized the mold was producing a substance that killed bacteria, which he named **penicillin**.\n\n## Fleming's Early Work (1928–1930s)\n\nFleming demonstrated that penicillin could kill many disease-causing bacteria while being relatively harmless to human cells. However, he faced significant challenges:\n\n- He couldn't purify or produce the substance in large quantities\n- The mold's effectiveness was difficult to stabilize\n- He believed it might only be useful as an topical antiseptic\n\n## Development into a Drug (1939–1941)\n\nThe real breakthrough came a decade later when a team at **Oxford University**, led by **Howard Florey** (an Australian pathologist) and **Ernst Chain** (a German-Jewish refugee biochemist), along with Norman Heatley, developed methods to purify and mass-produce penicillin.\n\nIn **1941**, penicillin was first tested on a patient—Albert Alexander, a policeman with a severe bacterial infection. He improved dramatically but died when supplies ran out.\n\n## Wartime Mass Production\n\nWith **World War II** creating urgent need, production efforts moved partly to the **United States**. Using deep-tank fermentation techniques (adapted from brewing), American pharmaceutical companies produced massive quantities. By D-Day in 1944, enough penicillin existed to treat Allied wounded.\n\n## Recognition\n\nIn **1945**, Fleming, Florey, and Chain shared the **Nobel Prize in Physiology or Medicine**. Fleming's chance observation—often called one of history's luckiest accidents—also illustrated his famous point: *\"Chance favors the prepared mind.\"*\n\nPenicillin revolutionized medicine, launching the antibiotic era and saving countless millions of lives.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 20,
+  "completion_tokens": 482,
+  "total_tokens": 502,
+  "cost": 0.000189416,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.000189416,
+   "upstream_inference_prompt_cost": 2.4e-06,
+   "upstream_inference_completions_cost": 0.000187016
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:55.612973+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

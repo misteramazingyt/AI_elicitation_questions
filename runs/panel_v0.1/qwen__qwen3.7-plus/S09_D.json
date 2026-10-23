@@ -1,0 +1,43 @@
+{
+ "item": "S09",
+ "template": "D",
+ "prompt": "Describe the Supreme Court's 1973 decision in Roe v. Wade.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "In 1973, the U.S. Supreme Court issued its landmark decision in *Roe v. Wade*, ruling that the U.S. Constitution protects a pregnant woman's right to choose to have an abortion without excessive government restriction. The 7-2 decision was one of the most significant and debated rulings in American legal history.\n\nHere is a breakdown of the Court's 1973 decision:\n\n**Legal Reasoning and the \"Right to Privacy\"**\nThe majority opinion was authored by Justice Harry Blackmun. The Court ruled that the Due Process Clause of the Fourteenth Amendment implicitly guarantees a fundamental \"right to privacy.\" The Court determined that this right to privacy is broad enough to encompass a woman's decision to terminate her pregnancy. \n\nHowever, the Court also ruled that this right is not absolute. It must be balanced against two legitimate state interests:\n1. The state's interest in protecting the health and safety of the pregnant woman.\n2. The state's interest in protecting potential human life.\n\n**The Trimester Framework**\nTo balance the woman's right to privacy with the state's interests, the Court established a trimester framework to guide state regulation of abortion:\n*   **First Trimester:** The Court ruled that the state could not prohibit abortion, nor could it heavily regulate it. The decision to abort was left entirely to the medical judgment of the pregnant woman's physician.\n*   **Second Trimester:** As the pregnancy progressed, the state's interest in protecting maternal health grew. The Court ruled that states could implement reasonable regulations related to the health and safety of the mother (such as licensing facilities and setting standards for the procedure), but could not ban abortion.\n*   **Third Trimester:** The Court ruled that once a fetus reaches \"viability\" (the ability to survive outside the womb, which the Court generally placed at the beginning of the third trimester), the state's interest in protecting potential life becomes compelling. Therefore, states could restrict or entirely ban abortion in the third trimester, with an exception to allow the procedure if it was necessary to preserve the life or health of the mother.\n\n**Dissenting Opinions**\nJustices Byron White and William Rehnquist dissented from the majority opinion. \n*   Justice Rehnquist argued that the framers of the Fourteenth Amendment did not intend to create a right to privacy that encompassed abortion, noting that many states had laws restricting abortion at the time the amendment was ratified. \n*   Justice White argued that the Court was overstepping its judicial role by assigning priorities to competing interests (maternal rights vs. potential life) that he believed should be decided by state legislatures and the democratic process.\n\n**Historical Context and Subsequent Rulings**\n*Roe v. Wade* struck down many state and federal abortion laws, profoundly shaping American law, politics, and society, and serving as the focal point of the national debate on abortion for decades. \n\nThe legal framework established in 1973 was later modified and ultimately overturned:\n*   In 1992, the Supreme Court decided *Planned Parenthood v. Casey*, which upheld the core right to abortion established in *Roe* but discarded the rigid trimester framework in favor of an \"undue burden\" standard, allowing states to regulate abortion prior to viability as long as the regulations did not place a substantial obstacle in the path of a woman seeking an abortion.\n*   In 2022, the Supreme Court decided *Dobbs v. Jackson Women's Health Organization*, which explicitly overturned both *Roe v. Wade* and *Casey*. The *Dobbs* majority ruled that the Constitution does not confer a right to abortion, returning the authority to regulate or ban the procedure to the individual states and their elected legislatures.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 2397,
+  "total_tokens": 2424,
+  "cost": 0.0030768,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0030768,
+   "upstream_inference_prompt_cost": 8.64e-06,
+   "upstream_inference_completions_cost": 0.00306816
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1603,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:25:17.889310+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

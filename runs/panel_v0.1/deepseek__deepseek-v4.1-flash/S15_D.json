@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "D",
+ "prompt": "Describe the 1948 Arab-Israeli war.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "The 1948 Arab–Israeli War was the conflict that followed the end of the British Mandate in Palestine and the establishment of the State of Israel. It is known in Israeli historiography as the War of Independence and by Palestinians as part of the Nakba (“catastrophe”).\n\n**Background.** In November 1947 the UN adopted Resolution 181, partitioning Mandate Palestine into Jewish and Arab states with an internationalized Jerusalem. Jewish leaders accepted the plan; Arab leaders and the Arab Higher Committee rejected it. Fighting between Jewish and Palestinian Arab forces began almost immediately, alongside British withdrawal.\n\n**First phase: civil war, late 1947–May 1948.** This phase was mainly between Jewish militias—chiefly the Haganah, with Irgun and Lehi also active—and Palestinian Arab forces, supported by volunteers from Arab states. Jewish forces gained ground, especially along the coast and in mixed cities such as Haifa, Jaffa, and Tiberias. Palestinian society was disrupted, and large numbers of Palestinians began fleeing or were expelled. Atrocities occurred on both sides, including the Deir Yassin massacre by Irgun and Lehi forces in April 1948.\n\n**Second phase: interstate war, May 1948–1949.** On 14 May 1948 Israel declared independence. The next day, Egypt, Transjordan, Syria, Iraq, and Lebanon intervened, though their forces were limited and not fully coordinated. Fighting occurred on several fronts: the Negev and southern coast against Egypt; Jerusalem and the central hills against Transjordan’s Arab Legion; and the north against Syria and Lebanon. After initial Arab advances, Israeli forces gained the initiative through mobilization, arms imports, and reorganization. Key operations secured the coastal plain, Galilee, the Negev, and routes to Jerusalem. The city of Jerusalem was divided, with Israel holding West Jerusalem and Transjordan holding East Jerusalem and the Old City.\n\n**Outcome.** By the 1949 armistice agreements, Israel controlled about 78 percent of Mandate Palestine—more than the UN partition plan had assigned to the Jewish state. Transjordan held the West Bank and East Jerusalem; Egypt held the Gaza Strip. No Palestinian Arab state was established. The war produced a Palestinian refugee crisis of roughly 700,000 people, and Jewish communities in Arab countries faced growing pressure and later mass displacement. The armistices ended major fighting but did not produce peace, and the conflict’s territorial and refugee consequences shaped the Arab–Israeli conflict for decades.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 40,
+  "completion_tokens": 727,
+  "total_tokens": 767,
+  "cost": 0.00044832,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00044832,
+   "upstream_inference_prompt_cost": 1.212e-05,
+   "upstream_inference_completions_cost": 0.0004362
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 209,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:16:10.341346+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

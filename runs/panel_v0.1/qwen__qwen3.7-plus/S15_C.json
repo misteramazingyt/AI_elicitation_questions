@@ -1,0 +1,43 @@
+{
+ "item": "S15",
+ "template": "C",
+ "prompt": "What were the main causes of the 1948 Arab-Israeli war?",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The 1948 Arab-Israeli War—referred to in Israel as the War of Independence and in the Arab world as the Nakba (Catastrophe)—was the culmination of decades of competing national movements, shifting imperial policies, and escalating local violence. \n\nThe causes of the war can be divided into long-term underlying factors and short-term immediate triggers.\n\n### Long-Term Causes\n\n**1. The Rise of Zionism and Jewish Immigration**\nIn the late 19th century, the Zionist movement emerged in Europe, advocating for the establishment of a Jewish national homeland in Palestine, which was then part of the Ottoman Empire. Driven by rising antisemitism in Europe and the desire for Jewish self-determination, Jewish immigration to Palestine (Aliyah) increased. Following the rise of Nazi Germany and the horrors of the Holocaust, Jewish immigration surged, and international sympathy for a Jewish state grew significantly. Jewish institutions purchased land from Arab and Ottoman landowners, established agricultural settlements, and built the infrastructure for a future state.\n\n**2. The Rise of Arab Nationalism and Palestinian Opposition**\nConcurrently, Arab nationalism was rising across the Middle East following the collapse of the Ottoman Empire. The Arab population in Palestine viewed the increasing Jewish immigration and land purchases as a direct threat to their own demographic majority, political rights, and economic livelihood. This opposition culminated in the 1936–1939 Arab Revolt against the British Mandate and Jewish immigration, which was eventually suppressed by British forces but deeply fractured Palestinian Arab society and solidified Arab opposition to a Jewish state.\n\n**3. The British Mandate and Conflicting Promises**\nDuring World War I, the British made conflicting promises regarding the Middle East. Through the McMahon-Hussein Correspondence (1915), they appeared to promise independence to Arab leaders. In the 1917 Balfour Declaration, they expressed support for a \"national home for the Jewish people\" in Palestine. Following World War I, the League of Nations granted Britain the Mandate for Palestine, incorporating the Balfour Declaration. Over the years, British policy fluctuated. Attempts to limit Jewish immigration to appease the Arab population (such as the 1939 White Paper) angered the Jewish community, especially as Jews fled Europe during the Holocaust. By 1947, exhausted by World War II and unable to reconcile the competing demands, Britain decided to hand the problem to the newly formed United Nations.\n\n### Short-Term and Immediate Causes\n\n**4. The UN Partition Plan (Resolution 181)**\nIn November 1947, the UN General Assembly passed Resolution 181, which recommended partitioning Palestine into independent Arab and Jewish states, with Jerusalem placed under a special international regime (*corpus separatum*). \n*   **Jewish Leadership:** The Jewish Agency accepted the plan, viewing it as the legal realization of Jewish self-determination, despite reservations about the borders and the division of the land.\n*   **Arab Leadership:** The Palestinian Arab Higher Committee and the Arab League rejected the plan. They argued that the partition violated the rights of the majority Arab population (who owned the majority of the land at the time) and opposed the creation of a Jewish state in any part of Palestine.\n\n**5. The 1947–1948 Civil War**\nFollowing the UN vote, the British Mandate authorities began to withdraw, and public order collapsed. A civil war broke out between Jewish militias (primarily the Haganah, Irgun, and Lehi) and Palestinian Arab irregular forces, soon joined by volunteers from neighboring Arab countries. During this phase, Jewish forces secured the borders of the proposed Jewish state and captured key roads and mixed cities, while Palestinian Arab society experienced widespread disruption, leading to the flight and expulsion of hundreds of thousands of Palestinian Arabs.\n\n**6. The End of the Mandate and the Declaration of Independence**\nAs the British Mandate officially expired at midnight on May 14, 1948, David Ben-Gurion, the head of the Jewish Agency, declared the establishment of the State of Israel. The United States and the Soviet Union granted immediate *de facto* recognition. \n\n**7. Intervention of the Arab States**\nThe day after the declaration of independence, on May 15, 1948, the regular armies of neighboring Arab states (Egypt, Syria, Transjordan, Iraq, and Lebanon) crossed into Palestine. The Arab states intervened to halt the establishment of the Jewish state, to support the Palestinian Arabs, and to secure their own strategic and territorial interests. This marked the transition from a local civil war to a conventional interstate war.\n\n### Summary\nThe 1948 war was ultimately caused by the irreconcilable clash between two national movements—Zionism and Arab nationalism—both claiming the right to self-determination in the same territory. The failure of the British Mandate to mediate these claims, the UN's attempt to resolve it through partition, and the subsequent rejection of that partition by the Arab side and acceptance by the Jewish side, directly triggered the outbreak of violence and the subsequent regional war.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 2520,
+  "total_tokens": 2547,
+  "cost": 0.00323424,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00323424,
+   "upstream_inference_prompt_cost": 8.64e-06,
+   "upstream_inference_completions_cost": 0.0032256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1445,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:26:31.067967+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

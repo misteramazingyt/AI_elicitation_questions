@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "D",
+ "prompt": "Describe Britain's Winter of Discontent (1978-1979).",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Sail Research",
+ "response": "The **Winter of Discontent** refers to the period of widespread industrial unrest in Britain from late 1978 to early 1979, during the Labour government of Prime Minister **James Callaghan**. It was not one single strike but a wave of disputes, especially in the public sector, that became a powerful symbol of economic disorder and union power in post-war Britain.\n\n**Causes:** The government was trying to control inflation by holding pay increases to **5%** under its incomes policy, following earlier agreements with the Trades Union Congress. Many unions rejected this, arguing that it meant falling living standards. The policy was fatally undermined when **Ford workers won a pay rise of around 17%** in late 1978. Other workers then demanded similar increases.\n\n**Key events:** In January 1979, **lorry drivers and oil tanker drivers** struck, causing fuel and food shortages. Public-sector workers followed: **refuse collectors, hospital ancillary staff, ambulance crews, gravediggers, school caretakers and others**. Rubbish piled up in streets, hospitals dealt only with emergency cases, schools closed, and in Liverpool bodies were left unburied. The government declared a **state of emergency** and used troops to help maintain essential services. The crisis was encapsulated by the *Sun* headline **“Crisis? What Crisis?”** after Callaghan returned from a summit in Guadeloupe and appeared to downplay the chaos.\n\n**Political impact:** The strikes ended with pay settlements above the 5% limit, but the government’s authority was badly damaged. In March 1979, Callaghan lost a **motion of no confidence by one vote** (311–310). In the general election of **May 1979**, Margaret Thatcher’s Conservatives won, and Thatcher became prime minister. The Winter of Discontent is widely seen as a key factor in Labour’s defeat and the rise of **Thatcherism**.\n\n**Legacy:** The phrase became a byword for industrial chaos and government weakness. Some historians argue that the media exaggerated the scale of the disruption, but the political damage was real. It remains one of the defining episodes of late 1970s Britain.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 2966,
+  "total_tokens": 3010,
+  "cost": 0.00074546,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00074546,
+   "upstream_inference_prompt_cost": 3.96e-06,
+   "upstream_inference_completions_cost": 0.0007415
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2516,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:53.442731+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

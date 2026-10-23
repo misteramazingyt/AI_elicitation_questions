@@ -5,7 +5,8 @@
 name: panel_v0.1
 # design doc §2: one generation at temperature 0 per prompt (no paraphrase/length variants yet)
 temperature: 0
-max_tokens: 4000
+# Includes reasoning tokens; 4000 truncated ~3% of answers (mostly H prompts), so it was raised
+max_tokens: 16000
 # Reasoning models: keep thinking short and out of the transcript (we score the answer only)
 reasoning: {effort: low, exclude: true}
 system_prompt: null

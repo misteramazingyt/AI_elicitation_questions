@@ -1,0 +1,43 @@
+{
+ "item": "E13",
+ "template": "C",
+ "prompt": "What were the main causes of the 1996 U.S. welfare reform law?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The 1996 U.S. welfare reform law, officially known as the Personal Responsibility and Work Opportunity Reconciliation Act (PRWORA), was the result of a complex interplay of various factors and stakeholders. The main causes can be summarized as follows:\n\n1. **Rise of Conservatism and Republican Influence**: The 1994 midterm elections saw a significant shift in power towards the Republicans in both the House and Senate, with Newt Gingrich becoming the Speaker of the House. The Republican Party had long been critical of the welfare system, viewing it as ineffective and overly bureaucratic. Their \"Contract with America\" included welfare reform as a key plank.\n\n2. **Public Perception and Criticism of Welfare**: There was a growing public perception that the welfare system was flawed, fostering dependency rather than encouraging work and self-sufficiency. Critics argued that it created a culture of dependency and that many recipients were not motivated to seek employment.\n\n3. **Economic Concerns and Budget Deficits**: The early 1990s saw economic challenges, including budget deficits. Reforming welfare was seen as a way to reduce government spending. Proponents of reform argued that by moving recipients into the workforce, the government could save money and reduce the financial burden on taxpayers.\n\n4. **State-Level Experiments and Welfare Reform Initiatives**: Before the federal reform, several states had already begun experimenting with welfare reform under waivers from the federal government. These experiments, such as those in Wisconsin under Governor Tommy Thompson, demonstrated alternative approaches to traditional welfare, including work requirements and time limits on benefits. The success of these state-level initiatives provided a model and momentum for federal reform.\n\n5. **Bipartisan Support and the Role of Key Politicians**: While the Republican takeover of Congress was a significant factor, the eventual passage of the PRWORA was also facilitated by bipartisan support. President Bill Clinton, a Democrat, had campaigned on a promise to \"end welfare as we know it.\" Although he vetoed two earlier versions of the welfare reform bill, he eventually signed the PRWORA into law in August 1996. The bill had been shaped by negotiations between the White House and Congressional Republicans, reflecting a compromise that included elements from both parties' visions for welfare reform.\n\n6. **Social and Cultural Factors**: Changing social attitudes towards work, family, and government assistance also played a role. There was a growing consensus that able-bodied adults should work and that government assistance should be temporary and conditional on efforts to become self-sufficient.\n\nThe combination of these factors—political shifts, public dissatisfaction with the existing welfare system, economic pressures, innovative state-level reforms, and a willingness among key politicians to negotiate across party lines—culminated in the passage of the 1996 welfare reform law.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 566,
+  "total_tokens": 593,
+  "cost": 0.0003743775,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003743775,
+   "upstream_inference_prompt_cost": 5.0625e-06,
+   "upstream_inference_completions_cost": 0.000369315
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:04:04.378631+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

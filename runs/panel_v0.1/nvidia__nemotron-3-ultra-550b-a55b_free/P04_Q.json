@@ -1,0 +1,43 @@
+{
+ "item": "P04",
+ "template": "Q",
+ "prompt": "What were the consequences of the Black Death in fourteenth-century Europe?",
+ "model_requested": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "model_served": "nvidia/nemotron-3-ultra-550b-a55b:free",
+ "provider": "Nvidia",
+ "response": "The Black Death (1347–1351), which killed an estimated **30% to 60% of Europe’s population**, was the single most transformative event of the late Middle Ages. Its consequences were profound, interconnected, and long-lasting, fundamentally altering the trajectory of European history.\n\nHere is a breakdown of the major consequences categorized by sphere:\n\n---\n\n### 1. Demographic & Structural\n*   **Catastrophic Population Loss:** Europe’s population dropped from ~80 million to ~30–50 million. It took **150–200 years** (until the 16th century) to recover to pre-plague levels.\n*   **Recurring Outbreaks:** The initial pandemic was followed by recurring waves (1361, 1369, 1374, etc.), preventing population recovery and keeping labor scarce for generations.\n*   **Disappearance of Villages:** Thousands of settlements were abandoned (*Wüstungen* in Germany, \"deserted medieval villages\" in England) as survivors consolidated in larger towns or better land.\n\n### 2. Economic: The \"Golden Age of the Laborer\"\nThe drastic labor shortage inverted the traditional power dynamic between lords and peasants.\n\n*   **Wage Surge:** Real wages for unskilled laborers **doubled or tripled** in many regions (e.g., England, France, Italy) because labor was the scarce factor of production.\n*   **Decline of Serfdom (Western Europe):**\n    *   Lords competed for tenants, offering **commutation** (converting labor services/dues into cash rents) and **copyhold tenure** (hereditary, secure tenure).\n    *   Peasants gained **personal freedom** and mobility; the rigid manorial system collapsed in England, France, the Low Countries, and Northern Italy.\n*   **Rent Crisis for Landlords:** With land abundant and labor scarce, land values plummeted. Aristocratic income from demesne farming (direct management) collapsed.\n*   **Shift to Pastoralism:** Less labor-intensive sheep/cattle farming replaced grain cultivation (especially in England and Spain), boosting the **wool trade** and early textile capitalism.\n*   **Inflation & Coinage:** Short-term price spikes for goods occurred, but long-term deflation in grain prices hurt noble revenues.\n*   **Eastern Europe Divergence (The \"Second Serfdom\"):** In Poland, Prussia, Hungary, and Russia, where population density was lower and towns weaker, nobles *increased* peasant obligations (corvée labor) to export grain to the West, entrenching serfdom until the 19th century.\n\n### 3. Social & Political\n*   **Peasant Revolts:** The attempt by elites to freeze wages and restrict mobility (e.g., **Statute of Laborers 1351** in England, *Ordonnance de la police* in France) clashed with new peasant expectations, sparking major uprisings:\n    *   **The Jacquerie (France, 1358)**\n    *   **The Peasants' Revolt (England, 1381)**\n    *   **The Ciompi Revolt (Florence, 1378)**\n*   **Weakening of Feudal Military Power:** The nobility’s economic decline reduced their ability to maintain private armies, accelerating the shift toward **paid professional soldiers (mercenaries/condottieri)** and centralized royal taxation/standing armies.\n*   **Rise of the Merchant Class:** Urban merchants and financiers (e.g., the Medici, Fuggers) filled the credit vacuum left by impoverished nobles, gaining political influence in city-states and royal courts.\n*   **Persecution of Minorities:** Scapegoating led to horrific violence. **Jewish communities** were massacred in the Rhineland, Switzerland, and Spain (accused of poisoning wells), accelerating Jewish migration eastward to Poland. **Lepers, beggars, and Romani** were also targeted.\n\n### 4. Religious & Cultural\n*   **Crisis of Institutional Authority:** The Church’s inability to stop the plague, explain it theologically, or provide last rites to the dying damaged its prestige. The death of ~40% of the clergy (who ministered to the sick) led to a drop in clerical quality and literacy.\n*   **Rise of Personal Piety & Mysticism:** With the institutional Church seen as distant or corrupt, lay movements flourished:\n    *   **Flagellants:** Public self-flagellation processions (condemned by the Pope in 1349).\n    *   **Devotio Moderna:** Emphasis on inner devotion, humility, and imitation of Christ (Thomas à Kempis, *The Imitation of Christ*).\n    *   **Lollardy (England) & Hussitism (Bohemia):** Precursors to the Reformation, challenging clerical wealth and sacramental theology.\n*   **Artistic Obsession with Death:**\n    *   **Danse Macabre (Dance of Death):** Allegories showing Death uniting all social classes (Pope, Emperor, Peasant, Child).\n    *   **Transi Tombs:** Cadaver monuments showing the deceased as a rotting corpse.\n    *   **Memento Mori:** \"Remember you must die\" motifs in art and literature (Boccaccio’s *Decameron*, Chaucer’s *Canterbury Tales*).\n*   **End of the \"High Middle Ages\" Optimism:** The theological confidence of the 13th century (Scholasticism, great cathedrals) gave way to anxiety, individualism, and a focus on the afterlife.\n\n### 5. Political & State Building\n*   **Centralization of Taxation:** Kings needed money to fight wars (Hundred Years' War) without noble cooperation. They developed **permanent taxation systems** (e.g., *taille* in France, parliamentary subsidies in England) and professional bureaucracies.\n*   **Parliamentary Power (England):** The Crown’s need for tax revenue strengthened Parliament (Commons + Lords), establishing the principle of \"no taxation without representation.\"\n*   **End of Serfdom as a Legal Category:** By the 15th/16th century, villeinage had effectively vanished in Western Europe, replaced by a free (if poor) peasantry and a wage-labor market—**a prerequisite for capitalism.**\n\n---\n\n### Summary: The \"Great Divergence\" Debate\nHistorians debate the long-term weight of these changes:\n*   **Malthusian View:** The plague was a \"positive check\" correcting overpopulation; rising wages were temporary until population rebounded.\n*   **Institutional/Structural View (e.g., Brenner, Postan, Voigtländer & Voth):** The plague **broke the Malthusian trap**. By destroying the feudal labor surplus, it forced institutional innovation (wage labor, property rights, technological adoption in agriculture/printing) that set Western Europe on a unique path toward the **Industrial Revolution** and the **Rise of the West**.\n\n**In short:** The Black Death did not just kill people; it killed the feudal mode of production in Western Europe, empowered the common laborer, shattered the unity of Christendom, and laid the demographic and economic groundwork for the Renaissance, the Reformation, and the rise of the modern nation-state.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 30,
+  "completion_tokens": 1639,
+  "total_tokens": 1669,
+  "cost": 0,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0,
+   "upstream_inference_prompt_cost": 0,
+   "upstream_inference_completions_cost": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 74,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:50:16.837515+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

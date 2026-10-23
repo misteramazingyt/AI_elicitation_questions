@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "Q",
+ "prompt": "What were the consequences of the New Deal (1933-1939)?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the New Deal (1933–1939)\n\n## Economic Effects\n\n**Immediate relief and recovery:**\n- Unemployment fell from roughly 25% (1933) to about 14% by 1937, though it spiked again during the 1937–38 \"Roosevelt Recession\"\n- Banking reforms (FDIC insurance, Glass-Steagall) ended the wave of bank failures and restored public confidence\n- Programs like the WPA, CCC, and PWA put millions to work building infrastructure—roads, bridges, dams, schools, and parks\n\n**Limitations:**\n- The New Deal never fully ended the Depression; only WWII mobilization did that\n- Some critics argue business uncertainty and regulatory costs slowed recovery\n\n## Political Consequences\n\n- **Realignment of American politics:** The \"New Deal Coalition\" (labor unions, urban immigrants, African Americans, intellectuals, the South) dominated elections for decades\n- **Expansion of executive power:** The presidency became far more powerful, setting a precedent for the modern administrative state\n- **Growth of the federal government:** Dozens of new agencies (the \"alphabet soup\") created a permanent federal bureaucracy\n- **Supreme Court conflict:** FDR's 1937 \"court-packing\" plan failed but followed a Court shift that upheld New Deal legislation\n\n## Social Consequences\n\n- **The safety net:** Social Security (1935) created old-age pensions and unemployment insurance—the foundation of the modern welfare state\n- **Labor rights:** The Wagner Act (1935) guaranteed collective bargaining; union membership surged\n- **African Americans:** Some New Deal programs helped, but many excluded farm workers and domestic workers (where Black workers were concentrated); FDR made little push for civil rights\n- **Women:** Programs often assumed male breadwinners, though figures like Frances Perkins broke barriers\n- **Native Americans:** The Indian Reorganization Act (1934) reversed assimilation policies and promoted tribal self-government\n\n## Cultural and Environmental Legacy\n\n- Public works projects left lasting infrastructure (Hoover Dam, rural electrification, national park facilities)\n- The TVA brought electricity and flood control to the Tennessee Valley\n- Arts programs (Federal Writers' Project, WPA murals) supported artists and documented American life\n- Soil conservation programs addressed the Dust Bowl\n\n## Long-Term Significance\n\nThe New Deal fundamentally changed the relationship between Americans and their government, establishing the expectation that Washington would manage the economy and provide social insurance. It created the framework—debated ever since—for modern American liberalism and the size and role of the federal state.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 45,
+  "completion_tokens": 638,
+  "total_tokens": 683,
+  "cost": 6.01699e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 6.01699e-05,
+   "upstream_inference_prompt_cost": 1.2825e-06,
+   "upstream_inference_completions_cost": 5.88874e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 94,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:34.357403+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

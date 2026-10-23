@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "C",
+ "prompt": "What were the main causes of the Kent State shootings of 1970?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Kent State Shootings of May 4, 1970\n\nThe shootings, in which National Guardsmen killed four students and wounded nine, resulted from a convergence of several factors:\n\n## Immediate Context\n\n**The Cambodia invasion**: On April 30, 1970, President Nixon announced the expansion of the Vietnam War into Cambodia, despite campaigning on de-escalation. This sparked protests at campuses nationwide, including Kent State.\n\n**Escalating tensions in Kent**: Protests began on May 1, and that night there was rioting in downtown Kent, including fires and rock-throwing. The city's mayor declared a state of emergency and called in the Ohio National Guard.\n\n## Contributing Factors\n\n**Campus unrest**: The ROTC building at Kent State was burned on May 2, heightening tensions. The Guard occupied the campus, and Ohio Governor James Rhodes called protesters \"the worst type of people\" and vowed to keep order, inflaming the situation.\n\n**May 4 confrontation**: Guardsmen confronted a crowd of protesters and onlookers. After failing to disperse the crowd, some Guardsmen fired 67 rounds over 13 seconds toward students—some of whom were shot while walking to class, over 300 feet away.\n\n## Deeper Causes\n\n- **Widening war**: Public frustration with the Vietnam War's expansion\n- **Generational divide**: Deep polarization over the war and the counterculture\n- **Poor crisis management**: Confusion in Guard commands, inadequate training in crowd control, and unclear rules of engagement\n- **Political rhetoric**: Officials' harsh language escalated rather than defused tensions\n\nThe shootings became a defining moment of the era, prompting nationwide strikes and symbolizing the deep divisions over Vietnam.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 422,
+  "total_tokens": 465,
+  "cost": 4.01761e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.01761e-05,
+   "upstream_inference_prompt_cost": 1.2255e-06,
+   "upstream_inference_completions_cost": 3.89506e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 64,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:43:59.953683+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

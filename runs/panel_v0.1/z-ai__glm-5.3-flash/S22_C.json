@@ -1,0 +1,43 @@
+{
+ "item": "S22",
+ "template": "C",
+ "prompt": "What were the main causes of the Immigration and Nationality Act of 1965?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Main Causes of the Immigration and Nationality Act of 1965\n\nThe Immigration and Nationality Act of 1965 (also known as the Hart-Celler Act) resulted from several converging factors:\n\n## 1. Criticism of the National Origins Quota System\nThe existing system, established in 1924, allocated immigration quotas based on national origins, heavily favoring Northern and Western Europeans while severely restricting immigration from Southern/Eastern Europe and virtually excluding Asia. By the 1960s, this was widely viewed as discriminatory and outdated.\n\n## 2. The Civil Rights Movement\nThe broader civil rights movement of the 1950s–60s created a political climate in which racially discriminatory laws became increasingly untenable. Critics argued that a nation claiming to champion equality couldn't maintain immigration policies based on national origin and race.\n\n## 3. Cold War Propaganda Concerns\nSoviet propaganda frequently highlighted American racism (e.g., toward Black Americans and restrictive immigration policies) to undermine U.S. credibility abroad, especially in Asia, Africa, and Latin America. Reforming immigration law became a foreign policy imperative.\n\n## 4. Presidential and Political Leadership\n- **President John F. Kennedy** advocated for reform in his book *A Nation of Immigrants* (1958) and proposed legislation in 1963.\n- **President Lyndon B. Johnson** pushed the bill through after Kennedy's assassination, signing it at the Statue of Liberty in October 1965.\n- Key congressional champions included **Senator Philip Hart** and **Representative Emanuel Celler**.\n\n## 5. Changing Demographics and Economics\nThe postwar economic boom created labor demands, and growing immigrant advocacy groups (including Jewish, Italian, and Greek organizations whose relatives had been restricted under quotas) lobbied for change.\n\n## 6. Shifting Public Attitudes\nBy the 1960s, many Americans no longer viewed newer immigrant groups with the hostility common in the 1920s, making reform politically feasible.\n\nThe Act abolished national origin quotas, established a preference system based on skills and family reunification, and ultimately transformed the demographic makeup of the United States.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 44,
+  "completion_tokens": 890,
+  "total_tokens": 934,
+  "cost": 8.3401e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 8.3401e-05,
+   "upstream_inference_prompt_cost": 1.254e-06,
+   "upstream_inference_completions_cost": 8.2147e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 447,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:42.852202+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

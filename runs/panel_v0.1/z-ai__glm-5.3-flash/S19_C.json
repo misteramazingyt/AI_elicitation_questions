@@ -1,0 +1,43 @@
+{
+ "item": "S19",
+ "template": "C",
+ "prompt": "What were the main causes of the 1994 U.S. crime bill?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The 1994 Crime Bill (Violent Crime Control and Law Enforcement Act)\n\nThe Violent Crime Control and Law Enforcement Act, signed by President Clinton in September 1994, emerged from several converging factors:\n\n## Rising Crime Rates\n- Violent crime had climbed steadily through the 1980s and early 1990s, with homicide rates peaking around 1991–1993\n- The crack cocaine epidemic of the 1980s had fueled drug-related violence and gang activity\n- High-profile crimes and media coverage amplified public fear\n\n## Political Pressures\n- **\"Tough on crime\" politics**: Both Democrats and Republicans competed to appear tougher on crime. After Republicans gained ground with crime as a campaign issue (notably in the 1988 election), Democrats like Clinton sought to reclaim the issue\n- **Clinton's political strategy**: As part of his \"New Democrat\" approach, Clinton wanted to demonstrate that his party wasn't soft on crime, especially heading into the 1994 midterm elections\n- **Biden's earlier work**: Senator Joe Biden had championed crime legislation since the 1980s and sponsored the Senate version\n\n## Public Anxiety\n- Polls consistently showed crime among Americans' top concerns\n- Fear was heightened by sensationalized coverage of violent crime and events like the 1992 Los Angeles riots\n\n## Key Policy Influences\n- The \"superpredator\" theory (later discredited) predicted a wave of remorseless young criminals\n- Advocacy for community policing, which the bill funded with grants for 100,000 new officers\n- Support for \"three strikes\" provisions and expanded death penalties\n- The Violence Against Women Act, championed by Senator Biden, was included in the bill\n\n## Broader Context\nThe bill built on earlier tough-on-crime legislation from the 1980s (like the Anti-Drug Abuse Acts of 1986 and 1988) and reflected a bipartisan consensus on punitive approaches that had been building for over a decade.\n\nThe bill's legacy remains debated—critics link it to mass incarceration, while supporters point to declining crime rates in subsequent years (though crime was already falling before its full implementation).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 43,
+  "completion_tokens": 606,
+  "total_tokens": 649,
+  "cost": 5.71593e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.71593e-05,
+   "upstream_inference_prompt_cost": 1.2255e-06,
+   "upstream_inference_completions_cost": 5.59338e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 158,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:35.330295+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

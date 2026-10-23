@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "D",
+ "prompt": "Describe the Reagan tax cuts of the 1980s.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# The Reagan Tax Cuts of the 1980s\n\nThe Reagan tax cuts were a series of major tax reductions enacted during President Ronald Reagan's administration, forming the centerpiece of his economic program known as \"Reaganomics\" or \"supply-side economics.\"\n\n## Key Legislation\n\n**Economic Recovery Tax Act of 1981 (ERTA)**\n- Cut individual income tax rates across the board by roughly 25% over three years\n- Reduced the top marginal rate from 70% to 50%\n- Lowered the top capital gains tax rate from 28% to 20%\n- Indexed tax brackets to inflation (preventing \"bracket creep\")\n- Expanded tax-favored retirement accounts (IRAs)\n\n**Tax Reform Act of 1986**\n- A bipartisan effort that further lowered the top individual rate from 50% to 28%\n- Set the corporate tax rate at 34% (down from 46%)\n- Broadened the tax base by eliminating many deductions, loopholes, and shelters\n- Aimed for revenue neutrality—lowering rates while removing preferences\n\n## Economic Philosophy\n\nThe cuts were grounded in supply-side theory, popularized by economist Arthur Laffer. Proponents argued that lower tax rates would:\n- Increase incentives to work, save, and invest\n- Stimulate economic growth\n- Potentially generate enough growth to partially offset revenue losses (the \"Laffer curve\" argument)\n\n## Results and Debate\n\n**Supporters point to:**\n- A strong economic expansion from 1982 to 1990\n- Falling inflation and unemployment after the early-1980s recession\n- The long boom of the 1980s and 1990s\n\n**Critics point to:**\n- Large federal budget deficits, which tripled the national debt during the 1980s\n- Growing income inequality\n- The fact that revenues fell relative to what they would have been without the cuts\n- Subsequent tax increases (including under Reagan himself in 1982 and 1984) to address deficits\n\n## Legacy\n\nThe Reagan tax cuts reshaped American tax policy and political debate. The top individual rate has never returned to pre-1981 levels, and the 1986 act's model—lower rates paired with a broader base—became a template for later reforms, including the Tax Cuts and Jobs Act of 2017. Economists still debate how much of the 1980s growth came from the tax cuts versus monetary policy, oil price declines, and other factors.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 39,
+  "completion_tokens": 614,
+  "total_tokens": 653,
+  "cost": 5.77837e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 5.77837e-05,
+   "upstream_inference_prompt_cost": 1.1115e-06,
+   "upstream_inference_completions_cost": 5.66722e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 99,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:38.668520+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

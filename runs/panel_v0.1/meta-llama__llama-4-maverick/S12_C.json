@@ -1,0 +1,43 @@
+{
+ "item": "S12",
+ "template": "C",
+ "prompt": "What were the main causes of the rise of the Moral Majority around 1980?",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Moral Majority, a prominent conservative Christian organization in the United States, rose to prominence around 1980. The main causes of its rise can be attributed to a combination of social, cultural, and political factors that converged during the late 1970s and early 1980s. Some of the key factors include:\n\n1. **Reaction to the social and cultural changes of the 1960s and 1970s**: The 1960s and 1970s saw significant social and cultural changes, including the civil rights movement, the feminist movement, the gay rights movement, and the counterculture. Many conservative Christians felt that these changes threatened traditional American values and their way of life.\n2. **Perceived decline of traditional values**: Conservative Christians believed that the country was experiencing a moral decline, marked by increased promiscuity, divorce rates, and abortion. They saw the Moral Majority as a way to restore traditional values and promote a more conservative social agenda.\n3. **Roe v. Wade (1973)**: The Supreme Court's decision in Roe v. Wade, which legalized abortion nationwide, galvanized conservative Christians and became a rallying cry for the pro-life movement. The Moral Majority was a key player in this movement.\n4. **Emergence of televangelism**: The rise of televangelism, led by charismatic preachers like Jerry Falwell, Pat Robertson, and Jimmy Swaggart, helped to mobilize conservative Christians and create a sense of community among them. Televangelists used their platforms to promote conservative values and mobilize support for the Moral Majority.\n5. **Disillusionment with the Carter administration**: The presidency of Jimmy Carter (1977-1981), a born-again Christian, initially raised expectations among conservative Christians. However, Carter's failure to deliver on key conservative issues, such as abortion and school prayer, led to disillusionment and a sense that a more conservative alternative was needed.\n6. **Ronald Reagan and the Republican Party**: The Republican Party, led by Ronald Reagan, began to court conservative Christians and incorporate their concerns into the party's platform. The Moral Majority saw an opportunity to influence the Republican Party and help elect conservative candidates.\n7. **Organizational efforts of Jerry Falwell and others**: Jerry Falwell, a Baptist minister and televangelist, founded the Moral Majority in 1979. Falwell and other leaders worked tirelessly to build the organization, mobilize supporters, and promote a conservative agenda.\n\nThese factors combined to create a perfect storm that propelled the Moral Majority to prominence around 1980. The organization's influence peaked during the 1980s, and it played a significant role in shaping the conservative Christian movement and the Republican Party's agenda.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 558,
+  "total_tokens": 585,
+  "cost": 0.0003691575,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0003691575,
+   "upstream_inference_prompt_cost": 5.0625e-06,
+   "upstream_inference_completions_cost": 0.000364095
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:06:30.480113+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "D",
+ "prompt": "Describe the Kent State shootings of 1970.",
+ "model_requested": "meta-llama/llama-4-maverick",
+ "model_served": "meta-llama/llama-4-maverick",
+ "provider": "DigitalOcean",
+ "response": "The Kent State shootings, also known as the Kent State massacre, occurred on May 4, 1970, at Kent State University in Kent, Ohio, United States. The event was a pivotal moment in American history, marked by violence and tragedy, and it had significant repercussions on the anti-war movement during the Vietnam War era.\n\nOn May 4, 1970, a group of students gathered on the university's campus to protest the United States' invasion of Cambodia, which had been announced by President Richard Nixon on April 30, 1970. The protest was part of a larger wave of demonstrations across the country against the Vietnam War and the Nixon administration's policies.\n\nTensions escalated when the Ohio National Guard was deployed to the campus to quell the protests. The Guard had been called in by Ohio Governor James A. Rhodes after a day of protests and rioting, which included the burning of the Army Reserve Officers' Training Corps (ROTC) building.\n\nOn the morning of May 4, a group of National Guardsmen confronted a crowd of students on the university's Commons area. The situation became increasingly volatile, with some students throwing rocks and other objects at the Guardsmen. The Guardsmen, feeling threatened and under attack, responded by firing their rifles into the crowd.\n\nIn a matter of seconds, 67 shots were fired by 28 Guardsmen. Four students were killed, and nine others were wounded, some seriously. The victims were:\n\n1. Jeffrey Glen Miller (age 20) - killed\n2. Allison Krause (age 19) - killed\n3. Sandra Lee Scheuer (age 20) - killed, walking to class, not participating in the protest\n4. William Knox Schroeder (age 19) - killed\n5. Nine other students were wounded by gunfire.\n\nThe Kent State shootings shocked the nation and sparked widespread outrage and protests. The event was widely condemned, with many questioning the use of lethal force against unarmed students. The incident led to a nationwide student strike, with hundreds of universities and colleges closing in protest.\n\nThe aftermath of the Kent State shootings included investigations and lawsuits. The President's Commission on Campus Unrest, established by President Nixon, concluded that the Guardsmen's actions were unjustified and that the shootings were a \"tragic and unnecessary\" event. In 1974, a court settlement was reached, with the State of Ohio paying $675,000 to the wounded students and the parents of the slain students.\n\nThe Kent State shootings remain a significant and traumatic event in American history, symbolizing the deep divisions and tensions of the Vietnam War era. The incident continues to be remembered and commemorated, serving as a reminder of the importance of protecting the rights to free speech and assembly.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 21,
+  "completion_tokens": 573,
+  "total_tokens": 594,
+  "cost": 0.00037782,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00037782,
+   "upstream_inference_prompt_cost": 3.9375e-06,
+   "upstream_inference_completions_cost": 0.0003738825
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:05:28.004247+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

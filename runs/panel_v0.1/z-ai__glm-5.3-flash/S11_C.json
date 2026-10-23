@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "C",
+ "prompt": "What were the main causes of the 1969 Stonewall riots?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "Sail Research",
+ "response": "# Causes of the Stonewall Riots (June 1969)\n\nThe Stonewall riots, sparked by a police raid on the Stonewall Inn in Greenwich Village on June 28, 1969, emerged from decades of accumulated tensions:\n\n## Systemic Police Harassment\n- **Criminalization of homosexuality**: Sodomy laws made gay sex illegal in most states, and police regularly raided gay bars and arrested patrons\n- **Routine bar raids**: The Stonewall Inn itself had been raided previously; raids were a common form of harassment\n- **Entrapment and public \"outing\"**: Police arrested people for simply being gay, often publicly humiliating them, which could cost people their jobs and families\n\n## Discrimination in Daily Life\n- **Employment discrimination**: Gay people could be legally fired with no recourse\n- **Loss of licenses and housing**: Bars serving gay patrons frequently lost their liquor licenses, pushing many into mafia-operated venues\n- **No legal protections**: There were virtually no anti-discrimination laws protecting LGBTQ+ people\n\n## Frustration with the Mafia-Run Bar\n- The Stonewall Inn was operated by the Genovese crime family, which paid off police to operate without a liquor license\n- Patrons endured watered-down drinks, overcharging, and unsanitary conditions, but had few alternatives\n\n## Social and Political Context\n- **Growing activism**: The civil rights movement and anti-war protests of the 1960s inspired bolder resistance\n- **Earlier homophile movement**: Organizations like the Mattachine Society had laid groundwork, though they favored cautious approaches\n- **Demographics of the crowd**: The raid came shortly after Judy Garland's funeral, and the bar's patrons—including drag queens, homeless LGBTQ+ youth, and butch lesbians—were among those with the least to lose and included people willing to fight back\n\n## The Trigger\nThat particular night, patrons refused to cooperate, and when police began roughly handling arrestees, the crowd outside erupted. Marsha P. Johnson, Stormé DeLarverie, and others are often credited with catalyzing the resistance.\n\nThe riots lasted several nights and catalyzed the modern LGBTQ+ rights movement, leading to the first Pride marches a year later.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 27,
+  "completion_tokens": 462,
+  "total_tokens": 489,
+  "cost": 0.00011761545,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00011761545,
+   "upstream_inference_prompt_cost": 2.11545e-06,
+   "upstream_inference_completions_cost": 0.0001155
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:11.696185+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

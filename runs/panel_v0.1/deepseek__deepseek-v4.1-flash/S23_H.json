@@ -1,0 +1,43 @@
+{
+ "item": "S23",
+ "template": "H",
+ "prompt": "How have historians interpreted the 2020 George Floyd protests? Please cite sources.",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Morph",
+ "response": "Historians have not settled on a single interpretation of the 2020 George Floyd protests; because the events are recent, much of the historiography is still emerging in books, essays, and historically grounded public commentary. The main interpretations cluster around several themes:\n\n1. **A long Black freedom struggle, not a sudden eruption.** Historians place the 2020 protests in a long lineage of Black resistance to racialized policing, segregation, and state violence. Elizabeth Hinton’s *America on Fire* (2021) argues that Black rebellions since the 1960s—including the 2020 uprising—are political responses to police violence and failed reform, not irrational “riots.” Keeanga-Yamahtta Taylor similarly framed the Floyd protests as continuous with a long history of Black resistance in “The George Floyd Protests and the Long History of Black Resistance” (*The New Yorker*, June 2, 2020).\n\n2. **An unusually broad, multiracial mass movement.** Historians and social-movement scholars have emphasized the scale and breadth of the 2020 protests. Lara Putnam, Jeremy Pressman, and Erica Chenoweth argued in the *Washington Post* (June 6, 2020) that the Floyd protests were the broadest in U.S. history, spreading beyond large cities and into white and small-town America. Historians treat this as a key distinction from many earlier urban uprisings.\n\n3. **A “third reconstruction” or periodizing rupture.** Peniel E. Joseph’s *The Third Reconstruction* (2022) interprets Black Lives Matter and the 2020 protests as part of a longer twenty-first-century struggle for racial justice, comparable in ambition—though not outcome—to Reconstruction and the civil rights movement. This framing stresses both possibility and the likelihood of backlash.\n\n4. **A movement with deep organizational and intellectual roots.** Barbara Ransby’s *Making All Black Lives Matter* (2018) traces the intellectual and activist genealogies—Black feminism, queer politics, prison abolition—that shaped the BLM movement that erupted into mass protest in 2020. Historians using this frame stress that the protests were not merely spontaneous reactions to a video but built on years of organizing.\n\n5. **A contested “racial reckoning.”** Many historians interpret 2020 as a moment of symbolic change—monument removals, corporate statements, popular reckoning with policing—while cautioning that structural change was limited and that counter-mobilization followed. Joseph’s “third reconstruction” framework and Hinton’s work on policing both emphasize the gap between protest energy and durable policy change.\n\n6. **A global and pandemic-era phenomenon.** Historians also note that the protests were transnational and shaped by COVID-19: lockdowns, viral video, digital organizing, and global solidarity protests. This has led to comparisons with 1968 and with earlier global waves of anti-racist and anti-colonial protest, though the historiography here is still developing.\n\nIn short, historians tend to interpret the 2020 George Floyd protests as a major, historically rooted, unusually broad, and globally resonant Black freedom uprising—while debating how much durable change it produced and how it should be periodized relative to Reconstruction, the civil rights movement, and earlier urban rebellions.\n\n**Sources cited**\n- Elizabeth Hinton, *America on Fire: The Untold History of Police Violence and Black Rebellion Since the 1960s* (Liveright, 2021).\n- Keeanga-Yamahtta Taylor, “The George Floyd Protests and the Long History of Black Resistance,” *The New Yorker*, June 2, 2020.\n- Peniel E. Joseph, *The Third Reconstruction: America’s Struggle for Racial Justice in the Twenty-First Century* (Basic Books, 2022).\n- Barbara Ransby, *Making All Black Lives Matter: Reimagining Freedom in the Twenty-First Century* (University of California Press, 2018).\n- Lara Putnam, Jeremy Pressman, and Erica Chenoweth, “The Floyd protests are the broadest in U.S. history—and are spreading to white, small-town America,” *Washington Post*, June 6, 2020.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 3409,
+  "total_tokens": 3455,
+  "cost": 0.002059338,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.002059338,
+   "upstream_inference_prompt_cost": 1.3938e-05,
+   "upstream_inference_completions_cost": 0.0020454
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 3401,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:18:04.720000+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

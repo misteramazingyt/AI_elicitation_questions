@@ -1,0 +1,43 @@
+{
+ "item": "S06",
+ "template": "D",
+ "prompt": "Describe the Kent State shootings of 1970.",
+ "model_requested": "qwen/qwen3.7-plus",
+ "model_served": "qwen/qwen3.7-plus",
+ "provider": "Alibaba",
+ "response": "The Kent State shootings occurred on May 4, 1970, when members of the Ohio National Guard fired into a crowd of anti-Vietnam War protesters at Kent State University in Kent, Ohio. The incident resulted in the deaths of four students and the wounding of nine others. It became a defining and highly controversial moment in the history of the American anti-war movement and campus protests.\n\nHere is a detailed overview of the event, its context, and its aftermath:\n\n### Background and Context\nTensions on college campuses across the United States had been high for years due to the ongoing Vietnam War and the military draft. However, the immediate catalyst for the events at Kent State occurred on April 30, 1970, when President Richard Nixon announced the expansion of the war into neighboring Cambodia (the Cambodian Campaign). This announcement sparked outrage and protests at universities nationwide, including Kent State.\n\n### Escalation of Protests\n* **May 1:** Students at Kent State held a peaceful rally on the campus commons to protest the invasion of Cambodia. \n* **May 2:** The situation escalated. After local bars in downtown Kent were closed, a crowd of students gathered in the streets. The crowd eventually moved back to the campus, where the Reserve Officers' Training Corps (ROTC) building was set on fire. \n* **May 3:** The mayor of Kent requested assistance from the state, and Ohio Governor James Rhodes called in the Ohio National Guard. Following the fire, Governor Rhodes held a highly publicized press conference in which he aggressively condemned the protesters, calling them \"un-American\" and vowing to \"eradicate the problem\" rather than treat it as a civil rights issue.\n\n### The Shootings (May 4, 1970)\nDespite the presence of the National Guard and the cancellation of official university events, a noon rally was planned for May 4 on the campus commons. \n\nThe National Guard attempted to disperse the crowd, which numbered around 2,000 people. When the crowd refused to leave and some individuals began throwing rocks and shouting at the Guardsmen, the soldiers fixed bayonets and advanced. The crowd largely retreated, but some continued to throw objects. \n\nThe Guardsmen retreated up a grassy knoll known as Blanket Hill. Suddenly, 28 Guardsmen turned and fired their M1 Garand rifles and shotguns into the crowd. The firing lasted for 13 seconds, with 61 rounds discharged. \n\n### Casualties\nFour students were killed, and nine others were wounded (one of whom was permanently paralyzed). \n* **Allison Krause (20)** and **Jeffrey Miller (21)** were active participants in the protests.\n* **Sandra Scheuer (20)** and **William Knox Schroeder (19)** were not participating in the protest; Scheuer was walking to a class, and Schroeder was walking across the campus to his ROTC class. \n\n### Aftermath and Investigations\nThe shootings triggered an immediate and unprecedented national reaction. Over the next several days, an estimated 4 million students participated in strikes, and hundreds of colleges and universities were forced to close. \n\nIn response to the tragedy, President Nixon established the President's Commission on Campus Unrest (commonly known as the Scranton Commission). In its report, the Commission concluded that the shooting was \"unwarranted, indefensible, and inexcusable,\" stating that the Guardsmen should not have been deployed to the campus and that the use of lethal force was unjustified. \n\n### Legal Outcomes\nThe legal fallout was lengthy and complex. \n* **Criminal Charges:** An indictment against eight Guardsmen was dismissed by a judge in 1974, and the Ohio Court of Appeals upheld the dismissal, citing the prosecution's failure to provide sufficient evidence to identify which specific guardsmen fired the fatal shots.\n* **Civil Lawsuit:** The families of the dead and the wounded students filed a civil rights lawsuit against the state of Ohio and the National Guardsmen. After a decade of legal battles, the case was finally settled out of court in 1979, with the state paying $675,000 to the plaintiffs. The state also issued a statement of regret, though it did not include a formal admission of legal liability.\n\n### Cultural Legacy\nThe Kent State shootings left a permanent mark on American culture and politics. \n* **Photography:** A photograph taken by Kent State student John Filo captured 19-year-old Mary Ann Vecchio screaming in anguish as she knelt over the body of Jeffrey Miller. The image won the 1971 Pulitzer Prize for Spot News Photography and became one of the most iconic images of the Vietnam War era.\n* **Music:** The event inspired the rock band Crosby, Stills, Nash & Young to write the protest song \"Ohio.\" Written by Neil Young just days after the shootings, the song featured the famous lyric, \"Four dead in Ohio,\" and became a massive hit, cementing the event in popular culture.\n* **Memorials:** Today, the Kent State campus features several memorials, including the May 4th Visitors Center and a memorial designed by sculptor Bruno Asti, which marks the exact spots where the four students fell.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 22,
+  "completion_tokens": 2792,
+  "total_tokens": 2814,
+  "cost": 0.0035808,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0035808,
+   "upstream_inference_prompt_cost": 7.04e-06,
+   "upstream_inference_completions_cost": 0.00357376
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1693,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:24:46.740602+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E09",
+ "template": "Q",
+ "prompt": "What were the consequences of Britain's Winter of Discontent (1978-1979)?",
+ "model_requested": "deepseek/deepseek-v4.1-flash",
+ "model_served": "deepseek/deepseek-v4.1-flash",
+ "provider": "Sail Research",
+ "response": "The Winter of Discontent (late 1978–early 1979) was a wave of industrial action against the Labour government’s 5% pay limit. Strikes by lorry drivers, refuse collectors, NHS ancillary staff, gravediggers and others disrupted public services and badly damaged James Callaghan’s government. Its consequences were political, economic, industrial and long-term cultural.\n\n**Political consequences**\n- Labour’s authority collapsed. Callaghan was portrayed as out of touch, especially after the *Sun*’s “Crisis? What crisis?” headline.\n- On 28 March 1979, his government lost a motion of no confidence by 311 votes to 310 — the first government to lose such a vote since 1924.\n- This led to the general election of 3 May 1979, which Margaret Thatcher’s Conservatives won with a majority of 43. Thatcher became Britain’s first female prime minister.\n\n**Economic consequences**\n- The strikes discredited incomes policy and the post-war corporatist/Keynesian approach of bargaining with unions.\n- Thatcher’s government shifted towards monetarism, spending restraint, tax reform, deregulation and later privatisation.\n- The episode became a justification for ending the post-war consensus and replacing it with “Thatcherism.”\n\n**Industrial-relations consequences**\n- Public opinion turned sharply against trade unions, which were blamed for the disruption.\n- Thatcher passed laws restricting union power: the Employment Acts of 1980 and 1982 and the Trade Union Act 1984 limited secondary picketing, closed shops and required secret ballots for strikes.\n- Union membership and industrial leverage declined significantly through the 1980s.\n\n**Consequences for Labour**\n- Labour’s defeat triggered internal division. Callaghan resigned in 1980; Michael Foot became leader and the party moved left.\n- In 1981, the “Gang of Four” split to form the Social Democratic Party (SDP).\n- Labour remained in opposition until 1997, though the Winter of Discontent was only one factor in its long electoral troubles.\n\n**Devolution consequences**\n- The Scottish and Welsh devolution referendums of March 1979 were bound up with the crisis. Scotland voted yes but failed the 40% electorate threshold; Wales voted no.\n- The SNP’s withdrawal of support helped bring down Callaghan’s government. Devolution was then shelved until 1997.\n\n**Legacy**\n- “Winter of Discontent” became a powerful political symbol of union militancy, Labour incompetence and national decline.\n- Historians debate how exaggerated the media picture was, but its political impact was real: it helped legitimise Thatcherism and shaped British politics for a generation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 48,
+  "completion_tokens": 2842,
+  "total_tokens": 2890,
+  "cost": 0.00071482,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00071482,
+   "upstream_inference_prompt_cost": 4.32e-06,
+   "upstream_inference_completions_cost": 0.0007105
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2282,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:09:55.370503+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "item": "E01",
+ "template": "C",
+ "prompt": "What were the main causes of the New Deal (1933-1939)?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **New Deal (1933–1939)** was a series of economic programs, regulations, and reforms implemented by **President Franklin D. Roosevelt (FDR)** in response to the **Great Depression (1929–1939)**. The main causes of the New Deal can be grouped into **economic, social, and political factors**:\n\n### **1. The Great Depression (1929–1939)**\nThe **primary cause** of the New Deal was the **collapse of the U.S. economy** following the **Wall Street Crash of 1929**. Key economic factors included:\n- **Stock Market Crash (October 1929)** – The sudden collapse of stock prices wiped out billions in wealth, leading to bank failures and business closures.\n- **Bank Failures** – Over **9,000 banks collapsed** (1930–1933), destroying savings and reducing credit availability.\n- **Mass Unemployment** – By 1933, **25% of Americans were unemployed**, with industrial production dropping by **47%**.\n- **Deflation & Falling Prices** – Prices for agricultural and industrial goods plummeted, making debts harder to repay.\n- **Global Economic Collapse** – The **Smoot-Hawley Tariff (1930)** worsened international trade, deepening the depression worldwide.\n\n### **2. Failure of Hoover’s Policies (1929–1933)**\nPresident **Herbert Hoover** initially relied on **voluntarism** (encouraging businesses to maintain wages) and **limited government intervention**, which proved ineffective:\n- **Reconstruction Finance Corporation (RFC, 1932)** – Provided loans to banks and businesses but was **too little, too late**.\n- **Bonus Army (1932)** – Hoover’s violent suppression of **WWI veterans** demanding early bonuses damaged his reputation.\n- **Public Perception** – Many saw Hoover as **uncaring and ineffective**, leading to FDR’s landslide victory in **1932**.\n\n### **3. Political Pressure for Change**\n- **Election of 1932** – FDR campaigned on a **\"New Deal\"** for the American people, promising **relief, recovery, and reform**.\n- **Democratic Landslide** – FDR won **472 electoral votes** (vs. Hoover’s 59), giving him a **mandate for bold action**.\n- **Progressive & Populist Movements** – Influenced by **Progressivism (early 1900s)** and **populist demands** for government intervention in the economy.\n\n### **4. Social & Humanitarian Crisis**\n- **Poverty & Homelessness** – Millions lived in **Hoovervilles** (shantytowns), and **breadlines** stretched for blocks.\n- **Dust Bowl (1930s)** – Severe drought and poor farming practices led to **mass migration** (e.g., **Okies** moving to California).\n- **Labor Unrest** – Strikes and protests (e.g., **1934 West Coast Waterfront Strike**) demanded better wages and conditions.\n\n### **5. Ideological & Intellectual Influences**\n- **Keynesian Economics** – Economist **John Maynard Keynes** argued that **government spending** could stimulate demand and end depressions.\n- **Progressive Era Reforms** – FDR was influenced by **Theodore Roosevelt’s** trust-busting and **Woodrow Wilson’s** regulatory policies.\n- **Social Gospel Movement** – Advocated for **government responsibility** in addressing poverty and inequality.\n\n### **6. Constitutional & Legal Justifications**\n- **Commerce Clause (Article I, Section 8)** – The Supreme Court initially struck down some New Deal programs (e.g., **NIRA, AAA**) but later upheld them (e.g., **Wagner Act, Social Security**).\n- **\"Switch in Time That Saved Nine\" (1937)** – Justice **Owen Roberts** shifted to support New Deal laws, preventing FDR’s **court-packing plan**.\n\n### **Conclusion: Why the New Deal Happened**\nThe New Deal was a **direct response** to the **economic devastation of the Great Depression**, the **failure of Hoover’s policies**, and **public demand for government action**. It marked a **shift from laissez-faire capitalism** to **regulated, welfare-state capitalism**, setting the foundation for modern U.S. economic policy.\n\nWould you like a deeper dive into any specific New Deal program (e.g., **Social Security, WPA, FDIC**)?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 23,
+  "completion_tokens": 989,
+  "total_tokens": 1012,
+  "cost": 0.001495,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.001495,
+   "upstream_inference_prompt_cost": 1.15e-05,
+   "upstream_inference_completions_cost": 0.0014835
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:29:12.054723+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

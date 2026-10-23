@@ -1,0 +1,43 @@
+{
+ "item": "S11",
+ "template": "Q",
+ "prompt": "What were the consequences of the 1969 Stonewall riots?",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Consequences of the Stonewall Riots\n\nThe Stonewall riots, which began on June 28, 1969, after a police raid on the Stonewall Inn in New York City, had far-reaching effects on LGBTQ+ rights movements:\n\n## Immediate Effects\n\n- **Galvanized activism**: The riots sparked rapid mobilization of gay and lesbian communities in New York, with activists organizing meetings and distributing leaflets within days.\n- **New organizations formed**: Groups like the Gay Liberation Front (GLF) emerged within weeks, adopting more confrontational tactics than earlier, more cautious homophile organizations like the Mattachine Society.\n\n## Long-Term Consequences\n\n- **Pride tradition**: The first Pride marches were held in June 1970 (Christopher Street Liberation Day in NYC, with simultaneous events in Los Angeles and Chicago) to commemorate the riots' first anniversary. Pride celebrations worldwide trace their origins to this event.\n- **Shift in movement strategy**: Stonewall marked a transition from asking for tolerance to demanding liberation and visibility, inspiring more radical and assertive activism.\n- **Growth of LGBTQ+ organizations**: The number of gay rights groups expanded dramatically in the 1970s, both in the U.S. and internationally.\n- **Cultural symbolism**: Stonewall became a foundational myth and rallying point for LGBTQ+ communities, symbolizing resistance to oppression.\n- **Political progress**: The increased visibility contributed to milestones like the American Psychiatric Association removing homosexuality from its list of mental disorders in 1973.\n\n## Recognition\n\n- In 2016, the Stonewall Inn and surrounding area became a **national monument**, the first dedicated to LGBTQ+ rights in the United States.\n- The riots are widely considered a catalyst for the modern LGBTQ+ rights movement, though historians note that activism existed before Stonewall, and earlier events (like the 1966 Compton's Cafeteria riot) also played roles.\n\nWould you like more detail on any particular aspect?",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 41,
+  "completion_tokens": 492,
+  "total_tokens": 533,
+  "cost": 4.65801e-05,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 4.65801e-05,
+   "upstream_inference_prompt_cost": 1.1685e-06,
+   "upstream_inference_completions_cost": 4.54116e-05
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 87,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:11.760945+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

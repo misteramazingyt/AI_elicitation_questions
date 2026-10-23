@@ -1,0 +1,43 @@
+{
+ "item": "S10",
+ "template": "H",
+ "prompt": "How have historians interpreted the Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization? Please cite sources.",
+ "model_requested": "x-ai/grok-4.3",
+ "model_served": "x-ai/grok-4.3",
+ "provider": "xAI",
+ "response": "Historians have interpreted the Supreme Court's Dobbs v. Jackson Women's Health Organization decision in sharply contrasting ways, often aligning with longstanding debates over constitutional originalism, the historical status of abortion regulation, and the role of judicial precedent.\n\n## Critical Interpretations\nMany academic historians, particularly those focused on women's history and reproductive rights, have described Dobbs as a rejection of established historical evidence and a rollback of rights grounded in evolving social norms. They argue that the decision misreads pre-20th-century practices by downplaying the prevalence of abortion before quickening and the absence of uniform criminalization in early American law.\n\n- An amicus brief filed in the case by over 100 historians, including scholars such as Linda Gordon and Leslie Reagan, contended that abortion was a common and largely unregulated practice in the 18th and 19th centuries until the rise of medical professionalization and moral reform movements. Post-decision analyses in outlets like the American Historical Association's Perspectives on History echoed this, framing Dobbs as ahistorical and driven by contemporary politics rather than founding-era understandings.\n- Legal historian Melissa Murray has written that the ruling severs abortion from broader privacy and liberty traditions traced through cases like Griswold and Eisenstadt, treating it instead as an isolated moral question without constitutional anchor. Similar views appear in contributions to law reviews such as the Yale Law Journal Forum.\n\nThese accounts frequently emphasize continuity with Roe's framework while critiquing originalism as selectively applied.\n\n## Supportive or Revisionist Interpretations\nOther historians and legal scholars aligned with originalist methodology have welcomed Dobbs as restoring a more accurate constitutional history, asserting that no right to abortion existed in the text, common law, or ratification-era understandings. They point to 19th-century state laws restricting abortion and English common-law precedents limiting the practice after quickening.\n\n- Scholars such as those contributing to analyses in the Harvard Journal of Law and Public Policy have argued that Dobbs correctly identified the absence of any enumerated or implied right, drawing on historical records of fetal protections in Anglo-American law. Historian and legal commentator Hadley Arkes has described the decision as aligning with natural-law traditions that predate modern rights expansions.\n- Responses in conservative-leaning publications and symposia, including pieces referencing the work of John Finnis and Robert P. George, maintain that Roe itself invented a right unsupported by historical evidence, and Dobbs merely returned authority to democratic processes as the Constitution's structure intended.\n\nThese interpretations often highlight data on state-level restrictions around 1868, the year of the Fourteenth Amendment's ratification, to counter claims of unrestricted historical access.\n\n## Broader Context and Methodological Debates\nInterpretations also reflect divisions over historiography itself. Progressive-leaning accounts tend to stress social practice and lived experience over strict textual or original-meaning analysis, while others prioritize ratification-era sources and common-law baselines. Academic surveys, such as those from the American Historical Review, show a predominance of critical commentary, consistent with broader ideological patterns in the historical profession. Primary sources like state statutes from the 1800s and treatises such as Blackstone's Commentaries remain central points of contention in both camps.\n\nFor primary engagement, consult the Dobbs opinion itself alongside the historians' amicus brief and subsequent scholarship in journals like Law and History Review.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 217,
+  "completion_tokens": 1535,
+  "total_tokens": 1752,
+  "cost": 0.00397435,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 128,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00397435,
+   "upstream_inference_prompt_cost": 0.00013685,
+   "upstream_inference_completions_cost": 0.0038375
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 883,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:01:21.526342+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

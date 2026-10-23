@@ -1,0 +1,43 @@
+{
+ "item": "E02",
+ "template": "H",
+ "prompt": "How have historians interpreted the Reagan tax cuts of the 1980s? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of the Reagan Tax Cuts\n\nHistorians and economists have interpreted the Economic Recovery Tax Act of 1981 (ERTA) and the Tax Reform Act of 1986 through several distinct lenses. Here's an overview of the major interpretive strands. (Note: I can't verify exact page numbers, so I'd encourage you to check these sources directly.)\n\n## 1. The Supply-Side Defense\n\nSupporters argue the cuts spurred investment and growth:\n\n- **Martin Feldstein** (Reagan's own CEA chair, though more cautious than supply-siders) argued in various NBER papers that tax changes affected saving and investment behavior, though he rejected the strongest claims that the 1981 cuts paid for themselves.\n- **Robert Bartlett** (*Supply-Side Economics: A Critical Appraisal*, 1982, and later works like *The New American Economy*, 2009) defended supply-side economics while acknowledging the 1981 cuts were larger than ideal and contributed to deficits.\n- **Stephen Moore and Peter Ferrara** have written revisionist defenses crediting the cuts with the 1980s boom.\n\n## 2. The Critical/Keynesian Interpretation\n\nMany economists emphasize that the cuts ballooned deficits:\n\n- **Paul Krugman** (*Peddling Prosperity*, 1994) argued supply-side economics was essentially a political myth, noting that growth in the 1980s roughly matched the 1970s and that deficits, not tax cuts, drove demand.\n- **Alan Blinder** and other Keynesians pointed out that the 1981–82 recession was caused by Fed monetary policy, and the recovery followed standard monetary easing.\n- **David Stockman**, Reagan's own budget director, delivered a famous critique in *The Triumph of Politics* (1986), admitting the supply-side \"rosy scenario\" was a fiscal illusion and that the administration never seriously grappled with the deficit consequences.\n\n## 3. Political and Cultural Histories\n\n- **Sean Wilentz** (*The Age of Reagan: A History, 1974–2008*, 2008) treats Reaganism as a transformative but contested political era, emphasizing how the tax cuts reshaped the terms of political debate even as their economic effects were debated.\n- **Gil Troy** (*Morning in America*, 2005) emphasizes Reagan's symbolic and rhetorical success in reframing American attitudes toward taxation and government.\n- **Steven Hayward** (*The Age of Reagan*, 2001/2009) offers a more sympathetic political history.\n- **Julian Zelizer** and **Meg Jacobs** have examined how the tax revolt (starting with California's Proposition 13) created the political conditions for the cuts—see also **Isaac Martin's** *Rich People's Movements* (2013) and **Monica Prasad's** *The Politics of Free Markets* (2006), which situates the cuts in a broader anti-tax movement.\n\n## 4. Distributional Analyses\n\n- **Kevin Phillips** (*The Politics of Rich and Rich*, 1990) argued the cuts accelerated inequality and plutocratic influence.\n- **Larry Bartels** (*Unequal Democracy*, 2008) used statistical evidence to show income growth under Reagan disproportionately benefited the top, and that voters' perceptions diverged from their material interests.\n- CBO and Congressional Research Service studies documented rising deficits (roughly tripling the national debt) and growing inequality during the 1980s.\n\n## 5. The 1986 Reform as a Separate Story\n\nHistorians often distinguish the 1986 act—revenue-neutral, rate-lowering, base-broadening, and bipartisan—from the 1981 cuts. **Jeffrey Birnbaum and Alan Murray** (*Showdown at Gucci Gulch*, 1987) chronicled it as a rare example of cross-party cooperation, and later scholars like **Elliott Brownlee** (*Funding the Modern American State*) placed it in long-term fiscal history.\n\n## Points of Broad Agreement\n\nDespite ideological divides, most scholars agree on some facts: the 1981 cuts did not pay for themselves; deficits rose sharply; the economy recovered strongly after 1982; and the cuts marked a durable rightward shift in tax policy that constrained later administrations. The disagreements center on causation (tax cuts vs. monetary policy vs. oil prices) and on normative judgments about inequality and the size of government.\n\nIf you're writing a paper, Stockman's insider account, Krugman's critique, and Wilentz's synthesis make a good starting triangulation.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 46,
+  "completion_tokens": 1282,
+  "total_tokens": 1328,
+  "cost": 0.0001196396,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001196396,
+   "upstream_inference_prompt_cost": 1.311e-06,
+   "upstream_inference_completions_cost": 0.0001183286
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 334,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:42:47.548087+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

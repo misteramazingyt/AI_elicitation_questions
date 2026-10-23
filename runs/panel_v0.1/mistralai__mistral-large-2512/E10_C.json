@@ -1,0 +1,43 @@
+{
+ "item": "E10",
+ "template": "C",
+ "prompt": "What were the main causes of the UK miners' strike of 1984-1985?",
+ "model_requested": "mistralai/mistral-large-2512",
+ "model_served": "mistralai/mistral-large-2512",
+ "provider": "Mistral",
+ "response": "The **UK miners' strike of 1984–1985** was one of the most bitter and significant industrial disputes in British history. It was a defining moment in the struggle between the **National Union of Mineworkers (NUM)** and the **Conservative government of Margaret Thatcher**, leading to the decline of the coal industry and a major shift in industrial relations. The main causes of the strike were:\n\n### **1. Economic and Political Context: Thatcher’s Neoliberal Reforms**\n- **Thatcher’s Free-Market Agenda**: The Conservative government, elected in **1979**, sought to reduce state intervention in the economy, weaken trade unions, and privatise key industries. The coal industry, heavily subsidised and seen as inefficient, was a prime target.\n- **Monetarism & Austerity**: Thatcher’s economic policies (monetarism, spending cuts, and high interest rates) led to mass unemployment (peaking at **3 million** in 1983). The government saw the NUM as a major obstacle to its reforms.\n- **Lessons from the 1970s**: The **1972 and 1974 miners' strikes** had brought down **Edward Heath’s Conservative government**, forcing it to implement a **three-day workweek** to conserve energy. Thatcher was determined not to repeat this defeat.\n\n### **2. The National Coal Board’s (NCB) Pit Closure Programme**\n- **Declining Coal Industry**: The UK coal industry was in long-term decline due to:\n  - **Cheaper imported coal** (from the US, Australia, and Poland).\n  - **Shift to North Sea oil and gas** (reducing reliance on coal).\n  - **Outdated and unprofitable pits** (many mines were losing money).\n- **Ian MacGregor’s Appointment (1983)**: Thatcher appointed **Ian MacGregor**, a hardline American industrialist, as **NCB Chairman** to oversee pit closures. He had previously restructured **British Steel** with mass job cuts.\n- **The \"Plan for Coal\" (1983)**: The NCB proposed closing **20 pits** (later increased to **75**) with the loss of **20,000 jobs** (out of **180,000 miners**). The government argued that subsidies (£1.3 billion in 1983–84) were unsustainable.\n\n### **3. The NUM’s Opposition to Pit Closures**\n- **Arthur Scargill’s Leadership**: The **NUM President, Arthur Scargill**, was a **militant socialist** who believed the closures were part of a **deliberate government strategy to destroy the union** and weaken the labour movement.\n- **No Ballot, No Legitimacy**: Scargill **refused to hold a national ballot** (despite calls from moderates like **Nottinghamshire miners**), arguing that **local strikes** were sufficient. This **divided the union** and weakened its legal position.\n- **Flying Pickets & Mass Mobilisation**: The NUM used **flying pickets** (mobile groups of strikers) to shut down coalfields, power stations, and coke depots. This tactic had worked in **1972 and 1974** but was less effective in 1984 due to **police tactics** (see below).\n\n### **4. Government Preparation & Anti-Union Laws**\n- **Stockpiling Coal**: The government **secretly stockpiled coal** at power stations to ensure energy supplies during a strike.\n- **Police Tactics & the Battle of Orgreave (1984)**: The government used **police in riot gear** to break picket lines, leading to violent clashes (most famously at **Orgreave coking plant**, where **95 miners were arrested** in a brutal confrontation).\n- **Anti-Union Legislation**: The **1980 & 1982 Employment Acts** and the **1984 Trade Union Act** made it harder for unions to strike legally:\n  - **Secondary picketing** (picketing outside the workplace) was banned.\n  - **Strikes required a secret ballot** (which Scargill refused to hold).\n  - **Unions could be sued for illegal strikes**.\n- **MI5 & Media Manipulation**: The government **infiltrated the NUM** with spies (including **MI5 agent \"Spencer\"**) and used **media propaganda** to portray miners as violent extremists.\n\n### **5. The Role of the Media & Public Opinion**\n- **Hostile Press Coverage**: Most newspapers (**The Sun, The Daily Mail, The Times**) **opposed the strike**, portraying Scargill as a **Marxist extremist** and the miners as **holding the country to ransom**.\n- **BBC & ITV Bias**: The media **downplayed police violence** (e.g., at Orgreave) and **exaggerated miner violence**. The BBC was later found to have **misrepresented footage** of the Orgreave clash.\n- **Public Support**: Initially, **public opinion was divided**, but as the strike dragged on, **fatigue set in**, and support waned. The **lack of a national ballot** also hurt the NUM’s case.\n\n### **6. The Strike’s Failure & Aftermath**\n- **No National Ballot**: The **lack of a national vote** meant the strike was **not legally binding**, allowing **Nottinghamshire miners** (who had **moderate leadership**) to **break ranks and keep working**.\n- **Police & Legal Repression**: Over **11,000 miners were arrested**, and **thousands were sacked**. The NUM was **fined £200,000** for contempt of court.\n- **Defeat & Collapse of the NUM**: After **a year of strike action**, the NUM **ran out of funds**, and miners **drifted back to work**. The strike **officially ended in March 1985** with **no concessions** from the government.\n- **Long-Term Consequences**:\n  - **Coal industry collapsed**: By **1994**, the UK coal industry was **privatised**, and most pits closed. By **2015**, only **three deep mines** remained.\n  - **Decline of trade unions**: The strike marked the **beginning of the end for militant unionism** in Britain. Union membership **halved** from **13 million in 1979 to 6.5 million in 2015**.\n  - **Thatcher’s Legacy**: The strike **cemented Thatcher’s reputation** as the \"Iron Lady\" and **weakened the Labour Party** (which was divided over the strike).\n  - **Social & Economic Impact**: Mining communities (especially in **Yorkshire, South Wales, and Scotland**) suffered **long-term unemployment, poverty, and social breakdown**.\n\n### **Conclusion**\nThe **1984–85 miners' strike** was not just about pit closures—it was a **clash between two visions of Britain**:\n- **Thatcher’s vision**: A **free-market, low-tax, anti-union Britain** where industries had to compete globally.\n- **Scargill’s vision**: A **socialist, worker-led Britain** where industries were **nationalised and protected**.\n\nThe **government’s victory** marked a **turning point in British industrial relations**, leading to the **decline of trade union power** and the **rise of neoliberalism** in the UK. The strike remains a **symbol of class struggle** and a **warning about the consequences of deindustrialisation**.",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 26,
+  "completion_tokens": 1638,
+  "total_tokens": 1664,
+  "cost": 0.00247,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.00247,
+   "upstream_inference_prompt_cost": 1.3e-05,
+   "upstream_inference_completions_cost": 0.002457
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 0,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:30:34.866367+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}

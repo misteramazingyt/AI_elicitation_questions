@@ -1,0 +1,43 @@
+{
+ "item": "S14",
+ "template": "H",
+ "prompt": "How have historians interpreted Britain's abolition of the slave trade and slavery (1807-1838)? Please cite sources.",
+ "model_requested": "z-ai/glm-5.3-flash",
+ "model_served": "z-ai/glm-5.3-flash",
+ "provider": "OpenInference",
+ "response": "# Historiography of British Abolition (1807–1838)\n\nThe interpretation of Britain's abolition of the slave trade (1807) and slavery (1833, effective 1834–1838) has shifted dramatically over two centuries. Here are the major schools of thought:\n\n## 1. The Humanitarian/Evangelical School (19th century – mid-20th century)\n\nThe earliest and longest-dominant interpretation credited abolition to the moral crusade of the Clapham Sect, especially William Wilberforce, Thomas Clarkson, and Granville Sharp. This \"Whig\" or heroic narrative portrayed abolition as the triumph of Christian conscience and British moral progress.\n\n- **Thomas Clarkson**, *The History of the Rise, Progress, and Accomplishment of the Abolition of the African Slave-Trade* (1808) — the founding text of this tradition.\n- **Sir Reginald Coupland**, *Wilberforce* (1923) and *The British Anti-Slavery Movement* (1933) — the classic academic statement of the humanitarian thesis, emphasizing evangelical religion and public moral opinion.\n\n## 2. The Economic Interpretation\n\n- **Eric Williams**, *Capitalism and Slavery* (1944) — the most influential revisionist work. Williams, later Prime Minister of Trinidad, argued that abolition was driven not by altruism but by economic self-interest: the West Indian sugar colonies had declined in profitability, and industrial capitalism found slavery obsolete. He famously argued that the profits of slavery had financed British industrialization.\n- Williams drew on earlier work, notably **Lowell Ragatz**, *The Fall of the Planter Class in the British Caribbean* (1928), which documented West Indian decline.\n\n## 3. Critiques and Refinements of Williams\n\n- **Seymour Drescher**, *Econocide: British Slavery in the Era of Abolition* (1976) — directly attacked Williams, showing that the British slave trade and West Indian economy were actually *profitable and expanding* in the 1780s, so abolition was \"econocide\" — the sacrifice of a thriving system for moral reasons. This partially rehabilitated the humanitarian thesis.\n- **Roger Anstey**, *The Atlantic Slave Trade and British Abolition, 1760–1810* (1975) — emphasized evangelical religious motivation, using quantitative analysis of parliamentary voting.\n- **David Brion Davis**, *The Problem of Slavery in Western Culture* (1966) and *The Problem of Slavery in the Age of Revolution* (1975) — placed abolition in the context of broader moral and ideological developments, while also stressing how antislavery served emerging capitalist ideology.\n\n## 4. Marxist and Neo-Marxist Approaches\n\n- **C.L.R. James**, *The Black Jacobins* (1938) — predated Williams, emphasizing the role of slave resistance, especially the Haitian Revolution, in forcing abolition.\n- Later Marxists treated abolition as ideological cover for the transition to free-labor capitalism.\n\n## 5. Slave Resistance and Black Agency\n\nFrom the 1970s onward, historians increasingly emphasized that enslaved people themselves drove abolition:\n\n- **Michael Craton**, *Testing the Chains* (1982) — resistance and rebellion in the Caribbean.\n- **Mary Turner**, *Slaves and Missionaries* (1982) — the role of missionary Christianity and slave unrest, especially the 1831 Baptist War in Jamaica, in accelerating emancipation.\n- **Gelien Matthews**, *Caribbean Slave Revolts and the British Abolitionist Movement* (2006).\n- **Seymour Drescher** also acknowledged public mobilization: *Capitalism and Antislavery* (1986) and *The Mighty Experiment* (2002), highlighting mass petitioning campaigns (notably 1792 and 1833) as a distinctive popular political phenomenon.\n\n## 6. Cultural, Gender, and Consumer Approaches\n\n- **Clare Midgley**, *Women Against Slavery* (1992) — the role of women's abolitionist activism (boycotts of slave sugar, petitions).\n- **Mary Louise Pratt** and later **Emma Christopher**, *Slave Trade Merchants* scholarship, and **Catherine Hall** (*Civilising Subjects*, 2002) — examined abolition within imperial ideology and the \"civilizing mission.\"\n- **Srividhya Swaminathan** and others explored abolitionist literature and print culture.\n\n## 7. Compensation and the Legacies Debate\n\n- **Nicholas Draper**, *The Price of Emancipation* (2010) — used the compensation records (the £20 million paid to slave owners in 1833) to analyze the economics of abolition and the wealth of slaveholders.\n- **Catherine Hall, Nicholas Draper, et al.**, *Legacies of British Slave-ownership* (2014) — traced how slave-owner compensation money permeated British society, fueling contemporary debates about reparations.\n- **Padraic X. Scanlan**, *Slave Empire* (2020) — situates abolition within the continuing expansion of empire and coerced labor after 1838.\n\n## 8. Recent Syntheses\n\n- **Christopher Leslie Brown**, *Moral Capital* (2006) — argued that antislavery sentiment gained traction when it served American colonists' and Britons' political needs, complicating pure altruism.\n- **J.R. Oldfield**, *Popular Politics and British Anti-Slavery* (1995) — the mobilization of public opinion.\n- **Richard Huzzey**, *Freedom Burning* (2012) — antislavery as a contested state ideology after 1833.\n\n## Summary of the Debate\n\nThe core tension remains between **moral/ideological explanations** (Anstey, Drescher, Davis) and **material/economic explanations** (Williams, and in modified form, Draper and Hall). Most current historians reject both a purely heroic narrative and a purely cynical one, instead emphasizing the interaction of evangelical religion, popular mobilization, slave resistance, parliamentary politics, and imperial economic interests.\n\n**Key sources to consult:** Williams (1944); Drescher (1976, 2002); Anstey (1975); Davis (1975); Brown (2006); Draper (2010); Hall et al. (2014).",
+ "finish_reason": "stop",
+ "usage": {
+  "prompt_tokens": 51,
+  "completion_tokens": 1403,
+  "total_tokens": 1454,
+  "cost": 0.0001309504,
+  "is_byok": false,
+  "prompt_tokens_details": {
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "audio_tokens": 0,
+   "video_tokens": 0
+  },
+  "cost_details": {
+   "upstream_inference_cost": 0.0001309504,
+   "upstream_inference_prompt_cost": 1.4535e-06,
+   "upstream_inference_completions_cost": 0.0001294969
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 65,
+   "image_tokens": 0,
+   "audio_tokens": 0
+  }
+ },
+ "started_at": "2026-10-23T21:44:22.420306+00:00",
+ "params": {
+  "temperature": 0,
+  "max_tokens": 4000,
+  "reasoning": {
+   "effort": "low",
+   "exclude": true
+  },
+  "system_prompt": null
+ }
+}
