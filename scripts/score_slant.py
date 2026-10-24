@@ -109,6 +109,7 @@ def main():
             if n % 50 == 0 or n == len(todo):
                 out_path.write_text(json.dumps(out, separators=(",", ":")))
                 print(f"{name} {n}/{len(todo)} {time.time() - t0:.0f}s", flush=True)
+    print("all scored", flush=True)
 
 
 if __name__ == "__main__":
